@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-tram-SW-normal",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-tram-SW-normal.png",
+  "sha256": "3d91b20fcae9ad44dcb3888569f305eb2479c0e418e4005a74aa0a1809384e9c",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-normal.png",
+      "sha256": "d8f0fc8bd20286916ec37207e301d82ac4f12ee1bb6dc1ee905afbf1e41daa66",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-normal.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-tram-SW-normal.png",
+      "sha256": "960b29cf436844fa82d0722f4862867407d8280510b3617cb57075952bde1a44",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-tram-SW-normal.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-tram"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:16.973830+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "climate": "normal",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

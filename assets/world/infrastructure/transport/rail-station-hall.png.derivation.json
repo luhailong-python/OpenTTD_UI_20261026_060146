@@ -1,0 +1,49 @@
+{
+  "id": "rail-station-hall",
+  "image": "assets/world/infrastructure/transport/rail-station-hall.png",
+  "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/station-kit.png",
+      "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+      "record": "source-art/world/station-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    19,
+    333,
+    582,
+    711
+  ],
+  "scaleApplied": 0.6820603907637656,
+  "sourceAtlas": "station-kit",
+  "sourceComponent": 4,
+  "contentSize": [
+    384,
+    258
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

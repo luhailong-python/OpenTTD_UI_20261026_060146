@@ -1,0 +1,39 @@
+{
+  "id": "tree-29-dying-1",
+  "image": "assets/world/vegetation/states/tree-29/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "dff658de4854502f684cc801d0100f0575d62475b4101b509a7a7a2dc0a700d5",
+  "climate": "tropical",
+  "artSpecies": "acacia",
+  "sourceTreeType": 29,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-29.png",
+      "sha256": "5bef7293ebff3c2bff9c89dbe3b332df33b630df6d2566682e2decbbd863f585",
+      "record": "assets/world/vegetation/mature/tree-29.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-29"
+  ]
+}

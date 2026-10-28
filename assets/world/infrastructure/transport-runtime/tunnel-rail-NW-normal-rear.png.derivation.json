@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-rail-NW-normal-rear",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-rail-NW-normal-rear.png",
+  "sha256": "6b2df9310dee812e2820398818481dae7f3b57c5706d664ff85eed5165e6bfb7",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/tunnel-rail-NW-normal.png",
+      "sha256": "93dd72eb33b5d5b6cdcdc62060d4e186a30feeae76a3bfaa0bd3572d483b7b2c",
+      "record": "assets/world/infrastructure/transport-runtime/tunnel-rail-NW-normal.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:10.249626+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

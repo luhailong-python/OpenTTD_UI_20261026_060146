@@ -1,0 +1,37 @@
+{
+  "id": "rail-signalbox-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-signalbox-axis-y.png",
+  "sha256": "01d6f1c5bfa9b3d79258b2fec4920b1d7c280a1be5270bcb9461539c8c837766",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-signalbox.png",
+      "sha256": "20d9c25fa4ddf9c5828cb6a4877073b391ee245a4e7064910319d5e618234308",
+      "record": "assets/world/infrastructure/transport/rail-signalbox.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

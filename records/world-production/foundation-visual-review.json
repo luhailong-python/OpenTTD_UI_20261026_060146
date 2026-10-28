@@ -1,0 +1,70 @@
+{
+  "schema": "actual-art-visual-review.v1",
+  "recordedAt": "2026-10-28T10:17:06.551363+00:00",
+  "inspector": "foundation_review continuation agent; actual source-contact and all66 assembled cases inspected through view_image",
+  "manifest": "assets/world/infrastructure/foundations/manifest.json",
+  "manifestSHA256": "9a86a4217b14dd3d6280a7d6095843dc7b326c9fabe8e79344081b70f3f1f6f1",
+  "result": "local-static-geometry-and-art-checked-user-acceptance-pending",
+  "coverage": {
+    "sourceValidCases": 66,
+    "formalPNGs": 140,
+    "halfTriangleVariants": 12,
+    "steepBothModes": 4,
+    "twoPartLayers": 8
+  },
+  "items": [
+    {
+      "file": "previews/world/foundation-slopes-contact.jpg",
+      "sha256": "600ac960f8716d38860877d3cee3fcd02c8946494659b7762ba6e4d651a475fb",
+      "status": "passed-local",
+      "finding": "Actually viewed source-correct family contact: all four HalfTile modes now use half triangles, not corner quarter diamonds. Existing native grass and masonry pixels remain visible; no newly painted details claimed."
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-1.jpg",
+      "sha256": "1903873890dff0fffcb2bf2af0c3649df41479182db38abfec891d616d5d0717",
+      "status": "passed-local",
+      "finding": "Actually viewed 24 current terrain assemblies: regular leveled and inclined surfaces, W/S/E half triangles and EW saddle cases meet the matching current native terrain. No open crack or atlas-neighbour fragment observed."
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-2.jpg",
+      "sha256": "a5af30a7148c6fe7e92f0136c1b3063921d5be6edc11125331aa7972c1052c57",
+      "status": "passed-local",
+      "finding": "Actually viewed 24 current terrain assemblies: N and NS half triangles, special Rail surfaces, and first steep W cases. Source remainder stays visible under the selected half; Rail surfaces retain the source diagonal split."
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-3.jpg",
+      "sha256": "d8a29ee05d0a4c280846a7bef24b41eb0713e1e9436e1438518dd34275a5fddd",
+      "status": "passed-local",
+      "finding": "Actually viewed 18 current steep assemblies across S/E/N directions. SteepBoth keeps a lower height-1 triangle and a height-2 upper triangle with a continuous textured step, rather than a full height-2 square. No blank foundation gaps observed."
+    }
+  ],
+  "pages": [
+    {
+      "file": "previews/world/foundation-slopes-contact.jpg",
+      "sha256": "600ac960f8716d38860877d3cee3fcd02c8946494659b7762ba6e4d651a475fb",
+      "result": "actually viewed final pixels"
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-1.jpg",
+      "sha256": "1903873890dff0fffcb2bf2af0c3649df41479182db38abfec891d616d5d0717",
+      "result": "actually viewed final pixels"
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-2.jpg",
+      "sha256": "a5af30a7148c6fe7e92f0136c1b3063921d5be6edc11125331aa7972c1052c57",
+      "result": "actually viewed final pixels"
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-3.jpg",
+      "sha256": "d8a29ee05d0a4c280846a7bef24b41eb0713e1e9436e1438518dd34275a5fddd",
+      "result": "actually viewed final pixels"
+    }
+  ],
+  "limits": [
+    "No Unity depth sorting, neighbor occlusion, traffic build-rule adapter, terrain editing or vehicle collision was run.",
+    "Existing native stone/grass are geometrically projected; there are no new native paintings or animation frames."
+  ],
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "rebuildPixelComparisons": 66
+}

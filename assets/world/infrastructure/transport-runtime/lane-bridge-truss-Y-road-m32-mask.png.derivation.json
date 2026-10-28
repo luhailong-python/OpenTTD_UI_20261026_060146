@@ -1,0 +1,42 @@
+{
+  "id": "lane-bridge-truss-Y-road-m32-mask",
+  "image": "assets/world/infrastructure/transport-runtime/lane-bridge-truss-Y-road-m32-mask.png",
+  "sha256": "b30ab5442ae228b0523c92e36343d0ff93f851fe11f83cbd5ecd125fa663e286",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-truss-Y-road-m32.png",
+      "sha256": "2a977871cf01c71efc51a70a0156597486df6042ecdf8605203d23f04e11d8a5",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-truss-Y-road-m32.png.derivation.json"
+    }
+  ],
+  "operation": "Authored geometric/ownership Alpha mask DATA only, no painted colour or strokes",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "transport-mask-data",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:30.871930+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "spriteTypeSuggestion": "Single; data mask, do not display as art",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,2430 @@
+{
+  "createdAt": "2026-10-28T11:45:36.722Z",
+  "schema": "supplemental-gallery-browser-validation.v1",
+  "tool": {
+    "file": "tools/check_supplemental_galleries.cjs",
+    "sha256": "eaa420b0ee658ce08c61ce065e0b5ce00400c2d8f7841f10a18cf084ad1e116e",
+    "browser": "Edge Chromium",
+    "version": "134.0.3124.83",
+    "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "headless": true
+  },
+  "complete": true,
+  "phase": "all-four-final-pages",
+  "readOnlyHTMLAndArt": true,
+  "requiredPages": [
+    "field-stages",
+    "bridge-railtypes",
+    "shore-geometry",
+    "rocks-overlay"
+  ],
+  "pendingPages": [],
+  "passed": 52,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "field-stages.sourceManifestExists",
+      "passed": true,
+      "file": "assets/world/terrain/field-stages/manifest.json"
+    },
+    {
+      "id": "field-stages.1440.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "field-stages.1440.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 10,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "field-stages.1440.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 0,
+      "missing": []
+    },
+    {
+      "id": "field-stages.1440.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "field-stages.1440.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "field-stages.390.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "field-stages.390.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 10,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "field-stages.390.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 0,
+      "missing": []
+    },
+    {
+      "id": "field-stages.390.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "field-stages.390.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "field-stages.HTMLUnchangedDuringCheck",
+      "passed": true,
+      "file": "previews/world/field-stages/index.html"
+    },
+    {
+      "id": "field-stages.manifestUnchangedDuringCheck",
+      "passed": true,
+      "file": "assets/world/terrain/field-stages/manifest.json"
+    },
+    {
+      "id": "bridge-railtypes.sourceManifestExists",
+      "passed": true,
+      "file": "assets/world/infrastructure/bridge-railtypes/manifest.json"
+    },
+    {
+      "id": "bridge-railtypes.1440.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "bridge-railtypes.1440.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 14,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "bridge-railtypes.1440.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 0,
+      "missing": []
+    },
+    {
+      "id": "bridge-railtypes.1440.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "bridge-railtypes.1440.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "bridge-railtypes.390.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "bridge-railtypes.390.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 14,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "bridge-railtypes.390.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 0,
+      "missing": []
+    },
+    {
+      "id": "bridge-railtypes.390.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "bridge-railtypes.390.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "bridge-railtypes.HTMLUnchangedDuringCheck",
+      "passed": true,
+      "file": "previews/world/bridge-railtypes/index.html"
+    },
+    {
+      "id": "bridge-railtypes.manifestUnchangedDuringCheck",
+      "passed": true,
+      "file": "assets/world/infrastructure/bridge-railtypes/manifest.json"
+    },
+    {
+      "id": "shore-geometry.sourceManifestExists",
+      "passed": true,
+      "file": "assets/world/terrain/shore-geometry/manifest.json"
+    },
+    {
+      "id": "shore-geometry.1440.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "shore-geometry.1440.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 7,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "shore-geometry.1440.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 0,
+      "missing": []
+    },
+    {
+      "id": "shore-geometry.1440.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "shore-geometry.1440.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "shore-geometry.390.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "shore-geometry.390.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 7,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "shore-geometry.390.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 0,
+      "missing": []
+    },
+    {
+      "id": "shore-geometry.390.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "shore-geometry.390.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "shore-geometry.HTMLUnchangedDuringCheck",
+      "passed": true,
+      "file": "previews/world/shore-geometry/index.html"
+    },
+    {
+      "id": "shore-geometry.manifestUnchangedDuringCheck",
+      "passed": true,
+      "file": "assets/world/terrain/shore-geometry/manifest.json"
+    },
+    {
+      "id": "rocks-overlay.sourceManifestExists",
+      "passed": true,
+      "file": "assets/world/terrain/rocks-overlay/manifest.json"
+    },
+    {
+      "id": "rocks-overlay.1440.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "rocks-overlay.1440.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 16,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "rocks-overlay.1440.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 18,
+      "missing": []
+    },
+    {
+      "id": "rocks-overlay.1440.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "id": "rocks-overlay.1440.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "rocks-overlay.390.initialNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "rocks-overlay.390.allActualImagesLoad",
+      "passed": true,
+      "imageCount": 16,
+      "loadTimeout": null,
+      "broken": []
+    },
+    {
+      "id": "rocks-overlay.390.allLocalHrefsExist",
+      "passed": true,
+      "localHrefCount": 18,
+      "missing": []
+    },
+    {
+      "id": "rocks-overlay.390.expandedNoHorizontalOverflow",
+      "passed": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "id": "rocks-overlay.390.noJavaScriptConsoleOrNetworkErrors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "rocks-overlay.HTMLUnchangedDuringCheck",
+      "passed": true,
+      "file": "previews/world/rocks-overlay/index.html"
+    },
+    {
+      "id": "rocks-overlay.manifestUnchangedDuringCheck",
+      "passed": true,
+      "file": "assets/world/terrain/rocks-overlay/manifest.json"
+    }
+  ],
+  "pages": [
+    {
+      "id": "field-stages",
+      "html": "previews/world/field-stages/index.html",
+      "manifest": "assets/world/terrain/field-stages/manifest.json",
+      "htmlSha256": "f25ec9be9d2491390519f126e84b258a90e844f05e919a1a0c092fc3fa0de490",
+      "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/index.html",
+      "manifestSHA256": "4d66288c42a1033a79d8815fa6ad27f3e90e9e958f30b27399e7532460c002a9",
+      "status": "passed",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "initialLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "expandedLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "detailsOpened": 9,
+          "images": [
+            {
+              "src": "nine-stage-overview.jpg",
+              "resolved": "previews/world/field-stages/nine-stage-overview.jpg",
+              "complete": true,
+              "naturalWidth": 1152,
+              "naturalHeight": 930,
+              "alt": "当前9阶段概览",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/nine-stage-overview.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "2aaf928df2f0e8cb3ff16e254842f3a33e0f7fe4fb6925d6460331780971285b"
+            },
+            {
+              "src": "stage-0-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-0-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 0 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-0-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "7fa932e8712c9dedb9d9d54c5efb7542d5e53a5b906a63762a63dcc3bdc6773c"
+            },
+            {
+              "src": "stage-1-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-1-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 1 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-1-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "51ce09d9216551fbc0ae30a389ed3659f1a49f4e04cff451b603ab4cc84ce7de"
+            },
+            {
+              "src": "stage-2-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-2-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 2 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-2-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "07f2f02b8a7fad4ef8b803dac1e0c46672412d7118bcde3dfed1ff0510a9de35"
+            },
+            {
+              "src": "stage-3-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-3-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 3 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-3-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8afb5b83ad182083e6ac06bb7d86e3fb658918be5da45684c0451d0a36d260ec"
+            },
+            {
+              "src": "stage-4-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-4-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 4 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-4-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "c20de3b8d55f0bd686a873ba8eada8af8b1ad6c9c893c948163145014fee42a8"
+            },
+            {
+              "src": "stage-5-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-5-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 5 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-5-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "9c1de1bcdf5c5237dbf34ef073b58f721ca65e8dd83fc325b317ab0cd1aeaee5"
+            },
+            {
+              "src": "stage-6-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-6-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 6 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-6-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "0a4e279ac4b474b41fd651e75bab2eec3b2e1784ec41a16fffd5d3f93b8a5750"
+            },
+            {
+              "src": "stage-7-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-7-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 7 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-7-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "1ec75b642975095fedc977bafe0fe5e1aadd1cc6d72bb7268792aaaaa3eabecb"
+            },
+            {
+              "src": "stage-8-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-8-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 8 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-8-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "470aa232973d2ae192382393f0f07e067b2bbe25d7882d07167243955f9c7db6"
+            }
+          ],
+          "localHrefs": [],
+          "screenshot": {
+            "file": "records/supplemental-gallery-field-stages-1440.png",
+            "sha256": "544b69c0871e5006c0057b93b88ec3a1d0b615e434d08deaaaebb87e96d6b957",
+            "sourceHTML": "previews/world/field-stages/index.html",
+            "sourceHTMLSha256": "f25ec9be9d2491390519f126e84b258a90e844f05e919a1a0c092fc3fa0de490",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "initialLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "expandedLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "detailsOpened": 9,
+          "images": [
+            {
+              "src": "nine-stage-overview.jpg",
+              "resolved": "previews/world/field-stages/nine-stage-overview.jpg",
+              "complete": true,
+              "naturalWidth": 1152,
+              "naturalHeight": 930,
+              "alt": "当前9阶段概览",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/nine-stage-overview.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "2aaf928df2f0e8cb3ff16e254842f3a33e0f7fe4fb6925d6460331780971285b"
+            },
+            {
+              "src": "stage-0-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-0-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 0 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-0-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "7fa932e8712c9dedb9d9d54c5efb7542d5e53a5b906a63762a63dcc3bdc6773c"
+            },
+            {
+              "src": "stage-1-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-1-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 1 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-1-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "51ce09d9216551fbc0ae30a389ed3659f1a49f4e04cff451b603ab4cc84ce7de"
+            },
+            {
+              "src": "stage-2-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-2-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 2 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-2-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "07f2f02b8a7fad4ef8b803dac1e0c46672412d7118bcde3dfed1ff0510a9de35"
+            },
+            {
+              "src": "stage-3-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-3-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 3 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-3-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8afb5b83ad182083e6ac06bb7d86e3fb658918be5da45684c0451d0a36d260ec"
+            },
+            {
+              "src": "stage-4-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-4-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 4 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-4-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "c20de3b8d55f0bd686a873ba8eada8af8b1ad6c9c893c948163145014fee42a8"
+            },
+            {
+              "src": "stage-5-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-5-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 5 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-5-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "9c1de1bcdf5c5237dbf34ef073b58f721ca65e8dd83fc325b317ab0cd1aeaee5"
+            },
+            {
+              "src": "stage-6-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-6-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 6 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-6-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "0a4e279ac4b474b41fd651e75bab2eec3b2e1784ec41a16fffd5d3f93b8a5750"
+            },
+            {
+              "src": "stage-7-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-7-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 7 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-7-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "1ec75b642975095fedc977bafe0fe5e1aadd1cc6d72bb7268792aaaaa3eabecb"
+            },
+            {
+              "src": "stage-8-all19-slopes.jpg",
+              "resolved": "previews/world/field-stages/stage-8-all19-slopes.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1040,
+              "alt": "source field stage 8 all19slopes",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/stage-8-all19-slopes.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "470aa232973d2ae192382393f0f07e067b2bbe25d7882d07167243955f9c7db6"
+            }
+          ],
+          "localHrefs": [],
+          "screenshot": {
+            "file": "records/supplemental-gallery-field-stages-390.png",
+            "sha256": "4320f5ec53e9e50807b51cb8604f02fceadc8e99c3e00e58007b689cef920515",
+            "sourceHTML": "previews/world/field-stages/index.html",
+            "sourceHTMLSha256": "f25ec9be9d2491390519f126e84b258a90e844f05e919a1a0c092fc3fa0de490",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/field-stages/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        }
+      ],
+      "errors": [],
+      "checks": [
+        {
+          "id": "field-stages.sourceManifestExists",
+          "passed": true,
+          "file": "assets/world/terrain/field-stages/manifest.json"
+        },
+        {
+          "id": "field-stages.1440.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "field-stages.1440.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 10,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "field-stages.1440.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 0,
+          "missing": []
+        },
+        {
+          "id": "field-stages.1440.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "field-stages.1440.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "field-stages.390.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "field-stages.390.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 10,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "field-stages.390.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 0,
+          "missing": []
+        },
+        {
+          "id": "field-stages.390.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "field-stages.390.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "field-stages.HTMLUnchangedDuringCheck",
+          "passed": true,
+          "file": "previews/world/field-stages/index.html"
+        },
+        {
+          "id": "field-stages.manifestUnchangedDuringCheck",
+          "passed": true,
+          "file": "assets/world/terrain/field-stages/manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "bridge-railtypes",
+      "html": "previews/world/bridge-railtypes/index.html",
+      "manifest": "assets/world/infrastructure/bridge-railtypes/manifest.json",
+      "htmlSha256": "3548133b03a1162e2c23d368d2a0bf6f12d382a4ed5fdb5447d22c2f83f067a0",
+      "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/index.html",
+      "manifestSHA256": "60c8758a93ff857926282cbb5ea37658ad26150882714054e31ffcf43ea1472e",
+      "status": "passed",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "initialLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "expandedLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "detailsOpened": 13,
+          "images": [
+            {
+              "src": "native-materials.jpg",
+              "resolved": "previews/world/bridge-railtypes/native-materials.jpg",
+              "complete": true,
+              "naturalWidth": 900,
+              "naturalHeight": 380,
+              "alt": "既有单轨与磁浮原生条带",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/native-materials.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "bd2c212f8894922a688c6f4d2ac1f41f0bc6863011ab417b4f36a2213dad3e5e"
+            },
+            {
+              "src": "bridge-00-wood.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-00-wood.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-00-wood actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-00-wood.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "303c56917500acf7d50f186f80534e4c79761ecf03af45992d95e5abab3e1f80"
+            },
+            {
+              "src": "bridge-01-concrete.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-01-concrete.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-01-concrete actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-01-concrete.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "46abb2a7ba3e53cc62fb60c3d6af73117cce22a0d7ba4367a4fbad247ae1fc3e"
+            },
+            {
+              "src": "bridge-02-archgirder.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-02-archgirder.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-02-archgirder actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-02-archgirder.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "9c0e96d2649afaa9a34bc0d252fd618ebb14478e181b0bf371c811c2a5b6afbe"
+            },
+            {
+              "src": "bridge-03-suspension.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-03-suspension.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-03-suspension actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-03-suspension.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "18373f1087496735772b6a89995fc1eb6c7d539a239b9dac4b46b8bddf2e5958"
+            },
+            {
+              "src": "bridge-04-suspension.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-04-suspension.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-04-suspension actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-04-suspension.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "b31cb35868beee3f9295e726f0167c39ed13b289cd2150e5c0183f1d4cee57a1"
+            },
+            {
+              "src": "bridge-05-suspension.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-05-suspension.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-05-suspension actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-05-suspension.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "db39ab0b3461eb61820700bf1ddd2fbee3990b67ac3b94649269557fe8621981"
+            },
+            {
+              "src": "bridge-06-cantilever.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-06-cantilever.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-06-cantilever actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-06-cantilever.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "59d4099dc2838dd07a91ddbad9ae9f65e8a34da2c197fdadb30ad4b5310c9326"
+            },
+            {
+              "src": "bridge-07-cantilever.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-07-cantilever.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-07-cantilever actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-07-cantilever.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "53d5998de49fbc8241f42f4ca75a1cc94c63120515a946033ed4b262939f5ace"
+            },
+            {
+              "src": "bridge-08-cantilever.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-08-cantilever.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-08-cantilever actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-08-cantilever.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "63e97d2f5bcf46bcb1e7a5da19eb051c93d1eb3ada248612b6ac6f92be85ae02"
+            },
+            {
+              "src": "bridge-09-girder.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-09-girder.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-09-girder actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-09-girder.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "b0cedac542280e5558b7ea4b2dd18d2bbe11a1c74314b56011fc6f036ee22cf8"
+            },
+            {
+              "src": "bridge-10-tubular.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-10-tubular.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-10-tubular actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-10-tubular.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "485548c450672e05b1cefd68af106a3e99a80f7c71dd1e0fadbdefe749870d09"
+            },
+            {
+              "src": "bridge-11-tubular.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-11-tubular.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-11-tubular actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-11-tubular.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "9d7ead516132dafa43905e122e03805bd030253348fa77b88f83bbd0c2d5270a"
+            },
+            {
+              "src": "bridge-12-tubular.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-12-tubular.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-12-tubular actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-12-tubular.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "3840bc3e084f8e92eb512dcba9f343f88c81817df7057b0c1d5e748ebea7a7e4"
+            }
+          ],
+          "localHrefs": [],
+          "screenshot": {
+            "file": "records/supplemental-gallery-bridge-railtypes-1440.png",
+            "sha256": "a641e20341ae4474bfc68a1f16629b4fd81de8d9dec8656ab64c83e9bab5ac12",
+            "sourceHTML": "previews/world/bridge-railtypes/index.html",
+            "sourceHTMLSha256": "3548133b03a1162e2c23d368d2a0bf6f12d382a4ed5fdb5447d22c2f83f067a0",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "initialLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "expandedLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "detailsOpened": 13,
+          "images": [
+            {
+              "src": "native-materials.jpg",
+              "resolved": "previews/world/bridge-railtypes/native-materials.jpg",
+              "complete": true,
+              "naturalWidth": 900,
+              "naturalHeight": 380,
+              "alt": "既有单轨与磁浮原生条带",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/native-materials.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "bd2c212f8894922a688c6f4d2ac1f41f0bc6863011ab417b4f36a2213dad3e5e"
+            },
+            {
+              "src": "bridge-00-wood.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-00-wood.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-00-wood actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-00-wood.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "303c56917500acf7d50f186f80534e4c79761ecf03af45992d95e5abab3e1f80"
+            },
+            {
+              "src": "bridge-01-concrete.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-01-concrete.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-01-concrete actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-01-concrete.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "46abb2a7ba3e53cc62fb60c3d6af73117cce22a0d7ba4367a4fbad247ae1fc3e"
+            },
+            {
+              "src": "bridge-02-archgirder.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-02-archgirder.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-02-archgirder actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-02-archgirder.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "9c0e96d2649afaa9a34bc0d252fd618ebb14478e181b0bf371c811c2a5b6afbe"
+            },
+            {
+              "src": "bridge-03-suspension.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-03-suspension.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-03-suspension actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-03-suspension.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "18373f1087496735772b6a89995fc1eb6c7d539a239b9dac4b46b8bddf2e5958"
+            },
+            {
+              "src": "bridge-04-suspension.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-04-suspension.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-04-suspension actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-04-suspension.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "b31cb35868beee3f9295e726f0167c39ed13b289cd2150e5c0183f1d4cee57a1"
+            },
+            {
+              "src": "bridge-05-suspension.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-05-suspension.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-05-suspension actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-05-suspension.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "db39ab0b3461eb61820700bf1ddd2fbee3990b67ac3b94649269557fe8621981"
+            },
+            {
+              "src": "bridge-06-cantilever.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-06-cantilever.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-06-cantilever actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-06-cantilever.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "59d4099dc2838dd07a91ddbad9ae9f65e8a34da2c197fdadb30ad4b5310c9326"
+            },
+            {
+              "src": "bridge-07-cantilever.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-07-cantilever.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-07-cantilever actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-07-cantilever.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "53d5998de49fbc8241f42f4ca75a1cc94c63120515a946033ed4b262939f5ace"
+            },
+            {
+              "src": "bridge-08-cantilever.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-08-cantilever.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-08-cantilever actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-08-cantilever.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "63e97d2f5bcf46bcb1e7a5da19eb051c93d1eb3ada248612b6ac6f92be85ae02"
+            },
+            {
+              "src": "bridge-09-girder.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-09-girder.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-09-girder actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-09-girder.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "b0cedac542280e5558b7ea4b2dd18d2bbe11a1c74314b56011fc6f036ee22cf8"
+            },
+            {
+              "src": "bridge-10-tubular.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-10-tubular.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-10-tubular actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-10-tubular.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "485548c450672e05b1cefd68af106a3e99a80f7c71dd1e0fadbdefe749870d09"
+            },
+            {
+              "src": "bridge-11-tubular.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-11-tubular.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-11-tubular actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-11-tubular.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "9d7ead516132dafa43905e122e03805bd030253348fa77b88f83bbd0c2d5270a"
+            },
+            {
+              "src": "bridge-12-tubular.jpg",
+              "resolved": "previews/world/bridge-railtypes/bridge-12-tubular.jpg",
+              "complete": true,
+              "naturalWidth": 1360,
+              "naturalHeight": 1320,
+              "alt": "bridge-12-tubular actual current PNG assemblies",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/bridge-12-tubular.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "3840bc3e084f8e92eb512dcba9f343f88c81817df7057b0c1d5e748ebea7a7e4"
+            }
+          ],
+          "localHrefs": [],
+          "screenshot": {
+            "file": "records/supplemental-gallery-bridge-railtypes-390.png",
+            "sha256": "b7f75e30e7c33e72ddc702fdc0a7390eb311084bd0f90c569e6240396e68ddd0",
+            "sourceHTML": "previews/world/bridge-railtypes/index.html",
+            "sourceHTMLSha256": "3548133b03a1162e2c23d368d2a0bf6f12d382a4ed5fdb5447d22c2f83f067a0",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/bridge-railtypes/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        }
+      ],
+      "errors": [],
+      "checks": [
+        {
+          "id": "bridge-railtypes.sourceManifestExists",
+          "passed": true,
+          "file": "assets/world/infrastructure/bridge-railtypes/manifest.json"
+        },
+        {
+          "id": "bridge-railtypes.1440.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "bridge-railtypes.1440.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 14,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "bridge-railtypes.1440.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 0,
+          "missing": []
+        },
+        {
+          "id": "bridge-railtypes.1440.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "bridge-railtypes.1440.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "bridge-railtypes.390.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "bridge-railtypes.390.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 14,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "bridge-railtypes.390.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 0,
+          "missing": []
+        },
+        {
+          "id": "bridge-railtypes.390.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "bridge-railtypes.390.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "bridge-railtypes.HTMLUnchangedDuringCheck",
+          "passed": true,
+          "file": "previews/world/bridge-railtypes/index.html"
+        },
+        {
+          "id": "bridge-railtypes.manifestUnchangedDuringCheck",
+          "passed": true,
+          "file": "assets/world/infrastructure/bridge-railtypes/manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "shore-geometry",
+      "html": "previews/world/shore-geometry/index.html",
+      "manifest": "assets/world/terrain/shore-geometry/manifest.json",
+      "htmlSha256": "56dd854688ccb94adcc2b70f4969c5cbaf495aebfe931e61426fd6c0025eb24e",
+      "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/index.html",
+      "manifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+      "status": "passed",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "initialLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "expandedLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "detailsOpened": 0,
+          "images": [
+            {
+              "src": "grass-postures-1.jpg",
+              "resolved": "previews/world/shore-geometry/grass-postures-1.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "grass-postures-1",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/grass-postures-1.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8dfa7d3a23216efa39787dbb6dac6f8b78252615a03d5b399685653ca3fd2118"
+            },
+            {
+              "src": "grass-postures-2.jpg",
+              "resolved": "previews/world/shore-geometry/grass-postures-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "grass-postures-2",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/grass-postures-2.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "91b12e1f848be2c5ea264857026a774efb8a1580972a92dbbc34eb1869acc40f"
+            },
+            {
+              "src": "sand-postures-1.jpg",
+              "resolved": "previews/world/shore-geometry/sand-postures-1.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "sand-postures-1",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/sand-postures-1.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "814821812f1ee216dadd31fbd9bc4475d0873667e487aca3f52b9f5473080f0e"
+            },
+            {
+              "src": "sand-postures-2.jpg",
+              "resolved": "previews/world/shore-geometry/sand-postures-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "sand-postures-2",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/sand-postures-2.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "fa432702847610c357a6e28e7efa370dbc037bb76a3b83e32b846f61a3480f07"
+            },
+            {
+              "src": "snow-postures-1.jpg",
+              "resolved": "previews/world/shore-geometry/snow-postures-1.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "snow-postures-1",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/snow-postures-1.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "660f2283223773f639f90b69d642a3cf29e85b26ff81b16ab7541ce4bed04dc5"
+            },
+            {
+              "src": "snow-postures-2.jpg",
+              "resolved": "previews/world/shore-geometry/snow-postures-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "snow-postures-2",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/snow-postures-2.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8e5edf59a5d01dcfa5f285ccb8fad4124e1b281a533ba9c75d1eb120ee7c94c2"
+            },
+            {
+              "src": "layer-breakdown.jpg",
+              "resolved": "previews/world/shore-geometry/layer-breakdown.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 750,
+              "alt": "Actual water, land, native bank and whole layers",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/layer-breakdown.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "5d0b7c8f76f9279c6b0ccf9789b8444f43d2748124356411a3e78d575eeb2431"
+            }
+          ],
+          "localHrefs": [],
+          "screenshot": {
+            "file": "records/supplemental-gallery-shore-geometry-1440.png",
+            "sha256": "01cc8778d1cd987ec512f43277054bc72d74eb304be7d5f70e5ef0c49685b57e",
+            "sourceHTML": "previews/world/shore-geometry/index.html",
+            "sourceHTMLSha256": "56dd854688ccb94adcc2b70f4969c5cbaf495aebfe931e61426fd6c0025eb24e",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "initialLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "expandedLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "detailsOpened": 0,
+          "images": [
+            {
+              "src": "grass-postures-1.jpg",
+              "resolved": "previews/world/shore-geometry/grass-postures-1.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "grass-postures-1",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/grass-postures-1.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8dfa7d3a23216efa39787dbb6dac6f8b78252615a03d5b399685653ca3fd2118"
+            },
+            {
+              "src": "grass-postures-2.jpg",
+              "resolved": "previews/world/shore-geometry/grass-postures-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "grass-postures-2",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/grass-postures-2.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "91b12e1f848be2c5ea264857026a774efb8a1580972a92dbbc34eb1869acc40f"
+            },
+            {
+              "src": "sand-postures-1.jpg",
+              "resolved": "previews/world/shore-geometry/sand-postures-1.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "sand-postures-1",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/sand-postures-1.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "814821812f1ee216dadd31fbd9bc4475d0873667e487aca3f52b9f5473080f0e"
+            },
+            {
+              "src": "sand-postures-2.jpg",
+              "resolved": "previews/world/shore-geometry/sand-postures-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "sand-postures-2",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/sand-postures-2.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "fa432702847610c357a6e28e7efa370dbc037bb76a3b83e32b846f61a3480f07"
+            },
+            {
+              "src": "snow-postures-1.jpg",
+              "resolved": "previews/world/shore-geometry/snow-postures-1.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "snow-postures-1",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/snow-postures-1.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "660f2283223773f639f90b69d642a3cf29e85b26ff81b16ab7541ce4bed04dc5"
+            },
+            {
+              "src": "snow-postures-2.jpg",
+              "resolved": "previews/world/shore-geometry/snow-postures-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 620,
+              "alt": "snow-postures-2",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/snow-postures-2.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8e5edf59a5d01dcfa5f285ccb8fad4124e1b281a533ba9c75d1eb120ee7c94c2"
+            },
+            {
+              "src": "layer-breakdown.jpg",
+              "resolved": "previews/world/shore-geometry/layer-breakdown.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 750,
+              "alt": "Actual water, land, native bank and whole layers",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/layer-breakdown.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "5d0b7c8f76f9279c6b0ccf9789b8444f43d2748124356411a3e78d575eeb2431"
+            }
+          ],
+          "localHrefs": [],
+          "screenshot": {
+            "file": "records/supplemental-gallery-shore-geometry-390.png",
+            "sha256": "6c34f37f5be3605de300c37c477637e32660a85c99c8b825e1929a6d1dd85056",
+            "sourceHTML": "previews/world/shore-geometry/index.html",
+            "sourceHTMLSha256": "56dd854688ccb94adcc2b70f4969c5cbaf495aebfe931e61426fd6c0025eb24e",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/shore-geometry/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        }
+      ],
+      "errors": [],
+      "checks": [
+        {
+          "id": "shore-geometry.sourceManifestExists",
+          "passed": true,
+          "file": "assets/world/terrain/shore-geometry/manifest.json"
+        },
+        {
+          "id": "shore-geometry.1440.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "shore-geometry.1440.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 7,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "shore-geometry.1440.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 0,
+          "missing": []
+        },
+        {
+          "id": "shore-geometry.1440.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "shore-geometry.1440.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "shore-geometry.390.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "shore-geometry.390.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 7,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "shore-geometry.390.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 0,
+          "missing": []
+        },
+        {
+          "id": "shore-geometry.390.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "shore-geometry.390.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "shore-geometry.HTMLUnchangedDuringCheck",
+          "passed": true,
+          "file": "previews/world/shore-geometry/index.html"
+        },
+        {
+          "id": "shore-geometry.manifestUnchangedDuringCheck",
+          "passed": true,
+          "file": "assets/world/terrain/shore-geometry/manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "rocks-overlay",
+      "html": "previews/world/rocks-overlay/index.html",
+      "manifest": "assets/world/terrain/rocks-overlay/manifest.json",
+      "htmlSha256": "d63f713ebb2dbcd3257b34318e9b21847ee5f7a1540ae38294a70f04fb9595f1",
+      "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/index.html",
+      "manifestSHA256": "9f2d52b007b5faea675e097154af6c1a3ec64c370cf7ca8b01143e25916bfd23",
+      "status": "passed",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000,
+          "initialLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "expandedLayout": {
+            "scrollWidth": 1440,
+            "viewportWidth": 1440
+          },
+          "detailsOpened": 0,
+          "images": [
+            {
+              "src": "../../../previews/world/rocks-overlay/native-parts-01.jpg",
+              "resolved": "previews/world/rocks-overlay/native-parts-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "native-parts-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/native-parts-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "dc0887a44183f34260936709795ab5d5457493e6681ad1dbfa5b0ffd6b736ac6"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "resolved": "previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "complete": true,
+              "naturalWidth": 640,
+              "naturalHeight": 780,
+              "alt": "native-alpha-edges",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "6427ed53df8f1c5d96865af994561808384750d85cc2d45ad900e5be588e66cf"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "dry-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "1bce2e0c44972af011bf2b6461e331b2a6c4f890bc16ae2b262e2f51c3e7fd8b"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "dry-layout-1-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "77c94eb77e6956e2d6350228be126cb4b6fe2acd7b17884bac5983c2f8d4e84d"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-quarter-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "629b0611c2be4f83bca249a5bb6b85a21d7c9e4a5405f5cbd476b32a7345087f"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-half-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "a034131a834eb10fb12f4f9eb476ea9acd18310c9e7e8ff9094e573f5373e040"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-three-quarter-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "49e7c46a0926f4f2052fdb742cc7fc7e9fca0735ad0c2a7f1049a4c9f0d24b7b"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-full-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "21b1d8462dc0f787a8548b9ce89e34267cbdac5ce65635a8363975d9007e9523"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "c4bdbeb4d56315554f2fb71e988cbafe38df6752c5eaeced54696c6da869fa7d"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-02",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8186e8cb48e90514e62705bae4b6cf43efca90842abb3ceafecf64a9faecc4aa"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-03",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "fe57af7d465eeef814f49bd90c3ffd9fa2a461a6ab4f67a11ae885ccbc9ba2fd"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-04",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "4afe90ef362598517783455e4ad2fbf807cc28d4205786b410debd9172b866cf"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "water-coast-combinations-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "775ea90c74db1a1183f5919c42d307d4f8d32c0be4dd8f9f7c6a47149c08c40a"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "water-coast-combinations-02",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "df090cbed97533055105f3992337bb046bda1b75ef810df719b59de47f130414"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 870,
+              "alt": "water-coast-combinations-03",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "eb454af75b05c35b333038ae6b34e6caf56644996860443999b2f9ade52da2ad"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "resolved": "previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "wet-overlay-slopes-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "6b5c97d057692cc464b4b090bb9348249f748ad800e82b95d867e636688ea7cd"
+            }
+          ],
+          "localHrefs": [
+            {
+              "href": "../../../index.html",
+              "resolved": "index.html",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../assets/world/terrain/rocks-overlay/manifest.json",
+              "resolved": "assets/world/terrain/rocks-overlay/manifest.json",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/native-parts-01.jpg",
+              "resolved": "previews/world/rocks-overlay/native-parts-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "resolved": "previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "resolved": "previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            }
+          ],
+          "screenshot": {
+            "file": "records/supplemental-gallery-rocks-overlay-1440.png",
+            "sha256": "819cbd3c772ad75aad1836d0eb418ec85d3d6a5fcf63a89e878e923785c48a13",
+            "sourceHTML": "previews/world/rocks-overlay/index.html",
+            "sourceHTMLSha256": "d63f713ebb2dbcd3257b34318e9b21847ee5f7a1540ae38294a70f04fb9595f1",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "initialLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "expandedLayout": {
+            "scrollWidth": 390,
+            "viewportWidth": 390
+          },
+          "detailsOpened": 0,
+          "images": [
+            {
+              "src": "../../../previews/world/rocks-overlay/native-parts-01.jpg",
+              "resolved": "previews/world/rocks-overlay/native-parts-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "native-parts-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/native-parts-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "dc0887a44183f34260936709795ab5d5457493e6681ad1dbfa5b0ffd6b736ac6"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "resolved": "previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "complete": true,
+              "naturalWidth": 640,
+              "naturalHeight": 780,
+              "alt": "native-alpha-edges",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "6427ed53df8f1c5d96865af994561808384750d85cc2d45ad900e5be588e66cf"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "dry-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "1bce2e0c44972af011bf2b6461e331b2a6c4f890bc16ae2b262e2f51c3e7fd8b"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "dry-layout-1-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "77c94eb77e6956e2d6350228be126cb4b6fe2acd7b17884bac5983c2f8d4e84d"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-quarter-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "629b0611c2be4f83bca249a5bb6b85a21d7c9e4a5405f5cbd476b32a7345087f"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-half-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "a034131a834eb10fb12f4f9eb476ea9acd18310c9e7e8ff9094e573f5373e040"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-three-quarter-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "49e7c46a0926f4f2052fdb742cc7fc7e9fca0735ad0c2a7f1049a4c9f0d24b7b"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "snow-full-layout-0-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "21b1d8462dc0f787a8548b9ce89e34267cbdac5ce65635a8363975d9007e9523"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "c4bdbeb4d56315554f2fb71e988cbafe38df6752c5eaeced54696c6da869fa7d"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-02",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "8186e8cb48e90514e62705bae4b6cf43efca90842abb3ceafecf64a9faecc4aa"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-03",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "fe57af7d465eeef814f49bd90c3ffd9fa2a461a6ab4f67a11ae885ccbc9ba2fd"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "desert-combinations-04",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "4afe90ef362598517783455e4ad2fbf807cc28d4205786b410debd9172b866cf"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "water-coast-combinations-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "775ea90c74db1a1183f5919c42d307d4f8d32c0be4dd8f9f7c6a47149c08c40a"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "water-coast-combinations-02",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "df090cbed97533055105f3992337bb046bda1b75ef810df719b59de47f130414"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 870,
+              "alt": "water-coast-combinations-03",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "eb454af75b05c35b333038ae6b34e6caf56644996860443999b2f9ade52da2ad"
+            },
+            {
+              "src": "../../../previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "resolved": "previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "naturalHeight": 1160,
+              "alt": "wet-overlay-slopes-01",
+              "href": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true,
+              "sha256": "6b5c97d057692cc464b4b090bb9348249f748ad800e82b95d867e636688ea7cd"
+            }
+          ],
+          "localHrefs": [
+            {
+              "href": "../../../index.html",
+              "resolved": "index.html",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../assets/world/terrain/rocks-overlay/manifest.json",
+              "resolved": "assets/world/terrain/rocks-overlay/manifest.json",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/native-parts-01.jpg",
+              "resolved": "previews/world/rocks-overlay/native-parts-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "resolved": "previews/world/rocks-overlay/native-alpha-edges.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "resolved": "previews/world/rocks-overlay/dry-layout-1-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "resolved": "previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "resolved": "previews/world/rocks-overlay/desert-combinations-04.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "resolved": "previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            },
+            {
+              "href": "../../../previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "resolved": "previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+              "local": true,
+              "exists": true,
+              "isFile": true
+            }
+          ],
+          "screenshot": {
+            "file": "records/supplemental-gallery-rocks-overlay-390.png",
+            "sha256": "7e3d4223753e475621214620bc7e725caaca13a1daaaca1494bca67403dda593",
+            "sourceHTML": "previews/world/rocks-overlay/index.html",
+            "sourceHTMLSha256": "d63f713ebb2dbcd3257b34318e9b21847ee5f7a1540ae38294a70f04fb9595f1",
+            "sourceURL": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/rocks-overlay/index.html",
+            "browserState": "all details opened;all img eager;viewport screenshot;source files unmodified"
+          }
+        }
+      ],
+      "errors": [],
+      "checks": [
+        {
+          "id": "rocks-overlay.sourceManifestExists",
+          "passed": true,
+          "file": "assets/world/terrain/rocks-overlay/manifest.json"
+        },
+        {
+          "id": "rocks-overlay.1440.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "rocks-overlay.1440.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 16,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "rocks-overlay.1440.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 18,
+          "missing": []
+        },
+        {
+          "id": "rocks-overlay.1440.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 1440,
+          "viewportWidth": 1440
+        },
+        {
+          "id": "rocks-overlay.1440.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "rocks-overlay.390.initialNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "rocks-overlay.390.allActualImagesLoad",
+          "passed": true,
+          "imageCount": 16,
+          "loadTimeout": null,
+          "broken": []
+        },
+        {
+          "id": "rocks-overlay.390.allLocalHrefsExist",
+          "passed": true,
+          "localHrefCount": 18,
+          "missing": []
+        },
+        {
+          "id": "rocks-overlay.390.expandedNoHorizontalOverflow",
+          "passed": true,
+          "scrollWidth": 390,
+          "viewportWidth": 390
+        },
+        {
+          "id": "rocks-overlay.390.noJavaScriptConsoleOrNetworkErrors",
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "rocks-overlay.HTMLUnchangedDuringCheck",
+          "passed": true,
+          "file": "previews/world/rocks-overlay/index.html"
+        },
+        {
+          "id": "rocks-overlay.manifestUnchangedDuringCheck",
+          "passed": true,
+          "file": "assets/world/terrain/rocks-overlay/manifest.json"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "scope": "Actual local HTML in headless Edge at1440/390;all img including closed lazy details forced to load;all local href existence;initial+expanded horizontal overflow;page/console/network errors;current source SHA and screenshots",
+  "localVisualPassed": null,
+  "visualScopeNote": "Browser loading/layout checks;does not replace each pack actual artwork review,source coverage audit or Unity validation",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "screenshotVisualReview": {
+    "reviewedAt": "2026-10-28T11:51:01.503772+00:00",
+    "localPassed": true,
+    "items": [
+      {
+        "file": "records/supplemental-gallery-field-stages-1440.png",
+        "sha256": "544b69c0871e5006c0057b93b88ec3a1d0b615e434d08deaaaebb87e96d6b957",
+        "sourceHTML": "previews/world/field-stages/index.html",
+        "sourceHTMLSha256": "f25ec9be9d2491390519f126e84b258a90e844f05e919a1a0c092fc3fa0de490",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-field-stages-390.png",
+        "sha256": "4320f5ec53e9e50807b51cb8604f02fceadc8e99c3e00e58007b689cef920515",
+        "sourceHTML": "previews/world/field-stages/index.html",
+        "sourceHTMLSha256": "f25ec9be9d2491390519f126e84b258a90e844f05e919a1a0c092fc3fa0de490",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-bridge-railtypes-1440.png",
+        "sha256": "a641e20341ae4474bfc68a1f16629b4fd81de8d9dec8656ab64c83e9bab5ac12",
+        "sourceHTML": "previews/world/bridge-railtypes/index.html",
+        "sourceHTMLSha256": "3548133b03a1162e2c23d368d2a0bf6f12d382a4ed5fdb5447d22c2f83f067a0",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-bridge-railtypes-390.png",
+        "sha256": "b7f75e30e7c33e72ddc702fdc0a7390eb311084bd0f90c569e6240396e68ddd0",
+        "sourceHTML": "previews/world/bridge-railtypes/index.html",
+        "sourceHTMLSha256": "3548133b03a1162e2c23d368d2a0bf6f12d382a4ed5fdb5447d22c2f83f067a0",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-shore-geometry-1440.png",
+        "sha256": "01cc8778d1cd987ec512f43277054bc72d74eb304be7d5f70e5ef0c49685b57e",
+        "sourceHTML": "previews/world/shore-geometry/index.html",
+        "sourceHTMLSha256": "56dd854688ccb94adcc2b70f4969c5cbaf495aebfe931e61426fd6c0025eb24e",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-shore-geometry-390.png",
+        "sha256": "6c34f37f5be3605de300c37c477637e32660a85c99c8b825e1929a6d1dd85056",
+        "sourceHTML": "previews/world/shore-geometry/index.html",
+        "sourceHTMLSha256": "56dd854688ccb94adcc2b70f4969c5cbaf495aebfe931e61426fd6c0025eb24e",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-rocks-overlay-1440.png",
+        "sha256": "819cbd3c772ad75aad1836d0eb418ec85d3d6a5fcf63a89e878e923785c48a13",
+        "sourceHTML": "previews/world/rocks-overlay/index.html",
+        "sourceHTMLSha256": "d63f713ebb2dbcd3257b34318e9b21847ee5f7a1540ae38294a70f04fb9595f1",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      },
+      {
+        "file": "records/supplemental-gallery-rocks-overlay-390.png",
+        "sha256": "7e3d4223753e475621214620bc7e725caaca13a1daaaca1494bca67403dda593",
+        "sourceHTML": "previews/world/rocks-overlay/index.html",
+        "sourceHTMLSha256": "d63f713ebb2dbcd3257b34318e9b21847ee5f7a1540ae38294a70f04fb9595f1",
+        "status": "passed-local",
+        "finding": "Actual viewport screenshot opened with view_image; heading/text/images fit width; no missing-image placeholder or horizontal clipping. Mobile contact sheets remain overview scale."
+      }
+    ],
+    "scope": "Actual eight viewport screenshots;layout/loading only,artwork acceptance remains each pack separate review."
+  }
+}

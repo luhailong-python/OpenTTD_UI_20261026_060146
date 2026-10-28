@@ -1,0 +1,39 @@
+{
+  "id": "tree-36-growing-2",
+  "image": "assets/world/vegetation/states/tree-36/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "a93a4444fbfe0a0a69f76a27a57dee516541d7ac146080d82729ef8dd5062261",
+  "climate": "toyland",
+  "artSpecies": "spring-tree",
+  "sourceTreeType": 36,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-36.png",
+      "sha256": "b2d62a25ea3e3eef4ceb624e42761f65be7ea1c719b6555117e6aed9bf9d8a7f",
+      "record": "assets/world/vegetation/mature/tree-36.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-36"
+  ]
+}

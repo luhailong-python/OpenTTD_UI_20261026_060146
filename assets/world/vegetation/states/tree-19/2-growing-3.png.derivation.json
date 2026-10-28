@@ -1,0 +1,39 @@
+{
+  "id": "tree-19-growing-3",
+  "image": "assets/world/vegetation/states/tree-19/2-growing-3.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "efddc6a2184848cf16daeaa5126c46147bc94f15782880637ac1354f11d6289e",
+  "climate": "arctic",
+  "artSpecies": "alpine-broadleaf",
+  "sourceTreeType": 19,
+  "sourceGrowthStage": 2,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-19.png",
+      "sha256": "16c1b9abacfd7b6cacdb7fc56937e2e5dae3d874dcad12ab7f4542b93ca6c10e",
+      "record": "assets/world/vegetation/mature/tree-19.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.76,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-19"
+  ]
+}

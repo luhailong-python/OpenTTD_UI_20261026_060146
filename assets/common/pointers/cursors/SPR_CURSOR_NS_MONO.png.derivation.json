@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_NS_MONO",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_NS_MONO.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "eb2f571321d32c79ffb0d8923c73de376e417c2627f1a79cf51263ee8c419b0f",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+      "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+      "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_NS_MONO",
+  "sourceSpriteId": 1267,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "road-depot-view-NE",
+  "image": "assets/world/infrastructure/transport/road-depot-view-NE.png",
+  "sha256": "bd497a80fbcea82bba01719e334d9ec4cae200bcae54866f25ca825c9fd960fa",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/service-directions.png",
+      "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+      "record": "source-art/world/service-directions.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    931,
+    337,
+    1316,
+    583
+  ],
+  "scaleApplied": 0.9974025974025974,
+  "sourceAtlas": "service-directions",
+  "sourceComponent": 8,
+  "contentSize": [
+    384,
+    245
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

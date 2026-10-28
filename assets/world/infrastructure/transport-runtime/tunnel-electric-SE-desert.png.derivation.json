@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-electric-SE-desert",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-electric-SE-desert.png",
+  "sha256": "42c22d359ea9ca24e23e0761510067995b44bda8c7fcf37a216e415d33c5930f",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-desert.png",
+      "sha256": "25a93b7ca2052e488c635b735f7a27862d21ae20645e79ade28aa41c2270dd9e",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-desert.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-rail-SE-desert.png",
+      "sha256": "07c2541a99af87a1f27fc01f86d098565ef7c04ff31ccd470dd913f4872f06df",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-rail-SE-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-electric"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:12.003369+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "desert",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

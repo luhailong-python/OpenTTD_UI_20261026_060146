@@ -1,0 +1,3248 @@
+{
+  "referenceCommit": "cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8",
+  "source": "reference/OpenTTD/src/table/company_face.h",
+  "sourceSha256": "2090b121ab78b8bc852dbc88c915df655924346d42e86fe0b893cbdc80c7cbf0",
+  "styles": [
+    {
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "fields": [
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 0,
+          "uiPosition": 3,
+          "bitOffset": 3,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_MOUSTACHE",
+          "hiddenWhenValue0": [
+            6
+          ],
+          "hiddenWhenValue1": [
+            7,
+            8
+          ]
+        },
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 1,
+          "uiPosition": 11,
+          "bitOffset": 4,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "hiddenWhenValue0": [
+            13
+          ],
+          "hiddenWhenValue1": []
+        },
+        {
+          "kind": "Palette",
+          "sourceVarIndex": 2,
+          "uiPosition": 2,
+          "bitOffset": 5,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_EYECOLOUR",
+          "affectedSourceVarIndices": [
+            5
+          ],
+          "paletteNames": [
+            "brown",
+            "blue",
+            "green"
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 3,
+          "uiPosition": 0,
+          "bitOffset": 0,
+          "bitLength": 0,
+          "validValues": 1,
+          "name": "fixed-base",
+          "sourceSpriteIds": [
+            805
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 4,
+          "uiPosition": 7,
+          "bitOffset": 7,
+          "bitLength": 2,
+          "validValues": 4,
+          "name": "STR_FACE_CHIN",
+          "sourceSpriteIds": [
+            807,
+            808,
+            809,
+            810
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 5,
+          "uiPosition": 1,
+          "bitOffset": 9,
+          "bitLength": 4,
+          "validValues": 12,
+          "name": "STR_FACE_EYEBROWS",
+          "sourceSpriteIds": [
+            811,
+            812,
+            813,
+            814,
+            815,
+            816,
+            817,
+            818,
+            819,
+            820,
+            821,
+            822
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 6,
+          "uiPosition": 4,
+          "bitOffset": 13,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_MOUSTACHE",
+          "sourceSpriteIds": [
+            871,
+            872,
+            873
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 7,
+          "uiPosition": 6,
+          "bitOffset": 13,
+          "bitLength": 4,
+          "validValues": 12,
+          "name": "STR_FACE_LIPS",
+          "sourceSpriteIds": [
+            859,
+            860,
+            861,
+            862,
+            863,
+            864,
+            865,
+            866,
+            867,
+            868,
+            869,
+            870
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 8,
+          "uiPosition": 5,
+          "bitOffset": 17,
+          "bitLength": 3,
+          "validValues": 8,
+          "name": "STR_FACE_NOSE",
+          "sourceSpriteIds": [
+            841,
+            842,
+            843,
+            844,
+            845,
+            846,
+            847,
+            848
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 9,
+          "uiPosition": 0,
+          "bitOffset": 20,
+          "bitLength": 4,
+          "validValues": 9,
+          "name": "STR_FACE_HAIR",
+          "sourceSpriteIds": [
+            898,
+            899,
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            906
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 10,
+          "uiPosition": 9,
+          "bitOffset": 26,
+          "bitLength": 2,
+          "validValues": 4,
+          "name": "STR_FACE_COLLAR",
+          "sourceSpriteIds": [
+            878,
+            879,
+            880,
+            881
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 11,
+          "uiPosition": 8,
+          "bitOffset": 24,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_JACKET",
+          "sourceSpriteIds": [
+            875,
+            876,
+            877
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 12,
+          "uiPosition": 10,
+          "bitOffset": 28,
+          "bitLength": 3,
+          "validValues": 6,
+          "name": "STR_FACE_TIE",
+          "sourceSpriteIds": [
+            882,
+            883,
+            884,
+            885,
+            886,
+            887
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 13,
+          "uiPosition": 12,
+          "bitOffset": 31,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "sourceSpriteIds": [
+            839,
+            840
+          ]
+        }
+      ],
+      "spriteValueSlots": 64
+    },
+    {
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "fields": [
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 0,
+          "uiPosition": 9,
+          "bitOffset": 3,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_EARRING",
+          "hiddenWhenValue0": [
+            11
+          ],
+          "hiddenWhenValue1": []
+        },
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 1,
+          "uiPosition": 7,
+          "bitOffset": 4,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "hiddenWhenValue0": [
+            12
+          ],
+          "hiddenWhenValue1": []
+        },
+        {
+          "kind": "Palette",
+          "sourceVarIndex": 2,
+          "uiPosition": 2,
+          "bitOffset": 5,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_EYECOLOUR",
+          "affectedSourceVarIndices": [
+            5
+          ],
+          "paletteNames": [
+            "brown",
+            "blue",
+            "green"
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 3,
+          "uiPosition": 0,
+          "bitOffset": 0,
+          "bitLength": 0,
+          "validValues": 1,
+          "name": "fixed-base",
+          "sourceSpriteIds": [
+            806
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 4,
+          "uiPosition": 0,
+          "bitOffset": 0,
+          "bitLength": 0,
+          "validValues": 1,
+          "name": "fixed-base",
+          "sourceSpriteIds": [
+            807
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 5,
+          "uiPosition": 1,
+          "bitOffset": 9,
+          "bitLength": 4,
+          "validValues": 16,
+          "name": "STR_FACE_EYEBROWS",
+          "sourceSpriteIds": [
+            823,
+            824,
+            825,
+            826,
+            827,
+            828,
+            829,
+            830,
+            831,
+            832,
+            833,
+            834,
+            835,
+            836,
+            837,
+            838
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 6,
+          "uiPosition": 4,
+          "bitOffset": 13,
+          "bitLength": 4,
+          "validValues": 10,
+          "name": "STR_FACE_LIPS",
+          "sourceSpriteIds": [
+            849,
+            850,
+            851,
+            852,
+            853,
+            854,
+            855,
+            856,
+            857,
+            858
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 7,
+          "uiPosition": 3,
+          "bitOffset": 17,
+          "bitLength": 3,
+          "validValues": 4,
+          "name": "STR_FACE_NOSE",
+          "sourceSpriteIds": [
+            844,
+            845,
+            846,
+            847
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 8,
+          "uiPosition": 0,
+          "bitOffset": 20,
+          "bitLength": 4,
+          "validValues": 5,
+          "name": "STR_FACE_HAIR",
+          "sourceSpriteIds": [
+            907,
+            908,
+            909,
+            910,
+            911
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 9,
+          "uiPosition": 6,
+          "bitOffset": 26,
+          "bitLength": 2,
+          "validValues": 4,
+          "name": "STR_FACE_COLLAR",
+          "sourceSpriteIds": [
+            891,
+            892,
+            893,
+            894
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 10,
+          "uiPosition": 5,
+          "bitOffset": 24,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_JACKET",
+          "sourceSpriteIds": [
+            888,
+            889,
+            890
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 11,
+          "uiPosition": 10,
+          "bitOffset": 28,
+          "bitLength": 3,
+          "validValues": 3,
+          "name": "STR_FACE_EARRING",
+          "sourceSpriteIds": [
+            895,
+            896,
+            897
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 12,
+          "uiPosition": 8,
+          "bitOffset": 31,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "sourceSpriteIds": [
+            839,
+            840
+          ]
+        }
+      ],
+      "spriteValueSlots": 49
+    },
+    {
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "fields": [
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 0,
+          "uiPosition": 2,
+          "bitOffset": 3,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_MOUSTACHE",
+          "hiddenWhenValue0": [
+            5
+          ],
+          "hiddenWhenValue1": [
+            6,
+            7
+          ]
+        },
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 1,
+          "uiPosition": 10,
+          "bitOffset": 4,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "hiddenWhenValue0": [
+            12
+          ],
+          "hiddenWhenValue1": []
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 2,
+          "uiPosition": 0,
+          "bitOffset": 0,
+          "bitLength": 0,
+          "validValues": 1,
+          "name": "fixed-base",
+          "sourceSpriteIds": [
+            912
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 3,
+          "uiPosition": 6,
+          "bitOffset": 7,
+          "bitLength": 2,
+          "validValues": 2,
+          "name": "STR_FACE_CHIN",
+          "sourceSpriteIds": [
+            913,
+            914
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 4,
+          "uiPosition": 1,
+          "bitOffset": 9,
+          "bitLength": 4,
+          "validValues": 11,
+          "name": "STR_FACE_EYEBROWS",
+          "sourceSpriteIds": [
+            922,
+            923,
+            924,
+            925,
+            926,
+            927,
+            928,
+            929,
+            930,
+            931,
+            932
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 5,
+          "uiPosition": 3,
+          "bitOffset": 13,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_MOUSTACHE",
+          "sourceSpriteIds": [
+            919,
+            920,
+            921
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 6,
+          "uiPosition": 5,
+          "bitOffset": 13,
+          "bitLength": 4,
+          "validValues": 9,
+          "name": "STR_FACE_LIPS",
+          "sourceSpriteIds": [
+            933,
+            934,
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 7,
+          "uiPosition": 4,
+          "bitOffset": 17,
+          "bitLength": 3,
+          "validValues": 4,
+          "name": "STR_FACE_NOSE",
+          "sourceSpriteIds": [
+            915,
+            916,
+            917,
+            918
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 8,
+          "uiPosition": 0,
+          "bitOffset": 20,
+          "bitLength": 4,
+          "validValues": 5,
+          "name": "STR_FACE_HAIR",
+          "sourceSpriteIds": [
+            980,
+            981,
+            982,
+            983,
+            984
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 9,
+          "uiPosition": 8,
+          "bitOffset": 26,
+          "bitLength": 2,
+          "validValues": 4,
+          "name": "STR_FACE_COLLAR",
+          "sourceSpriteIds": [
+            878,
+            879,
+            880,
+            881
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 10,
+          "uiPosition": 7,
+          "bitOffset": 24,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_JACKET",
+          "sourceSpriteIds": [
+            875,
+            876,
+            877
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 11,
+          "uiPosition": 9,
+          "bitOffset": 28,
+          "bitLength": 3,
+          "validValues": 6,
+          "name": "STR_FACE_TIE",
+          "sourceSpriteIds": [
+            882,
+            883,
+            884,
+            885,
+            886,
+            887
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 12,
+          "uiPosition": 11,
+          "bitOffset": 31,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "sourceSpriteIds": [
+            942,
+            943
+          ]
+        }
+      ],
+      "spriteValueSlots": 50
+    },
+    {
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "fields": [
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 0,
+          "uiPosition": 9,
+          "bitOffset": 3,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_EARRING",
+          "hiddenWhenValue0": [
+            10
+          ],
+          "hiddenWhenValue1": []
+        },
+        {
+          "kind": "Toggle",
+          "sourceVarIndex": 1,
+          "uiPosition": 7,
+          "bitOffset": 4,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "hiddenWhenValue0": [
+            11
+          ],
+          "hiddenWhenValue1": []
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 2,
+          "uiPosition": 0,
+          "bitOffset": 0,
+          "bitLength": 0,
+          "validValues": 1,
+          "name": "fixed-base",
+          "sourceSpriteIds": [
+            944
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 3,
+          "uiPosition": 4,
+          "bitOffset": 7,
+          "bitLength": 2,
+          "validValues": 2,
+          "name": "STR_FACE_CHIN",
+          "sourceSpriteIds": [
+            945,
+            946
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 4,
+          "uiPosition": 1,
+          "bitOffset": 9,
+          "bitLength": 4,
+          "validValues": 16,
+          "name": "STR_FACE_EYEBROWS",
+          "sourceSpriteIds": [
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958,
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 5,
+          "uiPosition": 3,
+          "bitOffset": 13,
+          "bitLength": 4,
+          "validValues": 9,
+          "name": "STR_FACE_LIPS",
+          "sourceSpriteIds": [
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 6,
+          "uiPosition": 2,
+          "bitOffset": 17,
+          "bitLength": 3,
+          "validValues": 5,
+          "name": "STR_FACE_NOSE",
+          "sourceSpriteIds": [
+            947,
+            948,
+            949,
+            950,
+            951
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 7,
+          "uiPosition": 0,
+          "bitOffset": 20,
+          "bitLength": 4,
+          "validValues": 5,
+          "name": "STR_FACE_HAIR",
+          "sourceSpriteIds": [
+            985,
+            986,
+            987,
+            988,
+            989
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 8,
+          "uiPosition": 6,
+          "bitOffset": 26,
+          "bitLength": 2,
+          "validValues": 4,
+          "name": "STR_FACE_COLLAR",
+          "sourceSpriteIds": [
+            891,
+            892,
+            893,
+            894
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 9,
+          "uiPosition": 5,
+          "bitOffset": 24,
+          "bitLength": 2,
+          "validValues": 3,
+          "name": "STR_FACE_JACKET",
+          "sourceSpriteIds": [
+            888,
+            889,
+            890
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 10,
+          "uiPosition": 10,
+          "bitOffset": 28,
+          "bitLength": 3,
+          "validValues": 3,
+          "name": "STR_FACE_EARRING",
+          "sourceSpriteIds": [
+            977,
+            978,
+            979
+          ]
+        },
+        {
+          "kind": "Sprite",
+          "sourceVarIndex": 11,
+          "uiPosition": 8,
+          "bitOffset": 31,
+          "bitLength": 1,
+          "validValues": 2,
+          "name": "STR_FACE_GLASSES",
+          "sourceSpriteIds": [
+            942,
+            943
+          ]
+        }
+      ],
+      "spriteValueSlots": 50
+    }
+  ],
+  "requirements": [
+    {
+      "requirementId": "manager-style-0-var-0-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "hiddenSourceVarIndices": [
+        6
+      ]
+    },
+    {
+      "requirementId": "manager-style-0-var-0-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "hiddenSourceVarIndices": [
+        7,
+        8
+      ]
+    },
+    {
+      "requirementId": "manager-style-0-var-1-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": [
+        13
+      ]
+    },
+    {
+      "requirementId": "manager-style-0-var-1-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": []
+    },
+    {
+      "requirementId": "manager-style-0-var-2-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 2,
+      "kind": "Palette",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EYECOLOUR",
+      "paletteName": "brown",
+      "affectedSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-0-var-2-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 2,
+      "kind": "Palette",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EYECOLOUR",
+      "paletteName": "blue",
+      "affectedSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-0-var-2-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 2,
+      "kind": "Palette",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EYECOLOUR",
+      "paletteName": "green",
+      "affectedSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-0-var-3-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 3,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "fixed-base",
+      "sourceSpriteId": 805
+    },
+    {
+      "requirementId": "manager-style-0-var-4-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 807
+    },
+    {
+      "requirementId": "manager-style-0-var-4-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 808
+    },
+    {
+      "requirementId": "manager-style-0-var-4-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 809
+    },
+    {
+      "requirementId": "manager-style-0-var-4-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 810
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 811
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 812
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 813
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 814
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-4",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 815
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-5",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 816
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-6",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 817
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-7",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 818
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-8",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 819
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-9",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 9,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 820
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-10",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 10,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 821
+    },
+    {
+      "requirementId": "manager-style-0-var-5-value-11",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 11,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 822
+    },
+    {
+      "requirementId": "manager-style-0-var-6-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "sourceSpriteId": 871
+    },
+    {
+      "requirementId": "manager-style-0-var-6-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "sourceSpriteId": 872
+    },
+    {
+      "requirementId": "manager-style-0-var-6-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "sourceSpriteId": 873
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 859
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 860
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 861
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 862
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-4",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 863
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-5",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 864
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-6",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 865
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-7",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 866
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-8",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 867
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-9",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 9,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 868
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-10",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 10,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 869
+    },
+    {
+      "requirementId": "manager-style-0-var-7-value-11",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 11,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 870
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 841
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 842
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 843
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 844
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-4",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 845
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-5",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 846
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-6",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 847
+    },
+    {
+      "requirementId": "manager-style-0-var-8-value-7",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 848
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 898
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 899
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 900
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 901
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-4",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 902
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-5",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 903
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-6",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 904
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-7",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 905
+    },
+    {
+      "requirementId": "manager-style-0-var-9-value-8",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 906
+    },
+    {
+      "requirementId": "manager-style-0-var-10-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 878
+    },
+    {
+      "requirementId": "manager-style-0-var-10-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 879
+    },
+    {
+      "requirementId": "manager-style-0-var-10-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 880
+    },
+    {
+      "requirementId": "manager-style-0-var-10-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 881
+    },
+    {
+      "requirementId": "manager-style-0-var-11-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 875
+    },
+    {
+      "requirementId": "manager-style-0-var-11-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 876
+    },
+    {
+      "requirementId": "manager-style-0-var-11-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 877
+    },
+    {
+      "requirementId": "manager-style-0-var-12-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 882
+    },
+    {
+      "requirementId": "manager-style-0-var-12-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 883
+    },
+    {
+      "requirementId": "manager-style-0-var-12-value-2",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 884
+    },
+    {
+      "requirementId": "manager-style-0-var-12-value-3",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 885
+    },
+    {
+      "requirementId": "manager-style-0-var-12-value-4",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 886
+    },
+    {
+      "requirementId": "manager-style-0-var-12-value-5",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 887
+    },
+    {
+      "requirementId": "manager-style-0-var-13-value-0",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 13,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 839
+    },
+    {
+      "requirementId": "manager-style-0-var-13-value-1",
+      "sourceStyle": 0,
+      "sourceStyleLabel": "default/face1",
+      "sourceVarIndex": 13,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 840
+    },
+    {
+      "requirementId": "manager-style-1-var-0-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EARRING",
+      "hiddenSourceVarIndices": [
+        11
+      ]
+    },
+    {
+      "requirementId": "manager-style-1-var-0-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EARRING",
+      "hiddenSourceVarIndices": []
+    },
+    {
+      "requirementId": "manager-style-1-var-1-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": [
+        12
+      ]
+    },
+    {
+      "requirementId": "manager-style-1-var-1-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": []
+    },
+    {
+      "requirementId": "manager-style-1-var-2-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 2,
+      "kind": "Palette",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EYECOLOUR",
+      "paletteName": "brown",
+      "affectedSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-1-var-2-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 2,
+      "kind": "Palette",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EYECOLOUR",
+      "paletteName": "blue",
+      "affectedSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-1-var-2-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 2,
+      "kind": "Palette",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EYECOLOUR",
+      "paletteName": "green",
+      "affectedSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-1-var-3-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 3,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "fixed-base",
+      "sourceSpriteId": 806
+    },
+    {
+      "requirementId": "manager-style-1-var-4-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "fixed-base",
+      "sourceSpriteId": 807
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 823
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 824
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 825
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-3",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 826
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-4",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 827
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-5",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 828
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-6",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 829
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-7",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 830
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-8",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 831
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-9",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 9,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 832
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-10",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 10,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 833
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-11",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 11,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 834
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-12",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 12,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 835
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-13",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 13,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 836
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-14",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 14,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 837
+    },
+    {
+      "requirementId": "manager-style-1-var-5-value-15",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 15,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 838
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 849
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 850
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 851
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-3",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 852
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-4",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 853
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-5",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 854
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-6",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 855
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-7",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 856
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-8",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 857
+    },
+    {
+      "requirementId": "manager-style-1-var-6-value-9",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 9,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 858
+    },
+    {
+      "requirementId": "manager-style-1-var-7-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 844
+    },
+    {
+      "requirementId": "manager-style-1-var-7-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 845
+    },
+    {
+      "requirementId": "manager-style-1-var-7-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 846
+    },
+    {
+      "requirementId": "manager-style-1-var-7-value-3",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 847
+    },
+    {
+      "requirementId": "manager-style-1-var-8-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 907
+    },
+    {
+      "requirementId": "manager-style-1-var-8-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 908
+    },
+    {
+      "requirementId": "manager-style-1-var-8-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 909
+    },
+    {
+      "requirementId": "manager-style-1-var-8-value-3",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 910
+    },
+    {
+      "requirementId": "manager-style-1-var-8-value-4",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 911
+    },
+    {
+      "requirementId": "manager-style-1-var-9-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 891
+    },
+    {
+      "requirementId": "manager-style-1-var-9-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 892
+    },
+    {
+      "requirementId": "manager-style-1-var-9-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 893
+    },
+    {
+      "requirementId": "manager-style-1-var-9-value-3",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 894
+    },
+    {
+      "requirementId": "manager-style-1-var-10-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 888
+    },
+    {
+      "requirementId": "manager-style-1-var-10-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 889
+    },
+    {
+      "requirementId": "manager-style-1-var-10-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 890
+    },
+    {
+      "requirementId": "manager-style-1-var-11-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EARRING",
+      "sourceSpriteId": 895
+    },
+    {
+      "requirementId": "manager-style-1-var-11-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EARRING",
+      "sourceSpriteId": 896
+    },
+    {
+      "requirementId": "manager-style-1-var-11-value-2",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EARRING",
+      "sourceSpriteId": 897
+    },
+    {
+      "requirementId": "manager-style-1-var-12-value-0",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 839
+    },
+    {
+      "requirementId": "manager-style-1-var-12-value-1",
+      "sourceStyle": 1,
+      "sourceStyleLabel": "default/face2",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 840
+    },
+    {
+      "requirementId": "manager-style-2-var-0-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "hiddenSourceVarIndices": [
+        5
+      ]
+    },
+    {
+      "requirementId": "manager-style-2-var-0-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "hiddenSourceVarIndices": [
+        6,
+        7
+      ]
+    },
+    {
+      "requirementId": "manager-style-2-var-1-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": [
+        12
+      ]
+    },
+    {
+      "requirementId": "manager-style-2-var-1-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": []
+    },
+    {
+      "requirementId": "manager-style-2-var-2-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 2,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "fixed-base",
+      "sourceSpriteId": 912
+    },
+    {
+      "requirementId": "manager-style-2-var-3-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 3,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 913
+    },
+    {
+      "requirementId": "manager-style-2-var-3-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 3,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 914
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 922
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 923
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 924
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-3",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 925
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-4",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 926
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-5",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 927
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-6",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 928
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-7",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 929
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-8",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 930
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-9",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 9,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 931
+    },
+    {
+      "requirementId": "manager-style-2-var-4-value-10",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 10,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 932
+    },
+    {
+      "requirementId": "manager-style-2-var-5-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "sourceSpriteId": 919
+    },
+    {
+      "requirementId": "manager-style-2-var-5-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "sourceSpriteId": 920
+    },
+    {
+      "requirementId": "manager-style-2-var-5-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_MOUSTACHE",
+      "sourceSpriteId": 921
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 933
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 934
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 935
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-3",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 936
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-4",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 937
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-5",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 938
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-6",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 939
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-7",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 940
+    },
+    {
+      "requirementId": "manager-style-2-var-6-value-8",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 941
+    },
+    {
+      "requirementId": "manager-style-2-var-7-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 915
+    },
+    {
+      "requirementId": "manager-style-2-var-7-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 916
+    },
+    {
+      "requirementId": "manager-style-2-var-7-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 917
+    },
+    {
+      "requirementId": "manager-style-2-var-7-value-3",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 918
+    },
+    {
+      "requirementId": "manager-style-2-var-8-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 980
+    },
+    {
+      "requirementId": "manager-style-2-var-8-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 981
+    },
+    {
+      "requirementId": "manager-style-2-var-8-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 982
+    },
+    {
+      "requirementId": "manager-style-2-var-8-value-3",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 983
+    },
+    {
+      "requirementId": "manager-style-2-var-8-value-4",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 984
+    },
+    {
+      "requirementId": "manager-style-2-var-9-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 878
+    },
+    {
+      "requirementId": "manager-style-2-var-9-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 879
+    },
+    {
+      "requirementId": "manager-style-2-var-9-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 880
+    },
+    {
+      "requirementId": "manager-style-2-var-9-value-3",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 881
+    },
+    {
+      "requirementId": "manager-style-2-var-10-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 875
+    },
+    {
+      "requirementId": "manager-style-2-var-10-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 876
+    },
+    {
+      "requirementId": "manager-style-2-var-10-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 877
+    },
+    {
+      "requirementId": "manager-style-2-var-11-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 882
+    },
+    {
+      "requirementId": "manager-style-2-var-11-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 883
+    },
+    {
+      "requirementId": "manager-style-2-var-11-value-2",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 884
+    },
+    {
+      "requirementId": "manager-style-2-var-11-value-3",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 885
+    },
+    {
+      "requirementId": "manager-style-2-var-11-value-4",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 886
+    },
+    {
+      "requirementId": "manager-style-2-var-11-value-5",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_TIE",
+      "sourceSpriteId": 887
+    },
+    {
+      "requirementId": "manager-style-2-var-12-value-0",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 942
+    },
+    {
+      "requirementId": "manager-style-2-var-12-value-1",
+      "sourceStyle": 2,
+      "sourceStyleLabel": "default/face3",
+      "sourceVarIndex": 12,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 943
+    },
+    {
+      "requirementId": "manager-style-3-var-0-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EARRING",
+      "hiddenSourceVarIndices": [
+        10
+      ]
+    },
+    {
+      "requirementId": "manager-style-3-var-0-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 0,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EARRING",
+      "hiddenSourceVarIndices": []
+    },
+    {
+      "requirementId": "manager-style-3-var-1-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": [
+        11
+      ]
+    },
+    {
+      "requirementId": "manager-style-3-var-1-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 1,
+      "kind": "Toggle",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "hiddenSourceVarIndices": []
+    },
+    {
+      "requirementId": "manager-style-3-var-2-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 2,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "fixed-base",
+      "sourceSpriteId": 944
+    },
+    {
+      "requirementId": "manager-style-3-var-3-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 3,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 945
+    },
+    {
+      "requirementId": "manager-style-3-var-3-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 3,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_CHIN",
+      "sourceSpriteId": 946
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 952
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 953
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 954
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-3",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 955
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-4",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 956
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-5",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 957
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-6",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 958
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-7",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 959
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-8",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 960
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-9",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 9,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 961
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-10",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 10,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 962
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-11",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 11,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 963
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-12",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 12,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 964
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-13",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 13,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 965
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-14",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 14,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 966
+    },
+    {
+      "requirementId": "manager-style-3-var-4-value-15",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 4,
+      "kind": "Sprite",
+      "sourceValue": 15,
+      "fieldName": "STR_FACE_EYEBROWS",
+      "sourceSpriteId": 967
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 968
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 969
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 970
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-3",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 971
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-4",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 972
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-5",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 5,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 973
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-6",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 6,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 974
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-7",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 7,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 975
+    },
+    {
+      "requirementId": "manager-style-3-var-5-value-8",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 5,
+      "kind": "Sprite",
+      "sourceValue": 8,
+      "fieldName": "STR_FACE_LIPS",
+      "sourceSpriteId": 976
+    },
+    {
+      "requirementId": "manager-style-3-var-6-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 947
+    },
+    {
+      "requirementId": "manager-style-3-var-6-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 948
+    },
+    {
+      "requirementId": "manager-style-3-var-6-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 949
+    },
+    {
+      "requirementId": "manager-style-3-var-6-value-3",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 950
+    },
+    {
+      "requirementId": "manager-style-3-var-6-value-4",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 6,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_NOSE",
+      "sourceSpriteId": 951
+    },
+    {
+      "requirementId": "manager-style-3-var-7-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 985
+    },
+    {
+      "requirementId": "manager-style-3-var-7-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 986
+    },
+    {
+      "requirementId": "manager-style-3-var-7-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 987
+    },
+    {
+      "requirementId": "manager-style-3-var-7-value-3",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 988
+    },
+    {
+      "requirementId": "manager-style-3-var-7-value-4",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 7,
+      "kind": "Sprite",
+      "sourceValue": 4,
+      "fieldName": "STR_FACE_HAIR",
+      "sourceSpriteId": 989
+    },
+    {
+      "requirementId": "manager-style-3-var-8-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 891
+    },
+    {
+      "requirementId": "manager-style-3-var-8-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 892
+    },
+    {
+      "requirementId": "manager-style-3-var-8-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 893
+    },
+    {
+      "requirementId": "manager-style-3-var-8-value-3",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 8,
+      "kind": "Sprite",
+      "sourceValue": 3,
+      "fieldName": "STR_FACE_COLLAR",
+      "sourceSpriteId": 894
+    },
+    {
+      "requirementId": "manager-style-3-var-9-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 888
+    },
+    {
+      "requirementId": "manager-style-3-var-9-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 889
+    },
+    {
+      "requirementId": "manager-style-3-var-9-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 9,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_JACKET",
+      "sourceSpriteId": 890
+    },
+    {
+      "requirementId": "manager-style-3-var-10-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_EARRING",
+      "sourceSpriteId": 977
+    },
+    {
+      "requirementId": "manager-style-3-var-10-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_EARRING",
+      "sourceSpriteId": 978
+    },
+    {
+      "requirementId": "manager-style-3-var-10-value-2",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 10,
+      "kind": "Sprite",
+      "sourceValue": 2,
+      "fieldName": "STR_FACE_EARRING",
+      "sourceSpriteId": 979
+    },
+    {
+      "requirementId": "manager-style-3-var-11-value-0",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 0,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 942
+    },
+    {
+      "requirementId": "manager-style-3-var-11-value-1",
+      "sourceStyle": 3,
+      "sourceStyleLabel": "default/face4",
+      "sourceVarIndex": 11,
+      "kind": "Sprite",
+      "sourceValue": 1,
+      "fieldName": "STR_FACE_GLASSES",
+      "sourceSpriteId": 943
+    }
+  ],
+  "spriteValueSlots": 213,
+  "uniqueSourceSpriteIds": 184
+}

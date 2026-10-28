@@ -1,0 +1,60 @@
+{
+  "id": "industry-22-water-tower",
+  "file": "assets/world/industries/water-tower.png",
+  "sha256": "8855d3c6b9befc012f2b6d0a8db3387c8cb447a45461d3de01299c1585e69ccf",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    482,
+    428,
+    784,
+    827
+  ],
+  "nativePaintingBounds": [
+    483,
+    428,
+    782,
+    827
+  ],
+  "uniformScale": 0.9624060150375939,
+  "pasteXY": [
+    111,
+    64
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    111,
+    64,
+    402,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-c.png",
+    "sha256": "5d0106d538514752887dab941c2b3c7ca8942f66f447ba114342d7590712ad83",
+    "record": "source-art/world/industry-c.png.generation.json"
+  },
+  "sourceIndustryTypeId": 22,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

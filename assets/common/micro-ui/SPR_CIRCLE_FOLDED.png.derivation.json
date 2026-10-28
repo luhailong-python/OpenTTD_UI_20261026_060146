@@ -1,0 +1,63 @@
+{
+  "id": "SPR_CIRCLE_FOLDED",
+  "image": "assets/common/micro-ui/SPR_CIRCLE_FOLDED.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "bc6c2be47f1da6ae11dc3c34f2e2099e119723add58e1dd2dae986b627d9056a",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/common/reference-step-plus.png",
+      "sha256": "cc5a01c6224ab1d2c5b29e448ccd8a18d4fd30d431dd068c279d598f2237e71f",
+      "record": "assets/common/reference-step-plus.png.generation.json"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_CIRCLE_FOLDED",
+  "sourceSpriteId": 5043,
+  "category": "common-control",
+  "functionalGlyph": null,
+  "geometryFile": null,
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      24,
+      48
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

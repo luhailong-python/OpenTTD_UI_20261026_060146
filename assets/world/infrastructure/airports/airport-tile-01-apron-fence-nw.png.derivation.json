@@ -1,0 +1,69 @@
+{
+  "id": "airport-tile-01-apron-fence-nw",
+  "image": "assets/world/infrastructure/airports/airport-tile-01-apron-fence-nw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "1dba1dd59db82bbd6cb9c17571ad1fcaa10aee7a0b41cddd81bf10fa8c5a6b8c",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-nw.png",
+      "sha256": "09676bbd986b0b9b6b34a24ecb694df6a41f33d25de89853faa1c1550eeae5cc",
+      "record": "assets/world/infrastructure/airports/airport-fence-nw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 1,
+  "sourceTileEnum": "APT_APRON_FENCE_NW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_fence_nw) // APT_APRON_FENCE_NW",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-nw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-intercontinental",
+    "airport-metropolitan",
+    "airport-tile-01-apron-fence-nw"
+  ]
+}

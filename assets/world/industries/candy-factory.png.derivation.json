@@ -1,0 +1,60 @@
+{
+  "id": "industry-27-candy-factory",
+  "file": "assets/world/industries/candy-factory.png",
+  "sha256": "545fbbfda1e3b63c4b8b5550d130e501045d8dc7e49221113c9a797766617439",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    8,
+    41,
+    427,
+    389
+  ],
+  "nativePaintingBounds": [
+    8,
+    41,
+    426,
+    388
+  ],
+  "uniformScale": 0.9164677804295943,
+  "pasteXY": [
+    64,
+    129
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    129,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-d.png",
+    "sha256": "b5329fcc645bf679b32bc15c40a1d5728c931e4917086e79f3b873028ad5ca11",
+    "record": "source-art/world/industry-d.png.generation.json"
+  },
+  "sourceIndustryTypeId": 27,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

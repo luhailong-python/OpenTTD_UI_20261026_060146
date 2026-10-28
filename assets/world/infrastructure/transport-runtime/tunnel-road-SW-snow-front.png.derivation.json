@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-road-SW-snow-front",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-road-SW-snow-front.png",
+  "sha256": "1a91789cd96c94db85e531408bf55ab1f923ada7507e89354e0915800acf0d41",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-snow.png",
+      "sha256": "c8c491c16f912b428cef841d7b5f91e560ab9b1eee99136b9d4149068ea7e5e7",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-snow.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-road"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:15.983466+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

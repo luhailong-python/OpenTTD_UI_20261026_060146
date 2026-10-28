@@ -1,0 +1,68 @@
+{
+  "id": "airport-tile-25-stand-1",
+  "image": "assets/world/infrastructure/airports/airport-tile-25-stand-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "92976ce871952a64d7d83be08dba68f53fc14a4a2cbb259dc23b75d55c78a246",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-taxi-mask-08.png",
+      "sha256": "86774c425c291bc0dbd0aa542bce56ead20908b6eef68ea9661b64ab57b202e7",
+      "record": "assets/world/infrastructure/airports/airport-ground-taxi-mask-08.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-jetbridge.png",
+      "sha256": "12f4fe3766dfd559fd94906a7ca8e9486b30a74d65f30a035e7567748c0580d2",
+      "record": "assets/world/infrastructure/airports/airport-jetbridge.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 25,
+  "sourceTileEnum": "APT_STAND_1",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_AIRCRAFT_STAND,     _station_display_jetway_1)  // APT_STAND_1",
+  "layers": [
+    {
+      "artId": "airport-ground-taxi-mask-08",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-jetbridge",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "building"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-metropolitan",
+    "airport-tile-25-stand-1"
+  ]
+}

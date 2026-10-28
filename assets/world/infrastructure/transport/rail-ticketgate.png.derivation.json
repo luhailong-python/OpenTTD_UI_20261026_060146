@@ -1,0 +1,49 @@
+{
+  "id": "rail-ticketgate",
+  "image": "assets/world/infrastructure/transport/rail-ticketgate.png",
+  "sha256": "0915c2fb97a2d3562585866660d24602f14107350934f9df3239a8c4ddc38b29",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/station-kit.png",
+      "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+      "record": "source-art/world/station-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    1124,
+    726,
+    1507,
+    1016
+  ],
+  "scaleApplied": 1,
+  "sourceAtlas": "station-kit",
+  "sourceComponent": 12,
+  "contentSize": [
+    383,
+    290
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

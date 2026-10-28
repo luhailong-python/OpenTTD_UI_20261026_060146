@@ -1,0 +1,61 @@
+{
+  "id": "tree-25",
+  "image": "assets/world/vegetation/mature/tree-25.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "ca6d555c2faf299fc943c2c3d704405e6081ff2bea1448db0058ee05d871487c",
+  "climate": "tropical",
+  "artSpecies": "rubber",
+  "sourceTreeType": 25,
+  "sourceCell": 5,
+  "sourceCropXYXY": [
+    491,
+    359,
+    802,
+    695
+  ],
+  "sourceAnchorInCrop": [
+    126.0,
+    336
+  ],
+  "nativeCropSize": [
+    311,
+    336
+  ],
+  "uniformScale": 0.6486486486486487,
+  "pasteXY": [
+    46,
+    134
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-tropical.png",
+    "sha256": "4c66ac2d46f9ece8c56c130ba66f85727cacdfa1f614089d63d1f3d6bdfccaad",
+    "record": "source-art/world/trees-tropical.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-25"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": [
+    {
+      "originalComponent": 1,
+      "splitAxis": "y",
+      "splitAt": 362,
+      "reason": "row1 oil-palm ground and row2 mahogany foliage tangent; ownership cut, not procedural repaint"
+    }
+  ]
+}

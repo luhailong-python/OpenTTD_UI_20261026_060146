@@ -1,0 +1,66 @@
+{
+  "file": "assets/transport-valley.png",
+  "sha256": "09536b77113e3e42c8a597d24c42ac2e2f16e7367b57eaa1263bfb5c79cb3c84",
+  "generatedAt": "2026-10-26T10:05:03.593353+00:00",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolResultId": null,
+  "outputFileId": "143e5795-af5b-45e4-9879-af3ed377730f",
+  "generatedAtEvidence": "本地生成输出PNG的文件落盘时间，UTC；工具未返回服务端生成时间。",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept. Create a polished high-definition Chinese Taoist chibi hand-painted game illustration for a transport management simulation tentatively titled 云途万里. Input image 1 and 2 are STRICT STYLE references only: match their beautiful jade/teal, warm ivory, delicate warm-gold craftsmanship, rounded architectural forms, refined hand-painted shading. Do NOT reproduce their mail/team UI, text, people, frames or nighttime.\nCreate a wide 16:9 landscape at the highest native resolution available, preferably 3840x2160. Pure illustration, NO letters, numbers, typography, logos, watermarks, interface or frame. Bright clear daylight in a magical Chinese mountain transport valley, beautiful readable isometric 3/4 view. A small rounded jade-and-brass steam locomotive with several short coaches follows a precisely continuous double rail curve from bottom left through a traditional jade-roof train station in lower center toward a mountain tunnel upper right. A separate stone road connects a tiny jade delivery truck to a riverside warehouse and warm-ivory town. A river winds through right third with a single small cargo junk and wooden dock, a modest tiny cream-and-jade airship above a small landing ground in far middle left (visual theme only). Keep distinct rail, road and water routes, coherent bridges and no impossible intersections. Round trees beside buildings not blocking routes. Tiny Taoist chibi workers in context, not dominant. Celadon mountains, waterfalls, cloud wisps, peach blossom highlights, 2 or 3 red lanterns. Clean detailed foreground, light atmospheric distance. Center and upper-left calm enough for menu or panels overlays. Premium cohesive original art, not pixel art, no photorealism, no plastic gloss, not a toy diorama, avoid noisy repetitive detailing.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint_path": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a7-6d36-72f1-8ac7-6c557c4ea2e3\\exec-143e5795-af5b-45e4-9879-af3ed377730f.png",
+    "nativeSizeFromSavedPNG": [
+      1672,
+      941
+    ]
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际模型版本或质量；配置目标不是实际返回证明。",
+  "prompt": "Use case: stylized-concept. Create a polished high-definition Chinese Taoist chibi hand-painted game illustration for a transport management simulation tentatively titled 云途万里. Input image 1 and 2 are STRICT STYLE references only: match their beautiful jade/teal, warm ivory, delicate warm-gold craftsmanship, rounded architectural forms, refined hand-painted shading. Do NOT reproduce their mail/team UI, text, people, frames or nighttime.\nCreate a wide 16:9 landscape at the highest native resolution available, preferably 3840x2160. Pure illustration, NO letters, numbers, typography, logos, watermarks, interface or frame. Bright clear daylight in a magical Chinese mountain transport valley, beautiful readable isometric 3/4 view. A small rounded jade-and-brass steam locomotive with several short coaches follows a precisely continuous double rail curve from bottom left through a traditional jade-roof train station in lower center toward a mountain tunnel upper right. A separate stone road connects a tiny jade delivery truck to a riverside warehouse and warm-ivory town. A river winds through right third with a single small cargo junk and wooden dock, a modest tiny cream-and-jade airship above a small landing ground in far middle left (visual theme only). Keep distinct rail, road and water routes, coherent bridges and no impossible intersections. Round trees beside buildings not blocking routes. Tiny Taoist chibi workers in context, not dominant. Celadon mountains, waterfalls, cloud wisps, peach blossom highlights, 2 or 3 red lanterns. Clean detailed foreground, light atmospheric distance. Center and upper-left calm enough for menu or panels overlays. Premium cohesive original art, not pixel art, no photorealism, no plastic gloss, not a toy diorama, avoid noisy repetitive detailing.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    }
+  ],
+  "promptFile": "records/01-transport-valley.prompt.txt"
+}

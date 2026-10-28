@@ -1,0 +1,39 @@
+{
+  "id": "tree-34-growing-3",
+  "image": "assets/world/vegetation/states/tree-34/2-growing-3.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "9bf8aa6f53917d614864da4c5e30fd3a0f1e716e4db3ed4cde02d64606bbc2f0",
+  "climate": "toyland",
+  "artSpecies": "cotton-candy",
+  "sourceTreeType": 34,
+  "sourceGrowthStage": 2,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-34.png",
+      "sha256": "51d12a2f62a0f01dc1351266dbe436342559c4b5fe1727b0a86fd3f4c9a3f3bc",
+      "record": "assets/world/vegetation/mature/tree-34.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.76,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-34"
+  ]
+}

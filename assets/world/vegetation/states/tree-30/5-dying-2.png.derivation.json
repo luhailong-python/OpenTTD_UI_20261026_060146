@@ -1,0 +1,46 @@
+{
+  "id": "tree-30-dying-2",
+  "image": "assets/world/vegetation/states/tree-30/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "178c2a951a12198e99a08ed206ea9bef19883a252756135519b99c6e790310ea",
+  "climate": "tropical",
+  "artSpecies": "baobab",
+  "sourceTreeType": 30,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-30.png",
+      "sha256": "e2588b30b89c416ff6eccdba12bdcab7e85dba206fb273022b6dbd110815dd18",
+      "record": "assets/world/vegetation/mature/tree-30.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dying-baobab.png",
+      "sha256": "29588eeb45d2f4fb76d990b4741e690b13ada464753a4864b2087052b5ce7cc3",
+      "record": "assets/world/vegetation/lifecycle/dying-baobab.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dying-baobab",
+    "sharedScale": 0.8090178571428571,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-30"
+  ]
+}

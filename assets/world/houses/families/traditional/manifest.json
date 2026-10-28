@@ -1,0 +1,1043 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:14:55.163939+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "house-family-thatched-cottage",
+      "image": "assets/world/houses/families/traditional/house-family-thatched-cottage.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        0,
+        504,
+        329
+      ],
+      "sourceCropSize": [
+        504,
+        329
+      ],
+      "alphaTrimBox": [
+        61,
+        44,
+        481,
+        319
+      ],
+      "sourceAnchorPx": [
+        280,
+        316
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        37,
+        176
+      ],
+      "contentNativeSize": [
+        420,
+        275
+      ],
+      "contentExportSize": [
+        420,
+        275
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 67,
+        "componentCorePixels": 71200
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "9856407ea8e10a070cd26ddbe7b33ec5cbd36ad45cd38a175ffe319af07ecff7",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        376.6
+      ],
+      "familyId": "thatched-cottage",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-courtyard-dwelling",
+      "image": "assets/world/houses/families/traditional/house-family-courtyard-dwelling.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        505,
+        0,
+        1021,
+        337
+      ],
+      "sourceCropSize": [
+        516,
+        337
+      ],
+      "alphaTrimBox": [
+        12,
+        7,
+        478,
+        333
+      ],
+      "sourceAnchorPx": [
+        263,
+        328
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        5,
+        127
+      ],
+      "contentNativeSize": [
+        466,
+        326
+      ],
+      "contentExportSize": [
+        466,
+        326
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 151,
+        "componentCorePixels": 99276
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "a233bc503d9612d15bb1068bdedbf6ba4fd3bfaa533e6d26471ffeddb69e9f10",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        368.78
+      ],
+      "familyId": "courtyard-dwelling",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-timber-rowhouse",
+      "image": "assets/world/houses/families/traditional/house-family-timber-rowhouse.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1022,
+        0,
+        1536,
+        336
+      ],
+      "sourceCropSize": [
+        514,
+        336
+      ],
+      "alphaTrimBox": [
+        11,
+        13,
+        475,
+        325
+      ],
+      "sourceAnchorPx": [
+        245,
+        324
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        22,
+        137
+      ],
+      "contentNativeSize": [
+        464,
+        312
+      ],
+      "contentExportSize": [
+        464,
+        312
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 371,
+        "componentCorePixels": 92189
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "c9d8cb60dcaccd5fd8483d1ff640f572b0d4524395c6fdf202ac215f02ea4e96",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        369.12
+      ],
+      "familyId": "timber-rowhouse",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-paired-gables",
+      "image": "assets/world/houses/families/traditional/house-family-paired-gables.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        328,
+        493,
+        647
+      ],
+      "sourceCropSize": [
+        493,
+        319
+      ],
+      "alphaTrimBox": [
+        59,
+        1,
+        481,
+        309
+      ],
+      "sourceAnchorPx": [
+        279,
+        308
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        36,
+        141
+      ],
+      "contentNativeSize": [
+        422,
+        308
+      ],
+      "contentExportSize": [
+        422,
+        308
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 102,
+        "componentCorePixels": 83587
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "8485e89e6852eaae0c61d4fcdc2dfb3c0330ca5f5f4d580b395b2d6dfabf5e94",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        376.26
+      ],
+      "familyId": "paired-gables",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-courtyard-mansion",
+      "image": "assets/world/houses/families/traditional/house-family-courtyard-mansion.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        494,
+        326,
+        1075,
+        671
+      ],
+      "sourceCropSize": [
+        581,
+        345
+      ],
+      "alphaTrimBox": [
+        7,
+        1,
+        575,
+        336
+      ],
+      "sourceAnchorPx": [
+        306,
+        332
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.8561872909698997,
+      "targetOffsetPx": [
+        0,
+        165
+      ],
+      "contentNativeSize": [
+        568,
+        335
+      ],
+      "contentExportSize": [
+        486,
+        287
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 652,
+        "componentCorePixels": 122823
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "f10201dcf0916c300908b99a2179d1a04de8725e8925d7163b0a3105cf47c8a2",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        365.3265551839465
+      ],
+      "familyId": "courtyard-mansion",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-pavilion-apartments",
+      "image": "assets/world/houses/families/traditional/house-family-pavilion-apartments.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed; authored Alpha-only removal of neighbouring atlas fragments",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1076,
+        305,
+        1536,
+        691
+      ],
+      "sourceCropSize": [
+        460,
+        386
+      ],
+      "alphaTrimBox": [
+        13,
+        10,
+        422,
+        357
+      ],
+      "sourceAnchorPx": [
+        212,
+        354
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        57,
+        104
+      ],
+      "contentNativeSize": [
+        409,
+        347
+      ],
+      "contentExportSize": [
+        409,
+        347
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 1501,
+        "componentCorePixels": 95727
+      },
+      "authoredAlphaCleanup": [
+        {
+          "operation": "authored Alpha erase of adjacent atlas fragment",
+          "rect": [
+            170,
+            344,
+            202,
+            371
+          ]
+        },
+        {
+          "operation": "keep actual gold finial pixels; remove touching low-chroma neighbouring floor by Alpha only",
+          "rect": [
+            114,
+            0,
+            274,
+            22
+          ],
+          "condition": "R>1.12G and G>1.25B"
+        }
+      ],
+      "sha256": "f6e8352063b10e3903efbe1ac6a21ef1eec8cdca02c3aa1771d9b79791ce38d6",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        378.47
+      ],
+      "familyId": "pavilion-apartments",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-small-temple-chapel",
+      "image": "assets/world/houses/families/traditional/house-family-small-temple-chapel.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        643,
+        486,
+        1024
+      ],
+      "sourceCropSize": [
+        486,
+        381
+      ],
+      "alphaTrimBox": [
+        42,
+        2,
+        457,
+        354
+      ],
+      "sourceAnchorPx": [
+        264,
+        352
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        34,
+        98
+      ],
+      "contentNativeSize": [
+        415,
+        352
+      ],
+      "contentExportSize": [
+        415,
+        352
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 671,
+        "componentCorePixels": 91089
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "e571b8e84e8e5d8e79c3a2112beaab8a478044e84c0944950138bc5cc3fd7c7c",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        377.45
+      ],
+      "familyId": "small-temple-chapel",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-city-temple",
+      "image": "assets/world/houses/families/traditional/house-family-city-temple.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed; authored Alpha-only removal of neighbouring atlas fragments",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        470,
+        647,
+        1024,
+        1024
+      ],
+      "sourceCropSize": [
+        554,
+        377
+      ],
+      "alphaTrimBox": [
+        8,
+        2,
+        543,
+        358
+      ],
+      "sourceAnchorPx": [
+        289,
+        361
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9110320284697508,
+      "targetOffsetPx": [
+        0,
+        121
+      ],
+      "contentNativeSize": [
+        535,
+        356
+      ],
+      "contentExportSize": [
+        487,
+        324
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 847,
+        "componentCorePixels": 120213
+      },
+      "authoredAlphaCleanup": [
+        {
+          "operation": "keep actual gold finial pixels; remove touching low-chroma neighbouring floor by Alpha only",
+          "rect": [
+            180,
+            0,
+            310,
+            21
+          ],
+          "condition": "R>1.12G and G>1.25B"
+        }
+      ],
+      "sha256": "defb89487277eff4a124bfe9a737936ff5016e274e7b651435ff499e8d8ea71f",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        365.14163701067616
+      ],
+      "familyId": "city-temple",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-townhall",
+      "image": "assets/world/houses/families/traditional/house-family-townhall.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed; authored Alpha-only removal of neighbouring atlas fragments",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-traditional.png",
+          "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+          "record": "source-art/world/houses-traditional.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1025,
+        641,
+        1536,
+        1024
+      ],
+      "sourceCropSize": [
+        511,
+        383
+      ],
+      "alphaTrimBox": [
+        3,
+        6,
+        498,
+        367
+      ],
+      "sourceAnchorPx": [
+        269,
+        364
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9624060150375939,
+      "targetOffsetPx": [
+        0,
+        103
+      ],
+      "contentNativeSize": [
+        495,
+        361
+      ],
+      "contentExportSize": [
+        476,
+        347
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 401,
+        "componentCorePixels": 102877
+      },
+      "authoredAlphaCleanup": [
+        {
+          "operation": "keep actual gold finial pixels; remove touching low-chroma neighbouring floor by Alpha only",
+          "rect": [
+            145,
+            0,
+            315,
+            22
+          ],
+          "condition": "R>1.12G and G>1.25B"
+        }
+      ],
+      "sha256": "fabf1045865e7b18b45e15c63ffd628e9240f5bd4adb5c41be9f36f1335caa21",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        367.0135338345865
+      ],
+      "familyId": "townhall",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    }
+  ],
+  "qa": [
+    {
+      "id": "house-family-thatched-cottage.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        0,
+        0,
+        504,
+        329
+      ]
+    },
+    {
+      "id": "house-family-courtyard-dwelling.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        505,
+        0,
+        1021,
+        337
+      ]
+    },
+    {
+      "id": "house-family-timber-rowhouse.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        1022,
+        0,
+        1536,
+        336
+      ]
+    },
+    {
+      "id": "house-family-paired-gables.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        0,
+        328,
+        493,
+        647
+      ]
+    },
+    {
+      "id": "house-family-courtyard-mansion.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        494,
+        326,
+        1075,
+        671
+      ]
+    },
+    {
+      "id": "house-family-pavilion-apartments.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        1076,
+        305,
+        1536,
+        691
+      ]
+    },
+    {
+      "id": "house-family-small-temple-chapel.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        0,
+        643,
+        486,
+        1024
+      ]
+    },
+    {
+      "id": "house-family-city-temple.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        470,
+        647,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "house-family-townhall.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-traditional.png",
+      "sourceBox": [
+        1025,
+        641,
+        1536,
+        1024
+      ]
+    }
+  ],
+  "acceptance": "local Alpha,source boundary,source hash and complete contact-sheet visual checks passed; user art review pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "house-families-traditional",
+  "anchorConvention": "front-contact of complete native site; per-instance logical centre correction recorded separately"
+}

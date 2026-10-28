@@ -1,0 +1,26 @@
+{
+  "id": "ground-dry-layout-0-slope-flat",
+  "image": "previews/world/rocks-overlay/assemblies/ground-dry-layout-0-slope-flat.png",
+  "sha256": "5ae82e1deabf351d241d2470650659f0f854432a264dcaa592f4d54d6ba5d15d",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-grass-slope-flat.png",
+      "sha256": "1777186325f117f54b48984baa2efea56b675737df7a7d0fd6d84a2e409cdae8",
+      "record": "assets/world/terrain/terrain-grass-slope-flat.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-flat.png",
+      "sha256": "b0c3be9a4dcdf614f771a0e2c3f40222c31afd5277cf8f50525cc43deb5c9042",
+      "record": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-flat.png.derivation.json"
+    }
+  ],
+  "operation": "Actual grass/snow material underlay at explicit fraction plus independent native painted rock overlay; source snow is on rock parts, not a white recolour",
+  "context": "clear-normal",
+  "slopeCode": 0,
+  "overlayId": "rocks-dry-layout-0-slope-flat",
+  "groundFraction": 0,
+  "label": "dry v0 / flat",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

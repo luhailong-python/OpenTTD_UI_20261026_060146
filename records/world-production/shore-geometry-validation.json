@@ -1,0 +1,5545 @@
+{
+  "createdAt": "2026-10-28T11:36:40.411893+00:00",
+  "manifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "manifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceHeightProbe": {
+    "tool": "C:\\Program Files\\LLVM\\bin\\clang++.EXE",
+    "probeSource": "records/world-production/shore-source-height-probe.cpp",
+    "probeSHA256": "5fa2918034d8642e9e99cb427c4d5c97f8bc5ed31688917e8a42e4cc0ba923bf",
+    "sampleCount": 4624,
+    "sourceSwitchExtractedVerbatim": true,
+    "constants": {
+      "TILE_SIZE": 16,
+      "TILE_HEIGHT": 8
+    },
+    "scope": "Natural full-tile slopes only; excludes upstream half-tile early branch by contract"
+  },
+  "validStates": 48,
+  "reservedBindings": 6,
+  "actualFormalPNGs": 148,
+  "checks": [
+    {
+      "id": "actual-source48-state-matrix",
+      "passed": true
+    },
+    {
+      "id": "six-reserved-slots-no-fake-PNG",
+      "passed": true
+    },
+    {
+      "id": "source-excludes-flat-saddle-half",
+      "passed": true
+    },
+    {
+      "id": "upstream-table-including-steep-remap",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-00-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-00-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-00-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-00-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-00-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-00-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-00-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-00-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-00-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-00-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-00-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-00-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-00-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-00-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-00-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-00-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-00-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-00-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-00-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-00-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-00-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-00-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        7
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-00-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-00-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-00-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-00-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-00-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-01.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-water-slot-01.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-01.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-01-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-01-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-01-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-01-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-01-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-01-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-01-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-01-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-01-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-01-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-01-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-01-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-01-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-01-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-01-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-01-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-01-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-01-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-01-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-01-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-01-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-01-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-01-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-01-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-01-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-01-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-01-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-02.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-water-slot-02.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-02.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-02-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-02-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-02-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-02-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-02-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-02-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-02-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-02-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-02-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-02-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-02-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-02-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-02-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-02-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-02-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-02-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-02-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-02-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-02-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-02-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-02-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-02-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-02-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-02-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-02-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-02-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-02-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-03-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-03-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-03-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-03-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-03-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-03-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-03-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-03-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-03-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-03-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-03-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-03-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-03-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-03-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-03-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-03-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-03-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-03-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-03-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-03-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-03-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-03-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        19
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-03-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-03-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-03-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-03-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-03-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-04.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-water-slot-04.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-04.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-04-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-04-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-04-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-04-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-04-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-04-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-04-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-04-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-04-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-04-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-04-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-04-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-04-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-04-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-04-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-04-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-04-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-04-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-04-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-04-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-04-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-04-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-04-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-04-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-04-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-04-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-04-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-05-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-05-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-05-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-05-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-05-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-05-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-05-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-05-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-05-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-05-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-05-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-05-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-05-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-05-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-05-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-05-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-05-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-05-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-05-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-05-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-05-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-05-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        10
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-05-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-05-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-05-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-05-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-05-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-06-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-06-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-06-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-06-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-06-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-06-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-06-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-06-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-06-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-06-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-06-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-06-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-06-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-06-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-06-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-06-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-06-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-06-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-06-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-06-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-06-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-06-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        19
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-06-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-06-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-06-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-06-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-06-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-07-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-07-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-07-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-07-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-07-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-07-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-07-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-07-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-07-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-07-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-07-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-07-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-07-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-07-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-07-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-07-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-07-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-07-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-07-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-07-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-07-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-07-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        7
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-07-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-07-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-07-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-07-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-07-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-08.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-water-slot-08.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-water-slot-08.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-08-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-08-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-08-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-08-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-08-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-08-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-08-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-08-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-08-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-08-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-08-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-08-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-08-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-08-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-08-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-08-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-08-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-08-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-08-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-08-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-08-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-08-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-08-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-08-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-08-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-08-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-08-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-09-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-09-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-09-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-09-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-09-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-09-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-09-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-09-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-09-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-09-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-09-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-09-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-09-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-09-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-09-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-09-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-09-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-09-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-09-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-09-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-09-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-09-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        32
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-09-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-09-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-09-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-09-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-09-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-10-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-10-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-10-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-10-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-10-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-10-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-10-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-10-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-10-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-10-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-10-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-10-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-10-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-10-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-10-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-10-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-10-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-10-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-10-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-10-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-10-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-10-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        16
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-10-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-10-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-10-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-10-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-10-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-11-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-11-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-11-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-11-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-11-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-11-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-11-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-11-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-11-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-11-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-11-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-11-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-11-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-11-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-11-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-11-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-11-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-11-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-11-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-11-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-11-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-11-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        10
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-11-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-11-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-11-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-11-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-11-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-12-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-12-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-12-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-12-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-12-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-12-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-12-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-12-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-12-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-12-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-12-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-12-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-12-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        253
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-12-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-12-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-12-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-12-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-12-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-12-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-12-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-12-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-12-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        32
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-12-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-12-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-12-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-12-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-12-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-13-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-13-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-13-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-13-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-13-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-13-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-13-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-13-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-13-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-13-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-13-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-13-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-13-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-13-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-13-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-13-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-13-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-13-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-13-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-13-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-13-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-13-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        16
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-13-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-13-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-13-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-13-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-13-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-14-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-14-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-14-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-14-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-14-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-14-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-14-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-14-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-14-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-14-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-14-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-14-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-14-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-14-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-14-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-14-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-14-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-14-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-14-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-14-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-14-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-14-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        10
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-14-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-14-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-14-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-14-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-14-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-15-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-15-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-15-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-15-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-grass-slot-15-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-15-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-15-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-grass-slot-15-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-grass-slot-15-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-15-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-15-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-15-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-15-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        252
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-sand-slot-15-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-15-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-15-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-sand-slot-15-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-sand-slot-15-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-15-land.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-15-land.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-15-land.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-15-bank.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        10
+      ],
+      "nativeSoftBankAlphaAllowed": true
+    },
+    {
+      "id": "shore-snow-slot-15-bank.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-15-bank.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-15-whole.formal-PNG",
+      "passed": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "nativeSoftBankAlphaAllowed": false
+    },
+    {
+      "id": "shore-snow-slot-15-whole.current-native-dependencies",
+      "passed": true
+    },
+    {
+      "id": "shore-snow-slot-15-whole.transparent-RGB-clean",
+      "passed": true
+    },
+    {
+      "id": "slope23.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope23.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope23.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope23.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope23.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 4,
+      "shorePx": [
+        128,
+        80
+      ],
+      "rockPx": [
+        128,
+        144
+      ]
+    },
+    {
+      "id": "slope23.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        184,
+        92
+      ],
+      "rockPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "id": "slope23.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 10,
+      "shorePx": [
+        112,
+        104
+      ],
+      "rockPx": [
+        112,
+        168
+      ]
+    },
+    {
+      "id": "slope23.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope23.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope1.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope1.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 128.0
+    },
+    {
+      "id": "slope1.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 496,
+      "issues": []
+    },
+    {
+      "id": "slope1.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        128,
+        96
+      ],
+      "rockPx": [
+        128,
+        160
+      ]
+    },
+    {
+      "id": "slope1.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        184,
+        124
+      ],
+      "rockPx": [
+        184,
+        188
+      ]
+    },
+    {
+      "id": "slope1.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 1,
+      "shorePx": [
+        112,
+        140
+      ],
+      "rockPx": [
+        112,
+        204
+      ]
+    },
+    {
+      "id": "slope1.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope1.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope2.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope2.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 128.0
+    },
+    {
+      "id": "slope2.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 512,
+      "issues": []
+    },
+    {
+      "id": "slope2.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        128,
+        96
+      ],
+      "rockPx": [
+        128,
+        160
+      ]
+    },
+    {
+      "id": "slope2.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        184,
+        124
+      ],
+      "rockPx": [
+        184,
+        188
+      ]
+    },
+    {
+      "id": "slope2.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 2,
+      "shorePx": [
+        112,
+        136
+      ],
+      "rockPx": [
+        112,
+        200
+      ]
+    },
+    {
+      "id": "slope2.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope2.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope3.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope3.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope3.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope3.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 2,
+      "shorePx": [
+        128,
+        88
+      ],
+      "rockPx": [
+        128,
+        152
+      ]
+    },
+    {
+      "id": "slope3.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 2,
+      "shorePx": [
+        184,
+        116
+      ],
+      "rockPx": [
+        184,
+        180
+      ]
+    },
+    {
+      "id": "slope3.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        112,
+        120
+      ],
+      "rockPx": [
+        112,
+        184
+      ]
+    },
+    {
+      "id": "slope3.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope3.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope4.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope4.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 128.0
+    },
+    {
+      "id": "slope4.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 512,
+      "issues": []
+    },
+    {
+      "id": "slope4.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        128,
+        96
+      ],
+      "rockPx": [
+        128,
+        160
+      ]
+    },
+    {
+      "id": "slope4.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 4,
+      "shorePx": [
+        184,
+        108
+      ],
+      "rockPx": [
+        184,
+        172
+      ]
+    },
+    {
+      "id": "slope4.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        112,
+        144
+      ],
+      "rockPx": [
+        112,
+        208
+      ]
+    },
+    {
+      "id": "slope4.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope4.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope27.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope27.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope27.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope27.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        128,
+        64
+      ],
+      "rockPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "slope27.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 4,
+      "shorePx": [
+        184,
+        108
+      ],
+      "rockPx": [
+        184,
+        172
+      ]
+    },
+    {
+      "id": "slope27.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 9,
+      "shorePx": [
+        112,
+        108
+      ],
+      "rockPx": [
+        112,
+        172
+      ]
+    },
+    {
+      "id": "slope27.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope27.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope6.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope6.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope6.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope6.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 2,
+      "shorePx": [
+        128,
+        88
+      ],
+      "rockPx": [
+        128,
+        152
+      ]
+    },
+    {
+      "id": "slope6.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        184,
+        100
+      ],
+      "rockPx": [
+        184,
+        164
+      ]
+    },
+    {
+      "id": "slope6.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 5,
+      "shorePx": [
+        112,
+        124
+      ],
+      "rockPx": [
+        112,
+        188
+      ]
+    },
+    {
+      "id": "slope6.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope6.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope7.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope7.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope7.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope7.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 4,
+      "shorePx": [
+        128,
+        80
+      ],
+      "rockPx": [
+        128,
+        144
+      ]
+    },
+    {
+      "id": "slope7.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        184,
+        92
+      ],
+      "rockPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "id": "slope7.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        112,
+        112
+      ],
+      "rockPx": [
+        112,
+        176
+      ]
+    },
+    {
+      "id": "slope7.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope7.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope8.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope8.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 128.5
+    },
+    {
+      "id": "slope8.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 498,
+      "issues": []
+    },
+    {
+      "id": "slope8.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 4,
+      "shorePx": [
+        128,
+        80
+      ],
+      "rockPx": [
+        128,
+        144
+      ]
+    },
+    {
+      "id": "slope8.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        184,
+        124
+      ],
+      "rockPx": [
+        184,
+        188
+      ]
+    },
+    {
+      "id": "slope8.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 0,
+      "shorePx": [
+        112,
+        144
+      ],
+      "rockPx": [
+        112,
+        208
+      ]
+    },
+    {
+      "id": "slope8.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope8.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope9.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope9.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope9.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope9.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        128,
+        72
+      ],
+      "rockPx": [
+        128,
+        136
+      ]
+    },
+    {
+      "id": "slope9.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 2,
+      "shorePx": [
+        184,
+        116
+      ],
+      "rockPx": [
+        184,
+        180
+      ]
+    },
+    {
+      "id": "slope9.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 3,
+      "shorePx": [
+        112,
+        132
+      ],
+      "rockPx": [
+        112,
+        196
+      ]
+    },
+    {
+      "id": "slope9.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope9.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope29.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope29.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope29.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope29.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 12,
+      "shorePx": [
+        128,
+        48
+      ],
+      "rockPx": [
+        128,
+        112
+      ]
+    },
+    {
+      "id": "slope29.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        184,
+        92
+      ],
+      "rockPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "id": "slope29.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        112,
+        120
+      ],
+      "rockPx": [
+        112,
+        184
+      ]
+    },
+    {
+      "id": "slope29.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope29.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope11.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope11.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope11.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope11.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        128,
+        64
+      ],
+      "rockPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "slope11.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 4,
+      "shorePx": [
+        184,
+        108
+      ],
+      "rockPx": [
+        184,
+        172
+      ]
+    },
+    {
+      "id": "slope11.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        112,
+        112
+      ],
+      "rockPx": [
+        112,
+        176
+      ]
+    },
+    {
+      "id": "slope11.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope11.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope12.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope12.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope12.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope12.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        128,
+        72
+      ],
+      "rockPx": [
+        128,
+        136
+      ]
+    },
+    {
+      "id": "slope12.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        184,
+        100
+      ],
+      "rockPx": [
+        184,
+        164
+      ]
+    },
+    {
+      "id": "slope12.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 2,
+      "shorePx": [
+        112,
+        136
+      ],
+      "rockPx": [
+        112,
+        200
+      ]
+    },
+    {
+      "id": "slope12.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope12.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope13.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope13.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope13.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope13.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        128,
+        64
+      ],
+      "rockPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "slope13.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        184,
+        92
+      ],
+      "rockPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "id": "slope13.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 6,
+      "shorePx": [
+        112,
+        120
+      ],
+      "rockPx": [
+        112,
+        184
+      ]
+    },
+    {
+      "id": "slope13.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope13.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope14.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope14.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope14.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope14.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        128,
+        64
+      ],
+      "rockPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "slope14.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        184,
+        92
+      ],
+      "rockPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "id": "slope14.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 7,
+      "shorePx": [
+        112,
+        116
+      ],
+      "rockPx": [
+        112,
+        180
+      ]
+    },
+    {
+      "id": "slope14.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope14.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.17x17-grid512triangles",
+      "passed": true
+    },
+    {
+      "id": "slope30.actual-C++-heights-and-straight-outer-edges",
+      "passed": true,
+      "interiorIntegerContacts": 225,
+      "continuousBoundaryVertices": 64,
+      "issues": []
+    },
+    {
+      "id": "slope30.true-zero-height-world-area",
+      "passed": true,
+      "worldArea": 0
+    },
+    {
+      "id": "slope30.actual-water-pixels-horizontal-zero-Z",
+      "passed": true,
+      "pixelSamples": 0,
+      "issues": []
+    },
+    {
+      "id": "slope30.rock-contact-4-4",
+      "passed": true,
+      "sourceZ": 8,
+      "shorePx": [
+        128,
+        64
+      ],
+      "rockPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "slope30.grass-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.sand-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.snow-actual-rock-support-4-4",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.rock-contact-4-11",
+      "passed": true,
+      "sourceZ": 12,
+      "shorePx": [
+        184,
+        76
+      ],
+      "rockPx": [
+        184,
+        140
+      ]
+    },
+    {
+      "id": "slope30.grass-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.sand-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.snow-actual-rock-support-4-11",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.rock-contact-11-9",
+      "passed": true,
+      "sourceZ": 7,
+      "shorePx": [
+        112,
+        116
+      ],
+      "rockPx": [
+        112,
+        180
+      ]
+    },
+    {
+      "id": "slope30.grass-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.sand-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "slope30.snow-actual-rock-support-11-9",
+      "passed": true,
+      "alpha": 255
+    },
+    {
+      "id": "grass-slot0.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot0.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot0.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot0.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot0.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot0.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot1.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot1.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot1.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot1.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot1.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot1.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot2.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot2.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot2.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot2.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot2.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot2.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot3.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot3.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot3.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot3.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot3.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot3.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot4.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot4.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot4.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot4.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot4.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot4.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot5.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot5.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot5.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot5.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot5.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot5.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot6.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot6.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot6.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot6.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot6.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot6.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot7.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot7.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot7.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot7.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot7.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot7.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot8.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot8.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot8.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot8.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot8.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot8.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot9.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot9.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot9.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot9.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot9.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot9.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot10.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot10.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot10.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot10.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot10.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot10.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot11.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot11.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot11.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot11.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot11.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot11.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot12.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot12.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot12.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot12.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot12.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot12.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot13.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot13.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot13.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot13.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot13.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot13.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot14.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot14.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot14.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot14.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot14.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot14.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "grass-slot15.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "grass-slot15.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "sand-slot15.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "sand-slot15.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "snow-slot15.exact-three-layer-reassembly",
+      "passed": true
+    },
+    {
+      "id": "snow-slot15.source-flooding-state",
+      "passed": true
+    },
+    {
+      "id": "previews/world/shore-geometry/grass-postures-1.jpg.current-page",
+      "passed": true
+    },
+    {
+      "id": "previews/world/shore-geometry/grass-postures-2.jpg.current-page",
+      "passed": true
+    },
+    {
+      "id": "previews/world/shore-geometry/sand-postures-1.jpg.current-page",
+      "passed": true
+    },
+    {
+      "id": "previews/world/shore-geometry/sand-postures-2.jpg.current-page",
+      "passed": true
+    },
+    {
+      "id": "previews/world/shore-geometry/snow-postures-1.jpg.current-page",
+      "passed": true
+    },
+    {
+      "id": "previews/world/shore-geometry/snow-postures-2.jpg.current-page",
+      "passed": true
+    },
+    {
+      "id": "all54-old-flat-shores-retired-from-authority",
+      "passed": true
+    },
+    {
+      "id": "old54-PNG-pixels-unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 808,
+  "failed": 0,
+  "waterPlaneEvidence": [
+    {
+      "sourceSlopeCode": 23,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 1,
+      "worldZeroArea": 128.0,
+      "waterPNG": "assets/world/terrain/shore-geometry/shore-water-slot-01.png",
+      "samples": 496
+    },
+    {
+      "sourceSlopeCode": 2,
+      "worldZeroArea": 128.0,
+      "waterPNG": "assets/world/terrain/shore-geometry/shore-water-slot-02.png",
+      "samples": 512
+    },
+    {
+      "sourceSlopeCode": 3,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 4,
+      "worldZeroArea": 128.0,
+      "waterPNG": "assets/world/terrain/shore-geometry/shore-water-slot-04.png",
+      "samples": 512
+    },
+    {
+      "sourceSlopeCode": 27,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 6,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 7,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 8,
+      "worldZeroArea": 128.5,
+      "waterPNG": "assets/world/terrain/shore-geometry/shore-water-slot-08.png",
+      "samples": 498
+    },
+    {
+      "sourceSlopeCode": 9,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 29,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 11,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 12,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 13,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 14,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    },
+    {
+      "sourceSlopeCode": 30,
+      "worldZeroArea": 0,
+      "waterPNG": null,
+      "samples": 0
+    }
+  ],
+  "rockContactEvidence": [
+    {
+      "sourceSlopeCode": 23,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 4,
+      "shoreContactPx": [
+        128,
+        80
+      ],
+      "rockContactPx": [
+        128,
+        144
+      ]
+    },
+    {
+      "sourceSlopeCode": 23,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        184,
+        92
+      ],
+      "rockContactPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "sourceSlopeCode": 23,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 10,
+      "shoreContactPx": [
+        112,
+        104
+      ],
+      "rockContactPx": [
+        112,
+        168
+      ]
+    },
+    {
+      "sourceSlopeCode": 1,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        128,
+        96
+      ],
+      "rockContactPx": [
+        128,
+        160
+      ]
+    },
+    {
+      "sourceSlopeCode": 1,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        184,
+        124
+      ],
+      "rockContactPx": [
+        184,
+        188
+      ]
+    },
+    {
+      "sourceSlopeCode": 1,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 1,
+      "shoreContactPx": [
+        112,
+        140
+      ],
+      "rockContactPx": [
+        112,
+        204
+      ]
+    },
+    {
+      "sourceSlopeCode": 2,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        128,
+        96
+      ],
+      "rockContactPx": [
+        128,
+        160
+      ]
+    },
+    {
+      "sourceSlopeCode": 2,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        184,
+        124
+      ],
+      "rockContactPx": [
+        184,
+        188
+      ]
+    },
+    {
+      "sourceSlopeCode": 2,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 2,
+      "shoreContactPx": [
+        112,
+        136
+      ],
+      "rockContactPx": [
+        112,
+        200
+      ]
+    },
+    {
+      "sourceSlopeCode": 3,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 2,
+      "shoreContactPx": [
+        128,
+        88
+      ],
+      "rockContactPx": [
+        128,
+        152
+      ]
+    },
+    {
+      "sourceSlopeCode": 3,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 2,
+      "shoreContactPx": [
+        184,
+        116
+      ],
+      "rockContactPx": [
+        184,
+        180
+      ]
+    },
+    {
+      "sourceSlopeCode": 3,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        112,
+        120
+      ],
+      "rockContactPx": [
+        112,
+        184
+      ]
+    },
+    {
+      "sourceSlopeCode": 4,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        128,
+        96
+      ],
+      "rockContactPx": [
+        128,
+        160
+      ]
+    },
+    {
+      "sourceSlopeCode": 4,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 4,
+      "shoreContactPx": [
+        184,
+        108
+      ],
+      "rockContactPx": [
+        184,
+        172
+      ]
+    },
+    {
+      "sourceSlopeCode": 4,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        112,
+        144
+      ],
+      "rockContactPx": [
+        112,
+        208
+      ]
+    },
+    {
+      "sourceSlopeCode": 27,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        128,
+        64
+      ],
+      "rockContactPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "sourceSlopeCode": 27,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 4,
+      "shoreContactPx": [
+        184,
+        108
+      ],
+      "rockContactPx": [
+        184,
+        172
+      ]
+    },
+    {
+      "sourceSlopeCode": 27,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 9,
+      "shoreContactPx": [
+        112,
+        108
+      ],
+      "rockContactPx": [
+        112,
+        172
+      ]
+    },
+    {
+      "sourceSlopeCode": 6,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 2,
+      "shoreContactPx": [
+        128,
+        88
+      ],
+      "rockContactPx": [
+        128,
+        152
+      ]
+    },
+    {
+      "sourceSlopeCode": 6,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        184,
+        100
+      ],
+      "rockContactPx": [
+        184,
+        164
+      ]
+    },
+    {
+      "sourceSlopeCode": 6,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 5,
+      "shoreContactPx": [
+        112,
+        124
+      ],
+      "rockContactPx": [
+        112,
+        188
+      ]
+    },
+    {
+      "sourceSlopeCode": 7,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 4,
+      "shoreContactPx": [
+        128,
+        80
+      ],
+      "rockContactPx": [
+        128,
+        144
+      ]
+    },
+    {
+      "sourceSlopeCode": 7,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        184,
+        92
+      ],
+      "rockContactPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "sourceSlopeCode": 7,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        112,
+        112
+      ],
+      "rockContactPx": [
+        112,
+        176
+      ]
+    },
+    {
+      "sourceSlopeCode": 8,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 4,
+      "shoreContactPx": [
+        128,
+        80
+      ],
+      "rockContactPx": [
+        128,
+        144
+      ]
+    },
+    {
+      "sourceSlopeCode": 8,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        184,
+        124
+      ],
+      "rockContactPx": [
+        184,
+        188
+      ]
+    },
+    {
+      "sourceSlopeCode": 8,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 0,
+      "shoreContactPx": [
+        112,
+        144
+      ],
+      "rockContactPx": [
+        112,
+        208
+      ]
+    },
+    {
+      "sourceSlopeCode": 9,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        128,
+        72
+      ],
+      "rockContactPx": [
+        128,
+        136
+      ]
+    },
+    {
+      "sourceSlopeCode": 9,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 2,
+      "shoreContactPx": [
+        184,
+        116
+      ],
+      "rockContactPx": [
+        184,
+        180
+      ]
+    },
+    {
+      "sourceSlopeCode": 9,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 3,
+      "shoreContactPx": [
+        112,
+        132
+      ],
+      "rockContactPx": [
+        112,
+        196
+      ]
+    },
+    {
+      "sourceSlopeCode": 29,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 12,
+      "shoreContactPx": [
+        128,
+        48
+      ],
+      "rockContactPx": [
+        128,
+        112
+      ]
+    },
+    {
+      "sourceSlopeCode": 29,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        184,
+        92
+      ],
+      "rockContactPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "sourceSlopeCode": 29,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        112,
+        120
+      ],
+      "rockContactPx": [
+        112,
+        184
+      ]
+    },
+    {
+      "sourceSlopeCode": 11,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        128,
+        64
+      ],
+      "rockContactPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "sourceSlopeCode": 11,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 4,
+      "shoreContactPx": [
+        184,
+        108
+      ],
+      "rockContactPx": [
+        184,
+        172
+      ]
+    },
+    {
+      "sourceSlopeCode": 11,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        112,
+        112
+      ],
+      "rockContactPx": [
+        112,
+        176
+      ]
+    },
+    {
+      "sourceSlopeCode": 12,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        128,
+        72
+      ],
+      "rockContactPx": [
+        128,
+        136
+      ]
+    },
+    {
+      "sourceSlopeCode": 12,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        184,
+        100
+      ],
+      "rockContactPx": [
+        184,
+        164
+      ]
+    },
+    {
+      "sourceSlopeCode": 12,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 2,
+      "shoreContactPx": [
+        112,
+        136
+      ],
+      "rockContactPx": [
+        112,
+        200
+      ]
+    },
+    {
+      "sourceSlopeCode": 13,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        128,
+        64
+      ],
+      "rockContactPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "sourceSlopeCode": 13,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        184,
+        92
+      ],
+      "rockContactPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "sourceSlopeCode": 13,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 6,
+      "shoreContactPx": [
+        112,
+        120
+      ],
+      "rockContactPx": [
+        112,
+        184
+      ]
+    },
+    {
+      "sourceSlopeCode": 14,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        128,
+        64
+      ],
+      "rockContactPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "sourceSlopeCode": 14,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        184,
+        92
+      ],
+      "rockContactPx": [
+        184,
+        156
+      ]
+    },
+    {
+      "sourceSlopeCode": 14,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 7,
+      "shoreContactPx": [
+        112,
+        116
+      ],
+      "rockContactPx": [
+        112,
+        180
+      ]
+    },
+    {
+      "sourceSlopeCode": 30,
+      "sourceTileXY": [
+        4,
+        4
+      ],
+      "sourceHeightUnits": 8,
+      "shoreContactPx": [
+        128,
+        64
+      ],
+      "rockContactPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "sourceSlopeCode": 30,
+      "sourceTileXY": [
+        4,
+        11
+      ],
+      "sourceHeightUnits": 12,
+      "shoreContactPx": [
+        184,
+        76
+      ],
+      "rockContactPx": [
+        184,
+        140
+      ]
+    },
+    {
+      "sourceSlopeCode": 30,
+      "sourceTileXY": [
+        11,
+        9
+      ],
+      "sourceHeightUnits": 7,
+      "shoreContactPx": [
+        112,
+        116
+      ],
+      "rockContactPx": [
+        112,
+        180
+      ]
+    }
+  ],
+  "claims": [
+    "Compiled actual upstream C++ natural-height switch;289vertices×16slopes compared, with continuous source boundary rule checked separately.",
+    "All48 actual three-layer reassemblies, every formal PNG/source SHA/Alpha and shared48rock contacts inspected programmatically.",
+    "Six reserved climate slots are not exported as counterfeit artwork."
+  ],
+  "limitations": [
+    "This is art geometry QA, not Unity runtime/import validation.",
+    "The mask is an explicit source-height reconstruction because upstream source selects external painted sprites rather than defining the pixel mask."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "farm-stone-offset-1",
+  "image": "assets/world/overlays/fence-adapter/farm-stone-offset-1.png",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "cf9658106fe00177bbb3b3c34e9cf8ecc49ffde80050e4de44a9db7c37850e9f",
+  "anchorPx": [
+    160,
+    192
+  ],
+  "pivotUnity": [
+    0.5,
+    0.4
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "source-fence-adapter",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/fence-stone.png",
+      "sha256": "421950cae0436c54ddac79cad2e5fa258e6e2dcd97d4dca043beb12cc0c4ec7d",
+      "record": "assets/world/infrastructure/fences-shore/fence-stone.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted fence-stone;vertical-post preserving affine ground-baseline projection;no code-drawn fence/paint,no new native viewpoint",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "terrain-fence"
+  ],
+  "sourceFamily": {
+    "fenceValue": 6,
+    "symbol": "SPR_HEDGE_STONE",
+    "spriteBase": 4120
+  },
+  "sourceSpriteOffset": 1,
+  "sourceSpriteId": 4121,
+  "sourceBaselineCalibration": {
+    "x0": 53,
+    "x1": 202,
+    "slope": -0.4256402506778084,
+    "intercept": 200.72246529475387,
+    "fitRMSE": 3.2449771295502847,
+    "method": "robust interior nativeAlpha ground-contact envelope,not claimed exact model perspective"
+  },
+  "localEndpointPx": [
+    [
+      96,
+      224.0
+    ],
+    [
+      224,
+      160.0
+    ]
+  ],
+  "localEndpointHeightDifferencePx": -64,
+  "actualVisualReview": "records/fence-adapter-visual-review.json"
+}

@@ -1,0 +1,71 @@
+{
+  "file": "source-art/world/shallow-seamless.png",
+  "sha256": "232ca50f5ddecbb75c361a1376b86360b015686fbd51a8a6311b83d4cbe38fe6",
+  "generatedAt": "2026-10-28T10:24:49.324Z",
+  "generatedAtEvidence": "records/world-production/shallow-seamless-call.json records actual UTC call times",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: opaque seamless square SHALLOW WATER surface material for the existing Taoist chibi transport management art pack.\nCreate ONE perfectly overhead full-bleed square texture with no perspective, no diamond, no border and no raised tile. A continuous calm pale jade-turquoise shallow-water surface over a subtle warm sandy bed, with delicate small hand-painted sunlight caustic ripples. Entire image is flat water material, suitable for repeating seamlessly in both horizontal and vertical directions. Opposite edges must continue naturally.\nImages1/2 are strict refined Taoist chibi hand-painted style and palette references only; do not reproduce their UI, buildings, characters, ornaments or text. Image3 shows the old shallow-water colors and brush finish. Correct its bright beige center and dark teal rim, which produce a repeated checkerboard when tiled. Keep the palette but change spatial distribution completely.\nThe whole square must have almost uniform average light turquoise value and clarity, with small subtle irregular ivory caustic lines distributed evenly edge-to-edge. No central sand island, no bright center, no dark perimeter, no shoreline, no rings, no grid, no diagonal bands and no large colored patches. Tiny fine water ripples only, gentle low contrast, refined crisp hand-painted brush texture, clean light palette. Every pixel fully opaque because this is a terrain surface; no transparency. No directional brightness gradient and no cast shadows.\nNo text, labels, logo, watermark, panel, UI, people, fish, boats, buildings, rocks, grass or other discrete objects. Separate shoreline modules already provide the bank boundary. Native high resolution requested; actual PNG dimensions will be recorded separately.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\docs\\reference-images\\shallow-before-repair.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-a3f45965-b8cd-45b5-8f67-d4382417fc05.png",
+    "nativeSizeFromPNG": [
+      1254,
+      1254
+    ],
+    "callRecord": "records/world-production/shallow-seamless-call.json"
+  },
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回亦未披露；配置目标不作为实际返回证明。",
+  "prompt": "Use case: stylized-concept\nAsset type: opaque seamless square SHALLOW WATER surface material for the existing Taoist chibi transport management art pack.\nCreate ONE perfectly overhead full-bleed square texture with no perspective, no diamond, no border and no raised tile. A continuous calm pale jade-turquoise shallow-water surface over a subtle warm sandy bed, with delicate small hand-painted sunlight caustic ripples. Entire image is flat water material, suitable for repeating seamlessly in both horizontal and vertical directions. Opposite edges must continue naturally.\nImages1/2 are strict refined Taoist chibi hand-painted style and palette references only; do not reproduce their UI, buildings, characters, ornaments or text. Image3 shows the old shallow-water colors and brush finish. Correct its bright beige center and dark teal rim, which produce a repeated checkerboard when tiled. Keep the palette but change spatial distribution completely.\nThe whole square must have almost uniform average light turquoise value and clarity, with small subtle irregular ivory caustic lines distributed evenly edge-to-edge. No central sand island, no bright center, no dark perimeter, no shoreline, no rings, no grid, no diagonal bands and no large colored patches. Tiny fine water ripples only, gentle low contrast, refined crisp hand-painted brush texture, clean light palette. Every pixel fully opaque because this is a terrain surface; no transparency. No directional brightness gradient and no cast shadows.\nNo text, labels, logo, watermark, panel, UI, people, fish, boats, buildings, rocks, grass or other discrete objects. Separate shoreline modules already provide the bank boundary. Native high resolution requested; actual PNG dimensions will be recorded separately.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\docs\\reference-images\\shallow-before-repair.png",
+      "sha256": "02f1b4a0cfbaeb124da6dba2140520f78403bec8fcdb66c7d1318ffa872a3f61",
+      "purpose": "old shallow material colour/detail reference before formal replacement"
+    }
+  ],
+  "promptFile": "records/world-production/shallow-seamless.prompt.txt",
+  "status": "native-material-master-visual-inspected; formal tiling derivative pending"
+}

@@ -1,0 +1,768 @@
+{
+  "createdAt": "2026-10-28T11:29:08.023341+00:00",
+  "nativeMasters": 5,
+  "materialNativeCells": 18,
+  "formalAssetCount": 1064,
+  "waterFrames": 24,
+  "warnings": [],
+  "checks": [
+    {
+      "id": "grass.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.645,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 16.188,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "bare.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.841,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "bare.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.983,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 5.431,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 17.086,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.053,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 14.651,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.084,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 3.944,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snowgrass.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 6.841,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snowgrass.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 16.544,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.021,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 2.409,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "tropical.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.989,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "tropical.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 12.34,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "toyland.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.516,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "toyland.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 13.7,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "shallow.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.461,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "shallow.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 10.865,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "shore-sand.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.727,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "shore-sand.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 12.01,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "riverbed.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.394,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "riverbed.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 13.853,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-0.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.812,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-0.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.879,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-1.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.798,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-1.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 9.67,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-2.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.276,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-2.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.468,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-3.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.61,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "grass-density-3.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 16.067,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-0.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.812,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-0.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.879,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-1.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.696,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-1.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 9.57,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-2.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.53,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-2.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.881,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-3.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 5.374,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rocks-density-3.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 17.02,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-0.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.47,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-0.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 12.001,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-1.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.42,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-1.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 8.179,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-2.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.384,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-2.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 4.858,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-3.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.103,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "snow-density-3.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 3.899,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-0.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.923,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-0.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 8.98,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-1.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.934,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-1.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 6.124,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-2.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.27,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-2.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 3.526,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-3.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 1.016,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "desert-density-3.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 2.368,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-00.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 5.374,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-00.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 17.02,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-01.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 6.493,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-01.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 13.005,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-02.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.062,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-02.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 14.547,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-03.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.264,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-03.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 14.608,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-04.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.384,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-04.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 14.01,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-05.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.739,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-05.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 17.169,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-06.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.379,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-06.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 14.363,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-07.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.463,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "rough-variant-07.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 12.214,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-00.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.851,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-00.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 13.374,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-01.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.046,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-01.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.225,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-02.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.146,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-02.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.137,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-03.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.237,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-03.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 9.73,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-04.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 5.554,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-04.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 12.842,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-05.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.016,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-05.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 12.091,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-06.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.178,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-06.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 7.761,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-07.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.242,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-07.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.62,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-08.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.304,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-08.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 9.964,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-09.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.241,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-09.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 11.684,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-10.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.216,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-10.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 10.48,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-11.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.349,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-11.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 13.026,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-12.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.206,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-12.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 9.538,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-13.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 3.848,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-13.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 10.389,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-14.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 2.294,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-14.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 9.957,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-15.oppositeUEdgeRMSE",
+      "level": "OK",
+      "value": 4.366,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    },
+    {
+      "id": "field-variant-15.oppositeVEdgeRMSE",
+      "level": "OK",
+      "value": 10.26,
+      "threshold": 18,
+      "meaning": "photometric edge check; visual repeat review separate"
+    }
+  ],
+  "claim": "Localized family export from explicitly recorded native masters. Edge metrics do not establish visual repeat acceptance.",
+  "localizedMaterialRepair": {
+    "materials": [
+      "shallow"
+    ],
+    "updatedFormalImages": 20,
+    "otherFormalImagesUnchanged": 1044,
+    "visualReview": "records/world-production/shallow-material-repair-visual.json"
+  },
+  "sourceQuarterDensityRepair": {
+    "materials": [
+      "snow",
+      "desert"
+    ],
+    "stages": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "fractions": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "updatedFormalImages": 160,
+    "otherFormalImagesUnchanged": 904,
+    "grassAndLegacyRoughDensitySemanticsUnchanged": true
+  }
+}

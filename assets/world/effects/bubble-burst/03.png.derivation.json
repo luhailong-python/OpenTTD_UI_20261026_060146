@@ -1,0 +1,61 @@
+{
+  "file": "assets/world/effects/bubble-burst/03.png",
+  "sha256": "671946efc14e1921faaeb8c220b9a1db5a58379a7b6897295c06afe0a1c81d24",
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "frame": 3,
+  "durationMs": 100,
+  "operation": "painted keys; explicit keyframe interpolation",
+  "sources": [
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-spark-bubble-fire.png",
+        "sha256": "96f82b9fc8ce743950271c1f02fb802c126202512dc2a9bf1be0b651e1c79376",
+        "record": "source-art/world/fx-spark-bubble-fire.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        99,
+        99
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+      "keyWeight": 1.0
+    },
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-spark-bubble-fire.png",
+        "sha256": "96f82b9fc8ce743950271c1f02fb802c126202512dc2a9bf1be0b651e1c79376",
+        "record": "source-art/world/fx-spark-bubble-fire.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        99,
+        99
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+      "keyWeight": 0.0
+    }
+  ],
+  "nativeModelGeneration": false,
+  "unityVerified": false
+}

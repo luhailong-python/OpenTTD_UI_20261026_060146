@@ -1,0 +1,46 @@
+{
+  "id": "tree-13-dead",
+  "image": "assets/world/vegetation/states/tree-13/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "0246f7d515dd6b11a054ce560677fcf1ed851a31c26f4f286950255a9cca085d",
+  "climate": "arctic",
+  "artSpecies": "blue-spruce",
+  "sourceTreeType": 13,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-13.png",
+      "sha256": "823ae5200e02019e89626fb0a8d3b401a8ee67293df77455591533f8e61fb322",
+      "record": "assets/world/vegetation/mature/tree-13.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png",
+      "sha256": "9f12687fd3a2ea92f835b6926f1a62d76e71b96c7ee583ea09a1f633766c20cd",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-stump",
+    "sharedScale": 0.4342857142857143,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-13"
+  ]
+}

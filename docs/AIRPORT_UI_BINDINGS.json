@@ -1,0 +1,785 @@
+{
+  "schema": "airport-build-ui-preview-bindings.v1",
+  "createdAt": "2026-10-28T10:34:02.274287+00:00",
+  "sourceRequirements": 9,
+  "bindings": [
+    {
+      "id": "SPR_AIRPORT_PREVIEW_SMALL",
+      "sourceSpriteId": 5969,
+      "sourcePreviewOffset": 0,
+      "airportKey": "country",
+      "sourceAirportTypeId": 0,
+      "displayName": "小型机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 274
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 368
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/country-layout.png",
+      "sha256": "81867098dedb6608ba1daec9764f54ea096e0c233c58dca72a7e83bee6cfa6f2",
+      "width": 1152,
+      "height": 896,
+      "alphaBounds": [
+        0,
+        153,
+        896,
+        704
+      ],
+      "sourceDerivationRecord": "previews/world/airports/country-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "c075d2b724d982676561446de84aed325aade19d0f29b1bc227618968e5e90c4",
+      "footprintTiles": [
+        4,
+        3
+      ],
+      "logicalTileCount": 12,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_LARGE",
+      "sourceSpriteId": 5970,
+      "sourcePreviewOffset": 1,
+      "airportKey": "city",
+      "sourceAirportTypeId": 1,
+      "displayName": "城市机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 275
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 369
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/city-layout.png",
+      "sha256": "3db8b7aa713f30f0256d0dde5d7bde83b8e18c65673e8543d0c61cd962645d90",
+      "width": 1792,
+      "height": 1216,
+      "alphaBounds": [
+        0,
+        224,
+        1536,
+        1024
+      ],
+      "sourceDerivationRecord": "previews/world/airports/city-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "20046c5e911606ad38b01c3ab4ed442d48a7943abf00ba72f6b9a76cfc414947",
+      "footprintTiles": [
+        6,
+        6
+      ],
+      "logicalTileCount": 36,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_HELIPORT",
+      "sourceSpriteId": 5971,
+      "sourcePreviewOffset": 2,
+      "airportKey": "heliport",
+      "sourceAirportTypeId": 2,
+      "displayName": "直升机停机楼",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 276
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 370
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/heliport-layout.png",
+      "sha256": "8bea49dd182bbf7431179a1d0bf599dda830af1e3c50623e65a486fa53749493",
+      "width": 512,
+      "height": 576,
+      "alphaBounds": [
+        0,
+        225,
+        256,
+        384
+      ],
+      "sourceDerivationRecord": "previews/world/airports/heliport-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "93425846391061bdb63e8e7510c2c3e589e009a9a7b0c933e9034f0d4a846a08",
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "logicalTileCount": 1,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_METROPOLITAN",
+      "sourceSpriteId": 5972,
+      "sourcePreviewOffset": 3,
+      "airportKey": "metropolitan",
+      "sourceAirportTypeId": 3,
+      "displayName": "都会机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 277
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 371
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/metropolitan-layout.png",
+      "sha256": "464a251fc4f02d77735cedbd9abb43586eeb28fb68b6d6913e336c9d232dcf38",
+      "width": 1792,
+      "height": 1216,
+      "alphaBounds": [
+        0,
+        224,
+        1536,
+        1024
+      ],
+      "sourceDerivationRecord": "previews/world/airports/metropolitan-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "da8b6cc211f75b16c37afdc1f99cb2edc7700756062fc9ac870971b921e6e99f",
+      "footprintTiles": [
+        6,
+        6
+      ],
+      "logicalTileCount": 36,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_INTERNATIONAL",
+      "sourceSpriteId": 5973,
+      "sourcePreviewOffset": 4,
+      "airportKey": "international",
+      "sourceAirportTypeId": 4,
+      "displayName": "国际机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 278
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 372
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/international-layout.png",
+      "sha256": "c67297aad0b95335fe0d8b3ba6f5d6d888c0e7b33c7f468861c72087f9e547e7",
+      "width": 2048,
+      "height": 1344,
+      "alphaBounds": [
+        0,
+        219,
+        1792,
+        1152
+      ],
+      "sourceDerivationRecord": "previews/world/airports/international-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "86ca653a21c3d4999ecba1b3583428c90bd5cf70aeb3eeb5d2802b05e5bbcc25",
+      "footprintTiles": [
+        7,
+        7
+      ],
+      "logicalTileCount": 49,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_COMMUTER",
+      "sourceSpriteId": 5974,
+      "sourcePreviewOffset": 5,
+      "airportKey": "commuter",
+      "sourceAirportTypeId": 5,
+      "displayName": "通勤机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 279
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 373
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/commuter-layout.png",
+      "sha256": "cf4a993e67ad898479e0405b617c70f8c87cae9769abf8693d9a9456852e82ee",
+      "width": 1408,
+      "height": 1024,
+      "alphaBounds": [
+        0,
+        100,
+        1152,
+        832
+      ],
+      "sourceDerivationRecord": "previews/world/airports/commuter-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "12d8efc9056f014f958bcd5ece575b6fbe0b06c458e6315c20b0f044ef635f94",
+      "footprintTiles": [
+        5,
+        4
+      ],
+      "logicalTileCount": 20,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_HELIDEPOT",
+      "sourceSpriteId": 5975,
+      "sourcePreviewOffset": 6,
+      "airportKey": "helidepot",
+      "sourceAirportTypeId": 6,
+      "displayName": "直升机专用机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 280
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 374
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/helidepot-layout.png",
+      "sha256": "73a44e9db1336b3d8f04487642ac4c126fb953ca37cd7fb8807e5a4c8a57ad97",
+      "width": 768,
+      "height": 704,
+      "alphaBounds": [
+        0,
+        222,
+        512,
+        512
+      ],
+      "sourceDerivationRecord": "previews/world/airports/helidepot-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "c59bf9886055e9d5138d1c88cb96122bfcb7885a78734b934b26e6819d986e26",
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "logicalTileCount": 4,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_INTERCONTINENTAL",
+      "sourceSpriteId": 5976,
+      "sourcePreviewOffset": 7,
+      "airportKey": "intercontinental",
+      "sourceAirportTypeId": 7,
+      "displayName": "洲际机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 281
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 375
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/intercontinental-layout.png",
+      "sha256": "89de972a7cab077e191cc1ec91fb28de5bc1a888ad6ab08bf8ec0c042aa9205c",
+      "width": 2816,
+      "height": 1728,
+      "alphaBounds": [
+        0,
+        162,
+        2560,
+        1536
+      ],
+      "sourceDerivationRecord": "previews/world/airports/intercontinental-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "f7d97969f23a02588b1a1d235434088a0b194c59ef2edb307b8695d3198622af",
+      "footprintTiles": [
+        9,
+        11
+      ],
+      "logicalTileCount": 99,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_AIRPORT_PREVIEW_HELISTATION",
+      "sourceSpriteId": 5977,
+      "sourcePreviewOffset": 8,
+      "airportKey": "helistation",
+      "sourceAirportTypeId": 8,
+      "displayName": "直升机小型机场",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 282
+      },
+      "sourceAirportSpec": {
+        "file": "reference/OpenTTD/src/table/airport_defaults.h",
+        "line": 376
+      },
+      "sourceUsage": [
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 410,
+          "role": "selected preview draw"
+        },
+        {
+          "file": "reference/OpenTTD/src/airport_gui.cpp",
+          "line": 490,
+          "role": "selected preview resolver"
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+          "line": 261,
+          "role": "custom preview or base fallback"
+        }
+      ],
+      "file": "previews/world/airports/helistation-layout.png",
+      "sha256": "177b889397a01dfbb98a59f5b8294476fc66e0cb3ec0ab9c3f5307a0f7fb4a79",
+      "width": 1024,
+      "height": 832,
+      "alphaBounds": [
+        0,
+        237,
+        768,
+        640
+      ],
+      "sourceDerivationRecord": "previews/world/airports/helistation-layout.png.derivation.json",
+      "sourceDerivationRecordSHA256": "f5ec8bd530a3ff8e5b67a292adf063102bcebd4d048def41e99c91291ff3ec77",
+      "footprintTiles": [
+        4,
+        2
+      ],
+      "logicalTileCount": 8,
+      "operation": "direct UI reuse of current existing assembled airport layout PNG; same bytes; gallery/contact only downscales for display; no copying/repainting/new original",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "newFormalPNG": false,
+      "uiImportSuggestion": {
+        "spriteMode": "Single",
+        "meshType": "FullRect",
+        "filterMode": "Bilinear",
+        "mipMaps": false,
+        "wrapMode": "Clamp",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "displayRectPx": [
+          384,
+          256
+        ],
+        "displayFit": "contain / preserve source aspect, same display rect all9",
+        "dynamicText": "airport name, dimensions,price,availability and tooltip independent of image",
+        "states": "same thumbnail; normal/selected/disabled use existing common row/button states; no thumbnail alignment change"
+      },
+      "companyColourHandling": "keep current illustrated layout unchanged; company indicator may use existing16colour flag next to name; UI tint shader/actual company palette application await Unity",
+      "localArtReviewed": true,
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "actualVisualReview": "records/airport-ui-visual-review.json"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "reference/OpenTTD/src/table/sprites.h",
+      "sha256": "de61564d8e349c115b579e63b63b47c38e3462b3c48fd50b8d8b0b7d448c87c8"
+    },
+    {
+      "file": "reference/OpenTTD/src/table/airport_defaults.h",
+      "sha256": "c371f5a5479dbed83e884aa9849ff67ee7fb1296096a53a3b0bb595cbb6abeb7"
+    },
+    {
+      "file": "reference/OpenTTD/src/airport_gui.cpp",
+      "sha256": "7ae0b49b56c582ca907a5f3146cd1cf63ddadc37b2157bab2f46823c28a7b9e5"
+    },
+    {
+      "file": "reference/OpenTTD/src/newgrf_airport.cpp",
+      "sha256": "57646e3721a6f474d8ed791acd630b1c7c506786509e042ffef1d4fa96848bc8"
+    }
+  ],
+  "existingAirportManifest": {
+    "file": "assets/world/infrastructure/airports/manifest.json",
+    "sha256": "2a1655cf8d2a2187a2084798a3561fd67c375f888b90c3cf214c359f8cc89da8"
+  },
+  "newFormalPNGCount": 0,
+  "reusedExistingPNGCount": 9,
+  "sourcePreviewSpriteBase": 5969,
+  "oilrigExcludedReason": "oilrig AirportSpec uses preview0 and buildable=false; not one of9airport build thumbnails",
+  "scope": "nine default built-in airport build previews; arbitrary externalNewGRF preview art remains supplied by its content resource",
+  "complete": true,
+  "failures": [],
+  "userArtAcceptance": "pending",
+  "unityValidated": false
+}

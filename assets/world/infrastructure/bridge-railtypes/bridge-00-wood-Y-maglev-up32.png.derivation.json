@@ -1,0 +1,177 @@
+{
+  "id": "bridge-00-wood-Y-maglev-up32",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-00-wood-Y-maglev-up32.png",
+  "sha256": "369a8b06dff81d7a6d9b1bd6ded535df38c8b7e3b2fc6ac187bf32a2ac24db3c",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-rear.png",
+      "sha256": "125dd7fd9af9bc3e1153a50c681baa20b8324f064edf3740d7aa7de399da658a",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-wood-span-Y-maglev-32.png",
+      "sha256": "3dc44e319c055f3341a57312a737f296733116eeea3272a314e7f6720ece34f6",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-wood-span-Y-maglev-32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-front.png",
+      "sha256": "151289d093f421a5f9bfa430c83380ee07b28d2faff32d625cc42171bd3a1bd1",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-00-wood"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "Y",
+  "railType": "maglev",
+  "risePx": 32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        86,
+        242
+      ],
+      [
+        146,
+        214
+      ],
+      [
+        427,
+        348
+      ],
+      [
+        365,
+        376
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        116.0,
+        228.0
+      ],
+      [
+        396.0,
+        362.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        114.05714285714285,
+        182.97142857142856
+      ],
+      [
+        141.94285714285715,
+        169.02857142857144
+      ],
+      [
+        269.9428571428571,
+        201.02857142857144
+      ],
+      [
+        242.05714285714285,
+        214.97142857142856
+      ]
+    ],
+    "deckCrossSectionHalfX": 13.942857142857143,
+    "uniformNativeScaleReference": 0.45714285714285713,
+    "sourceXKnots": [
+      86.0,
+      146.0,
+      365.0,
+      427.0
+    ],
+    "targetXKnots": [
+      114.05714285714285,
+      141.94285714285715,
+      242.05714285714285,
+      269.9428571428571
+    ],
+    "verticalScaleAboveDeck": [
+      0.5142857142857142,
+      0.5028571428571429,
+      0.41142857142857137,
+      0.41904761904761906
+    ],
+    "verticalScaleBelowDeck": [
+      0.43243243243243246,
+      0.45714285714285713,
+      0.48484848484848486,
+      0.45714285714285713
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            86,
+            226
+          ],
+          [
+            365,
+            356
+          ]
+        ],
+        "commonCapHeightPx": 8.228571428571428
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            146,
+            194
+          ],
+          [
+            427,
+            324
+          ]
+        ],
+        "commonCapHeightPx": 10.057142857142857
+      }
+    ],
+    "axisMirror": true,
+    "rampRisePx": 32,
+    "advancePx": [
+      -128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-wood-span-Y-maglev-32.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-wood-Y-rail-32-mask.png"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "airport-jetbridge",
+  "image": "assets/world/infrastructure/airports/airport-jetbridge.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-module",
+  "sha256": "12f4fe3766dfd559fd94906a7ca8e9486b30a74d65f30a035e7567748c0580d2",
+  "operation": "component ownership crop, alpha<8 removal and >=240 opaque normalization, proportional downscale to <=224w/320h, fixed512 canvas; not new native detail",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/airport-props.png",
+      "sha256": "fa12f615a187f5dde7acb872712f2ac51ff30d0e2f520e17f632e6d589037e9b",
+      "record": "source-art/world/airport-props.png.generation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceCropXYXY": [
+    1056,
+    474,
+    1488,
+    750
+  ],
+  "sourceCell": 5,
+  "uniformScale": 0.5185185185185185,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": []
+}

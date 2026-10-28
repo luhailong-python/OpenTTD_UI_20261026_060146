@@ -1,0 +1,60 @@
+{
+  "id": "mf-robe-2-outer-clean",
+  "image": "assets/portraits/customization/mf-robe-2-outer-clean.png",
+  "sha256": "fb4c03ea56296db43f3b09af76c0d39cb3a27bb4dfd198ac5bf925c78c11a395",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-robe-clean",
+  "family": "robe-clean",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/portraits/customization/mf-robe-02.png",
+      "sha256": "9c09e95508971f0b6a45f823dd016138b02619de16d2f4374103a36fe11d48c1",
+      "record": "assets/portraits/customization/mf-robe-02.png.derivation.json"
+    },
+    {
+      "file": "assets/portraits/customization/mf-robe-2-removed-neck-mask.png",
+      "sha256": "a5faa984ee2a6bca9dddc3a775601fe648963ca2d6001a019b1b612f22b3f78b",
+      "record": "assets/portraits/customization/mf-robe-2-removed-neck-mask.png.derivation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:33:51.836895+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Remove native baked central inner collar and chest clasp Alpha; preserve outer jacket, sleeve/shoulder embroidery and lapel trim; fixed actual white undergarment + selectable collar/tie replace removed centre",
+  "paintedBBoxPx": [
+    112,
+    339,
+    399,
+    494
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "removedOriginalNeckMask": "assets/portraits/customization/mf-robe-2-removed-neck-mask.png",
+  "fixedInnerGarment": "assets/portraits/customization/mf-fixed-inner-garment.png",
+  "outsideOwnershipExactRGBA": true
+}

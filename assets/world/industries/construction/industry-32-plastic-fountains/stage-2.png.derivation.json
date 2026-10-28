@@ -1,0 +1,51 @@
+{
+  "id": "industry-32-plastic-fountains-construction-2",
+  "image": "assets/world/industries/construction/industry-32-plastic-fountains/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "a3ac89fffa888fbfca960579987a36001309af0f54cfe614835dbd1131937b48",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/plastic-fountains.png",
+      "sha256": "2f2603fa53ead7f81d721dac35e7536b22b0ff33ec19608a7d5c46666f7523b4",
+      "record": "assets/world/industries/plastic-fountains.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 32,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-32-plastic-fountains",
+    "industry-tile-148",
+    "industry-tile-149",
+    "industry-tile-150",
+    "industry-tile-151",
+    "industry-tile-152",
+    "industry-tile-153",
+    "industry-tile-154",
+    "industry-tile-155"
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "tool": "Unity official MCP / Unity_RunCommand",
+  "unityVersion": "6000.6.0f1",
+  "source": "../team-ui-v2.png",
+  "sourceSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+  "sourceWidth": 1931,
+  "sourceHeight": 814,
+  "coordinateSystem": "1200-wide top-left reference; crop edges mapped to native source pixels.",
+  "provenance": "PNG export and Sprite import executed by official Unity MCP. This manifest was completed by a local metadata audit because Unity JsonUtility omitted dynamic class arrays.",
+  "artwork": "Existing approved source crops and clean-pixel reconstruction; no image generation. Name, role, counts, levels, schools and actions remain native TMP text.",
+  "sprites": [
+    {
+      "name": "main_frame",
+      "file": "png/main_frame.png",
+      "sourceRectTopLeft1200": [
+        81,
+        51,
+        1034,
+        438
+      ],
+      "sourceRectNativeTopLeft": [
+        130,
+        82,
+        1664,
+        705
+      ],
+      "width": 1664,
+      "height": 705,
+      "borderLeftBottomRightTop": [
+        76.0,
+        79.0,
+        76.0,
+        79.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/main_frame",
+      "guid": "2f7ea007e6617b64a993692d651acaa9",
+      "sha256": "6a378f42223fe31a264837bbb48cf7612ec558edc3edab36a211360c4f243330",
+      "processing": "Nine-part frame reconstructed from original clean paper, edges and corners.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "title_plate",
+      "file": "png/title_plate.png",
+      "sourceRectTopLeft1200": [
+        378,
+        0,
+        445,
+        90
+      ],
+      "sourceRectNativeTopLeft": [
+        608,
+        0,
+        716,
+        145
+      ],
+      "width": 716,
+      "height": 145,
+      "borderLeftBottomRightTop": [
+        142.0,
+        29.0,
+        142.0,
+        35.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/title_plate",
+      "guid": "83d2e880f3d59474a82fdd8ad97f9547",
+      "sha256": "7b81c7b17fa7d219f181c3edc1fa40412fe34a39e0bbe0e77b25088c83707871",
+      "processing": "Original cloud plaque silhouette; baked title/subtitle replaced with adjacent jade; boundary-connected pale sky removed through official MCP.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "section_plate",
+      "file": "png/section_plate.png",
+      "sourceRectTopLeft1200": [
+        107,
+        75,
+        269,
+        45
+      ],
+      "sourceRectNativeTopLeft": [
+        172,
+        121,
+        433,
+        72
+      ],
+      "width": 433,
+      "height": 72,
+      "borderLeftBottomRightTop": [
+        76.0,
+        16.0,
+        72.0,
+        21.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/section_plate",
+      "guid": "5a75f2c1887577b4bbb7ba097246eb49",
+      "sha256": "0233d6e1ba16bd2b4b7c11a5a4680ef61fae9b1c6b161c3f3d28f047d23c305f",
+      "processing": "Original jade section plaque, text cleared with original jade.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "member_row",
+      "file": "png/member_row.png",
+      "sourceRectTopLeft1200": [
+        121,
+        386,
+        529,
+        60
+      ],
+      "sourceRectNativeTopLeft": [
+        195,
+        621,
+        851,
+        97
+      ],
+      "width": 851,
+      "height": 97,
+      "borderLeftBottomRightTop": [
+        24.0,
+        19.0,
+        24.0,
+        19.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/member_row",
+      "guid": "3008a30cb5b01ae41a74cc74064514fe",
+      "sha256": "706797419d8d1d8daa67b3915af7b53a01f760ae5590ed5214655985a79a155b",
+      "processing": "Original empty-member border, clean source paper replaces plus/text.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "application_card",
+      "file": "png/application_card.png",
+      "sourceRectTopLeft1200": [
+        687,
+        148,
+        392,
+        123
+      ],
+      "sourceRectNativeTopLeft": [
+        1105,
+        238,
+        631,
+        198
+      ],
+      "width": 631,
+      "height": 198,
+      "borderLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/application_card",
+      "guid": "abff327a47691ca4e8fe2fc8045fbabc",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "processing": "Original application card border and source paper, portrait/text removed.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "button_primary",
+      "file": "png/button_primary.png",
+      "sourceRectTopLeft1200": [
+        914,
+        222,
+        140,
+        41
+      ],
+      "sourceRectNativeTopLeft": [
+        1471,
+        357,
+        225,
+        66
+      ],
+      "width": 225,
+      "height": 66,
+      "borderLeftBottomRightTop": [
+        45.0,
+        16.0,
+        45.0,
+        16.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/button_primary",
+      "guid": "7d61b0bb6a0e90540b4d01040d2bd0cb",
+      "sha256": "601439876422eb7cc1375b40960702c46e16728025d979d8d30b9b3dd4e1c4ea",
+      "processing": "Original jade action skin with text removed and silhouette alpha.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "button_secondary",
+      "file": "png/button_secondary.png",
+      "sourceRectTopLeft1200": [
+        771,
+        222,
+        137,
+        41
+      ],
+      "sourceRectNativeTopLeft": [
+        1241,
+        357,
+        220,
+        66
+      ],
+      "width": 220,
+      "height": 66,
+      "borderLeftBottomRightTop": [
+        45.0,
+        16.0,
+        45.0,
+        16.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/button_secondary",
+      "guid": "d5ca1da2bef04a44e8ee02860a0c569e",
+      "sha256": "d1703b1c9ea3bb659addd4682a76d7955d045ddd6652e9312769352dc2fcdecc",
+      "processing": "Original paper action skin with text removed and silhouette alpha.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "close",
+      "file": "png/close.png",
+      "sourceRectTopLeft1200": [
+        1084,
+        22,
+        51,
+        51
+      ],
+      "sourceRectNativeTopLeft": [
+        1744,
+        35,
+        82,
+        82
+      ],
+      "width": 82,
+      "height": 82,
+      "borderLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/close",
+      "guid": "67a4121e9dee2ec4e833f3058506cf90",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "processing": "Original fixed X button with circular alpha.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": true,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "portrait_frame",
+      "file": "png/portrait_frame.png",
+      "sourceRectTopLeft1200": [
+        149,
+        326,
+        57,
+        57
+      ],
+      "sourceRectNativeTopLeft": [
+        240,
+        525,
+        91,
+        91
+      ],
+      "width": 91,
+      "height": 91,
+      "borderLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/portrait_frame",
+      "guid": "f84f7f8576c0f2e47a0df1414bfd63b2",
+      "sha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "processing": "Gold rim from the empty-slot circle; inner pixels removed, transparent ring.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "empty_slot",
+      "file": "png/empty_slot.png",
+      "sourceRectTopLeft1200": [
+        149,
+        326,
+        57,
+        57
+      ],
+      "sourceRectNativeTopLeft": [
+        240,
+        525,
+        91,
+        91
+      ],
+      "width": 91,
+      "height": 91,
+      "borderLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/empty_slot",
+      "guid": "cf8f7e0c086af5842b7b9cb845cf6439",
+      "sha256": "f5277030ba66d149d3ae6c0fac47cdf30efc4d551a9c6d840404057fd876f0f6",
+      "processing": "Original fixed plus symbol with circular alpha.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": true,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "badge_leader",
+      "file": "png/badge_leader.png",
+      "sourceRectTopLeft1200": [
+        377,
+        143,
+        77,
+        28
+      ],
+      "sourceRectNativeTopLeft": [
+        607,
+        230,
+        124,
+        45
+      ],
+      "width": 124,
+      "height": 45,
+      "borderLeftBottomRightTop": [
+        27.0,
+        13.0,
+        27.0,
+        13.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/badge_leader",
+      "guid": "b135609595f84bb40b68d26a062ab2d2",
+      "sha256": "b97d61bb84e60f2a250e88948097ed048ebbaef8f8cf686868813724a9bea7e6",
+      "processing": "Original gold role badge, source material replaces baked label.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "badge_self",
+      "file": "png/badge_self.png",
+      "sourceRectTopLeft1200": [
+        459,
+        143,
+        57,
+        27
+      ],
+      "sourceRectNativeTopLeft": [
+        739,
+        230,
+        91,
+        44
+      ],
+      "width": 91,
+      "height": 44,
+      "borderLeftBottomRightTop": [
+        27.0,
+        13.0,
+        27.0,
+        13.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/badge_self",
+      "guid": "c5394da072f21f048ac6da21e531bba4",
+      "sha256": "149751d40ab008d2cfd99f2cf24d218ccb9174789f6ccb6e4bbf6a2b8f9d275b",
+      "processing": "Original jade self badge, source material replaces baked label.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "status_online",
+      "file": "png/status_online.png",
+      "sourceRectTopLeft1200": [
+        559,
+        145,
+        19,
+        20
+      ],
+      "sourceRectNativeTopLeft": [
+        900,
+        233,
+        30,
+        33
+      ],
+      "width": 30,
+      "height": 33,
+      "borderLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/status_online",
+      "guid": "062c59c6fd7f5754dbc7676c516d3564",
+      "sha256": "9a953fce2f65e4189086d692d9671df706898fe0fa2883b44837fe72ec254011",
+      "processing": "Original fixed online indicator with circular alpha.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    },
+    {
+      "name": "status_offline",
+      "file": "png/status_offline.png",
+      "sourceRectTopLeft1200": [
+        559,
+        280,
+        19,
+        19
+      ],
+      "sourceRectNativeTopLeft": [
+        900,
+        451,
+        30,
+        30
+      ],
+      "width": 30,
+      "height": 30,
+      "borderLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resourcePath": "UI/Ugui/TeamV2/status_offline",
+      "guid": "e0c6dbbc8a35e514f911b08a6808e5b2",
+      "sha256": "0a821ae6ec37a9713a2d8a2bbacda259e185e10590b39b3e8893da0feb047263",
+      "processing": "Original fixed offline indicator with circular alpha.",
+      "containsDynamicText": false,
+      "containsFixedSymbol": false,
+      "checks": {
+        "sprite": true,
+        "singleSprite": true,
+        "mipmapsDisabled": true,
+        "alphaTransparency": true,
+        "nativeDimensions": true
+      }
+    }
+  ]
+}

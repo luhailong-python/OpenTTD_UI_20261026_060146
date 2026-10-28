@@ -1,0 +1,46 @@
+{
+  "id": "tree-21-dying-2",
+  "image": "assets/world/vegetation/states/tree-21/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "fa2079b2a6b8590eb6507e10c10b08c3a9f6c201c942584032514aa4d8ffd149",
+  "climate": "tropical",
+  "artSpecies": "date-palm",
+  "sourceTreeType": 21,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-21.png",
+      "sha256": "776591d996be8195a0e4d7b2ba6b13c414ec91f6a9e5f9fb08f9a592f4cdd15c",
+      "record": "assets/world/vegetation/mature/tree-21.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dying-palm.png",
+      "sha256": "4475c68570f698775b5cb7057eae73997309dec004151dde7829795923cde5d6",
+      "record": "assets/world/vegetation/lifecycle/dying-palm.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dying-palm",
+    "sharedScale": 0.8273214285714285,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-21"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "bridge-arch-span",
+  "image": "assets/world/infrastructure/transport/bridge-arch-span.png",
+  "sha256": "9ee3564a55e4e56dd46b5657e872089c369f8b7874c0726787339d6726677063",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-modules.png",
+      "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+      "record": "source-art/world/bridge-modules.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    548,
+    316,
+    1024,
+    651
+  ],
+  "scaleApplied": 0.8067226890756303,
+  "sourceAtlas": "bridge-modules",
+  "sourceComponent": 6,
+  "contentSize": [
+    384,
+    270
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

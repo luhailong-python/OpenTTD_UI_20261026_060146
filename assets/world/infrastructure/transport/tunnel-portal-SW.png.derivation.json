@@ -1,0 +1,49 @@
+{
+  "id": "tunnel-portal-SW",
+  "image": "assets/world/infrastructure/transport/tunnel-portal-SW.png",
+  "sha256": "08000037f6ed53a444cf08767435244dc4e39df423705e985eeb1f81642ec27c",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/service-directions.png",
+      "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+      "record": "source-art/world/service-directions.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    45,
+    600,
+    436,
+    856
+  ],
+  "scaleApplied": 0.9820971867007673,
+  "sourceAtlas": "service-directions",
+  "sourceComponent": 9,
+  "contentSize": [
+    384,
+    251
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "SPR_PIN_UP",
+  "image": "assets/common/micro-ui/SPR_PIN_UP.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "e8375f7be039b817f06409d947d1dc361d19281397ffad7a5ac3bd54fac0593d",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/markers/SPR_PIN_UP.png",
+      "sha256": "b938568c93f1fc7797f2fb4922ca9533e3f5e2ce70df4949ed7fb4fde1c9c7b2",
+      "record": "assets/common/pointers/markers/SPR_PIN_UP.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_PIN_UP",
+  "sourceSpriteId": 4947,
+  "category": "window-pin",
+  "functionalGlyph": null,
+  "geometryFile": null,
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      24,
+      48
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_BUY_LAND",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_BUY_LAND.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "de5c13cfe1cd1d853af1def52e99cf79ed6a1be1ec49c4a3b3b4feae3f74a8b6",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/objects/owned-land.png",
+      "sha256": "6ebdf8f9f9a36040f3785a5187d869a03562d58fc29e6a3ea565c1ea8f2f8550",
+      "record": "assets/world/infrastructure/objects/owned-land.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_BUY_LAND",
+  "sourceSpriteId": 4792,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

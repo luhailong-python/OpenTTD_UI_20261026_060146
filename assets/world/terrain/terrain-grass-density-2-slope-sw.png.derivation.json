@@ -1,0 +1,28 @@
+{
+  "file": "assets/world/terrain/terrain-grass-density-2-slope-sw.png",
+  "sha256": "e98685bc1edb1e5bba2e5e0e0cb8c313a318c7e6210d458396f1af88c11e03f2",
+  "generatedAt": "2026-10-27T04:06:32.031306+00:00",
+  "route": "deterministic-derivative",
+  "tool": "build_world_terrain.py",
+  "width": 256,
+  "height": 192,
+  "operation": "native hand-painted atlas crop -> UV geometric normalization -> 14px periodic opposite-edge colour blending -> canonical diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeModelGeneration": false,
+  "unverifiedReason": "Source imagegen actual model and quality undisclosed; geometric processing is not native image generation."
+}

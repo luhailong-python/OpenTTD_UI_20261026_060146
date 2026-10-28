@@ -1,0 +1,54 @@
+{
+  "id": "lane-source-rail",
+  "image": "assets/world/infrastructure/transport-runtime/lane-source-rail.png",
+  "sha256": "03bbe6c012ff505818879a47dd0d5ddd706613007f4c5f098787f763c1c83632",
+  "width": 196,
+  "height": 58,
+  "anchorPx": [
+    98,
+    29
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "record": "source-art/world/rail-topology.png.generation.json"
+    }
+  ],
+  "operation": "Actual painted central transport strip crop and UV normalization; 2px transparent export border; roadside grass excluded; no new painted pixels",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "transport-lane-material",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.714589+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "innerUVRectPx": [
+    2,
+    2,
+    194,
+    56
+  ],
+  "nativeAtlasCrop": [
+    155,
+    89,
+    225,
+    284
+  ],
+  "nativeCropRotation": 90,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "airport-tile-32-radio-tower-fence-ne",
+  "image": "assets/world/infrastructure/airports/airport-tile-32-radio-tower-fence-ne.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "26d0751a163f6b6e972437b023027f8b5599e22d4c8aa7eb416ab4cd9a516317",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-ne.png",
+      "sha256": "4b963ccbd37a7f3ca27ce4b89425163d011f85108899f2f60c6bba03b676c866",
+      "record": "assets/world/infrastructure/airports/airport-fence-ne.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-radio-mast.png",
+      "sha256": "b2088fe6dbb4ae8ab2267ea4250402c0a7d8c9973d6160098e8404e9708af92b",
+      "record": "assets/world/infrastructure/airports/airport-radio-mast.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 32,
+  "sourceTileEnum": "APT_RADIO_TOWER_FENCE_NE",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_FLAT_GRASS_TILE,            _station_display_transmitter_fence_ne) // APT_RADIO_TOWER_FENCE_NE",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-ne",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    },
+    {
+      "artId": "airport-radio-mast",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "building"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-intercontinental",
+    "airport-international",
+    "airport-tile-32-radio-tower-fence-ne"
+  ]
+}

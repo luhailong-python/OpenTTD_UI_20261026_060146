@@ -1,0 +1,39 @@
+{
+  "id": "tree-37-dying-1",
+  "image": "assets/world/vegetation/states/tree-37/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "11ec7bbeddf125a0def58adcd5b956a90256db1c1734e4629e96570cecac1787",
+  "climate": "toyland",
+  "artSpecies": "jelly-cone",
+  "sourceTreeType": 37,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-37.png",
+      "sha256": "822806d1135759c9ddc0241f4e4c1fbcc359e20b30110b1e9a3c4d48c24de324",
+      "record": "assets/world/vegetation/mature/tree-37.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-37"
+  ]
+}

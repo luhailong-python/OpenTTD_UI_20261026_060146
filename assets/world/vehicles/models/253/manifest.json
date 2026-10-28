@@ -1,0 +1,359 @@
+{
+  "id": 253,
+  "upstreamName": "Tricario Helicopter",
+  "familyId": "air-helicopter",
+  "transport": "aircraft",
+  "cargo": null,
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 356
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/N-body.png",
+      "sha256": "677fdadb8686c34596b43f163a86bfa45c20e489af64ec0eb6c1efedf1390ba8",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/N-body.png",
+          "sha256": "677fdadb8686c34596b43f163a86bfa45c20e489af64ec0eb6c1efedf1390ba8",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/N.png",
+          "sha256": "6c4a01ee3e4f61a04dc5d51e58ef928d93494e49c5f41a15b0040f3b6a7d4949",
+          "record": "assets/world/vehicles/families/air-helicopter/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/NE-body.png",
+      "sha256": "b5275228776cd7b7fd6dfed8a1b0de3b4299b335abbb2293faedd8468bc3e3d1",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/NE-body.png",
+          "sha256": "b5275228776cd7b7fd6dfed8a1b0de3b4299b335abbb2293faedd8468bc3e3d1",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/NE.png",
+          "sha256": "a2e7c0c16803b86bce0bfb8b599c0b60edcb39e8ec85e9b0a666f9fa020ec708",
+          "record": "assets/world/vehicles/families/air-helicopter/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/E-body.png",
+      "sha256": "18f15cb875ac345412d7989d670f28931aa6d37857edfb1290a67dbc379d6fea",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/E-body.png",
+          "sha256": "18f15cb875ac345412d7989d670f28931aa6d37857edfb1290a67dbc379d6fea",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/E.png",
+          "sha256": "48a3b39c86116cf12673b7894c06e6f1a2f586d75745a8f4460bfe130cc076ae",
+          "record": "assets/world/vehicles/families/air-helicopter/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/SE-body.png",
+      "sha256": "4a02f7ba080d58a8383554bb4fdde674803f219b7b49b3f98dd09eb81556e34c",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/SE-body.png",
+          "sha256": "4a02f7ba080d58a8383554bb4fdde674803f219b7b49b3f98dd09eb81556e34c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/SE.png",
+          "sha256": "65e8ed7b4ab58cb101f3b8ef02f942918e9f93f5c0c4a42dfa47c6f55c6bcd04",
+          "record": "assets/world/vehicles/families/air-helicopter/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/S-body.png",
+      "sha256": "c84e8a1317ff53b79ad7e69dafc644c6cba22a5eb932d7027c59e0f5814166f8",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/S-body.png",
+          "sha256": "c84e8a1317ff53b79ad7e69dafc644c6cba22a5eb932d7027c59e0f5814166f8",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/S.png",
+          "sha256": "ccd36be2b60b9d668527115e72e850d61fd8cb1ccbb1b98255f1b6bb8824b85f",
+          "record": "assets/world/vehicles/families/air-helicopter/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/SW-body.png",
+      "sha256": "e92b311215767a3e17d7128b0260e7c82e22db66675ec4f90d80c8263be0ccfd",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/SW-body.png",
+          "sha256": "e92b311215767a3e17d7128b0260e7c82e22db66675ec4f90d80c8263be0ccfd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/SW.png",
+          "sha256": "47c6a6b68b25682db8e0254381d2654c725d69367a78f9596ac64cd09955ce10",
+          "record": "assets/world/vehicles/families/air-helicopter/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/W-body.png",
+      "sha256": "13fa4cc018899f13adec1629f7b987762dfb2d95a711e0a9b82fbc45983f65bd",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/W-body.png",
+          "sha256": "13fa4cc018899f13adec1629f7b987762dfb2d95a711e0a9b82fbc45983f65bd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/W.png",
+          "sha256": "908e61b2588267676c2e093d0a0b97df2c1356ca848b93054e807ec0f6a50da6",
+          "record": "assets/world/vehicles/families/air-helicopter/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/253/NW-body.png",
+      "sha256": "a0607ffcb0e711ffe974a158ac33c3d39a36e8374e75adf2f3c1901c4fd8e377",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/253/NW-body.png",
+          "sha256": "a0607ffcb0e711ffe974a158ac33c3d39a36e8374e75adf2f3c1901c4fd8e377",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-helicopter/NW.png",
+          "sha256": "2f3089dab93f95b895387f6915d488a88f7eab3d7975f58db256cd0383be40e5",
+          "record": "assets/world/vehicles/families/air-helicopter/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/air-helicopter/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "effectManifest": "assets/world/vehicles/rotor/manifest.json",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

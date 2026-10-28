@@ -1,0 +1,3873 @@
+{
+  "schema": "pointer-cursor-art.v1",
+  "assets": [
+    {
+      "id": "SPR_CURSOR_CONVERT_ROAD",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_ROAD.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "d2794baddaa3f27f849ee4449a0137aaa6ae1fd84163cb22ae63f3e5be3abd29",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/road.png",
+          "sha256": "8eed487da5f16aa0c8aea6c3cb3a1a728f5637f88c192ce6f3ea6363310ab4aa",
+          "record": "assets/icons/road.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CONVERT_ROAD",
+      "sourceSpriteId": 5077,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CONVERT_TRAM",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_TRAM.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "1e27c2c40ee8b00072efa162769b0e6641ee1b5a678375b62cde160a2307467b",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tram.png",
+          "sha256": "42313b23cac35d127331a10dadbbc641e8725257eabeb364a31207a0e392e567",
+          "record": "assets/icons/tram.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CONVERT_TRAM",
+      "sourceSpriteId": 5079,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_MOUSE",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_MOUSE.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "073a2874dab8012da5b335d25f1f295bbc8f7d1069687fd4c62e53edb0a8e2dd",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_MOUSE",
+      "sourceSpriteId": 0,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ZZZ",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ZZZ.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "320f86e5dc5924054a29f9ab3f3ddccc07a084bc258d96122cfc8b489e60e529",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/cursor-wait.png",
+          "sha256": "552ceca14135135bf2d91d146438da0cdfe67e468db0252336ff16aad879ea8c",
+          "record": "assets/common/pointers/components/cursor-wait.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ZZZ",
+      "sourceSpriteId": 1,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_BUOY",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_BUOY.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "593e2a773636e9e32b60f13b4fa318f0e6aa2f12ab0851d4d878dccab2c2f287",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/waterworks/buoy.png",
+          "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c",
+          "record": "assets/world/infrastructure/waterworks/buoy.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_BUOY",
+      "sourceSpriteId": 702,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_QUERY",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_QUERY.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "091c4cc020def76d9b14b97a0c21851d3e26816d939a8e97d3b9778b27837f61",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/search.png",
+          "sha256": "66c4445500a539b783fdf0750684a8cc901ca6c2049823fa9855d8c72fa22336",
+          "record": "assets/icons/search.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_QUERY",
+      "sourceSpriteId": 719,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_HQ",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_HQ.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7d5b0b0d3ff3bc754a26d57f357c33d7313ff184fba34517dc8f4c3cda474cb6",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/company.png",
+          "sha256": "b7e5fd79a2ebcf87f1a44951b1c98b923eefc0fb685651d5361062b2da052d29",
+          "record": "assets/icons/company.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_HQ",
+      "sourceSpriteId": 720,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_SHIP_DEPOT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_SHIP_DEPOT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/depot.png",
+          "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+          "record": "assets/icons/depot.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_SHIP_DEPOT",
+      "sourceSpriteId": 721,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_SIGN",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_SIGN.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "b2159c132be098ffa8ba886a64a243842c47c7dca4fee7898e115419772e4eaf",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/news.png",
+          "sha256": "18a45f8fdf344af2bf6bbd0f2eeb81a2d782b358c73c5d80efdad5e284f5a854",
+          "record": "assets/icons/news.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_SIGN",
+      "sourceSpriteId": 722,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TREE",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TREE.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "090f5428e5b545f8c3c364bb9c70c7d1ef56c4ffec542e9c99706e483cc8536c",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tree.png",
+          "sha256": "db2ccc04aa9a0aa969fd9cf57eeda8690112f75b57d754d14dddc59360a2cb10",
+          "record": "assets/icons/tree.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TREE",
+      "sourceSpriteId": 2010,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_BUY_LAND",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_BUY_LAND.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "de5c13cfe1cd1d853af1def52e99cf79ed6a1be1ec49c4a3b3b4feae3f74a8b6",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/owned-land.png",
+          "sha256": "6ebdf8f9f9a36040f3785a5187d869a03562d58fc29e6a3ea565c1ea8f2f8550",
+          "record": "assets/world/infrastructure/objects/owned-land.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_BUY_LAND",
+      "sourceSpriteId": 4792,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_LEVEL_LAND",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_LEVEL_LAND.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "0d221407e19b46527797acf5e296f1e3e4deec50235634d0140afd04878268a1",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_LEVEL_LAND",
+      "sourceSpriteId": 4988,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TOWN",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TOWN.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "55bd22c7b853df85ee6d476fd02cae6bb1ba1b8ed7e72ecf65201cc472457aa9",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/town.png",
+          "sha256": "6f753ec7c2c57ead634484ee62cf30a01d069ac605b1bf8c81f052bfe6dfc8d6",
+          "record": "assets/icons/town.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TOWN",
+      "sourceSpriteId": 4080,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_INDUSTRY",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_INDUSTRY.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "6233ca357f8001b57eabc902d3c2b963a8ab415aeaacf9700563a3f263f74759",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/industry.png",
+          "sha256": "1d5f81443ea52a72e8d4dea77d964e66806343fbef4a87877c924bf56d0fd165",
+          "record": "assets/icons/industry.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_INDUSTRY",
+      "sourceSpriteId": 4081,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ROCKY_AREA",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ROCKY_AREA.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "9c5a857b14cd46b3dbac703ca60a1e9adaa16fb977efbbb76923da7831261e6b",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-rocks-density-3-flat.png",
+          "sha256": "596cb66ade2977d029120a43e362df536f14b47161abaaf6389cd7a7347188d4",
+          "record": "assets/world/terrain/terrain-rocks-density-3-flat.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ROCKY_AREA",
+      "sourceSpriteId": 4087,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_DESERT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_DESERT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "d9ded1fc6a91f1c5bff95895804bf76453962c822e424fdf9a4852aacf66043a",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-desert-flat.png",
+          "sha256": "49cafe95aff659fbe26ccb1ca01a02ae823c960a0ed0dda638c8ce134dcdc32b",
+          "record": "assets/world/terrain/terrain-desert-flat.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_DESERT",
+      "sourceSpriteId": 4088,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TRANSMITTER",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TRANSMITTER.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "372c6eae840128b0dc44246b12f8eaf6d870032436c49db6aa3005cf9911fd7e",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/radio-mast.png",
+          "sha256": "e9ff5a71ca1797ecf9e5a43f83b58c0479fa9a37f0b14900d3de6695415ba2e2",
+          "record": "assets/world/infrastructure/objects/radio-mast.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TRANSMITTER",
+      "sourceSpriteId": 4089,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AIRPORT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AIRPORT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "fecc1ad6821abd68bc6e85375a9dbe784899af81e4a6cc0aa85a8e0ef022d652",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/airport.png",
+          "sha256": "5af68aaa2f752ab079055d557e95293a16ba32852c9a0630feb211d488f2b178",
+          "record": "assets/icons/airport.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AIRPORT",
+      "sourceSpriteId": 2724,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_DOCK",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_DOCK.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "c42992c08db032fe1b0b27eae5c4c80ece8f3539d5fc9fe0f7fe3a41c83ec919",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/dock.png",
+          "sha256": "21dddfbab0b5fab17cbf9eab6878bfd285c5ff62cf1c93e206bbb3a5b4041c92",
+          "record": "assets/icons/dock.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_DOCK",
+      "sourceSpriteId": 3668,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CANAL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CANAL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "eb7b2ebe61e115e00d48937fb2db3f6b8d57ed7cca1ea2f4b3f796696107d6b7",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/waterworks/canal-banks.png",
+          "sha256": "aad02e8c55eb5044b96e0bb7405f36ebd61758d31276d3270cdf9defd6bbb1a4",
+          "record": "assets/world/infrastructure/waterworks/canal-banks.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CANAL",
+      "sourceSpriteId": 4985,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_LOCK",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_LOCK.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "b59add04179eafa67086faed6175e427ce451e0b92ec45aacb74ef7bc1772e63",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/waterworks/lock-high.png",
+          "sha256": "cc2431dca90dbe3389bd704892a3503e9cf5a95f4f05c492ca16bdd55aa49dff",
+          "record": "assets/world/infrastructure/waterworks/lock-high.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_LOCK",
+      "sourceSpriteId": 4983,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_RIVER",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_RIVER.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "4783047a6522c2c7a022104c1e434f7256cb7b8613b3ef7565ddac80023ed58c",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/waterworks/river-rapids.png",
+          "sha256": "b9fb773a4dd95cfa6d1cf2ee77d15b6ce9c81355b86b3ec254a642a97b9f5a2d",
+          "record": "assets/world/infrastructure/waterworks/river-rapids.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_RIVER",
+      "sourceSpriteId": 5033,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AQUEDUCT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AQUEDUCT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "36521722286f64f5e26ca58dfee6ec698536b97efc1b5d6d6a02d1a041b72f6e",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/transport-runtime/aqueduct-X-piece-4.png",
+          "sha256": "4569ae1ea8412ab19672f8ebcdd918554becb4fcf9e614f657417968c4c2501d",
+          "record": "assets/world/infrastructure/transport-runtime/aqueduct-X-piece-4.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AQUEDUCT",
+      "sourceSpriteId": 5042,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_BRIDGE",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_BRIDGE.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "6803196fbcde75f0c6d9bee480ae96ec756755d0d6348fac5c787434267b8ce3",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/bridge.png",
+          "sha256": "40308d49f8132ee659fea44829b4afb884d7d2a7b7304834a4da0da29974be99",
+          "record": "assets/icons/bridge.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_BRIDGE",
+      "sourceSpriteId": 2593,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NS_TRACK",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NS_TRACK.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "246a4dc19de022f762cee9971dc6790aa4715ff7e632a21e08ba32c6fe933d1f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/rail.png",
+          "sha256": "b6c4db992c8face8be3ae89e9743aa92ecf930deb984af476cb9b37c0ba8b8ec",
+          "record": "assets/icons/rail.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NS_TRACK",
+      "sourceSpriteId": 1263,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_SWNE_TRACK",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_SWNE_TRACK.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "8bb5f9531136c7c3f27a50e2fdf7eecd7b864d229ad0bdb8edabd6815764b06a",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/rail.png",
+          "sha256": "b6c4db992c8face8be3ae89e9743aa92ecf930deb984af476cb9b37c0ba8b8ec",
+          "record": "assets/icons/rail.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_SWNE_TRACK",
+      "sourceSpriteId": 1264,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_EW_TRACK",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_EW_TRACK.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "4b9c3e8a206476909b94d15a2455af4ef7a4a0745bc8134b08f43143589fce32",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/rail.png",
+          "sha256": "b6c4db992c8face8be3ae89e9743aa92ecf930deb984af476cb9b37c0ba8b8ec",
+          "record": "assets/icons/rail.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_EW_TRACK",
+      "sourceSpriteId": 1265,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NWSE_TRACK",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NWSE_TRACK.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "552938bedf946df0a3065a83d61b05c6fe682eea7a99e9c3144d693af0938aa1",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/rail.png",
+          "sha256": "b6c4db992c8face8be3ae89e9743aa92ecf930deb984af476cb9b37c0ba8b8ec",
+          "record": "assets/icons/rail.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NWSE_TRACK",
+      "sourceSpriteId": 1266,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NS_MONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NS_MONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "eb2f571321d32c79ffb0d8923c73de376e417c2627f1a79cf51263ee8c419b0f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+          "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+          "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NS_MONO",
+      "sourceSpriteId": 1267,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_SWNE_MONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_SWNE_MONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "5f6458cc44c2c09a829c1cb98ca3995774a224f46b88e660cf161aca20de139c",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+          "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+          "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_SWNE_MONO",
+      "sourceSpriteId": 1268,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_EW_MONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_EW_MONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "f19705452c5f8bab254efa7ad309e26f60faca4e5b8e4cd727639cb1e6c65b7f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+          "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+          "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_EW_MONO",
+      "sourceSpriteId": 1269,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NWSE_MONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NWSE_MONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3a8e5f18afc5747e2128e2ebacf187268506604850b69596519b0c1f89f6b669",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+          "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+          "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NWSE_MONO",
+      "sourceSpriteId": 1270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NS_MAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NS_MAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "282af2c0d287c4c370d0f299926014e238062574a2d5bda3b00efd0d20619805",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+          "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+          "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NS_MAGLEV",
+      "sourceSpriteId": 1271,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_SWNE_MAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_SWNE_MAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "4d002d21550dad3f7fdb4614fafbe9dac2f457291f9901aca41bd1cc7ecc23c6",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+          "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+          "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_SWNE_MAGLEV",
+      "sourceSpriteId": 1272,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_EW_MAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_EW_MAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "9c1525d53af5e671bc9a955b159f5e894c36d592307e4f5de4dac96e9741d72f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+          "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+          "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_EW_MAGLEV",
+      "sourceSpriteId": 1273,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NWSE_MAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NWSE_MAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "860dd687f1486fe81b58222e5759ea10e34774bef84bd4658e03b6821b48b238",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+          "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+          "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NWSE_MAGLEV",
+      "sourceSpriteId": 1274,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NS_ELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NS_ELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "a900f2dce282872881ab71f4aca217c7a0ddd247095ebe27f8529f4ea07e37a8",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+          "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+          "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NS_ELRAIL",
+      "sourceSpriteId": 5672,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_SWNE_ELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_SWNE_ELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "13e704f8bd8aa719bc7246ac8f8065932350b3904ec7d3bb1a87b52738a6ceab",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+          "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+          "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_SWNE_ELRAIL",
+      "sourceSpriteId": 5673,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_EW_ELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_EW_ELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "1cb3c37059342db774295e02cbc23bf11162836bbd826d3cb166b58bda0bf731",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+          "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+          "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_EW_ELRAIL",
+      "sourceSpriteId": 5674,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_NWSE_ELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_NWSE_ELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "2d3ad40c607439891c27a96371af8d07e83913eb86f6dbb140ce2199d2161853",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+          "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+          "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_NWSE_ELRAIL",
+      "sourceSpriteId": 5675,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_RAIL_STATION",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_RAIL_STATION.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "473c6bc344d8ddd5a1c6862499a587c5e12b79d676ccf669a07975c4a4effae7",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/station.png",
+          "sha256": "e432d4ee4e202af068921cf3ae07598413b411e38101870efa7e0ebfd00ae93e",
+          "record": "assets/icons/station.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_RAIL_STATION",
+      "sourceSpriteId": 1300,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TUNNEL_RAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TUNNEL_RAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7c4c4431d0f7877159db742d00de523a67ec64b36e649ab4f02bf557f8ccd326",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tunnel.png",
+          "sha256": "2e01a3e3d790e371d82f6ff4dccd3ad7f7ff2e997506869471cbecb6b57883a9",
+          "record": "assets/icons/tunnel.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TUNNEL_RAIL",
+      "sourceSpriteId": 2434,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TUNNEL_ELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TUNNEL_ELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7c4c4431d0f7877159db742d00de523a67ec64b36e649ab4f02bf557f8ccd326",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tunnel.png",
+          "sha256": "2e01a3e3d790e371d82f6ff4dccd3ad7f7ff2e997506869471cbecb6b57883a9",
+          "record": "assets/icons/tunnel.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TUNNEL_ELRAIL",
+      "sourceSpriteId": 5677,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TUNNEL_MONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TUNNEL_MONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7c4c4431d0f7877159db742d00de523a67ec64b36e649ab4f02bf557f8ccd326",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tunnel.png",
+          "sha256": "2e01a3e3d790e371d82f6ff4dccd3ad7f7ff2e997506869471cbecb6b57883a9",
+          "record": "assets/icons/tunnel.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TUNNEL_MONO",
+      "sourceSpriteId": 2435,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TUNNEL_MAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TUNNEL_MAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7c4c4431d0f7877159db742d00de523a67ec64b36e649ab4f02bf557f8ccd326",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tunnel.png",
+          "sha256": "2e01a3e3d790e371d82f6ff4dccd3ad7f7ff2e997506869471cbecb6b57883a9",
+          "record": "assets/icons/tunnel.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TUNNEL_MAGLEV",
+      "sourceSpriteId": 2436,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AUTORAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AUTORAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "2d3b174b37a0fc1cea843cb5ed38125c9f2b1413691f73247a88644b5f07b4c1",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/rail.png",
+          "sha256": "b6c4db992c8face8be3ae89e9743aa92ecf930deb984af476cb9b37c0ba8b8ec",
+          "record": "assets/icons/rail.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AUTORAIL",
+      "sourceSpriteId": 4950,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AUTOELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AUTOELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3ac4691722cbcc59689bb3d32967b1816a62b86055d991d44f72d224b1809b7b",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+          "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+          "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AUTOELRAIL",
+      "sourceSpriteId": 4954,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AUTOMONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AUTOMONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "a1a013b24876792319dbb3d0f4c4e8cac74415aa97fb3bfc471fa5c0d41be7de",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+          "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+          "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AUTOMONO",
+      "sourceSpriteId": 4960,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AUTOMAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AUTOMAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "0fbadca2f99189778a3350eeaf6062e9357d78c81a26698ea144d483b21adb69",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+          "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+          "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AUTOMAGLEV",
+      "sourceSpriteId": 4966,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_WAYPOINT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_WAYPOINT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "287f97e24e7f3c8414333dcd982e812152edf9a87088e655fa1662130ce1127d",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/orders.png",
+          "sha256": "38ad77a96d0b520791bf109a2808d257b11826666934cd958b692c74ba3bf0b8",
+          "record": "assets/icons/orders.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_WAYPOINT",
+      "sourceSpriteId": 4973,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_RAIL_DEPOT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_RAIL_DEPOT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/depot.png",
+          "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+          "record": "assets/icons/depot.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_RAIL_DEPOT",
+      "sourceSpriteId": 1296,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ELRAIL_DEPOT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ELRAIL_DEPOT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/depot.png",
+          "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+          "record": "assets/icons/depot.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ELRAIL_DEPOT",
+      "sourceSpriteId": 4958,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_MONO_DEPOT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_MONO_DEPOT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/depot.png",
+          "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+          "record": "assets/icons/depot.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_MONO_DEPOT",
+      "sourceSpriteId": 4964,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_MAGLEV_DEPOT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_MAGLEV_DEPOT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/depot.png",
+          "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+          "record": "assets/icons/depot.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_MAGLEV_DEPOT",
+      "sourceSpriteId": 4970,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CONVERT_RAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_RAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "c69e679f06f29fb3738d7a4c71a2857634208efec071e3e41119868548354c3d",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/rail.png",
+          "sha256": "b6c4db992c8face8be3ae89e9743aa92ecf930deb984af476cb9b37c0ba8b8ec",
+          "record": "assets/icons/rail.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CONVERT_RAIL",
+      "sourceSpriteId": 4952,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CONVERT_ELRAIL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_ELRAIL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "eda3b8bcee5fd73a15264b1ea7844aaef12fc2283c239257a4b0b6a1a393781e",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+          "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+          "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CONVERT_ELRAIL",
+      "sourceSpriteId": 4956,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CONVERT_MONO",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_MONO.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "d56117b00f65acdbebc90f1671233ef66f78c49a298ea1cf9ee19db29cc2bc53",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-monorail-segment-x.png",
+          "sha256": "d2154b3e9f9e718257b9b4bed201b342e756f8c8b343ab842cb3a07f7c28ca5e",
+          "record": "assets/world/infrastructure/rail/rail-monorail-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CONVERT_MONO",
+      "sourceSpriteId": 4962,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CONVERT_MAGLEV",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_MAGLEV.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7183f85047a343982b97c1857920d78d2b77d46dc16affd4bf96c1e85f42b724",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+          "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+          "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CONVERT_MAGLEV",
+      "sourceSpriteId": 4968,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ROAD_NESW",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ROAD_NESW.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "0f101187ca1375c54eabac6ad54530473908260463545977476537412f791ac3",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/road.png",
+          "sha256": "8eed487da5f16aa0c8aea6c3cb3a1a728f5637f88c192ce6f3ea6363310ab4aa",
+          "record": "assets/icons/road.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ROAD_NESW",
+      "sourceSpriteId": 1311,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ROAD_NWSE",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ROAD_NWSE.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "0f101187ca1375c54eabac6ad54530473908260463545977476537412f791ac3",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/road.png",
+          "sha256": "8eed487da5f16aa0c8aea6c3cb3a1a728f5637f88c192ce6f3ea6363310ab4aa",
+          "record": "assets/icons/road.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ROAD_NWSE",
+      "sourceSpriteId": 1312,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AUTOROAD",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AUTOROAD.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "aa1bf3001e063fe78a9cf8b13fe2fbb78c1ecc597d0f425511e9222461d079fe",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/road.png",
+          "sha256": "8eed487da5f16aa0c8aea6c3cb3a1a728f5637f88c192ce6f3ea6363310ab4aa",
+          "record": "assets/icons/road.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AUTOROAD",
+      "sourceSpriteId": 4979,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TRAMWAY_NESW",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TRAMWAY_NESW.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "9f0ca20727e89c5523dccc7483efb76a5787e31b9e2ffb80b0fade88c12aaf47",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tram.png",
+          "sha256": "42313b23cac35d127331a10dadbbc641e8725257eabeb364a31207a0e392e567",
+          "record": "assets/icons/tram.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TRAMWAY_NESW",
+      "sourceSpriteId": 5988,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TRAMWAY_NWSE",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TRAMWAY_NWSE.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "9f0ca20727e89c5523dccc7483efb76a5787e31b9e2ffb80b0fade88c12aaf47",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tram.png",
+          "sha256": "42313b23cac35d127331a10dadbbc641e8725257eabeb364a31207a0e392e567",
+          "record": "assets/icons/tram.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TRAMWAY_NWSE",
+      "sourceSpriteId": 5989,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_AUTOTRAM",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_AUTOTRAM.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "85acd03b2fb31cdfba24ac8cc0b3e2657b8f074381723adcfedace4ac014c32b",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tram.png",
+          "sha256": "42313b23cac35d127331a10dadbbc641e8725257eabeb364a31207a0e392e567",
+          "record": "assets/icons/tram.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_AUTOTRAM",
+      "sourceSpriteId": 4981,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ROAD_DEPOT",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ROAD_DEPOT.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/depot.png",
+          "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+          "record": "assets/icons/depot.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ROAD_DEPOT",
+      "sourceSpriteId": 1297,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_BUS_STATION",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_BUS_STATION.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "8fe984ac464dacf3923e06a24f8d33f6b3997aade871a059971e5f667d5f02a8",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/bus-stop.png",
+          "sha256": "4302bf3662e424fb6488c32306e5d0b81ef993fefb4548d336815ee9d6da2e27",
+          "record": "assets/icons/bus-stop.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_BUS_STATION",
+      "sourceSpriteId": 2725,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_TRUCK_STATION",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_TRUCK_STATION.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "e18afdfff6a9717ffa2a4fc7d4408faa1562bb0987c91cf121ce3698c1fae58b",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/truck.png",
+          "sha256": "857ff773bc7a4cbe5797ef279105881501f97576ccbce7c1893173d8f68112b2",
+          "record": "assets/icons/truck.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_TRUCK_STATION",
+      "sourceSpriteId": 2726,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_ROAD_TUNNEL",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_ROAD_TUNNEL.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7c4c4431d0f7877159db742d00de523a67ec64b36e649ab4f02bf557f8ccd326",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/tunnel.png",
+          "sha256": "2e01a3e3d790e371d82f6ff4dccd3ad7f7ff2e997506869471cbecb6b57883a9",
+          "record": "assets/icons/tunnel.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_ROAD_TUNNEL",
+      "sourceSpriteId": 2433,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CLONE_TRAIN",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CLONE_TRAIN.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "dd8f3b16231d13709619b7107f25ebb181af0da53cf2a0f0320a27b9870732ee",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/train.png",
+          "sha256": "2f13c37fe7378f788ebeec6f655021e9e5c29d9b4c60aecc043b7d628f4168bf",
+          "record": "assets/icons/train.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CLONE_TRAIN",
+      "sourceSpriteId": 5006,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CLONE_ROADVEH",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CLONE_ROADVEH.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "8e36f97c8f02cbfb35e81d0c5d87e50a418297f3772f233f46fbf4754fe583c5",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/bus.png",
+          "sha256": "7033c648b9520194044a813d8bb83f6baf21aa047261a506e4ebf43e4117826e",
+          "record": "assets/icons/bus.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CLONE_ROADVEH",
+      "sourceSpriteId": 5007,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CLONE_SHIP",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CLONE_SHIP.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "3714945e006abc8fbd7baa646db1b547922ad066cfa552f532a10002e23e8b07",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/ship.png",
+          "sha256": "52248d82abeeafafae5284534b4cbbca1fe40ff915d2310db07f4b89a6892d16",
+          "record": "assets/icons/ship.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CLONE_SHIP",
+      "sourceSpriteId": 5008,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_CLONE_AIRPLANE",
+      "image": "assets/common/pointers/cursors/SPR_CURSOR_CLONE_AIRPLANE.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "d42e07d1a30d18a47e4106e2dc0fed15bd342e1099034f03d9fd39ddf637272a",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/air.png",
+          "sha256": "ad3019bf3d002c1db27927687f948c890131867c8bbb123ea2e2ace57409c4e2",
+          "record": "assets/icons/air.png.derivation.json"
+        }
+      ],
+      "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "static-cursor",
+      "sourceSymbol": "SPR_CURSOR_CLONE_AIRPLANE",
+      "sourceSpriteId": 5009,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_DEMOLISH_FIRST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_FIRST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "c911581ce49f74f7b057360403dc2f5155ab4f85fb95323d4e73bc0b44f47479",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/build.png",
+          "sha256": "0cf48d37f5c1e5243acdd1a4b54229135e84ee66074d96f3e75cd482a8e473ba",
+          "record": "assets/icons/build.png.derivation.json"
+        },
+        {
+          "file": "assets/world/effects/electric-spark/00.png",
+          "sha256": "f832f1f7029859e7ee6daf20b1641f9e61c9b14317a4cfe90aa2b011ed5c03ae",
+          "record": "assets/world/effects/electric-spark/00.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_DEMOLISH",
+      "sourceFrameSymbol": "SPR_CURSOR_DEMOLISH_FIRST",
+      "sourceFrameId": 704,
+      "displayTicks": 8,
+      "displayMs": 216,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_DEMOLISH_1",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_1.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "61eb94be5e9941d011eff8d3185e2d88eaf0942d20a76f5f5c4b35147791e1a0",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/build.png",
+          "sha256": "0cf48d37f5c1e5243acdd1a4b54229135e84ee66074d96f3e75cd482a8e473ba",
+          "record": "assets/icons/build.png.derivation.json"
+        },
+        {
+          "file": "assets/world/effects/electric-spark/01.png",
+          "sha256": "d39d097f2797d1e3966a4539516fe4d589304e54397cd20b5f56f7e158ec668b",
+          "record": "assets/world/effects/electric-spark/01.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_DEMOLISH",
+      "sourceFrameSymbol": "SPR_CURSOR_DEMOLISH_1",
+      "sourceFrameId": 705,
+      "displayTicks": 8,
+      "displayMs": 216,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_DEMOLISH_2",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_2.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "ed7ced638209bde44791033f4f3d5b192fb5b49016bd169eb4c0e14a02e5ca27",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/build.png",
+          "sha256": "0cf48d37f5c1e5243acdd1a4b54229135e84ee66074d96f3e75cd482a8e473ba",
+          "record": "assets/icons/build.png.derivation.json"
+        },
+        {
+          "file": "assets/world/effects/electric-spark/02.png",
+          "sha256": "a1be7fdec7f83d0802cd89a9c4392ba035b421116def28bacacad776213d612f",
+          "record": "assets/world/effects/electric-spark/02.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_DEMOLISH",
+      "sourceFrameSymbol": "SPR_CURSOR_DEMOLISH_2",
+      "sourceFrameId": 706,
+      "displayTicks": 8,
+      "displayMs": 216,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_DEMOLISH_LAST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_LAST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "673e93531d13ca29b9794c8c224aa0d65a1c7a36a62dc0598135de2488aa6ba1",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/build.png",
+          "sha256": "0cf48d37f5c1e5243acdd1a4b54229135e84ee66074d96f3e75cd482a8e473ba",
+          "record": "assets/icons/build.png.derivation.json"
+        },
+        {
+          "file": "assets/world/effects/electric-spark/03.png",
+          "sha256": "4090726f8fa2673376387764fa274a9a5105b90546479cdc022845f00957fcf0",
+          "record": "assets/world/effects/electric-spark/03.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_DEMOLISH",
+      "sourceFrameSymbol": "SPR_CURSOR_DEMOLISH_LAST",
+      "sourceFrameId": 707,
+      "displayTicks": 8,
+      "displayMs": 216,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_LOWERLAND_FIRST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_LOWERLAND/SPR_CURSOR_LOWERLAND_FIRST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "a939133642f7123c84b9904b1d33da07ad9cba8a4764982b58236cd6ebe2d508",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/chevron.png",
+          "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+          "record": "assets/common/pointers/components/chevron.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_LOWERLAND",
+      "sourceFrameSymbol": "SPR_CURSOR_LOWERLAND_FIRST",
+      "sourceFrameId": 699,
+      "displayTicks": 10,
+      "displayMs": 270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_LOWERLAND_1",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_LOWERLAND/SPR_CURSOR_LOWERLAND_1.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "88c9def69ed77dc675f50a1fd2bd3b12f941a15e439377db036c99b5820235cd",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/chevron.png",
+          "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+          "record": "assets/common/pointers/components/chevron.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_LOWERLAND",
+      "sourceFrameSymbol": "SPR_CURSOR_LOWERLAND_1",
+      "sourceFrameId": 700,
+      "displayTicks": 10,
+      "displayMs": 270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_LOWERLAND_LAST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_LOWERLAND/SPR_CURSOR_LOWERLAND_LAST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "4dd0c7f4080d11a8a8a5b61495b9fad7da4506fadd90f6a63b8ab83a9cc9fbb4",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/chevron.png",
+          "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+          "record": "assets/common/pointers/components/chevron.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_LOWERLAND",
+      "sourceFrameSymbol": "SPR_CURSOR_LOWERLAND_LAST",
+      "sourceFrameId": 701,
+      "displayTicks": 29,
+      "displayMs": 783,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_RAISELAND_FIRST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_RAISELAND/SPR_CURSOR_RAISELAND_FIRST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "4c736caa300f47ef53fb76c160e7c5c5e391323d3c6240b1f27fdc39b77d9674",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/chevron.png",
+          "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+          "record": "assets/common/pointers/components/chevron.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_RAISELAND",
+      "sourceFrameSymbol": "SPR_CURSOR_RAISELAND_FIRST",
+      "sourceFrameId": 696,
+      "displayTicks": 10,
+      "displayMs": 270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_RAISELAND_1",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_RAISELAND/SPR_CURSOR_RAISELAND_1.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "44166afea34aa6919af510fba75176eb992eb92d9e2a6e9a73d3abd1cf0d789f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/chevron.png",
+          "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+          "record": "assets/common/pointers/components/chevron.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_RAISELAND",
+      "sourceFrameSymbol": "SPR_CURSOR_RAISELAND_1",
+      "sourceFrameId": 697,
+      "displayTicks": 10,
+      "displayMs": 270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_RAISELAND_LAST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_RAISELAND/SPR_CURSOR_RAISELAND_LAST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "beea9cc676f4b70869fecca42e158c605d4eb0c09ab11cc527421d03a2a0e7ad",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/terrain.png",
+          "sha256": "5675e833030670c20029170981e4262da211f964228bf5f2c754e383852d7903",
+          "record": "assets/icons/terrain.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/chevron.png",
+          "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+          "record": "assets/common/pointers/components/chevron.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_RAISELAND",
+      "sourceFrameSymbol": "SPR_CURSOR_RAISELAND_LAST",
+      "sourceFrameId": 698,
+      "displayTicks": 29,
+      "displayMs": 783,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_PICKSTATION_FIRST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_FIRST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "5b0b86f5aea1956f3151fd6f871322835d66e107ea7bc398d0009cd31bbaf9fc",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/orders.png",
+          "sha256": "38ad77a96d0b520791bf109a2808d257b11826666934cd958b692c74ba3bf0b8",
+          "record": "assets/icons/orders.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/path-dot.png",
+          "sha256": "7cb584882c7290d92bbcb83c913204b3ea962faf44f6cc00c3fe5e8ec18a066a",
+          "record": "assets/common/pointers/components/path-dot.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_PICKSTATION",
+      "sourceFrameSymbol": "SPR_CURSOR_PICKSTATION_FIRST",
+      "sourceFrameId": 716,
+      "displayTicks": 10,
+      "displayMs": 270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_PICKSTATION_1",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_1.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "d0849a2a50fe9428abe58b7e700c82d565635a9997ae1810ddee10d7ff6f707c",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/orders.png",
+          "sha256": "38ad77a96d0b520791bf109a2808d257b11826666934cd958b692c74ba3bf0b8",
+          "record": "assets/icons/orders.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/path-dot.png",
+          "sha256": "7cb584882c7290d92bbcb83c913204b3ea962faf44f6cc00c3fe5e8ec18a066a",
+          "record": "assets/common/pointers/components/path-dot.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_PICKSTATION",
+      "sourceFrameSymbol": "SPR_CURSOR_PICKSTATION_1",
+      "sourceFrameId": 717,
+      "displayTicks": 10,
+      "displayMs": 270,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_PICKSTATION_LAST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_LAST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "f727f9cf0e6cb56de8234405d348b4a9b5859872da645329e694089947e6f29c",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/orders.png",
+          "sha256": "38ad77a96d0b520791bf109a2808d257b11826666934cd958b692c74ba3bf0b8",
+          "record": "assets/icons/orders.png.derivation.json"
+        },
+        {
+          "file": "assets/common/pointers/components/path-dot.png",
+          "sha256": "7cb584882c7290d92bbcb83c913204b3ea962faf44f6cc00c3fe5e8ec18a066a",
+          "record": "assets/common/pointers/components/path-dot.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_PICKSTATION",
+      "sourceFrameSymbol": "SPR_CURSOR_PICKSTATION_LAST",
+      "sourceFrameId": 718,
+      "displayTicks": 29,
+      "displayMs": 783,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_BUILDSIGNALS_FIRST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_BUILDSIGNALS/SPR_CURSOR_BUILDSIGNALS_FIRST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "7e75acfb190be47c8b1f4cee6b7664860e1c670929c0f2be959da8c509d2dc56",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/signal.png",
+          "sha256": "6fbaeec28a4d3be3a06d59bee5acac45ceb8925ade9a9c964eda6ba4babfcdc9",
+          "record": "assets/icons/signal.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/signal-states/signal-electric-block-S-red.png",
+          "sha256": "5bc2a04c371e4ac95453b4ba4084ce2b3108a0fbd8fc656fff0264ca78146445",
+          "record": "assets/world/infrastructure/signal-states/signal-electric-block-S-red.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_BUILDSIGNALS",
+      "sourceFrameSymbol": "SPR_CURSOR_BUILDSIGNALS_FIRST",
+      "sourceFrameId": 1292,
+      "displayTicks": 20,
+      "displayMs": 540,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    },
+    {
+      "id": "SPR_CURSOR_BUILDSIGNALS_LAST",
+      "image": "assets/common/pointers/animations/ANIMCURSOR_BUILDSIGNALS/SPR_CURSOR_BUILDSIGNALS_LAST.png",
+      "width": 96,
+      "height": 96,
+      "format": "PNG",
+      "mode": "RGBA",
+      "sha256": "dcc8a7632e6a9a506fade9f7b7a5aa84bf2b01333bd373575286d410f534dc9f",
+      "derivedFrom": [
+        {
+          "file": "assets/common/pointers/components/cursor-arrow.png",
+          "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+          "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+        },
+        {
+          "file": "assets/icons/signal.png",
+          "sha256": "6fbaeec28a4d3be3a06d59bee5acac45ceb8925ade9a9c964eda6ba4babfcdc9",
+          "record": "assets/icons/signal.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/signal-states/signal-electric-block-S-green.png",
+          "sha256": "814ae84d13f10e88b095afdd041bdd7af00eaaf72d2ddfe790f8a3cfec58d399",
+          "record": "assets/world/infrastructure/signal-states/signal-electric-block-S-green.png.derivation.json"
+        }
+      ],
+      "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+      "nativeModelGeneration": false,
+      "nativeUpscale": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "unityValidated": false,
+      "userArtAcceptance": "pending",
+      "category": "animated-cursor-frame",
+      "sourceGroup": "ANIMCURSOR_BUILDSIGNALS",
+      "sourceFrameSymbol": "SPR_CURSOR_BUILDSIGNALS_LAST",
+      "sourceFrameId": 1293,
+      "displayTicks": 20,
+      "displayMs": 540,
+      "hotspotPx": [
+        9,
+        8
+      ],
+      "anchorPx": [
+        9,
+        8
+      ],
+      "status": "art-checked-user-review-pending",
+      "actualVisualReview": "records/pointer-visual-review.json"
+    }
+  ],
+  "animations": [
+    {
+      "id": "ANIMCURSOR_DEMOLISH",
+      "frames": [
+        "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_FIRST.png",
+        "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_1.png",
+        "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_2.png",
+        "assets/common/pointers/animations/ANIMCURSOR_DEMOLISH/SPR_CURSOR_DEMOLISH_LAST.png"
+      ],
+      "durationsMs": [
+        216,
+        216,
+        216,
+        216
+      ],
+      "sourceTicks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "sourceFrameIds": [
+        704,
+        705,
+        706,
+        707
+      ],
+      "sourceTickMs": 27,
+      "loop": true,
+      "frameSize": [
+        96,
+        96
+      ],
+      "fixedHotspotPx": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "ANIMCURSOR_LOWERLAND",
+      "frames": [
+        "assets/common/pointers/animations/ANIMCURSOR_LOWERLAND/SPR_CURSOR_LOWERLAND_FIRST.png",
+        "assets/common/pointers/animations/ANIMCURSOR_LOWERLAND/SPR_CURSOR_LOWERLAND_1.png",
+        "assets/common/pointers/animations/ANIMCURSOR_LOWERLAND/SPR_CURSOR_LOWERLAND_LAST.png"
+      ],
+      "durationsMs": [
+        270,
+        270,
+        783
+      ],
+      "sourceTicks": [
+        10,
+        10,
+        29
+      ],
+      "sourceFrameIds": [
+        699,
+        700,
+        701
+      ],
+      "sourceTickMs": 27,
+      "loop": true,
+      "frameSize": [
+        96,
+        96
+      ],
+      "fixedHotspotPx": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "ANIMCURSOR_RAISELAND",
+      "frames": [
+        "assets/common/pointers/animations/ANIMCURSOR_RAISELAND/SPR_CURSOR_RAISELAND_FIRST.png",
+        "assets/common/pointers/animations/ANIMCURSOR_RAISELAND/SPR_CURSOR_RAISELAND_1.png",
+        "assets/common/pointers/animations/ANIMCURSOR_RAISELAND/SPR_CURSOR_RAISELAND_LAST.png"
+      ],
+      "durationsMs": [
+        270,
+        270,
+        783
+      ],
+      "sourceTicks": [
+        10,
+        10,
+        29
+      ],
+      "sourceFrameIds": [
+        696,
+        697,
+        698
+      ],
+      "sourceTickMs": 27,
+      "loop": true,
+      "frameSize": [
+        96,
+        96
+      ],
+      "fixedHotspotPx": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "ANIMCURSOR_PICKSTATION",
+      "frames": [
+        "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_FIRST.png",
+        "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_1.png",
+        "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_LAST.png"
+      ],
+      "durationsMs": [
+        270,
+        270,
+        783
+      ],
+      "sourceTicks": [
+        10,
+        10,
+        29
+      ],
+      "sourceFrameIds": [
+        716,
+        717,
+        718
+      ],
+      "sourceTickMs": 27,
+      "loop": true,
+      "frameSize": [
+        96,
+        96
+      ],
+      "fixedHotspotPx": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "ANIMCURSOR_BUILDSIGNALS",
+      "frames": [
+        "assets/common/pointers/animations/ANIMCURSOR_BUILDSIGNALS/SPR_CURSOR_BUILDSIGNALS_FIRST.png",
+        "assets/common/pointers/animations/ANIMCURSOR_BUILDSIGNALS/SPR_CURSOR_BUILDSIGNALS_LAST.png"
+      ],
+      "durationsMs": [
+        540,
+        540
+      ],
+      "sourceTicks": [
+        20,
+        20
+      ],
+      "sourceFrameIds": [
+        1292,
+        1293
+      ],
+      "sourceTickMs": 27,
+      "loop": true,
+      "frameSize": [
+        96,
+        96
+      ],
+      "fixedHotspotPx": [
+        9,
+        8
+      ]
+    }
+  ],
+  "hotspotEvidence": {
+    "method": "min(x+y) of visible Alpha>128 on actual resized native arrow tip; measured after96canvas registration",
+    "hotspotPx": [
+      9,
+      8
+    ],
+    "canvasPx": [
+      96,
+      96
+    ],
+    "sameForAllFrames": true
+  },
+  "sourceCursorStaticCount": 72,
+  "sourceAnimatedGroups": 5,
+  "sourceTickMs": 27,
+  "sourceTickEvidence": "reference/OpenTTD/src/gfx_type.h:417",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "localArtAcceptance": "passed-local"
+}

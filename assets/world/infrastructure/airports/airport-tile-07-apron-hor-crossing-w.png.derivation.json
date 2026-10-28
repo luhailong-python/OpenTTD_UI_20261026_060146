@@ -1,0 +1,54 @@
+{
+  "id": "airport-tile-07-apron-hor-crossing-w",
+  "image": "assets/world/infrastructure/airports/airport-tile-07-apron-hor-crossing-w.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "a11a8b5b5e94b49864a8e81855798b8b08e1a0b124dc4b58caaeeaf20917125d",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-taxi-mask-11.png",
+      "sha256": "4ca29aecc2953c8a311554495165145cc127892aed7ef6a7a1bcccd2b56fb305",
+      "record": "assets/world/infrastructure/airports/airport-ground-taxi-mask-11.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 7,
+  "sourceTileEnum": "APT_APRON_HOR_CROSSING_W",
+  "sourceDrawSpec": "TILE_SPRITE_LINE_NOTHING(SPR_AIRPORT_TAXIWAY_XING_WEST)  // APT_APRON_HOR_CROSSING_W",
+  "layers": [
+    {
+      "artId": "airport-ground-taxi-mask-11",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-tile-07-apron-hor-crossing-w"
+  ]
+}

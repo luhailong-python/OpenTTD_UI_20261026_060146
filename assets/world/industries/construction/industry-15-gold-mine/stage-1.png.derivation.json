@@ -1,0 +1,60 @@
+{
+  "id": "industry-15-gold-mine-construction-1",
+  "image": "assets/world/industries/construction/industry-15-gold-mine/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "ab5b16256296968f836f7d420cbfa9bbb16dd9f438960a18c373ccf595b40eb5",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/gold-mine.png",
+      "sha256": "b1db565baf9efb11a209e35f6e422da8726b440a3ea91ea5da1d049a2287d592",
+      "record": "assets/world/industries/gold-mine.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 15,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-15-gold-mine",
+    "industry-tile-072",
+    "industry-tile-073",
+    "industry-tile-074",
+    "industry-tile-075",
+    "industry-tile-076",
+    "industry-tile-077",
+    "industry-tile-078",
+    "industry-tile-079",
+    "industry-tile-080",
+    "industry-tile-081",
+    "industry-tile-082",
+    "industry-tile-083",
+    "industry-tile-084",
+    "industry-tile-085",
+    "industry-tile-086",
+    "industry-tile-087",
+    "industry-tile-088"
+  ]
+}

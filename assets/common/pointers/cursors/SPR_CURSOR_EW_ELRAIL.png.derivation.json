@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_EW_ELRAIL",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_EW_ELRAIL.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "1cb3c37059342db774295e02cbc23bf11162836bbd826d3cb166b58bda0bf731",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/rail/rail-electric-segment-x.png",
+      "sha256": "68425e4cef4dbf944b602766558c1833507b2f1266a070e913f7619e6490f107",
+      "record": "assets/world/infrastructure/rail/rail-electric-segment-x.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_EW_ELRAIL",
+  "sourceSpriteId": 5674,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

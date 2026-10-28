@@ -1,0 +1,39 @@
+{
+  "id": "tree-23-growing-2",
+  "image": "assets/world/vegetation/states/tree-23/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "6cbc1b874e082bd7f126f394ded71628f2c840a51aa19e58fe0ab765dc98d74a",
+  "climate": "tropical",
+  "artSpecies": "fan-palm",
+  "sourceTreeType": 23,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-23.png",
+      "sha256": "cce7bad2b8707939e3237509a7b24137441b1dd54c429378448ece0a7c0544df",
+      "record": "assets/world/vegetation/mature/tree-23.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-23"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "airport-terminal",
+  "image": "assets/world/infrastructure/airports/airport-terminal.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-module",
+  "sha256": "4201f444e8184a6fef2098f5ca81ce63c7d42977306a18cceb0c115e2b8a0746",
+  "operation": "component ownership crop, alpha<8 removal and >=240 opaque normalization, proportional downscale to <=224w/320h, fixed512 canvas; not new native detail",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/airport-ground.png",
+      "sha256": "4cec755069580116eeda73ee40b02229b7939b688ecdd7c03a2f7b3cc03ecc45",
+      "record": "source-art/world/airport-ground.png.generation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceCropXYXY": [
+    1022,
+    625,
+    1531,
+    988
+  ],
+  "sourceCell": 8,
+  "uniformScale": 0.4400785854616896,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": []
+}

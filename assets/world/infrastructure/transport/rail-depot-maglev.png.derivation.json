@@ -1,0 +1,49 @@
+{
+  "id": "rail-depot-maglev",
+  "image": "assets/world/infrastructure/transport/rail-depot-maglev.png",
+  "sha256": "e5e1e395673dff901351b449b7fd473b698006314afc219d348cee9750582ccb",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/depot-kit.png",
+      "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+      "record": "source-art/world/depot-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    15,
+    377,
+    524,
+    679
+  ],
+  "scaleApplied": 0.7544204322200393,
+  "sourceAtlas": "depot-kit",
+  "sourceComponent": 12,
+  "contentSize": [
+    384,
+    228
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

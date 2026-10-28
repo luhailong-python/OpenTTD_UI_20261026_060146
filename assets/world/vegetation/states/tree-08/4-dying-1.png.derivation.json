@@ -1,0 +1,39 @@
+{
+  "id": "tree-08-dying-1",
+  "image": "assets/world/vegetation/states/tree-08/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "46122134a51b39f476e1d4aaaaf0b5549ce145a9296ad890e2a3aebbecdae0c5",
+  "climate": "temperate",
+  "artSpecies": "willow",
+  "sourceTreeType": 8,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-08.png",
+      "sha256": "a14e1d36a69d1316d7fec5143e28cdcd3660c51b2aa15a5da57228971342641e",
+      "record": "assets/world/vegetation/mature/tree-08.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-08"
+  ]
+}

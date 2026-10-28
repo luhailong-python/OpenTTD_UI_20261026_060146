@@ -1,0 +1,21 @@
+{
+  "file": "assets/world/infrastructure/roads/road-mask-11.png",
+  "sha256": "4eb5027813c49be8cf2f90b37a59da3fbe3066ce96d1aafef15fc47250014056",
+  "generatedAt": "2026-10-27T02:56:11.836232+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 128,
+  "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/road-topology.png",
+      "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+      "record": "source-art/world/road-topology.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Imagegen service did not expose model/quality; deterministic clipping/composition is not new model detail."
+}

@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/infrastructure/road-variants/tram-desert-mask-14-slope-sw.png",
+  "sha256": "9ebd6b06a91e4a703d0c482ab3494223895ac84c8d1ce9cb60ca5f23f7988f33",
+  "generatedAt": "2026-10-28T07:33:56.010999+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 192,
+  "operation": "actual native road/tram lane Alpha over actual painted desert ground; piecewise-affine source-corner height projection, shared fixedcanvas/anchor; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/roads/tram-mask-14.png",
+      "sha256": "eff1ac98399a878ee2e0d9c6c6269d5ba3975556115d68b6c339946c1fc6d420",
+      "record": "assets/world/infrastructure/roads/tram-mask-14.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-desert-flat.png",
+      "sha256": "49cafe95aff659fbe26ccb1ca01a02ae823c960a0ed0dda638c8ce134dcdc32b",
+      "record": "assets/world/terrain/terrain-desert-flat.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Native imagegen model/quality undisclosed; derivative transformations add no native painted details."
+}

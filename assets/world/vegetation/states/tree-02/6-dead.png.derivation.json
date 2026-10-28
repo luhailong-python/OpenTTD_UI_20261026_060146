@@ -1,0 +1,46 @@
+{
+  "id": "tree-02-dead",
+  "image": "assets/world/vegetation/states/tree-02/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "5f3537984e9957f3663a908912ed47999b4924f535135bacd4800af0a6c4e769",
+  "climate": "temperate",
+  "artSpecies": "silver-birch",
+  "sourceTreeType": 2,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-02.png",
+      "sha256": "6b9dcdb596a1647677390cf35ebda0abe0d6e368889210ce5d6b4bb1bbbdc0af",
+      "record": "assets/world/vegetation/mature/tree-02.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png",
+      "sha256": "9f12687fd3a2ea92f835b6926f1a62d76e71b96c7ee583ea09a1f633766c20cd",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-stump",
+    "sharedScale": 0.32285714285714284,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-02"
+  ]
+}

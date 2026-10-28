@@ -1,0 +1,68 @@
+{
+  "id": "SPR_EXCLUSIVE_TRANSPORT",
+  "image": "assets/common/micro-ui/SPR_EXCLUSIVE_TRANSPORT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "184aeb38261db2de09436c39e51fb9dd5341038d6bd05b29f492afedfaa5366d",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/company.png",
+      "sha256": "b7e5fd79a2ebcf87f1a44951b1c98b923eefc0fb685651d5361062b2da052d29",
+      "record": "assets/icons/company.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_EXCLUSIVE_TRANSPORT.svg",
+      "sha256": "22158c1a628b71a0286b82b7709b8314ba39bc1302f90a0255890d12ec4e4f48",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_EXCLUSIVE_TRANSPORT",
+  "sourceSpriteId": 5055,
+  "category": "function-status",
+  "functionalGlyph": "lock",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_EXCLUSIVE_TRANSPORT.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

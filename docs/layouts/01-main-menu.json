@@ -1,0 +1,418 @@
+{
+  "screenId": "01-main-menu",
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "云途万里",
+      "rect": [
+        309,
+        157,
+        557,
+        215
+      ],
+      "fontSize": 62,
+      "fontFamily": "Ma Shan Zheng",
+      "color": "#FFF2D1",
+      "alignment": "center"
+    },
+    {
+      "text": "暂名 · 道家运输经营",
+      "rect": [
+        314,
+        284,
+        551,
+        309
+      ],
+      "fontSize": 25,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "新建游戏",
+      "rect": [
+        376,
+        381,
+        500,
+        411
+      ],
+      "fontSize": 31,
+      "fontFamily": "Noto Sans SC",
+      "color": "#FFF2D1",
+      "alignment": "center"
+    },
+    {
+      "text": "载入存档",
+      "rect": [
+        376,
+        479,
+        500,
+        510
+      ],
+      "fontSize": 31,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "联机游戏",
+      "rect": [
+        376,
+        577,
+        500,
+        608
+      ],
+      "fontSize": 31,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "游玩场景",
+      "rect": [
+        211,
+        680,
+        303,
+        703
+      ],
+      "fontSize": 23,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "情景编辑",
+      "rect": [
+        398,
+        680,
+        490,
+        703
+      ],
+      "fontSize": 23,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "在线内容",
+      "rect": [
+        585,
+        680,
+        677,
+        703
+      ],
+      "fontSize": 23,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "设置",
+      "rect": [
+        234,
+        775,
+        280,
+        798
+      ],
+      "fontSize": 23,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "帮助",
+      "rect": [
+        421,
+        775,
+        467,
+        798
+      ],
+      "fontSize": 23,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "退出游戏",
+      "rect": [
+        585,
+        775,
+        677,
+        797
+      ],
+      "fontSize": 23,
+      "fontFamily": "Noto Sans SC",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "通山海，达万里",
+      "rect": [
+        301,
+        857,
+        567,
+        893
+      ],
+      "fontSize": 38,
+      "fontFamily": "Ma Shan Zheng",
+      "color": "#164F45",
+      "alignment": "center"
+    },
+    {
+      "text": "静态排版示例 · 临时游戏名称",
+      "rect": [
+        313,
+        915,
+        555,
+        933
+      ],
+      "fontSize": 18,
+      "fontFamily": "Noto Sans SC",
+      "color": "#6A766A",
+      "alignment": "center"
+    },
+    {
+      "text": "铁路 · 公路 · 水运 · 航空",
+      "rect": [
+        1369,
+        979,
+        1727,
+        1008
+      ],
+      "fontSize": 29,
+      "fontFamily": "Noto Sans SC",
+      "color": "#FFF2D1",
+      "alignment": "right"
+    }
+  ],
+  "spritePlacements": [
+    {
+      "asset": "panel_main",
+      "rectTopLeftXYWH": [
+        84,
+        96,
+        706,
+        915
+      ],
+      "border": [
+        112,
+        116,
+        112,
+        90
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "title_plate",
+      "rectTopLeftXYWH": [
+        168,
+        119,
+        531,
+        149
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "spriteType": "Simple",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_primary_normal",
+      "rectTopLeftXYWH": [
+        209,
+        351,
+        458,
+        87
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        209,
+        449,
+        458,
+        87
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        209,
+        547,
+        458,
+        87
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        169,
+        654,
+        176,
+        76
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        356,
+        654,
+        176,
+        76
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        543,
+        654,
+        176,
+        76
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        169,
+        749,
+        176,
+        76
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        356,
+        749,
+        176,
+        76
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "asset": "button_secondary_normal",
+      "rectTopLeftXYWH": [
+        543,
+        749,
+        176,
+        76
+      ],
+      "border": [
+        84,
+        34,
+        84,
+        34
+      ],
+      "spriteType": "Sliced",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "notes": [
+    "坐标原点左上，Unity锚点待接入验证",
+    "动态文案独立排版未写入正式控件PNG",
+    "图表为静态示例数据可视化"
+  ]
+}

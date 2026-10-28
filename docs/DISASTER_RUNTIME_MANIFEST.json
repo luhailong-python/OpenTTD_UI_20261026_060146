@@ -1,0 +1,149 @@
+{
+  "sourceSubtypeCount": 15,
+  "subtypes": [
+    {
+      "sourceId": 0,
+      "sourceEnum": "ST_ZEPPELINER",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 18,
+      "manifest": "assets/world/effects/disasters/zeppelin/manifest.json",
+      "unityVerified": false,
+      "states": {
+        "intact": "assets/world/effects/disasters/zeppelin/manifest.json",
+        "crashing": "assets/world/effects/disasters/zeppelin-crashing/manifest.json",
+        "wreck": "assets/world/effects/disasters/zeppelin-wreck/manifest.json"
+      }
+    },
+    {
+      "sourceId": 1,
+      "sourceEnum": "ST_ZEPPELINER_SHADOW",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 19,
+      "manifest": "assets/world/effects/disasters/zeppelin-shadow/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 2,
+      "sourceEnum": "ST_SMALL_UFO",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 20,
+      "manifest": "assets/world/effects/disasters/ufo-small/manifest.json",
+      "unityVerified": false,
+      "states": {
+        "lit": "assets/world/effects/disasters/ufo-small/manifest.json",
+        "dark": "assets/world/effects/disasters/ufo-small-dark/manifest.json"
+      }
+    },
+    {
+      "sourceId": 3,
+      "sourceEnum": "ST_SMALL_UFO_SHADOW",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 21,
+      "manifest": "assets/world/effects/disasters/ufo-small-shadow/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 4,
+      "sourceEnum": "ST_AIRPLANE",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 22,
+      "manifest": "assets/world/effects/disasters/combat-airplane/manifest.json",
+      "unityVerified": false,
+      "firingOverlay": "assets/world/effects/electric-spark/manifest.json",
+      "impactOverlay": "assets/world/effects/explosion-large/manifest.json"
+    },
+    {
+      "sourceId": 5,
+      "sourceEnum": "ST_AIRPLANE_SHADOW",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 23,
+      "manifest": "assets/world/effects/disasters/combat-airplane-shadow/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 6,
+      "sourceEnum": "ST_HELICOPTER",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 24,
+      "manifest": "assets/world/effects/disasters/combat-helicopter/manifest.json",
+      "unityVerified": false,
+      "firingOverlay": "assets/world/effects/electric-spark/manifest.json",
+      "impactOverlay": "assets/world/effects/explosion-large/manifest.json"
+    },
+    {
+      "sourceId": 7,
+      "sourceEnum": "ST_HELICOPTER_SHADOW",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 25,
+      "manifest": "assets/world/effects/disasters/combat-helicopter-shadow/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 8,
+      "sourceEnum": "ST_HELICOPTER_ROTORS",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 26,
+      "manifest": "assets/world/vehicles/rotor/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 9,
+      "sourceEnum": "ST_BIG_UFO",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 27,
+      "manifest": "assets/world/effects/disasters/ufo-big/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 10,
+      "sourceEnum": "ST_BIG_UFO_SHADOW",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 28,
+      "manifest": "assets/world/effects/disasters/ufo-big-shadow/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 11,
+      "sourceEnum": "ST_BIG_UFO_DESTROYER",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 29,
+      "manifest": "assets/world/effects/disasters/ufo-destroyer/manifest.json",
+      "unityVerified": false,
+      "firingOverlay": "assets/world/effects/electric-spark/manifest.json",
+      "impactOverlay": "assets/world/effects/explosion-large/manifest.json"
+    },
+    {
+      "sourceId": 12,
+      "sourceEnum": "ST_BIG_UFO_DESTROYER_SHADOW",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 30,
+      "manifest": "assets/world/effects/disasters/ufo-destroyer-shadow/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 13,
+      "sourceEnum": "ST_SMALL_SUBMARINE",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 31,
+      "manifest": "assets/world/effects/disasters/submarine-small/manifest.json",
+      "unityVerified": false
+    },
+    {
+      "sourceId": 14,
+      "sourceEnum": "ST_BIG_SUBMARINE",
+      "sourceFile": "src/disaster_vehicle.h",
+      "sourceLine": 32,
+      "manifest": "assets/world/effects/disasters/submarine-big/manifest.json",
+      "unityVerified": false
+    }
+  ],
+  "sourceSpriteArrays": "src/disaster_vehicle.cpp:92-119",
+  "eightDirectionsNotNeeded": "source airship/UFO/combat air/rotor arrays reuse one original sprite for all8 directions; submarines use4 diagonal sprites",
+  "newIndependentNativeProps": 11,
+  "shadowsAreDerived": true,
+  "unityVerified": false,
+  "nativePropFacingImages": 17,
+  "countExplanation": "9 native airship/UFO/aircraft state paintings +8 submarine view paintings represent11 body/state subjects; shadows androtor are derivatives/reuse, not15 unrelated nativepaintings.",
+  "localAcceptanceRecord": "records/vehicle-fx-validation.json",
+  "userArtAcceptance": "pending"
+}

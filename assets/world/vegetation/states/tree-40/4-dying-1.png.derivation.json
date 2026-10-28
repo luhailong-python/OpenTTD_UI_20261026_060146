@@ -1,0 +1,39 @@
+{
+  "id": "tree-40-dying-1",
+  "image": "assets/world/vegetation/states/tree-40/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "a3ae7a67697411333e177ad28c8d9f3557a8bca6700d9747b7b74d81732f0d48",
+  "climate": "toyland",
+  "artSpecies": "balloon-tree",
+  "sourceTreeType": 40,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-40.png",
+      "sha256": "c84501ceaa8ece7466ca7a3b8cc5f20c2405c35816e970ebf32c766db1f7ced0",
+      "record": "assets/world/vegetation/mature/tree-40.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-40"
+  ]
+}

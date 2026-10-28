@@ -1,0 +1,71 @@
+{
+  "file": "source-art/world/snowgrass-seamless.png",
+  "sha256": "e10c2f47b0e427b0e7f10bbe1ce9c3ee9f3ec08234b8a7c565a3e912c5c0b1c9",
+  "generatedAt": "2026-10-28T10:19:11.572Z",
+  "generatedAtEvidence": "records/world-production/snowgrass-seamless-call.json records actual UTC call times",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: seamless square ground material for the existing Taoist chibi transport simulation art pack.\nCreate ONE square full-bleed opaque perfectly OVERHEAD ground texture. Flat pale muted sage meadow lightly dusted with soft ivory snow. It must repeat seamlessly left/right and top/bottom. Do not render a perspective diamond, a raised tile, a border, a vignette or a scene.\nInput images1/2 are strict refined Taoist chibi hand-painted style/palette references only; no UI, people, buildings, ornaments or text from them. Image3 is the old snowgrass material reference. Correct its edge-heavy snow, white square outlines and green central clearing which cause a regular lattice on repeated tiles. Use the same soft cool ivory snow and muted green colors but distribute them EVENLY all over the square.\nPaint lots of very small irregular soft broken powder-snow flecks over tiny short pale green grass. About fifty percent fine ivory snow and fifty percent pale muted green vegetation, evenly mixed at every edge and through the center. Keep variation small-scale and delicate, no large blobs or bands, no central green opening, no white rim, no straight tracks, no diagonal stripe, no repeated geometric motif. Opposing edges must continue naturally. Same average tone/detail density at borders and center, no directional lighting gradient. Refined clean high-definition brush texture, subtly rounded details, low contrast, calm readability. No photoreal grit or plastic highlights.\nNo words, labels, logo, watermark, people, roads, water, rocks, trees, buildings, flowers, UI or cast shadows. Native high resolution requested; actual PNG dimensions will be recorded separately.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\docs\\reference-images\\snowgrass-before-repair.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-07e7b4f9-fb47-4031-b578-5d134d1a630f.png",
+    "nativeSizeFromPNG": [
+      1254,
+      1254
+    ],
+    "callRecord": "records/world-production/snowgrass-seamless-call.json"
+  },
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回亦未披露；配置目标不作为实际返回证明。",
+  "prompt": "Use case: stylized-concept\nAsset type: seamless square ground material for the existing Taoist chibi transport simulation art pack.\nCreate ONE square full-bleed opaque perfectly OVERHEAD ground texture. Flat pale muted sage meadow lightly dusted with soft ivory snow. It must repeat seamlessly left/right and top/bottom. Do not render a perspective diamond, a raised tile, a border, a vignette or a scene.\nInput images1/2 are strict refined Taoist chibi hand-painted style/palette references only; no UI, people, buildings, ornaments or text from them. Image3 is the old snowgrass material reference. Correct its edge-heavy snow, white square outlines and green central clearing which cause a regular lattice on repeated tiles. Use the same soft cool ivory snow and muted green colors but distribute them EVENLY all over the square.\nPaint lots of very small irregular soft broken powder-snow flecks over tiny short pale green grass. About fifty percent fine ivory snow and fifty percent pale muted green vegetation, evenly mixed at every edge and through the center. Keep variation small-scale and delicate, no large blobs or bands, no central green opening, no white rim, no straight tracks, no diagonal stripe, no repeated geometric motif. Opposing edges must continue naturally. Same average tone/detail density at borders and center, no directional lighting gradient. Refined clean high-definition brush texture, subtly rounded details, low contrast, calm readability. No photoreal grit or plastic highlights.\nNo words, labels, logo, watermark, people, roads, water, rocks, trees, buildings, flowers, UI or cast shadows. Native high resolution requested; actual PNG dimensions will be recorded separately.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\docs\\reference-images\\snowgrass-before-repair.png",
+      "sha256": "224373b83bef9cca90841626aa8e8a4906e6c647fac8fe625a2826139303318e",
+      "purpose": "old snowgrass material colour/detail reference before formal replacement"
+    }
+  ],
+  "promptFile": "records/world-production/snowgrass-seamless.prompt.txt",
+  "status": "native-material-master-visual-inspected; formal tiling derivative pending"
+}

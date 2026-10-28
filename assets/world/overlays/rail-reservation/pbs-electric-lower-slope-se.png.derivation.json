@@ -1,0 +1,57 @@
+{
+  "id": "pbs-electric-lower-slope-se",
+  "image": "assets/world/overlays/rail-reservation/pbs-electric-lower-slope-se.png",
+  "width": 256,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "ecf2ab0119c4f7fbc3b7e12c89e8d5456178051e96f63e6f7f6f91cb8001259e",
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.3333333333333333
+  ],
+  "category": "rail-reservation-overlay",
+  "sourceRequirementIds": [
+    "rail-electric"
+  ],
+  "state": "reserved",
+  "trackBit": 3,
+  "trackName": "lower",
+  "slopeCode": 6,
+  "sourceOverlay": {
+    "file": "assets/world/infrastructure/rail/rail-electric-segment-lower-slope-se.png",
+    "sha256": "8770916212e7f0bb2400d80a0cb2c2d0c66af23e5dd17e01bc7ac325d313d481",
+    "record": "assets/world/infrastructure/rail/rail-electric-segment-lower-slope-se.png.derivation.json"
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/rail/rail-electric-segment-lower-slope-se.png",
+      "sha256": "8770916212e7f0bb2400d80a0cb2c2d0c66af23e5dd17e01bc7ac325d313d481",
+      "record": "assets/world/infrastructure/rail/rail-electric-segment-lower-slope-se.png.derivation.json"
+    }
+  ],
+  "sourceLayer": "track-overlay",
+  "ownershipMask": "exact Alpha of actual source track-overlay PNG;flat only transparent64px top padding;no terrain composite input",
+  "operation": "luma grayscale×0.58 on native owned track pixels,source Alpha unchanged,Alpha0RGB cleared;source PALETTE_CRASH visual meaning reinterpreted for current art,not original palette byte emulation",
+  "material": {
+    "rgbFormula": "round((0.2126R+0.7152G+0.0722B)*0.58) repeated inRGB",
+    "alphaFormula": "Aout=Asource; no opaque fill/no whole-ground tint",
+    "blend": "straight alpha/source-over",
+    "sourceSetting": "_settings_client.gui.show_track_reservation",
+    "activeCondition": "reservedTrackBits & currentTrackBits;source also suppresses menu mode",
+    "notReserved": "do not draw this layer",
+    "overhead": "catenary/posts/vehicles excluded from owned Alpha and remain separate"
+  },
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/rail-reservation-visual-review.json"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "industry-34-bubble-generator-construction-2",
+  "image": "assets/world/industries/construction/industry-34-bubble-generator/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "1718eaf69ecebfd5cee1ccdc9a78eedfc3f356fbabc5ed6dfa068db3c37fd3c6",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/bubble-generator.png",
+      "sha256": "ce2b63a7e1dd11d452150f8fe2c7df9e961b350d2c4fe576b7d4bcb52e60e18a",
+      "record": "assets/world/industries/bubble-generator.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 34,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-34-bubble-generator",
+    "industry-tile-160",
+    "industry-tile-161",
+    "industry-tile-162",
+    "industry-tile-163"
+  ]
+}

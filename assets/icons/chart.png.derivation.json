@@ -1,0 +1,72 @@
+{
+  "id": "chart",
+  "file": "assets/icons/chart.png",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "f7b5373b8acb7064ed81e709f88def754e94bbc19f1f5be412e9f14fdd0a34dc",
+  "source": "source-art/system-icons.png",
+  "sourceSha256": "20b35d40ccd03ef1d3bb17de11e34e5db1b5c99ed71b520061e1f2d2721745f2",
+  "sourceGenerationRecord": "source-art/system-icons.png.generation.json",
+  "operation": "native-resolution rectangular crop and transparent padding; no resampling, no alpha recolouring, no new image generation",
+  "cropXYXY": [
+    221,
+    871,
+    420,
+    1041
+  ],
+  "sourceCellXYXY": [
+    209,
+    864,
+    433,
+    1049
+  ],
+  "sourceCropSize": [
+    199,
+    170
+  ],
+  "paddingLeftTop": [
+    28,
+    43
+  ],
+  "nativeResampling": false,
+  "alphaMin": 0,
+  "alphaMax": 255,
+  "transparentPixels": 37808,
+  "semiTransparentPixels": 27713,
+  "alphaBoundingBox": [
+    28,
+    43,
+    227,
+    213
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "spriteType": "2D and UI",
+  "spriteMode": "Single",
+  "meshType": "FullRect",
+  "filterMode": "Bilinear",
+  "mipmaps": false,
+  "packing": "UI_Icons atlas with 4px padding; preserve 256x256 canvas; runtime display normally 40–96px",
+  "createdAt": "2026-10-26T10:17:22.121919+00:00",
+  "validationStatus": "passed-static-image-qa",
+  "notes": "Source bus/truck silhouettes are close; per-row cell boundary separates them. Very faint source alpha fringe is retained; no mathematical keying.",
+  "checks": {
+    "canvas256": true,
+    "trueAlpha": true,
+    "transparentCorners": true,
+    "retainedPixelsEqualNativeSource": true,
+    "sha256Matches": true,
+    "visualContactSheetReviewed": true,
+    "UnityValidated": false
+  }
+}

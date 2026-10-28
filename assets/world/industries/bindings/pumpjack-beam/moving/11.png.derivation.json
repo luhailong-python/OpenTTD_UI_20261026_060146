@@ -1,0 +1,60 @@
+{
+  "id": "industry-pumpjack-beam-bound-11",
+  "image": "assets/world/industries/bindings/pumpjack-beam/moving/11.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "5368fe21a8bf30456a89529282f012b05b6ac4254b5cb6fc83186da58066b900",
+  "operation": "actual parent moving-pixel crop + declared deterministic pump-beam-rock; full512 attachment layer already positioned in parent coordinates; not a new native pose",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/oil-well.png",
+      "sha256": "d1040703d86b926994e8060aab8506caed0c709546fb9814d4ab0388c611c49d",
+      "record": "assets/world/industries/oil-well.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 11,
+  "phase": 0.9166666666666666,
+  "parameters": {
+    "angleDegrees": -0.6250000000000006,
+    "pivotPx": [
+      263,
+      188
+    ],
+    "fixedSupportForegroundPatchExcluded": true,
+    "fixedFrontJointPolygonPx": [
+      [
+        249,
+        189
+      ],
+      [
+        270,
+        194
+      ],
+      [
+        270,
+        207
+      ],
+      [
+        252,
+        205
+      ]
+    ]
+  },
+  "parentArtId": "industry-11-oil-well",
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

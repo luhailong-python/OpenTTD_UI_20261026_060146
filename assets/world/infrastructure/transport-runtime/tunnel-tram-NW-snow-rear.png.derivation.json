@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-tram-NW-snow-rear",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-tram-NW-snow-rear.png",
+  "sha256": "a75ce90dbe03189dcdccfa33554c83a6d18ac569266bd6edba8f2d144e9627a6",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/tunnel-tram-NW-snow.png",
+      "sha256": "0154e8e864f9e643ec4460449d430808e8928ff701e01712ce8fe5172d71995b",
+      "record": "assets/world/infrastructure/transport-runtime/tunnel-tram-NW-snow.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-tram"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:17.540251+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

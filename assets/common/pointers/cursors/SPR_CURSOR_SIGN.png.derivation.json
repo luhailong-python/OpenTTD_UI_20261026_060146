@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_SIGN",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_SIGN.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "b2159c132be098ffa8ba886a64a243842c47c7dca4fee7898e115419772e4eaf",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/icons/news.png",
+      "sha256": "18a45f8fdf344af2bf6bbd0f2eeb81a2d782b358c73c5d80efdad5e284f5a854",
+      "record": "assets/icons/news.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_SIGN",
+  "sourceSpriteId": 722,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

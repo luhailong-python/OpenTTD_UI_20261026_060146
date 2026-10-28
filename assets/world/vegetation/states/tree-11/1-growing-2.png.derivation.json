@@ -1,0 +1,39 @@
+{
+  "id": "tree-11-growing-2",
+  "image": "assets/world/vegetation/states/tree-11/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "5f6c8c0bb61d6e57f8284759e227cdb55b80370fea507b7bd8c5c55efb78d615",
+  "climate": "temperate",
+  "artSpecies": "cherry",
+  "sourceTreeType": 11,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-11.png",
+      "sha256": "6f1c1fccb5451e695879939bf5e8b40e73d437761286bf83f4b20036e3ed38ce",
+      "record": "assets/world/vegetation/mature/tree-11.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-11"
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "id": 40,
+  "upstreamName": "Copper Ore Hopper",
+  "familyId": "wagon-hopper",
+  "transport": "train",
+  "cargo": "CT_COPPER_ORE",
+  "climates": [
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 143
+  },
+  "trackHardware": "rail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/N-body.png",
+      "sha256": "3aa4461e0d3f95d64672645ede3d9123531ebdd1a70a7a1be3641b39d70eae85",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/N-body.png",
+          "sha256": "3aa4461e0d3f95d64672645ede3d9123531ebdd1a70a7a1be3641b39d70eae85",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/N-loaded.png",
+          "sha256": "86b509cec1d06bea6de14070b16dd9b5de3f054ece574aa3aa7a221f10f42cb4",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              198,
+              179
+            ],
+            "cargoSize": [
+              117,
+              93
+            ],
+            "loadBayCenter": [
+              256.0,
+              225.52
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/N.png",
+          "sha256": "54db3ca7c37853c08eba4b15bfe1135efd90eca9f37c6984e102ab1b3827c00c",
+          "record": "assets/world/vehicles/families/wagon-hopper/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/NE-body.png",
+      "sha256": "243e5a45948177991de716b498a4be17709aa4f018bcffa2444e50202c5b986a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/NE-body.png",
+          "sha256": "243e5a45948177991de716b498a4be17709aa4f018bcffa2444e50202c5b986a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/NE-loaded.png",
+          "sha256": "a1f0c021942f03a3299f6103311785902b7644568be9c00f115ca7f34818f7e3",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              196,
+              148
+            ],
+            "cargoSize": [
+              120,
+              96
+            ],
+            "loadBayCenter": [
+              255.5,
+              196.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/NE.png",
+          "sha256": "7f6193bc28fe5484b51a015140babcaf7679a9a4498f051eda36263a9f3118b4",
+          "record": "assets/world/vehicles/families/wagon-hopper/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/E-body.png",
+      "sha256": "8f98e6a71c35607b999cc3501a5c78e75f4908dd2947892899004a33db697677",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/E-body.png",
+          "sha256": "8f98e6a71c35607b999cc3501a5c78e75f4908dd2947892899004a33db697677",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/E-loaded.png",
+          "sha256": "af13538e95ec88ede364592c7b8e8ef56b778c945323649cdb77347362f05fd7",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              232,
+              197
+            ],
+            "cargoSize": [
+              48,
+              38
+            ],
+            "loadBayCenter": [
+              256.5,
+              215.92
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/E.png",
+          "sha256": "3b98060d6e8a3d4c32617835327003d3f310f543c74a7d73b0ec20bbbd65e5e1",
+          "record": "assets/world/vehicles/families/wagon-hopper/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/SE-body.png",
+      "sha256": "e5ac0087a106d50c68cea685e7d3db01f35014584db2035a358222f9c3523a2b",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/SE-body.png",
+          "sha256": "e5ac0087a106d50c68cea685e7d3db01f35014584db2035a358222f9c3523a2b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/SE-loaded.png",
+          "sha256": "4d2251f1f4502fef7cc1697c9dc51eb2235d3ce81920dc954991fefd8e71a399",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              194,
+              144
+            ],
+            "cargoSize": [
+              123,
+              98
+            ],
+            "loadBayCenter": [
+              256.0,
+              192.64
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/SE.png",
+          "sha256": "22e835574d16544e3db6c9dad743acefdd1c9a62e3ea5850bb85cee633a1501d",
+          "record": "assets/world/vehicles/families/wagon-hopper/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/S-body.png",
+      "sha256": "97149e6b07fe49581097926aa81574a7afe02bddacb5c213b11d1c0496e5d1dd",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/S-body.png",
+          "sha256": "97149e6b07fe49581097926aa81574a7afe02bddacb5c213b11d1c0496e5d1dd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/S-loaded.png",
+          "sha256": "86d83894ed53895be962b5a98c4f35053f0601fe47b5d5fc6d927bc91b39ddc4",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              198,
+              173
+            ],
+            "cargoSize": [
+              116,
+              93
+            ],
+            "loadBayCenter": [
+              256.5,
+              219.32
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/S.png",
+          "sha256": "fac639f42c6471e4e053c98397f5784b7047a9bcf9eec2fdd95befe9e1321f97",
+          "record": "assets/world/vehicles/families/wagon-hopper/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/SW-body.png",
+      "sha256": "ef6ebce94ad7b5236a02e5825b807a5d374292b678a1fec61f100c531b7f30e0",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/SW-body.png",
+          "sha256": "ef6ebce94ad7b5236a02e5825b807a5d374292b678a1fec61f100c531b7f30e0",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/SW-loaded.png",
+          "sha256": "cea2811af3461986ef3c2d356094db497fce7dc466ffd64cfa90530049b9f578",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              196,
+              148
+            ],
+            "cargoSize": [
+              120,
+              96
+            ],
+            "loadBayCenter": [
+              256.0,
+              195.72
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/SW.png",
+          "sha256": "7e24aabbdc8185fc15bf2c4f0509debf986496f935cdc04a608c12f70a26ed15",
+          "record": "assets/world/vehicles/families/wagon-hopper/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/W-body.png",
+      "sha256": "b3b0bac71d3845eff06ef887eeadc1c2c8e8737fed01f4b5dc9ce252501d3c00",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/W-body.png",
+          "sha256": "b3b0bac71d3845eff06ef887eeadc1c2c8e8737fed01f4b5dc9ce252501d3c00",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/W-loaded.png",
+          "sha256": "28dfbac4243eedff09078274aed46a88286c709fc3a6effad7df23f51ba05c4a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              232,
+              194
+            ],
+            "cargoSize": [
+              49,
+              39
+            ],
+            "loadBayCenter": [
+              256.5,
+              213.52
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/W.png",
+          "sha256": "0b480beaa401edd88c5ce6f1ad3fbbc4297c2e006a752f8d7e7c42e188ed6e88",
+          "record": "assets/world/vehicles/families/wagon-hopper/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/040/NW-body.png",
+      "sha256": "720c78542b3f4376cd2647b550fb651fad487e3c5b63ec5a35237ba77f555e2f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/040/NW-body.png",
+          "sha256": "720c78542b3f4376cd2647b550fb651fad487e3c5b63ec5a35237ba77f555e2f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/040/NW-loaded.png",
+          "sha256": "cc55377abc404a71db5e399fea3181663c6e49d8d550838de172417c45660b42",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/copper-ore.png",
+            "sha256": "5106194182468dc1d7391f0ca2029e55ceb64d363e5d40a11fb5a3c9e1bb28ca",
+            "record": "assets/cargo/copper-ore.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              196,
+              148
+            ],
+            "cargoSize": [
+              120,
+              96
+            ],
+            "loadBayCenter": [
+              255.5,
+              195.72
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.05,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/NW.png",
+          "sha256": "69e4c06b194f1cbd9fa8a17e0bb038ec2c9be539eca7869ef13ade0f662a0277",
+          "record": "assets/world/vehicles/families/wagon-hopper/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/wagon-hopper/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

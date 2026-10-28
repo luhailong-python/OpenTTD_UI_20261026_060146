@@ -1,0 +1,358 @@
+{
+  "id": 117,
+  "upstreamName": "Hereford Leopard Bus",
+  "familyId": "road-bus",
+  "transport": "road",
+  "cargo": "CT_PASSENGERS",
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 220
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/N-body.png",
+      "sha256": "2026427fbc0ebe888c25f7db73bd83e1181b541e82da4a0dae1a9eb36807f68d",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/N-body.png",
+          "sha256": "2026427fbc0ebe888c25f7db73bd83e1181b541e82da4a0dae1a9eb36807f68d",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/N.png",
+          "sha256": "90b88477dfd35612afad11c1db95a419800fd8194df745d6baf661fb9161f571",
+          "record": "assets/world/vehicles/families/road-bus/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/NE-body.png",
+      "sha256": "f078d129e10e1d8060395e0d3eeab3af49f0b477906ba11c4a157dd175d9efe0",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/NE-body.png",
+          "sha256": "f078d129e10e1d8060395e0d3eeab3af49f0b477906ba11c4a157dd175d9efe0",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/NE.png",
+          "sha256": "4529adf9e3fb8bb0939e1d62df5c9938aa14ebd32ca5eca0bf30fe9f0f185ad4",
+          "record": "assets/world/vehicles/families/road-bus/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/E-body.png",
+      "sha256": "1740b93636f65bea38f83c5ef316ee109dbb14869c1d97887525d4d040afc30e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/E-body.png",
+          "sha256": "1740b93636f65bea38f83c5ef316ee109dbb14869c1d97887525d4d040afc30e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/E.png",
+          "sha256": "829e550c767f07cf5773eb384d8e68dd0cb1a1cf7f32fdbb3dcee017e738fdb5",
+          "record": "assets/world/vehicles/families/road-bus/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/SE-body.png",
+      "sha256": "ac41530fb6336b73c0d7e84cf0501e4ae57d0df2503beedbdef90ade2a8e3dec",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/SE-body.png",
+          "sha256": "ac41530fb6336b73c0d7e84cf0501e4ae57d0df2503beedbdef90ade2a8e3dec",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/SE.png",
+          "sha256": "e2786d2f9efa538c0187558073100d74d0678e88410a24a1f54408d246ba68bb",
+          "record": "assets/world/vehicles/families/road-bus/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/S-body.png",
+      "sha256": "cbc226f388bd1684021b508d1641d44bfb6907b371c1ab6ad6a0c0174a807a79",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/S-body.png",
+          "sha256": "cbc226f388bd1684021b508d1641d44bfb6907b371c1ab6ad6a0c0174a807a79",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/S.png",
+          "sha256": "1d37c42f8240d968b9f3a8357ccad739479ac717a5c8cac4217b07297bddfe4e",
+          "record": "assets/world/vehicles/families/road-bus/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/SW-body.png",
+      "sha256": "8a767de9fbb236c24e2844d4a75cad752931c78823429814aa10c89be4679e4e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/SW-body.png",
+          "sha256": "8a767de9fbb236c24e2844d4a75cad752931c78823429814aa10c89be4679e4e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/SW.png",
+          "sha256": "a75e7545ce44410ba496724e394ca601ecc7d9df68aff342149c0d6faca76f89",
+          "record": "assets/world/vehicles/families/road-bus/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/W-body.png",
+      "sha256": "a4721c2335e86a07e625facd0604c20e587b54bde5c1e4366db09bb59bac919a",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/W-body.png",
+          "sha256": "a4721c2335e86a07e625facd0604c20e587b54bde5c1e4366db09bb59bac919a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/W.png",
+          "sha256": "526ab2ac2f6f554571cb878d1a9da7abf7a9f04434280fbae6e81a6b4dcc06c0",
+          "record": "assets/world/vehicles/families/road-bus/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/117/NW-body.png",
+      "sha256": "c6a2295bb23ee8b35473909d2e08d8708dc485061a31542cf55d6f5c61c54146",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/117/NW-body.png",
+          "sha256": "c6a2295bb23ee8b35473909d2e08d8708dc485061a31542cf55d6f5c61c54146",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-bus/NW.png",
+          "sha256": "1c9c960bef600591be49985f39371c541cbfaa750d5d5483927c3e31688e1df1",
+          "record": "assets/world/vehicles/families/road-bus/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/road-bus/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "industry-machine-mine-winding-wheel",
+  "file": "assets/world/industries/machine-mine-winding-wheel.png",
+  "sha256": "b741114b0c8f6a5998c25f7cbeaa63c7f89111ceb821c74c1bfffc81d9ae7b52",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    541,
+    68,
+    814,
+    395
+  ],
+  "nativePaintingBounds": [
+    541,
+    70,
+    812,
+    393
+  ],
+  "uniformScale": 1,
+  "pasteXY": [
+    120,
+    121
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    120,
+    121,
+    393,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-e.png",
+    "sha256": "6a0a1fec8f64dd496421944f0923edc6922a66d71f82eaaabe69928d8cf96586",
+    "record": "source-art/world/industry-e.png.generation.json"
+  },
+  "sourceIndustryTypeId": null,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

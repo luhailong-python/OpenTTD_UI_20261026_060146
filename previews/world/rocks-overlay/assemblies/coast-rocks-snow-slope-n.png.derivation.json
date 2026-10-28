@@ -1,0 +1,85 @@
+{
+  "id": "coast-rocks-snow-slope-n",
+  "image": "previews/world/rocks-overlay/assemblies/coast-rocks-snow-slope-n.png",
+  "sha256": "7a313ab958c815b55b627af6b1b546b386da8c5935df94d5c8185fb6703b9e5a",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-water-slot-08.png",
+      "sha256": "2004742355fc1b5e64d656b1feec422d7b61e7581fb6a69e2a22ac96cf1e80bc",
+      "record": "assets/world/terrain/shore-geometry/shore-water-slot-08.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-08-land.png",
+      "sha256": "abf4f9a2a9ec043c4a332e9ac62a9370d2905c6a796f2e701cecc6b33b9568e3",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-08-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-08-bank.png",
+      "sha256": "692cf52585ccc3a33c66b6c83f7ba5dfc0b51990ec3ba7e59e9a8e6d6f4bfede",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-08-bank.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-n.png",
+      "sha256": "9d0b8072093c8785194beee29c3f0c8f4a5597741e6796a72c6191cc1a4a0141",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-n.png.derivation.json"
+    }
+  ],
+  "operation": "Formal source-height shoreline land/native-bank and strictly horizontal0-height water layers plus independently placed wet-rock bodies; source DryOut permits water:null, never add obsolete flat backing",
+  "context": "CoastRocks",
+  "shoreClimate": "snow",
+  "slopeCode": 8,
+  "sourceShoreIndex": 8,
+  "overlayId": "rocks-water-coast-layout-0-slope-n",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "shoreOffsetPx": [
+    0,
+    64
+  ],
+  "formalLayers": [
+    {
+      "role": "water",
+      "image": "assets/world/terrain/shore-geometry/shore-water-slot-08.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "land",
+      "image": "assets/world/terrain/shore-geometry/shore-snow-slot-08-land.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "bank",
+      "image": "assets/world/terrain/shore-geometry/shore-snow-slot-08-bank.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "wet-rocks",
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-n.png",
+      "offsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "groundWhole": "assets/world/terrain/shore-geometry/shore-snow-slot-08-whole.png",
+  "groundManifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "groundManifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceFloodingBehaviour": "Active",
+  "waterHasPositiveArea": true,
+  "waterAbsentReason": null,
+  "label": "CoastRocks snow / n",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

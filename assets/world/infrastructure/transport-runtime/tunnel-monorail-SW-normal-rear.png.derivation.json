@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-monorail-SW-normal-rear",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-monorail-SW-normal-rear.png",
+  "sha256": "753eeda088d1d51895f11ddb6b9fb438e451880e86e3c368234cae58bcbc386f",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-normal.png",
+      "sha256": "d8f0fc8bd20286916ec37207e301d82ac4f12ee1bb6dc1ee905afbf1e41daa66",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-normal.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-monorail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:12.546182+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

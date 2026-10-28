@@ -1,0 +1,30 @@
+{
+  "file": "assets/world/terrain/terrain-snow-density-0-slope-ne.png",
+  "sha256": "71e25c32083e450ae257acce09917eeb3d44c8b4ba4e27b8b79f7914e4a877a1",
+  "derivedAt": "2026-10-28T11:29:05.782405+00:00",
+  "operation": "Actual native grass/snow atlas UVs -> explicit0.25 source snow/desert fraction ->14px periodic edge blend -> canonical diamond;19slope variants use piecewise-affine source-corner projection. No new native painting.",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "tool": "repair_density_stages.py; shared density_material/periodic/project/projected_slope pipeline",
+  "width": 256,
+  "height": 192,
+  "densityStage": 0,
+  "compositeFraction": 0.25,
+  "compositeUnderlayMaterial": "grass",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false
+}

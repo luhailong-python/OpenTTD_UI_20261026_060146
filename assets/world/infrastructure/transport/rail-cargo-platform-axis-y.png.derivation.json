@@ -1,0 +1,37 @@
+{
+  "id": "rail-cargo-platform-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-cargo-platform-axis-y.png",
+  "sha256": "e76cef0354ef7f9d95a61d98bf2e655e01c16becc59cadc74ce78d742c43fa39",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-cargo-platform.png",
+      "sha256": "425a8cb5501d6e34bb87f4529cb77ebc2541278818edcd76bb8a847ab7b5574f",
+      "record": "assets/world/infrastructure/transport/rail-cargo-platform.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

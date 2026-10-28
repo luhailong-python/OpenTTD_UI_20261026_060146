@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_ELRAIL_DEPOT",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_ELRAIL_DEPOT.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "3eff57d8c7aaebe7389b1e406cef6f1a1117abb1609eeda60078517a5300428f",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/icons/depot.png",
+      "sha256": "2a9dc2bbc7daf80a6fac79cc9770298711cf8b29cc39be85315b757d54adc428",
+      "record": "assets/icons/depot.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_ELRAIL_DEPOT",
+  "sourceSpriteId": 4958,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "SPR_GROUP_CREATE_TRAIN",
+  "image": "assets/common/micro-ui/SPR_GROUP_CREATE_TRAIN.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "2df9661b5552789e98957141540ba8cc0c97285c9d3dc146a165a301728f276f",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/train.png",
+      "sha256": "2f13c37fe7378f788ebeec6f655021e9e5c29d9b4c60aecc043b7d628f4168bf",
+      "record": "assets/icons/train.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_GROUP_CREATE_TRAIN.svg",
+      "sha256": "a20fd6083459cac199d81671e65373bbbd75dddcff90bd5a993ba6c42d72767c",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_GROUP_CREATE_TRAIN",
+  "sourceSpriteId": 5010,
+  "category": "vehicle-operation",
+  "functionalGlyph": "plus",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_GROUP_CREATE_TRAIN.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

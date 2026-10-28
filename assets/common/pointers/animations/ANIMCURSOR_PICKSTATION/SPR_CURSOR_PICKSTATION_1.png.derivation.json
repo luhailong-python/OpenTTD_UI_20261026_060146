@@ -1,0 +1,49 @@
+{
+  "id": "SPR_CURSOR_PICKSTATION_1",
+  "image": "assets/common/pointers/animations/ANIMCURSOR_PICKSTATION/SPR_CURSOR_PICKSTATION_1.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "d0849a2a50fe9428abe58b7e700c82d565635a9997ae1810ddee10d7ff6f707c",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/icons/orders.png",
+      "sha256": "38ad77a96d0b520791bf109a2808d257b11826666934cd958b692c74ba3bf0b8",
+      "record": "assets/icons/orders.png.derivation.json"
+    },
+    {
+      "file": "assets/common/pointers/components/path-dot.png",
+      "sha256": "7cb584882c7290d92bbcb83c913204b3ea962faf44f6cc00c3fe5e8ec18a066a",
+      "record": "assets/common/pointers/components/path-dot.png.derivation.json"
+    }
+  ],
+  "operation": "native fixed arrow plus explicitly changing painted spark / translated arrow / growing native selection gem / red-green signal badge; exact source display ticks retained; not new native frames",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "animated-cursor-frame",
+  "sourceGroup": "ANIMCURSOR_PICKSTATION",
+  "sourceFrameSymbol": "SPR_CURSOR_PICKSTATION_1",
+  "sourceFrameId": 717,
+  "displayTicks": 10,
+  "displayMs": 270,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

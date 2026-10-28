@@ -1,0 +1,68 @@
+{
+  "id": "SPR_REPLACE_ROADVEH",
+  "image": "assets/common/micro-ui/SPR_REPLACE_ROADVEH.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "d923e8786cce602a5bf7783fa8a63416cda5ba2e210560315a2a8700339274c5",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/bus.png",
+      "sha256": "7033c648b9520194044a813d8bb83f6baf21aa047261a506e4ebf43e4117826e",
+      "record": "assets/icons/bus.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_REPLACE_ROADVEH.svg",
+      "sha256": "09d40ed887a9c80e026ec31eb5b8fd96804781c7a07ca803e2014299ed656638",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_REPLACE_ROADVEH",
+  "sourceSpriteId": 4998,
+  "category": "vehicle-operation",
+  "functionalGlyph": "swap",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_REPLACE_ROADVEH.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

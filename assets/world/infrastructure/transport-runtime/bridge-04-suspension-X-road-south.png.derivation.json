@@ -1,0 +1,311 @@
+{
+  "id": "bridge-04-suspension-X-road-south",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-road-south.png",
+  "sha256": "18ac2b2d4a39d6cd209c25d5758332efeccd810d07c55c630749f410ba9aea7b",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-suspension-span.png",
+      "sha256": "92717b7b1f71bb768f4c0d5445867d4303a1ebf40975e7fef6e33f005cfc74c2",
+      "record": "assets/world/infrastructure/transport/bridge-suspension-span.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-road-m32.png",
+      "sha256": "485fa915f1dc57cee0375c4da77c86d57b6a11e625502706e0b7d164ebea4203",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-road-m32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-road-m32-mask.png",
+      "sha256": "328be08cae627a35f3d86db78d59cfbd006ac3b035315c4b4e7e3edeb8b7c561",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-road-m32-mask.png.derivation.json"
+    }
+  ],
+  "operation": "Native structural span in frozen measured bridge geometry; actual narrow central road/rail lane installed between complementary native floor/structure layers; declared source-ID livery; no grass deck tile",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-04-suspension"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:25.524753+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        78,
+        278
+      ],
+      [
+        177,
+        242
+      ],
+      [
+        436,
+        381
+      ],
+      [
+        350,
+        418
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        127.5,
+        260.0
+      ],
+      [
+        393.0,
+        399.5
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        105.7024482109228,
+        187.1487758945386
+      ],
+      [
+        150.2975517890772,
+        164.8512241054614
+      ],
+      [
+        278.2975517890772,
+        260.85122410546137
+      ],
+      [
+        233.7024482109228,
+        283.14877589453863
+      ]
+    ],
+    "deckCrossSectionHalfX": 22.29755178907721,
+    "uniformNativeScaleReference": 0.4821092278719397,
+    "sourceXKnots": [
+      78.0,
+      177.0,
+      350.0,
+      436.0
+    ],
+    "targetXKnots": [
+      105.7024482109228,
+      150.2975517890772,
+      233.7024482109228,
+      278.2975517890772
+    ],
+    "verticalScaleAboveDeck": [
+      0.47162859248341926,
+      0.4882901154087595,
+      0.4930662557781202,
+      0.4760828625235405
+    ],
+    "verticalScaleBelowDeck": [
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            78,
+            209
+          ],
+          [
+            350,
+            352
+          ]
+        ],
+        "commonCapHeightPx": 32.54237288135593
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            177,
+            164
+          ],
+          [
+            436,
+            301
+          ]
+        ],
+        "commonCapHeightPx": 38.08662900188324
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": -32,
+    "advancePx": [
+      128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "axis": "X",
+  "deck": "road",
+  "piece": "south",
+  "deckLayerImage": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-road-m32.png",
+  "deckLayerOffsetPx": [
+    0,
+    0
+  ],
+  "deckMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-road.png",
+  "deckOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-road-m32-mask.png",
+  "laneProjection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        78,
+        278
+      ],
+      [
+        177,
+        242
+      ],
+      [
+        436,
+        381
+      ],
+      [
+        350,
+        418
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        127.5,
+        260.0
+      ],
+      [
+        393.0,
+        399.5
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        105.7024482109228,
+        187.1487758945386
+      ],
+      [
+        150.2975517890772,
+        164.8512241054614
+      ],
+      [
+        278.2975517890772,
+        260.85122410546137
+      ],
+      [
+        233.7024482109228,
+        283.14877589453863
+      ]
+    ],
+    "deckCrossSectionHalfX": 22.29755178907721,
+    "uniformNativeScaleReference": 0.4821092278719397,
+    "sourceXKnots": [
+      78.0,
+      177.0,
+      350.0,
+      436.0
+    ],
+    "targetXKnots": [
+      105.7024482109228,
+      150.2975517890772,
+      233.7024482109228,
+      278.2975517890772
+    ],
+    "verticalScaleAboveDeck": [
+      0.47162859248341926,
+      0.4882901154087595,
+      0.4930662557781202,
+      0.4760828625235405
+    ],
+    "verticalScaleBelowDeck": [
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            78,
+            209
+          ],
+          [
+            350,
+            352
+          ]
+        ],
+        "commonCapHeightPx": 32.54237288135593
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            177,
+            164
+          ],
+          [
+            436,
+            301
+          ]
+        ],
+        "commonCapHeightPx": 38.08662900188324
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": -32,
+    "advancePx": [
+      128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

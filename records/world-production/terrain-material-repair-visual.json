@@ -1,0 +1,581 @@
+{
+  "schema": "terrain-material-current-pixel-visual-review.v1",
+  "reviewedAt": "2026-10-28T10:22:49.611071+00:00",
+  "reviewer": "Codex manager_review continuation; actual view_image inspection",
+  "manifest": "assets/world/terrain/manifest.json",
+  "manifestSHA256": "e0ef224d93b9d8401ca3c42e3f4cf51dcdb043c902535222ed71d29ce629dfa4",
+  "mechanicalRepairRecord": {
+    "file": "records/world-production/terrain-material-repair.json",
+    "sha256": "9f204f24509dfed93327fd2f191733dbce7ba91738002558b83ee53e4e6457b5",
+    "updatedFormalImages": 40,
+    "otherFormalImagesCheckedUnchanged": 1024,
+    "failures": []
+  },
+  "materials": [
+    "shore-sand",
+    "snowgrass"
+  ],
+  "reviewedNativeSources": [
+    {
+      "image": "source-art/world/shore-sand-seamless.png",
+      "sha256": "53c5340ca2a1817576d21d4ea4b87bd79882ad4fde512a38ca4d2a975b4767be",
+      "findings": "Full square material distribution inspected before export; no old diamond frame geometry is used."
+    },
+    {
+      "image": "source-art/world/snowgrass-seamless.png",
+      "sha256": "e10c2f47b0e427b0e7f10bbe1ce9c3ee9f3ec08234b8a7c565a3e912c5c0b1c9",
+      "findings": "Full square material distribution inspected before export; no old diamond frame geometry is used."
+    }
+  ],
+  "reviewedFormalAssets": [
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-flat.png",
+      "sha256": "d4dd5328f8ed5a15daf46ccf3b28e790179a731166f03a55d44126187d23c63d",
+      "size": [
+        256,
+        128
+      ],
+      "anchorPx": [
+        128,
+        64
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-flat.png",
+      "sha256": "eac3dd2a4f743000c3fbe7dfe6e1333c71847a5640372341593757c1ef27ba9d",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-w.png",
+      "sha256": "62c0b370918c1e2a4b07039cf6ef05577c29f3bd6e44c0d74e4cc27efa46fcf0",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-s.png",
+      "sha256": "d86e2f02a7cc9d4b5b8ba6fdd0cde89e8957c7fa0c075b144725ec20190b5e32",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-sw.png",
+      "sha256": "015b90cfa185fc725ed72e79f1be50f2620c97292f6f9f0f331c63041a28d0f2",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-e.png",
+      "sha256": "f539037f08f8d061726c9beedc651126945fedf00c8db0c824d1185736d58875",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-ew.png",
+      "sha256": "879546412900e16b5118e5ec921e4903407c1579fbdb12f3dca49e67eca65de4",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-se.png",
+      "sha256": "302398979bf71ac84e98e9650d39f8cff54adebbb38943c53ce32a280d4b1e5e",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-wse.png",
+      "sha256": "ac2e16446a5275c77c83b8252c11c45b5fbef00c7645661f1d49f4c0ab357195",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-n.png",
+      "sha256": "4005009f89697ae554a9dc2c681f7987f0e10342ceae7b374e7ab8cf651a5d00",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-nw.png",
+      "sha256": "8f47d9e2aebb87dbde202fb3546336494c357b99081548ec05f1367a2b836bbe",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-ns.png",
+      "sha256": "5591e42dc405fc8cf740b246b7d58ee8baaa30ff562f95ebcb93225eb45a8f9f",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-nws.png",
+      "sha256": "41260c5576d7df5632f4fb00d1d8f48114c8c7f1bfa6aa570a7a2bb25de54e1d",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-ne.png",
+      "sha256": "72406b0976d33dad0859a9d6941c0885b22a44eaf857f7e586109c34830a6d89",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-enw.png",
+      "sha256": "f42b8d3a9c320767ea7ab6f144e6a8e5400985ccb066068df2b4b764b2448eb2",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-sen.png",
+      "sha256": "8759327d1fade0539bb8235ff1ee6c2bfc6ec033102667c273083e9353aed368",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-steep-w.png",
+      "sha256": "19058865f8a3731fcfcd07653d242e3e2d698425279146e1a980f4dd6e980047",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-steep-s.png",
+      "sha256": "6ae5563a611bd51c353db28ebf4738abb7a189860b100b4ce762744a80af7c83",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-steep-e.png",
+      "sha256": "2bc0806de329bb560bf8e4cfd85eab4340b3f407b134ab974db6ea0c00d3230d",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-snowgrass-slope-steep-n.png",
+      "sha256": "8ffc7c05cb196a3f8ec41fcb5ecac7becff1199ff88ab379ca130d7655ac064a",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-flat.png",
+      "sha256": "f99bac4b79823ba6df605d857cc324d3df5b36ac2fbc2b30a1b68f5a8a112e3d",
+      "size": [
+        256,
+        128
+      ],
+      "anchorPx": [
+        128,
+        64
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-flat.png",
+      "sha256": "bb0dadbdea21fd4cbb2f02a1f179d748b5da0f5f855a3fe41eeb15a86a04d29a",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-w.png",
+      "sha256": "0f609171f71d20318528db118ea6b1d05dfc5aa993bc4976ed41ddde431978d2",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-s.png",
+      "sha256": "fd246ee85cf13a1b98268546e797513329c539053258976acc183392e0015db2",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-sw.png",
+      "sha256": "c25a2f31d2c75402969b7b946e709d9a3b87727ef080b268b21ebadd8ea365e4",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-e.png",
+      "sha256": "25387d1c78f81a11833e552514e0efa89ac9857d070c8366d69b8ef82295e848",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-ew.png",
+      "sha256": "4fec468494624db6194123be0c7f92f73e3ccc3e15ba0bb26089ab1958461318",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-se.png",
+      "sha256": "fa160d7dfae159dddf6a90a9b9eb389112b9b7135157ea4243455f2f377255cf",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-wse.png",
+      "sha256": "899eeafa0d821f4d3c807115f9471e040224dd33c658ac3e763de293641e2db7",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-n.png",
+      "sha256": "5cef555ead110810f2f3cc29ad4745aca27e4d44a7e5a385caad84e770deaaeb",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-nw.png",
+      "sha256": "9b44b0b9c437b91fa5ca38b9202050d1deb27040605d615b50b3fc55b81f7875",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-ns.png",
+      "sha256": "78e9f3d3f9a93bef5fb255e1ed85654eeb5f576e3cd92681bcaeb88151da7116",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-nws.png",
+      "sha256": "c3d65f50d517f0f51c727146b8c4a17e5e376ccf854af43e1f39108ec21d949e",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-ne.png",
+      "sha256": "f4f7fffdf8dbe7a93d252626ee9d5fe4ee3e8dbe1c6ed050a328d00a6e4d0c6e",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-enw.png",
+      "sha256": "5b8bf521c03e74cf4ac58c7a86eda3f13624cf99fffa6da2ae9d85624ce0c5e7",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-sen.png",
+      "sha256": "3732a09c9a82c67737bcbef4feaa824c60a185990cd5ffa621ce9f09729e1908",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-steep-w.png",
+      "sha256": "5f428157742e38974656b22a16bcbad2251207d43c7d969c573dfb1e960ce023",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-steep-s.png",
+      "sha256": "60455925bc0f2442652fa104e7e4efdb71af22f2d843f95fb74cf5db537c4b77",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-steep-e.png",
+      "sha256": "a9eaf5ba506f89750852776257505b111b2396325892b750089482bf96d52bb6",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    },
+    {
+      "image": "assets/world/terrain/terrain-shore-sand-slope-steep-n.png",
+      "sha256": "564c4eb50e3450bc09bab85201dfc776942d4e39bcdfed87b021f7eb7885adc1",
+      "size": [
+        256,
+        192
+      ],
+      "anchorPx": [
+        128,
+        128
+      ]
+    }
+  ],
+  "reviewedPages": [
+    {
+      "image": "previews/world/terrain-shore-sand-repeat8.jpg",
+      "sha256": "1c83256ddb7f2e26184df1caa2f937f139d5910da6f38eebacb51875350685c7",
+      "status": "locally-reviewed",
+      "findings": [
+        "Actual8x8: previous green frame and blank bright centre do not recur; sandy tone/detail density is even. Small painted grass/pebble pattern still repeats because it is one declared material, but no blocking diamond checker or hard seam observed."
+      ]
+    },
+    {
+      "image": "previews/world/terrain-snowgrass-repeat8.jpg",
+      "sha256": "b71d6c88a0bd2c0f18330bc69e6ca1c5f4867f9b1fd75f27de0f2e6367e1a55c",
+      "status": "locally-reviewed",
+      "findings": [
+        "Actual8x8: previous pale edge rails and repeated bright diamond grid are absent. Snow and green leaves have even fine-scale distribution across edge/interior; repeated microtexture remains visible on close inspection but no blocking tile-boundary pattern observed."
+      ]
+    },
+    {
+      "image": "previews/world/terrain-shore-sand-slopes-review.jpg",
+      "sha256": "e8968a6539711723453d7f61f188b719917924edbae225492b2db031cb996f19",
+      "status": "locally-reviewed",
+      "findings": [
+        "All20 actual exports (one256x128flat and19 fixed256x192slope canvases) reviewed; material continuity, raised corners and Alpha outline consistent; no old source material or clipping observed."
+      ]
+    },
+    {
+      "image": "previews/world/terrain-snowgrass-slopes-review.jpg",
+      "sha256": "ec487e0ac2a2f1c54f5e48443e6982b3dd9c8586b364e8cf92ada6db7bc8969b",
+      "status": "locally-reviewed",
+      "findings": [
+        "All20 actual exports reviewed; new snowgrass is consistently projected through valid slopes with no old white border reintroduced."
+      ]
+    },
+    {
+      "image": "previews/world/terrain-repeat.jpg",
+      "sha256": "1ce5c9a052c7611ecdea3491405a30d2669fd2f08fa407796656d85874f19290",
+      "status": "locally-reviewed",
+      "findings": [
+        "Current4x4 comparisons show repaired shore-sand and snowgrass no longer carry old edge-centre checker patterns. Other materials are unchanged; shallow has visible bright-centre/deeper-edge repetition and is explicitly outside this acceptance."
+      ]
+    },
+    {
+      "image": "previews/world/terrain-materials.jpg",
+      "sha256": "429e0de25a218a70d9ccb6d1a013af347cf684b844be070b9cca2a42a04532ed",
+      "status": "locally-reviewed",
+      "findings": [
+        "Current12 formal flat materials displayed together; replacement families retain palette/function while using denser square-master source detail. Other10 flat PNGs unchanged."
+      ]
+    }
+  ],
+  "reviewedFormalImageCount": 40,
+  "repeatGrid": [
+    8,
+    8
+  ],
+  "localVisualPassed": true,
+  "metricsAreNotVisualApproval": true,
+  "externalPixelDependencies": [],
+  "downstreamRecordsRequireRootRefresh": [
+    "docs/WORLD_ASSET_MANIFEST.json",
+    "docs/WORLD_DELIVERY_COVERAGE.json",
+    "docs/WORLD_PRODUCTION_STATUS.json",
+    "records/full-game-art-audit.json",
+    "docs/FULL_GAME_ACCEPTANCE_STATUS.json"
+  ],
+  "unresolvedWithinTheseTwoFamilies": [],
+  "otherMaterialIssue": "Unchanged shallow material still has centre/edge brightness repetition; root has assigned separate repair. This does not approve shallow or the whole terrain pack.",
+  "userAccepted": false,
+  "unityValidated": false
+}

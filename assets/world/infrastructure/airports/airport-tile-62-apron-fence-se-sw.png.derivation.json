@@ -1,0 +1,80 @@
+{
+  "id": "airport-tile-62-apron-fence-se-sw",
+  "image": "assets/world/infrastructure/airports/airport-tile-62-apron-fence-se-sw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "e94370b451e3d843a4f8bea72bf77af5f9fdabc6a746f34780010772275005b0",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-se.png",
+      "sha256": "a64f05acb1bd5888022d6a6c10f83230decf648605efba6c483603abdb6dedcd",
+      "record": "assets/world/infrastructure/airports/airport-fence-se.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-sw.png",
+      "sha256": "dfd1181689158396ccc48b724b81e424c34dbbb3001f6897a26fce68c5e08357",
+      "record": "assets/world/infrastructure/airports/airport-fence-sw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 62,
+  "sourceTileEnum": "APT_APRON_FENCE_SE_SW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_fence_se_sw) // APT_APRON_FENCE_SE_SW",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-se",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    },
+    {
+      "artId": "airport-fence-sw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-helidepot",
+    "airport-tile-62-apron-fence-se-sw"
+  ]
+}

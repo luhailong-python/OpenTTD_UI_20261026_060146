@@ -1,0 +1,68 @@
+{
+  "id": "SPR_IMG_SWITCH_TOOLBAR",
+  "image": "assets/common/micro-ui/SPR_IMG_SWITCH_TOOLBAR.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "3984ddd414b3b384fc1a687c5c1649b2624f22fdcc03b19a96b7b9bd166a47cf",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/settings.png",
+      "sha256": "41b1120dce74656bc9c9aff6b0490c5eb4ce17fb35e17aa24d7509f225f4ae0b",
+      "record": "assets/icons/settings.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_IMG_SWITCH_TOOLBAR.svg",
+      "sha256": "09d40ed887a9c80e026ec31eb5b8fd96804781c7a07ca803e2014299ed656638",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_IMG_SWITCH_TOOLBAR",
+  "sourceSpriteId": 5040,
+  "category": "function-status",
+  "functionalGlyph": "swap",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_IMG_SWITCH_TOOLBAR.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

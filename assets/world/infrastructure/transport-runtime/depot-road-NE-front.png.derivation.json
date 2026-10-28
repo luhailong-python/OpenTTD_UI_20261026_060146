@@ -1,0 +1,44 @@
+{
+  "id": "depot-road-NE-front",
+  "image": "assets/world/infrastructure/transport-runtime/depot-road-NE-front.png",
+  "sha256": "59dc821295039008896216900f1c93346f416d764535e2ea1fa85880f7ce0c62",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/depot-road-NE.png",
+      "sha256": "bd497a80fbcea82bba01719e334d9ec4cae200bcae54866f25ca825c9fd960fa",
+      "record": "assets/world/infrastructure/transport-runtime/depot-road-NE.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "depot-road"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.435488+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

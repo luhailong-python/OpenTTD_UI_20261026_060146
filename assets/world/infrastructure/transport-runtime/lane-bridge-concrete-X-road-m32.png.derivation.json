@@ -1,0 +1,190 @@
+{
+  "id": "lane-bridge-concrete-X-road-m32",
+  "image": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-X-road-m32.png",
+  "sha256": "a3f1352f49235a3c389c30156cd5474ab264c9c5a627b9f218e892c819c17561",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-road.png",
+      "sha256": "1cd300a2fa7ec1c1e9f9c3091dda86a7004d0a235f5643862e4e59a1fda9efc1",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-road.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport/bridge-concrete-span.png",
+      "sha256": "7587f3ef9e6f9aa485deb7921d20455f29f036d5bab654e024c91dda48e110b8",
+      "record": "assets/world/infrastructure/transport/bridge-concrete-span.png.derivation.json"
+    }
+  ],
+  "operation": "Actual central road/rail texture UV projected into measured narrow deck interior using the existing port-locked ramp profile; no roadside grass, no fabricated strokes; native front railings/roof protected",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "transport-lane",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:20.471459+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-road.png",
+  "offsetPx": [
+    0,
+    0
+  ],
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        86,
+        258
+      ],
+      [
+        159,
+        227
+      ],
+      [
+        434,
+        358
+      ],
+      [
+        362,
+        390
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        122.5,
+        242.5
+      ],
+      [
+        398.0,
+        374.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        111.15789473684211,
+        184.42105263157896
+      ],
+      [
+        144.8421052631579,
+        167.57894736842104
+      ],
+      [
+        272.8421052631579,
+        263.57894736842104
+      ],
+      [
+        239.1578947368421,
+        280.42105263157896
+      ]
+    ],
+    "deckCrossSectionHalfX": 16.842105263157894,
+    "uniformNativeScaleReference": 0.4646098003629764,
+    "sourceXKnots": [
+      86.0,
+      159.0,
+      362.0,
+      434.0
+    ],
+    "targetXKnots": [
+      111.15789473684211,
+      144.8421052631579,
+      239.1578947368421,
+      272.8421052631579
+    ],
+    "verticalScaleAboveDeck": [
+      0.4878402903811252,
+      0.5088583527784979,
+      0.4434911730737502,
+      0.4274410163339383
+    ],
+    "verticalScaleBelowDeck": [
+      0.4426942437420813,
+      0.4646098003629764,
+      0.48880822746521474,
+      0.4646098003629764
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            86,
+            238
+          ],
+          [
+            362,
+            368
+          ]
+        ],
+        "commonCapHeightPx": 9.756805807622504
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            159,
+            206
+          ],
+          [
+            434,
+            333
+          ]
+        ],
+        "commonCapHeightPx": 10.686025408348456
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": -32,
+    "advancePx": [
+      128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "interiorCrossDomain": [
+    0.15,
+    0.85
+  ],
+  "longitudinalDomain": [
+    0.015,
+    0.985
+  ],
+  "uvDomain": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "nativeRoofExclusion": false,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

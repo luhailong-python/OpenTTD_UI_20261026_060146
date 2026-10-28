@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-road-SE-snow",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-road-SE-snow.png",
+  "sha256": "67891783831c0d5ff6190adc56d21c692917d811d49f4908464d554fa00650c6",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-snow.png",
+      "sha256": "4851c3e8de8fae005e9799d7a4b9cf6e50644602851abdc885526416d35e7cd7",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-snow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-road-SE-snow.png",
+      "sha256": "d1e2b03bd2354bf470f95a1917df8cc44e23e883b699ef981758224408f41b66",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-road-SE-snow.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-road"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:15.767032+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "snow",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

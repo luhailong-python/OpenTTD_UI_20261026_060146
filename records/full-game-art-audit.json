@@ -1,0 +1,2864 @@
+{
+  "schema": "cloud-route.final-art-audit.v1",
+  "startedAt": "2026-10-28T12:11:49.257595+00:00",
+  "finishedAt": "2026-10-28T12:12:41.249048+00:00",
+  "root": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "scope": "Independent PNG/hash/dimensions/Alpha/anchor/provenance/generation-evidence/path audit. Does not certify visual appearance, semantic game completeness or Unity runtime.",
+  "summary": {
+    "passedChecks": 226986,
+    "failures": 0,
+    "warnings": 0,
+    "formalPNGs": 12204,
+    "uiFormalPNGs": 649,
+    "worldFormalPNGsInCurrentPackManifests": 11555,
+    "screens": 149,
+    "states": 227,
+    "upstreamUIFeatures": 132,
+    "nativeImageGenMasters": 88,
+    "nativeGenerationRecords": 89,
+    "retiredImageRecords": 1,
+    "exportedFragmentReassemblyGroups": 149,
+    "exportedLayerReassemblyGroups": 742,
+    "industryBoundClips": 8,
+    "industryAssembledFrames": 96,
+    "formalPNGByDirectory": {
+      "ui": 649,
+      "effects": 109,
+      "houses": 1357,
+      "industries": 260,
+      "infrastructure": 4328,
+      "overlays": 547,
+      "terrain": 1709,
+      "vegetation": 300,
+      "vehicles": 2945
+    }
+  },
+  "coverage": {
+    "sourceRequirements": 550,
+    "mappedRows": 550,
+    "missingOrUnmappedRows": 0,
+    "missingOrUnmappedIds": [],
+    "rowsWithoutFinalLocalAcceptance": 0,
+    "unacceptedIds": [],
+    "aggregateStale": false,
+    "staleOrUnaggregatedPacks": [],
+    "aggregateAssetCount": 11555,
+    "aggregateAnimations": 106
+  },
+  "inputsStable": true,
+  "issues": [],
+  "generationRecords": [
+    {
+      "record": "assets/transport-valley.png.generation.json",
+      "file": "assets/transport-valley.png",
+      "sha256": "09536b77113e3e42c8a597d24c42ac2e2f16e7367b57eaa1263bfb5c79cb3c84",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/01-transport-valley.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/air-helicopter/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/air-helicopter/atlas.png",
+      "sha256": "a914f37e797d3487d27a1e208be812b0d758083ca72b9d0acdc5b9e9404ceddf",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/air-helicopter.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/air-jet-narrow/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/air-jet-narrow/atlas.png",
+      "sha256": "60136a2893de0ea4d772cc9e6b470c7e00507553032c738e7c2137919216de4f",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/air-jet-narrow.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/air-jet-wide/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/air-jet-wide/atlas.png",
+      "sha256": "0c177b04eb5b881112ad466fd8521588736a86e2d8c624db0a264c9c7c214cec",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/air-jet-wide.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/air-large-prop/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/air-large-prop/atlas.png",
+      "sha256": "cf6b6502dbb5d9c82511ee75814f969697ac183e46b4fb204675279cc770f828",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/air-large-prop.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/air-small-prop/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/air-small-prop/atlas.png",
+      "sha256": "4151b9733c6e1cb09abf61c42d6584570c153006e508825408844757bcf0d54f",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/air-small-prop.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/air-supersonic/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/air-supersonic/atlas.png",
+      "sha256": "d8b589e516823080961acde00a667d0a37f9ff254954119ed897fb21e5d4a803",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/air-supersonic.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/loco-diesel/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/loco-diesel/atlas.png",
+      "sha256": "c593571480a66e3949243cc718d51d6299373b2811ca0857814a04deac8b48b1",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/loco-diesel.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/loco-electric/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/loco-electric/atlas.png",
+      "sha256": "a03ffa572fe4da522617364c56b3b429aba0af6c515432ddfb255c9e80611a2a",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/loco-electric.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/loco-maglev/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/loco-maglev/atlas.png",
+      "sha256": "aa6e4eabc18457a7b72cf38b442ab7c7e8b195b8f6032527d72279bf27e0abab",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/loco-maglev.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/loco-monorail/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/loco-monorail/atlas.png",
+      "sha256": "3b6a24e2dd0d692940f666e2833968aa225d3277c88bc006d396029047a47057",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/loco-monorail.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/loco-steam/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/loco-steam/atlas.png",
+      "sha256": "5fab7cf87118b1a9b11c131ed3508f8504e694dae67fc753b08ba7e27535d256",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/loco-steam.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/loco-toy/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/loco-toy/atlas.png",
+      "sha256": "d2f1f988ecbf4f00106e3f787f7d032999cea22ce11d9a6c4efa5d33e899cedf",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/loco-toy.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/road-box/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/road-box/atlas.png",
+      "sha256": "5129734fed6630d7e60ba089c3cc8719add4f5bf844ca1e3cb9aa21302d6c010",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/road-box.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/road-bus/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/road-bus/atlas.png",
+      "sha256": "7e99710fc82ec8c436c8efc97d665c71b66d991efc8fda96617e48062cbfd4de",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/road-bus.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/road-flat/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/road-flat/atlas.png",
+      "sha256": "8497173f5dbfa55efc89241602b4e5f30880035437e119fd773e24ff0f932dc9",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/road-flat.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/road-open/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/road-open/atlas.png",
+      "sha256": "d9319ad2e339bcf295a11562d85e946434c8a76bf3ca1588f0ec7881cf8f5e98",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/road-open.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/road-tank/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/road-tank/atlas.png",
+      "sha256": "1b6d260ed5c17f3b6453570cda4b2983a7b1e2ffdb2c5074ea1419e319561d1b",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/road-tank.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/ship-cargo/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/ship-cargo/atlas.png",
+      "sha256": "4b330c8341ccea6b78bcbcdfd7aef6401d4c8f7dbb55b332c1943ca2e1fd680d",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/ship-cargo.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/ship-ferry/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/ship-ferry/atlas.png",
+      "sha256": "746acdee1249099ced53f8f24c2ce59bcc9b221a7f3f5ad4ca6c7b430a923959",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/ship-ferry.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/ship-hovercraft/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/ship-hovercraft/atlas.png",
+      "sha256": "b5a029deef055593c82afe72a56fa4fc48a2788240d14fdccc29133a8fc27648",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/ship-hovercraft.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/ship-tanker/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/ship-tanker/atlas.png",
+      "sha256": "0ca9ff0e1c7984fbf45164171a8377288f4d6c086c10f0aa22b874f53edbf4ff",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/ship-tanker.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/wagon-box/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/wagon-box/atlas.png",
+      "sha256": "b1a1c39e1e0d2b3214c174b4590c8a991079d1cee5254ffa361e4b43dea6f984",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/wagon-box.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/wagon-flat/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/wagon-flat/atlas.png",
+      "sha256": "2b4289bf52cc2582bc12fd964983ef4a1ea5d5374c3d600ed85fd53f94dfa08c",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/wagon-flat.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/wagon-hopper/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/wagon-hopper/atlas.png",
+      "sha256": "2b7f903141244874b4e13bac877d85e005dddabd7ecbd70c4908c391eed0a57d",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/wagon-hopper.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/wagon-passenger/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/wagon-passenger/atlas.png",
+      "sha256": "55be641db4b3e083c1bbd908e9b05e490b515c9ba021e7dc7bf7e6bb366bd6b4",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/wagon-passenger.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/wagon-tank/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/wagon-tank/atlas.png",
+      "sha256": "090544a247af0188fa65b0032609304926eef87e2561dd508bef996eb7c34d03",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/wagon-tank.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world/vehicles/families/wagon-vent/atlas.png.generation.json",
+      "file": "assets/world/vehicles/families/wagon-vent/atlas.png",
+      "sha256": "0d3413e18219cc55154266cb38b15812bec1f25fee0c33dcce0ed6b48e00c7fb",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/wagon-vent.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "assets/world-viewport.png.generation.json",
+      "file": "assets/world-viewport.png",
+      "sha256": "9a545794549f285f6ae4bc04739f88b975cb431b8169d91fe6cba80d1b85cadf",
+      "nativeSize": [
+        1672,
+        941
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/04-world-viewport.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/cargo-icons.png.generation.json",
+      "file": "source-art/cargo-icons.png",
+      "sha256": "4b9419bb9fa1e5878cca905126f886a5ab1ca1cc9a823ec88a2adcddaaee2197",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/05-cargo-icons.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/helicopter.png.generation.json",
+      "file": "source-art/helicopter.png",
+      "sha256": "e2c0eeb167f90cadb4d66a7e424b1f4234f72057c6adc167d44f009d01dda079",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/07-helicopter.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/accessories.png.generation.json",
+      "file": "source-art/manager-customization/accessories.png",
+      "sha256": "5834a22377d8c8970ebd2d4ed8b5d4a2bc45e5061a3b2b370dc7f61960babc84",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-accessories.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/base-heads.png.generation.json",
+      "file": "source-art/manager-customization/base-heads.png",
+      "sha256": "6bf234dbebd6b113da9220cca5d50223ace15c4d09a07a1aeb0ebba9179ab4f4",
+      "nativeSize": [
+        2172,
+        724
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-base-heads.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/beards.png.generation.json",
+      "file": "source-art/manager-customization/beards.png",
+      "sha256": "7823c09d38644af722a1ff67b3f3df93e6317846f69dc5fa888c29c8d6364969",
+      "nativeSize": [
+        2172,
+        724
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-beards.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/clothes.png.generation.json",
+      "file": "source-art/manager-customization/clothes.png",
+      "sha256": "39e0287595db95070975042ea1bdfc082f0eeccee2f1eeadcba46bb7fa4d90ec",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-clothes.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/eyes.png.generation.json",
+      "file": "source-art/manager-customization/eyes.png",
+      "sha256": "57124480f5c8299bb24c8baed2fbf3b2a75fd470aaa1706d4db71d5f52aeb31c",
+      "nativeSize": [
+        1491,
+        1055
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-eyes.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/hair.png.generation.json",
+      "file": "source-art/manager-customization/hair.png",
+      "sha256": "202008b645de42da73993b3b4a129f40ebdd390feb0d327d090893e47845c3be",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-hair.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/mouths.png.generation.json",
+      "file": "source-art/manager-customization/mouths.png",
+      "sha256": "ad7c4186effd28cf91a11ae04ea0c5a0ce89caaf9dc0be3c88db6dfb8f3903c4",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-mouths.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/manager-customization/noses.png.generation.json",
+      "file": "source-art/manager-customization/noses.png",
+      "sha256": "0a842aceeb49ee93df6d7894bed73986f4ae0f4e970ee9c77734651377a30519",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/manager-noses.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/managers.png.generation.json",
+      "file": "source-art/managers.png",
+      "sha256": "babbb0ebc17d39766d587eeddf180c6efcdef12f0c0182aa5eab7142af3f305f",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/06-managers.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/pointer-overlay-kit.png.generation.json",
+      "file": "source-art/pointer-overlay-kit.png",
+      "sha256": "c6351068408e91e2d90ee94720dbe3cf05a68c10c277614d7c0d488b4c11802b",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/pointer-overlay-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/system-icons.png.generation.json",
+      "file": "source-art/system-icons.png",
+      "sha256": "20b35d40ccd03ef1d3bb17de11e34e5db1b5c99ed71b520061e1f2d2721745f2",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/03-system-icons.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/ui-kit.png.generation.json",
+      "file": "source-art/ui-kit.png",
+      "sha256": "7440d509fb2563ed4e855e314ef3e7cbdf99e311aece90a85eb853f88c598da2",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/02-ui-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/airport-ground.png.generation.json",
+      "file": "source-art/world/airport-ground.png",
+      "sha256": "4cec755069580116eeda73ee40b02229b7939b688ecdd7c03a2f7b3cc03ecc45",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/airport-ground.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/airport-props.png.generation.json",
+      "file": "source-art/world/airport-props.png",
+      "sha256": "fa12f615a187f5dde7acb872712f2ac51ff30d0e2f520e17f632e6d589037e9b",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/airport-props.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/bridge-families.png.generation.json",
+      "file": "source-art/world/bridge-families.png",
+      "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/bridge-families.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/bridge-modules.png.generation.json",
+      "file": "source-art/world/bridge-modules.png",
+      "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/bridge-modules.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/construction-kit.png.generation.json",
+      "file": "source-art/world/construction-kit.png",
+      "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/construction-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/depot-kit.png.generation.json",
+      "file": "source-art/world/depot-kit.png",
+      "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/depot-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/disaster-air-props.png.generation.json",
+      "file": "source-art/world/disaster-air-props.png",
+      "sha256": "6cf6d2a26e698733979d5e42d7938c561e4b1d238786cd2c49175d0d263712fa",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/disaster-air-props.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/disaster-submarines.png.generation.json",
+      "file": "source-art/world/disaster-submarines.png",
+      "sha256": "2cc5f9735a374953a6ca6d8d3049d26bea4dd912bef379ce3f53c5246538c8d6",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/disaster-submarines.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/fences-shore-kit.png.generation.json",
+      "file": "source-art/world/fences-shore-kit.png",
+      "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/fences-shore-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/field-crop-components-native.png.generation.json",
+      "file": "source-art/world/field-crop-components-native.png",
+      "sha256": "eb56f6436ec61c25fb5e7ab3b2797a12578a1dd3edc84ecc4b114119076d891d",
+      "nativeSize": [
+        2172,
+        724
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/field-crop-components-native.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/fx-bulldozer.png.generation.json",
+      "file": "source-art/world/fx-bulldozer.png",
+      "sha256": "d53f93fe8004b89063c5341ed3d314a2047286e9d48a84f72ef48d01b2e52b7a",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/fx-bulldozer.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/fx-explosion-keys.png.generation.json",
+      "file": "source-art/world/fx-explosion-keys.png",
+      "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/fx-explosion-keys.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/fx-smoke-keys.png.generation.json",
+      "file": "source-art/world/fx-smoke-keys.png",
+      "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/fx-smoke-keys.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/fx-spark-bubble-fire.png.generation.json",
+      "file": "source-art/world/fx-spark-bubble-fire.png",
+      "sha256": "96f82b9fc8ce743950271c1f02fb802c126202512dc2a9bf1be0b651e1c79376",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/fx-spark-bubble-fire.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/houses-climates.png.generation.json",
+      "file": "source-art/world/houses-climates.png",
+      "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/houses-climates.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/houses-commerce.png.generation.json",
+      "file": "source-art/world/houses-commerce.png",
+      "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/houses-commerce.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/houses-dense.png.generation.json",
+      "file": "source-art/world/houses-dense.png",
+      "sha256": "a8b3b6fb4e895646601d9f501f6f3313c60b8f6831d6d91d80e5b409841360d3",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/houses-dense.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/houses-special.png.generation.json",
+      "file": "source-art/world/houses-special.png",
+      "sha256": "a5fc6c7debd96676cb8e4b57f7146b30ab38d8427f2036a68649ec8cb2b04edd",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/houses-special.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/houses-traditional.png.generation.json",
+      "file": "source-art/world/houses-traditional.png",
+      "sha256": "2765f89d74edee3c375c7538ca0440a712f58ef438758a755abb49cfb14688eb",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/houses-traditional.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/industry-a.png.generation.json",
+      "file": "source-art/world/industry-a.png",
+      "sha256": "e1365b0ae4270079d1f124002cf17d944a9dabdfa37e6a1ec3a5bcf4bcfe9643",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/industry-a.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/industry-b.png.generation.json",
+      "file": "source-art/world/industry-b.png",
+      "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/industry-b.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/industry-c.png.generation.json",
+      "file": "source-art/world/industry-c.png",
+      "sha256": "5d0106d538514752887dab941c2b3c7ca8942f66f447ba114342d7590712ad83",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/industry-c.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/industry-d.png.generation.json",
+      "file": "source-art/world/industry-d.png",
+      "sha256": "b5329fcc645bf679b32bc15c40a1d5728c931e4917086e79f3b873028ad5ca11",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/industry-d.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/industry-e.png.generation.json",
+      "file": "source-art/world/industry-e.png",
+      "sha256": "6a0a1fec8f64dd496421944f0923edc6922a66d71f82eaaabe69928d8cf96586",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/industry-e.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/objects-kit.png.generation.json",
+      "file": "source-art/world/objects-kit.png",
+      "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/objects-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/rail-topology.png.generation.json",
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/rail-topology.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/road-topology.png.generation.json",
+      "file": "source-art/world/road-topology.png",
+      "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/road-topology.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/roadside-lamps-native.png.generation.json",
+      "file": "source-art/world/roadside-lamps-native.png",
+      "sha256": "c08f6f21c25245b4c5ee162d7a8e89072a83aed28a26d8ce61c03b311918c8cc",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/roadside-lamps-native.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/rock-overlays-native.png.generation.json",
+      "file": "source-art/world/rock-overlays-native.png",
+      "sha256": "3f28247d7b210466f6786152b2faa06390b4d1da85a18c65082c3df476cc440f",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/rock-overlays-native.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/service-directions.png.generation.json",
+      "file": "source-art/world/service-directions.png",
+      "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/service-directions.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/shallow-seamless.png.generation.json",
+      "file": "source-art/world/shallow-seamless.png",
+      "sha256": "232ca50f5ddecbb75c361a1376b86360b015686fbd51a8a6311b83d4cbe38fe6",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/shallow-seamless.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/shore-sand-seamless.png.generation.json",
+      "file": "source-art/world/shore-sand-seamless.png",
+      "sha256": "53c5340ca2a1817576d21d4ea4b87bd79882ad4fde512a38ca4d2a975b4767be",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/shore-sand-seamless.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/signal-directions.png.generation.json",
+      "file": "source-art/world/signal-directions.png",
+      "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/signal-directions.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/signal-kit.png.generation.json",
+      "file": "source-art/world/signal-kit.png",
+      "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/signal-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/snowgrass-seamless.png.generation.json",
+      "file": "source-art/world/snowgrass-seamless.png",
+      "sha256": "e10c2f47b0e427b0e7f10bbe1ce9c3ee9f3ec08234b8a7c565a3e912c5c0b1c9",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/snowgrass-seamless.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/station-kit.png.generation.json",
+      "file": "source-art/world/station-kit.png",
+      "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/station-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/terrain-base.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/tree-lifecycle-alpha-attempt.png.generation.json",
+      "file": "source-art/world/tree-lifecycle-alpha-attempt.png",
+      "sha256": "591b941263ab836a02111351684b7f09befbcb9a0c35071f5d7c590955cac115",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/tree-lifecycle-alpha.prompt.txt",
+      "retained": false,
+      "retirementReason": "unused-edit: native alpha was already valid; edit changed highlights; not used in formal sprites"
+    },
+    {
+      "record": "source-art/world/tree-lifecycle-special-with-backdrop.png.generation.json",
+      "file": "source-art/world/tree-lifecycle-special-with-backdrop.png",
+      "sha256": "cff3cdae4d33f6d1212e11f161d08aaa0be5b47b94188e0e621171d06729372b",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/tree-lifecycle-special.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/trees-arctic.png.generation.json",
+      "file": "source-art/world/trees-arctic.png",
+      "sha256": "5ff89bf1c1bff13ac1896d455f5b0d1dd2141ed76856b2bc78b2b79f2da1c481",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/trees-arctic.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/trees-temperate.png.generation.json",
+      "file": "source-art/world/trees-temperate.png",
+      "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/trees-temperate.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/trees-toyland.png.generation.json",
+      "file": "source-art/world/trees-toyland.png",
+      "sha256": "b1ce27c381a3c9cca28ac85168bb973ac00fc261cbe761da14164e417c326f91",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/trees-toyland.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/trees-tropical.png.generation.json",
+      "file": "source-art/world/trees-tropical.png",
+      "sha256": "4c66ac2d46f9ece8c56c130ba66f85727cacdfa1f614089d63d1f3d6bdfccaad",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/trees-tropical.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/vehicle-helicopter-rotor.png.generation.json",
+      "file": "source-art/world/vehicle-helicopter-rotor.png",
+      "sha256": "a0092b1b402f2b4c6bee72284bfdb58fc46a9042aa39cb9995277ad51ed309e2",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/vehicles/helicopter-rotor.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/water-cycle.png.generation.json",
+      "file": "source-art/world/water-cycle.png",
+      "sha256": "5f4d8176b1ac35ae9bb834f8e04992b20cc6c264135b6e964a2cf65d55135c1f",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/water-cycle.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "source-art/world/waterworks-kit.png.generation.json",
+      "file": "source-art/world/waterworks-kit.png",
+      "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "records/world-production/waterworks-kit.prompt.txt",
+      "retained": true,
+      "retirementReason": null
+    }
+  ],
+  "sourceManifestSnapshots": [
+    {
+      "file": "assets/world/effects/breakdown-smoke/manifest.json",
+      "sha256": "bb40fa31d9eb9c3c6d4c3ba6654aec6c78b5a52558b937b0b546b5808c2e28ee"
+    },
+    {
+      "file": "assets/world/effects/bubble-absorb/manifest.json",
+      "sha256": "d8d628a855f483056ac0b16d1f91d99632e6e21e043851d23e8bcba42353fe36"
+    },
+    {
+      "file": "assets/world/effects/bubble-burst/manifest.json",
+      "sha256": "44ca63037c7d936d612fd08f074df3c3603e1d148485a2e355169252b248fea0"
+    },
+    {
+      "file": "assets/world/effects/bubble-float/manifest.json",
+      "sha256": "f51928117d4555de9649d7c731d2f9f4b6993c49bc73a5619fd0a8a01908aa41"
+    },
+    {
+      "file": "assets/world/effects/bubble-generation/manifest.json",
+      "sha256": "e7d8031e0cc84256ea6924fa6ff5371caaad14368d5877fee70c14afbe91110c"
+    },
+    {
+      "file": "assets/world/effects/bulldozer-directions/manifest.json",
+      "sha256": "465696c200f26e46b5456fd0187d4a638516a811a1ccfc20d9f4c5446d79ae16"
+    },
+    {
+      "file": "assets/world/effects/chimney-smoke/manifest.json",
+      "sha256": "bf6393549601bdf4c21f3b374f00f356cb4df1eb95602b84061e9b3b9e573b2f"
+    },
+    {
+      "file": "assets/world/effects/crash-smoke/manifest.json",
+      "sha256": "c9c1eceb27ceab5cce366b9515dbe815a603a767dd7e28272b4a095d894251d2"
+    },
+    {
+      "file": "assets/world/effects/diesel-smoke/manifest.json",
+      "sha256": "c676b2b06a3b22c216a646d52bc4ff7667c867928e354ce1e2c0af719f4e6c9b"
+    },
+    {
+      "file": "assets/world/effects/disasters/combat-airplane/manifest.json",
+      "sha256": "2a8d7902b87bf3d1c4baa7bcb5f86844b5918cd783f2f75996264de65af2957a"
+    },
+    {
+      "file": "assets/world/effects/disasters/combat-airplane-shadow/manifest.json",
+      "sha256": "7aaf1c42e717f6679dae564d6867008b8d4cd6af037fec7932bae91b8f9f5a10"
+    },
+    {
+      "file": "assets/world/effects/disasters/combat-helicopter/manifest.json",
+      "sha256": "afd46c063fbcaf20e6d785947385b4f13d5e31812b197b810c6fa50f6a8c167a"
+    },
+    {
+      "file": "assets/world/effects/disasters/combat-helicopter-shadow/manifest.json",
+      "sha256": "8a50581b9bff8ebebd1326b63058116bf62fecbbe1ea527ccbd488a7de1b3cf1"
+    },
+    {
+      "file": "assets/world/effects/disasters/submarine-big/manifest.json",
+      "sha256": "3b5f82b6f742f0793679d10cd0333693ea1a1a7be40162a4527f67c5f325c284"
+    },
+    {
+      "file": "assets/world/effects/disasters/submarine-small/manifest.json",
+      "sha256": "0f30a6a1a0a60b862d17d85582ec21279d6f868a048ebfb32eeb03d992531c43"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-big/manifest.json",
+      "sha256": "e28cf963f0a45b6a027a6e8e39b35f96505a06be7f873bc710a088b527b49df5"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-big-shadow/manifest.json",
+      "sha256": "c905093a710b25aae27718331b58d6f3ca7edceb7b6ebf547bfeaef2ecd768f0"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-destroyer/manifest.json",
+      "sha256": "2680537ff0771b52f78e9a433d07ee980b4d0e548a6e9e694ad670541429f5f2"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-destroyer-shadow/manifest.json",
+      "sha256": "0bc8d822162e0e1efccc8b46e2466abcd65698519926d845598153350240ea05"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-small/manifest.json",
+      "sha256": "cf10296cef73b365a6fcea4d67d7c7605dda44d224f4a0bb4de774d1285afb38"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-small-dark/manifest.json",
+      "sha256": "d2a7444a39eef735263e38c782f2f6caea8bdeb52210c89064738477b935d8a8"
+    },
+    {
+      "file": "assets/world/effects/disasters/ufo-small-shadow/manifest.json",
+      "sha256": "77e034adab911f45e2af25fd211aec17217556e766f4bd97f230de680e200cc7"
+    },
+    {
+      "file": "assets/world/effects/disasters/zeppelin/manifest.json",
+      "sha256": "d6912cd118732dfe6046b05fb48fedf18535f9c75b0e68e5198c3f79b77adc76"
+    },
+    {
+      "file": "assets/world/effects/disasters/zeppelin-crashing/manifest.json",
+      "sha256": "f96a84bf0b85d522f89d938dab9877b81d1cb5bed68064551828fe6a72c4c269"
+    },
+    {
+      "file": "assets/world/effects/disasters/zeppelin-shadow/manifest.json",
+      "sha256": "5718093f53e8caeaeabb529586a54a3063b49f7ae490daa1365781eba576c545"
+    },
+    {
+      "file": "assets/world/effects/disasters/zeppelin-wreck/manifest.json",
+      "sha256": "0ddf64d0d372235a1090c12addce444f34688fd8ebbf4c1cbd46ed4323628cdc"
+    },
+    {
+      "file": "assets/world/effects/electric-spark/manifest.json",
+      "sha256": "9826905a82b5f69397e3a9fd14e582750f7e807f1e0df9eb299a4cdda28805d7"
+    },
+    {
+      "file": "assets/world/effects/explosion-large/manifest.json",
+      "sha256": "8b6e4b95b9575243b57380a9c2742df9834c450dd2c33427c002dbfa66d963fd"
+    },
+    {
+      "file": "assets/world/effects/explosion-small/manifest.json",
+      "sha256": "ef731521a277833bf2b20912e82d8a6e2dbfb37ae9382f5088bd1999b9f31aa3"
+    },
+    {
+      "file": "assets/world/effects/furnace-flame/manifest.json",
+      "sha256": "f3a9966a84f096019d37b57d8da9583afc5f8de6807ab39d990e16478bd7523f"
+    },
+    {
+      "file": "assets/world/effects/steam-smoke/manifest.json",
+      "sha256": "678792103bbc0eac4a31cd6694870c4809aeb3d9f3a302cc3c6b2dc4fd252779"
+    },
+    {
+      "file": "assets/world/houses/families/climates/manifest.json",
+      "sha256": "737857831b4183e179b33d3c9b2f99cd27d1869082d63860cf751a1e58287a23"
+    },
+    {
+      "file": "assets/world/houses/families/commerce/manifest.json",
+      "sha256": "5662206da6b6e370f48375d1cbe8adc8bb9b2618101b07b506c75d8a07d44178"
+    },
+    {
+      "file": "assets/world/houses/families/dense/manifest.json",
+      "sha256": "6bcd7b32eaa3b976634b2d784b0ac6898324b8403d3ba83740a6be5a55f0a42e"
+    },
+    {
+      "file": "assets/world/houses/families/special/manifest.json",
+      "sha256": "31d5213b575ac8eb56b04c813bf3d58c4cf14255253c714f5324615f55e2fab8"
+    },
+    {
+      "file": "assets/world/houses/families/traditional/manifest.json",
+      "sha256": "de6d57ff2011443ee84491b541ef97a22b99009306a4076f3a0c7b64b54a75d0"
+    },
+    {
+      "file": "assets/world/houses/manifest.json",
+      "sha256": "94495fbb7f47c80c52ee9d5147f319015220b1cfdcd14beb7e578f78fde70e6e"
+    },
+    {
+      "file": "assets/world/industries/manifest.json",
+      "sha256": "9162afcd7ac4f31af5ca9b845997dcd6b3c8eaa8c07c1a3c7c1cf041348ef3a6"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/manifest.json",
+      "sha256": "2a1655cf8d2a2187a2084798a3561fd67c375f888b90c3cf214c359f8cc89da8"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/manifest.json",
+      "sha256": "60c8758a93ff857926282cbb5ea37658ad26150882714054e31ffcf43ea1472e"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/manifest.json",
+      "sha256": "3969d1ac5c51b332f7506ffba77d6faba08e4d26f859156bf5f7e8454095111d"
+    },
+    {
+      "file": "assets/world/infrastructure/fence-foundation-states/manifest.json",
+      "sha256": "182e92480e4c127266e065efca749349d6147748397431718dcc75061dcc734a"
+    },
+    {
+      "file": "assets/world/infrastructure/fences-shore/manifest.json",
+      "sha256": "b476fb69eccebcc2437d6bfa9929154da6e28f3d245ee5c36a180edad3e1e7cb"
+    },
+    {
+      "file": "assets/world/infrastructure/foundations/manifest.json",
+      "sha256": "9a86a4217b14dd3d6280a7d6095843dc7b326c9fabe8e79344081b70f3f1f6f1"
+    },
+    {
+      "file": "assets/world/infrastructure/fountain-animation/manifest.json",
+      "sha256": "f2de929452d93e6c7006195e05fd5641f9c87367d062cfc0a728e33a9d68ce65"
+    },
+    {
+      "file": "assets/world/infrastructure/mechanics/manifest.json",
+      "sha256": "8d5566614ad141eb1de5c04e17567b91794cba2aca0b7f4a49f320e0c5ebecd1"
+    },
+    {
+      "file": "assets/world/infrastructure/object-states/manifest.json",
+      "sha256": "c9c0fd61adb33ee69b56a92436f86095dcacda92cd53a2ae2875541e9a205e18"
+    },
+    {
+      "file": "assets/world/infrastructure/objects/manifest.json",
+      "sha256": "512f8710b305a874d9afebf273e29a869a5c9bb3bc905e79f0b05396907ffb61"
+    },
+    {
+      "file": "assets/world/infrastructure/rail/manifest.json",
+      "sha256": "1f66d7b6ca42b79c32dcdb776ac9289267be34a15ee684066810f8fd53f00dac"
+    },
+    {
+      "file": "assets/world/infrastructure/road-variants/manifest.json",
+      "sha256": "ab0f20c563d6a1b42b423cc67b7827522e6605a2364bd3b92b855477c30f4c7c"
+    },
+    {
+      "file": "assets/world/infrastructure/roads/manifest.json",
+      "sha256": "6758781b5d70e3823b4da2ae0980ff57172b38ff81ea3ab8f36ba2b8e16735ee"
+    },
+    {
+      "file": "assets/world/infrastructure/signal-states/manifest.json",
+      "sha256": "c2ddefc1d4128ca0a5e5cdcd58a6637d485fb0b18c036884479953098f370595"
+    },
+    {
+      "file": "assets/world/infrastructure/signal-views/manifest.json",
+      "sha256": "774a8d013c07f389d2778a1743ce4598eeb9c49ef46aadd36d68879a5b0215d1"
+    },
+    {
+      "file": "assets/world/infrastructure/signals/manifest.json",
+      "sha256": "6f8b8a18ffa2a198083ebd0b7339992e4dcf674c84d616e9404d83d3787659fb"
+    },
+    {
+      "file": "assets/world/infrastructure/transport/manifest.json",
+      "sha256": "d825b31bb11f74a5efff53d4f78b0d0f8327975d2fc5d3e360bee32b5ecbc301"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/manifest.json",
+      "sha256": "113a9158b402c5c59445cae0a62c8a2860ffb47538ad13437fd02cfca86b623b"
+    },
+    {
+      "file": "assets/world/infrastructure/water-states/manifest.json",
+      "sha256": "b9da1458223c16dd3d1c2d6b2d2ed62de81f340231cf4247517bca82b418e5bd"
+    },
+    {
+      "file": "assets/world/infrastructure/water-stations/manifest.json",
+      "sha256": "d9fa8b85ca71d54fdae942c2e81c67b6a24bafa3bf13663bdde9df835a3e1c41"
+    },
+    {
+      "file": "assets/world/infrastructure/waterworks/manifest.json",
+      "sha256": "d620c1f0bbe99d151e09757d7d384c0b0809c69b31c6d701305a8b25d30feb11"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/manifest.json",
+      "sha256": "473c088792dd6a6b69938bfc3edb28893bf130ce5d8ac6e9eab3a30c1492ece7"
+    },
+    {
+      "file": "assets/world/overlays/manifest.json",
+      "sha256": "4880a39fccc020dc15c652184f33c4069bdfd47f0674c54238bfc19840f08007"
+    },
+    {
+      "file": "assets/world/overlays/rail-reservation/manifest.json",
+      "sha256": "378aa2545e270558b098e1eeef303c5e4be7c8a2c91da8dcae857b556e63aff9"
+    },
+    {
+      "file": "assets/world/overlays/road-oneway/manifest.json",
+      "sha256": "59f1bf21d8a355d99b7cf08a72c2dcd1dfc4e4e8c1af7e4417c84839811e9a2c"
+    },
+    {
+      "file": "assets/world/overlays/roadside/manifest.json",
+      "sha256": "e5067c5b7aafd9a1d0b12f581a2a38889658f95ab4a6d1b0ab85e36b5608b2e2"
+    },
+    {
+      "file": "assets/world/terrain/field-stages/manifest.json",
+      "sha256": "4d66288c42a1033a79d8815fa6ad27f3e90e9e958f30b27399e7532460c002a9"
+    },
+    {
+      "file": "assets/world/terrain/manifest.json",
+      "sha256": "a9fdf736a7289abbee9f322a0136e6a1b165db78d044324c7d70f92c53baa903"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/manifest.json",
+      "sha256": "9f2d52b007b5faea675e097154af6c1a3ec64c370cf7ca8b01143e25916bfd23"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/manifest.json",
+      "sha256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/manifest.json",
+      "sha256": "dff2c0e7f282bab7542772382b95febd216582bc5604ca725b019246ef1b9365"
+    },
+    {
+      "file": "assets/world/vegetation/manifest.json",
+      "sha256": "58ce9692018a9d7ba1b5e675a40ad028b39ea4ffa211889767b35550b0f4c54f"
+    },
+    {
+      "file": "assets/world/vehicles/families/air-helicopter/manifest.json",
+      "sha256": "2c00a36cfaae3005b08930f7a7b47c36a575ae0b01cdb0627914751d8491b3be"
+    },
+    {
+      "file": "assets/world/vehicles/families/air-jet-narrow/manifest.json",
+      "sha256": "eccbf953352db5d45f789051e8f51a66c10d62f1185b8523cbe020f10b310bac"
+    },
+    {
+      "file": "assets/world/vehicles/families/air-jet-wide/manifest.json",
+      "sha256": "10661ad7a2a141b10bcac7ee9a4740846ff88d4a43ce645118ff5501173310bb"
+    },
+    {
+      "file": "assets/world/vehicles/families/air-large-prop/manifest.json",
+      "sha256": "928329cc89bfea3edbb872d722442ec352b041ff9d253fdd0665ed80606da395"
+    },
+    {
+      "file": "assets/world/vehicles/families/air-small-prop/manifest.json",
+      "sha256": "d1bd1d2ddface18d669cbe17a0a9ae5e07ea35dbddc8383b30844946f852e5cc"
+    },
+    {
+      "file": "assets/world/vehicles/families/air-supersonic/manifest.json",
+      "sha256": "8066c380c737d2703d68f646d4effadf4355bb87dc85ffa7e85a96e15ddd45d0"
+    },
+    {
+      "file": "assets/world/vehicles/families/loco-diesel/manifest.json",
+      "sha256": "9c1e07ecc1c6cb374742fdd5c0feded06284ad1c524ffcc0507dfe3559257110"
+    },
+    {
+      "file": "assets/world/vehicles/families/loco-electric/manifest.json",
+      "sha256": "2c19c3076476280d67d8c9af82231f954445a76b2efa5cea96cc53c1770d2698"
+    },
+    {
+      "file": "assets/world/vehicles/families/loco-maglev/manifest.json",
+      "sha256": "86800a7f172f06b8e1e7ae2a04b5c455025b7c897b0d76789a132b5196528178"
+    },
+    {
+      "file": "assets/world/vehicles/families/loco-monorail/manifest.json",
+      "sha256": "fbba3ea7ef786d61dcc7e8b9857042745d7d56d351d3eaaa5a0a73ee34ac0220"
+    },
+    {
+      "file": "assets/world/vehicles/families/loco-steam/manifest.json",
+      "sha256": "4b8ac04e3196e8cd098d9fa31c595c35a9d5ecd182a1b480d1ac76f6dacf5f6d"
+    },
+    {
+      "file": "assets/world/vehicles/families/loco-toy/manifest.json",
+      "sha256": "4edb2feeb1025b5126633c64662cdc7f44029b306b9d8f865e8c0a885de17011"
+    },
+    {
+      "file": "assets/world/vehicles/families/road-box/manifest.json",
+      "sha256": "db521986d83c51ff22ad7627bb51cf7f8210fd96060a1b3bf4b96d7b4d97680d"
+    },
+    {
+      "file": "assets/world/vehicles/families/road-bus/manifest.json",
+      "sha256": "059a826da9630f780885cef3c8164de231bc9eaedffd88f46f9873ef3a192c55"
+    },
+    {
+      "file": "assets/world/vehicles/families/road-flat/manifest.json",
+      "sha256": "e39d77f4794cb96477855b6b9d76788ee3f03ae3e5b6720dc1f54fe467204f9e"
+    },
+    {
+      "file": "assets/world/vehicles/families/road-open/manifest.json",
+      "sha256": "7e8f681578a2a8711073a9003d2370b759da20c5a88a7f0af3e7af015f3660eb"
+    },
+    {
+      "file": "assets/world/vehicles/families/road-tank/manifest.json",
+      "sha256": "6bd9b4b185a3596802e08545fe489b26d95eda9eb2a56e3c7861b138040cdf64"
+    },
+    {
+      "file": "assets/world/vehicles/families/ship-cargo/manifest.json",
+      "sha256": "1b6e7719dd554b36ad2052782a6e20cb2c3d30b37e8932f6a15409ad241f0166"
+    },
+    {
+      "file": "assets/world/vehicles/families/ship-ferry/manifest.json",
+      "sha256": "63050f004fe46aa5704e02e3d2fddf9adf01a1ceb1de22642a64a1b6538951fd"
+    },
+    {
+      "file": "assets/world/vehicles/families/ship-hovercraft/manifest.json",
+      "sha256": "7d321711cb64a774e276242e8b0516638babc26aae096f9b43f9a85b6836f956"
+    },
+    {
+      "file": "assets/world/vehicles/families/ship-tanker/manifest.json",
+      "sha256": "812aa7c2703d28df5f3da87fc8003b1b90b77c79af373ded338d91873ac1104c"
+    },
+    {
+      "file": "assets/world/vehicles/families/wagon-box/manifest.json",
+      "sha256": "a0c88940678f8ac443306ea99655d0a80861172093f604572ae4fecdc7bc6195"
+    },
+    {
+      "file": "assets/world/vehicles/families/wagon-flat/manifest.json",
+      "sha256": "7c61b83c400ba8e4a425867774c5a08b758a2e577c03418053eb5023eba1a57b"
+    },
+    {
+      "file": "assets/world/vehicles/families/wagon-hopper/manifest.json",
+      "sha256": "fc7794d633aeb7e78ee09df1fc4a0def9c4f47bed366f8e65e8559a80b39465b"
+    },
+    {
+      "file": "assets/world/vehicles/families/wagon-passenger/manifest.json",
+      "sha256": "b02756cb51cc1d3df395138d4bb39b984e9a9fceea27ad8cfe78c7eb183e465f"
+    },
+    {
+      "file": "assets/world/vehicles/families/wagon-tank/manifest.json",
+      "sha256": "46570b87d550867d3d082145c4221c7b7e69db054f7e4c25fd0a4d5f62d7f425"
+    },
+    {
+      "file": "assets/world/vehicles/families/wagon-vent/manifest.json",
+      "sha256": "fd95cfd8bceb0fbace0e2e01e9a38a77ead1a144701b548d049e75cd4c5e8d15"
+    },
+    {
+      "file": "assets/world/vehicles/models/000/manifest.json",
+      "sha256": "b982ff80821746c95c5ae53547c4faffac89c0eff0ec546ac69350ca28a199ef"
+    },
+    {
+      "file": "assets/world/vehicles/models/001/manifest.json",
+      "sha256": "632342151ec6a10b59aa23f4797ad746e40fd8d3c654955bdee4ef78030e7f7f"
+    },
+    {
+      "file": "assets/world/vehicles/models/002/manifest.json",
+      "sha256": "2588445b674f70503a84fb1085f26ccd1c0533946e2421bc1a21e46c29d25d45"
+    },
+    {
+      "file": "assets/world/vehicles/models/003/manifest.json",
+      "sha256": "2a335fcf16bb90bfe824bcaf8c4592fab4ae889a6775a5453d056dbc28dbf1f6"
+    },
+    {
+      "file": "assets/world/vehicles/models/004/manifest.json",
+      "sha256": "eafc95e8e27f9e000fea1461d3f2e78360fd59a58f4113524977882be53212dc"
+    },
+    {
+      "file": "assets/world/vehicles/models/005/manifest.json",
+      "sha256": "118b4e53bef4b6c125cf26eaf72d1cab4d11fbf3d1c4af1caa0af23d3f1262bf"
+    },
+    {
+      "file": "assets/world/vehicles/models/006/manifest.json",
+      "sha256": "363fd37e448a2b7f5813f31ab4218a432fa5d2d36eed8134614d8f060c796e56"
+    },
+    {
+      "file": "assets/world/vehicles/models/007/manifest.json",
+      "sha256": "a3fb2826076da05c0d5b54b3436b157e53e4c4393b2e7a9437cb35030fddc6b7"
+    },
+    {
+      "file": "assets/world/vehicles/models/008/manifest.json",
+      "sha256": "edf6919ea941b5c10f9105d16bad35f9c59002d3b1978224822c66371bc6b692"
+    },
+    {
+      "file": "assets/world/vehicles/models/009/manifest.json",
+      "sha256": "a446ec27a25226e04802e6507171016bdd605fae8eef18e4e1a198cd114e7111"
+    },
+    {
+      "file": "assets/world/vehicles/models/010/manifest.json",
+      "sha256": "33d61f772fa32003a94e208976ca17e7f4c1f842c6d12535747222f1a81835cb"
+    },
+    {
+      "file": "assets/world/vehicles/models/011/manifest.json",
+      "sha256": "87bc7c3aca3e6a63a99887bf02af6dfda11e84a3e5501fb7e01ff0eee1fafe18"
+    },
+    {
+      "file": "assets/world/vehicles/models/012/manifest.json",
+      "sha256": "cfc1170c2155b442bbb6f337c053f5462902b1139aaa60fa783030c012aa533d"
+    },
+    {
+      "file": "assets/world/vehicles/models/013/manifest.json",
+      "sha256": "f4dc20b694a9ef4f16e9e10a0c6f9de727a40459d698bbf30d1c3cd39c6ee396"
+    },
+    {
+      "file": "assets/world/vehicles/models/014/manifest.json",
+      "sha256": "c8dc701253076764d5e32b78c780ef0f24335766247aadc95143ff901a09e8fe"
+    },
+    {
+      "file": "assets/world/vehicles/models/015/manifest.json",
+      "sha256": "d393be9593dc78d2f6919c7985447143bbcd08b0d3579d3cba03a8e64813d4d9"
+    },
+    {
+      "file": "assets/world/vehicles/models/016/manifest.json",
+      "sha256": "ba96addc3b02fb5afddea385926466a42f9269bcf63bf9d1612c31e3acf4de6b"
+    },
+    {
+      "file": "assets/world/vehicles/models/017/manifest.json",
+      "sha256": "7efa50dae43a0ba2034a965625b7e2c9c4be45e334fd129c7e06170608aaa735"
+    },
+    {
+      "file": "assets/world/vehicles/models/018/manifest.json",
+      "sha256": "1177f43f36f5f20c23b8e6a4af36f2b58029b374779103dc02b0dd0a762ad159"
+    },
+    {
+      "file": "assets/world/vehicles/models/019/manifest.json",
+      "sha256": "bfe5407dfb33fc5859404667cd80c8e1f2040027678320fa9d9ce989db29d962"
+    },
+    {
+      "file": "assets/world/vehicles/models/020/manifest.json",
+      "sha256": "072da44065711e61147cddd94945d4a3977fbff599bda0ca25898ce67e301a84"
+    },
+    {
+      "file": "assets/world/vehicles/models/021/manifest.json",
+      "sha256": "a57316f0e5477276a7b5be8ee4394ba4a12e3afcf533802463116e5c1d7b3666"
+    },
+    {
+      "file": "assets/world/vehicles/models/022/manifest.json",
+      "sha256": "e5eeb3be063336fe00f5f75876dd959263898f5d9477466779370297bb7e10f4"
+    },
+    {
+      "file": "assets/world/vehicles/models/023/manifest.json",
+      "sha256": "ba43d90ca8e1760214d3f2577ade268d06288f56c5c79eef74d9cde3fe3e0257"
+    },
+    {
+      "file": "assets/world/vehicles/models/024/manifest.json",
+      "sha256": "c87c13e82f16c58d131458df0841ca35d6e700cd1bcda6ea9e0a06eaadbe8916"
+    },
+    {
+      "file": "assets/world/vehicles/models/025/manifest.json",
+      "sha256": "b15e08228e57e26b99ea5b193b64fe9fcc674c3bdb6472936fe2c973b2983644"
+    },
+    {
+      "file": "assets/world/vehicles/models/026/manifest.json",
+      "sha256": "dc4a0927534e731a30794e40aa1babd77cb9761aadd574b9c5963ac49df967d3"
+    },
+    {
+      "file": "assets/world/vehicles/models/027/manifest.json",
+      "sha256": "11e21f122c7e083a57fb303a7244069120073a728dea1f81185c146a78d6050d"
+    },
+    {
+      "file": "assets/world/vehicles/models/028/manifest.json",
+      "sha256": "494272b219a13a48f7845ed925eca91daf4b136cccf08a3e636cb204203f5560"
+    },
+    {
+      "file": "assets/world/vehicles/models/029/manifest.json",
+      "sha256": "4ba9f5ee87a3a82ffa9a0c94a5fbe6da9e4a0a79a4de8cae8fe6deb8ab6c8ef2"
+    },
+    {
+      "file": "assets/world/vehicles/models/030/manifest.json",
+      "sha256": "19a7c020fdd8a3a20a512db88141ddb0eb74254b9f1fb20a9de23ec5e8852254"
+    },
+    {
+      "file": "assets/world/vehicles/models/031/manifest.json",
+      "sha256": "efcf23c0a88a6e043b98b8eed28e4f08246100ebb6e039cb0796a592e0418784"
+    },
+    {
+      "file": "assets/world/vehicles/models/032/manifest.json",
+      "sha256": "d06bac7c895cc93f65104d478bb2056112383f5b94818d0f5a40c5935b131b38"
+    },
+    {
+      "file": "assets/world/vehicles/models/033/manifest.json",
+      "sha256": "588574fb3db4f228512f6e7837444bcc15cd8970023b0dff230fafa7749e8be0"
+    },
+    {
+      "file": "assets/world/vehicles/models/034/manifest.json",
+      "sha256": "cf3ba312707a339239771d8a1d52c284239751e97db1fef0e251a626ca2e494b"
+    },
+    {
+      "file": "assets/world/vehicles/models/035/manifest.json",
+      "sha256": "81fd45bdc49deb3ce62b47355d35600118072302f596b6439d5678078d0a59f8"
+    },
+    {
+      "file": "assets/world/vehicles/models/036/manifest.json",
+      "sha256": "e3d3cd2c38680c0817a3cbc98a4c989bb2ce4ebe01aa7e6b11ebf59979e67d56"
+    },
+    {
+      "file": "assets/world/vehicles/models/037/manifest.json",
+      "sha256": "58e750ee4ec1541647879b3e55f5a1a65ad3d9a9d828247815d97421d87f24b2"
+    },
+    {
+      "file": "assets/world/vehicles/models/038/manifest.json",
+      "sha256": "44a43225ff20d6d8a20a4a871626e11f06dbe91e0231a024fb2fa524d3cc1544"
+    },
+    {
+      "file": "assets/world/vehicles/models/039/manifest.json",
+      "sha256": "1373a94ba5222f0d1f10fc0fa1ba70eb51c2bf56ea449f9952e7be316efbb667"
+    },
+    {
+      "file": "assets/world/vehicles/models/040/manifest.json",
+      "sha256": "b9a172ecd0252da5e304cb9eab3604cc5ce596db5d1183f3505036b51da08b20"
+    },
+    {
+      "file": "assets/world/vehicles/models/041/manifest.json",
+      "sha256": "f1ed43ac39145c841d9e475f0a71e226c26d1cdd59fd3b7e1f60879d4bc941fd"
+    },
+    {
+      "file": "assets/world/vehicles/models/042/manifest.json",
+      "sha256": "af319fe7f5c9cfdeea84e716592f8ac5580679964d3863f28ba0248251b7047e"
+    },
+    {
+      "file": "assets/world/vehicles/models/043/manifest.json",
+      "sha256": "c54412df1be64193220eba20ce803a96cc980d00a50964d8bfa5be512a86154c"
+    },
+    {
+      "file": "assets/world/vehicles/models/044/manifest.json",
+      "sha256": "2ac6ff816afaae9461baaa1830ab8aae9585156cf56f34d5d53d6f7d39faf85b"
+    },
+    {
+      "file": "assets/world/vehicles/models/045/manifest.json",
+      "sha256": "9c383df8dd8f01271d1c2289b41a11043e8e0e2f5850908bffc4bb8ef22d2c22"
+    },
+    {
+      "file": "assets/world/vehicles/models/046/manifest.json",
+      "sha256": "2ee921610bdab35bede4ab7375482064dd3fea5d55fb5baf8a96d08e7fcd9610"
+    },
+    {
+      "file": "assets/world/vehicles/models/047/manifest.json",
+      "sha256": "69c009bc8151a865784a3e0cc4ba723f96c832caf30fd6f9e749ea039fbd9382"
+    },
+    {
+      "file": "assets/world/vehicles/models/048/manifest.json",
+      "sha256": "96c81fe6d4d7610d481f367185b1a7e5586401c91da5a8020e40ad3090f169d9"
+    },
+    {
+      "file": "assets/world/vehicles/models/049/manifest.json",
+      "sha256": "8d0167aaae7ffafc049643283878f0408a8dbdc508cc3beb8bec2ca79fda9a9b"
+    },
+    {
+      "file": "assets/world/vehicles/models/050/manifest.json",
+      "sha256": "d51b4ae4ec4b4b7d52a649f4766d6942d813c6996387eb6a8e2beb828a4ff746"
+    },
+    {
+      "file": "assets/world/vehicles/models/051/manifest.json",
+      "sha256": "e496ea92c4702fdd016238c834083494aa9baf0ddb73a5c0088325f8026128b7"
+    },
+    {
+      "file": "assets/world/vehicles/models/052/manifest.json",
+      "sha256": "fb1da839e1d384c60163f5ff508e6f00721c6133db3157437312e1d9b96035f3"
+    },
+    {
+      "file": "assets/world/vehicles/models/053/manifest.json",
+      "sha256": "c3836f412b2f8b13cc63320b42796e2d52e77023d099f4775abd60dcfe3ad0e8"
+    },
+    {
+      "file": "assets/world/vehicles/models/054/manifest.json",
+      "sha256": "8377b1c48861108bdf338cfc9d66c126e2f2b71a85f3a469cccb2b9ecfd8d97c"
+    },
+    {
+      "file": "assets/world/vehicles/models/055/manifest.json",
+      "sha256": "28605ef09adc39b15b310c01ac9dc7deb847c9e261a54c22d411b89af6705458"
+    },
+    {
+      "file": "assets/world/vehicles/models/056/manifest.json",
+      "sha256": "7c604cf2d8ede68b1ca6cb2898470b9f2de0223d86f9acb6c0ad065bf108295d"
+    },
+    {
+      "file": "assets/world/vehicles/models/057/manifest.json",
+      "sha256": "6f1109815231a90b86d737fb02921cdf3878b34ada5382bcc4fef57c4526fa7a"
+    },
+    {
+      "file": "assets/world/vehicles/models/058/manifest.json",
+      "sha256": "48360c7097802027e733297f1598adfca6523f6103d481b8d99fe7fdf1f89f67"
+    },
+    {
+      "file": "assets/world/vehicles/models/059/manifest.json",
+      "sha256": "72b14634497ec0039e9c280eeb10a3cb53c8247b9c823fad0e0d91985000929a"
+    },
+    {
+      "file": "assets/world/vehicles/models/060/manifest.json",
+      "sha256": "5481ebd383f5b55facf3f17cfba4ad5a3ef9f6834d59beaf9c89e85ce8d65139"
+    },
+    {
+      "file": "assets/world/vehicles/models/061/manifest.json",
+      "sha256": "492053526a617fff67993e0200134db581575d537b3c5cff6840060c80e10fcc"
+    },
+    {
+      "file": "assets/world/vehicles/models/062/manifest.json",
+      "sha256": "fdcdaef43d02e6257897216efe78eb6c109bb2d6062945e2c60c2218f428c6ee"
+    },
+    {
+      "file": "assets/world/vehicles/models/063/manifest.json",
+      "sha256": "18f9b01ad29a439560684cbe5711ef4c170c79095514f10973cc2e93e25d7d80"
+    },
+    {
+      "file": "assets/world/vehicles/models/064/manifest.json",
+      "sha256": "f3c8b5456e3ad8da13f2d556bd6dc6de7b9ca5aff4fb73f7508470d2ca93f719"
+    },
+    {
+      "file": "assets/world/vehicles/models/065/manifest.json",
+      "sha256": "6120c3b3c9583c78863b87ab04ee6b465986edc9d2a95e67d42b5f4c07648666"
+    },
+    {
+      "file": "assets/world/vehicles/models/066/manifest.json",
+      "sha256": "21d41a4b7f3b7438c94384ef0240f34c18bbd208ce03253066c7d3be41c4525c"
+    },
+    {
+      "file": "assets/world/vehicles/models/067/manifest.json",
+      "sha256": "31c03e5b1548bb1d82306ce50f69b6279d9662e6b5800fa8eca6ce4d84ebeb32"
+    },
+    {
+      "file": "assets/world/vehicles/models/068/manifest.json",
+      "sha256": "02f34bc413468116e188c56ffb897b2f479b9394502ed0926491e9fb5ff3f76a"
+    },
+    {
+      "file": "assets/world/vehicles/models/069/manifest.json",
+      "sha256": "d899891a7f98dea77b28607abd200b4cd159565ddc6ccc191a0dba16c990bdec"
+    },
+    {
+      "file": "assets/world/vehicles/models/070/manifest.json",
+      "sha256": "379fd4d0ab87c7e5c3f876f7f3da5928c6544008eef31639cd0c1ac7aa69b5fa"
+    },
+    {
+      "file": "assets/world/vehicles/models/071/manifest.json",
+      "sha256": "2d88f211046d4a4459bda48efd6c0be305dcda70d8a82a7e6a2896b4a0f97193"
+    },
+    {
+      "file": "assets/world/vehicles/models/072/manifest.json",
+      "sha256": "2e3f4ba38ec9aaf57cc5aecf38562aabd0fc13294fbc64541d8983b64f87ade8"
+    },
+    {
+      "file": "assets/world/vehicles/models/073/manifest.json",
+      "sha256": "a4d01b0b9a0387b26cc92c349e28ac9796bc89c02cd01a7e96100046543c7640"
+    },
+    {
+      "file": "assets/world/vehicles/models/074/manifest.json",
+      "sha256": "54da8541bbcd4a8a97a0f798d3155f348ab111a0a18f4bcc7f709bd2ad96dd69"
+    },
+    {
+      "file": "assets/world/vehicles/models/075/manifest.json",
+      "sha256": "f44dc871d537571a0a85b5e664d0a32282741a4ac3a090a899cddcd60a174f31"
+    },
+    {
+      "file": "assets/world/vehicles/models/076/manifest.json",
+      "sha256": "5a71588ffbb86fd53738f41c053d96bb2ac6919956abfb8c5cfa854249748c3f"
+    },
+    {
+      "file": "assets/world/vehicles/models/077/manifest.json",
+      "sha256": "871bff2c61fd5489ea77c151e0e6fcbdc125a8abe0cda1f888e24d68f91711f5"
+    },
+    {
+      "file": "assets/world/vehicles/models/078/manifest.json",
+      "sha256": "ad0a2f7eee2bf4cadff9e534a09480bc698b0d1a84599e6845f865507f888176"
+    },
+    {
+      "file": "assets/world/vehicles/models/079/manifest.json",
+      "sha256": "45fdbf4af0158bd65cdd650c3a56d08b0271cff27c8836c8b2d6543f4f9b46eb"
+    },
+    {
+      "file": "assets/world/vehicles/models/080/manifest.json",
+      "sha256": "0f4c0df97f0bc77101d32f40d20677d6d3a8e19fe5e64e23960a24339ed99d77"
+    },
+    {
+      "file": "assets/world/vehicles/models/081/manifest.json",
+      "sha256": "36b3f6bed1c1632f2db3612d87f06085781018d5ea8e02a91b153e352230f303"
+    },
+    {
+      "file": "assets/world/vehicles/models/082/manifest.json",
+      "sha256": "ac3481f76780f246f8ae3ee522b9616f71b3c13d75bf3bcb932732297e8394ad"
+    },
+    {
+      "file": "assets/world/vehicles/models/083/manifest.json",
+      "sha256": "4b97309d1fa621e05f4bb30226224e074e957d19d8ba6c45b772d95429b0f694"
+    },
+    {
+      "file": "assets/world/vehicles/models/084/manifest.json",
+      "sha256": "49e788059847b4627b54f8541572f5baaea0c2cae44c1035ebe785c477c8d08a"
+    },
+    {
+      "file": "assets/world/vehicles/models/085/manifest.json",
+      "sha256": "29eb938f00130dd91de6624eab17ca6099eafbf3b42e8757c4148460233e2008"
+    },
+    {
+      "file": "assets/world/vehicles/models/086/manifest.json",
+      "sha256": "17ce2e1fce489589ba879147a6bce138680ba6559d26c8a82ea968a13c635518"
+    },
+    {
+      "file": "assets/world/vehicles/models/087/manifest.json",
+      "sha256": "4d64c0919309030594c7071ea72120de795ee28400f4ad7a8772f059efb93625"
+    },
+    {
+      "file": "assets/world/vehicles/models/088/manifest.json",
+      "sha256": "1db74080f764f1bf0c20f95bbbceed63f29dab9568a338bed69919cca44dc9ce"
+    },
+    {
+      "file": "assets/world/vehicles/models/089/manifest.json",
+      "sha256": "e2b79ec03dbc5a70646e9148dd76686dfd22529d8685b59cd165cf4aeff4c9dd"
+    },
+    {
+      "file": "assets/world/vehicles/models/090/manifest.json",
+      "sha256": "32b908e7ef81ecfdea840f7ae4281d717e0df6e0b990cbac33a56d2bfad74734"
+    },
+    {
+      "file": "assets/world/vehicles/models/091/manifest.json",
+      "sha256": "4e566fdaf8778f19c393cf7f296886749c6f50b9ea8924f0986370ca85cffef4"
+    },
+    {
+      "file": "assets/world/vehicles/models/092/manifest.json",
+      "sha256": "f8387cd4d9cecd49f2dcdc8f115ed2535e196075dd82129eb32a8af3d9880822"
+    },
+    {
+      "file": "assets/world/vehicles/models/093/manifest.json",
+      "sha256": "bfd281a7c19ce93092356b7c82b151f251d2066c8e21be8b6f9c0a2c4cb4c737"
+    },
+    {
+      "file": "assets/world/vehicles/models/094/manifest.json",
+      "sha256": "a199e915a14a4d81b8ae7da335e59209466540b26785502e3f9da2222426ea87"
+    },
+    {
+      "file": "assets/world/vehicles/models/095/manifest.json",
+      "sha256": "9411f1b7469673758ca8bf56c96d50f343369cd8518e7840810edebf89d87ef7"
+    },
+    {
+      "file": "assets/world/vehicles/models/096/manifest.json",
+      "sha256": "e145984a2cb1fe99ea0cf5c2d0bc2a95680e8f541e0846bda8c4a131ae473b77"
+    },
+    {
+      "file": "assets/world/vehicles/models/097/manifest.json",
+      "sha256": "471420ebe2f8ab790c69f9f4a9d790ae5c03b1a08422264afd561d317c9cfd9b"
+    },
+    {
+      "file": "assets/world/vehicles/models/098/manifest.json",
+      "sha256": "b1eb78c677867826f75c47b668e3f04899521762d36e35507b1bed3bc5324efa"
+    },
+    {
+      "file": "assets/world/vehicles/models/099/manifest.json",
+      "sha256": "1a0c165a4e56be7bc160d45608ffa31186ddb1f6a1764401693430ab116e51c7"
+    },
+    {
+      "file": "assets/world/vehicles/models/100/manifest.json",
+      "sha256": "93afe2480fa72586dc705ab158fcdf45245e0dd00e99872fa37b8451f86a26d0"
+    },
+    {
+      "file": "assets/world/vehicles/models/101/manifest.json",
+      "sha256": "846768b84155e75da28c93df49f47ee9bddb7796c44d0d31f40168c4e7598de3"
+    },
+    {
+      "file": "assets/world/vehicles/models/102/manifest.json",
+      "sha256": "82214a0f5bf22d18a889ef4d5a1fffe84b092cf73702436a4fb25f50d66fa14e"
+    },
+    {
+      "file": "assets/world/vehicles/models/103/manifest.json",
+      "sha256": "4306236254dcccaf5aeeb62265ea9f61be50f9a5d4b6e0a57c7944c74a874cd2"
+    },
+    {
+      "file": "assets/world/vehicles/models/104/manifest.json",
+      "sha256": "bfb656efe51cdf9c6d01d1bf63671bcd324f19f63ae6a2d5f07e244ffacfecab"
+    },
+    {
+      "file": "assets/world/vehicles/models/105/manifest.json",
+      "sha256": "08f416d914bd5941fffcfc2622beaeb7c962ed60cc0ff81d4b83fde7052572b0"
+    },
+    {
+      "file": "assets/world/vehicles/models/106/manifest.json",
+      "sha256": "66615ea39633077ad716679a3ba50a0bf1f063615bbb6e76aeab5f53aa520700"
+    },
+    {
+      "file": "assets/world/vehicles/models/107/manifest.json",
+      "sha256": "df0f736e5b4099774abbec5a87c1d8da543890a884dc0f675ff38e53494f6cb2"
+    },
+    {
+      "file": "assets/world/vehicles/models/108/manifest.json",
+      "sha256": "53af8b0807315890ac17e8dbac5687374ad6a9a4ecac558e3cb2f38b96c36308"
+    },
+    {
+      "file": "assets/world/vehicles/models/109/manifest.json",
+      "sha256": "77e3600913edecc668ca248b87577b6da6c91a063a67e10bc97e60a93eab3b1b"
+    },
+    {
+      "file": "assets/world/vehicles/models/110/manifest.json",
+      "sha256": "0e606369f0ca1c8e265c5b43ff6300e5466ca5b89a335af6fea28de84592e63c"
+    },
+    {
+      "file": "assets/world/vehicles/models/111/manifest.json",
+      "sha256": "9c0274503009bf177aaa10f6a65361a831700c8eafa7f19a999c4b3121be52be"
+    },
+    {
+      "file": "assets/world/vehicles/models/112/manifest.json",
+      "sha256": "93c253318fb1c245c15ead2762719ec23ce0d925245932c4c3708b970d67f447"
+    },
+    {
+      "file": "assets/world/vehicles/models/113/manifest.json",
+      "sha256": "8d14f0c0402d984de219a3aad91002e08afa9496da29623f927b27986db0fb6f"
+    },
+    {
+      "file": "assets/world/vehicles/models/114/manifest.json",
+      "sha256": "b84076fcb04e89e2f76c5656346721e9f52b313dd6306295a9cd4a47be32e408"
+    },
+    {
+      "file": "assets/world/vehicles/models/115/manifest.json",
+      "sha256": "04f9c48cb0eb00393b4fd89021e8df688b15a3b6df2fb680789c93566bd0c185"
+    },
+    {
+      "file": "assets/world/vehicles/models/116/manifest.json",
+      "sha256": "3302e6f75068a9266ba3f5ec624c3492d7c0b1bb73eb8c6315463b8a884bd41e"
+    },
+    {
+      "file": "assets/world/vehicles/models/117/manifest.json",
+      "sha256": "dd578dddb3715064199f380be6d6aa64985c3609b90c9f4261a780dc2681b09c"
+    },
+    {
+      "file": "assets/world/vehicles/models/118/manifest.json",
+      "sha256": "85c07ebc78803e997ff9b727b8ea6801401ff0cbf3e2aecf558f005bd03eb533"
+    },
+    {
+      "file": "assets/world/vehicles/models/119/manifest.json",
+      "sha256": "3c7a0e5c40267e193219b41b549a16b14e3ebd620914b4ae16a57eb6bba120c8"
+    },
+    {
+      "file": "assets/world/vehicles/models/120/manifest.json",
+      "sha256": "81d371765c70b80e3aabf1d4c139adea7b85e3cd70bd32eac93aa176606dbea3"
+    },
+    {
+      "file": "assets/world/vehicles/models/121/manifest.json",
+      "sha256": "5f6bd34a52f143924fa7498aa53426c5be557ce1933a53ffd82ded4504668daf"
+    },
+    {
+      "file": "assets/world/vehicles/models/122/manifest.json",
+      "sha256": "8f22a8720e15347711f05a4198cde565e5cd6efa2218051eb04334160b0ba308"
+    },
+    {
+      "file": "assets/world/vehicles/models/123/manifest.json",
+      "sha256": "45a70612df406350c974df715f51ba44596a11b3283f7a1b7a3b3becca69128a"
+    },
+    {
+      "file": "assets/world/vehicles/models/124/manifest.json",
+      "sha256": "4b976ec42373ab2d1007b940a0b022d8b535f107b29f80714642d932dce48520"
+    },
+    {
+      "file": "assets/world/vehicles/models/125/manifest.json",
+      "sha256": "84c5a51789b8295f0c97a04c192cb37c709f23131e94349cf6125aaa881b8d2c"
+    },
+    {
+      "file": "assets/world/vehicles/models/126/manifest.json",
+      "sha256": "fe85ee96c0268e32e5188fe68a38f3f0abfd5ccf6bb4f6d98abcaea6cab7c885"
+    },
+    {
+      "file": "assets/world/vehicles/models/127/manifest.json",
+      "sha256": "d5caf2f618ace2e4e775bbae73cd691cc3abb08fd41ca2d11a34401d84c676c3"
+    },
+    {
+      "file": "assets/world/vehicles/models/128/manifest.json",
+      "sha256": "69ee4ce135aa666592f34a8282304edb8546adbbb1b290c140453df3295fcf72"
+    },
+    {
+      "file": "assets/world/vehicles/models/129/manifest.json",
+      "sha256": "84898f5c0c1deeea0a49e40924a994db27020874134907558ec873ebb4648eb2"
+    },
+    {
+      "file": "assets/world/vehicles/models/130/manifest.json",
+      "sha256": "09333c7e4527b77decdd2a3f17f98bfd7ee8a70b2cb4f6ff864211b1b1e69055"
+    },
+    {
+      "file": "assets/world/vehicles/models/131/manifest.json",
+      "sha256": "44b60d50775bc157de800b45eb5a953abc254ad058b809f363fa55881a45ae61"
+    },
+    {
+      "file": "assets/world/vehicles/models/132/manifest.json",
+      "sha256": "71a610cb3fb23e1179790fad614fdf608f854f6977e3866751727eca1a142308"
+    },
+    {
+      "file": "assets/world/vehicles/models/133/manifest.json",
+      "sha256": "97b1f5e6408a729256f293082f46f2bd372688932d4af0f6795cebd62d707f15"
+    },
+    {
+      "file": "assets/world/vehicles/models/134/manifest.json",
+      "sha256": "411a5f43eeb23352c718b59206ccaa6c4a79378fd5d6a190038ede42678e731c"
+    },
+    {
+      "file": "assets/world/vehicles/models/135/manifest.json",
+      "sha256": "a120dc8fec0732e8c3fca366596792eef97c357b1378698ad6039b2b49defe20"
+    },
+    {
+      "file": "assets/world/vehicles/models/136/manifest.json",
+      "sha256": "2b4227958498e73065177cc65055ede9122581ba5a4af356a62a872b9b3ce08b"
+    },
+    {
+      "file": "assets/world/vehicles/models/137/manifest.json",
+      "sha256": "5188d4614e0c057bcd39ee499ebf3ddcf97e54cfa2da60b3504171af7703e5f3"
+    },
+    {
+      "file": "assets/world/vehicles/models/138/manifest.json",
+      "sha256": "6cadbedf334e67bb0b426152fb4c41c738f655f5bec60de7918f8e2076045861"
+    },
+    {
+      "file": "assets/world/vehicles/models/139/manifest.json",
+      "sha256": "1daaf441850a69e21cce36b2805fd874fb5a7b1c61fa7b576120d0fe61c272a3"
+    },
+    {
+      "file": "assets/world/vehicles/models/140/manifest.json",
+      "sha256": "01b03b121e8bf98e4f56ca384a58a2eb2c2a03154bc306c61f0002f7cae8f447"
+    },
+    {
+      "file": "assets/world/vehicles/models/141/manifest.json",
+      "sha256": "00bb4cdb7a1af6cdcd0c7bef6aa54777e77a3d92bf1f4a112d96afbc046b0907"
+    },
+    {
+      "file": "assets/world/vehicles/models/142/manifest.json",
+      "sha256": "5a9387d03e2dfcf1a6a5358f1bac5bf547bc00d1c06423a5a173d6d319f2d90e"
+    },
+    {
+      "file": "assets/world/vehicles/models/143/manifest.json",
+      "sha256": "6a33db8a0b82ae8a60bb1bd9629221710c6bf3125f2bbadcd98246f41a070446"
+    },
+    {
+      "file": "assets/world/vehicles/models/144/manifest.json",
+      "sha256": "ecb4c4cb078d381757115c2457e1af74d753b197fd0d4d2f87d517201eab4ca4"
+    },
+    {
+      "file": "assets/world/vehicles/models/145/manifest.json",
+      "sha256": "018a1829f14f728fd04446c9e760c83227398e577059046159bab801bf88e86a"
+    },
+    {
+      "file": "assets/world/vehicles/models/146/manifest.json",
+      "sha256": "c1b6b07ab65c73a3e1f1c740bae0d9d4d00e218940a31a8b1f5076a5c4e1b395"
+    },
+    {
+      "file": "assets/world/vehicles/models/147/manifest.json",
+      "sha256": "7defc08464cb30bd1f23e155d40c0233d07ae06abe6bca6b28b47b8038ba76f4"
+    },
+    {
+      "file": "assets/world/vehicles/models/148/manifest.json",
+      "sha256": "024a5982648a988a7f61304c9061ba5aa738892539ac21b817da3a9f368bdbdf"
+    },
+    {
+      "file": "assets/world/vehicles/models/149/manifest.json",
+      "sha256": "5f43cdf8bb355749c1d6254188ce3ebd164aa17174dda366dbddf2eb1fce8587"
+    },
+    {
+      "file": "assets/world/vehicles/models/150/manifest.json",
+      "sha256": "e5733752e0d7fe328c31466703c64d2fe010de4e2d7ded5d9dfcb07ffa58caf0"
+    },
+    {
+      "file": "assets/world/vehicles/models/151/manifest.json",
+      "sha256": "8e3609fe10521f9c31628205272937892b391ddcc5a7c769de0ae7eaabfdc32f"
+    },
+    {
+      "file": "assets/world/vehicles/models/152/manifest.json",
+      "sha256": "3c5e01cad2f7b274e2f4f7cac8b54db8f38fd962adb1a764bbc7515aec06334a"
+    },
+    {
+      "file": "assets/world/vehicles/models/153/manifest.json",
+      "sha256": "8345421e30bd440bd434bf4d03902f7031b08dee1fe69b1342cfe798095cb6d5"
+    },
+    {
+      "file": "assets/world/vehicles/models/154/manifest.json",
+      "sha256": "fc330886133a3d78a7e879a78215939ef7d615fe0aa465142e7a861c17b123d2"
+    },
+    {
+      "file": "assets/world/vehicles/models/155/manifest.json",
+      "sha256": "9ef18257af90d4bffcf8a6d36082b136405db0cb5b07c747dd5034ea1846b50c"
+    },
+    {
+      "file": "assets/world/vehicles/models/156/manifest.json",
+      "sha256": "fc4b90a8700fcde91f41a08cce9fbdee70d65186c35dfd3488576bac592ed3eb"
+    },
+    {
+      "file": "assets/world/vehicles/models/157/manifest.json",
+      "sha256": "979eb8e0ef0786ebe9ca949228adf44b8bde99920fe5400e227b514efc1db786"
+    },
+    {
+      "file": "assets/world/vehicles/models/158/manifest.json",
+      "sha256": "4a0b70c73d1297f55e51397d6887977d0a39a89f79f430e41064bb28e555e766"
+    },
+    {
+      "file": "assets/world/vehicles/models/159/manifest.json",
+      "sha256": "f6e267aca461f9f9a47795796e60a20819db15db9a063ef3065ed7ec2fcc5c3b"
+    },
+    {
+      "file": "assets/world/vehicles/models/160/manifest.json",
+      "sha256": "dacb2e2dc9cd9ac37d34042274b7b8d7f045a6c8b67315f6700d7f6117be94c6"
+    },
+    {
+      "file": "assets/world/vehicles/models/161/manifest.json",
+      "sha256": "e8f049233192ad3501abbdf8cf34441582a43fda7a6e473e5749d13972327ed3"
+    },
+    {
+      "file": "assets/world/vehicles/models/162/manifest.json",
+      "sha256": "96a0867d65933d2b356c2708cb6b5ba16ae746af999c50e9c9e67d2d49d55cff"
+    },
+    {
+      "file": "assets/world/vehicles/models/163/manifest.json",
+      "sha256": "fea85741c22d81ad7a9fb4a56a8d5a83314aecf18e14a5e92b1bad69815700de"
+    },
+    {
+      "file": "assets/world/vehicles/models/164/manifest.json",
+      "sha256": "779f6b7c967c9b5b57f5b7d363eae758bdda3a8f48846f870d47d7124ab86818"
+    },
+    {
+      "file": "assets/world/vehicles/models/165/manifest.json",
+      "sha256": "8eb6c80628acb0cc158b783c9a8332652611a14b5e57375a4f25a39da2977768"
+    },
+    {
+      "file": "assets/world/vehicles/models/166/manifest.json",
+      "sha256": "496006650898c89c18ab7672053147288f0dc924e4ccc2384f37aba4ec83dd04"
+    },
+    {
+      "file": "assets/world/vehicles/models/167/manifest.json",
+      "sha256": "14d30819b500e7890279333557335feacccf7cba2a05a113e99ad136583ec26a"
+    },
+    {
+      "file": "assets/world/vehicles/models/168/manifest.json",
+      "sha256": "8366602f112ee20d5975b27685bf2571967b8e41c69afb53838b31bc631f8d9e"
+    },
+    {
+      "file": "assets/world/vehicles/models/169/manifest.json",
+      "sha256": "9283370cbf425bba4e7d3977480f5368763e8b06f3331cf05115c69cdd13c869"
+    },
+    {
+      "file": "assets/world/vehicles/models/170/manifest.json",
+      "sha256": "0341b3fe8e4387399e94b00130c4da331d9f1fafb35be2531843f98d94c7b81c"
+    },
+    {
+      "file": "assets/world/vehicles/models/171/manifest.json",
+      "sha256": "b4e0bbbb0ac7765a2ec78bcc4ad84eb845060e4975bdf3589ffcd55b93a71f13"
+    },
+    {
+      "file": "assets/world/vehicles/models/172/manifest.json",
+      "sha256": "757ffc3ea9382d24eb12e7d65850af0d72edd72a35a59e58b47c871e59160b55"
+    },
+    {
+      "file": "assets/world/vehicles/models/173/manifest.json",
+      "sha256": "43c7b26f84a616e03214e003ebfacea034056d6ab1a578f46217ea36a8fef177"
+    },
+    {
+      "file": "assets/world/vehicles/models/174/manifest.json",
+      "sha256": "921c50e18ca90f989c2a1ac6b75007ff26646e43173488b8a1665d28b71e7456"
+    },
+    {
+      "file": "assets/world/vehicles/models/175/manifest.json",
+      "sha256": "edf9310799fb52a9a964d81fd464f6fc868cd4e205f81d44780a1e7d4063ffd1"
+    },
+    {
+      "file": "assets/world/vehicles/models/176/manifest.json",
+      "sha256": "5da34392a59c6eb72dfb04f6c2505b78572b64432f77e243af42a3a3398a2f6a"
+    },
+    {
+      "file": "assets/world/vehicles/models/177/manifest.json",
+      "sha256": "2ede65cbaea182f30ad2c6b786f8c95923cd8c56e9bc63f9edc58e5285a70a64"
+    },
+    {
+      "file": "assets/world/vehicles/models/178/manifest.json",
+      "sha256": "f17dfb2d3f5cb3a232ba0bdd0e06cf193f5e59422f3186a86d698680f660ad5c"
+    },
+    {
+      "file": "assets/world/vehicles/models/179/manifest.json",
+      "sha256": "b21890aa2590ceb36982c0cea57b925d8d8f33376ec186ae345cd480ee65acf6"
+    },
+    {
+      "file": "assets/world/vehicles/models/180/manifest.json",
+      "sha256": "badc7f5d3d0995895ad8bce1c5532e0df655b2a2ad5528ff12e7a774718f7aaf"
+    },
+    {
+      "file": "assets/world/vehicles/models/181/manifest.json",
+      "sha256": "db2008016f0f02f56984aa2c08c0cdcb2ccab766ebbe34163388a567c73f8d5b"
+    },
+    {
+      "file": "assets/world/vehicles/models/182/manifest.json",
+      "sha256": "ff58f8eaad82d930948f52e4a09e322b831ef138222604d473701ac183748738"
+    },
+    {
+      "file": "assets/world/vehicles/models/183/manifest.json",
+      "sha256": "ee826baea5f9a5edbaed4ceae157dfdca59080a450c8171b52b416867fa1be37"
+    },
+    {
+      "file": "assets/world/vehicles/models/184/manifest.json",
+      "sha256": "4b2d66b3a730bdcccc11400cb1e56025abe368f99864ff54862f6d73d054f384"
+    },
+    {
+      "file": "assets/world/vehicles/models/185/manifest.json",
+      "sha256": "9e33d805f3c31096bfba2db124b7081e0ebc2a773568c1d019e2c33cfa23b618"
+    },
+    {
+      "file": "assets/world/vehicles/models/186/manifest.json",
+      "sha256": "58a351157685bd66697a3fc9d99129f881587b40e3caa8f8a16143a8deb4a386"
+    },
+    {
+      "file": "assets/world/vehicles/models/187/manifest.json",
+      "sha256": "cf43adf55e72c3e0c4e817e50ecf2ee93658a75bb1d083aa5594690679a513ca"
+    },
+    {
+      "file": "assets/world/vehicles/models/188/manifest.json",
+      "sha256": "571c97d533eda9f368d089d41fdfd42cb183534b63a2fb92400b71102629bc88"
+    },
+    {
+      "file": "assets/world/vehicles/models/189/manifest.json",
+      "sha256": "747681cc39190ad42bdda2bcb49281d577f64d2ddda339b44c7e4a881746d2bb"
+    },
+    {
+      "file": "assets/world/vehicles/models/190/manifest.json",
+      "sha256": "bfdc09611c2b7c787add20b3d83d6a714cddcacb2a3f303e2e47a769c0cd01be"
+    },
+    {
+      "file": "assets/world/vehicles/models/191/manifest.json",
+      "sha256": "3075ab99ac53afc8fd32ac1791fd632739a1e4d91418f09f6914860f89a14957"
+    },
+    {
+      "file": "assets/world/vehicles/models/192/manifest.json",
+      "sha256": "a8c0480cdef20aea5d53b9da3b12ebfbe6d8cde7407f6bf3bdfe196b5ecc80be"
+    },
+    {
+      "file": "assets/world/vehicles/models/193/manifest.json",
+      "sha256": "7782d18821ab26d4a551249c6e715fe6d42aff3ae3fe3f76d2606e0852550726"
+    },
+    {
+      "file": "assets/world/vehicles/models/194/manifest.json",
+      "sha256": "cb9e200760a517ae7e3c69d32b8a223a652c2a80cb6a1b0e85f3b05b2e5cc867"
+    },
+    {
+      "file": "assets/world/vehicles/models/195/manifest.json",
+      "sha256": "67ff8d81a725ec827ca5b2781fd5443d732c90a1ad0139e42a575d287b27b810"
+    },
+    {
+      "file": "assets/world/vehicles/models/196/manifest.json",
+      "sha256": "43f5064c70e773d9653446676e04a1c132f0d72a675f65d430d24abf90c1526b"
+    },
+    {
+      "file": "assets/world/vehicles/models/197/manifest.json",
+      "sha256": "54be2892180b365591ab5faaa016c0efdb45f45ad2d39a2a741999c879e606cd"
+    },
+    {
+      "file": "assets/world/vehicles/models/198/manifest.json",
+      "sha256": "2f6c1dbe19c97efd5b3ad48fbbb8fc6ccd12c70e9b3ca01e3b776a3bfb53c75a"
+    },
+    {
+      "file": "assets/world/vehicles/models/199/manifest.json",
+      "sha256": "de3ac24108ad3062cf547c780e0b6535c66cf316c322586a9e4bffde8afceafa"
+    },
+    {
+      "file": "assets/world/vehicles/models/200/manifest.json",
+      "sha256": "19a8499f2d9ca0a2f64a87bd8b63cc2c84b96ae1b7dbb548ab001331c4ea3999"
+    },
+    {
+      "file": "assets/world/vehicles/models/201/manifest.json",
+      "sha256": "31a6676b24882ff0646e32ab968b81f842210943150863bd600dd5ac429b41c6"
+    },
+    {
+      "file": "assets/world/vehicles/models/202/manifest.json",
+      "sha256": "245224e458a7a75423b093e124d8348641ef7bae799da6d01345f0331000554b"
+    },
+    {
+      "file": "assets/world/vehicles/models/203/manifest.json",
+      "sha256": "718da11db87ad212b6ee1e8467d48f59439c43b2c9ec7c5dc7c34cddd3e1febf"
+    },
+    {
+      "file": "assets/world/vehicles/models/204/manifest.json",
+      "sha256": "f9b292787ac5ab2820d6a2ffe8b5d052d17d9eb55dda23005149a1155ebdf3b3"
+    },
+    {
+      "file": "assets/world/vehicles/models/205/manifest.json",
+      "sha256": "d8295b05c61a86e588a9cf208ab95a5e4cbfa455880246304360bc26aaf55125"
+    },
+    {
+      "file": "assets/world/vehicles/models/206/manifest.json",
+      "sha256": "53e5ae0e6d0b75fe4d2df5cfbf937703d50214bb24e1cd2422b5abdc50a77a88"
+    },
+    {
+      "file": "assets/world/vehicles/models/207/manifest.json",
+      "sha256": "90e4a4c03fb2b90f1f41d0d56e89bf925dd9f80beaec30a2c60b2bcaa8c379a6"
+    },
+    {
+      "file": "assets/world/vehicles/models/208/manifest.json",
+      "sha256": "4d3c9370f1fd86a2aa00a80998e2a8ee1cd9dbfba4a034db53d6a2367e027596"
+    },
+    {
+      "file": "assets/world/vehicles/models/209/manifest.json",
+      "sha256": "23ce96ec053851491a1af95c2a67e81fabec220008f855ebdc2b14592f4929ec"
+    },
+    {
+      "file": "assets/world/vehicles/models/210/manifest.json",
+      "sha256": "2766dd9bbaa7f162b2ccdb04ae73bc31faa3a4fa8c1c0139c582697f488fb2bd"
+    },
+    {
+      "file": "assets/world/vehicles/models/211/manifest.json",
+      "sha256": "21b179f9fba04b1651b815400c19099196528d377667e7cbc2ba707bd7507ef9"
+    },
+    {
+      "file": "assets/world/vehicles/models/212/manifest.json",
+      "sha256": "32fb7f1a25235fc3ebe08eb1fa6d4f3d634d8fa2a38506038a7717cdb7f2303c"
+    },
+    {
+      "file": "assets/world/vehicles/models/213/manifest.json",
+      "sha256": "54c6970136e08ce1a667fb26010475c3248e10bc349d3e111694465e1cd7e95b"
+    },
+    {
+      "file": "assets/world/vehicles/models/214/manifest.json",
+      "sha256": "29a8a4b83e285960c8a059f244d8d5ab715ab789df7c2ee60df5fe996a972763"
+    },
+    {
+      "file": "assets/world/vehicles/models/215/manifest.json",
+      "sha256": "048cef54b562239efcae4b34e93d80efa8da7d5af14e74118514626348e0ddbe"
+    },
+    {
+      "file": "assets/world/vehicles/models/216/manifest.json",
+      "sha256": "2b05bb8a39f46caa70a3e170b04438fb07b6ed8e82a422bffed6a849672e8fb6"
+    },
+    {
+      "file": "assets/world/vehicles/models/217/manifest.json",
+      "sha256": "e17ac02c3e3a96b4b0e5e07a57ab2d94bd33bdb4b8d61b790fef99b2439affd4"
+    },
+    {
+      "file": "assets/world/vehicles/models/218/manifest.json",
+      "sha256": "6c11f871bab914cd1bb6def34459d1428666cd6dbbb09cd443d008c00b7e4478"
+    },
+    {
+      "file": "assets/world/vehicles/models/219/manifest.json",
+      "sha256": "4e20c1cdc671843d64310a2739b7b60612dd94a2b75ee7fe733f3b0f7ba6d5f9"
+    },
+    {
+      "file": "assets/world/vehicles/models/220/manifest.json",
+      "sha256": "46d6056b849be536fd21dd9236e3e0d046c95ec586d158b19df91c08b53ea59d"
+    },
+    {
+      "file": "assets/world/vehicles/models/221/manifest.json",
+      "sha256": "cbf5442c10e1bbad0b0626c37b2b8353ae52b9606c73c291a20addf2400028d7"
+    },
+    {
+      "file": "assets/world/vehicles/models/222/manifest.json",
+      "sha256": "a106a25f99b6879ba07a19e800f33471b5150fe23ddd1bee849159356fa721ad"
+    },
+    {
+      "file": "assets/world/vehicles/models/223/manifest.json",
+      "sha256": "4fe20b8f15328f12ba79397788cf1edd19452fe9095e270a4d9bf44fdaa16f3a"
+    },
+    {
+      "file": "assets/world/vehicles/models/224/manifest.json",
+      "sha256": "9bdb8e6e8087d97a023dfa769459fbf2f7481555deb344c00aee90ef1bae29ef"
+    },
+    {
+      "file": "assets/world/vehicles/models/225/manifest.json",
+      "sha256": "3960f895f417979698ec0fae1f35dd790fc7862480c85f60993d35625271c7ae"
+    },
+    {
+      "file": "assets/world/vehicles/models/226/manifest.json",
+      "sha256": "c6883b816d3018e483072b296ef4669b2041b992c43df879783a81eadec74964"
+    },
+    {
+      "file": "assets/world/vehicles/models/227/manifest.json",
+      "sha256": "066b608321c6a0d8e1519ac0d384a0d437e351b5e824f70bb2046ebb323fd72e"
+    },
+    {
+      "file": "assets/world/vehicles/models/228/manifest.json",
+      "sha256": "bcf9f85109ce6b80ade7d3999d6969ab51ea6be6028225d32f3a9b5a9b39fd40"
+    },
+    {
+      "file": "assets/world/vehicles/models/229/manifest.json",
+      "sha256": "9ccb2d5395383464d7d9382be03753e972a4bc9fdf31fdc3be8b93d13e17921e"
+    },
+    {
+      "file": "assets/world/vehicles/models/230/manifest.json",
+      "sha256": "abee7dcc4d83b73006117e2ab58c91535623f4d0a4805e0b2dcba508eeca25be"
+    },
+    {
+      "file": "assets/world/vehicles/models/231/manifest.json",
+      "sha256": "7cdf736eceb3a211e0b763d10931f68d20778cc016c49c00afa8ce05d3705f26"
+    },
+    {
+      "file": "assets/world/vehicles/models/232/manifest.json",
+      "sha256": "582b596a1167451cb1f238cbdf05636994806facbd1bbd6eaae5da86a86671b4"
+    },
+    {
+      "file": "assets/world/vehicles/models/233/manifest.json",
+      "sha256": "342b2140f6260953a12aa62b082caeb4639207096b390230fec8a74871090ad2"
+    },
+    {
+      "file": "assets/world/vehicles/models/234/manifest.json",
+      "sha256": "2f9b9e59dc637c2b2ce365aca782d85543497d38b5af3d28007e6e53be7d597a"
+    },
+    {
+      "file": "assets/world/vehicles/models/235/manifest.json",
+      "sha256": "857e2d6ed8611b4ef4201357e8ed10936ce49df803a74057ee0c054a532ea34d"
+    },
+    {
+      "file": "assets/world/vehicles/models/236/manifest.json",
+      "sha256": "35c0f374fd3caccca989d91861392f797cf0715ca9d4e7d93ae5b4aee934d161"
+    },
+    {
+      "file": "assets/world/vehicles/models/237/manifest.json",
+      "sha256": "895197ca2d013c76c168888c4ef273db2ca774b26279808f45bc0c313ec609be"
+    },
+    {
+      "file": "assets/world/vehicles/models/238/manifest.json",
+      "sha256": "987202666333c2db314a49177f3f0b157ebc3100c0ef679aaa14063518ef6650"
+    },
+    {
+      "file": "assets/world/vehicles/models/239/manifest.json",
+      "sha256": "82c781e3f9bf3de7d31df4f1725950428d86c5414f6579538ff78b27348d2d08"
+    },
+    {
+      "file": "assets/world/vehicles/models/240/manifest.json",
+      "sha256": "070c2b8fc4034a218957884a6944aa9941d8e784b9b3478929444a26bb9f75f0"
+    },
+    {
+      "file": "assets/world/vehicles/models/241/manifest.json",
+      "sha256": "b1085d3a4dac8def973cc7a06c2fc28f6bb96961d89180b39c666f0a0e94b622"
+    },
+    {
+      "file": "assets/world/vehicles/models/242/manifest.json",
+      "sha256": "bdf4ecc441882dda581882d2a8db18fcf7d54c4673dba73d142ddf8800f281a9"
+    },
+    {
+      "file": "assets/world/vehicles/models/243/manifest.json",
+      "sha256": "ba5b8854862cc0ab670bf80300c916296f22c5377efe8ad358e960da7eb09bd7"
+    },
+    {
+      "file": "assets/world/vehicles/models/244/manifest.json",
+      "sha256": "fd245597a44692eb76c448187a1d4f5a61b13e414b03291e56b9bde3e749e804"
+    },
+    {
+      "file": "assets/world/vehicles/models/245/manifest.json",
+      "sha256": "efcdf4432da679af751554f507573363873e453b1456a48773dae43f67f24fe3"
+    },
+    {
+      "file": "assets/world/vehicles/models/246/manifest.json",
+      "sha256": "a60868e8f446ad6b05faacb6e6e2d9784d396f1b816a1ecfc09a4ff5f89b91cb"
+    },
+    {
+      "file": "assets/world/vehicles/models/247/manifest.json",
+      "sha256": "bdb7a56ef2a52efdfbdb3e074db4cf7ff03fcf225901e80a82a7d25808f7a11a"
+    },
+    {
+      "file": "assets/world/vehicles/models/248/manifest.json",
+      "sha256": "c910e148e40d903b1659b6e44ecceacc8c35486b7c1bbe7d7b60b18f5196551c"
+    },
+    {
+      "file": "assets/world/vehicles/models/249/manifest.json",
+      "sha256": "1f6080b8927212737a664967a7e90222da27502d783b074cb4813812d46522a0"
+    },
+    {
+      "file": "assets/world/vehicles/models/250/manifest.json",
+      "sha256": "4a23888b6cdd5bf21410e0e76bcda793595f6fb50415f40ffecd8395c7e51472"
+    },
+    {
+      "file": "assets/world/vehicles/models/251/manifest.json",
+      "sha256": "fb3f901744f159757d67ca8fc76152a46402733a283950b7debfb7a75529f112"
+    },
+    {
+      "file": "assets/world/vehicles/models/252/manifest.json",
+      "sha256": "1eef8291d287ca1afeef229eb362953b681039ea6d714154b4b1ddd9e5ed942f"
+    },
+    {
+      "file": "assets/world/vehicles/models/253/manifest.json",
+      "sha256": "29bd8bcc923cdc2fc3602a935de0e7024c6ef41c0e18b8b653a1a85ddc82844e"
+    },
+    {
+      "file": "assets/world/vehicles/models/254/manifest.json",
+      "sha256": "668019f25999d23c3f089189cb6ee8ab510de3280ff8c682944d0c6b68a2fcbc"
+    },
+    {
+      "file": "assets/world/vehicles/models/255/manifest.json",
+      "sha256": "b02c54b9bdbdf5dc372db4bc9feff84288c6ddf9d357acd4be2a5e2246035216"
+    },
+    {
+      "file": "assets/world/vehicles/rotor/manifest.json",
+      "sha256": "b377e8ca2b1a4efb4f1257c8ae110b3d79420b4f5eb65fbf3bb060d799975b45"
+    }
+  ],
+  "unityValidated": false,
+  "userArtAccepted": false,
+  "gitSubmitted": false,
+  "independentVisualReview": {
+    "record": "records/full-game-independent-visual-review.json",
+    "reviewedContacts": 42,
+    "openFindings": []
+  },
+  "supplementalArt": {
+    "manager": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/manager-customization-validation.json",
+      "visualRecord": "records/manager-customization-visual-review.json"
+    },
+    "pointers": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": 232,
+      "mechanicalRecord": "records/pointer-art-validation.json",
+      "visualRecord": "records/pointer-visual-review.json"
+    },
+    "microUI": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/micro-ui-validation.json",
+      "visualRecord": "records/micro-ui-visual-review.json"
+    },
+    "roadOneWay": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": 18,
+      "mechanicalRecord": "records/road-oneway-validation.json",
+      "visualRecord": "records/road-oneway-visual-review.json"
+    },
+    "airportUI": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": 9,
+      "mechanicalRecord": "records/airport-ui-validation.json",
+      "visualRecord": "records/airport-ui-visual-review.json"
+    },
+    "roadside": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/roadside-validation.json",
+      "visualRecord": "records/roadside-visual-review.json"
+    },
+    "railReservation": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": null,
+      "mechanicalRecord": "records/rail-reservation-validation.json",
+      "visualRecord": "records/rail-reservation-visual-review.json"
+    },
+    "fenceAdapter": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": null,
+      "mechanicalRecord": "records/fence-adapter-validation.json",
+      "visualRecord": "records/fence-adapter-visual-review.json"
+    },
+    "foundation": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/foundation-geometry-validation.json",
+      "visualRecord": "records/world-production/foundation-visual-review.json"
+    },
+    "bridge-railtypes": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/bridge-railtypes-validation.json",
+      "visualRecord": "records/world-production/bridge-railtypes-visual-review.json"
+    },
+    "industry-particles": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/industry-fx-binding-validation.json",
+      "visualRecord": "records/world-production/industry-fx-visual-review.json"
+    },
+    "field-stages": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/field-stages-validation.json",
+      "visualRecord": "records/world-production/field-stages-visual-review.json"
+    },
+    "snow-desert-coverage": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/terrain-density-quarter-repair.json",
+      "visualRecord": "records/world-production/terrain-density-quarter-visual.json"
+    },
+    "shore-geometry": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/shore-geometry-validation.json",
+      "visualRecord": "records/world-production/shore-geometry-visual-review.json"
+    },
+    "rocks-overlay": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/rocks-overlay-validation.json",
+      "visualRecord": "records/world-production/rocks-overlay-visual-review.json"
+    },
+    "road-oneway": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/road-oneway-validation.json",
+      "visualRecord": "records/road-oneway-visual-review.json"
+    },
+    "rail-reservation": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/rail-reservation-validation.json",
+      "visualRecord": "records/rail-reservation-visual-review.json"
+    },
+    "fence-adapter": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/fence-adapter-validation.json",
+      "visualRecord": "records/fence-adapter-visual-review.json"
+    },
+    "supplementalGalleries": {
+      "currentLocalChecksPassed": true,
+      "browserRecord": "records/supplemental-gallery-browser-validation.json"
+    },
+    "allCurrentLocalChecksPassed": true,
+    "userArtAccepted": false,
+    "unityValidated": false
+  },
+  "managerCustomization": {
+    "complete": true,
+    "artManifest": "assets/portraits/customization/manifest.json",
+    "spriteValueSlots": 213,
+    "uniqueSourceSpriteIds": 184,
+    "requiredBindings": 235,
+    "suppliedBindings": 235,
+    "existingPresetCount": 8,
+    "gaps": []
+  },
+  "browserReports": [
+    {
+      "record": "records/browser-validation.json",
+      "preview": "index.html",
+      "passed": true,
+      "currentForPreview": true
+    },
+    {
+      "record": "records/vehicle-fx-browser-validation.json",
+      "preview": "previews/vehicles/index.html",
+      "passed": true,
+      "currentForPreview": true
+    },
+    {
+      "record": "records/world-production/browser-validation.json",
+      "preview": "previews/world/index.html",
+      "passed": true,
+      "currentForPreview": true
+    },
+    {
+      "record": "records/world-production/industry-binding-browser-validation.json",
+      "preview": "previews/world/industry-assembly/index.html",
+      "passed": true,
+      "currentForPreview": true
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "bridge-04-suspension-X-maglev-up32",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-04-suspension-X-maglev-up32.png",
+  "sha256": "cc344b0c5d3ed0ca73aee0c7d3882288f34ab970b1917b24612ab1145ad185da",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-north-rear.png",
+      "sha256": "fbef4e388de0ef22c74d72adbf790a62ac36b40e8d2f841790e68c37b508a97e",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-north-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-suspension-span-X-maglev-32.png",
+      "sha256": "c598d0c1889363c53460eb7bc933d9866c94293976bee6c5bfdeb9e5caec6d07",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-suspension-span-X-maglev-32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-north-front.png",
+      "sha256": "ec9d48f7a95934ff5db3ed3d2c80f09cc177074ba9c0b31b08c61644d123e770",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-north-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-04-suspension"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "X",
+  "railType": "maglev",
+  "risePx": 32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        78,
+        278
+      ],
+      [
+        177,
+        242
+      ],
+      [
+        436,
+        381
+      ],
+      [
+        350,
+        418
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        127.5,
+        260.0
+      ],
+      [
+        393.0,
+        399.5
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        105.7024482109228,
+        187.1487758945386
+      ],
+      [
+        150.2975517890772,
+        164.8512241054614
+      ],
+      [
+        278.2975517890772,
+        196.8512241054614
+      ],
+      [
+        233.7024482109228,
+        219.1487758945386
+      ]
+    ],
+    "deckCrossSectionHalfX": 22.29755178907721,
+    "uniformNativeScaleReference": 0.4821092278719397,
+    "sourceXKnots": [
+      78.0,
+      177.0,
+      350.0,
+      436.0
+    ],
+    "targetXKnots": [
+      105.7024482109228,
+      150.2975517890772,
+      233.7024482109228,
+      278.2975517890772
+    ],
+    "verticalScaleAboveDeck": [
+      0.47162859248341926,
+      0.4882901154087595,
+      0.4930662557781202,
+      0.4760828625235405
+    ],
+    "verticalScaleBelowDeck": [
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            78,
+            209
+          ],
+          [
+            350,
+            352
+          ]
+        ],
+        "commonCapHeightPx": 32.54237288135593
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            177,
+            164
+          ],
+          [
+            436,
+            301
+          ]
+        ],
+        "commonCapHeightPx": 38.08662900188324
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": 32,
+    "advancePx": [
+      128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-north-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-suspension-span-X-maglev-32.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-north-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-rail-32-mask.png"
+}

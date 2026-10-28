@@ -1,0 +1,54 @@
+{
+  "id": "tree-07",
+  "image": "assets/world/vegetation/mature/tree-07.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "f0526e0d96d8501539e242ff716eea68994a19daa025b574edf038f66f879139",
+  "climate": "temperate",
+  "artSpecies": "poplar",
+  "sourceTreeType": 7,
+  "sourceCell": 7,
+  "sourceCropXYXY": [
+    1250,
+    337,
+    1444,
+    674
+  ],
+  "sourceAnchorInCrop": [
+    101.0,
+    337
+  ],
+  "nativeCropSize": [
+    194,
+    337
+  ],
+  "uniformScale": 0.9495548961424333,
+  "pasteXY": [
+    32,
+    32
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-temperate.png",
+    "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+    "record": "source-art/world/trees-temperate.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-07"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

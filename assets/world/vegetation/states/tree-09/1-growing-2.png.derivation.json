@@ -1,0 +1,39 @@
+{
+  "id": "tree-09-growing-2",
+  "image": "assets/world/vegetation/states/tree-09/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "5e2d822f920e9a79c1e23dac1589667a1434cd5ca0757fbe9d01fce0748a4acd",
+  "climate": "temperate",
+  "artSpecies": "chestnut",
+  "sourceTreeType": 9,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-09.png",
+      "sha256": "75739df2bab218c265193cc6aa43b226921e966b4071c860339ffd6f0a8040f8",
+      "record": "assets/world/vegetation/mature/tree-09.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-09"
+  ]
+}

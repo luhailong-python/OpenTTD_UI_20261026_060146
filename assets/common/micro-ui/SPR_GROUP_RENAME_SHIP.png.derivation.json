@@ -1,0 +1,68 @@
+{
+  "id": "SPR_GROUP_RENAME_SHIP",
+  "image": "assets/common/micro-ui/SPR_GROUP_RENAME_SHIP.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "804141f6ddd7aa9994d98022afe8c3dbe5d07d69d0e1b008cf63ecc7c8faa698",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/ship.png",
+      "sha256": "52248d82abeeafafae5284534b4cbbca1fe40ff915d2310db07f4b89a6892d16",
+      "record": "assets/icons/ship.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_GROUP_RENAME_SHIP.svg",
+      "sha256": "a535defbd683019e7816450f43d93313866db2947e2d4063357bc5c85bd2b7ff",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_GROUP_RENAME_SHIP",
+  "sourceSpriteId": 5020,
+  "category": "vehicle-operation",
+  "functionalGlyph": "pencil",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_GROUP_RENAME_SHIP.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

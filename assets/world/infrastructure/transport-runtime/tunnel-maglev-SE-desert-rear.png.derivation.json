@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-maglev-SE-desert-rear",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-maglev-SE-desert-rear.png",
+  "sha256": "e79c4e5e91a2b9b0e850236f123c77141f1c958d54ae8058a1e89c2fc9e474f4",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-desert.png",
+      "sha256": "25a93b7ca2052e488c635b735f7a27862d21ae20645e79ade28aa41c2270dd9e",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-maglev"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:14.761243+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

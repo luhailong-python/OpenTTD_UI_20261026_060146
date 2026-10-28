@@ -1,0 +1,43 @@
+{
+  "file": "assets/world/effects/furnace-flame/01.png",
+  "sha256": "5242021dc38621c7075f2354ed23c19d6f53328092d26926c0f4c26cce0d3cea",
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    0.5,
+    0.203125
+  ],
+  "frame": 1,
+  "durationMs": 100,
+  "operation": "four independently painted flame keys; optional industrial ambient art, not an extra source EffectVehicleType",
+  "sources": [
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-spark-bubble-fire.png",
+        "sha256": "96f82b9fc8ce743950271c1f02fb802c126202512dc2a9bf1be0b651e1c79376",
+        "record": "source-art/world/fx-spark-bubble-fire.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        99,
+        99
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 33,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "unityVerified": false,
+  "emitterPx": [
+    256,
+    408
+  ]
+}

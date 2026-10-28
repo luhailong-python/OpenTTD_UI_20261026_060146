@@ -1,0 +1,253 @@
+{
+  "reviewedAt": "2026-10-28T11:37:13.859383+00:00",
+  "reviewer": "foundation_review agent actual view_image pixel inspection",
+  "status": "passed",
+  "passed": true,
+  "manifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "manifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "validationRecord": "records/world-production/shore-geometry-validation.json",
+  "validationSHA256": "67cc36abd0abda4020948a417c2d50beffb18c2dae803e4da408bb846a47309e",
+  "checksPassed": 808,
+  "checksFailed": 0,
+  "pages": [
+    {
+      "file": "previews/world/shore-geometry/grass-postures-1.jpg",
+      "sha256": "8dfa7d3a23216efa39787dbb6dac6f8b78252615a03d5b399685653ca3fd2118",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "result": "passed",
+      "status": "reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/grass-postures-2.jpg",
+      "sha256": "91b12e1f848be2c5ea264857026a774efb8a1580972a92dbbc34eb1869acc40f",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "result": "passed",
+      "status": "reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/sand-postures-1.jpg",
+      "sha256": "814821812f1ee216dadd31fbd9bc4475d0873667e487aca3f52b9f5473080f0e",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "result": "passed",
+      "status": "reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/sand-postures-2.jpg",
+      "sha256": "fa432702847610c357a6e28e7efa370dbc037bb76a3b83e32b846f61a3480f07",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "result": "passed",
+      "status": "reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/snow-postures-1.jpg",
+      "sha256": "660f2283223773f639f90b69d642a3cf29e85b26ff81b16ab7541ce4bed04dc5",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "result": "passed",
+      "status": "reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/snow-postures-2.jpg",
+      "sha256": "8e5edf59a5d01dcfa5f285ccb8fad4124e1b281a533ba9c75d1eb120ee7c94c2",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "result": "passed",
+      "status": "reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/layer-breakdown.jpg",
+      "sha256": "5d0b7c8f76f9279c6b0ccf9789b8444f43d2748124356411a3e78d575eeb2431",
+      "actualLayerSamples": 12,
+      "result": "passed",
+      "status": "reviewed-pass"
+    }
+  ],
+  "reviewedAssemblies": 48,
+  "reviewedActualLayerSamples": 12,
+  "reservedNoDrawSlots": 6,
+  "findings": [
+    "Viewed all6current climate/posture pages and all12actual layer samples after final PNG freeze. All16source slots0..15 occur once per climate; source slot0/5/10/15 correctly use steepS/W/N/E, rather than the old sequential19slope ordering.",
+    "Water surfaces remain at horizontal z=0. Positive land follows source heights; outer tile edges are straight, bank pixels follow the actual zero-height boundary and slope. No full flat-water diamond is hidden below raised land.",
+    "Grass and sand use their real native bank strips. Snow retains actual snow land RGB and water-side native foam; there is no synthetic white recolour of grass.",
+    "Multi-corner and steep DryOut shores correctly have no broad water pool. Their near-zero bank contact can be tiny; this is explicit source-state geometry, not a missing whole.",
+    "All48 wet-rock source contacts are exact integer heights and each climate whole has actual Alpha support there. The parent manager owns the final CoastRocks combination review.",
+    "Old54flat shore PNG hashes remain unchanged and their manifest authority is retired."
+  ],
+  "failures": [],
+  "limitations": [
+    "Art geometry and local static-pixel inspection only; not user acceptance or Unity runtime validation.",
+    "Water/land mask is a documented source-height reconstruction because upstream C++ selects external base graphics without publishing their pixel masks.",
+    "Browser gallery verification is performed separately by pointer_icons and is not claimed by this image-view record."
+  ],
+  "localVisualPassed": true,
+  "result": "local-source-height-and-art-review-passed",
+  "reviewedPages": [
+    {
+      "file": "previews/world/shore-geometry/grass-postures-1.jpg",
+      "sha256": "8dfa7d3a23216efa39787dbb6dac6f8b78252615a03d5b399685653ca3fd2118",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/grass-postures-2.jpg",
+      "sha256": "91b12e1f848be2c5ea264857026a774efb8a1580972a92dbbc34eb1869acc40f",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/sand-postures-1.jpg",
+      "sha256": "814821812f1ee216dadd31fbd9bc4475d0873667e487aca3f52b9f5473080f0e",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/sand-postures-2.jpg",
+      "sha256": "fa432702847610c357a6e28e7efa370dbc037bb76a3b83e32b846f61a3480f07",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/snow-postures-1.jpg",
+      "sha256": "660f2283223773f639f90b69d642a3cf29e85b26ff81b16ab7541ce4bed04dc5",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/snow-postures-2.jpg",
+      "sha256": "8e5edf59a5d01dcfa5f285ccb8fad4124e1b281a533ba9c75d1eb120ee7c94c2",
+      "sampleCount": 8,
+      "sourceShoreIndices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    },
+    {
+      "file": "previews/world/shore-geometry/layer-breakdown.jpg",
+      "sha256": "5d0b7c8f76f9279c6b0ccf9789b8444f43d2748124356411a3e78d575eeb2431",
+      "actualLayerSamples": 12,
+      "result": "passed",
+      "status": "locally-reviewed-pass"
+    }
+  ]
+}

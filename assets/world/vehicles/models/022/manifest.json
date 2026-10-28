@@ -1,0 +1,356 @@
+{
+  "id": 22,
+  "upstreamName": "SH '125' (Diesel)",
+  "familyId": "loco-diesel",
+  "transport": "train",
+  "cargo": "CT_MAIL",
+  "climates": [
+    "temperate"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 125
+  },
+  "trackHardware": "rail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/N-body.png",
+      "sha256": "c0b69d2d41d0c9405de17d7b3a18c2031ea4643a549ab4721d052ac77d566b70",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/N-body.png",
+          "sha256": "c0b69d2d41d0c9405de17d7b3a18c2031ea4643a549ab4721d052ac77d566b70",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/N.png",
+          "sha256": "0ec0b90a83ad51e767fb7654bc1824840550592ac75cdf12b34b2d3b166bc20a",
+          "record": "assets/world/vehicles/families/loco-diesel/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/NE-body.png",
+      "sha256": "82c7ea9b50c21b8474dbf9f95ef4b6f339bf888d9fa7c36a7a2520cd5e5d5b37",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/NE-body.png",
+          "sha256": "82c7ea9b50c21b8474dbf9f95ef4b6f339bf888d9fa7c36a7a2520cd5e5d5b37",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/NE.png",
+          "sha256": "eb1e8ee7d4433d338121704779882f72dc84e92acd3ca80a52c4fc874a56ea1a",
+          "record": "assets/world/vehicles/families/loco-diesel/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/E-body.png",
+      "sha256": "5cb394fb9ef8f3b657f04f33fab81fbd310f0166d262c026d21fd35e98708b75",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/E-body.png",
+          "sha256": "5cb394fb9ef8f3b657f04f33fab81fbd310f0166d262c026d21fd35e98708b75",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/E.png",
+          "sha256": "dcd50e70cd586206a1ad24abe75fe73c650342acf5cf6de1d88eb17658cac951",
+          "record": "assets/world/vehicles/families/loco-diesel/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/SE-body.png",
+      "sha256": "ba01653b795d179324a9fda4bb1e8a07a4ae83b456f4f93040eedc2025206b7c",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/SE-body.png",
+          "sha256": "ba01653b795d179324a9fda4bb1e8a07a4ae83b456f4f93040eedc2025206b7c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/SE.png",
+          "sha256": "31c177042a992fcaaac854cdc35579456f3bf752497df434d1b85b64993452c8",
+          "record": "assets/world/vehicles/families/loco-diesel/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/S-body.png",
+      "sha256": "ddf7c4a3d247bda211a4cd5d60c2a9b043b5fe587c8c7fc90169c4043836cb0b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/S-body.png",
+          "sha256": "ddf7c4a3d247bda211a4cd5d60c2a9b043b5fe587c8c7fc90169c4043836cb0b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/S.png",
+          "sha256": "2383e1673b4420f01da658ae6eab1346bb80427a11574850faf13b87d6668cb1",
+          "record": "assets/world/vehicles/families/loco-diesel/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/SW-body.png",
+      "sha256": "a9c563b68117991398565a3be8e4bc77c718326fedb701a49dcb65eef28a87cf",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/SW-body.png",
+          "sha256": "a9c563b68117991398565a3be8e4bc77c718326fedb701a49dcb65eef28a87cf",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/SW.png",
+          "sha256": "18697d8d2ac6f1fb700dbb5d2eb632b359c867b025ab8d6f3434fc66c5973c6f",
+          "record": "assets/world/vehicles/families/loco-diesel/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/W-body.png",
+      "sha256": "641a1e04901b6abff9858aef0e17448eca1f29311570c63d992d132d745ec481",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/W-body.png",
+          "sha256": "641a1e04901b6abff9858aef0e17448eca1f29311570c63d992d132d745ec481",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/W.png",
+          "sha256": "553a4884196cfba456cd93aa021b48d7a37854bdd3b1bc4d01632158ad8e4d0a",
+          "record": "assets/world/vehicles/families/loco-diesel/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/022/NW-body.png",
+      "sha256": "6e40b3843a5dd23576ea7dd8edfee3d8f367ed220edfc938e874b22e55cc0065",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/022/NW-body.png",
+          "sha256": "6e40b3843a5dd23576ea7dd8edfee3d8f367ed220edfc938e874b22e55cc0065",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -7,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-diesel/NW.png",
+          "sha256": "d8c6a083c6c335d72fd21d3bfa4da3cae3d48d045cbd6d46f70012cedf336750",
+          "record": "assets/world/vehicles/families/loco-diesel/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/loco-diesel/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

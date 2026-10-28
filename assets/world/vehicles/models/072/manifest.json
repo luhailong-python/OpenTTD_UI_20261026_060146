@@ -1,0 +1,772 @@
+{
+  "id": 72,
+  "upstreamName": "Fruit Truck",
+  "familyId": "wagon-flat",
+  "transport": "train",
+  "cargo": "CT_FRUIT",
+  "climates": [
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 175
+  },
+  "trackHardware": "monorail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/N-body.png",
+      "sha256": "78859baa5a2dd52fa11bc674bcd4b41d4b7fc655fc1877d0d600a953e21a750f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/N-body.png",
+          "sha256": "78859baa5a2dd52fa11bc674bcd4b41d4b7fc655fc1877d0d600a953e21a750f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/N-loaded.png",
+          "sha256": "c8ecf21a00cb79302505565970b33a5bda4d68cb6d936ced8b29aedb1ea7e067",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              188,
+              154
+            ],
+            "cargoSize": [
+              137,
+              114
+            ],
+            "loadBayCenter": [
+              256.5,
+              210.96
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/N.png",
+          "sha256": "46d925e0a056dcb65bf711d517f444d91d4c45e6911f74775d78a535de44211c",
+          "record": "assets/world/vehicles/families/wagon-flat/N.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              126.31,
+              376.40000000000003
+            ],
+            [
+              386.69,
+              376.40000000000003
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/NE-body.png",
+      "sha256": "03358d0b21e4c9aa8e1d2c0df3b627eeb23b0f72b4b95069ae34b5fb642fa429",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/NE-body.png",
+          "sha256": "03358d0b21e4c9aa8e1d2c0df3b627eeb23b0f72b4b95069ae34b5fb642fa429",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/NE-loaded.png",
+          "sha256": "b244ee851bcf6b666dfccff1cd18a390a5305d8bfbf4e1e5250cd317ef8e71d3",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              199,
+              147
+            ],
+            "cargoSize": [
+              113,
+              94
+            ],
+            "loadBayCenter": [
+              255.5,
+              194.16
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/NE.png",
+          "sha256": "3adc41086a78c0724dd9096787ce4b5127b3824049448da7d0b22e7814e00d41",
+          "record": "assets/world/vehicles/families/wagon-flat/NE.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              51.05,
+              375.6
+            ],
+            [
+              459.95,
+              247.6
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/E-body.png",
+      "sha256": "d7bb4c76facdea8f52093222de99947f680007fe3919806b4242bec371fc19fd",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/E-body.png",
+          "sha256": "d7bb4c76facdea8f52093222de99947f680007fe3919806b4242bec371fc19fd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/E-loaded.png",
+          "sha256": "7339967310787f372e4052d4ebf7eed5d6d8f968a528e1482705ab5059e1780a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              244,
+              248
+            ],
+            "cargoSize": [
+              24,
+              20
+            ],
+            "loadBayCenter": [
+              255.5,
+              258.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/E.png",
+          "sha256": "6ad05dc030e528ade20fc8583f05d8a573be2217fa6730c36089a03fd214f208",
+          "record": "assets/world/vehicles/families/wagon-flat/E.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              25.67,
+              320.8
+            ],
+            [
+              485.33,
+              320.8
+            ]
+          ],
+          "thickness": 20.160000000000004,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/SE-body.png",
+      "sha256": "cf7b5ae6d086aa074ede52d08bbd9e6a1df138850f0e8584756ae24ad2f1292a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/SE-body.png",
+          "sha256": "cf7b5ae6d086aa074ede52d08bbd9e6a1df138850f0e8584756ae24ad2f1292a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/SE-loaded.png",
+          "sha256": "dcd0f73eae7fdd1578f32e3876208e047703d5addb04f77503ca79f0134bef58",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              200,
+              140
+            ],
+            "cargoSize": [
+              115,
+              96
+            ],
+            "loadBayCenter": [
+              257.0,
+              188.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/SE.png",
+          "sha256": "8ed44bd0de46c458f7a0ecb1f80a2e6c5fd054021149fdf9aefb6fd44ce5d0ad",
+          "record": "assets/world/vehicles/families/wagon-flat/SE.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              81.22,
+              244.4
+            ],
+            [
+              432.78,
+              376.4
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/S-body.png",
+      "sha256": "380fa5493719ce452d4f3b9df8c0b8453214435f17ba8c0ce3f584b01a88f274",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/S-body.png",
+          "sha256": "380fa5493719ce452d4f3b9df8c0b8453214435f17ba8c0ce3f584b01a88f274",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/S-loaded.png",
+          "sha256": "b692ab8cd87b9ef7e10522a097deb2cf3e075e4cb5306ff372f6eb7f3785fddf",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              188,
+              161
+            ],
+            "cargoSize": [
+              135,
+              112
+            ],
+            "loadBayCenter": [
+              255.5,
+              217.44
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/S.png",
+          "sha256": "042587c1378f0b248153aefa35de372116e1027479590ebb07c2f10d14b4f013",
+          "record": "assets/world/vehicles/families/wagon-flat/S.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              127.19,
+              375.20000000000005
+            ],
+            [
+              383.81,
+              375.20000000000005
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/SW-body.png",
+      "sha256": "ba72678a74ec155f2ea32505098276439cef7d939eb0935d9b4d391cd47e0488",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/SW-body.png",
+          "sha256": "ba72678a74ec155f2ea32505098276439cef7d939eb0935d9b4d391cd47e0488",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/SW-loaded.png",
+          "sha256": "8f0ff2f76e96496a596db9e8f06c4799157a35f0885844aa688ad239a452e371",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              200,
+              149
+            ],
+            "cargoSize": [
+              112,
+              93
+            ],
+            "loadBayCenter": [
+              256.0,
+              195.52
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/SW.png",
+          "sha256": "ba99bade87ba6f455353cb425d32c4f976988b740ded90eccc675b2200c4bafc",
+          "record": "assets/world/vehicles/families/wagon-flat/SW.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              54.84,
+              374.96
+            ],
+            [
+              457.16,
+              248.16
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/W-body.png",
+      "sha256": "0a95a4719c4b2df08b83a9e6c58e398a80a7bb1c8cdb9a281c3431a0c3aae66f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/W-body.png",
+          "sha256": "0a95a4719c4b2df08b83a9e6c58e398a80a7bb1c8cdb9a281c3431a0c3aae66f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/W-loaded.png",
+          "sha256": "c47f3170783785c15a1e03edca8afe3dc08d3427d34af100a602912d367b8a25",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              244,
+              248
+            ],
+            "cargoSize": [
+              24,
+              20
+            ],
+            "loadBayCenter": [
+              256.0,
+              258.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/W.png",
+          "sha256": "2ef09984875d07d9d1b4878e516beb0f2fbebd0f1e5501a6a5276c70ee7e2a72",
+          "record": "assets/world/vehicles/families/wagon-flat/W.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              25.7,
+              320.8
+            ],
+            [
+              486.3,
+              320.8
+            ]
+          ],
+          "thickness": 20.160000000000004,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/072/NW-body.png",
+      "sha256": "96efb2ffd6d8ef6adae2eeb903176fcd0d2959ed53952b0007b50441e929a822",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/072/NW-body.png",
+          "sha256": "96efb2ffd6d8ef6adae2eeb903176fcd0d2959ed53952b0007b50441e929a822",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/072/NW-loaded.png",
+          "sha256": "241e2d34abc0888eeca630f4c9b538a9486c6af26a495b3c8cafe355a22db075",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              198,
+              141
+            ],
+            "cargoSize": [
+              115,
+              96
+            ],
+            "loadBayCenter": [
+              256.0,
+              189.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.06,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/NW.png",
+          "sha256": "3e83b3a7c015b6e972232dd52750f125fdd425835946195c44c2d8627aeda696",
+          "record": "assets/world/vehicles/families/wagon-flat/NW.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              74.58,
+              244.92
+            ],
+            [
+              437.42,
+              376.52
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/wagon-flat/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

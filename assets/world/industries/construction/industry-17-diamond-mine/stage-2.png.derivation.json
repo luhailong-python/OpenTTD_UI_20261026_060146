@@ -1,0 +1,52 @@
+{
+  "id": "industry-17-diamond-mine-construction-2",
+  "image": "assets/world/industries/construction/industry-17-diamond-mine/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "bdf894a606c743c7862c8c905bbc43603aa40b458d3a3f12c4fdd65eddc5d54a",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/diamond-mine.png",
+      "sha256": "32e9cbc407da0f204c6f842b1948b02362dfc3547bd7f9ba7c63e2608655be11",
+      "record": "assets/world/industries/diamond-mine.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 17,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-17-diamond-mine",
+    "industry-tile-091",
+    "industry-tile-092",
+    "industry-tile-093",
+    "industry-tile-094",
+    "industry-tile-095",
+    "industry-tile-096",
+    "industry-tile-097",
+    "industry-tile-098",
+    "industry-tile-099"
+  ]
+}

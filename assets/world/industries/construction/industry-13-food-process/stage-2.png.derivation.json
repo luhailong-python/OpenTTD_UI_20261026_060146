@@ -1,0 +1,47 @@
+{
+  "id": "industry-13-food-process-construction-2",
+  "image": "assets/world/industries/construction/industry-13-food-process/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "05cc9973e941f22b7cd28ebae41927b879194e6a8ccd058332f012d87e9ff867",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/food-process.png",
+      "sha256": "05ee6355eb3ea2129f981fed94415a337e7013f22581015a6a3255fc50e5c0e6",
+      "record": "assets/world/industries/food-process.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 13,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-13-food-process",
+    "industry-tile-060",
+    "industry-tile-061",
+    "industry-tile-062",
+    "industry-tile-063"
+  ]
+}

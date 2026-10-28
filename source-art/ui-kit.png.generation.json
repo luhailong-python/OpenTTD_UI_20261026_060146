@@ -1,0 +1,66 @@
+{
+  "file": "source-art/ui-kit.png",
+  "sha256": "7440d509fb2563ed4e855e314ef3e7cbdf99e311aece90a85eb853f88c598da2",
+  "generatedAt": "2026-10-26T10:06:44.661276+00:00",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolResultId": null,
+  "outputFileId": "aa2b6766-fb48-409a-92db-afa9e15235e1",
+  "generatedAtEvidence": "本地生成输出PNG的文件落盘时间，UTC；工具未返回服务端生成时间。",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: ui-mockup / production game UI sprite sheet. Two attached images are STRICT painting and material style references only. Match their beautiful ornate but restrained rounded jade-green and ivory/gold Taoist hand-painted UI. Create ONE square 2048x2048 production asset sheet on a genuinely transparent alpha background, high native resolution. No checkerboard, no backdrop, NO text, letters, numbers, symbols or mock data anywhere. Each item isolated by at least 40 pixels of transparency, easy to slice.\nLayout 3 bands:\nTOP BAND: one wide blank main window frame centered x=1024 spanning x=80..1968, y=80..1120. Ivory warm fine silk-paper interior, thin rich jade outer rim with delicate warm gold double edging, rounded cloud/ruyi corners. Interior is entirely quiet blank ivory paper. Do NOT put any title plaque or controls across its edge. Keep corners no larger than 110px, almost straight simple side edges so nine slicing works. Very restrained red small tassel only at bottom corners. True transparent outside.\nMIDDLE BAND y=1200..1500: three separate horizontal blank jade-and-gold plaques, aligned same height 230px. Left large title plaque width820 (x80..900), middle small section plaque width470 (x980..1450), right cream secondary section plaque width420 (x1530..1950). Rounded cloud ends, subtle hand-painted depth. Blank centers.\nBOTTOM BAND y=1600..1970: 2 rows of 3 separate matching pill-shaped buttons, each width550 height130. Row1: jade green primary NORMAL; deeper jade primary PRESSED; pale jade SELECTED with gold edge. Row2: cream ivory secondary NORMAL; darker cream PRESSED; desaturated gray-green DISABLED. Maintain identical silhouettes and identical blank safe label centers across all six. Fine high-definition hand-painted silk and jade shading, no plastic highlight. All pieces stay fully within canvas and isolated, no labels or annotations. This is a reusable clean asset atlas, not a screenshot.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint_path": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a7-6d36-72f1-8ac7-6c557c4ea2e3\\exec-aa2b6766-fb48-409a-92db-afa9e15235e1.png",
+    "nativeSizeFromSavedPNG": [
+      1254,
+      1254
+    ]
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际模型版本或质量；配置目标不是实际返回证明。",
+  "prompt": "Use case: ui-mockup / production game UI sprite sheet. Two attached images are STRICT painting and material style references only. Match their beautiful ornate but restrained rounded jade-green and ivory/gold Taoist hand-painted UI. Create ONE square 2048x2048 production asset sheet on a genuinely transparent alpha background, high native resolution. No checkerboard, no backdrop, NO text, letters, numbers, symbols or mock data anywhere. Each item isolated by at least 40 pixels of transparency, easy to slice.\nLayout 3 bands:\nTOP BAND: one wide blank main window frame centered x=1024 spanning x=80..1968, y=80..1120. Ivory warm fine silk-paper interior, thin rich jade outer rim with delicate warm gold double edging, rounded cloud/ruyi corners. Interior is entirely quiet blank ivory paper. Do NOT put any title plaque or controls across its edge. Keep corners no larger than 110px, almost straight simple side edges so nine slicing works. Very restrained red small tassel only at bottom corners. True transparent outside.\nMIDDLE BAND y=1200..1500: three separate horizontal blank jade-and-gold plaques, aligned same height 230px. Left large title plaque width820 (x80..900), middle small section plaque width470 (x980..1450), right cream secondary section plaque width420 (x1530..1950). Rounded cloud ends, subtle hand-painted depth. Blank centers.\nBOTTOM BAND y=1600..1970: 2 rows of 3 separate matching pill-shaped buttons, each width550 height130. Row1: jade green primary NORMAL; deeper jade primary PRESSED; pale jade SELECTED with gold edge. Row2: cream ivory secondary NORMAL; darker cream PRESSED; desaturated gray-green DISABLED. Maintain identical silhouettes and identical blank safe label centers across all six. Fine high-definition hand-painted silk and jade shading, no plastic highlight. All pieces stay fully within canvas and isolated, no labels or annotations. This is a reusable clean asset atlas, not a screenshot.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    }
+  ],
+  "promptFile": "records/02-ui-kit.prompt.txt"
+}

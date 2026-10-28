@@ -1,0 +1,54 @@
+{
+  "id": "airport-tile-29-empty",
+  "image": "assets/world/infrastructure/airports/airport-tile-29-empty.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "f14748bc92e890a55b9ec6652397ae46eda88c9db8f32e297271f04c8b81d025",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-grass.png",
+      "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+      "record": "assets/world/infrastructure/airports/airport-ground-grass.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 29,
+  "sourceTileEnum": "APT_EMPTY",
+  "sourceDrawSpec": "TILE_SPRITE_LINE_NOTHING(SPR_FLAT_GRASS_TILE)   // APT_EMPTY",
+  "layers": [
+    {
+      "artId": "airport-ground-grass",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-intercontinental",
+    "airport-tile-29-empty"
+  ]
+}

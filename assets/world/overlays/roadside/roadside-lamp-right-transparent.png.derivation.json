@@ -1,0 +1,54 @@
+{
+  "id": "roadside-lamp-right-transparent",
+  "image": "assets/world/overlays/roadside/roadside-lamp-right-transparent.png",
+  "width": 128,
+  "height": 160,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "878f172e01b85b36e7125509bb0e7f113af2e2c8e845682bbb319d9097090408",
+  "anchorPx": [
+    64,
+    144
+  ],
+  "pivotUnity": [
+    0.5,
+    0.1
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "roadside-reusable-prop",
+  "sourceRequirementIds": [
+    "road-road",
+    "road-tram"
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/overlays/roadside/roadside-lamp-right.png",
+      "sha256": "c5fcdfe8c61b609a6f4905dda8af72704ff02d54cb21ffc686be52c05c82d079",
+      "record": "assets/world/overlays/roadside/roadside-lamp-right.png.derivation.json"
+    }
+  ],
+  "operation": "explicit artwork transparency state0.35Alpha on the same registered native prop;preview treatment,not exact original-game palette emulation",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "sourceSpriteId": 1406,
+  "state": "transparent",
+  "baseAssetId": "roadside-lamp-right",
+  "alphaMultiplier": 0.35,
+  "sourceTransparencyOption": "Houses",
+  "sourceBoundingBoxWorld": [
+    2,
+    2,
+    16
+  ],
+  "actualVisualReview": "records/roadside-visual-review.json"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tree-24-dying-1",
+  "image": "assets/world/vegetation/states/tree-24/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "7e570cfec986231e0a188dca3cbabd5d29743d959a8b58fe0c05f093cdfe5fd4",
+  "climate": "tropical",
+  "artSpecies": "banyan",
+  "sourceTreeType": 24,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-24.png",
+      "sha256": "0ab461097d93acda6d35bbb73ea73541ce9fe66926b0b43b044c608f70d6088c",
+      "record": "assets/world/vegetation/mature/tree-24.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-24"
+  ]
+}

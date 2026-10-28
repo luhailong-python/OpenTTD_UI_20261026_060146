@@ -1,0 +1,85 @@
+{
+  "id": "coast-rocks-grass-slope-e",
+  "image": "previews/world/rocks-overlay/assemblies/coast-rocks-grass-slope-e.png",
+  "sha256": "c01ccd4332efad0aa168e77e815d98681fc42f1fc8188cbdabb1b02ad0cd3f79",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-water-slot-04.png",
+      "sha256": "0ff8f646302b36a8c92455311858e2ab6ead0113950ef3e2c4963c402b2a6772",
+      "record": "assets/world/terrain/shore-geometry/shore-water-slot-04.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-grass-slot-04-land.png",
+      "sha256": "a8f1ca8300fdb03aeb0f12ae260f37e1b19cbbd4f03af26591c648a20cb18dbc",
+      "record": "assets/world/terrain/shore-geometry/shore-grass-slot-04-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-grass-slot-04-bank.png",
+      "sha256": "44ac9c3a1f6d3a7879dc8f05cc06525ef013cd3ff912f66ee6069ac0278b7a70",
+      "record": "assets/world/terrain/shore-geometry/shore-grass-slot-04-bank.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-e.png",
+      "sha256": "230224960edcbadbb83fe4a3c5ecceb29bbacfa77c26475f43dc548664f2d692",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-e.png.derivation.json"
+    }
+  ],
+  "operation": "Formal source-height shoreline land/native-bank and strictly horizontal0-height water layers plus independently placed wet-rock bodies; source DryOut permits water:null, never add obsolete flat backing",
+  "context": "CoastRocks",
+  "shoreClimate": "grass",
+  "slopeCode": 4,
+  "sourceShoreIndex": 4,
+  "overlayId": "rocks-water-coast-layout-0-slope-e",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "shoreOffsetPx": [
+    0,
+    64
+  ],
+  "formalLayers": [
+    {
+      "role": "water",
+      "image": "assets/world/terrain/shore-geometry/shore-water-slot-04.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "land",
+      "image": "assets/world/terrain/shore-geometry/shore-grass-slot-04-land.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "bank",
+      "image": "assets/world/terrain/shore-geometry/shore-grass-slot-04-bank.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "wet-rocks",
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-e.png",
+      "offsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "groundWhole": "assets/world/terrain/shore-geometry/shore-grass-slot-04-whole.png",
+  "groundManifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "groundManifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceFloodingBehaviour": "Active",
+  "waterHasPositiveArea": true,
+  "waterAbsentReason": null,
+  "label": "CoastRocks grass / e",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

@@ -1,0 +1,68 @@
+{
+  "id": "SPR_IMG_CARGOFLOW",
+  "image": "assets/common/micro-ui/SPR_IMG_CARGOFLOW.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "5448a2c166896110f198d3bd72e049467e42feb4bc64ed3cb23991b49e65e2eb",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/cargo.png",
+      "sha256": "b176bb12f70250b5966920bb906050341e7db25124102763053656525d204024",
+      "record": "assets/icons/cargo.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_IMG_CARGOFLOW.svg",
+      "sha256": "09d40ed887a9c80e026ec31eb5b8fd96804781c7a07ca803e2014299ed656638",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_IMG_CARGOFLOW",
+  "sourceSpriteId": 5070,
+  "category": "function-status",
+  "functionalGlyph": "swap",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_IMG_CARGOFLOW.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

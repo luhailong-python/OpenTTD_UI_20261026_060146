@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/infrastructure/road-variants/road-snow-mask-10-slope-nw.png",
+  "sha256": "ec896896c38aea26c1857732b43b9b475dbf8b679dc26d2962f045e4c16d89e6",
+  "generatedAt": "2026-10-28T07:33:51.891822+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 192,
+  "operation": "actual native road/tram lane Alpha over actual painted snow ground; piecewise-affine source-corner height projection, shared fixedcanvas/anchor; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/roads/road-mask-10.png",
+      "sha256": "6fdd0dbe2579d54e227320be3645049b2185cc935fd9207c5e46df34e7e3ea4f",
+      "record": "assets/world/infrastructure/roads/road-mask-10.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snow-flat.png",
+      "sha256": "1438cac1dd9ea9d8a870796ea7f6ddc12552aa6c75a7ce5f4c5966bf8820e92b",
+      "record": "assets/world/terrain/terrain-snow-flat.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Native imagegen model/quality undisclosed; derivative transformations add no native painted details."
+}

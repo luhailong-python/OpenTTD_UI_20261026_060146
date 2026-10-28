@@ -1,0 +1,73 @@
+{
+  "file": "source-art/world/fx-smoke-keys.png",
+  "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+  "generatedAt": "2026-10-26T14:10:55.903624+00:00",
+  "generatedAtEvidence": "UTC file write time of returned image; service timestamp not returned",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "toolResultId": null,
+  "outputFileId": "exec-943cb382-8ea6-47f3-8713-9581a66156e7",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Create ORIGINAL high-definition Taoist chibi hand-painted GAME SPRITE ART. Input image1 and2 define the painting finish: softly rounded, clean fine handmade shading, jade/teal and warm ivory with restrained warm gold. Input3 defines isometric world camera at30degree elevation. Genuine transparent alpha, no text, labels, grid, background, floor, platform, panel, watermark or giant shadow. Strict equal isolated cells with20percent transparent padding each, nothing crossing into adjacent cells. Crisp usable sprite silhouettes, no pixel art or photorealism. Square4x4 atlas desired2048x2048,16cells. Each ROW is ONE separate smoke puff LIFETIME sequence progressing LEFT to RIGHT, same bottom-center emitter and fixed camera. Smoke grows and rises inside its own cell; preserve phase progression rather than random icons. Row1 chimney smoke: tiny compact cool grey wisp, rising grey rounded puff, larger soft plume, pale dispersing curls. Row2 steam train white steam: little ivory steam nub, rounded expanding white cloud, larger separated white lobes, thin dissipating wisps. Row3 diesel exhaust: small dark slate-blue puff, medium compact smoky puff, expanded thin dirty blue-grey plume, faint dispersal. Row4 crash/breakdown smoke: small dark charcoal puff, dense rolling dark cloud, large broken dark-grey cloud, thin fading ash-grey curls. No flames, vehicle or chimney.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world-viewport.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17860-cf44-7ed1-9a4f-4703e4c8fdef\\exec-943cb382-8ea6-47f3-8713-9581a66156e7.png",
+    "nativeSizeFromPNG": [
+      1254,
+      1254
+    ]
+  },
+  "unverifiedReason": "宿主管理，入口与返回未披露实际模型/质量；目标不能视为锁定调用证据。",
+  "prompt": "Create ORIGINAL high-definition Taoist chibi hand-painted GAME SPRITE ART. Input image1 and2 define the painting finish: softly rounded, clean fine handmade shading, jade/teal and warm ivory with restrained warm gold. Input3 defines isometric world camera at30degree elevation. Genuine transparent alpha, no text, labels, grid, background, floor, platform, panel, watermark or giant shadow. Strict equal isolated cells with20percent transparent padding each, nothing crossing into adjacent cells. Crisp usable sprite silhouettes, no pixel art or photorealism. Square4x4 atlas desired2048x2048,16cells. Each ROW is ONE separate smoke puff LIFETIME sequence progressing LEFT to RIGHT, same bottom-center emitter and fixed camera. Smoke grows and rises inside its own cell; preserve phase progression rather than random icons. Row1 chimney smoke: tiny compact cool grey wisp, rising grey rounded puff, larger soft plume, pale dispersing curls. Row2 steam train white steam: little ivory steam nub, rounded expanding white cloud, larger separated white lobes, thin dissipating wisps. Row3 diesel exhaust: small dark slate-blue puff, medium compact smoky puff, expanded thin dirty blue-grey plume, faint dispersal. Row4 crash/breakdown smoke: small dark charcoal puff, dense rolling dark cloud, large broken dark-grey cloud, thin fading ash-grey curls. No flames, vehicle or chimney.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world-viewport.png",
+      "sha256": "9a545794549f285f6ae4bc04739f88b975cb431b8169d91fe6cba80d1b85cadf",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    }
+  ],
+  "promptFile": "records/vehicles/fx-smoke-keys.prompt.txt"
+}

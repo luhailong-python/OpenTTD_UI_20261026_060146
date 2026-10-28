@@ -1,0 +1,48 @@
+{
+  "id": "industry-coal-plant-sparks-bound-05",
+  "image": "assets/world/industries/bindings/coal-plant-sparks/moving/05.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "54b6bfb036a9f8a9f94641201144443f5c975e32ed169bc2227facf2025251f4",
+  "operation": "existing shared native lifetime FX; fixed-pivot proportional downsample and translation into parent512 coordinates; no new painted frame",
+  "derivedFrom": [
+    {
+      "file": "assets/world/effects/electric-spark/05.png",
+      "sha256": "78a605e5797b00c981ca93c57d75cb7634e3e83b2b77134ea9976e342d96997c",
+      "record": "assets/world/effects/electric-spark/05.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceRequirementIds": [
+    "animation-industry-machinery",
+    "industry-01-power-station"
+  ],
+  "frame": 5,
+  "parentArtId": "industry-01-power-station",
+  "particlePhase": "active-spark",
+  "particleOriginPx": [
+    389,
+    292
+  ],
+  "sharedFXSource": "assets/world/effects/electric-spark/05.png",
+  "sourceCanvasScale": 0.1484375,
+  "sourceFrameCanvas": [
+    512,
+    512
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

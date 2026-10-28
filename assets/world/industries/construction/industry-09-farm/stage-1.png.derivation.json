@@ -1,0 +1,49 @@
+{
+  "id": "industry-09-farm-construction-1",
+  "image": "assets/world/industries/construction/industry-09-farm/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "372230f66b8379f32d8b7cae24869d2667874569a84d5f97c18c54f0c7373806",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/farm.png",
+      "sha256": "1f2ccf728f582c5b643c71ffb00e123b3b3616a99bbc9f626a2dfc85fd7e1aa9",
+      "record": "assets/world/industries/farm.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 9,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-09-farm",
+    "industry-tile-033",
+    "industry-tile-034",
+    "industry-tile-035",
+    "industry-tile-036",
+    "industry-tile-037",
+    "industry-tile-038"
+  ]
+}

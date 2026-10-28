@@ -1,0 +1,44 @@
+{
+  "id": "station-truck-layout-1-front",
+  "image": "assets/world/infrastructure/transport-runtime/station-truck-layout-1-front.png",
+  "sha256": "cf797c3a6eb62f2017593535782dbdff906753b7264933ccea757ab92855e1ac",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/station-truck-layout-1.png",
+      "sha256": "63ebf2558d85b1ee36c54b3679a0e89c0f60932846ea4c2ebc84f08cd462ba31",
+      "record": "assets/world/infrastructure/transport-runtime/station-truck-layout-1.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-truck"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:08.537931+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

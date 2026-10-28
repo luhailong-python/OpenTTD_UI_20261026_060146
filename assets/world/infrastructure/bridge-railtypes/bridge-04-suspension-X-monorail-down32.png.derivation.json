@@ -1,0 +1,177 @@
+{
+  "id": "bridge-04-suspension-X-monorail-down32",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-04-suspension-X-monorail-down32.png",
+  "sha256": "cd5b667a5cfe4dc1b0d11fd48515f83bf890c27aad7f7f5cacb66e9a166bcc47",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-south-rear.png",
+      "sha256": "1b77a2ef522e0b054733c653a8a5544e306c96ceee2af3dbd0f604c521cb023f",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-south-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-suspension-span-X-monorail-m32.png",
+      "sha256": "99c536403f08416fd0c81fb4baa7fc4be9f5f318adb6a579233160164de0912e",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-suspension-span-X-monorail-m32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-south-front.png",
+      "sha256": "ebd5bd5771e8d40d764983e076ce2e7c8b3891425e999b616c8dec19a18ca014",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-south-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-04-suspension"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "X",
+  "railType": "monorail",
+  "risePx": -32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        78,
+        278
+      ],
+      [
+        177,
+        242
+      ],
+      [
+        436,
+        381
+      ],
+      [
+        350,
+        418
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        127.5,
+        260.0
+      ],
+      [
+        393.0,
+        399.5
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        105.7024482109228,
+        187.1487758945386
+      ],
+      [
+        150.2975517890772,
+        164.8512241054614
+      ],
+      [
+        278.2975517890772,
+        260.85122410546137
+      ],
+      [
+        233.7024482109228,
+        283.14877589453863
+      ]
+    ],
+    "deckCrossSectionHalfX": 22.29755178907721,
+    "uniformNativeScaleReference": 0.4821092278719397,
+    "sourceXKnots": [
+      78.0,
+      177.0,
+      350.0,
+      436.0
+    ],
+    "targetXKnots": [
+      105.7024482109228,
+      150.2975517890772,
+      233.7024482109228,
+      278.2975517890772
+    ],
+    "verticalScaleAboveDeck": [
+      0.47162859248341926,
+      0.4882901154087595,
+      0.4930662557781202,
+      0.4760828625235405
+    ],
+    "verticalScaleBelowDeck": [
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397,
+      0.4821092278719397
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            78,
+            209
+          ],
+          [
+            350,
+            352
+          ]
+        ],
+        "commonCapHeightPx": 32.54237288135593
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            177,
+            164
+          ],
+          [
+            436,
+            301
+          ]
+        ],
+        "commonCapHeightPx": 38.08662900188324
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": -32,
+    "advancePx": [
+      128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-south-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-suspension-span-X-monorail-m32.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-04-suspension-X-rail-south-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-suspension-X-rail-m32-mask.png"
+}

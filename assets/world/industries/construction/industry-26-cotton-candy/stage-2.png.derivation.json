@@ -1,0 +1,45 @@
+{
+  "id": "industry-26-cotton-candy-construction-2",
+  "image": "assets/world/industries/construction/industry-26-cotton-candy/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "4dac5882e27ffef2e656c779aabbf249c3ba27224148bfc3e9aa4737a4ce7bed",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/cotton-candy.png",
+      "sha256": "7e1527e2fc04ad7448374f0674ec5cfe307d641419f038006d635a61fcb2536e",
+      "record": "assets/world/industries/cotton-candy.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 26,
+  "stage": 2,
+  "details": {
+    "kind": "vegetative site young compound scale derivative",
+    "sourceScale": 0.8
+  },
+  "sourceRequirementIds": [
+    "industry-26-cotton-candy",
+    "industry-tile-129",
+    "industry-tile-130"
+  ]
+}

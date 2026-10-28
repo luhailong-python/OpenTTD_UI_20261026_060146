@@ -1,0 +1,772 @@
+{
+  "id": 104,
+  "upstreamName": "Fruit Truck",
+  "familyId": "wagon-flat",
+  "transport": "train",
+  "cargo": "CT_FRUIT",
+  "climates": [
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 207
+  },
+  "trackHardware": "maglev",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/N-body.png",
+      "sha256": "e5c1ade6188714333e0a67cb5bb50ef2d95f0659ce60034e24e6ec85a3df6a6e",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/N-body.png",
+          "sha256": "e5c1ade6188714333e0a67cb5bb50ef2d95f0659ce60034e24e6ec85a3df6a6e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/N-loaded.png",
+          "sha256": "9b6861216218d83c5f4817ff90888dda94d46c1c30f697a2ba971f77b48ca76d",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              188,
+              153
+            ],
+            "cargoSize": [
+              137,
+              114
+            ],
+            "loadBayCenter": [
+              256.5,
+              210.0
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/N.png",
+          "sha256": "46d925e0a056dcb65bf711d517f444d91d4c45e6911f74775d78a535de44211c",
+          "record": "assets/world/vehicles/families/wagon-flat/N.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              126.31,
+              376.40000000000003
+            ],
+            [
+              386.69,
+              376.40000000000003
+            ]
+          ],
+          "thickness": 40,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/NE-body.png",
+      "sha256": "53ce13e2fbd594e0c182bf9002a718506bda6aa74f60344fdbbb36a5da7b6b3f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/NE-body.png",
+          "sha256": "53ce13e2fbd594e0c182bf9002a718506bda6aa74f60344fdbbb36a5da7b6b3f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/NE-loaded.png",
+          "sha256": "80453f439cdc98a73a0535c6f88554834c6ea105e223254e43129724070398f5",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              200,
+              146
+            ],
+            "cargoSize": [
+              110,
+              91
+            ],
+            "loadBayCenter": [
+              255.5,
+              191.28
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/NE.png",
+          "sha256": "3adc41086a78c0724dd9096787ce4b5127b3824049448da7d0b22e7814e00d41",
+          "record": "assets/world/vehicles/families/wagon-flat/NE.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              51.05,
+              375.6
+            ],
+            [
+              459.95,
+              247.6
+            ]
+          ],
+          "thickness": 40,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/E-body.png",
+      "sha256": "16ad16312d8311ba5ac5102a494a092b9fac2c38266f8a346a1e3db0b3b6bbd8",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/E-body.png",
+          "sha256": "16ad16312d8311ba5ac5102a494a092b9fac2c38266f8a346a1e3db0b3b6bbd8",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/E-loaded.png",
+          "sha256": "b0fe8d1772106f79a9694abe40f77cc185e2923964f0b7812b57c7b523a19597",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              244,
+              248
+            ],
+            "cargoSize": [
+              24,
+              20
+            ],
+            "loadBayCenter": [
+              255.5,
+              258.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/E.png",
+          "sha256": "6ad05dc030e528ade20fc8583f05d8a573be2217fa6730c36089a03fd214f208",
+          "record": "assets/world/vehicles/families/wagon-flat/E.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              25.67,
+              320.8
+            ],
+            [
+              485.33,
+              320.8
+            ]
+          ],
+          "thickness": 20.160000000000004,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/SE-body.png",
+      "sha256": "b78a3258e83edc2bd59b52252b5c7128965d45b96cd9169027f47c9add94119a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/SE-body.png",
+          "sha256": "b78a3258e83edc2bd59b52252b5c7128965d45b96cd9169027f47c9add94119a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/SE-loaded.png",
+          "sha256": "a01321b828a93fe548540898b52c6e107a80241294c365c5f16724c0b7b81c06",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              201,
+              139
+            ],
+            "cargoSize": [
+              112,
+              93
+            ],
+            "loadBayCenter": [
+              257.0,
+              185.2
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/SE.png",
+          "sha256": "8ed44bd0de46c458f7a0ecb1f80a2e6c5fd054021149fdf9aefb6fd44ce5d0ad",
+          "record": "assets/world/vehicles/families/wagon-flat/SE.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              81.22,
+              244.4
+            ],
+            [
+              432.78,
+              376.4
+            ]
+          ],
+          "thickness": 40,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/S-body.png",
+      "sha256": "da0d1f8346e5809acbea55e613fb62228854d976d174d5e698c5991ff59d7814",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/S-body.png",
+          "sha256": "da0d1f8346e5809acbea55e613fb62228854d976d174d5e698c5991ff59d7814",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/S-loaded.png",
+          "sha256": "2fa9839880f11acbe174c61beac5e6ad7d28ad73edd88f62fc96acc39479806c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              188,
+              160
+            ],
+            "cargoSize": [
+              135,
+              112
+            ],
+            "loadBayCenter": [
+              255.5,
+              216.48
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/S.png",
+          "sha256": "042587c1378f0b248153aefa35de372116e1027479590ebb07c2f10d14b4f013",
+          "record": "assets/world/vehicles/families/wagon-flat/S.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              127.19,
+              375.20000000000005
+            ],
+            [
+              383.81,
+              375.20000000000005
+            ]
+          ],
+          "thickness": 40,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/SW-body.png",
+      "sha256": "01c2dddfc0c74cc3493f7675b1aebbc5b785d5f61b5fe07c48f3051d1389347f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/SW-body.png",
+          "sha256": "01c2dddfc0c74cc3493f7675b1aebbc5b785d5f61b5fe07c48f3051d1389347f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/SW-loaded.png",
+          "sha256": "260f478898bc111d3fbc9d8e6ef3f1ca362a5379704de57b77b9d202e65f5733",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              202,
+              147
+            ],
+            "cargoSize": [
+              109,
+              91
+            ],
+            "loadBayCenter": [
+              256.0,
+              192.64
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/SW.png",
+          "sha256": "ba99bade87ba6f455353cb425d32c4f976988b740ded90eccc675b2200c4bafc",
+          "record": "assets/world/vehicles/families/wagon-flat/SW.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              54.84,
+              374.96
+            ],
+            [
+              457.16,
+              248.16
+            ]
+          ],
+          "thickness": 40,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/W-body.png",
+      "sha256": "6fff5939a217f943f5dd4457c72aeb13c354f10360030f00b86aa6c3e7703e0c",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/W-body.png",
+          "sha256": "6fff5939a217f943f5dd4457c72aeb13c354f10360030f00b86aa6c3e7703e0c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/W-loaded.png",
+          "sha256": "ba2985c8e6b060031f3c478078f53e12cf428307bd90c89570cd7707cdbb9d08",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              244,
+              248
+            ],
+            "cargoSize": [
+              24,
+              20
+            ],
+            "loadBayCenter": [
+              256.0,
+              258.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/W.png",
+          "sha256": "2ef09984875d07d9d1b4878e516beb0f2fbebd0f1e5501a6a5276c70ee7e2a72",
+          "record": "assets/world/vehicles/families/wagon-flat/W.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              25.7,
+              320.8
+            ],
+            [
+              486.3,
+              320.8
+            ]
+          ],
+          "thickness": 20.160000000000004,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/104/NW-body.png",
+      "sha256": "22f6ecfbe6f25fcab39a51a49cf97a6ff4a62abd65c0b447544f6bcc5bb3f071",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/104/NW-body.png",
+          "sha256": "22f6ecfbe6f25fcab39a51a49cf97a6ff4a62abd65c0b447544f6bcc5bb3f071",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/104/NW-loaded.png",
+          "sha256": "8114bcbf1716d5a143b4fc37191555f157b3f3f6249bd843cc20cdd49cb733b8",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              200,
+              139
+            ],
+            "cargoSize": [
+              111,
+              93
+            ],
+            "loadBayCenter": [
+              256.0,
+              185.88
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-flat/NW.png",
+          "sha256": "3e83b3a7c015b6e972232dd52750f125fdd425835946195c44c2d8627aeda696",
+          "record": "assets/world/vehicles/families/wagon-flat/NW.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json",
+          "crop": [
+            64,
+            331,
+            440,
+            371
+          ],
+          "edge": [
+            [
+              74.58,
+              244.92
+            ],
+            [
+              437.42,
+              376.52
+            ]
+          ],
+          "thickness": 40,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/wagon-flat/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

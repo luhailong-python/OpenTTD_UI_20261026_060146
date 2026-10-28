@@ -1,0 +1,39 @@
+{
+  "id": "tree-02-dying-1",
+  "image": "assets/world/vegetation/states/tree-02/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "d899920c9a586ab29e98acf0dc1d3d10356c154e87194482939f8aee63f67daa",
+  "climate": "temperate",
+  "artSpecies": "silver-birch",
+  "sourceTreeType": 2,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-02.png",
+      "sha256": "6b9dcdb596a1647677390cf35ebda0abe0d6e368889210ce5d6b4bb1bbbdc0af",
+      "record": "assets/world/vegetation/mature/tree-02.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-02"
+  ]
+}

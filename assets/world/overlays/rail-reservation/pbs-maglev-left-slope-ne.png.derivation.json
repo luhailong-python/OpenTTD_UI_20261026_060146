@@ -1,0 +1,57 @@
+{
+  "id": "pbs-maglev-left-slope-ne",
+  "image": "assets/world/overlays/rail-reservation/pbs-maglev-left-slope-ne.png",
+  "width": 256,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "7a5caf32b9e40b9811817733eaf5ad105d01c83aff8a159d67e510cf7560af5e",
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.3333333333333333
+  ],
+  "category": "rail-reservation-overlay",
+  "sourceRequirementIds": [
+    "rail-maglev"
+  ],
+  "state": "reserved",
+  "trackBit": 4,
+  "trackName": "left",
+  "slopeCode": 12,
+  "sourceOverlay": {
+    "file": "assets/world/infrastructure/rail/rail-maglev-segment-left-slope-ne.png",
+    "sha256": "ae9078f1a00fd672b3f6c0e0c8045666c0470e22ae6ed33d0b6bd50a172d978a",
+    "record": "assets/world/infrastructure/rail/rail-maglev-segment-left-slope-ne.png.derivation.json"
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/rail/rail-maglev-segment-left-slope-ne.png",
+      "sha256": "ae9078f1a00fd672b3f6c0e0c8045666c0470e22ae6ed33d0b6bd50a172d978a",
+      "record": "assets/world/infrastructure/rail/rail-maglev-segment-left-slope-ne.png.derivation.json"
+    }
+  ],
+  "sourceLayer": "track-overlay",
+  "ownershipMask": "exact Alpha of actual source track-overlay PNG;flat only transparent64px top padding;no terrain composite input",
+  "operation": "luma grayscale×0.58 on native owned track pixels,source Alpha unchanged,Alpha0RGB cleared;source PALETTE_CRASH visual meaning reinterpreted for current art,not original palette byte emulation",
+  "material": {
+    "rgbFormula": "round((0.2126R+0.7152G+0.0722B)*0.58) repeated inRGB",
+    "alphaFormula": "Aout=Asource; no opaque fill/no whole-ground tint",
+    "blend": "straight alpha/source-over",
+    "sourceSetting": "_settings_client.gui.show_track_reservation",
+    "activeCondition": "reservedTrackBits & currentTrackBits;source also suppresses menu mode",
+    "notReserved": "do not draw this layer",
+    "overhead": "catenary/posts/vehicles excluded from owned Alpha and remain separate"
+  },
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/rail-reservation-visual-review.json"
+}

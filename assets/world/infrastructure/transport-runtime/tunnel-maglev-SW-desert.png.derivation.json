@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-maglev-SW-desert",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-maglev-SW-desert.png",
+  "sha256": "0185c73879316f609d314e8e10fa9618c461a8a370dcb3ffce34c31528c68fcd",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-desert.png",
+      "sha256": "d1c871b5030c10c8e0b8a4e1cf81bc8e35b14b9e4f60d596a315441084136586",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-desert.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-maglev-SW-desert.png",
+      "sha256": "bf8b293c939434872a56ddaa8bca79797ba0f54c5269876414fd013bb1ca515e",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-maglev-SW-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-maglev"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:14.926356+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "climate": "desert",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

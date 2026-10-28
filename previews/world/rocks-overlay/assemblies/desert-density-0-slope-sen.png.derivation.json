@@ -1,0 +1,32 @@
+{
+  "id": "desert-density-0-slope-sen",
+  "image": "previews/world/rocks-overlay/assemblies/desert-density-0-slope-sen.png",
+  "sha256": "9031af430c73581282b35b6c6f3f7987c6149ac9ffe56ef612777967948b6ca3",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-bare-slope-sen.png",
+      "sha256": "66cb81f6b4a99a0a402a80b3204894ee998acc4a43c1931833ea02c4c87f2ee8",
+      "record": "assets/world/terrain/terrain-bare-slope-sen.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-desert-slope-sen.png",
+      "sha256": "f0d1d09f022040c615864b29b155baee27b1edc75a5a666a82ae2d4098c1f510",
+      "record": "assets/world/terrain/terrain-desert-slope-sen.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-sen.png",
+      "sha256": "4ce765cb7c5053dcf360151d25e70bfedfb59eb41c612a01bab52e933bda062f",
+      "record": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-sen.png.derivation.json"
+    }
+  ],
+  "operation": "Actual bare/desert material fraction(1/4,1/2,3/4,1) plus independent dry rocks; no fake grayscale gravel substitute",
+  "context": "desert-rocks",
+  "densityStage": 0,
+  "compositeFraction": 0.25,
+  "slopeCode": 14,
+  "overlayId": "rocks-dry-layout-0-slope-sen",
+  "label": "desert 0 / sen",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

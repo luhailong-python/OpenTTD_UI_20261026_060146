@@ -1,0 +1,37 @@
+{
+  "id": "road-depot-axis-y",
+  "image": "assets/world/infrastructure/transport/road-depot-axis-y.png",
+  "sha256": "0bc4ab780ac8bb1cb7f239cb79fc430811f153e35c5f11454d67e4c5a3b7362e",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/road-depot.png",
+      "sha256": "6d030235c6542f6b6078b9bd66d5b12357ed1482e761b3108ab48f44078be83e",
+      "record": "assets/world/infrastructure/transport/road-depot.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

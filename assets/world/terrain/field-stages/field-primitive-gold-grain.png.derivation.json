@@ -1,0 +1,56 @@
+{
+  "id": "field-primitive-gold-grain",
+  "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+  "width": 551,
+  "height": 549,
+  "anchorPx": [
+    251.46428168378287,
+    544
+  ],
+  "pivotUnity": [
+    0.45637800668563133,
+    0.00910746812386154
+  ],
+  "sha256": "1458dcda037e2813fb015f11a93c3f072ceeed71e467dc2a10610055a85c0d2e",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/field-crop-components-native.png",
+      "sha256": "eb56f6436ec61c25fb5e7ab3b2797a12578a1dd3edc84ecc4b114119076d891d",
+      "record": "source-art/world/field-crop-components-native.png.generation.json"
+    }
+  ],
+  "operation": "adopted native standalone crop/hay component; source cell crop, main-component Alpha cleanup, transparent padding and explicit physical root anchor; no repaint or enlargement",
+  "category": "field-native-primitive",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "nativeCropXYXY": [
+    724,
+    0,
+    1448,
+    724
+  ],
+  "alphaCleanup": {
+    "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+    "coreThreshold": 32,
+    "removedVisiblePixels": 93,
+    "componentCorePixels": 157634,
+    "maskedNonzeroPixels": 31007,
+    "alphaBelow4Removed": true,
+    "outsideZeroAlphaRGBCleared": true,
+    "alphaTrimBox": [
+      115,
+      83,
+      658,
+      624
+    ],
+    "transparentPaddingPx": 4,
+    "anchorPolicy": "physical stem/bale bottom contact; Alpha-weighted center of last7 opaque rows, not whole Alpha centroid"
+  }
+}

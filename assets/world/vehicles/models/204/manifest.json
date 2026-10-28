@@ -1,0 +1,358 @@
+{
+  "id": 204,
+  "upstreamName": "MPS Oil Tanker",
+  "familyId": "ship-tanker",
+  "transport": "ship",
+  "cargo": "CT_OIL",
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 307
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/N-body.png",
+      "sha256": "86bb69b1cfebb70389b83c5f2850f66d60807eb050d7c3b0d12703155fa31b31",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/N-body.png",
+          "sha256": "86bb69b1cfebb70389b83c5f2850f66d60807eb050d7c3b0d12703155fa31b31",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/N.png",
+          "sha256": "d57a83d69f3a7539d37e2cb3824e203c521580e04735b159fd94d1bafaca5393",
+          "record": "assets/world/vehicles/families/ship-tanker/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/NE-body.png",
+      "sha256": "fe7f38dca7855ae555c2a4f0ce5af63aa472728bd43e25e99ed92e4e7802ec6b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/NE-body.png",
+          "sha256": "fe7f38dca7855ae555c2a4f0ce5af63aa472728bd43e25e99ed92e4e7802ec6b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/NE.png",
+          "sha256": "8af4ec20eed5257641f74f0075387f9644b7b4a403696960ac98c067c17d8a98",
+          "record": "assets/world/vehicles/families/ship-tanker/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/E-body.png",
+      "sha256": "05ddeec7b42ab12b834ea90f5baef2eeb300eb312b120e1ff2c383e9055e9b6e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/E-body.png",
+          "sha256": "05ddeec7b42ab12b834ea90f5baef2eeb300eb312b120e1ff2c383e9055e9b6e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/E.png",
+          "sha256": "ab56c35d4f2a99defae222c18231dfbe53868f86f4865607cc94b76b41cf1e87",
+          "record": "assets/world/vehicles/families/ship-tanker/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/SE-body.png",
+      "sha256": "6efb025d3a7d2461724c1bc0056856443243eeb95a7bd9acac6252b27477f8fa",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/SE-body.png",
+          "sha256": "6efb025d3a7d2461724c1bc0056856443243eeb95a7bd9acac6252b27477f8fa",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/SE.png",
+          "sha256": "ab50a7e44fb9d3f97e429e9cdf682de37f83fd52ae4ab22027ee1b6755523eeb",
+          "record": "assets/world/vehicles/families/ship-tanker/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/S-body.png",
+      "sha256": "e65dce253bacc0b518a8e298a896535f5ae4668cc19a6655f4b0613aea1ce379",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/S-body.png",
+          "sha256": "e65dce253bacc0b518a8e298a896535f5ae4668cc19a6655f4b0613aea1ce379",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/S.png",
+          "sha256": "21c954f138110cb3988cb8ec71bc96b0c4f4a17adafd562fed1921779cf86661",
+          "record": "assets/world/vehicles/families/ship-tanker/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/SW-body.png",
+      "sha256": "465d63764bc24d73b8a4aa4ede2a4eb973617bbff77106cbd8caeeecd474b180",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/SW-body.png",
+          "sha256": "465d63764bc24d73b8a4aa4ede2a4eb973617bbff77106cbd8caeeecd474b180",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/SW.png",
+          "sha256": "53e76b22f2c4c0457d72d0e233ead21df97cc3c0abda159315addf2002011428",
+          "record": "assets/world/vehicles/families/ship-tanker/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/W-body.png",
+      "sha256": "351b15bad01048b08624eb7397f8e37aa1aa8062718cbff79aa1ae8e521dcb27",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/W-body.png",
+          "sha256": "351b15bad01048b08624eb7397f8e37aa1aa8062718cbff79aa1ae8e521dcb27",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/W.png",
+          "sha256": "af86d288f9c21f54628032a70b79b9fb877218cda912051c4b8e02dab8297102",
+          "record": "assets/world/vehicles/families/ship-tanker/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/204/NW-body.png",
+      "sha256": "1addc2446bada4658a21913ac58a1af92a37159546afcebff903c6ceb9281e82",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/204/NW-body.png",
+          "sha256": "1addc2446bada4658a21913ac58a1af92a37159546afcebff903c6ceb9281e82",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -8,
+        "jadeValueMultiplier": 1.02,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-tanker/NW.png",
+          "sha256": "1a3c3ce3f14813ea3b8afc43412af9394b91790409d93f7cae850693af91d81a",
+          "record": "assets/world/vehicles/families/ship-tanker/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/ship-tanker/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

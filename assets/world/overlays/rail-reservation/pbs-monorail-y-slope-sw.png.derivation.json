@@ -1,0 +1,57 @@
+{
+  "id": "pbs-monorail-y-slope-sw",
+  "image": "assets/world/overlays/rail-reservation/pbs-monorail-y-slope-sw.png",
+  "width": 256,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "1069aeae58bbb3de7da3a835b5335b60808d5ecb523b4749369dd41ec0866c6a",
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.3333333333333333
+  ],
+  "category": "rail-reservation-overlay",
+  "sourceRequirementIds": [
+    "rail-monorail"
+  ],
+  "state": "reserved",
+  "trackBit": 1,
+  "trackName": "y",
+  "slopeCode": 3,
+  "sourceOverlay": {
+    "file": "assets/world/infrastructure/rail/rail-monorail-segment-y-slope-sw.png",
+    "sha256": "43c6f6ad24f93d53e482b3621ce7cd7a13d93cea07cb24e5f9ee62abe0460f9d",
+    "record": "assets/world/infrastructure/rail/rail-monorail-segment-y-slope-sw.png.derivation.json"
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/rail/rail-monorail-segment-y-slope-sw.png",
+      "sha256": "43c6f6ad24f93d53e482b3621ce7cd7a13d93cea07cb24e5f9ee62abe0460f9d",
+      "record": "assets/world/infrastructure/rail/rail-monorail-segment-y-slope-sw.png.derivation.json"
+    }
+  ],
+  "sourceLayer": "track-overlay",
+  "ownershipMask": "exact Alpha of actual source track-overlay PNG;flat only transparent64px top padding;no terrain composite input",
+  "operation": "luma grayscale×0.58 on native owned track pixels,source Alpha unchanged,Alpha0RGB cleared;source PALETTE_CRASH visual meaning reinterpreted for current art,not original palette byte emulation",
+  "material": {
+    "rgbFormula": "round((0.2126R+0.7152G+0.0722B)*0.58) repeated inRGB",
+    "alphaFormula": "Aout=Asource; no opaque fill/no whole-ground tint",
+    "blend": "straight alpha/source-over",
+    "sourceSetting": "_settings_client.gui.show_track_reservation",
+    "activeCondition": "reservedTrackBits & currentTrackBits;source also suppresses menu mode",
+    "notReserved": "do not draw this layer",
+    "overhead": "catenary/posts/vehicles excluded from owned Alpha and remain separate"
+  },
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/rail-reservation-visual-review.json"
+}

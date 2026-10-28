@@ -1,0 +1,50 @@
+{
+  "id": "industry-00-coal-mine-construction-2",
+  "image": "assets/world/industries/construction/industry-00-coal-mine/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "985e2fa037b046c34fa261f847423621d779955c579e09c8bcedb7106c854933",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/coal-mine.png",
+      "sha256": "85aafe57c9ddc58a4d20d3cf3f9329f69b04ed842c7d5076d137832717683609",
+      "record": "assets/world/industries/coal-mine.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 0,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-00-coal-mine",
+    "industry-tile-000",
+    "industry-tile-001",
+    "industry-tile-002",
+    "industry-tile-003",
+    "industry-tile-004",
+    "industry-tile-005",
+    "industry-tile-006"
+  ]
+}

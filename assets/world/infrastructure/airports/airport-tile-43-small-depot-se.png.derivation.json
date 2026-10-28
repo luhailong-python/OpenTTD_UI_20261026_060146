@@ -1,0 +1,67 @@
+{
+  "id": "airport-tile-43-small-depot-se",
+  "image": "assets/world/infrastructure/airports/airport-tile-43-small-depot-se.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "ae6af9321a519637a62fb03f7dbb06cc0c15530d6f0be9aac5766a7762447d86",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-hangar.png",
+      "sha256": "87c1980eb8575fcc404abed42c42a3f0680c08db6f5d0f53161ce3c7097cc9fe",
+      "record": "assets/world/infrastructure/airports/airport-hangar.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 43,
+  "sourceTileEnum": "APT_SMALL_DEPOT_SE",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_small_depot_se) // APT_SMALL_DEPOT_SE",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-hangar",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "building"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-country",
+    "airport-tile-43-small-depot-se"
+  ]
+}

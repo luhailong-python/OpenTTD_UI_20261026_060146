@@ -1,0 +1,1330 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:44:58.076603+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "hq-1",
+      "image": "assets/world/infrastructure/objects/hq-1.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        49,
+        41,
+        409,
+        303
+      ],
+      "sourceCropSize": [
+        360,
+        262
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        353,
+        255
+      ],
+      "sourceAnchorPx": [
+        180.0,
+        253
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        83,
+        202
+      ],
+      "contentNativeSize": [
+        346,
+        248
+      ],
+      "contentExportSize": [
+        346,
+        248
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 102,
+        "componentCorePixels": 50120
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "25bd15af66d0b29a602c2403702f3cbb11bb65667d0b5ec98c34ae14c2bb1049",
+      "nativeSlot": 0,
+      "nativeComponentBox": [
+        57,
+        49,
+        401,
+        295
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "hq-2",
+      "image": "assets/world/infrastructure/objects/hq-2.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        479,
+        27,
+        851,
+        308
+      ],
+      "sourceCropSize": [
+        372,
+        281
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        364,
+        274
+      ],
+      "sourceAnchorPx": [
+        186.0,
+        272
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        77,
+        183
+      ],
+      "contentNativeSize": [
+        357,
+        267
+      ],
+      "contentExportSize": [
+        357,
+        267
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 76,
+        "componentCorePixels": 57976
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "d1b22cd34ab94fe63c77af85bed7d62b1c6db3334549b3c3a870f58988609e78",
+      "nativeSlot": 1,
+      "nativeComponentBox": [
+        487,
+        35,
+        843,
+        300
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "hq-3",
+      "image": "assets/world/infrastructure/objects/hq-3.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        909,
+        2,
+        1319,
+        319
+      ],
+      "sourceCropSize": [
+        410,
+        317
+      ],
+      "alphaTrimBox": [
+        7,
+        8,
+        404,
+        310
+      ],
+      "sourceAnchorPx": [
+        205.0,
+        308
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        58,
+        148
+      ],
+      "contentNativeSize": [
+        397,
+        302
+      ],
+      "contentExportSize": [
+        397,
+        302
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 112,
+        "componentCorePixels": 71401
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "f1c8ae345b05f5426a4d6b98fc57c01d7b3890d0867d9dd9e8f10a367b1fb98a",
+      "nativeSlot": 2,
+      "nativeComponentBox": [
+        917,
+        10,
+        1311,
+        311
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "hq-4",
+      "image": "assets/world/infrastructure/objects/hq-4.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1408,
+        2,
+        1717,
+        336
+      ],
+      "sourceCropSize": [
+        309,
+        334
+      ],
+      "alphaTrimBox": [
+        7,
+        6,
+        302,
+        327
+      ],
+      "sourceAnchorPx": [
+        154.5,
+        325
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        108,
+        129
+      ],
+      "contentNativeSize": [
+        295,
+        321
+      ],
+      "contentExportSize": [
+        295,
+        321
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 82,
+        "componentCorePixels": 44946
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "6db488072b5234849781208e6ccc2145b422fbadcbf2b39ee827eb50b4d932c6",
+      "nativeSlot": 3,
+      "nativeComponentBox": [
+        1416,
+        10,
+        1709,
+        328
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "hq-5",
+      "image": "assets/world/infrastructure/objects/hq-5.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        13,
+        286,
+        575,
+        626
+      ],
+      "sourceCropSize": [
+        562,
+        340
+      ],
+      "alphaTrimBox": [
+        7,
+        6,
+        555,
+        333
+      ],
+      "sourceAnchorPx": [
+        281.0,
+        331
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9343065693430657,
+      "targetOffsetPx": [
+        0,
+        144
+      ],
+      "contentNativeSize": [
+        548,
+        327
+      ],
+      "contentExportSize": [
+        512,
+        306
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 1156,
+        "componentCorePixels": 92175
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "ed117c003c491e24d3336ab7c01ae16f2931cbb7d3595d017fe7f3bfd468dacf",
+      "nativeSlot": 4,
+      "nativeComponentBox": [
+        21,
+        294,
+        567,
+        618
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "radio-mast",
+      "image": "assets/world/infrastructure/objects/radio-mast.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        578,
+        299,
+        879,
+        608
+      ],
+      "sourceCropSize": [
+        301,
+        309
+      ],
+      "alphaTrimBox": [
+        7,
+        8,
+        294,
+        302
+      ],
+      "sourceAnchorPx": [
+        150.5,
+        300
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        112,
+        156
+      ],
+      "contentNativeSize": [
+        287,
+        294
+      ],
+      "contentExportSize": [
+        287,
+        294
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 722,
+        "componentCorePixels": 37114
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "e9ff5a71ca1797ecf9e5a43f83b58c0479fa9a37f0b14900d3de6695415ba2e2",
+      "nativeSlot": 5,
+      "nativeComponentBox": [
+        586,
+        307,
+        871,
+        600
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "lighthouse",
+      "image": "assets/world/infrastructure/objects/lighthouse.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        922,
+        304,
+        1324,
+        623
+      ],
+      "sourceCropSize": [
+        402,
+        319
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        395,
+        312
+      ],
+      "sourceAnchorPx": [
+        201.0,
+        310
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        62,
+        145
+      ],
+      "contentNativeSize": [
+        388,
+        305
+      ],
+      "contentExportSize": [
+        388,
+        305
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 386,
+        "componentCorePixels": 53454
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "96a4eac5124b236cea25cf4f0efcda716c60a035a59dcd4da69fd09bc6a1e475",
+      "nativeSlot": 6,
+      "nativeComponentBox": [
+        930,
+        312,
+        1316,
+        615
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "owned-land",
+      "image": "assets/world/infrastructure/objects/owned-land.png",
+      "width": 512,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        320
+      ],
+      "pivotUnity": [
+        0.5,
+        0.16666666666666663
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1383,
+        340,
+        1767,
+        583
+      ],
+      "sourceCropSize": [
+        384,
+        243
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        377,
+        235
+      ],
+      "sourceAnchorPx": [
+        192.0,
+        234
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        71,
+        93
+      ],
+      "contentNativeSize": [
+        370,
+        228
+      ],
+      "contentExportSize": [
+        370,
+        228
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 186,
+        "componentCorePixels": 38176
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "6ebdf8f9f9a36040f3785a5187d869a03562d58fc29e6a3ea565c1ea8f2f8550",
+      "nativeSlot": 7,
+      "nativeComponentBox": [
+        1391,
+        348,
+        1759,
+        575
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "lift-cabin",
+      "image": "assets/world/infrastructure/objects/lift-cabin.png",
+      "width": 256,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        132,
+        598,
+        322,
+        863
+      ],
+      "sourceCropSize": [
+        190,
+        265
+      ],
+      "alphaTrimBox": [
+        8,
+        8,
+        183,
+        258
+      ],
+      "sourceAnchorPx": [
+        95.0,
+        256
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        41,
+        104
+      ],
+      "contentNativeSize": [
+        175,
+        250
+      ],
+      "contentExportSize": [
+        175,
+        250
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 1010,
+        "componentCorePixels": 28950
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+      "nativeSlot": 8,
+      "nativeComponentBox": [
+        140,
+        606,
+        314,
+        855
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "lift-guide",
+      "image": "assets/world/infrastructure/objects/lift-guide.png",
+      "width": 256,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        576,
+        588,
+        718,
+        887
+      ],
+      "sourceCropSize": [
+        142,
+        299
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        134,
+        294
+      ],
+      "sourceAnchorPx": [
+        71.0,
+        292
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        64,
+        67
+      ],
+      "contentNativeSize": [
+        127,
+        287
+      ],
+      "contentExportSize": [
+        127,
+        287
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 482,
+        "componentCorePixels": 29590
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+      "nativeSlot": 9,
+      "nativeComponentBox": [
+        584,
+        596,
+        710,
+        881
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "tunnel-portal",
+      "image": "assets/world/infrastructure/objects/tunnel-portal.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        885,
+        613,
+        1327,
+        886
+      ],
+      "sourceCropSize": [
+        442,
+        273
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        435,
+        266
+      ],
+      "sourceAnchorPx": [
+        221.0,
+        264
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        42,
+        191
+      ],
+      "contentNativeSize": [
+        428,
+        259
+      ],
+      "contentExportSize": [
+        428,
+        259
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 101,
+        "componentCorePixels": 74883
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "43d4c740e0a7f737e7c9caa65915e805ab2dbb1b1082e6d3c0c409e47ab1046a",
+      "nativeSlot": 10,
+      "nativeComponentBox": [
+        893,
+        621,
+        1319,
+        878
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "crossing-barrier",
+      "image": "assets/world/infrastructure/objects/crossing-barrier.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "objects",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1383,
+        596,
+        1747,
+        868
+      ],
+      "sourceCropSize": [
+        364,
+        272
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        357,
+        264
+      ],
+      "sourceAnchorPx": [
+        182.0,
+        263
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        81,
+        192
+      ],
+      "contentNativeSize": [
+        350,
+        257
+      ],
+      "contentExportSize": [
+        350,
+        257
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 111,
+        "componentCorePixels": 29869
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "98f9d91c19ec0231ad28ecbe53910720f66b46a789bcb6b5d3d50df13dcb886a",
+      "nativeSlot": 11,
+      "nativeComponentBox": [
+        1391,
+        604,
+        1739,
+        860
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    }
+  ],
+  "qa": [
+    {
+      "id": "hq-1.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        49,
+        41,
+        409,
+        303
+      ]
+    },
+    {
+      "id": "hq-2.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        479,
+        27,
+        851,
+        308
+      ]
+    },
+    {
+      "id": "hq-3.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        909,
+        2,
+        1319,
+        319
+      ]
+    },
+    {
+      "id": "hq-4.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        1408,
+        2,
+        1717,
+        336
+      ]
+    },
+    {
+      "id": "hq-5.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        13,
+        286,
+        575,
+        626
+      ]
+    },
+    {
+      "id": "radio-mast.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        578,
+        299,
+        879,
+        608
+      ]
+    },
+    {
+      "id": "lighthouse.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        922,
+        304,
+        1324,
+        623
+      ]
+    },
+    {
+      "id": "owned-land.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        1383,
+        340,
+        1767,
+        583
+      ]
+    },
+    {
+      "id": "lift-cabin.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        132,
+        598,
+        322,
+        863
+      ]
+    },
+    {
+      "id": "lift-guide.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        576,
+        588,
+        718,
+        887
+      ]
+    },
+    {
+      "id": "tunnel-portal.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        885,
+        613,
+        1327,
+        886
+      ]
+    },
+    {
+      "id": "crossing-barrier.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/objects-kit.png",
+      "sourceBox": [
+        1383,
+        596,
+        1747,
+        868
+      ]
+    }
+  ],
+  "acceptance": "extracted; complete-sheet visual and state checks pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "services-objects",
+  "nativeSourceAtlas": {
+    "file": "source-art/world/objects-kit.png",
+    "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+    "record": "source-art/world/objects-kit.png.generation.json",
+    "sourceRecordAvailable": true
+  }
+}

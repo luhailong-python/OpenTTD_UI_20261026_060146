@@ -1,0 +1,45 @@
+{
+  "id": "industry-28-battery-farm-construction-2",
+  "image": "assets/world/industries/construction/industry-28-battery-farm/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "e99d9cd9f5ebbeb3e7b67f58057da9141e79ca460f2f5cff7f9927201b1b21d5",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/battery-farm.png",
+      "sha256": "0e1720b8426eb1f7bd6d77d5586386eeb93069b8a44f1f56d5b17d1e8495bf9a",
+      "record": "assets/world/industries/battery-farm.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 28,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-28-battery-farm",
+    "industry-tile-135",
+    "industry-tile-136"
+  ]
+}

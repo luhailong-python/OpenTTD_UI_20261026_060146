@@ -1,0 +1,71 @@
+{
+  "id": "airport-tile-15-runway-2",
+  "image": "assets/world/infrastructure/airports/airport-tile-15-runway-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "5d4823c76acb999af0f797498b91c82afe8e55f73286c2bcd757a536c08c52b6",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-runway-x.png",
+      "sha256": "a9a79047209a3d9f362b1c1e7e7876aeffe75ec3c919f482434bc80b71b616dc",
+      "record": "assets/world/infrastructure/airports/airport-ground-runway-x.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-se.png",
+      "sha256": "a64f05acb1bd5888022d6a6c10f83230decf648605efba6c483603abdb6dedcd",
+      "record": "assets/world/infrastructure/airports/airport-fence-se.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 15,
+  "sourceTileEnum": "APT_RUNWAY_2",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_RUNWAY_EXIT_B,      _station_display_fence_se) // APT_RUNWAY_2",
+  "layers": [
+    {
+      "artId": "airport-ground-runway-x",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-se",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-commuter",
+    "airport-intercontinental",
+    "airport-international",
+    "airport-metropolitan",
+    "airport-tile-15-runway-2"
+  ]
+}

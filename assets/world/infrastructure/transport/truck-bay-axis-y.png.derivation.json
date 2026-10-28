@@ -1,0 +1,37 @@
+{
+  "id": "truck-bay-axis-y",
+  "image": "assets/world/infrastructure/transport/truck-bay-axis-y.png",
+  "sha256": "63ebf2558d85b1ee36c54b3679a0e89c0f60932846ea4c2ebc84f08cd462ba31",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/truck-bay.png",
+      "sha256": "59dbd88f755066dae2b329df8dc53e4a80708383d138cbeeaf642b65152d9f39",
+      "record": "assets/world/infrastructure/transport/truck-bay.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

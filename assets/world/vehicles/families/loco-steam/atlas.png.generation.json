@@ -1,0 +1,76 @@
+{
+  "file": "assets/world/vehicles/families/loco-steam/atlas.png",
+  "sha256": "5fab7cf87118b1a9b11c131ed3508f8504e694dae67fc753b08ba7e27535d256",
+  "generatedAt": "2026-10-26T12:54:10.981077+00:00",
+  "generatedAtEvidence": "local output file timestamp, tool server time not disclosed",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolResultId": null,
+  "outputFileId": "exec-d20f47e3-01e0-4298-ac7e-45d2ee941fdf",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\records\\vehicles\\direction-guide.png"
+    ],
+    "prompt": "Use case: game production prop sprites, not UI icons. Create an original high-definition Taoist chibi hand-painted 8-direction vehicle atlas for an isometric transport simulation. Strict style references are input image 1 (mail) and image 2 (team): jade/teal, warm ivory, restrained fine brass-gold craftsmanship, rounded full shapes, careful hand-painted shading, no photorealism, no plastic gloss or pixel art. Input image 3 is ONLY a heading/layout guide; never reproduce its arrows, cells or text.\nOUTPUT: wide 2:1 atlas desired 2048x1024, genuinely transparent alpha. Exactly FOUR columns and TWO rows of equal square cells, one COMPLETE isolated vehicle in each cell. At least 12% transparent padding around each vehicle in every cell. No frame, grid, labels, letters, numbers, watermarks, terrain, background, platform, road, track or ground shadow.\nCAMERA: fixed orthographic isometric camera at 30-degree elevation. Same physical dimensions, colors and identity throughout. Vehicle stays upright on its normal wheels/hull/skids; do NOT tilt the camera or rotate the entire picture plane. Change its actual heading around the vertical axis.\nMANDATORY EXACT ORDER, left to right:\nTOP ROW: 1 N = REAR view, front/nose points straight UP away from viewer; 2 NE = rear-right view, nose points UPPER-RIGHT; 3 E = right-facing profile, nose points RIGHT; 4 SE = front-right view, nose points LOWER-RIGHT.\nBOTTOM ROW: 5 S = FRONT view, nose points straight DOWN toward viewer; 6 SW = front-left view, nose points LOWER-LEFT; 7 W = left-facing profile, nose points LEFT; 8 NW = rear-left view, nose points UPPER-LEFT.\nTrue FRONT, BACK, LEFT, RIGHT, and FOUR DIAGONAL views are essential. The rear must not show front face/headlights. Do not repeat the same diagonal 8 times. All bodies centered and fitted to the same logical cell scale, no cropping or overlapping neighboring cells.\nSUBJECT: One small rounded steam locomotive: short upright chimney, jade boiler, brass wheels and piston linkage, round gold front lamp, rear cabin with square window. No tender or carriage, no smoke emitted; every facing must show the SAME locomotive, recognizable front lamp versus rear cabin."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露实际模型或质量。配置目标不是调用锁定或实际返回证明。",
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17813-69e2-7841-92f2-829f6ce612b5 as C:\\Users\\luyua\\.codex\\generated_images\\01a17813-69e2-7841-92f2-829f6ce612b5\\exec-d20f47e3-01e0-4298-ac7e-45d2ee941fdf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "nativeSizeFromSavedPNG": [
+      1774,
+      887
+    ]
+  },
+  "prompt": "Use case: game production prop sprites, not UI icons. Create an original high-definition Taoist chibi hand-painted 8-direction vehicle atlas for an isometric transport simulation. Strict style references are input image 1 (mail) and image 2 (team): jade/teal, warm ivory, restrained fine brass-gold craftsmanship, rounded full shapes, careful hand-painted shading, no photorealism, no plastic gloss or pixel art. Input image 3 is ONLY a heading/layout guide; never reproduce its arrows, cells or text.\nOUTPUT: wide 2:1 atlas desired 2048x1024, genuinely transparent alpha. Exactly FOUR columns and TWO rows of equal square cells, one COMPLETE isolated vehicle in each cell. At least 12% transparent padding around each vehicle in every cell. No frame, grid, labels, letters, numbers, watermarks, terrain, background, platform, road, track or ground shadow.\nCAMERA: fixed orthographic isometric camera at 30-degree elevation. Same physical dimensions, colors and identity throughout. Vehicle stays upright on its normal wheels/hull/skids; do NOT tilt the camera or rotate the entire picture plane. Change its actual heading around the vertical axis.\nMANDATORY EXACT ORDER, left to right:\nTOP ROW: 1 N = REAR view, front/nose points straight UP away from viewer; 2 NE = rear-right view, nose points UPPER-RIGHT; 3 E = right-facing profile, nose points RIGHT; 4 SE = front-right view, nose points LOWER-RIGHT.\nBOTTOM ROW: 5 S = FRONT view, nose points straight DOWN toward viewer; 6 SW = front-left view, nose points LOWER-LEFT; 7 W = left-facing profile, nose points LEFT; 8 NW = rear-left view, nose points UPPER-LEFT.\nTrue FRONT, BACK, LEFT, RIGHT, and FOUR DIAGONAL views are essential. The rear must not show front face/headlights. Do not repeat the same diagonal 8 times. All bodies centered and fitted to the same logical cell scale, no cropping or overlapping neighboring cells.\nSUBJECT: One small rounded steam locomotive: short upright chimney, jade boiler, brass wheels and piston linkage, round gold front lamp, rear cabin with square window. No tender or carriage, no smoke emitted; every facing must show the SAME locomotive, recognizable front lamp versus rear cabin.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "confirmed Taoist chibi style painting"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "confirmed Taoist chibi style painting"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\records\\vehicles\\direction-guide.png",
+      "sha256": "308ca203ec62764f24bf38358da89a63deb110eb70fe8338ccb1a3327d3d58fb",
+      "purpose": "heading/layout guide; code diagram,not painted art"
+    }
+  ],
+  "promptFile": "records/vehicles/loco-steam.prompt.txt",
+  "recordCorrection": {
+    "date": "2026-10-26",
+    "scope": "Actual prompt text and promptFile separated; no image/config/model metadata changed."
+  }
+}

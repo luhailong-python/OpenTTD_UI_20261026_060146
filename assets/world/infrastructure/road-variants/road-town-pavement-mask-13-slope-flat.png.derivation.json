@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/infrastructure/road-variants/road-town-pavement-mask-13-slope-flat.png",
+  "sha256": "46acfd5c18067fe45205016138a80350a9ba04ba44c326ef2a719b319a3480f4",
+  "generatedAt": "2026-10-28T07:33:52.399769+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 192,
+  "operation": "actual native road/tram lane Alpha over actual painted town-pavement ground; native unmarked paving96x96UV region repeated2x2 without enlargement; piecewise-affine source-corner height projection, shared fixedcanvas/anchor; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/roads/road-mask-13.png",
+      "sha256": "5f6817f2f2b140328ca268be3c34604cca8341478772344cb5938fdecd01e036",
+      "record": "assets/world/infrastructure/roads/road-mask-13.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/roads/road-mask-00.png",
+      "sha256": "9b9a7bff512b284db336580df0fefdeb36cafaee1596877275642584559c4579",
+      "record": "assets/world/infrastructure/roads/road-mask-00.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Native imagegen model/quality undisclosed; derivative transformations add no native painted details."
+}

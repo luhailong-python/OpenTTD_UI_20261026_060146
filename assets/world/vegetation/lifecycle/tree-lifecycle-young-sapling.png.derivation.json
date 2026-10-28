@@ -1,0 +1,52 @@
+{
+  "id": "tree-lifecycle-young-sapling",
+  "image": "assets/world/vegetation/lifecycle/tree-lifecycle-young-sapling.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation-lifecycle",
+  "sha256": "371ab21a1eac9e8d7510379e9b8bd1463dcc164b8c35af2bd95620c10b9988bc",
+  "climate": "arctic",
+  "artSpecies": "young-sapling",
+  "sourceTreeType": null,
+  "sourceCell": 8,
+  "sourceCropXYXY": [
+    125,
+    761,
+    293,
+    988
+  ],
+  "sourceAnchorInCrop": [
+    93.0,
+    227
+  ],
+  "nativeCropSize": [
+    168,
+    227
+  ],
+  "uniformScale": 1,
+  "pasteXY": [
+    35,
+    125
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-arctic.png",
+    "sha256": "5ff89bf1c1bff13ac1896d455f5b0d1dd2141ed76856b2bc78b2b79f2da1c481",
+    "record": "source-art/world/trees-arctic.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "tree-03-dying-2",
+  "image": "assets/world/vegetation/states/tree-03/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "935e73abd2c9a9accbe3b6d605f6dbda49cefbf6e78f3ccd77de49eb320a3bc9",
+  "climate": "temperate",
+  "artSpecies": "maple",
+  "sourceTreeType": 3,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-03.png",
+      "sha256": "cf1524d1bbf9967e8dc3ead48a3c2e1b936c8a10c3710ef1cfc65b441781b5d0",
+      "record": "assets/world/vegetation/mature/tree-03.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-bare-dead-tree.png",
+      "sha256": "3d42630a62e5fb7f53132a0d96f670ccb2ea168abaf2505ac4e80d2218eda012",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-bare-dead-tree.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-bare-dead-tree",
+    "sharedScale": 0.7801239669421487,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-03"
+  ]
+}

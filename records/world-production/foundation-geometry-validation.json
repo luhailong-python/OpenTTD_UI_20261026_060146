@@ -1,0 +1,3444 @@
+{
+  "createdAt": "2026-10-28T10:17:53.843711+00:00",
+  "scope": "source piecewise height functions, triangular half area, real PNG/Alpha/anchor/SHA, two-part reassembly, all66 valid terrain assemblies",
+  "sourceGeometry": [
+    "src/landscape.cpp:182-225",
+    "src/landscape.cpp:240-300",
+    "src/rail_cmd.cpp:310-381"
+  ],
+  "manifest": {
+    "file": "assets/world/infrastructure/foundations/manifest.json",
+    "sha256": "9a86a4217b14dd3d6280a7d6095843dc7b326c9fabe8e79344081b70f3f1f6f1"
+  },
+  "checks": [
+    {
+      "id": "foundation-leveled-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-w.png"
+    },
+    {
+      "id": "foundation-leveled-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-w-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-w.png"
+    },
+    {
+      "id": "foundation-inclinedx-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-w-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-w.png"
+    },
+    {
+      "id": "foundation-inclinedy-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-w-sides.png"
+    },
+    {
+      "id": "foundation-halftilew-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilew-w.png"
+    },
+    {
+      "id": "foundation-halftilew-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilew-w-sides.png"
+    },
+    {
+      "id": "foundation-leveled-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-s.png"
+    },
+    {
+      "id": "foundation-leveled-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-s-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-s.png"
+    },
+    {
+      "id": "foundation-inclinedx-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-s-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-s.png"
+    },
+    {
+      "id": "foundation-inclinedy-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-s-sides.png"
+    },
+    {
+      "id": "foundation-halftiles-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftiles-s.png"
+    },
+    {
+      "id": "foundation-halftiles-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftiles-s-sides.png"
+    },
+    {
+      "id": "foundation-leveled-sw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-sw.png"
+    },
+    {
+      "id": "foundation-leveled-sw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-sw-sides.png"
+    },
+    {
+      "id": "foundation-railw-sw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railw-sw.png"
+    },
+    {
+      "id": "foundation-railw-sw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railw-sw-sides.png"
+    },
+    {
+      "id": "foundation-rails-sw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-rails-sw.png"
+    },
+    {
+      "id": "foundation-rails-sw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-rails-sw-sides.png"
+    },
+    {
+      "id": "foundation-leveled-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-e.png"
+    },
+    {
+      "id": "foundation-leveled-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-e-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-e.png"
+    },
+    {
+      "id": "foundation-inclinedx-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-e-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-e.png"
+    },
+    {
+      "id": "foundation-inclinedy-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-e-sides.png"
+    },
+    {
+      "id": "foundation-halftilee-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilee-e.png"
+    },
+    {
+      "id": "foundation-halftilee-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilee-e-sides.png"
+    },
+    {
+      "id": "foundation-leveled-ew.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-ew.png"
+    },
+    {
+      "id": "foundation-leveled-ew-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-ew-sides.png"
+    },
+    {
+      "id": "foundation-halftilew-ew.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilew-ew.png"
+    },
+    {
+      "id": "foundation-halftilew-ew-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilew-ew-sides.png"
+    },
+    {
+      "id": "foundation-halftilee-ew.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilee-ew.png"
+    },
+    {
+      "id": "foundation-halftilee-ew-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilee-ew-sides.png"
+    },
+    {
+      "id": "foundation-rails-ew.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-rails-ew.png"
+    },
+    {
+      "id": "foundation-rails-ew-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-rails-ew-sides.png"
+    },
+    {
+      "id": "foundation-railn-ew.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railn-ew.png"
+    },
+    {
+      "id": "foundation-railn-ew-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railn-ew-sides.png"
+    },
+    {
+      "id": "foundation-leveled-se.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-se.png"
+    },
+    {
+      "id": "foundation-leveled-se-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-se-sides.png"
+    },
+    {
+      "id": "foundation-rails-se.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-rails-se.png"
+    },
+    {
+      "id": "foundation-rails-se-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-rails-se-sides.png"
+    },
+    {
+      "id": "foundation-raile-se.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-raile-se.png"
+    },
+    {
+      "id": "foundation-raile-se-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-raile-se-sides.png"
+    },
+    {
+      "id": "foundation-leveled-wse.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-wse.png"
+    },
+    {
+      "id": "foundation-leveled-wse-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-wse-sides.png"
+    },
+    {
+      "id": "foundation-leveled-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-n.png"
+    },
+    {
+      "id": "foundation-leveled-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-n-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-n.png"
+    },
+    {
+      "id": "foundation-inclinedx-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-n-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-n.png"
+    },
+    {
+      "id": "foundation-inclinedy-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-n-sides.png"
+    },
+    {
+      "id": "foundation-halftilen-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilen-n.png"
+    },
+    {
+      "id": "foundation-halftilen-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilen-n-sides.png"
+    },
+    {
+      "id": "foundation-leveled-nw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-nw.png"
+    },
+    {
+      "id": "foundation-leveled-nw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-nw-sides.png"
+    },
+    {
+      "id": "foundation-railw-nw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railw-nw.png"
+    },
+    {
+      "id": "foundation-railw-nw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railw-nw-sides.png"
+    },
+    {
+      "id": "foundation-railn-nw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railn-nw.png"
+    },
+    {
+      "id": "foundation-railn-nw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railn-nw-sides.png"
+    },
+    {
+      "id": "foundation-leveled-ns.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-ns.png"
+    },
+    {
+      "id": "foundation-leveled-ns-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-ns-sides.png"
+    },
+    {
+      "id": "foundation-halftiles-ns.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftiles-ns.png"
+    },
+    {
+      "id": "foundation-halftiles-ns-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftiles-ns-sides.png"
+    },
+    {
+      "id": "foundation-halftilen-ns.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilen-ns.png"
+    },
+    {
+      "id": "foundation-halftilen-ns-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilen-ns-sides.png"
+    },
+    {
+      "id": "foundation-railw-ns.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railw-ns.png"
+    },
+    {
+      "id": "foundation-railw-ns-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railw-ns-sides.png"
+    },
+    {
+      "id": "foundation-raile-ns.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-raile-ns.png"
+    },
+    {
+      "id": "foundation-raile-ns-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-raile-ns-sides.png"
+    },
+    {
+      "id": "foundation-leveled-nws.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-nws.png"
+    },
+    {
+      "id": "foundation-leveled-nws-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-nws-sides.png"
+    },
+    {
+      "id": "foundation-leveled-ne.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-ne.png"
+    },
+    {
+      "id": "foundation-leveled-ne-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-ne-sides.png"
+    },
+    {
+      "id": "foundation-raile-ne.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-raile-ne.png"
+    },
+    {
+      "id": "foundation-raile-ne-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-raile-ne-sides.png"
+    },
+    {
+      "id": "foundation-railn-ne.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railn-ne.png"
+    },
+    {
+      "id": "foundation-railn-ne-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-railn-ne-sides.png"
+    },
+    {
+      "id": "foundation-leveled-enw.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-enw.png"
+    },
+    {
+      "id": "foundation-leveled-enw-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-enw-sides.png"
+    },
+    {
+      "id": "foundation-leveled-sen.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-sen.png"
+    },
+    {
+      "id": "foundation-leveled-sen-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-sen-sides.png"
+    },
+    {
+      "id": "foundation-leveled-steep-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-w.png"
+    },
+    {
+      "id": "foundation-leveled-steep-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-w-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-w.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-w-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-w.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-w-sides.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-w.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-w-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-w.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-w-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-w-lower.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-w-lower.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-w-upper.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-w-upper.png"
+    },
+    {
+      "id": "foundation-halftilew-steep-w.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilew-steep-w.png"
+    },
+    {
+      "id": "foundation-halftilew-steep-w-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilew-steep-w-sides.png"
+    },
+    {
+      "id": "foundation-leveled-steep-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-s.png"
+    },
+    {
+      "id": "foundation-leveled-steep-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-s-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-s.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-s-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-s.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-s-sides.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-s.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-s-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-s.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-s-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-s-lower.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-s-lower.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-s-upper.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-s-upper.png"
+    },
+    {
+      "id": "foundation-halftiles-steep-s.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftiles-steep-s.png"
+    },
+    {
+      "id": "foundation-halftiles-steep-s-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftiles-steep-s-sides.png"
+    },
+    {
+      "id": "foundation-leveled-steep-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-e.png"
+    },
+    {
+      "id": "foundation-leveled-steep-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-e-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-e.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-e-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-e.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-e-sides.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-e.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-e-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-e.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-e-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-e-lower.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-e-lower.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-e-upper.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-e-upper.png"
+    },
+    {
+      "id": "foundation-halftilee-steep-e.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilee-steep-e.png"
+    },
+    {
+      "id": "foundation-halftilee-steep-e-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilee-steep-e-sides.png"
+    },
+    {
+      "id": "foundation-leveled-steep-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-n.png"
+    },
+    {
+      "id": "foundation-leveled-steep-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-leveled-steep-n-sides.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-n.png"
+    },
+    {
+      "id": "foundation-inclinedx-steep-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedx-steep-n-sides.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-n.png"
+    },
+    {
+      "id": "foundation-inclinedy-steep-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-inclinedy-steep-n-sides.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-n.png"
+    },
+    {
+      "id": "foundation-steeplower-steep-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steeplower-steep-n-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-n.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-n-sides.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-n-upper.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-n-upper.png"
+    },
+    {
+      "id": "foundation-steepboth-steep-n-lower.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-steepboth-steep-n-lower.png"
+    },
+    {
+      "id": "foundation-halftilen-steep-n.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilen-steep-n.png"
+    },
+    {
+      "id": "foundation-halftilen-steep-n-sides.png",
+      "level": "OK",
+      "image": "assets/world/infrastructure/foundations/foundation-halftilen-steep-n-sides.png"
+    },
+    {
+      "id": "Leveled-1.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-1.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-1.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-1.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-1.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-1.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-1.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-1.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-1.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-1.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-1.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-1.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-1.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-1.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-1.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileW-1.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileW-1.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "s",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileW-1.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileW-1.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileW-1.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-2.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-2.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-2.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-2.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-2.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-2.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-2.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-2.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-2.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-2.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-2.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-2.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-2.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-2.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-2.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileS-2.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileS-2.half-area",
+      "level": "OK",
+      "corners": [
+        "e",
+        "s",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileS-2.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileS-2.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileS-2.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-3.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-3.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-3.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-3.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-3.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailW-3.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailW-3.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailW-3.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailW-3.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailW-3.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailS-3.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailS-3.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailS-3.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailS-3.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailS-3.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-4.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-4.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-4.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-4.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-4.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-4.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-4.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-4.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-4.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-4.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-4.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-4.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-4.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-4.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-4.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileE-4.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileE-4.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "e",
+        "s"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileE-4.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileE-4.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileE-4.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-5.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-5.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-5.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-5.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-5.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileW-5.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileW-5.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "s",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileW-5.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileW-5.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileW-5.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileE-5.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileE-5.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "e",
+        "s"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileE-5.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileE-5.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileE-5.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailS-5.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailS-5.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailS-5.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailS-5.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailS-5.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailN-5.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailN-5.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailN-5.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailN-5.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailN-5.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-6.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-6.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-6.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-6.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-6.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailS-6.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailS-6.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailS-6.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailS-6.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailS-6.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailE-6.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailE-6.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailE-6.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailE-6.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailE-6.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-7.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-7.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-7.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-7.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-7.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-8.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-8.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-8.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-8.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-8.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-8.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-8.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-8.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-8.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-8.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-8.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-8.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-8.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-8.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-8.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileN-8.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileN-8.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "e",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileN-8.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileN-8.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileN-8.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-9.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-9.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-9.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-9.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-9.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailW-9.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailW-9.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailW-9.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailW-9.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailW-9.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailN-9.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailN-9.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailN-9.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailN-9.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailN-9.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-10.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-10.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-10.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-10.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-10.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileS-10.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileS-10.half-area",
+      "level": "OK",
+      "corners": [
+        "e",
+        "s",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileS-10.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileS-10.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileS-10.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileN-10.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileN-10.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "e",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileN-10.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileN-10.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileN-10.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "RailW-10.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailW-10.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailW-10.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailW-10.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailW-10.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailE-10.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailE-10.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailE-10.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailE-10.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailE-10.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-11.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-11.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-11.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-11.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-11.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-12.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-12.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-12.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-12.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-12.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailE-12.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailE-12.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailE-12.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailE-12.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailE-12.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "RailN-12.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "RailN-12.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "RailN-12.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "RailN-12.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "RailN-12.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-13.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-13.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-13.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-13.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-13.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-14.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-14.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-14.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-14.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-14.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-27.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-27.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-27.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-27.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-27.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-27.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-27.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-27.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-27.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-27.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "SteepLower-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepLower-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepLower-27.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepLower-27.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepLower-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepLower-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepBoth-27.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "SteepBoth-27.two-part-reassembly",
+      "level": "OK"
+    },
+    {
+      "id": "SteepBoth-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepBoth-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepBoth-27.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepBoth-27.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepBoth-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepBoth-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileW-27.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileW-27.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "s",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileW-27.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileW-27.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileW-27.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-23.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-23.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-23.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-23.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-23.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-23.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-23.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-23.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-23.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-23.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "SteepLower-23.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepLower-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepLower-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepLower-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepLower-23.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepBoth-23.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "SteepBoth-23.two-part-reassembly",
+      "level": "OK"
+    },
+    {
+      "id": "SteepBoth-23.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepBoth-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepBoth-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepBoth-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepBoth-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepBoth-23.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileS-23.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileS-23.half-area",
+      "level": "OK",
+      "corners": [
+        "e",
+        "s",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileS-23.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileS-23.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileS-23.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "Leveled-30.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-30.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-30.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-30.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-30.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-30.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-30.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-30.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-30.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-30.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "SteepLower-30.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepLower-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepLower-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepLower-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepLower-30.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepBoth-30.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "SteepBoth-30.two-part-reassembly",
+      "level": "OK"
+    },
+    {
+      "id": "SteepBoth-30.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepBoth-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepBoth-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepBoth-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepBoth-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepBoth-30.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "HalfTileE-30.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileE-30.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "e",
+        "s"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileE-30.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileE-30.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileE-30.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-29.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "Leveled-29.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "Leveled-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "Leveled-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "Leveled-29.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedX-29.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedX-29.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedX-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedX-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedX-29.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "InclinedY-29.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "InclinedY-29.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "InclinedY-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "InclinedY-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "InclinedY-29.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-29.source-height",
+      "level": "OK",
+      "sampleCount": 1089,
+      "issues": []
+    },
+    {
+      "id": "SteepLower-29.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepLower-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepLower-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepLower-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepLower-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepLower-29.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepBoth-29.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "SteepBoth-29.two-part-reassembly",
+      "level": "OK"
+    },
+    {
+      "id": "SteepBoth-29.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepBoth-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "SteepBoth-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "SteepBoth-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "e"
+      ]
+    },
+    {
+      "id": "SteepBoth-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "s"
+      ]
+    },
+    {
+      "id": "SteepBoth-29.support",
+      "level": "OK",
+      "face": [
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "HalfTileN-29.source-height",
+      "level": "OK",
+      "sampleCount": 1024,
+      "issues": []
+    },
+    {
+      "id": "HalfTileN-29.half-area",
+      "level": "OK",
+      "corners": [
+        "n",
+        "e",
+        "w"
+      ],
+      "area": 0.5
+    },
+    {
+      "id": "HalfTileN-29.support",
+      "level": "OK",
+      "face": [
+        "n",
+        "e"
+      ]
+    },
+    {
+      "id": "HalfTileN-29.support",
+      "level": "OK",
+      "face": [
+        "w",
+        "n"
+      ]
+    },
+    {
+      "id": "HalfTileN-29.support",
+      "level": "OK",
+      "face": [
+        "e",
+        "w"
+      ]
+    },
+    {
+      "id": "four-half-corners",
+      "level": "OK"
+    },
+    {
+      "id": "all14-modes",
+      "level": "OK"
+    }
+  ],
+  "passed": 492,
+  "failures": 0,
+  "samples": 70834,
+  "sourceValidCases": 66,
+  "sourceInvalidOrNoneCases": 200,
+  "formalPNGCount": 140,
+  "assemblyPreviews": [
+    {
+      "file": "previews/world/foundation-terrain-assembly-1.jpg",
+      "sha256": "1903873890dff0fffcb2bf2af0c3649df41479182db38abfec891d616d5d0717",
+      "cases": 24
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-2.jpg",
+      "sha256": "a5af30a7148c6fe7e92f0136c1b3063921d5be6edc11125331aa7972c1052c57",
+      "cases": 24
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-3.jpg",
+      "sha256": "d8a29ee05d0a4c280846a7bef24b41eb0713e1e9436e1438518dd34275a5fddd",
+      "cases": 18
+    }
+  ],
+  "visualReview": "passed-local: actual family contact and all66 terrain assemblies inspected; current hashes match",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "continuousReferenceNote": "Reference evaluates exact source planes before integer pixel rounding; strict half boundaries have upper/lower values and are excluded from interiors test.",
+  "visualReviewRecord": {
+    "file": "records/world-production/foundation-visual-review.json",
+    "sha256": "89e56c98e3e7499428863c43be14517a4e01acfa495efcf9196a107d9bf43b1a"
+  },
+  "sourceScripts": [
+    {
+      "file": "tools/foundation_geometry_v2.py",
+      "sha256": "7c791ee8641ed239815c08455fe3b1ac13af9435b8520e5041c3d73c7894a971"
+    },
+    {
+      "file": "tools/build_foundation_geometry.py",
+      "sha256": "9472dc55e4280f83d3af27174bef96d01b038d451d723b8676f514afaf6bddc5"
+    },
+    {
+      "file": "tools/validate_foundation_geometry.py",
+      "sha256": "fef533cc2af295474c1650b6e8f3d5c606e681cb8f8e1d14719cc4dc485f5b3c"
+    }
+  ]
+}

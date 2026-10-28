@@ -1,0 +1,67 @@
+{
+  "id": "airport-tile-68-helipad-3-fence-nw",
+  "image": "assets/world/infrastructure/airports/airport-tile-68-helipad-3-fence-nw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "498d05b6a21d74761186908c41370e10477377d9f97593313f8fc17f863809a6",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-helipad.png",
+      "sha256": "6c86b0e25cb88043e42cf6b0f448e2c5d8cd87f1d63ef9d42d3d3f574e8882e1",
+      "record": "assets/world/infrastructure/airports/airport-ground-helipad.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-nw.png",
+      "sha256": "09676bbd986b0b9b6b34a24ecb694df6a41f33d25de89853faa1c1550eeae5cc",
+      "record": "assets/world/infrastructure/airports/airport-fence-nw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 68,
+  "sourceTileEnum": "APT_HELIPAD_3_FENCE_NW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_newhelipad_fence_nw) // APT_HELIPAD_3_FENCE_NW",
+  "layers": [
+    {
+      "artId": "airport-ground-helipad",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-nw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-helistation",
+    "airport-tile-68-helipad-3-fence-nw"
+  ]
+}

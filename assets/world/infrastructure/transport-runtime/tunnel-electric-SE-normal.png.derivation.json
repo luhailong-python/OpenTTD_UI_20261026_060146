@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-electric-SE-normal",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-electric-SE-normal.png",
+  "sha256": "f973be2e6ffe8d1464ca162969fdb1c66ede08c83b7111a3f9b80cf66ff463b7",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-normal.png",
+      "sha256": "cf786afc8a6be169e015565acf1984b17895fbfd3f3f17a1932dd77c3a66c993",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-normal.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-rail-SE-normal.png",
+      "sha256": "f1ad509822e6c87ded96a1317ea0b876ff5205e09c97efce419773a2581716d6",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-rail-SE-normal.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-electric"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:11.557433+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "normal",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

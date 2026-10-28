@@ -1,0 +1,117 @@
+{
+  "schema": "actual-art-visual-review.v1",
+  "recordedAt": "2026-10-28T07:32:58.741634+00:00",
+  "inspector": "airport_final production agent; independent whole-pack review separate",
+  "inspectionContext": "Actual view_image inspection performed during completed airport production, carried forward after current source/preview hashes verified; no re-render or claim of new image generation.",
+  "manifest": "assets/world/infrastructure/airports/manifest.json",
+  "manifestSHA256": "2a1655cf8d2a2187a2084798a3561fd67c375f888b90c3cf214c359f8cc89da8",
+  "result": "local-static-and-motion-art-checked-user-acceptance-pending",
+  "coverage": {
+    "sourceAirportTypes": 10,
+    "sourceTileIds": 74,
+    "sourceLayoutPlacements": 265,
+    "animationFrames": 20
+  },
+  "pages": [
+    {
+      "file": "previews/world/airports/all-layouts.jpg",
+      "sha256": "9c4753488d654635946bfe9a42a1364cf79efb004e52a24527f897127302cfab",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    },
+    {
+      "file": "previews/world/airports/tiles-1.jpg",
+      "sha256": "3f99df1707c8a153340ba7c18ef15c94b12732291ba9b3a89705275b7b99d290",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    },
+    {
+      "file": "previews/world/airports/tiles-2.jpg",
+      "sha256": "18ccae3d3dfa192555e365ff674e25bfd95367a55f65e52bb37fb7de5413667c",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    },
+    {
+      "file": "previews/world/airports/tiles-3.jpg",
+      "sha256": "b92f956317403b8a8371964ca95e0eef34f7a923f1ecb00bd056b288aa93010a",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    },
+    {
+      "file": "previews/world/airports/tiles-4.jpg",
+      "sha256": "548293cebd956ed622d8bfa6c2a678c90b82f5e0cfb8059dc03ef76f0d61dda0",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    },
+    {
+      "file": "previews/world/airports/airport-radar-scan-phases.jpg",
+      "sha256": "1b55ba827932674efb30e9f02d9b6724e90d82ef9646b0d0be6b01648024c2fe",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    },
+    {
+      "file": "previews/world/airports/airport-windsock-flutter-phases.jpg",
+      "sha256": "cd5e91de0af94de64e707010ec256479d7c4d8c1ae90e9237b7862f7705f6057",
+      "result": "reviewed actual pixels; legible ground lanes, complete footprint, separate modules, consistent support placement"
+    }
+  ],
+  "layoutPNGs": [
+    {
+      "file": "previews/world/airports/country-layout.png",
+      "sha256": "81867098dedb6608ba1daec9764f54ea096e0c233c58dca72a7e83bee6cfa6f2",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/city-layout.png",
+      "sha256": "3db8b7aa713f30f0256d0dde5d7bde83b8e18c65673e8543d0c61cd962645d90",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/heliport-layout.png",
+      "sha256": "8bea49dd182bbf7431179a1d0bf599dda830af1e3c50623e65a486fa53749493",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/metropolitan-layout.png",
+      "sha256": "464a251fc4f02d77735cedbd9abb43586eeb28fb68b6d6913e336c9d232dcf38",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/international-layout.png",
+      "sha256": "c67297aad0b95335fe0d8b3ba6f5d6d888c0e7b33c7f468861c72087f9e547e7",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/commuter-layout.png",
+      "sha256": "cf4a993e67ad898479e0405b617c70f8c87cae9769abf8693d9a9456852e82ee",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/helidepot-layout.png",
+      "sha256": "73a44e9db1336b3d8f04487642ac4c126fb953ca37cd7fb8807e5a4c8a57ad97",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/intercontinental-layout.png",
+      "sha256": "89de972a7cab077e191cc1ec91fb28de5bc1a888ad6ab08bf8ec0c042aa9205c",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/helistation-layout.png",
+      "sha256": "177b889397a01dfbb98a59f5b8294476fc66e0cb3ec0ab9c3f5307a0f7fb4a79",
+      "matchesAcceptedPreviewHash": true
+    },
+    {
+      "file": "previews/world/airports/oilrig-layout.png",
+      "sha256": "1995a3b6a0425614e2d9bc54cfbcfc77e9d51f0c134414dddae9f0a5320e86d3",
+      "matchesAcceptedPreviewHash": true
+    }
+  ],
+  "findings": [
+    "Double fence sides retain both source edges; apron line does not include unrelated runway border.",
+    "Radio mast uses actual radio-mast art, distinct from ATC tower.",
+    "Radar and windsock supports stay fixed; movement is declared geometric part animation, not newly generated frames."
+  ],
+  "limitations": [
+    "User art approval pending.",
+    "All world/body detail is native-source crop or declared derivative, never inferred from output canvas.",
+    "Taxi vehicle routing, sprite order and Unity placement not run.",
+    "Oilrig preview surrounding water is context; retain its actual source airport footprint."
+  ],
+  "unityValidated": false,
+  "userAccepted": false
+}

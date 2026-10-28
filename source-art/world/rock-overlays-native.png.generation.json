@@ -1,0 +1,71 @@
+{
+  "file": "source-art/world/rock-overlays-native.png",
+  "sha256": "3f28247d7b210466f6786152b2faa06390b4d1da85a18c65082c3df476cc440f",
+  "generatedAt": "2026-10-28T10:28:45.701Z",
+  "generatedAtEvidence": "records/world-production/rock-overlays-native-call.json records actual UTC call times",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: production transparent native rock sprites with six matched environment states for Taoist chibi isometric transport game.\nMake a clean 3-column by 2-row ATLAS, six equally sized cells, generous transparent spacing and outside margins. Each cell contains EXACTLY THE SAME THREE SMALL INDIVIDUAL ROCKS with identical shapes, size and placement, clearly separated by transparent gaps so that each rock can be cropped individually. One medium broad rounded irregular rock on the left, one smaller upright rounded rock near the right, one small low pebble below center. Rocks have flat contact bottoms and are viewed from the same orthographic 2:1 isometric elevated camera. Do not connect the rocks with ground, grass or water. Each cell must have the exact same three contact points and all rock bodies must fit completely inside the cell, no touching neighboring cell or image edge.\nImages1 and2 are strict refined Taoist chibi hand-painted finish/palette references only: clean detailed soft painting, gentle rounded forms, natural warm gray and muted blue-gray stone with ivory light. No UI, characters, buildings, text or gold ornaments. Image3 is this project's existing large stone color/finish reference; do not copy its grass, flowers or earth base.\nTop row left: dry bare rocks with no snow. Top row middle: the identical rocks with a light dusting of powder snow covering about one quarter of their upward surfaces. Top row right: same rocks with about half their upward surfaces covered in soft snow. Bottom row left: same rocks with about three quarters snow coverage. Bottom row middle: same rocks with full soft snow caps, exposed vertical gray stone walls still visible. Bottom row right: identical rocks in wet coastal condition, slightly darker low wet edges and subtle moss accents only, no water, no foam, no ground.\nSnow must be truly hand-painted rounded accumulated caps sitting on stone, increasing consistently across the first five states; not a global white tint, not white rectangular patches. All six cells preserve the same three rock identities and positions. Style stays cute, calm and fine hand-painted, no pixel art or plastic sheen. Sparse tiny stone facets, no large harsh black outline.\nTRUE TRANSPARENT ALPHA everywhere outside the three rocks including all gaps. No cast shadows outside rocks, no bases, no tile diamond, no earth, no grass tufts, no flowers, no water puddles, no foam, no scenic background. No checkerboard painted into the image. No words, numbers, labels, panels, grid lines, logo or watermark. Native large high resolution requested; six cells must remain well separated and usable as independent sprites.\n\r\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world\\infrastructure\\fences-shore\\rocks-cluster.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-ebd23c43-b6fa-421e-851d-101cd56991ab.png",
+    "nativeSizeFromPNG": [
+      1536,
+      1024
+    ],
+    "callRecord": "records/world-production/rock-overlays-native-call.json"
+  },
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回亦未披露；配置目标不作为实际返回证明。",
+  "prompt": "Use case: stylized-concept\nAsset type: production transparent native rock sprites with six matched environment states for Taoist chibi isometric transport game.\nMake a clean 3-column by 2-row ATLAS, six equally sized cells, generous transparent spacing and outside margins. Each cell contains EXACTLY THE SAME THREE SMALL INDIVIDUAL ROCKS with identical shapes, size and placement, clearly separated by transparent gaps so that each rock can be cropped individually. One medium broad rounded irregular rock on the left, one smaller upright rounded rock near the right, one small low pebble below center. Rocks have flat contact bottoms and are viewed from the same orthographic 2:1 isometric elevated camera. Do not connect the rocks with ground, grass or water. Each cell must have the exact same three contact points and all rock bodies must fit completely inside the cell, no touching neighboring cell or image edge.\nImages1 and2 are strict refined Taoist chibi hand-painted finish/palette references only: clean detailed soft painting, gentle rounded forms, natural warm gray and muted blue-gray stone with ivory light. No UI, characters, buildings, text or gold ornaments. Image3 is this project's existing large stone color/finish reference; do not copy its grass, flowers or earth base.\nTop row left: dry bare rocks with no snow. Top row middle: the identical rocks with a light dusting of powder snow covering about one quarter of their upward surfaces. Top row right: same rocks with about half their upward surfaces covered in soft snow. Bottom row left: same rocks with about three quarters snow coverage. Bottom row middle: same rocks with full soft snow caps, exposed vertical gray stone walls still visible. Bottom row right: identical rocks in wet coastal condition, slightly darker low wet edges and subtle moss accents only, no water, no foam, no ground.\nSnow must be truly hand-painted rounded accumulated caps sitting on stone, increasing consistently across the first five states; not a global white tint, not white rectangular patches. All six cells preserve the same three rock identities and positions. Style stays cute, calm and fine hand-painted, no pixel art or plastic sheen. Sparse tiny stone facets, no large harsh black outline.\nTRUE TRANSPARENT ALPHA everywhere outside the three rocks including all gaps. No cast shadows outside rocks, no bases, no tile diamond, no earth, no grass tufts, no flowers, no water puddles, no foam, no scenic background. No checkerboard painted into the image. No words, numbers, labels, panels, grid lines, logo or watermark. Native large high resolution requested; six cells must remain well separated and usable as independent sprites.\n\r\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world\\infrastructure\\fences-shore\\rocks-cluster.png",
+      "sha256": "ab68fbc277673f4db666256270482413ed8ae5d58e8fcc925ce995694854e611",
+      "purpose": "existing native rock material/finish reference only, base vegetation excluded"
+    }
+  ],
+  "promptFile": "records/world-production/rock-overlays-native.prompt.txt",
+  "status": "pending extraction/Alpha validation and actual sprite visual review"
+}

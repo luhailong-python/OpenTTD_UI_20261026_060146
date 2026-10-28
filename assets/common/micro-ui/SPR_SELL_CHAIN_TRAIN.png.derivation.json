@@ -1,0 +1,68 @@
+{
+  "id": "SPR_SELL_CHAIN_TRAIN",
+  "image": "assets/common/micro-ui/SPR_SELL_CHAIN_TRAIN.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "8aa496764be6111bf5fd0d400296ce39d374a0005c72f77dffa1a44ee0fa09a3",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/train.png",
+      "sha256": "2f13c37fe7378f788ebeec6f655021e9e5c29d9b4c60aecc043b7d628f4168bf",
+      "record": "assets/icons/train.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_SELL_CHAIN_TRAIN.svg",
+      "sha256": "d7f591610ae9de2dbb48553ef32a55330199c3dc5649c9081bd0f3de7b92e5a8",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_SELL_CHAIN_TRAIN",
+  "sourceSpriteId": 5001,
+  "category": "vehicle-operation",
+  "functionalGlyph": "chain",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_SELL_CHAIN_TRAIN.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

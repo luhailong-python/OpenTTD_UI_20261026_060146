@@ -1,0 +1,54 @@
+{
+  "id": "tree-14",
+  "image": "assets/world/vegetation/mature/tree-14.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "e67e2eb33e3f17819552ae43fc0b354f8cfe5094a55940d6ed2e9d5a01bc070f",
+  "climate": "arctic",
+  "artSpecies": "snow-fir",
+  "sourceTreeType": 14,
+  "sourceCell": 2,
+  "sourceCropXYXY": [
+    817,
+    8,
+    1110,
+    374
+  ],
+  "sourceAnchorInCrop": [
+    141.0,
+    366
+  ],
+  "nativeCropSize": [
+    293,
+    366
+  ],
+  "uniformScale": 0.7894736842105263,
+  "pasteXY": [
+    17,
+    63
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-arctic.png",
+    "sha256": "5ff89bf1c1bff13ac1896d455f5b0d1dd2141ed76856b2bc78b2b79f2da1c481",
+    "record": "source-art/world/trees-arctic.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-14"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

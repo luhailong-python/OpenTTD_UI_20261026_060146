@@ -1,0 +1,68 @@
+{
+  "id": "SPR_JOIN",
+  "image": "assets/common/micro-ui/SPR_JOIN.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "db755794b007bccd6ef808b7a7cd5d7e7ca9a03418732c159f8b6bc25cf1bd4b",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/company.png",
+      "sha256": "b7e5fd79a2ebcf87f1a44951b1c98b923eefc0fb685651d5361062b2da052d29",
+      "record": "assets/icons/company.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_JOIN.svg",
+      "sha256": "5cd8c91d1c875c130824f7a9d74a7e21f90ff5776053305ca1121b960bccdc4f",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_JOIN",
+  "sourceSpriteId": 5084,
+  "category": "function-status",
+  "functionalGlyph": "plus",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_JOIN.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

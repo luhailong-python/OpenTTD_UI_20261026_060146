@@ -1,0 +1,37 @@
+{
+  "id": "rail-warehouse-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-warehouse-axis-y.png",
+  "sha256": "abdd98cfce26d6dac8d66881c368b3761f65d3b6627173ad5e3ee20ba73db2a7",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-warehouse.png",
+      "sha256": "02a3de50e8b4d02e1bfc9c24dd25231283a142d73c443a5d61a6c8ca87136130",
+      "record": "assets/world/infrastructure/transport/rail-warehouse.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

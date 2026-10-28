@@ -1,0 +1,580 @@
+{
+  "id": 44,
+  "upstreamName": "Sugar Truck",
+  "familyId": "wagon-hopper",
+  "transport": "train",
+  "cargo": "CT_SUGAR",
+  "climates": [
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 147
+  },
+  "trackHardware": "rail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/N-body.png",
+      "sha256": "615d725acfe89949adc6f5e05bfcedfd161832f458c032f561d41ef397a12f70",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/N-body.png",
+          "sha256": "615d725acfe89949adc6f5e05bfcedfd161832f458c032f561d41ef397a12f70",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/N-loaded.png",
+          "sha256": "f66a45ef29f943eb253f2471bb4ca4bd0e32b4beb26ccf0184530257f8c0a06b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              198,
+              170
+            ],
+            "cargoSize": [
+              117,
+              111
+            ],
+            "loadBayCenter": [
+              256.0,
+              225.52
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/N.png",
+          "sha256": "54db3ca7c37853c08eba4b15bfe1135efd90eca9f37c6984e102ab1b3827c00c",
+          "record": "assets/world/vehicles/families/wagon-hopper/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/NE-body.png",
+      "sha256": "bae5ff7409188c20635130a20f9f55c96ffa5c73f94a3a38c5a820dba276fa9d",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/NE-body.png",
+          "sha256": "bae5ff7409188c20635130a20f9f55c96ffa5c73f94a3a38c5a820dba276fa9d",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/NE-loaded.png",
+          "sha256": "011a09f38499b0cb39606c33bedff22910f9ca11f92723c182b6cce0b89cecbb",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              205,
+              148
+            ],
+            "cargoSize": [
+              101,
+              96
+            ],
+            "loadBayCenter": [
+              255.5,
+              196.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/NE.png",
+          "sha256": "7f6193bc28fe5484b51a015140babcaf7679a9a4498f051eda36263a9f3118b4",
+          "record": "assets/world/vehicles/families/wagon-hopper/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/E-body.png",
+      "sha256": "fae0ee39b1990a10ee95716c02b84ace7c6afdc7f5790f4fc8dcc24f9dbf7241",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/E-body.png",
+          "sha256": "fae0ee39b1990a10ee95716c02b84ace7c6afdc7f5790f4fc8dcc24f9dbf7241",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/E-loaded.png",
+          "sha256": "140d6fca48dfe086ec311a133cfa4fe4764be100cba1f619c688aaed38f52523",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              236,
+              197
+            ],
+            "cargoSize": [
+              40,
+              38
+            ],
+            "loadBayCenter": [
+              256.5,
+              215.92
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/E.png",
+          "sha256": "3b98060d6e8a3d4c32617835327003d3f310f543c74a7d73b0ec20bbbd65e5e1",
+          "record": "assets/world/vehicles/families/wagon-hopper/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/SE-body.png",
+      "sha256": "a01112e6b1fc1446609c80bd10b31ecf1ad18d8fb631ce6a95e895187bd4528a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/SE-body.png",
+          "sha256": "a01112e6b1fc1446609c80bd10b31ecf1ad18d8fb631ce6a95e895187bd4528a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/SE-loaded.png",
+          "sha256": "a22f8e759962e83cb8cc67320320904cdf1f94e0434010c0278aba0f3acbca90",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              204,
+              144
+            ],
+            "cargoSize": [
+              103,
+              98
+            ],
+            "loadBayCenter": [
+              256.0,
+              192.64
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/SE.png",
+          "sha256": "22e835574d16544e3db6c9dad743acefdd1c9a62e3ea5850bb85cee633a1501d",
+          "record": "assets/world/vehicles/families/wagon-hopper/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/S-body.png",
+      "sha256": "29138101ccd099ae804c65efd0812a1119835a67f7efba2d3c876debe1386959",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/S-body.png",
+          "sha256": "29138101ccd099ae804c65efd0812a1119835a67f7efba2d3c876debe1386959",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/S-loaded.png",
+          "sha256": "957eace77eefd84f44ed6f006cd44fe18008c274628f6ed490bacae838d94098",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              198,
+              164
+            ],
+            "cargoSize": [
+              116,
+              110
+            ],
+            "loadBayCenter": [
+              256.5,
+              219.32
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/S.png",
+          "sha256": "fac639f42c6471e4e053c98397f5784b7047a9bcf9eec2fdd95befe9e1321f97",
+          "record": "assets/world/vehicles/families/wagon-hopper/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/SW-body.png",
+      "sha256": "708bb7a635c5fbe0ec50582d47bfded869bb34c2fc8bfa1a75d172cbb411d0ea",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/SW-body.png",
+          "sha256": "708bb7a635c5fbe0ec50582d47bfded869bb34c2fc8bfa1a75d172cbb411d0ea",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/SW-loaded.png",
+          "sha256": "8939d6d197e824234bdd9df5c9d2d5dd665481a97e27d6d7bff7e34f2393bf54",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              206,
+              148
+            ],
+            "cargoSize": [
+              101,
+              96
+            ],
+            "loadBayCenter": [
+              256.0,
+              195.72
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/SW.png",
+          "sha256": "7e24aabbdc8185fc15bf2c4f0509debf986496f935cdc04a608c12f70a26ed15",
+          "record": "assets/world/vehicles/families/wagon-hopper/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/W-body.png",
+      "sha256": "b59f219de00004b31957a93b55a716fcb2f3ba85b884c704cf81e798eacfd7b6",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/W-body.png",
+          "sha256": "b59f219de00004b31957a93b55a716fcb2f3ba85b884c704cf81e798eacfd7b6",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/W-loaded.png",
+          "sha256": "5eb20b6c4beff1a0b74c2bfab992b71e37dab45eb680b84f3a9bdbf97e1d28fd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              236,
+              194
+            ],
+            "cargoSize": [
+              41,
+              39
+            ],
+            "loadBayCenter": [
+              256.5,
+              213.52
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/W.png",
+          "sha256": "0b480beaa401edd88c5ce6f1ad3fbbc4297c2e006a752f8d7e7c42e188ed6e88",
+          "record": "assets/world/vehicles/families/wagon-hopper/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/044/NW-body.png",
+      "sha256": "82b213196de8131f1dfc91e765fcba21e797e541866dfdcd8a989884334d6482",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/044/NW-body.png",
+          "sha256": "82b213196de8131f1dfc91e765fcba21e797e541866dfdcd8a989884334d6482",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/044/NW-loaded.png",
+          "sha256": "dd54e7784f1006354b2c8502f084f02a6ae012b7328648cfb39da360335f334b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/sugar.png",
+            "sha256": "4d1ee938eb9b327bd180191b27a4a8dcbeac598a91d06b57e07a41a745a4a5a5",
+            "record": "assets/cargo/sugar.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              205,
+              148
+            ],
+            "cargoSize": [
+              101,
+              96
+            ],
+            "loadBayCenter": [
+              255.5,
+              195.72
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-hopper/NW.png",
+          "sha256": "69e4c06b194f1cbd9fa8a17e0bb038ec2c9be539eca7869ef13ade0f662a0277",
+          "record": "assets/world/vehicles/families/wagon-hopper/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/wagon-hopper/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "tree-00",
+  "image": "assets/world/vegetation/mature/tree-00.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "8228c7df038d5474c00d5029e786e1698376f95d953785f3e58d397506b94d1f",
+  "climate": "temperate",
+  "artSpecies": "oak",
+  "sourceTreeType": 0,
+  "sourceCell": 0,
+  "sourceCropXYXY": [
+    22,
+    10,
+    414,
+    332
+  ],
+  "sourceAnchorInCrop": [
+    187.0,
+    322
+  ],
+  "nativeCropSize": [
+    392,
+    322
+  ],
+  "uniformScale": 0.5853658536585366,
+  "pasteXY": [
+    19,
+    164
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-temperate.png",
+    "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+    "record": "source-art/world/trees-temperate.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-00"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

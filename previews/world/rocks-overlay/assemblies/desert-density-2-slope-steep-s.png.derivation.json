@@ -1,0 +1,32 @@
+{
+  "id": "desert-density-2-slope-steep-s",
+  "image": "previews/world/rocks-overlay/assemblies/desert-density-2-slope-steep-s.png",
+  "sha256": "c2552ee50de91f0d9c1dde2d450cacb589e525624f63eeb47791cdb0dab7e812",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-bare-slope-steep-s.png",
+      "sha256": "cdb68baa36f4e6e3fe68a46e2eb885003812d36688940937a28de8bcae78195d",
+      "record": "assets/world/terrain/terrain-bare-slope-steep-s.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-desert-slope-steep-s.png",
+      "sha256": "f01d975e94abbdd7a3aa295544022ceea88fb417479d8ebd0f25612127283666",
+      "record": "assets/world/terrain/terrain-desert-slope-steep-s.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-steep-s.png",
+      "sha256": "dc3d099c32c8ff22726e1d819abdb9fa3a80c0263862d512a6a804b839bed92a",
+      "record": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-steep-s.png.derivation.json"
+    }
+  ],
+  "operation": "Actual bare/desert material fraction(1/4,1/2,3/4,1) plus independent dry rocks; no fake grayscale gravel substitute",
+  "context": "desert-rocks",
+  "densityStage": 2,
+  "compositeFraction": 0.75,
+  "slopeCode": 23,
+  "overlayId": "rocks-dry-layout-0-slope-steep-s",
+  "label": "desert 2 / steep-s",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

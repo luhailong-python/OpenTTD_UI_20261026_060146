@@ -1,0 +1,44 @@
+{
+  "id": "depot-rail-NW",
+  "image": "assets/world/infrastructure/transport-runtime/depot-rail-NW.png",
+  "sha256": "096062c7998ade28777d21a112b342ba2352b0460c78ff167fbd9c0669a20479",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-depot-view-NW.png",
+      "sha256": "096062c7998ade28777d21a112b342ba2352b0460c78ff167fbd9c0669a20479",
+      "record": "assets/world/infrastructure/transport/rail-depot-view-NW.png.derivation.json"
+    }
+  ],
+  "operation": "Native four service perspectives or symmetric ship-depot axis reflection; no fake rear from front image",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "depot-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.362269+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "NW",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

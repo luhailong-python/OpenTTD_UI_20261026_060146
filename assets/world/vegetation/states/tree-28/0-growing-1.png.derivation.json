@@ -1,0 +1,39 @@
+{
+  "id": "tree-28-growing-1",
+  "image": "assets/world/vegetation/states/tree-28/0-growing-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "1d33ae1c27ed439763c423690293b462245f54462823d99b33e5da46a8347ea2",
+  "climate": "tropical",
+  "artSpecies": "teak",
+  "sourceTreeType": 28,
+  "sourceGrowthStage": 0,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-28.png",
+      "sha256": "8a501f1332d42fc429ce245ecf84feb7a75c0d66e914669a41d8dd9be46fcece",
+      "record": "assets/world/vegetation/mature/tree-28.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.28,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-28"
+  ]
+}

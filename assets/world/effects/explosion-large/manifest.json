@@ -1,0 +1,986 @@
+{
+  "id": "explosion-large",
+  "frames": [
+    {
+      "file": "assets/world/effects/explosion-large/00.png",
+      "sha256": "d7effa73e2a44fbadf1fc6845c3ac094f852571a58268e64a4c574af5205d048",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 0,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            0,
+            314,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            0,
+            627,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/01.png",
+      "sha256": "d5f527f409ed625d6da32fa82eb273dccaf8b4173a4c3ab3074a4d08ccefa828",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 1,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            0,
+            627,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            0,
+            940,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/02.png",
+      "sha256": "8f4fc7e612c3306fd5d51cae6fc67a6a0f1ecb625b511842dcfbe5658efedc92",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 2,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            0,
+            940,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            0,
+            1254,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/03.png",
+      "sha256": "25a45b52919c056fdc16b0c972c3f07a8f8cb90a20aaf1924c3d57f3fb7cf56f",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 3,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            0,
+            1254,
+            314
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            314,
+            314,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/04.png",
+      "sha256": "dcc79337449fdcd00632ca5cddd65de7ece008b9ddf59e3ac83a531fc244f5cc",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 4,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            314,
+            314,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            314,
+            627,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/05.png",
+      "sha256": "1ce1b7c5eda9418ea8a3d7761e86aa4acc70dd2bd882f36481adffc542f7559a",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 5,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            314,
+            627,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            314,
+            940,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/06.png",
+      "sha256": "4ab38c3b6ceac15249abd497bca27ace5cc7e507e84b10466b76f344f1e7b70c",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 6,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            314,
+            940,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            314,
+            1254,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 7,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/07.png",
+      "sha256": "9dca87bdf45d5da60ec2bdccbba3a614c888cf7e3053da94e809a06a628b0dd8",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 7,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            314,
+            1254,
+            627
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 7,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            627,
+            314,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/08.png",
+      "sha256": "47d81cad7bf2205f82710ddd8b6207078257606b1472c972a1e14cad79e1418d",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 8,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            627,
+            314,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            627,
+            627,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/09.png",
+      "sha256": "393f26fbb35201d154481a56020812969b645d00d67b6dbe422b5dfb223eb884",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 9,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            627,
+            627,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            627,
+            940,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/10.png",
+      "sha256": "365e1c3dd6152a5b312269c8fb83d552b02d6fcfdad5db755fbd0c7f10611c44",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 10,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            627,
+            940,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/11.png",
+      "sha256": "e6114dff3b7401b73e5d7ecf817ec3799a45a9258e2256e9479bea5b645c953c",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 11,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            940,
+            314,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/12.png",
+      "sha256": "22e67f9bd541fe4978dc02fac61db1dad0f09a95ada365708f38edba8b01c2ee",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 12,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            940,
+            314,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            940,
+            627,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/13.png",
+      "sha256": "260d33953b54f1a98f97b63a854b58951cbde152e185e8cf5ca2db4fe1d00da6",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 13,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            940,
+            627,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/14.png",
+      "sha256": "fcc2b29607f8ee58be7dd239925e257b4e64c1d3f2423a6ea77b34ae625ceb9a",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 14,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "file": "assets/world/effects/explosion-large/15.png",
+      "sha256": "22c229cc3e4ae20c43794e8e1cad1b96049317ed45ebe5d4acc143794213ab2c",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 15,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-explosion-keys.png",
+            "sha256": "2be6b3c9d51fb032f23146db5ff67042e0641b0c7900ee72413d26c78861f4fa",
+            "record": "source-art/world/fx-explosion-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "fpsSuggestion": 12,
+  "loop": false,
+  "timingStatus": "art preview recommendation; source gameplay tick adapter remains next stage",
+  "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+  "unityVerified": false
+}

@@ -1,0 +1,66 @@
+{
+  "file": "source-art/helicopter.png",
+  "sha256": "e2c0eeb167f90cadb4d66a7e424b1f4234f72057c6adc167d44f009d01dda079",
+  "generatedAt": "2026-10-26T10:30:47.206625+00:00",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolResultId": null,
+  "outputFileId": "31d7565f-cc37-4187-9abc-2090c5a036a3",
+  "generatedAtEvidence": "本地生成输出PNG的文件落盘时间，UTC；工具未返回服务端生成时间。",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept, a SINGLE standalone game UI vehicle sprite. Create one small rounded Chinese Taoist chibi transport HELICOPTER, matching the attached two style reference images: elegant jade green and warm ivory body, delicate brass gold trim, fine hand-painted texture and soft rounded volumes, NO plastic sheen or photorealism. A civilian passenger/cargo utility helicopter with unmistakable large horizontal TOP ROTOR and smaller TAIL ROTOR, landing skids, glazed cream-green cabin, side passenger door. Front-left 3/4 view angled to the right, whole helicopter including both rotor tips and tail fully visible with ample transparent padding all around. No wings of an aeroplane, no people, no weapons. Genuine transparent alpha background, no checkerboard, no shadows on a ground plane, no label, text, numbers or frame. One complete isolated helicopter only. Square canvas high native detail desired 1024x1024. This will be displayed as a 150px game thumbnail; clear distinct silhouette.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint_path": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a7-6d36-72f1-8ac7-6c557c4ea2e3\\exec-31d7565f-cc37-4187-9abc-2090c5a036a3.png",
+    "nativeSizeFromSavedPNG": [
+      1254,
+      1254
+    ]
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际模型版本或质量；配置目标不是实际返回证明。",
+  "prompt": "Use case: stylized-concept, a SINGLE standalone game UI vehicle sprite. Create one small rounded Chinese Taoist chibi transport HELICOPTER, matching the attached two style reference images: elegant jade green and warm ivory body, delicate brass gold trim, fine hand-painted texture and soft rounded volumes, NO plastic sheen or photorealism. A civilian passenger/cargo utility helicopter with unmistakable large horizontal TOP ROTOR and smaller TAIL ROTOR, landing skids, glazed cream-green cabin, side passenger door. Front-left 3/4 view angled to the right, whole helicopter including both rotor tips and tail fully visible with ample transparent padding all around. No wings of an aeroplane, no people, no weapons. Genuine transparent alpha background, no checkerboard, no shadows on a ground plane, no label, text, numbers or frame. One complete isolated helicopter only. Square canvas high native detail desired 1024x1024. This will be displayed as a 150px game thumbnail; clear distinct silhouette.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    }
+  ],
+  "promptFile": "records/07-helicopter.prompt.txt"
+}

@@ -1,0 +1,311 @@
+{
+  "createdAt": "2026-10-28T11:19:18.030566+00:00",
+  "manifest": "assets/world/overlays/fence-adapter/manifest.json",
+  "manifestSHA256": "473c088792dd6a6b69938bfc3edb28893bf130ce5d8ac6e9eab3a30c1492ece7",
+  "localVisualPassed": true,
+  "items": [
+    {
+      "file": "previews/fence-adapter/farm-bushes-all19slopes.jpg",
+      "sha256": "5340d15577a01543403a3809b9eeaa807232e33547cd07eaa6c661486895db46",
+      "status": "passed-local",
+      "finding": "实际农田对齐其(128,160)锚点；19坡四边花篱接地、转角连接，未见悬空、裁切或错误地面空洞。"
+    },
+    {
+      "file": "previews/fence-adapter/farm-bushes-gate-all19slopes.jpg",
+      "sha256": "6ea3126cd06d47b9230845eeacad32f439265f219fd43ed8d83816b54f968411",
+      "status": "passed-local",
+      "finding": "19坡原生木栏门中段与花篱开口可辨，立柱竖直；四边端点按角Z连接，无程序新画门。"
+    },
+    {
+      "file": "previews/fence-adapter/farm-timber-all19slopes.jpg",
+      "sha256": "829f7ae2f55d6df6ae270570bf7a70106c0cc22d846cdc188b54607bad12a464",
+      "status": "passed-local",
+      "finding": "19坡木栏立柱保持竖直，普通/陡坡栏段与农田边缘相接，未见断角。"
+    },
+    {
+      "file": "previews/fence-adapter/farm-yellow-bloom-all19slopes.jpg",
+      "sha256": "118b3c85319fd3adea8f8866952872d6be1c5d9115cfcdc057f2871e0ce1e131",
+      "status": "passed-local",
+      "finding": "19坡黄色花瓣变色保留原画叶片/Alpha，四边源offset坡向正确。"
+    },
+    {
+      "file": "previews/fence-adapter/farm-red-bloom-all19slopes.jpg",
+      "sha256": "f3f872d0669326c147b35b4ea3e1791274355ad77a8dfa76a2c5a30e1c13ab38",
+      "status": "passed-local",
+      "finding": "19坡红花辨识清楚，保留相同栏段结构/Alpha；未见错位和矩形背景。"
+    },
+    {
+      "file": "previews/fence-adapter/farm-stone-all19slopes.jpg",
+      "sha256": "1077acd480a584fa969381dd38dc918d7cfe277ee09318b3b3e9ffb291a17bbe",
+      "status": "passed-local",
+      "finding": "19坡石栏原生柱/石段沿四边连接，高低角和陡坡无明显地面分离。"
+    },
+    {
+      "file": "previews/fence-adapter/rail-all16source-positions.jpg",
+      "sha256": "70f5f8c8255cfa49f3f8fcd5d0dc6dbc40e030b02e84056e19531370fd3eaebe",
+      "status": "passed-local",
+      "finding": "全部16源位置实际叠轨检查：四外边/四坡角色与源朝向一致，中央水平使用两段复用；中央竖向为明示原生纹理16px侧投影、逻辑N–S，非新绘透视。"
+    },
+    {
+      "file": "previews/fence-adapter/rail-halftilewater-four-corners.jpg",
+      "sha256": "d513fc6515e60a3adc2d216738030b1a547605fc30abe3d379c6196084ee9247",
+      "status": "passed-local",
+      "finding": "W/N/E/S四个高半格用实际水面、三角地基、原轨段裁片；隔栏只在高半格分隔线并提升一个高度级，水半格没有多余栏段。"
+    },
+    {
+      "file": "records/fence-adapter-browser-desktop.png",
+      "sha256": "7e783b8a71e2a43bbada966178497a9d491ac3df47e387a283e2067dbaa3a224",
+      "status": "passed-local",
+      "finding": "围栏页面桌面/手机排版、实际农田图加载与完整适配入口已实际查看，无溢出/缺图。"
+    },
+    {
+      "file": "records/fence-adapter-browser-mobile.png",
+      "sha256": "229c18f19abfa77cec846a73729af93e3fb300f2d0fa1d257e383a1741d3fca3",
+      "status": "passed-local",
+      "finding": "围栏页面桌面/手机排版、实际农田图加载与完整适配入口已实际查看，无溢出/缺图。"
+    }
+  ],
+  "reviewedAssets": [
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-offset-0.png",
+      "sha256": "34cf75d55af7a04bb04676ede4198d470096f52310d797f8703731775e28195e",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-offset-1.png",
+      "sha256": "339a787b05ea687825ce8b63171594827e9c2325e1206777eb07de398f7b4726",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-offset-2.png",
+      "sha256": "2e89c0f142db1cc1d4da6a658055f59d2efb77afdd5218f1d0379bd370bac294",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-offset-3.png",
+      "sha256": "6f0dc40730d59e409b808d9d6eeeb75e0d77c6360f118747e979c6783c3c77e0",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-offset-4.png",
+      "sha256": "236dba71f6f3da58f2e28284ba5bb0f47302d1b9d0b3645cdcde71c1dbca0843",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-offset-5.png",
+      "sha256": "8a2dad53bc5f2cbcc61a624e3242b78308ace4ee55be8d812cea595e7f900099",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-0.png",
+      "sha256": "beb6e21f776df9eeaf3efc9057574c6094b37882bcb9204f046f4982b0f96e8c",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-1.png",
+      "sha256": "f1ea0b0a92a9d134e10cc0340dc65218b29975a225e50cfb2e29956b9e820736",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-2.png",
+      "sha256": "57fa7c6ace69a428118e4024381803f3ef587859f8265ea25f7f97927ffbf809",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-3.png",
+      "sha256": "cc35cf3114552b7eaf2a40513648f5ec9a0be0b6f1aa9aa8b8d79117668d93cc",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-4.png",
+      "sha256": "3c7aa5b9310b8f7e7620a5ce5e9a962b8f9b6ccb90f4d9ddcfe17b939777a55e",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-5.png",
+      "sha256": "3e293e410e06b47ce92245e282b7ea9f5db4fa31aef0dea442878a88ddd96326",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-timber-offset-0.png",
+      "sha256": "c957cab50f488785d065698d74b59af39175f80d6f2c8b50d359a6b0b4c98f97",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-timber-offset-1.png",
+      "sha256": "4911905b486d29c71a8ef66b14d647a7041db4ad9f7490b0bf71af8ee3db9d45",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-timber-offset-2.png",
+      "sha256": "4b0bc6e0f90f9b9f2b3fc723f89c986d417b09671d1c7e8f5b287f946b3b4f16",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-timber-offset-3.png",
+      "sha256": "b42d030a164338bbddc47d42c107f5e3f051d0ac10999a2528e37a0bd773c3cf",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-timber-offset-4.png",
+      "sha256": "b5da28ca6ace910e0cd40a566e11b7829903558df39c58f1f9b393a5a0eccbe0",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-timber-offset-5.png",
+      "sha256": "a5204e54ab84d642450b5e332962c272c1d4a9088f84f4268ced54dfea1035fd",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-yellow-bloom-offset-0.png",
+      "sha256": "f584cd22f95f376293b68ab0df3205952bde670e2dcd345778100c470a5de8f5",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-yellow-bloom-offset-1.png",
+      "sha256": "cf4a9098e41be79eed5523aff040e2532de215317fc5acd09dd0c72ec0eaff04",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-yellow-bloom-offset-2.png",
+      "sha256": "2703cddeadf63e22a7ae08eb25893914718c0d7548dec4abedcd5b776e213c36",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-yellow-bloom-offset-3.png",
+      "sha256": "d4121e10f3e5398d63ae4b05545a94c171636868842ff1974f2b4bfa4781638b",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-yellow-bloom-offset-4.png",
+      "sha256": "2d90ed3b008af921e8df0dfe0032b1cb832ce9021f83a82dcf85868f9f18e8a3",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-yellow-bloom-offset-5.png",
+      "sha256": "9e592af1c42d77d0f355f9d773a6b2837bed7515c12297b1c5c6ed622d72fee3",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-0.png",
+      "sha256": "15d664c24c14dfb015beaf52f4b64141bb33c81d46d8b9cbaa2775d80380ba54",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-1.png",
+      "sha256": "7a82254e6af6dcad769820be6d3d5d10882da9c93f166bbf5b85cef4c84d5b7a",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-2.png",
+      "sha256": "1903efc1b73845ef9403c722eb3ea2f04a07dfb4b218008d9bb95a4e231d3386",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-3.png",
+      "sha256": "173adf4587a7175ddf6e44204f8b259d931f13b44b1f3cfee4cfef3a5dd3eee3",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-4.png",
+      "sha256": "a0f616760998b826c813e14f0e291478700f819dae79a8d86f9737a21c271f66",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-5.png",
+      "sha256": "6c193a90783d7c7d9af5dc5783eb799bb57a88c6f21c88bad79ff8b341e93b25",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-stone-offset-0.png",
+      "sha256": "63a058c6544f1bb64994bb705c5e679137185f0291ff52023871cc3d61abd62b",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-stone-offset-1.png",
+      "sha256": "cf9658106fe00177bbb3b3c34e9cf8ecc49ffde80050e4de44a9db7c37850e9f",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-stone-offset-2.png",
+      "sha256": "a114916d86d0686d520e8b81582721a356b4719f8edd43b274243400903e54c3",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-stone-offset-3.png",
+      "sha256": "1b6ad4135467d830571f8329d093e2d71e32461005b9affb0c6e3f5695a08767",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-stone-offset-4.png",
+      "sha256": "d1c88e2a1013af608f1e2257437823def0a4649559d4bf03323ef74fc0055099",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/farm-stone-offset-5.png",
+      "sha256": "54154da5d036414cc7d0b151cfa142a38fe6467e146094ab1e43ab52ef08201d",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-0.png",
+      "sha256": "4911905b486d29c71a8ef66b14d647a7041db4ad9f7490b0bf71af8ee3db9d45",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-1.png",
+      "sha256": "c957cab50f488785d065698d74b59af39175f80d6f2c8b50d359a6b0b4c98f97",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-2.png",
+      "sha256": "fc44564915e8f56b49ffafbd777af8a7408ae8c984702c0599a2b7c49aff3da6",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-3.png",
+      "sha256": "6d81a5b37ef73f42b899e5ae37bca61793b5875c22e99e9210d95a8067685907",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-4.png",
+      "sha256": "a5204e54ab84d642450b5e332962c272c1d4a9088f84f4268ced54dfea1035fd",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-5.png",
+      "sha256": "b5da28ca6ace910e0cd40a566e11b7829903558df39c58f1f9b393a5a0eccbe0",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-6.png",
+      "sha256": "b42d030a164338bbddc47d42c107f5e3f051d0ac10999a2528e37a0bd773c3cf",
+      "status": "passed-local"
+    },
+    {
+      "file": "assets/world/overlays/fence-adapter/rail-fence-role-7.png",
+      "sha256": "4b0bc6e0f90f9b9f2b3fc723f89c986d417b09671d1c7e8f5b287f946b3b4f16",
+      "status": "passed-local"
+    }
+  ],
+  "reviewMethod": "view_image actual current eight contact pages;114 farm four-edge assemblies +16 actual rail positions +4 half-water assemblies;current formal PNG hashes frozen",
+  "sourcePaintingReuse": {
+    "nativeMastersAdded": 0,
+    "nativeMaterialInputs": 3,
+    "codePaintedFence": false,
+    "operations": [
+      "source-pixel affine projection preserving vertical posts",
+      "native wood insert into native hedge cutout",
+      "selective native petal hue grade",
+      "functional triangle alpha mask of existing rail in preview"
+    ]
+  },
+  "limitations": [
+    "中央竖向隔栏是现有木栏的窄侧投影共享，不声称新的原生视角。",
+    "190 rail selector记录源码选择，不声称全部坡/groundType组合可建造。",
+    "Unity遮挡、碰撞与用户美术批准尚待后续验证。"
+  ],
+  "failures": [],
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "browserScreenshotsActuallyViewed": true
+}

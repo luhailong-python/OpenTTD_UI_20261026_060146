@@ -1,0 +1,178 @@
+{
+  "id": "lane-cantilever-span-Y-monorail-m32",
+  "image": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-Y-monorail-m32.png",
+  "sha256": "e88c5cd7f08eb66c3c8206d9a46fddea1af3aaae3420cccef358ddefef8ad1d6",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype-lane",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+      "sha256": "3206bdbbd156f02e815e16d8db365a6cbfe5de927b3c22660b913584901daae2",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-Y-rail-m32-mask.png",
+      "sha256": "eef94a72fa7521e686b3f9e7ab51d3de3d61450bb5f6ed89aff619bc0159690b",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-Y-rail-m32-mask.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-06-cantilever",
+    "bridge-07-cantilever",
+    "bridge-08-cantilever"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "Y",
+  "railType": "monorail",
+  "risePx": -32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        76,
+        259
+      ],
+      [
+        149,
+        228
+      ],
+      [
+        435,
+        376
+      ],
+      [
+        374,
+        406
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        112.5,
+        243.5
+      ],
+      [
+        404.5,
+        391.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        113.31506849315069,
+        183.34246575342465
+      ],
+      [
+        142.68493150684932,
+        168.65753424657535
+      ],
+      [
+        270.6849315068493,
+        264.6575342465753
+      ],
+      [
+        241.31506849315068,
+        279.3424657534247
+      ]
+    ],
+    "deckCrossSectionHalfX": 14.684931506849313,
+    "uniformNativeScaleReference": 0.4383561643835616,
+    "sourceXKnots": [
+      76.0,
+      149.0,
+      374.0,
+      435.0
+    ],
+    "targetXKnots": [
+      113.31506849315069,
+      142.68493150684932,
+      241.31506849315068,
+      270.6849315068493
+    ],
+    "verticalScaleAboveDeck": [
+      0.4520547945205479,
+      0.4905414220482713,
+      0.4254633360193392,
+      0.3962065331928345
+    ],
+    "verticalScaleBelowDeck": [
+      0.3150684931506849,
+      0.4383561643835616,
+      0.7201565557729941,
+      0.4383561643835616
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            76,
+            243
+          ],
+          [
+            374,
+            389
+          ]
+        ],
+        "commonCapHeightPx": 7.232876712328767
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            149,
+            207
+          ],
+          [
+            435,
+            350
+          ]
+        ],
+        "commonCapHeightPx": 10.301369863013697
+      }
+    ],
+    "axisMirror": true,
+    "rampRisePx": -32,
+    "advancePx": [
+      -128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-Y-rail-m32-mask.png",
+  "innerCrossDomain": [
+    0.22,
+    0.78
+  ],
+  "longitudinalDomain": [
+    0.015,
+    0.985
+  ],
+  "rampProfile": "same port-locked native endpoint collars and32px height transfer as accepted source projection"
+}

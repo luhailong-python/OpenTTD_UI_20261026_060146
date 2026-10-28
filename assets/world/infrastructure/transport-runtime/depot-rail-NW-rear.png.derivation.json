@@ -1,0 +1,44 @@
+{
+  "id": "depot-rail-NW-rear",
+  "image": "assets/world/infrastructure/transport-runtime/depot-rail-NW-rear.png",
+  "sha256": "ca5579196276b71c1ceb466561c64fe1ee3e4081c29b6f76f55864d2cb5cb002",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/depot-rail-NW.png",
+      "sha256": "096062c7998ade28777d21a112b342ba2352b0460c78ff167fbd9c0669a20479",
+      "record": "assets/world/infrastructure/transport-runtime/depot-rail-NW.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "depot-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.379422+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

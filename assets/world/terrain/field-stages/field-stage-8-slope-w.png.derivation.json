@@ -1,0 +1,115 @@
+{
+  "id": "field-stage-8-slope-w",
+  "image": "assets/world/terrain/field-stages/field-stage-8-slope-w.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    160
+  ],
+  "pivotUnity": [
+    0.5,
+    0.375
+  ],
+  "sha256": "3b801706741aae74aa20470a572f4b91db28ce2f9e3b10cf0da8aff0aedd181c",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/field-stages/field-soil-slope-w.png",
+      "sha256": "5619d9bd9a04ceef153c0210a4a880e5111b2e509eb7c37d90a6987f629c07d9",
+      "record": "assets/world/terrain/field-stages/field-soil-slope-w.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/field-stages/field-primitive-haypacks.png",
+      "sha256": "d09aefc5a7709801f6b8cf40f2417449b33538ed955851c59b3d8699727bcb7c",
+      "record": "assets/world/terrain/field-stages/field-primitive-haypacks.png.derivation.json"
+    }
+  ],
+  "operation": "source crop stage with projected native furrow soil and upright native plant/hay sprites at exact piecewise slope-root heights; no new native painting",
+  "category": "field-stage",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "sourceFieldType": 8,
+  "fieldStageName": "harvested-haypacks",
+  "slopeCode": 1,
+  "placements": [
+    {
+      "kind": "haypacks",
+      "uv": [
+        0.25,
+        0.3
+      ],
+      "heightPx": 28,
+      "rootPx": [
+        134.4,
+        131.2
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-haypacks.png",
+      "scale": 0.06682577565632458,
+      "offsetPx": [
+        117,
+        104
+      ],
+      "renderSizePx": [
+        35,
+        28
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "haypacks",
+      "uv": [
+        0.65,
+        0.3
+      ],
+      "heightPx": 28,
+      "rootPx": [
+        83.19999999999999,
+        145.60000000000002
+      ],
+      "rootHeightUnits": 0.35000000000000003,
+      "image": "assets/world/terrain/field-stages/field-primitive-haypacks.png",
+      "scale": 0.06682577565632458,
+      "offsetPx": [
+        66,
+        118
+      ],
+      "renderSizePx": [
+        35,
+        28
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "haypacks",
+      "uv": [
+        0.55,
+        0.72
+      ],
+      "heightPx": 28,
+      "rootPx": [
+        149.76,
+        177.28
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-haypacks.png",
+      "scale": 0.06682577565632458,
+      "offsetPx": [
+        132,
+        150
+      ],
+      "renderSizePx": [
+        35,
+        28
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    }
+  ]
+}

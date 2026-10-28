@@ -1,0 +1,54 @@
+{
+  "id": "tree-40",
+  "image": "assets/world/vegetation/mature/tree-40.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "c84501ceaa8ece7466ca7a3b8cc5f20c2405c35816e970ebf32c766db1f7ced0",
+  "climate": "toyland",
+  "artSpecies": "balloon-tree",
+  "sourceTreeType": 40,
+  "sourceCell": 8,
+  "sourceCropXYXY": [
+    1046,
+    680,
+    1372,
+    1012
+  ],
+  "sourceAnchorInCrop": [
+    150.0,
+    332
+  ],
+  "nativeCropSize": [
+    326,
+    332
+  ],
+  "uniformScale": 0.6818181818181818,
+  "pasteXY": [
+    26,
+    126
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-toyland.png",
+    "sha256": "b1ce27c381a3c9cca28ac85168bb973ac00fc261cbe761da14164e417c326f91",
+    "record": "source-art/world/trees-toyland.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-40"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

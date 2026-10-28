@@ -1,0 +1,49 @@
+{
+  "id": "bridge-truss-native",
+  "image": "assets/world/infrastructure/transport/bridge-truss-native.png",
+  "sha256": "018622fc48e343ffa80a85ec425c185ed147ce78dafe741873f94a72ac6c88e9",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-families.png",
+      "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+      "record": "source-art/world/bridge-families.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    984,
+    18,
+    1523,
+    361
+  ],
+  "scaleApplied": 0.712430426716141,
+  "sourceAtlas": "bridge-families",
+  "sourceComponent": 3,
+  "contentSize": [
+    384,
+    244
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

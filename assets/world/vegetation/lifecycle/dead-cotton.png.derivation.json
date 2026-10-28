@@ -1,0 +1,37 @@
+{
+  "id": "tree-lifecycle-dead-cotton",
+  "image": "assets/world/vegetation/lifecycle/dead-cotton.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front ground-contact",
+  "category": "vegetation-lifecycle",
+  "sha256": "06cd3db00179eb12c88671ba67ce830a071afea211f50a2e773e8c6bfea05e5b",
+  "sourceCropXYXY": [
+    652,
+    811,
+    912,
+    978
+  ],
+  "nativeCropSize": [
+    260,
+    167
+  ],
+  "uniformScale": 0.8615384615384616,
+  "operation": "component ownership cutout; remove subvisible alpha<8; normalize alpha>=240 to opaque; crop; proportional downscale only; fixed transparent canvas; not new AI generation",
+  "derivedFrom": {
+    "file": "source-art/world/tree-lifecycle-special-with-backdrop.png",
+    "sha256": "cff3cdae4d33f6d1212e11f161d08aaa0be5b47b94188e0e621171d06729372b",
+    "record": "source-art/world/tree-lifecycle-special-with-backdrop.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false
+}

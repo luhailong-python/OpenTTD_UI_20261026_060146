@@ -1,0 +1,74 @@
+{
+  "id": "farm-bushes-gate-offset-3",
+  "image": "assets/world/overlays/fence-adapter/farm-bushes-gate-offset-3.png",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "cc35cf3114552b7eaf2a40513648f5ec9a0be0b6f1aa9aa8b8d79117668d93cc",
+  "anchorPx": [
+    160,
+    192
+  ],
+  "pivotUnity": [
+    0.5,
+    0.4
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "source-fence-adapter",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/fence-hedge.png",
+      "sha256": "6d2fd034a6a735768c6781ad04cd6dd2cf942b68d948d12dec1837e3fbaadad0",
+      "record": "assets/world/infrastructure/fences-shore/fence-hedge.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/fences-shore/fence-wood.png",
+      "sha256": "01435bfbc42e5681d9853e7a0cfe5a455097dc70af003de42ea09c4907443e9b",
+      "record": "assets/world/infrastructure/fences-shore/fence-wood.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted fence-hedge;native hedge opening/wooden crossbar insert;Alpha ownership cut only,no new gate paint;vertical-post preserving affine ground-baseline projection;no code-drawn fence/paint,no new native viewpoint",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "terrain-fence"
+  ],
+  "sourceFamily": {
+    "fenceValue": 2,
+    "symbol": "SPR_HEDGE_BUSHES_WITH_GATE",
+    "spriteBase": 4096
+  },
+  "sourceSpriteOffset": 3,
+  "sourceSpriteId": 4099,
+  "sourceBaselineCalibration": {
+    "x0": 59,
+    "x1": 199,
+    "slope": -0.41953850764159406,
+    "intercept": 204.25521925881517,
+    "fitRMSE": 2.852976506449596,
+    "method": "robust interior nativeAlpha ground-contact envelope,not claimed exact model perspective"
+  },
+  "localEndpointPx": [
+    [
+      96,
+      240.0
+    ],
+    [
+      224,
+      144.0
+    ]
+  ],
+  "localEndpointHeightDifferencePx": -96,
+  "actualVisualReview": "records/fence-adapter-visual-review.json"
+}

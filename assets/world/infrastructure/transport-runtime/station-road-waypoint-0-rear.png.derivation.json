@@ -1,0 +1,44 @@
+{
+  "id": "station-road-waypoint-0-rear",
+  "image": "assets/world/infrastructure/transport-runtime/station-road-waypoint-0-rear.png",
+  "sha256": "0fd4bf3c984a519fbf27ab6ca20a1f75c3b95411b1ac32d7c90eb2d88cf1850d",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/station-road-waypoint-0.png",
+      "sha256": "0915c2fb97a2d3562585866660d24602f14107350934f9df3239a8c4ddc38b29",
+      "record": "assets/world/infrastructure/transport-runtime/station-road-waypoint-0.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-road-waypoint"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.140611+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "pbs-maglev-y-slope-flat",
+  "image": "assets/world/overlays/rail-reservation/pbs-maglev-y-slope-flat.png",
+  "width": 256,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "e271821a36350c78e7824b709e85df2073b18871248ca3bd4084e7f93fc4d6eb",
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.3333333333333333
+  ],
+  "category": "rail-reservation-overlay",
+  "sourceRequirementIds": [
+    "rail-maglev"
+  ],
+  "state": "reserved",
+  "trackBit": 1,
+  "trackName": "y",
+  "slopeCode": 0,
+  "sourceOverlay": {
+    "file": "assets/world/infrastructure/rail/rail-maglev-segment-y.png",
+    "sha256": "1094573407b0c34ad25de1dc06ba54508d64af8229d3eb98edebaae6f47b23ca",
+    "record": "assets/world/infrastructure/rail/rail-maglev-segment-y.png.derivation.json"
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/rail/rail-maglev-segment-y.png",
+      "sha256": "1094573407b0c34ad25de1dc06ba54508d64af8229d3eb98edebaae6f47b23ca",
+      "record": "assets/world/infrastructure/rail/rail-maglev-segment-y.png.derivation.json"
+    }
+  ],
+  "sourceLayer": "track-overlay",
+  "ownershipMask": "exact Alpha of actual source track-overlay PNG;flat only transparent64px top padding;no terrain composite input",
+  "operation": "luma grayscale×0.58 on native owned track pixels,source Alpha unchanged,Alpha0RGB cleared;source PALETTE_CRASH visual meaning reinterpreted for current art,not original palette byte emulation",
+  "material": {
+    "rgbFormula": "round((0.2126R+0.7152G+0.0722B)*0.58) repeated inRGB",
+    "alphaFormula": "Aout=Asource; no opaque fill/no whole-ground tint",
+    "blend": "straight alpha/source-over",
+    "sourceSetting": "_settings_client.gui.show_track_reservation",
+    "activeCondition": "reservedTrackBits & currentTrackBits;source also suppresses menu mode",
+    "notReserved": "do not draw this layer",
+    "overhead": "catenary/posts/vehicles excluded from owned Alpha and remain separate"
+  },
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/rail-reservation-visual-review.json"
+}

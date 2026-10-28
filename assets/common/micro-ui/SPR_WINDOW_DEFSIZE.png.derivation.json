@@ -1,0 +1,68 @@
+{
+  "id": "SPR_WINDOW_DEFSIZE",
+  "image": "assets/common/micro-ui/SPR_WINDOW_DEFSIZE.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "f4c5d7c1996736453543ea2fdebdf4efd3af7b419f31df009259e87f79cb3435",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/diamond-frame.png",
+      "sha256": "f02a69abea8c9074e3824e23387cb96476184d70a15f0eee018aafbb907d4c7d",
+      "record": "assets/common/pointers/components/diamond-frame.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_WINDOW_DEFSIZE.svg",
+      "sha256": "aa580a254a70c5b5e8cb7c72dd6034b11a900392bd04fc9529e1fde64105e3df",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_WINDOW_DEFSIZE",
+  "sourceSpriteId": 5064,
+  "category": "window-control",
+  "functionalGlyph": "window",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_WINDOW_DEFSIZE.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

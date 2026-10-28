@@ -1,0 +1,86 @@
+{
+  "reviewer": "art_reference_audit",
+  "reviewedOn": "2026-10-26",
+  "timeZone": "America/New_York",
+  "scope": "Final visual repair closure after y427 state action export, including vehicle-group glyph repair. Review only; no image/renderer edits.",
+  "images": [
+    {
+      "file": "designs/11-rail-build.png",
+      "sha256": "5890d67b0b38aba114583460ad38a6330de76580f662b2b573daa43340699ac0",
+      "previousY463Sha256": null,
+      "finalStateActionTopY": null,
+      "changedFromY463": null,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actuallyViewedAtFullSize": true,
+      "mtimeUtc": "2026-10-26T10:46:03.412351+00:00"
+    },
+    {
+      "file": "previews/states/106-newgrf-presets--overwrite.png",
+      "sha256": "f170b1b355ac0de9bd1d34637c2442fa2b7d10f474cd569e3b70aef6d9d9fd28",
+      "previousY463Sha256": "75974d7387d91c8fe15593a184d5e5d404553ce9a30f8cce6f442d08bc966a6a",
+      "finalStateActionTopY": 427,
+      "changedFromY463": true,
+      "dimensions": [
+        960,
+        600
+      ],
+      "actuallyViewedAtFullSize": true,
+      "mtimeUtc": "2026-10-26T10:52:37.066904+00:00"
+    },
+    {
+      "file": "previews/states/128-editor-terrain--clear-confirm.png",
+      "sha256": "599ce74caf6cabdeca633eddb8279b292437e39b17201c96360b2761452464d5",
+      "previousY463Sha256": "008e5e99b2702dfe30ffe0ced7784c04daed0be047e07b83b77b3c383f910955",
+      "finalStateActionTopY": 427,
+      "changedFromY463": true,
+      "dimensions": [
+        960,
+        600
+      ],
+      "actuallyViewedAtFullSize": true,
+      "mtimeUtc": "2026-10-26T10:52:46.351434+00:00"
+    },
+    {
+      "file": "designs/54-vehicle-groups.png",
+      "sha256": "ec6e6cd657780b689e8c4aaf637b9611e60ca8b4bb97c81f41abbdda4a43d45a",
+      "previousY463Sha256": null,
+      "finalStateActionTopY": null,
+      "changedFromY463": null,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "actuallyViewedAtFullSize": true,
+      "mtimeUtc": "2026-10-26T10:51:30.840485+00:00"
+    }
+  ],
+  "findings": [
+    {
+      "id": "C-01",
+      "status": "resolved",
+      "evidence": "Rail-build tool labels are fully inside each card above the gold bottom border, all six icons and names are legible."
+    },
+    {
+      "id": "C-02",
+      "status": "resolved",
+      "evidence": "The final y427 overwrite/reset state images both show confirmation + secondary cancel + top-right close, and their button bottoms have clear paper-space separation from the outer frame."
+    },
+    {
+      "id": "C-03-final-row",
+      "status": "resolved",
+      "evidence": "State action row now sits above the outer gold frame; full PNGs 106/128 have visible clearance and no border crossing."
+    },
+    {
+      "id": "C-04-glyph",
+      "status": "resolved",
+      "evidence": "Vehicle group view uses visible − / + expand/collapse glyphs; no missing square or triangle substitution is visible."
+    }
+  ],
+  "result": "passed",
+  "remainingFindingsInThisReview": 0,
+  "engineOrRuntimeValidationExecuted": false,
+  "imagesChangedByReviewer": false
+}

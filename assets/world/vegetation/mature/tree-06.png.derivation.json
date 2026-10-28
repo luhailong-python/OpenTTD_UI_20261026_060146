@@ -1,0 +1,54 @@
+{
+  "id": "tree-06",
+  "image": "assets/world/vegetation/mature/tree-06.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "398b4452200487b253e5b7a0392c01de3b7b550227cde5cebff82aae433af5fa",
+  "climate": "temperate",
+  "artSpecies": "spruce",
+  "sourceTreeType": 6,
+  "sourceCell": 6,
+  "sourceCropXYXY": [
+    820,
+    337,
+    1121,
+    674
+  ],
+  "sourceAnchorInCrop": [
+    145.0,
+    337
+  ],
+  "nativeCropSize": [
+    301,
+    337
+  ],
+  "uniformScale": 0.7692307692307693,
+  "pasteXY": [
+    16,
+    93
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-temperate.png",
+    "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+    "record": "source-art/world/trees-temperate.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-06"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

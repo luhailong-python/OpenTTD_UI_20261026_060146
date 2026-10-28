@@ -1,0 +1,429 @@
+{
+  "id": 31,
+  "upstreamName": "Livestock Van",
+  "familyId": "wagon-vent",
+  "transport": "train",
+  "cargo": "CT_LIVESTOCK",
+  "climates": [
+    "temperate",
+    "arctic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 134
+  },
+  "trackHardware": "rail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/N-body.png",
+      "sha256": "af967ce59de6ae553430028a2b46a43a5f6e829013577d2666b3d2ffc99cd47d",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/N-body.png",
+          "sha256": "af967ce59de6ae553430028a2b46a43a5f6e829013577d2666b3d2ffc99cd47d",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/N-body.png",
+          "sha256": "af967ce59de6ae553430028a2b46a43a5f6e829013577d2666b3d2ffc99cd47d",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/N.png",
+          "sha256": "88ca44483d30421aaba79ee65df74f14c374a2b57627c0ab20947798cea32609",
+          "record": "assets/world/vehicles/families/wagon-vent/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/NE-body.png",
+      "sha256": "c73b14cd547bc874e1addb8b293a866c3044058974bc998fb6875b5947c8803a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/NE-body.png",
+          "sha256": "c73b14cd547bc874e1addb8b293a866c3044058974bc998fb6875b5947c8803a",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/NE-body.png",
+          "sha256": "c73b14cd547bc874e1addb8b293a866c3044058974bc998fb6875b5947c8803a",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/NE.png",
+          "sha256": "0aac672f90947d50d7b2e99ce32afc865f71f93f7b5d6a0e5490850a598be8cf",
+          "record": "assets/world/vehicles/families/wagon-vent/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/E-body.png",
+      "sha256": "428e91c0193eee64d5d426206454028ca095c4ded97f1246315e778e7d73ceaf",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/E-body.png",
+          "sha256": "428e91c0193eee64d5d426206454028ca095c4ded97f1246315e778e7d73ceaf",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/E-body.png",
+          "sha256": "428e91c0193eee64d5d426206454028ca095c4ded97f1246315e778e7d73ceaf",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/E.png",
+          "sha256": "43fa4b7b0843183d639b001b0e2edcc6573ec9bbb4e1232ad6d23a77891a2e6b",
+          "record": "assets/world/vehicles/families/wagon-vent/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/SE-body.png",
+      "sha256": "8abd158638ddad0ab290c0017278f7a22969d7ef9387238b16c7724f688565ee",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/SE-body.png",
+          "sha256": "8abd158638ddad0ab290c0017278f7a22969d7ef9387238b16c7724f688565ee",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/SE-body.png",
+          "sha256": "8abd158638ddad0ab290c0017278f7a22969d7ef9387238b16c7724f688565ee",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/SE.png",
+          "sha256": "1464e9ee4f03296ea0063727fad648a4695ed5975eb2e3e585af913ebe737065",
+          "record": "assets/world/vehicles/families/wagon-vent/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/S-body.png",
+      "sha256": "d1304eda0b3dcff602fa2167a81d9e556eb41f3e250d7b72de5321fbf7fadd9e",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/S-body.png",
+          "sha256": "d1304eda0b3dcff602fa2167a81d9e556eb41f3e250d7b72de5321fbf7fadd9e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/S-body.png",
+          "sha256": "d1304eda0b3dcff602fa2167a81d9e556eb41f3e250d7b72de5321fbf7fadd9e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/S.png",
+          "sha256": "69cd060df5d81d95bd9d3f033266da5803f30793f6b48485a3937796293d04bd",
+          "record": "assets/world/vehicles/families/wagon-vent/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/SW-body.png",
+      "sha256": "929a178564f8e948f98a896802503980b1243fe41ea81da5ec0db8c2914a1e96",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/SW-body.png",
+          "sha256": "929a178564f8e948f98a896802503980b1243fe41ea81da5ec0db8c2914a1e96",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/SW-body.png",
+          "sha256": "929a178564f8e948f98a896802503980b1243fe41ea81da5ec0db8c2914a1e96",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/SW.png",
+          "sha256": "46bbde2014a71d450b2d6a9b18ddfdbe61877f0f9cb2ec462f3d3c32cd46b7cc",
+          "record": "assets/world/vehicles/families/wagon-vent/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/W-body.png",
+      "sha256": "ccd913f9a8ed8cb9b57e35916f7641b9a24ad9316d5ea1d26306e9f6859b31ba",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/W-body.png",
+          "sha256": "ccd913f9a8ed8cb9b57e35916f7641b9a24ad9316d5ea1d26306e9f6859b31ba",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/W-body.png",
+          "sha256": "ccd913f9a8ed8cb9b57e35916f7641b9a24ad9316d5ea1d26306e9f6859b31ba",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/W.png",
+          "sha256": "12d4d236130daad6e5c36c5cf17e4f007238f94ffa0e4f00c6602522159e7d1f",
+          "record": "assets/world/vehicles/families/wagon-vent/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/031/NW-body.png",
+      "sha256": "6b7c1349eeaa213ae4545823702139b666346ba4cdd4e798f97e7477bd10fa6c",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/031/NW-body.png",
+          "sha256": "6b7c1349eeaa213ae4545823702139b666346ba4cdd4e798f97e7477bd10fa6c",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/031/NW-body.png",
+          "sha256": "6b7c1349eeaa213ae4545823702139b666346ba4cdd4e798f97e7477bd10fa6c",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 5,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-vent/NW.png",
+          "sha256": "e126a55f429e56d594f85731e194fd5f423576ab149fb68cc87dfa1ba1a1e5f2",
+          "record": "assets/world/vehicles/families/wagon-vent/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/wagon-vent/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

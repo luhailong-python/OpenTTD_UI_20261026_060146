@@ -1,0 +1,64 @@
+{
+  "createdAt": "2026-10-28T12:08:34.928645+00:00",
+  "image": "assets/common/pointers/markers/SPR_WHITE_POINT.png",
+  "sha256": "c041e7549e409668879fdaa9805092c82472176eb094c29e7ada38cd315602ce",
+  "PNGBytesUnchanged": true,
+  "recipe": {
+    "id": "SPR_WHITE_POINT.v1",
+    "sourceSymbol": "SPR_WHITE_POINT",
+    "sourceSpriteId": 4079,
+    "canvasPx": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "backgroundRGBA": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointPx": [
+      16,
+      16
+    ],
+    "pointRGBA": [
+      250,
+      242,
+      217,
+      255
+    ],
+    "coordinateOrigin": "top-left",
+    "paintedArtworkParent": false
+  },
+  "recipeSource": {
+    "file": "tools/build_pointer_overlays.py",
+    "sha256": "59a9b5743e88c48b6993d1a2948accae481a834c03f6d25a784e010d6229b42a",
+    "sourceType": "functional-geometry-recipe"
+  },
+  "validationMethod": "Independent PIL RGBA canvas filled with zero;one literal point;byte-for-byte decoded RGBA comparison,not builder helper invocation;PNG SHA compared to frozen original.",
+  "checks": [
+    {
+      "id": "exact-independent-RGBA-recipe",
+      "passed": true
+    },
+    {
+      "id": "PNG-bytes-unchanged",
+      "passed": true
+    },
+    {
+      "id": "exact-recipe-metadata",
+      "passed": true
+    },
+    {
+      "id": "current-functional-geometry-source",
+      "passed": true
+    }
+  ],
+  "passed": 4,
+  "failed": 0,
+  "complete": true,
+  "failures": [],
+  "userArtAcceptance": "pending",
+  "unityValidated": false
+}

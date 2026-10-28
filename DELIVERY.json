@@ -1,0 +1,80 @@
+{
+  "project": "云途万里（暂名）",
+  "date": "2026-10-26",
+  "timeZone": "America/New_York",
+  "productionRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "functionalReference": {
+    "url": "https://github.com/OpenTTD/OpenTTD.git",
+    "commit": "cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8",
+    "local": "reference/OpenTTD",
+    "purpose": "功能/玩法/流程研究；不作为成果远端"
+  },
+  "artReference": "F:\\work\\image",
+  "deliveryGithub": null,
+  "status": "local-art-checks-passed; user-art-review-pending",
+  "counts": {
+    "features": 132,
+    "screens": 149,
+    "states": 227,
+    "formalPNG": 12204,
+    "fonts": 2,
+    "uiFormalPNG": 649,
+    "worldFormalPNG": 11555,
+    "uiBuiltinGenerations": 7,
+    "retainedBuiltinMasters": 88,
+    "worldSourceRequirements": 550
+  },
+  "entry": "index.html",
+  "previewURL": null,
+  "manifests": {
+    "ui": "docs/UI_MASTER_MANIFEST.json",
+    "assets": "docs/ASSET_MASTER_MANIFEST.json",
+    "csv": "docs/UI功能与资源总清单.csv",
+    "world": "docs/WORLD_ASSET_MANIFEST.json",
+    "worldCoverage": "docs/WORLD_DELIVERY_COVERAGE.json",
+    "vehicles": "docs/VEHICLE_RUNTIME_MANIFEST.json",
+    "effects": "docs/EFFECT_RUNTIME_MANIFEST.json",
+    "disasters": "docs/DISASTER_RUNTIME_MANIFEST.json"
+  },
+  "docs": {
+    "acceptance": "docs/ACCEPTANCE.md",
+    "unity": "docs/UNITY_IMPORT.md",
+    "sources": "docs/SOURCES.md",
+    "associations": "docs/PROJECT_ASSOCIATIONS.md",
+    "style": "docs/STYLE_AND_LAYOUT.md",
+    "fullDelivery": "docs/FULL_GAME_ART_DELIVERY.md",
+    "fullAcceptance": "docs/FULL_GAME_ACCEPTANCE_STATUS.json",
+    "authoritativeAssociations": "docs/image-reference-associations.md"
+  },
+  "sourceModelDisclosure": {
+    "configuredTarget": "gpt-image-2.5-sunburst",
+    "configuredQuality": "max",
+    "actualModel": null,
+    "actualQuality": null,
+    "reason": "宿主管理入口未提供model/quality选择器且返回未披露，两项未确认。"
+  },
+  "unityIntegrationExecuted": false,
+  "gitCommitPushOrPublishExecuted": false,
+  "scope": "UI plus full-game world/vehicle/effect art; no Unity runtime integration",
+  "previewEntries": {
+    "ui": "index.html",
+    "world": "previews/world/index.html",
+    "vehicles": "previews/vehicles/index.html",
+    "manager": "previews/manager-customization/index.html",
+    "pointers": "previews/pointers/index.html",
+    "microUI": "previews/micro-ui/index.html",
+    "oneway": "previews/road-oneway/index.html",
+    "airportUI": "previews/airport-ui/index.html",
+    "roadside": "previews/roadside/index.html",
+    "railTypes": "previews/world/bridge-railtypes/index.html",
+    "fieldStages": "previews/world/field-stages/index.html",
+    "shore": "previews/world/shore-geometry/index.html",
+    "rocks": "previews/world/rocks-overlay/index.html",
+    "pbs": "previews/rail-reservation/index.html",
+    "fences": "previews/fence-adapter/index.html"
+  },
+  "auditSnapshotAt": "2026-10-28T12:12:41.249048+00:00",
+  "artReferenceWritePolicy": "read-only; project links recorded locally",
+  "previewURLNote": "Open the local HTML entries. A previous development-server address is not a persistent delivery URL.",
+  "continuationRepairGuide": "docs/CONTINUATION_ART_REPAIRS.md"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "industry-16-bank-tropic-arctic-construction-1",
+  "image": "assets/world/industries/construction/industry-16-bank-tropic-arctic/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "674e5ebc74ce327e51f6886bb70b262628bdfbfdfda65962c8f130ba4211b17e",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/bank-tropic-arctic.png",
+      "sha256": "7611e9d7231ec39f9f9428fc5e89f50aaea7110c57c164f8fd87e2afca898331",
+      "record": "assets/world/industries/bank-tropic-arctic.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 16,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-16-bank-tropic-arctic",
+    "industry-tile-089",
+    "industry-tile-090"
+  ]
+}

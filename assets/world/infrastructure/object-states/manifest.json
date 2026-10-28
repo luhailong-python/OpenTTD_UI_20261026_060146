@@ -1,0 +1,5470 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-27T02:03:13.697157+00:00",
+  "batchId": "object-states",
+  "assets": [
+    {
+      "id": "hq-level-1-whole",
+      "image": "assets/world/infrastructure/object-states/hq-level-1-whole.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        512
+      ],
+      "pivotUnity": [
+        0.5,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "native HQ level painting placed once on a shared2×2 painted site; no enlargement",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/hq-1.png",
+          "sha256": "25bd15af66d0b29a602c2403702f3cbb11bb65667d0b5ec98c34ae14c2bb1049",
+          "record": "assets/world/infrastructure/objects/hq-1.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-grass-flat.png",
+          "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+          "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 1,
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "placement": {
+        "sourceAlphaBox": [
+          83,
+          202,
+          429,
+          450
+        ],
+        "sourceAnchorPx": [
+          256,
+          389.18
+        ],
+        "targetAnchorPx": [
+          384,
+          512
+        ],
+        "scaleApplied": 1.0,
+        "offsetPx": [
+          211,
+          325
+        ],
+        "exportContentSize": [
+          346,
+          248
+        ]
+      },
+      "anchorMeaning": "2×2 site centre",
+      "sha256": "c43d08a78f92babc7317d9e4e903e44cff79efc76ca88b4e2681d52149ee9806"
+    },
+    {
+      "id": "hq-level-1-tile-0",
+      "image": "assets/world/infrastructure/object-states/hq-level-1-tile-0.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.36363636363636365
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-1-whole.png",
+          "sha256": "c43d08a78f92babc7317d9e4e903e44cff79efc76ca88b4e2681d52149ee9806",
+          "record": "assets/world/infrastructure/object-states/hq-level-1-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 1,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-1-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "5b502819317564a2b6991b17cc96783c0a7fc4d608bb3f4736cf6f135c7fae1e"
+    },
+    {
+      "id": "hq-level-1-tile-1",
+      "image": "assets/world/infrastructure/object-states/hq-level-1-tile-1.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        512,
+        512
+      ],
+      "pivotUnity": [
+        0.6666666666666666,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-1-whole.png",
+          "sha256": "c43d08a78f92babc7317d9e4e903e44cff79efc76ca88b4e2681d52149ee9806",
+          "record": "assets/world/infrastructure/object-states/hq-level-1-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 1,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-1-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "9b530a3697ff95eee1057ec0b3fc1f4224a95ffef3c64cde248075620856af86"
+    },
+    {
+      "id": "hq-level-1-tile-2",
+      "image": "assets/world/infrastructure/object-states/hq-level-1-tile-2.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        512
+      ],
+      "pivotUnity": [
+        0.3333333333333333,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-1-whole.png",
+          "sha256": "c43d08a78f92babc7317d9e4e903e44cff79efc76ca88b4e2681d52149ee9806",
+          "record": "assets/world/infrastructure/object-states/hq-level-1-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 1,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-1-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "aefc59d76c0e7ebb19fa59f7de8a3f17adf375d6d550e0b8277afb10bafc038b"
+    },
+    {
+      "id": "hq-level-1-tile-3",
+      "image": "assets/world/infrastructure/object-states/hq-level-1-tile-3.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        576
+      ],
+      "pivotUnity": [
+        0.5,
+        0.18181818181818177
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-1-whole.png",
+          "sha256": "c43d08a78f92babc7317d9e4e903e44cff79efc76ca88b4e2681d52149ee9806",
+          "record": "assets/world/infrastructure/object-states/hq-level-1-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 1,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-1-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "dcded0202c898724a579f55519414056158e6e365d04ca5ed730e1ae262d0960"
+    },
+    {
+      "id": "hq-level-2-whole",
+      "image": "assets/world/infrastructure/object-states/hq-level-2-whole.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        512
+      ],
+      "pivotUnity": [
+        0.5,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "native HQ level painting placed once on a shared2×2 painted site; no enlargement",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/hq-2.png",
+          "sha256": "d1b22cd34ab94fe63c77af85bed7d62b1c6db3334549b3c3a870f58988609e78",
+          "record": "assets/world/infrastructure/objects/hq-2.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-grass-flat.png",
+          "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+          "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 2,
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "placement": {
+        "sourceAlphaBox": [
+          77,
+          183,
+          434,
+          450
+        ],
+        "sourceAnchorPx": [
+          256,
+          387.31
+        ],
+        "targetAnchorPx": [
+          384,
+          512
+        ],
+        "scaleApplied": 1.0,
+        "offsetPx": [
+          205,
+          308
+        ],
+        "exportContentSize": [
+          357,
+          267
+        ]
+      },
+      "anchorMeaning": "2×2 site centre",
+      "sha256": "3f561f1650af6f4eb9a78caa22f488c833aa144e2b88b5239274b8804beea9f4"
+    },
+    {
+      "id": "hq-level-2-tile-0",
+      "image": "assets/world/infrastructure/object-states/hq-level-2-tile-0.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.36363636363636365
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-2-whole.png",
+          "sha256": "3f561f1650af6f4eb9a78caa22f488c833aa144e2b88b5239274b8804beea9f4",
+          "record": "assets/world/infrastructure/object-states/hq-level-2-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 2,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-2-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "a42999815a54dbd6ee212aadedda5b5bbf3a7b2e4a86e959d6384373a4831c3c"
+    },
+    {
+      "id": "hq-level-2-tile-1",
+      "image": "assets/world/infrastructure/object-states/hq-level-2-tile-1.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        512,
+        512
+      ],
+      "pivotUnity": [
+        0.6666666666666666,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-2-whole.png",
+          "sha256": "3f561f1650af6f4eb9a78caa22f488c833aa144e2b88b5239274b8804beea9f4",
+          "record": "assets/world/infrastructure/object-states/hq-level-2-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 2,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-2-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "600ce3707d74e4399089fd06941564fe4a3c8e0ac4936df721fc11c3bc727cce"
+    },
+    {
+      "id": "hq-level-2-tile-2",
+      "image": "assets/world/infrastructure/object-states/hq-level-2-tile-2.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        512
+      ],
+      "pivotUnity": [
+        0.3333333333333333,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-2-whole.png",
+          "sha256": "3f561f1650af6f4eb9a78caa22f488c833aa144e2b88b5239274b8804beea9f4",
+          "record": "assets/world/infrastructure/object-states/hq-level-2-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 2,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-2-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "e06990a00c009f5588de592b3c718c2da1e026966d2840ba62122aaaa9fda257"
+    },
+    {
+      "id": "hq-level-2-tile-3",
+      "image": "assets/world/infrastructure/object-states/hq-level-2-tile-3.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        576
+      ],
+      "pivotUnity": [
+        0.5,
+        0.18181818181818177
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-2-whole.png",
+          "sha256": "3f561f1650af6f4eb9a78caa22f488c833aa144e2b88b5239274b8804beea9f4",
+          "record": "assets/world/infrastructure/object-states/hq-level-2-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 2,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-2-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "3d74412a4938606d5a278795bb2676e0a7356b7612166834d2664138a6676c50"
+    },
+    {
+      "id": "hq-level-3-whole",
+      "image": "assets/world/infrastructure/object-states/hq-level-3-whole.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        512
+      ],
+      "pivotUnity": [
+        0.5,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "native HQ level painting placed once on a shared2×2 painted site; no enlargement",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/hq-3.png",
+          "sha256": "f1c8ae345b05f5426a4d6b98fc57c01d7b3890d0867d9dd9e8f10a367b1fb98a",
+          "record": "assets/world/infrastructure/objects/hq-3.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-grass-flat.png",
+          "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+          "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 3,
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "placement": {
+        "sourceAlphaBox": [
+          58,
+          148,
+          455,
+          450
+        ],
+        "sourceAnchorPx": [
+          256,
+          380.51
+        ],
+        "targetAnchorPx": [
+          384,
+          512
+        ],
+        "scaleApplied": 1.0,
+        "offsetPx": [
+          186,
+          279
+        ],
+        "exportContentSize": [
+          397,
+          302
+        ]
+      },
+      "anchorMeaning": "2×2 site centre",
+      "sha256": "dabf60b14549561ad4a3b195e36a0e92e461d28edfde5ad43e633d887fb95e5c"
+    },
+    {
+      "id": "hq-level-3-tile-0",
+      "image": "assets/world/infrastructure/object-states/hq-level-3-tile-0.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.36363636363636365
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-3-whole.png",
+          "sha256": "dabf60b14549561ad4a3b195e36a0e92e461d28edfde5ad43e633d887fb95e5c",
+          "record": "assets/world/infrastructure/object-states/hq-level-3-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 3,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-3-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "3dce1ced02f171b88d3ee3917a9536e5535a73584b9297d53a1c88d4d0b34abf"
+    },
+    {
+      "id": "hq-level-3-tile-1",
+      "image": "assets/world/infrastructure/object-states/hq-level-3-tile-1.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        512,
+        512
+      ],
+      "pivotUnity": [
+        0.6666666666666666,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-3-whole.png",
+          "sha256": "dabf60b14549561ad4a3b195e36a0e92e461d28edfde5ad43e633d887fb95e5c",
+          "record": "assets/world/infrastructure/object-states/hq-level-3-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 3,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-3-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "90ea0d501ac1c73054bb2d71b98eb9022cbe4bc89a17c361e1ab4cb1f68d1e91"
+    },
+    {
+      "id": "hq-level-3-tile-2",
+      "image": "assets/world/infrastructure/object-states/hq-level-3-tile-2.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        512
+      ],
+      "pivotUnity": [
+        0.3333333333333333,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-3-whole.png",
+          "sha256": "dabf60b14549561ad4a3b195e36a0e92e461d28edfde5ad43e633d887fb95e5c",
+          "record": "assets/world/infrastructure/object-states/hq-level-3-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 3,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-3-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "71c988934e042a88e204d87df2515722431eadaaf5a898ea514ab15fedc05de3"
+    },
+    {
+      "id": "hq-level-3-tile-3",
+      "image": "assets/world/infrastructure/object-states/hq-level-3-tile-3.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        576
+      ],
+      "pivotUnity": [
+        0.5,
+        0.18181818181818177
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-3-whole.png",
+          "sha256": "dabf60b14549561ad4a3b195e36a0e92e461d28edfde5ad43e633d887fb95e5c",
+          "record": "assets/world/infrastructure/object-states/hq-level-3-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 3,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-3-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "88782e5435a81b8a863c5e21ddeafb67ad09e8c81e3b1506de08fe2abc7f21f2"
+    },
+    {
+      "id": "hq-level-4-whole",
+      "image": "assets/world/infrastructure/object-states/hq-level-4-whole.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        512
+      ],
+      "pivotUnity": [
+        0.5,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "native HQ level painting placed once on a shared2×2 painted site; no enlargement",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/hq-4.png",
+          "sha256": "6db488072b5234849781208e6ccc2145b422fbadcbf2b39ee827eb50b4d932c6",
+          "record": "assets/world/infrastructure/objects/hq-4.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-grass-flat.png",
+          "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+          "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 4,
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "placement": {
+        "sourceAlphaBox": [
+          108,
+          129,
+          403,
+          450
+        ],
+        "sourceAnchorPx": [
+          256,
+          397.85
+        ],
+        "targetAnchorPx": [
+          384,
+          512
+        ],
+        "scaleApplied": 1.0,
+        "offsetPx": [
+          236,
+          243
+        ],
+        "exportContentSize": [
+          295,
+          321
+        ]
+      },
+      "anchorMeaning": "2×2 site centre",
+      "sha256": "f47e91e93a61562d8b0299e967218c76375f88b7d223c84d473a19cbda258ceb"
+    },
+    {
+      "id": "hq-level-4-tile-0",
+      "image": "assets/world/infrastructure/object-states/hq-level-4-tile-0.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.36363636363636365
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-4-whole.png",
+          "sha256": "f47e91e93a61562d8b0299e967218c76375f88b7d223c84d473a19cbda258ceb",
+          "record": "assets/world/infrastructure/object-states/hq-level-4-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 4,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-4-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "4d94f342671625658c73e7995908e0aeafd0d18e43bdd8d7d057842d3b15e692"
+    },
+    {
+      "id": "hq-level-4-tile-1",
+      "image": "assets/world/infrastructure/object-states/hq-level-4-tile-1.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        512,
+        512
+      ],
+      "pivotUnity": [
+        0.6666666666666666,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-4-whole.png",
+          "sha256": "f47e91e93a61562d8b0299e967218c76375f88b7d223c84d473a19cbda258ceb",
+          "record": "assets/world/infrastructure/object-states/hq-level-4-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 4,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-4-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "fd4bfae42d1c5976d652d754c3b3a2b9db6dadbf426cc8b24babb02fd70c1631"
+    },
+    {
+      "id": "hq-level-4-tile-2",
+      "image": "assets/world/infrastructure/object-states/hq-level-4-tile-2.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        512
+      ],
+      "pivotUnity": [
+        0.3333333333333333,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-4-whole.png",
+          "sha256": "f47e91e93a61562d8b0299e967218c76375f88b7d223c84d473a19cbda258ceb",
+          "record": "assets/world/infrastructure/object-states/hq-level-4-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 4,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-4-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "7daac4cac5273b5b9296968e57271cacc39b521c2d1ad3394c177eccb464d0e3"
+    },
+    {
+      "id": "hq-level-4-tile-3",
+      "image": "assets/world/infrastructure/object-states/hq-level-4-tile-3.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        576
+      ],
+      "pivotUnity": [
+        0.5,
+        0.18181818181818177
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-4-whole.png",
+          "sha256": "f47e91e93a61562d8b0299e967218c76375f88b7d223c84d473a19cbda258ceb",
+          "record": "assets/world/infrastructure/object-states/hq-level-4-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 4,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-4-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "275dd909d244325b748ed6d4a38c810d5b01c986f0d4208a39da58bb9b761b05"
+    },
+    {
+      "id": "hq-level-5-whole",
+      "image": "assets/world/infrastructure/object-states/hq-level-5-whole.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        512
+      ],
+      "pivotUnity": [
+        0.5,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "native HQ level painting placed once on a shared2×2 painted site; no enlargement",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/hq-5.png",
+          "sha256": "ed117c003c491e24d3336ab7c01ae16f2931cbb7d3595d017fe7f3bfd468dacf",
+          "record": "assets/world/infrastructure/objects/hq-5.png.derivation.json"
+        },
+        {
+          "file": "assets/world/terrain/terrain-grass-flat.png",
+          "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+          "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 5,
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "placement": {
+        "sourceAlphaBox": [
+          0,
+          144,
+          512,
+          450
+        ],
+        "sourceAnchorPx": [
+          256,
+          360.96
+        ],
+        "targetAnchorPx": [
+          384,
+          512
+        ],
+        "scaleApplied": 0.953125,
+        "offsetPx": [
+          140,
+          305
+        ],
+        "exportContentSize": [
+          488,
+          292
+        ]
+      },
+      "anchorMeaning": "2×2 site centre",
+      "sha256": "aa5cdf0ed8ba2656855a9b414180a7a886de235692bf2f9d415f32ab1e90b224"
+    },
+    {
+      "id": "hq-level-5-tile-0",
+      "image": "assets/world/infrastructure/object-states/hq-level-5-tile-0.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.36363636363636365
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-5-whole.png",
+          "sha256": "aa5cdf0ed8ba2656855a9b414180a7a886de235692bf2f9d415f32ab1e90b224",
+          "record": "assets/world/infrastructure/object-states/hq-level-5-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 5,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-5-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "54a0af677c4a9b005b9f6c8b5449deb068a3cb432ff20ffc8ec1841c5a48c1ac"
+    },
+    {
+      "id": "hq-level-5-tile-1",
+      "image": "assets/world/infrastructure/object-states/hq-level-5-tile-1.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        512,
+        512
+      ],
+      "pivotUnity": [
+        0.6666666666666666,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-5-whole.png",
+          "sha256": "aa5cdf0ed8ba2656855a9b414180a7a886de235692bf2f9d415f32ab1e90b224",
+          "record": "assets/world/infrastructure/object-states/hq-level-5-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 5,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-5-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "8833fdba75b3d6c4b2f2236696db22768f44a08218993e1f38af5de7a444aac8"
+    },
+    {
+      "id": "hq-level-5-tile-2",
+      "image": "assets/world/infrastructure/object-states/hq-level-5-tile-2.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        512
+      ],
+      "pivotUnity": [
+        0.3333333333333333,
+        0.2727272727272727
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-5-whole.png",
+          "sha256": "aa5cdf0ed8ba2656855a9b414180a7a886de235692bf2f9d415f32ab1e90b224",
+          "record": "assets/world/infrastructure/object-states/hq-level-5-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 5,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "sourceWholeAssetId": "hq-level-5-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "b55d619e26f9d1107697fd2d3a3b4093344327645868f10016cf44585b652a04"
+    },
+    {
+      "id": "hq-level-5-tile-3",
+      "image": "assets/world/infrastructure/object-states/hq-level-5-tile-3.png",
+      "width": 768,
+      "height": 704,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        384,
+        576
+      ],
+      "pivotUnity": [
+        0.5,
+        0.18181818181818177
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "complementary Alpha-only source-tile partition of whole HQ art; exactRGBA reassembly; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/object-states/hq-level-5-whole.png",
+          "sha256": "aa5cdf0ed8ba2656855a9b414180a7a886de235692bf2f9d415f32ab1e90b224",
+          "record": "assets/world/infrastructure/object-states/hq-level-5-whole.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "level": 5,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "sourceWholeAssetId": "hq-level-5-whole",
+      "sourceRequirementIds": [
+        "object-headquarters"
+      ],
+      "anchorMeaning": "source HQ tile centre inside shared full-site canvas",
+      "sha256": "bfc9b9265480e6458c960d754d5a7f3424349c6364db67ddfd512a0c78c20428"
+    },
+    {
+      "id": "company-flag-00",
+      "image": "assets/world/infrastructure/object-states/company-flag-00.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 0,
+      "sourceColourName": "DarkBlue",
+      "designColour": "#274E8B",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "d9e94ea04f53f18970e235720e56f2db24335f6dc0d379c75fb5b8a83ae23f51"
+    },
+    {
+      "id": "company-flag-01",
+      "image": "assets/world/infrastructure/object-states/company-flag-01.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 1,
+      "sourceColourName": "PaleGreen",
+      "designColour": "#B3D29C",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "c43eb6593539ad07d6e5a34d39e7aa96baff0d02737fb8c590cf84bf6265bed0"
+    },
+    {
+      "id": "company-flag-02",
+      "image": "assets/world/infrastructure/object-states/company-flag-02.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 2,
+      "sourceColourName": "Pink",
+      "designColour": "#E6A9BE",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "73a19f36dcab64b9e2688138d6f3f7857a532f4ea22944a67275cea8ce9052d6"
+    },
+    {
+      "id": "company-flag-03",
+      "image": "assets/world/infrastructure/object-states/company-flag-03.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 3,
+      "sourceColourName": "Yellow",
+      "designColour": "#E3C954",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "5779412dd952fc164dc0c88051c75fcf011924787e4313bebae4de0980e98535"
+    },
+    {
+      "id": "company-flag-04",
+      "image": "assets/world/infrastructure/object-states/company-flag-04.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 4,
+      "sourceColourName": "Red",
+      "designColour": "#C65B50",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "e9bc0f3e2a1fc1ac9c9e9d951eccbe54167326163536f14e3d934baca0452bdd"
+    },
+    {
+      "id": "company-flag-05",
+      "image": "assets/world/infrastructure/object-states/company-flag-05.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 5,
+      "sourceColourName": "LightBlue",
+      "designColour": "#8DCBDE",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "c83fca6bc122d403bc4650aede49aefdfb62dfe8dd9126f3fecf11baa27322d7"
+    },
+    {
+      "id": "company-flag-06",
+      "image": "assets/world/infrastructure/object-states/company-flag-06.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 6,
+      "sourceColourName": "Green",
+      "designColour": "#5E9E68",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "c7cf6e7cdf67292cb7828df31a4cfdc8664ea9a83f983f3f3b829868ec3efa61"
+    },
+    {
+      "id": "company-flag-07",
+      "image": "assets/world/infrastructure/object-states/company-flag-07.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 7,
+      "sourceColourName": "DarkGreen",
+      "designColour": "#2E6350",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "f9d507327920d2a1c5548976c254a33c9913e0ca56ef639739471609ca2f7449"
+    },
+    {
+      "id": "company-flag-08",
+      "image": "assets/world/infrastructure/object-states/company-flag-08.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 8,
+      "sourceColourName": "Blue",
+      "designColour": "#4D81B3",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "7acef5e12d8f86ba4fac11b68011d6f973cd9ff268f74e89f2800f3cdf6d5dc6"
+    },
+    {
+      "id": "company-flag-09",
+      "image": "assets/world/infrastructure/object-states/company-flag-09.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 9,
+      "sourceColourName": "Cream",
+      "designColour": "#E9DCBA",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "2ef8c4e3eabee554ed00b2ecc0ecce287f3d83021c85b461a9f477d2cdc1aaa7"
+    },
+    {
+      "id": "company-flag-10",
+      "image": "assets/world/infrastructure/object-states/company-flag-10.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 10,
+      "sourceColourName": "Mauve",
+      "designColour": "#B9A1B9",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "725113dad451a69461928081b95782e48a040f5073747db590a2e02a03fd2ca8"
+    },
+    {
+      "id": "company-flag-11",
+      "image": "assets/world/infrastructure/object-states/company-flag-11.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 11,
+      "sourceColourName": "Purple",
+      "designColour": "#866DA0",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "e372cfd932d3bd1dd4dbecf826acb2f4865a1284b681aaa54a3a9c94a3ffd21f"
+    },
+    {
+      "id": "company-flag-12",
+      "image": "assets/world/infrastructure/object-states/company-flag-12.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 12,
+      "sourceColourName": "Orange",
+      "designColour": "#D99553",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "67dcccc03468f7cb4ddc839806392a4f55e7dd6dbd2aa7d2c7373b835c7b6526"
+    },
+    {
+      "id": "company-flag-13",
+      "image": "assets/world/infrastructure/object-states/company-flag-13.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 13,
+      "sourceColourName": "Brown",
+      "designColour": "#906B4F",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "73dbfcfa754e19254e039026b4ef846744ba57967c181c1a859f15bda0ffacd9"
+    },
+    {
+      "id": "company-flag-14",
+      "image": "assets/world/infrastructure/object-states/company-flag-14.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 14,
+      "sourceColourName": "Grey",
+      "designColour": "#A9B0A8",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "0b910ac4b74ad84f927be939b862595dcbd90a4699ee54cf0cc7749cf16f9265"
+    },
+    {
+      "id": "company-flag-15",
+      "image": "assets/world/infrastructure/object-states/company-flag-15.png",
+      "width": 96,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        48,
+        12
+      ],
+      "pivotUnity": [
+        0.5,
+        0.90625
+      ],
+      "category": "objects-state",
+      "artSource": "host_image",
+      "operation": "actual painted transmitter cloth flag crop and authored Alpha polygon; selective teal cloth colour-grade, gold/ivory ornament retained; no new painting",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/objects-kit.png",
+          "sha256": "419f35a521a295d1138b75b8abffe4a7aef6c31e4746ab8249de36b46ab654b7",
+          "record": "source-art/world/objects-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-state-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "companyColourIndex": 15,
+      "sourceColourName": "White",
+      "designColour": "#F4F0DC",
+      "sourceRequirementIds": [
+        "object-headquarters",
+        "object-owned-land",
+        "object-statue"
+      ],
+      "anchorMeaning": "top cloth suspension point; data-driven placement separate",
+      "sha256": "842135b3b1e0776df25db294fee3f61982038af771e013ffa319db659cb472a0"
+    },
+    {
+      "id": "office-lift-4-frame-00",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-00.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 0,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          398.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          364
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0401fb31908b4b99b6022385da38382f4c418aeae67b881784e0e63737390c84"
+    },
+    {
+      "id": "office-lift-4-frame-01",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-01.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 1,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          392.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          359
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "32ae5dff5c568caf5c448f3ef1e4d6cea727bb833e2ee087249a8766c316fc7a"
+    },
+    {
+      "id": "office-lift-4-frame-02",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-02.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 2,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          387.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          353
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "ef3769ed78049cea3d3d0af59b506babf353a4d480365e6472ff6f1f4abc8fda"
+    },
+    {
+      "id": "office-lift-4-frame-03",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-03.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 3,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          381.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          348
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "1bc86876c61ce376661fe6e0c6d0a9c065825d0568ba851d4a4ddbb981b1cdc8"
+    },
+    {
+      "id": "office-lift-4-frame-04",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-04.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 4,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          376.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          342
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "78e41c544446225faace9963b9514a482f0472de9f6e4dc5f6338734dbeefdb3"
+    },
+    {
+      "id": "office-lift-4-frame-05",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-05.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 5,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          370.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          337
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "c396b1cdb2c8342df95226c0d684525d90747b17bffb203ac4162852bc7c7985"
+    },
+    {
+      "id": "office-lift-4-frame-06",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-06.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 6,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          365.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          331
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "2e1cba295cacf6777a222a06df50113ca7cf9712a9489a403b49048864450f02"
+    },
+    {
+      "id": "office-lift-4-frame-07",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-07.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 7,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          359.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          326
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0be03d31ad460e7189a385fecf22a686fe71fdf0af8fa59411c3d41b4ca07706"
+    },
+    {
+      "id": "office-lift-4-frame-08",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-08.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 8,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          354.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          320
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0dac28fcba11343dc934f594449150958d97738c3b11e6d680bd96f926cc8888"
+    },
+    {
+      "id": "office-lift-4-frame-09",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-09.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 9,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          359.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          326
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0be03d31ad460e7189a385fecf22a686fe71fdf0af8fa59411c3d41b4ca07706"
+    },
+    {
+      "id": "office-lift-4-frame-10",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-10.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 10,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          365.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          331
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "2e1cba295cacf6777a222a06df50113ca7cf9712a9489a403b49048864450f02"
+    },
+    {
+      "id": "office-lift-4-frame-11",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-11.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 11,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          370.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          337
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "c396b1cdb2c8342df95226c0d684525d90747b17bffb203ac4162852bc7c7985"
+    },
+    {
+      "id": "office-lift-4-frame-12",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-12.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 12,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          376.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          342
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "78e41c544446225faace9963b9514a482f0472de9f6e4dc5f6338734dbeefdb3"
+    },
+    {
+      "id": "office-lift-4-frame-13",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-13.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 13,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          381.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          348
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "1bc86876c61ce376661fe6e0c6d0a9c065825d0568ba851d4a4ddbb981b1cdc8"
+    },
+    {
+      "id": "office-lift-4-frame-14",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-14.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 14,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          387.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          353
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "ef3769ed78049cea3d3d0af59b506babf353a4d480365e6472ff6f1f4abc8fda"
+    },
+    {
+      "id": "office-lift-4-frame-15",
+      "image": "assets/world/infrastructure/object-states/office-lift-4-frame-15.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-4",
+      "frame": 15,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 4,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          392.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          359
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "32ae5dff5c568caf5c448f3ef1e4d6cea727bb833e2ee087249a8766c316fc7a"
+    },
+    {
+      "id": "office-lift-5-frame-00",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-00.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 0,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          398.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          364
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0401fb31908b4b99b6022385da38382f4c418aeae67b881784e0e63737390c84"
+    },
+    {
+      "id": "office-lift-5-frame-01",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-01.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 1,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          392.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          359
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "32ae5dff5c568caf5c448f3ef1e4d6cea727bb833e2ee087249a8766c316fc7a"
+    },
+    {
+      "id": "office-lift-5-frame-02",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-02.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 2,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          387.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          353
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "ef3769ed78049cea3d3d0af59b506babf353a4d480365e6472ff6f1f4abc8fda"
+    },
+    {
+      "id": "office-lift-5-frame-03",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-03.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 3,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          381.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          348
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "1bc86876c61ce376661fe6e0c6d0a9c065825d0568ba851d4a4ddbb981b1cdc8"
+    },
+    {
+      "id": "office-lift-5-frame-04",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-04.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 4,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          376.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          342
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "78e41c544446225faace9963b9514a482f0472de9f6e4dc5f6338734dbeefdb3"
+    },
+    {
+      "id": "office-lift-5-frame-05",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-05.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 5,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          370.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          337
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "c396b1cdb2c8342df95226c0d684525d90747b17bffb203ac4162852bc7c7985"
+    },
+    {
+      "id": "office-lift-5-frame-06",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-06.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 6,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          365.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          331
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "2e1cba295cacf6777a222a06df50113ca7cf9712a9489a403b49048864450f02"
+    },
+    {
+      "id": "office-lift-5-frame-07",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-07.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 7,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          359.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          326
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0be03d31ad460e7189a385fecf22a686fe71fdf0af8fa59411c3d41b4ca07706"
+    },
+    {
+      "id": "office-lift-5-frame-08",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-08.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 8,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          354.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          320
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0dac28fcba11343dc934f594449150958d97738c3b11e6d680bd96f926cc8888"
+    },
+    {
+      "id": "office-lift-5-frame-09",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-09.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 9,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          359.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          326
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "0be03d31ad460e7189a385fecf22a686fe71fdf0af8fa59411c3d41b4ca07706"
+    },
+    {
+      "id": "office-lift-5-frame-10",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-10.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 10,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          365.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          331
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "2e1cba295cacf6777a222a06df50113ca7cf9712a9489a403b49048864450f02"
+    },
+    {
+      "id": "office-lift-5-frame-11",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-11.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 11,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          370.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          337
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "c396b1cdb2c8342df95226c0d684525d90747b17bffb203ac4162852bc7c7985"
+    },
+    {
+      "id": "office-lift-5-frame-12",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-12.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 12,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          376.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          342
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "78e41c544446225faace9963b9514a482f0472de9f6e4dc5f6338734dbeefdb3"
+    },
+    {
+      "id": "office-lift-5-frame-13",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-13.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 13,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          381.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          348
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "1bc86876c61ce376661fe6e0c6d0a9c065825d0568ba851d4a4ddbb981b1cdc8"
+    },
+    {
+      "id": "office-lift-5-frame-14",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-14.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 14,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          387.0
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          353
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "ef3769ed78049cea3d3d0af59b506babf353a4d480365e6472ff6f1f4abc8fda"
+    },
+    {
+      "id": "office-lift-5-frame-15",
+      "image": "assets/world/infrastructure/object-states/office-lift-5-frame-15.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        416
+      ],
+      "pivotUnity": [
+        0.5,
+        0.1875
+      ],
+      "category": "objects-animation",
+      "artSource": "host_image",
+      "operation": "actual native glass lift cabin and guide cropped/downscaled; cabin translated on fixed guide by triangular motion; not video or new native frames",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/objects/lift-cabin.png",
+          "sha256": "30fc5e71f19871b4da0f2c0439e2caf4eed7e8cecd9c2d43dd14fd81ca261f2f",
+          "record": "assets/world/infrastructure/objects/lift-cabin.png.derivation.json"
+        },
+        {
+          "file": "assets/world/infrastructure/objects/lift-guide.png",
+          "sha256": "a261b71c3c766e46ec3dd6f867e2b79fad7333d8c28bd58e0e93847c5d0ced2c",
+          "record": "assets/world/infrastructure/objects/lift-guide.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-animation-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "animationGroup": "office-lift-5",
+      "frame": 15,
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ],
+      "houseSourceID": 5,
+      "guidePlacement": {
+        "sourceAlphaBox": [
+          64,
+          67,
+          191,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          404
+        ],
+        "scaleApplied": 0.313588850174216,
+        "offsetPx": [
+          291,
+          315
+        ],
+        "exportContentSize": [
+          40,
+          90
+        ]
+      },
+      "cabinPlacement": {
+        "sourceAlphaBox": [
+          41,
+          104,
+          216,
+          354
+        ],
+        "sourceAnchorPx": [
+          128,
+          352
+        ],
+        "targetAnchorPx": [
+          311,
+          392.5
+        ],
+        "scaleApplied": 0.136,
+        "offsetPx": [
+          299,
+          359
+        ],
+        "exportContentSize": [
+          24,
+          34
+        ]
+      },
+      "anchorMeaning": "matches static house logical site centre",
+      "sha256": "32ae5dff5c568caf5c448f3ef1e4d6cea727bb833e2ee087249a8766c316fc7a"
+    }
+  ],
+  "animations": [
+    {
+      "id": "office-lift-4",
+      "category": "objects",
+      "frames": [
+        "assets/world/infrastructure/object-states/office-lift-4-frame-00.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-01.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-02.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-03.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-04.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-05.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-06.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-07.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-08.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-09.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-10.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-11.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-12.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-13.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-14.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-15.png"
+      ],
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": true,
+      "fixedAnchorPx": [
+        256,
+        416
+      ],
+      "frameSize": [
+        512,
+        512
+      ],
+      "method": "native moving cabin + static guide; deterministic2D translation",
+      "bodyStaticPNG": "assets/world/houses/states/house-stepped-offices-1x1-grass-v0-s3.png",
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ]
+    },
+    {
+      "id": "office-lift-5",
+      "category": "objects",
+      "frames": [
+        "assets/world/infrastructure/object-states/office-lift-5-frame-00.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-01.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-02.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-03.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-04.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-05.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-06.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-07.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-08.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-09.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-10.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-11.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-12.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-13.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-14.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-15.png"
+      ],
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": true,
+      "fixedAnchorPx": [
+        256,
+        416
+      ],
+      "frameSize": [
+        512,
+        512
+      ],
+      "method": "native moving cabin + static guide; deterministic2D translation",
+      "bodyStaticPNG": "assets/world/houses/states/house-arctic-apartment-1x1-snow-v0-s3.png",
+      "sourceRequirementIds": [
+        "animation-house-lift"
+      ]
+    }
+  ],
+  "qa": [
+    {
+      "id": "hq-1.four-tile-reassembly",
+      "level": "OK",
+      "exactRGBA": true
+    },
+    {
+      "id": "hq-2.four-tile-reassembly",
+      "level": "OK",
+      "exactRGBA": true
+    },
+    {
+      "id": "hq-3.four-tile-reassembly",
+      "level": "OK",
+      "exactRGBA": true
+    },
+    {
+      "id": "hq-4.four-tile-reassembly",
+      "level": "OK",
+      "exactRGBA": true
+    },
+    {
+      "id": "hq-5.four-tile-reassembly",
+      "level": "OK",
+      "exactRGBA": true
+    }
+  ],
+  "coverageMappings": [
+    {
+      "requirementId": "object-headquarters",
+      "level": 1,
+      "files": [
+        "assets/world/infrastructure/object-states/hq-level-1-whole.png",
+        "assets/world/infrastructure/object-states/hq-level-1-tile-0.png",
+        "assets/world/infrastructure/object-states/hq-level-1-tile-1.png",
+        "assets/world/infrastructure/object-states/hq-level-1-tile-2.png",
+        "assets/world/infrastructure/object-states/hq-level-1-tile-3.png"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "renderStrategy": "whole building or4 complementary fragments; never draw both",
+      "sourceTilesPerLevel": 4,
+      "companyColourLayer": "company-flag-{0..15}"
+    },
+    {
+      "requirementId": "object-headquarters",
+      "level": 2,
+      "files": [
+        "assets/world/infrastructure/object-states/hq-level-2-whole.png",
+        "assets/world/infrastructure/object-states/hq-level-2-tile-0.png",
+        "assets/world/infrastructure/object-states/hq-level-2-tile-1.png",
+        "assets/world/infrastructure/object-states/hq-level-2-tile-2.png",
+        "assets/world/infrastructure/object-states/hq-level-2-tile-3.png"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "renderStrategy": "whole building or4 complementary fragments; never draw both",
+      "sourceTilesPerLevel": 4,
+      "companyColourLayer": "company-flag-{0..15}"
+    },
+    {
+      "requirementId": "object-headquarters",
+      "level": 3,
+      "files": [
+        "assets/world/infrastructure/object-states/hq-level-3-whole.png",
+        "assets/world/infrastructure/object-states/hq-level-3-tile-0.png",
+        "assets/world/infrastructure/object-states/hq-level-3-tile-1.png",
+        "assets/world/infrastructure/object-states/hq-level-3-tile-2.png",
+        "assets/world/infrastructure/object-states/hq-level-3-tile-3.png"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "renderStrategy": "whole building or4 complementary fragments; never draw both",
+      "sourceTilesPerLevel": 4,
+      "companyColourLayer": "company-flag-{0..15}"
+    },
+    {
+      "requirementId": "object-headquarters",
+      "level": 4,
+      "files": [
+        "assets/world/infrastructure/object-states/hq-level-4-whole.png",
+        "assets/world/infrastructure/object-states/hq-level-4-tile-0.png",
+        "assets/world/infrastructure/object-states/hq-level-4-tile-1.png",
+        "assets/world/infrastructure/object-states/hq-level-4-tile-2.png",
+        "assets/world/infrastructure/object-states/hq-level-4-tile-3.png"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "renderStrategy": "whole building or4 complementary fragments; never draw both",
+      "sourceTilesPerLevel": 4,
+      "companyColourLayer": "company-flag-{0..15}"
+    },
+    {
+      "requirementId": "object-headquarters",
+      "level": 5,
+      "files": [
+        "assets/world/infrastructure/object-states/hq-level-5-whole.png",
+        "assets/world/infrastructure/object-states/hq-level-5-tile-0.png",
+        "assets/world/infrastructure/object-states/hq-level-5-tile-1.png",
+        "assets/world/infrastructure/object-states/hq-level-5-tile-2.png",
+        "assets/world/infrastructure/object-states/hq-level-5-tile-3.png"
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "renderStrategy": "whole building or4 complementary fragments; never draw both",
+      "sourceTilesPerLevel": 4,
+      "companyColourLayer": "company-flag-{0..15}"
+    },
+    {
+      "requirementId": "object-transmitter",
+      "files": [
+        "assets/world/infrastructure/objects/radio-mast.png"
+      ],
+      "artIds": [
+        "radio-mast"
+      ],
+      "groundSeparateSuggested": true
+    },
+    {
+      "requirementId": "object-lighthouse",
+      "files": [
+        "assets/world/infrastructure/objects/lighthouse.png"
+      ],
+      "artIds": [
+        "lighthouse"
+      ],
+      "groundSeparateSuggested": true
+    },
+    {
+      "requirementId": "object-owned-land",
+      "files": [
+        "assets/world/infrastructure/objects/owned-land.png"
+      ],
+      "artIds": [
+        "owned-land"
+      ],
+      "groundSeparateSuggested": true
+    },
+    {
+      "requirementId": "object-statue",
+      "files": [
+        "assets/world/houses/families/special/house-family-bronze-sage-statue.png"
+      ],
+      "artIds": [
+        "house-family-bronze-sage-statue"
+      ],
+      "reuse": "same native bronze sage painting as town sculpture; company flag is separate",
+      "groundSeparateSuggested": true,
+      "groundArt": "assets/world/terrain/terrain-grass-flat.png",
+      "renderRule": "draw sculpture once at anchor; terrain separate; optional16company flag layers from this pack"
+    },
+    {
+      "requirementId": "object-headquarters",
+      "files": [
+        "assets/world/infrastructure/object-states/company-flag-00.png",
+        "assets/world/infrastructure/object-states/company-flag-01.png",
+        "assets/world/infrastructure/object-states/company-flag-02.png",
+        "assets/world/infrastructure/object-states/company-flag-03.png",
+        "assets/world/infrastructure/object-states/company-flag-04.png",
+        "assets/world/infrastructure/object-states/company-flag-05.png",
+        "assets/world/infrastructure/object-states/company-flag-06.png",
+        "assets/world/infrastructure/object-states/company-flag-07.png",
+        "assets/world/infrastructure/object-states/company-flag-08.png",
+        "assets/world/infrastructure/object-states/company-flag-09.png",
+        "assets/world/infrastructure/object-states/company-flag-10.png",
+        "assets/world/infrastructure/object-states/company-flag-11.png",
+        "assets/world/infrastructure/object-states/company-flag-12.png",
+        "assets/world/infrastructure/object-states/company-flag-13.png",
+        "assets/world/infrastructure/object-states/company-flag-14.png",
+        "assets/world/infrastructure/object-states/company-flag-15.png"
+      ],
+      "companyColourNames": [
+        "DarkBlue",
+        "PaleGreen",
+        "Pink",
+        "Yellow",
+        "Red",
+        "LightBlue",
+        "Green",
+        "DarkGreen",
+        "Blue",
+        "Cream",
+        "Mauve",
+        "Purple",
+        "Orange",
+        "Brown",
+        "Grey",
+        "White"
+      ],
+      "companyColourRule": "native16 names from src/gfx_type.h:283; RGB colours are this project art palette, not claimed OpenTTD exact palette values"
+    },
+    {
+      "requirementId": "animation-house-lift",
+      "houseSourceID": 4,
+      "files": [
+        "assets/world/infrastructure/object-states/office-lift-4-frame-00.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-01.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-02.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-03.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-04.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-05.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-06.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-07.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-08.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-09.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-10.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-11.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-12.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-13.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-14.png",
+        "assets/world/infrastructure/object-states/office-lift-4-frame-15.png"
+      ],
+      "animationId": "office-lift-4",
+      "bodyStaticPNG": "assets/world/houses/states/house-stepped-offices-1x1-grass-v0-s3.png",
+      "status": "part-motion-loop-produced"
+    },
+    {
+      "requirementId": "animation-house-lift",
+      "houseSourceID": 5,
+      "files": [
+        "assets/world/infrastructure/object-states/office-lift-5-frame-00.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-01.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-02.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-03.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-04.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-05.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-06.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-07.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-08.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-09.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-10.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-11.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-12.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-13.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-14.png",
+        "assets/world/infrastructure/object-states/office-lift-5-frame-15.png"
+      ],
+      "animationId": "office-lift-5",
+      "bodyStaticPNG": "assets/world/houses/states/house-arctic-apartment-1x1-snow-v0-s3.png",
+      "status": "part-motion-loop-produced"
+    }
+  ],
+  "acceptance": "produced; visual state/loop review pending",
+  "limitations": [
+    "HQ fragments are exact screen-space partitions; Unity depth and collision still require verification.",
+    "Company colour is a replaceable native cloth-flag layer; roofs remain jade.",
+    "Lift overlays demonstrate artwork motion only; floor logic and game update timing are next-stage work.",
+    "Shared tunnel/barrier native modules are processed in separate network-state pack."
+  ]
+}

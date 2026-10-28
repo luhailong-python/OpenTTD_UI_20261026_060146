@@ -1,0 +1,37 @@
+{
+  "id": "rail-depot-maglev-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-depot-maglev-axis-y.png",
+  "sha256": "0acaacf18fcfe7f44abe16fdd405acb21e2dde45d4bc28566e4c414bd9a47d8f",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-depot-maglev.png",
+      "sha256": "e5e1e395673dff901351b449b7fd473b698006314afc219d348cee9750582ccb",
+      "record": "assets/world/infrastructure/transport/rail-depot-maglev.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

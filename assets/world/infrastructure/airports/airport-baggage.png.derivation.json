@@ -1,0 +1,41 @@
+{
+  "id": "airport-baggage",
+  "image": "assets/world/infrastructure/airports/airport-baggage.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-module",
+  "sha256": "052b19ce45e5c3186de66ddd670bfe6c39a0c72a649a13f57d31a2d9c0e2dd66",
+  "operation": "component ownership crop, alpha<8 removal and >=240 opaque normalization, proportional downscale to <=224w/320h, fixed512 canvas; not new native detail",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/airport-props.png",
+      "sha256": "fa12f615a187f5dde7acb872712f2ac51ff30d0e2f520e17f632e6d589037e9b",
+      "record": "source-art/world/airport-props.png.generation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceCropXYXY": [
+    1091,
+    807,
+    1514,
+    990
+  ],
+  "sourceCell": 8,
+  "uniformScale": 0.5295508274231678,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": []
+}

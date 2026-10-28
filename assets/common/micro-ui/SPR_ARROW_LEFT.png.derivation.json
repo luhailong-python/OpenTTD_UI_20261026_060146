@@ -1,0 +1,63 @@
+{
+  "id": "SPR_ARROW_LEFT",
+  "image": "assets/common/micro-ui/SPR_ARROW_LEFT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "b4ad5e57b7e9337c79c0904f8614ac24c5a1be6f897e0ec76fa4f0b0ea6d9b4b",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/chevron.png",
+      "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+      "record": "assets/common/pointers/components/chevron.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_ARROW_LEFT",
+  "sourceSpriteId": 4943,
+  "category": "direction-control",
+  "functionalGlyph": null,
+  "geometryFile": null,
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      24,
+      48
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

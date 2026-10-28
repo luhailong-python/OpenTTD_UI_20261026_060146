@@ -1,0 +1,49 @@
+{
+  "id": "industry-04-oil-refinery-construction-2",
+  "image": "assets/world/industries/construction/industry-04-oil-refinery/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "0adaeb8021968a12cb4c3ad452cebb6d8735b9d0ea848c07128d48b59b71fdef",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/oil-refinery.png",
+      "sha256": "7845be266415d33d03feaa4e4131931e06cbefde8334cffe09d9b29906c2168a",
+      "record": "assets/world/industries/oil-refinery.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 4,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-04-oil-refinery",
+    "industry-tile-018",
+    "industry-tile-019",
+    "industry-tile-020",
+    "industry-tile-021",
+    "industry-tile-022",
+    "industry-tile-023"
+  ]
+}

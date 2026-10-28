@@ -1,0 +1,68 @@
+{
+  "id": "SPR_GROUP_DELETE_TRAIN",
+  "image": "assets/common/micro-ui/SPR_GROUP_DELETE_TRAIN.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "472d21514050b083366e07018539ff53935922717c38dc240940b347031b192c",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/train.png",
+      "sha256": "2f13c37fe7378f788ebeec6f655021e9e5c29d9b4c60aecc043b7d628f4168bf",
+      "record": "assets/icons/train.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_GROUP_DELETE_TRAIN.svg",
+      "sha256": "7a106a5b1abec30a392c10c14cd44e23cb0a9411fc41dfacbe084f3772281f4f",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_GROUP_DELETE_TRAIN",
+  "sourceSpriteId": 5014,
+  "category": "vehicle-operation",
+  "functionalGlyph": "cross",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_GROUP_DELETE_TRAIN.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

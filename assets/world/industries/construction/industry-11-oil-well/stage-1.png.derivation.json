@@ -1,0 +1,47 @@
+{
+  "id": "industry-11-oil-well-construction-1",
+  "image": "assets/world/industries/construction/industry-11-oil-well/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "85825889f9c21e699f736879021d07fa89beb853859013b45f0717e81adbfd71",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/oil-well.png",
+      "sha256": "d1040703d86b926994e8060aab8506caed0c709546fb9814d4ab0388c611c49d",
+      "record": "assets/world/industries/oil-well.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8017057569296375
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 11,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-11-oil-well",
+    "industry-tile-029",
+    "industry-tile-030",
+    "industry-tile-031",
+    "industry-tile-032"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "clear-rocks-sea",
+  "image": "previews/world/rocks-overlay/assemblies/clear-rocks-sea.png",
+  "sha256": "097d8d3f53b4bb7fd741bac0d0ec195e979feee89709de1b9d301855caeb31be",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/water-sea-frame-00.png",
+      "sha256": "a2456b3552dc724be1ed017ca17ef574c524662edbd7b2c30930b640e1c19bd1",
+      "record": "assets/world/terrain/water-sea-frame-00.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-flat.png",
+      "sha256": "b369b02294ef44d65d25cad895b6cf0b32399f910e1b3ef8301bd4b8893c738f",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-flat.png.derivation.json"
+    }
+  ],
+  "operation": "Actual existing WaterClass ground plus independent wet rock overlay; water remains separately drawable/animated",
+  "context": "ClearRocks",
+  "waterClass": "Sea",
+  "slopeCode": 0,
+  "overlayId": "rocks-water-coast-layout-0-slope-flat",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "label": "ClearRocks / Sea",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

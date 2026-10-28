@@ -1,0 +1,68 @@
+{
+  "id": "SPR_PROFIT_LOT",
+  "image": "assets/common/micro-ui/SPR_PROFIT_LOT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "9dbcf3968909da7e30ba8e9b3f045282362f2019ea0af2c62e7424c377b6d38d",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/money.png",
+      "sha256": "e3740498a0b60c5ec9ed9b88147787e760e42656cf9d7965f1be82057c813a54",
+      "record": "assets/icons/money.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_PROFIT_LOT.svg",
+      "sha256": "66e874e8be2ab776836766babd7817e78b2388bb95f8e892cde608b13b472b86",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_PROFIT_LOT",
+  "sourceSpriteId": 5053,
+  "category": "profit-status",
+  "functionalGlyph": "bars",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_PROFIT_LOT.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

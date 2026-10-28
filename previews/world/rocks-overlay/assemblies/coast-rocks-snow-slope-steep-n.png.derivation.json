@@ -1,0 +1,72 @@
+{
+  "id": "coast-rocks-snow-slope-steep-n",
+  "image": "previews/world/rocks-overlay/assemblies/coast-rocks-snow-slope-steep-n.png",
+  "sha256": "fbb5a9fcb92618f91cbe28e01bc1bd524112c1a12d5f47bf5eef7378a9e606d9",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-10-land.png",
+      "sha256": "6a55b8b41cd3125e9488cc75f4f05057a7c8753cc1ab87279ba0f1a1bc13b795",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-10-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-10-bank.png",
+      "sha256": "9fbb146c6659b3a4919ea5380c121ed8933baa6d6f3fcc6fdd444cfd3a587e46",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-10-bank.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-n.png",
+      "sha256": "37a3bf50ed436751d6ff3b31b69435c7098113649dde4f6013b0592f6bd2b28b",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-n.png.derivation.json"
+    }
+  ],
+  "operation": "Formal source-height shoreline land/native-bank and strictly horizontal0-height water layers plus independently placed wet-rock bodies; source DryOut permits water:null, never add obsolete flat backing",
+  "context": "CoastRocks",
+  "shoreClimate": "snow",
+  "slopeCode": 29,
+  "sourceShoreIndex": 10,
+  "overlayId": "rocks-water-coast-layout-0-slope-steep-n",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "shoreOffsetPx": [
+    0,
+    64
+  ],
+  "formalLayers": [
+    {
+      "role": "land",
+      "image": "assets/world/terrain/shore-geometry/shore-snow-slot-10-land.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "bank",
+      "image": "assets/world/terrain/shore-geometry/shore-snow-slot-10-bank.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "wet-rocks",
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-n.png",
+      "offsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "groundWhole": "assets/world/terrain/shore-geometry/shore-snow-slot-10-whole.png",
+  "groundManifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "groundManifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceFloodingBehaviour": "DryOut",
+  "waterHasPositiveArea": false,
+  "waterAbsentReason": "The source integer-height mesh has no positive-area zero-height face; this legal DryOut coast touches the water plane only at the low corner. No fake water triangle is exported.",
+  "label": "CoastRocks snow / steep-n",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

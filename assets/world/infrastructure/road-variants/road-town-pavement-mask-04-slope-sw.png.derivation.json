@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/infrastructure/road-variants/road-town-pavement-mask-04-slope-sw.png",
+  "sha256": "8a308a4a6fa89051cbd10d6e4c5d7a7019792629997d5a6bfbb131bd55414e9d",
+  "generatedAt": "2026-10-28T07:33:50.639304+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 192,
+  "operation": "actual native road/tram lane Alpha over actual painted town-pavement ground; native unmarked paving96x96UV region repeated2x2 without enlargement; piecewise-affine source-corner height projection, shared fixedcanvas/anchor; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/roads/road-mask-04.png",
+      "sha256": "b502dea9bd8d7c8a99f09e9d8d84be619a10e4bafbe443d9103e34c91369da73",
+      "record": "assets/world/infrastructure/roads/road-mask-04.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/roads/road-mask-00.png",
+      "sha256": "9b9a7bff512b284db336580df0fefdeb36cafaee1596877275642584559c4579",
+      "record": "assets/world/infrastructure/roads/road-mask-00.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Native imagegen model/quality undisclosed; derivative transformations add no native painted details."
+}

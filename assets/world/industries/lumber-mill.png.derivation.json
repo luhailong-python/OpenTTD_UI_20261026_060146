@@ -1,0 +1,60 @@
+{
+  "id": "industry-25-lumber-mill",
+  "file": "assets/world/industries/lumber-mill.png",
+  "sha256": "db51304e480003a7196752e941fae1d649b4ed11c172b44b1e8069cabc8927e5",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    422,
+    824,
+    833,
+    1204
+  ],
+  "nativePaintingBounds": [
+    425,
+    825,
+    833,
+    1204
+  ],
+  "uniformScale": 0.9343065693430657,
+  "pasteXY": [
+    64,
+    93
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    93,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-c.png",
+    "sha256": "5d0106d538514752887dab941c2b3c7ca8942f66f447ba114342d7590712ad83",
+    "record": "source-art/world/industry-c.png.generation.json"
+  },
+  "sourceIndustryTypeId": 25,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

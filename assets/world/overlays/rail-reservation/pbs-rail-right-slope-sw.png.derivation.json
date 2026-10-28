@@ -1,0 +1,57 @@
+{
+  "id": "pbs-rail-right-slope-sw",
+  "image": "assets/world/overlays/rail-reservation/pbs-rail-right-slope-sw.png",
+  "width": 256,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "876f07f9a3bb6dc83f88c9307f251de884324a344dce7497de8fc41ff33d1be3",
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.3333333333333333
+  ],
+  "category": "rail-reservation-overlay",
+  "sourceRequirementIds": [
+    "rail-rail"
+  ],
+  "state": "reserved",
+  "trackBit": 5,
+  "trackName": "right",
+  "slopeCode": 3,
+  "sourceOverlay": {
+    "file": "assets/world/infrastructure/rail/rail-rail-segment-right-slope-sw.png",
+    "sha256": "2078cb163213956bb3b01136993778b396d3b4cb5a2aa6e5331a680c566cc26c",
+    "record": "assets/world/infrastructure/rail/rail-rail-segment-right-slope-sw.png.derivation.json"
+  },
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/rail/rail-rail-segment-right-slope-sw.png",
+      "sha256": "2078cb163213956bb3b01136993778b396d3b4cb5a2aa6e5331a680c566cc26c",
+      "record": "assets/world/infrastructure/rail/rail-rail-segment-right-slope-sw.png.derivation.json"
+    }
+  ],
+  "sourceLayer": "track-overlay",
+  "ownershipMask": "exact Alpha of actual source track-overlay PNG;flat only transparent64px top padding;no terrain composite input",
+  "operation": "luma grayscale×0.58 on native owned track pixels,source Alpha unchanged,Alpha0RGB cleared;source PALETTE_CRASH visual meaning reinterpreted for current art,not original palette byte emulation",
+  "material": {
+    "rgbFormula": "round((0.2126R+0.7152G+0.0722B)*0.58) repeated inRGB",
+    "alphaFormula": "Aout=Asource; no opaque fill/no whole-ground tint",
+    "blend": "straight alpha/source-over",
+    "sourceSetting": "_settings_client.gui.show_track_reservation",
+    "activeCondition": "reservedTrackBits & currentTrackBits;source also suppresses menu mode",
+    "notReserved": "do not draw this layer",
+    "overhead": "catenary/posts/vehicles excluded from owned Alpha and remain separate"
+  },
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/rail-reservation-visual-review.json"
+}

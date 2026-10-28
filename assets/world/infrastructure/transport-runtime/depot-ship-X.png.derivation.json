@@ -1,0 +1,44 @@
+{
+  "id": "depot-ship-X",
+  "image": "assets/world/infrastructure/transport-runtime/depot-ship-X.png",
+  "sha256": "95565ebf001ee1d4929fe73cc29302caa90e721c4a47bb5ebadc21ab5ea09cfd",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/ship-depot.png",
+      "sha256": "95565ebf001ee1d4929fe73cc29302caa90e721c4a47bb5ebadc21ab5ea09cfd",
+      "record": "assets/world/infrastructure/transport/ship-depot.png.derivation.json"
+    }
+  ],
+  "operation": "Native four service perspectives or symmetric ship-depot axis reflection; no fake rear from front image",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "depot-ship"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.591219+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "X",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

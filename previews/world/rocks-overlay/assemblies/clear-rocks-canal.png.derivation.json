@@ -1,0 +1,30 @@
+{
+  "id": "clear-rocks-canal",
+  "image": "previews/world/rocks-overlay/assemblies/clear-rocks-canal.png",
+  "sha256": "84dcac2daac93edbfb30d14a8b1cdf59d1febdfa5bcec7388a3b7fcbbca7fd5d",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/water-states/water-canal-mask-15-frame-0.png",
+      "sha256": "1a39e2b780994b6e851584b7f1a4402d230fe16d73e719be5904f2ba2d12b7bf",
+      "record": "assets/world/infrastructure/water-states/water-canal-mask-15-frame-0.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-flat.png",
+      "sha256": "b369b02294ef44d65d25cad895b6cf0b32399f910e1b3ef8301bd4b8893c738f",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-flat.png.derivation.json"
+    }
+  ],
+  "operation": "Actual existing WaterClass ground plus independent wet rock overlay; water remains separately drawable/animated",
+  "context": "ClearRocks",
+  "waterClass": "Canal",
+  "slopeCode": 0,
+  "overlayId": "rocks-water-coast-layout-0-slope-flat",
+  "overlayOffsetPx": [
+    128,
+    32
+  ],
+  "label": "ClearRocks / Canal",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

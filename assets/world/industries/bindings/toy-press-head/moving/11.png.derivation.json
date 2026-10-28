@@ -1,0 +1,42 @@
+{
+  "id": "industry-toy-press-head-bound-11",
+  "image": "assets/world/industries/bindings/toy-press-head/moving/11.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "1b705179087f894aeb214a38338cd9a6662507bcca63fa57955ae6276c7230c9",
+  "operation": "actual parent moving-pixel crop + declared deterministic disc-spin; full512 attachment layer already positioned in parent coordinates; not a new native pose",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/toy-factory.png",
+      "sha256": "043c68930bed37cce818dd00b992014f80aaa2010a01e85eb807e4463a7c2c84",
+      "record": "assets/world/industries/toy-factory.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 11,
+  "phase": 0.9166666666666666,
+  "parameters": {
+    "phaseRadians": 5.759586531581287,
+    "method": "actual parent mechanism RGB inverse sampling inside fixed ownership Alpha; unchanged painted boundary",
+    "pivotPx": [
+      284,
+      284
+    ]
+  },
+  "parentArtId": "industry-31-toy-factory",
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

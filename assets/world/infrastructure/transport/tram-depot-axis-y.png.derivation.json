@@ -1,0 +1,37 @@
+{
+  "id": "tram-depot-axis-y",
+  "image": "assets/world/infrastructure/transport/tram-depot-axis-y.png",
+  "sha256": "efc7d14c64e8518f59d29101d116a77004de87d8bf1d3b8b0d700d2a156ffb88",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/tram-depot.png",
+      "sha256": "73ab8b32eb6c4b27508478f48e6fb34f7f028ba2b606af1a58dde5a180b9cf94",
+      "record": "assets/world/infrastructure/transport/tram-depot.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

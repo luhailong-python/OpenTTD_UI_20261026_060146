@@ -1,0 +1,358 @@
+{
+  "id": 86,
+  "upstreamName": "Lev3 'Pegasus' (Electric)",
+  "familyId": "loco-maglev",
+  "transport": "train",
+  "cargo": "CT_NONE",
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 189
+  },
+  "trackHardware": "maglev",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/N-body.png",
+      "sha256": "c6a1b8779dbe8e8f34bb200f11e157b745491a457d0de726b71fbbf8745a4e28",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/N-body.png",
+          "sha256": "c6a1b8779dbe8e8f34bb200f11e157b745491a457d0de726b71fbbf8745a4e28",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/N.png",
+          "sha256": "7f71b5aa853ded5d728d6347183bcd40e89c6b613d7375914986c72583e74e51",
+          "record": "assets/world/vehicles/families/loco-maglev/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/NE-body.png",
+      "sha256": "7838263181756ff44f0eca8945aa0a632fb065bb2d11d3c8dcc73d97959a322f",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/NE-body.png",
+          "sha256": "7838263181756ff44f0eca8945aa0a632fb065bb2d11d3c8dcc73d97959a322f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/NE.png",
+          "sha256": "eac7263bb7a58077a6cb737869276979ce711aad9f1fafe3d4409100cfef6983",
+          "record": "assets/world/vehicles/families/loco-maglev/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/E-body.png",
+      "sha256": "d7b1a7bbaf801a63816c7ddd58e0383b0409a49578a0ff276ccc6f7a41d2e7ee",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/E-body.png",
+          "sha256": "d7b1a7bbaf801a63816c7ddd58e0383b0409a49578a0ff276ccc6f7a41d2e7ee",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/E.png",
+          "sha256": "2ebc4f0373eb02b218cdb97e1cdd5f59b57e35b0bcac35768e6697fc994a5b60",
+          "record": "assets/world/vehicles/families/loco-maglev/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/SE-body.png",
+      "sha256": "65796d1e21d30bbba2605b0e194b71d4b1c8e2e099d66811486e2bc8e2f9fabd",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/SE-body.png",
+          "sha256": "65796d1e21d30bbba2605b0e194b71d4b1c8e2e099d66811486e2bc8e2f9fabd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/SE.png",
+          "sha256": "dff3408b178cc3c2dca5e85140a03cdb63891fa13b9502743f4d416fd4d2e582",
+          "record": "assets/world/vehicles/families/loco-maglev/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/S-body.png",
+      "sha256": "78652dc93e3dbe9818596f950923a085340d3193f1b52fcd2adc22caa62c9422",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/S-body.png",
+          "sha256": "78652dc93e3dbe9818596f950923a085340d3193f1b52fcd2adc22caa62c9422",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/S.png",
+          "sha256": "4deac73b7ebf5052c05357551cafaf9230b6db507a5146086379c63dc31f460c",
+          "record": "assets/world/vehicles/families/loco-maglev/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/SW-body.png",
+      "sha256": "6a2eb69fd5ca02693d1dfa37c1d27c2c474c47ce38d5565c2d98b62d3d14762b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/SW-body.png",
+          "sha256": "6a2eb69fd5ca02693d1dfa37c1d27c2c474c47ce38d5565c2d98b62d3d14762b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/SW.png",
+          "sha256": "48d5e7aceb7614bf02ca18fd8de36e8f055f579d7b7fab9014871367ec3ee1a0",
+          "record": "assets/world/vehicles/families/loco-maglev/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/W-body.png",
+      "sha256": "2cf417cf55ee816af2e008c228457994d985883736d4ed0dab8d2bd527d7856e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/W-body.png",
+          "sha256": "2cf417cf55ee816af2e008c228457994d985883736d4ed0dab8d2bd527d7856e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/W.png",
+          "sha256": "41bb45039b6d10855d16046e34a764e1ad761dee0582f94ca9430973dfb49bb9",
+          "record": "assets/world/vehicles/families/loco-maglev/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/086/NW-body.png",
+      "sha256": "7d5006e990427cd955a1470d7cd02185d7a603c4c0f8c014966bc7abf9c2c1db",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/086/NW-body.png",
+          "sha256": "7d5006e990427cd955a1470d7cd02185d7a603c4c0f8c014966bc7abf9c2c1db",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -1,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-maglev/NW.png",
+          "sha256": "317af362eb5742c938915d98f913c981d1a1b0bd9642d702b4d473df4137af47",
+          "record": "assets/world/vehicles/families/loco-maglev/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/loco-maglev/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

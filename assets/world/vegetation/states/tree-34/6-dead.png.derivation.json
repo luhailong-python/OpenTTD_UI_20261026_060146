@@ -1,0 +1,46 @@
+{
+  "id": "tree-34-dead",
+  "image": "assets/world/vegetation/states/tree-34/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "0a3b91b9f26c2fbe8072b97a58709e6aaeffd685028fd8f23c937dd713316ef5",
+  "climate": "toyland",
+  "artSpecies": "cotton-candy",
+  "sourceTreeType": 34,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-34.png",
+      "sha256": "51d12a2f62a0f01dc1351266dbe436342559c4b5fe1727b0a86fd3f4c9a3f3bc",
+      "record": "assets/world/vegetation/mature/tree-34.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dead-cotton.png",
+      "sha256": "06cd3db00179eb12c88671ba67ce830a071afea211f50a2e773e8c6bfea05e5b",
+      "record": "assets/world/vegetation/lifecycle/dead-cotton.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-cotton",
+    "sharedScale": 0.43124999999999997,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-34"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "industry-01-power-station-construction-2",
+  "image": "assets/world/industries/construction/industry-01-power-station/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "25f774c7de03e52b666c25ede89119d810129d426478584bf719576513890b8b",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/power-station.png",
+      "sha256": "360e587bb06897327cf1a21fb0280175acc9cbc86e99a24116b319129c555ae3",
+      "record": "assets/world/industries/power-station.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 1,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-01-power-station",
+    "industry-tile-007",
+    "industry-tile-008",
+    "industry-tile-009",
+    "industry-tile-010"
+  ]
+}

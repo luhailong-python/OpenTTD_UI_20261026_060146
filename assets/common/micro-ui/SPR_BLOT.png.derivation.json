@@ -1,0 +1,63 @@
+{
+  "id": "SPR_BLOT",
+  "image": "assets/common/micro-ui/SPR_BLOT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "1b9b002e1fc9e4f191a10626645b1e47a4fe32df138ce51e20fdcb5190665f47",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/path-dot.png",
+      "sha256": "7cb584882c7290d92bbcb83c913204b3ea962faf44f6cc00c3fe5e8ec18a066a",
+      "record": "assets/common/pointers/components/path-dot.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_BLOT",
+  "sourceSpriteId": 4935,
+  "category": "palette-marker",
+  "functionalGlyph": null,
+  "geometryFile": null,
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      24,
+      48
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

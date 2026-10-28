@@ -1,0 +1,39 @@
+{
+  "id": "tree-04-dying-1",
+  "image": "assets/world/vegetation/states/tree-04/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "8f5912ea6ba6209e3bcc00150b487c3a861ee0fd1bec267fd60deee9abcebfde",
+  "climate": "temperate",
+  "artSpecies": "pine",
+  "sourceTreeType": 4,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-04.png",
+      "sha256": "a18c3d486023b530aa841e532d9d9231a3bd666b71a75159600e52f16f928634",
+      "record": "assets/world/vegetation/mature/tree-04.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-04"
+  ]
+}

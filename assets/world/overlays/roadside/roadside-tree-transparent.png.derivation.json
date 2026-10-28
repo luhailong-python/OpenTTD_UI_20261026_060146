@@ -1,0 +1,54 @@
+{
+  "id": "roadside-tree-transparent",
+  "image": "assets/world/overlays/roadside/roadside-tree-transparent.png",
+  "width": 128,
+  "height": 160,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "a9e5fb0026122319cdf8ea9622580c86a78de84f3323635583efa4e07bc2432b",
+  "anchorPx": [
+    64,
+    144
+  ],
+  "pivotUnity": [
+    0.5,
+    0.1
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "roadside-reusable-prop",
+  "sourceRequirementIds": [
+    "road-road",
+    "road-tram"
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/overlays/roadside/roadside-tree.png",
+      "sha256": "672064365a4bf7e24178d5713f48b6a8ad506e0728cbe19800615d2939451f0f",
+      "record": "assets/world/overlays/roadside/roadside-tree.png.derivation.json"
+    }
+  ],
+  "operation": "explicit artwork transparency state0.35Alpha on the same registered native prop;preview treatment,not exact original-game palette emulation",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "sourceSpriteId": 4626,
+  "state": "transparent",
+  "baseAssetId": "roadside-tree",
+  "alphaMultiplier": 0.35,
+  "sourceTransparencyOption": "Trees",
+  "sourceBoundingBoxWorld": [
+    2,
+    2,
+    16
+  ],
+  "actualVisualReview": "records/roadside-visual-review.json"
+}

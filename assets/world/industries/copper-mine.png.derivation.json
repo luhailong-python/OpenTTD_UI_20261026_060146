@@ -1,0 +1,60 @@
+{
+  "id": "industry-10-copper-mine",
+  "file": "assets/world/industries/copper-mine.png",
+  "sha256": "b7c8a50fb22e4b4f357890ab81912a150dde070839d3772bff67f0c4290fbb20",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    440,
+    48,
+    858,
+    413
+  ],
+  "nativePaintingBounds": [
+    441,
+    48,
+    857,
+    413
+  ],
+  "uniformScale": 0.9186602870813397,
+  "pasteXY": [
+    64,
+    113
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    113,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-b.png",
+    "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+    "record": "source-art/world/industry-b.png.generation.json"
+  },
+  "sourceIndustryTypeId": 10,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

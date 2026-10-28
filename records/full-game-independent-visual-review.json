@@ -1,0 +1,515 @@
+{
+  "reviewedAt": "2026-10-27T02:26:57.870084+00:00",
+  "reviewer": "world_pack_finish independent read-only review",
+  "scope": "Actually viewed contact images at current hashes; no changes to production art or manifests. Functional/runtime acceptance separate.",
+  "items": [
+    {
+      "file": "previews/world/signal-states-contact.jpg",
+      "sha256": "725efab65bb0dff91c5641182253768e66dab56756529ad468074f10d32de1c0",
+      "status": "passed-local",
+      "finding": "Reopened all12 family red/green pairs after repair. Single clean rigid arm in raised/lowered position; family plaques and electric red/green lamp switching remain readable. No clipped neighbours or old-arm fragments observed.",
+      "history": [
+        {
+          "sha256": "a8526ae39040d38ff6ec0afe9413a6ea1b4d11f32846b8c8f90fad7b4c1e904a",
+          "status": "passed-local",
+          "finding": "12 signal families and red/green lamp/arm states are readable; front-view type plaques distinguish block/entry/exit/combo/path/oneway."
+        }
+      ],
+      "recheckedAt": "2026-10-27T02:44:59.011139+00:00"
+    },
+    {
+      "file": "previews/world/signal-directions-state-contact.jpg",
+      "sha256": "f0c0e3baf25949152f91eb2924d3bd08307bb013ca4f1e0c2a049a007c70a52c",
+      "status": "passed-local",
+      "finding": "Reopened the corrected contact after native-arm Alpha separation. No duplicate horizontal/raised arm or detached hinge fragments remain. Red/green semaphore states are readable by arm position; native front/back housings are shared across declared approximate logical directions, not8 new native azimuth paintings.",
+      "history": [
+        {
+          "sha256": "e7ad370726a4053295a5561598c0907ca8f5c48d0c710222df7ed77ae13bf106",
+          "status": "needs-repair",
+          "finding": "N/NE/NW green appear to retain the original horizontal semaphore arm while a raised arm is overlaid; W-green has detached gold/ivory fragments below the hinge. Owner notified for native-arm Alpha cleanup."
+        }
+      ],
+      "recheckedAt": "2026-10-27T02:44:59.011139+00:00"
+    },
+    {
+      "file": "previews/world/water-connectivity-contact.jpg",
+      "sha256": "388e82605f653bbb2fa1627aadb901529ff5c5df1ed40aace414fddbcf942a5d",
+      "status": "passed-local",
+      "finding": "All16 river and16 canal connection masks are visually represented; continuous painted water and bank modules visible. This contact is not proof of runtime reachability or every adjacent seam."
+    },
+    {
+      "file": "previews/world/object-states-contact.jpg",
+      "sha256": "00e8059ca33f6f32eb2c2d5bc3e86d25846c54add1da24c1c9349ebea18529bc",
+      "status": "passed-local",
+      "finding": "Five HQ levels and16 company cloth colour derivatives present; main silhouettes and cutout edges readable."
+    },
+    {
+      "file": "previews/world/fences-shore-contact.jpg",
+      "sha256": "61ab9ae4e361c8929fd88c69518166139553aaa1f734d57de5c780d2aa440ce1",
+      "status": "passed-local",
+      "finding": "Native3 fence modules,3 shore/bank modules and field/rock parts present; no visible atlas neighbour fragments."
+    },
+    {
+      "file": "previews/world/fence-styles-contact.jpg",
+      "sha256": "daa872979fe6066053a2c3115af031fd7b0918ef2c330032038c8d64daee1494",
+      "status": "passed-local",
+      "finding": "Seven explicit shared-material styles in four edge placements; same artwork symmetry is apparent and recorded rather than claimed native camera rotations."
+    },
+    {
+      "file": "previews/world/foundation-slopes-contact.jpg",
+      "sha256": "600ac960f8716d38860877d3cee3fcd02c8946494659b7762ba6e4d651a475fb",
+      "status": "passed-local",
+      "finding": "Actually viewed source-correct family contact: all four HalfTile modes now use half triangles, not corner quarter diamonds. Existing native grass and masonry pixels remain visible; no newly painted details claimed. Continuation root independently reopened this same current contact; no quarter-square half-tile footprint remains.",
+      "sourceEvidence": [
+        {
+          "file": "src/slope_type.h",
+          "lines": [
+            119,
+            140
+          ],
+          "symbols": [
+            "Foundation::Leveled",
+            "Foundation::InclinedX",
+            "Foundation::InclinedY",
+            "Foundation::SteepLower",
+            "Foundation::SteepBoth",
+            "Foundation::HalfTileW",
+            "Foundation::HalfTileS",
+            "Foundation::HalfTileE",
+            "Foundation::HalfTileN",
+            "Foundation::RailW",
+            "Foundation::RailS",
+            "Foundation::RailE",
+            "Foundation::RailN"
+          ]
+        },
+        {
+          "file": "src/landscape.cpp",
+          "lines": [
+            453,
+            547
+          ],
+          "symbol": "DrawFoundation"
+        },
+        {
+          "file": "src/table/sprites.h",
+          "lines": [
+            227,
+            231
+          ],
+          "meaning": "74 normal extra block /90 normal-and-halftile constant"
+        }
+      ],
+      "history": [
+        {
+          "sha256": "55e22d0d0f6c170872bdb432d29579b203278fb4d943820abe7439a45068fdbe",
+          "status": "needs-repair",
+          "finding": "Current low post fence/wall is translated by slope corners. Continuous vertical support, inclined foundations, steep double portions, four half-tile corners and special RailW/S/E/N foundation recipes are not yet visible or explicitly mapped. The source constants are NORMAL_FOUNDATION_SPRITE_COUNT=74 and NORMAL_AND_HALFTILE_FOUNDATION_SPRITE_COUNT=90;90 is not described as90 independent half-tile paintings. Owner notified to derive actual solid support surfaces and explicit mode recipes."
+        },
+        {
+          "sha256": "05779196c893eb41156e8e02616845fe1c582ca32281e3173e5c653891e20ecc",
+          "status": "passed-local",
+          "finding": "Reopened revised contact: continuous actual painted stone support faces now join the raised ground, with leveled/inclined/steep single-double/half-corner/special-rail examples. Former decorative low-fence proxy was replaced. Foundation manifest explicitly declares13 effective modes plusNone and inapplicable no-image cases. Runtime foundation choice and sorting remain next-stage validation."
+        }
+      ],
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00"
+    },
+    {
+      "file": "previews/world/roads-connections.jpg",
+      "sha256": "3c31da4b36ef60585b4fa276e6755e9a4ab00c4dd0effc952dba400a39f5ac26",
+      "status": "passed-local",
+      "finding": "Reopened actual re-exported road assembly: former black corner wedges are gone after preserving native Alpha and compositing genuine grass paint beneath it. Endpoint/straight/cross route remains visually continuous at this contact scale.",
+      "history": [
+        {
+          "sha256": "512c5bbcb956cebd0e4878c5007de3bc78a779bb19233a7d391a59206134419f",
+          "status": "needs-repair",
+          "finding": "Connected road preview has black wedge artefacts at native tile corners (approximately x450/y315 andx700/y460 in contact). Root cause is native road unwrap conversion toRGB before Alpha preservation, followed by an opaque canonical diamond mask. Needs native Alpha-preserving unwrap and an actual painted grass underlay, then rebuilding dependent crossing compositions."
+        }
+      ],
+      "recheckedAt": "2026-10-27T03:02:08.211321+00:00"
+    },
+    {
+      "file": "previews/world/rail-contact.jpg",
+      "sha256": "77ef13ec9a27b34f68a226f4a2b55f0d180ec3871b54c1001789d59aec74d9b7",
+      "status": "passed-local",
+      "finding": "Rail/monorail/maglev/electric segment silhouettes and sample graph composites are readable. Upright poles and separate copper-wire layers visible; exact runtime signal/track legality and sorting separate."
+    },
+    {
+      "file": "previews/world/terrain-repeat.jpg",
+      "sha256": "00a0b63b31759b68b4614b4545f2321d8d93dece1b3f07c4c4d49c20cc83e3e3",
+      "status": "passed-local",
+      "finding": "Continuation root reopened all12 material repeats and separate8x8 shore-sand/snowgrass/shallow pages. Former green-edge sand, white-edge snowgrass and bright-center shallow checkerboard defects are removed after3native square-master repairs. Remaining patterns are periodic details of the declared source texture, not claimed infinitely unique ground. No openAlpha cracks seen at this display scale.",
+      "history": [
+        {
+          "sha256": "c9155bac93497e7909d4fe5752dff29099940ef87cb27be42b18cf18faf832e7",
+          "status": "passed-local",
+          "finding": "Twelve repeated actual terrain materials viewed. No open Alpha cracks apparent at this preview scale; repetition and photometric warnings for snowgrass/shore-sand remain recorded in terrain pack QA rather than silently accepted numerically."
+        }
+      ],
+      "recheckedAt": "2026-10-28T10:54:03.277675+00:00"
+    },
+    {
+      "file": "previews/world/terrain-slopes.jpg",
+      "sha256": "faf39f0cd8fa5d61323be50de3e66cf17e26301e00e8408469c99c19a2cc0c55",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened all19 current grass slope silhouettes. Common frame, painted texture and fixed contact points retained. Separate foundation review covers height/support geometry; these slope derivatives are not new native original paintings.",
+      "history": [
+        {
+          "sha256": "1dba410dff0240723d256028227a0f55ecc7d9884e3f61e3949dd0b677c60f9d",
+          "status": "passed-local",
+          "finding": "All19 legal slope silhouettes are represented in a common frame, using actual painted material. This is not proof that every engine foundation mode has been supplied."
+        }
+      ],
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00"
+    },
+    {
+      "file": "previews/world/crossing-states-contact.jpg",
+      "sha256": "21ebac206cefb6fc5fe23ff1c7deb913bce128e1af27af80d9235f634c2d8846",
+      "status": "passed-local",
+      "finding": "Viewed both axis sets and8 barrier poses each. Native stationary plinth remains fixed; one real painted arm rotates rigidly without duplicate old-arm fragments. No Unity motion/clearance claim.",
+      "recheckedAt": "2026-10-27T04:42:41.131434+00:00"
+    },
+    {
+      "file": "assets/world/infrastructure/mechanics/lock-NW-low-closed.png",
+      "sha256": "35a155b00ec43f158bf521554d00d25065e4abb113b525368453b15270a7c4fe",
+      "status": "passed-local",
+      "finding": "Reopened actual512px repaired image: former floating V stone strip is gone; native interior brick walls and low-water chamber now read coherently. Fixed outer walls retained.",
+      "recheckedAt": "2026-10-27T05:15:51.997387+00:00",
+      "history": [
+        {
+          "sha256": "09ea803f0c95db401ddfb78df0f58bf92c3ec8f4a5f309e2716db3e06551e470",
+          "status": "needs-recheck",
+          "finding": "Actual512px image has a pale V-shaped stone strip across central water. It may be intended exposed low-water interior wall, but currently reads as floating geometry; owner asked to verify and correct if required."
+        }
+      ]
+    },
+    {
+      "file": "assets/world/infrastructure/mechanics/lock-SW-high-open.png",
+      "sha256": "fcc7a5eecc93948f50ab76490b3d00ce7c5d35b2558869d641a357334906b30b",
+      "status": "passed-local",
+      "finding": "Reopened actual512px repaired image and water-background assembly: old pasted blue patch and gold residual removed. Gate opening is real Alpha0 and requires upstream scene water/background; no opaque black texture is baked there.",
+      "recheckedAt": "2026-10-27T05:15:51.997387+00:00",
+      "history": [
+        {
+          "sha256": "2aa23714ae66071cd8f1750d41071ab9f7e45206ce3f68dfd037fe6daeac91ed",
+          "status": "needs-repair",
+          "finding": "Actual512px open rear passage shows a hard rectangular water patch boundary and a thin vertical gold residual line. Owner notified; contact-scale overview alone did not reveal this."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/assembled-transport-town.png",
+      "sha256": "eedd8b4311e79b9069f9d853f09309a9b26e4e038e34d8c25ddd8f9c08cac2db",
+      "status": "passed-local",
+      "finding": "Actually viewed representative current-asset composition: terrain, vegetation, distinct buildings/industry, train, bus, boat and station. Useful art-scale/style inspection; source-pixel composition does not establish route simulation, final object scale or Unity depth.",
+      "recheckedAt": "2026-10-27T04:42:41.131434+00:00"
+    },
+    {
+      "file": "previews/full-game-overview.jpg",
+      "sha256": "ae985c9aa57bf3a3bbb422d2df8b77c7676a68b03ebc105e3c589766798c6db9",
+      "status": "passed-local",
+      "finding": "Actually viewed combined UI/world/vehicle overview. Labels distinguish picture-stage delivery, temporary title and absent Unity connection; inherited art downsampled for editorial overview.",
+      "recheckedAt": "2026-10-27T04:42:41.131434+00:00"
+    },
+    {
+      "file": "previews/world/industry-assembly/mine-winding-wheel-phases.jpg",
+      "sha256": "16e5cbded3fae6b510e8100151179a30ca45116375867b0696aa3aee33d8f089",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 assembled parent phases against alternating backgrounds: native support stays fixed, movement is registered in the actual parent mechanism, and no detached unrelated-part overlay or duplicate old mechanism was observed. Declared2D native-pixel motion; no new3D pose claim.",
+      "recheckedAt": "2026-10-27T04:51:06.748128+00:00"
+    },
+    {
+      "file": "previews/world/industry-assembly/pumpjack-beam-phases.jpg",
+      "sha256": "2c99de980bb168619c87b66396e4cfdc37da4c35460093c3844d5d7bbfa9dd3b",
+      "status": "passed-local",
+      "finding": "Reopened all12 current oil-pump phases after conservative complete head ownership expansion. Original slim head edge no longer duplicates the moving head; original foreground hinge remains fixed. Declared native-pixel short-stroke2D motion, not new3D poses.",
+      "recheckedAt": "2026-10-27T05:20:34.185320+00:00",
+      "history": [
+        {
+          "sha256": "05c971379480c300dd04bc07c1b2c15e065708f50a120e80b741101e9da54c59",
+          "status": "passed-local",
+          "finding": "Actually viewed all12 assembled parent phases against alternating backgrounds: native support stays fixed, movement is registered in the actual parent mechanism, and no detached unrelated-part overlay or duplicate old mechanism was observed. Declared2D native-pixel motion; no new3D pose claim."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/industry-assembly/plastic-jet-phases.jpg",
+      "sha256": "be2419182da7f666013df459e0b831acb312f5f7aafbb6a88bb98100d54d6abb",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 assembled parent phases against alternating backgrounds: native support stays fixed, movement is registered in the actual parent mechanism, and no detached unrelated-part overlay or duplicate old mechanism was observed. Declared2D native-pixel motion; no new3D pose claim.",
+      "recheckedAt": "2026-10-27T04:51:06.748128+00:00"
+    },
+    {
+      "file": "previews/world/industry-assembly/toy-press-head-phases.jpg",
+      "sha256": "1a789ad078859b8b54c34846204e493f222b71601373e8006247da0d5b44709d",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 assembled parent phases against alternating backgrounds: native support stays fixed, movement is registered in the actual parent mechanism, and no detached unrelated-part overlay or duplicate old mechanism was observed. Declared2D native-pixel motion; no new3D pose claim.",
+      "recheckedAt": "2026-10-27T04:51:06.748128+00:00"
+    },
+    {
+      "file": "previews/world/industry-assembly/toffee-drill-phases.jpg",
+      "sha256": "8c687c2902837d1056e04ded95c6651cbbf7c2e6f3a5a5cb03b87da9b0b5d34d",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 assembled parent phases against alternating backgrounds: native support stays fixed, movement is registered in the actual parent mechanism, and no detached unrelated-part overlay or duplicate old mechanism was observed. Declared2D native-pixel motion; no new3D pose claim.",
+      "recheckedAt": "2026-10-27T04:51:06.748128+00:00"
+    },
+    {
+      "file": "previews/world/industry-assembly/sugar-sieve-phases.jpg",
+      "sha256": "a88d9c07048d6de5f04d51cc21bc6883c531956834443790fb5333b908c93597",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 assembled parent phases against alternating backgrounds: native support stays fixed, movement is registered in the actual parent mechanism, and no detached unrelated-part overlay or duplicate old mechanism was observed. Declared2D native-pixel motion; no new3D pose claim.",
+      "recheckedAt": "2026-10-27T04:51:06.748128+00:00"
+    },
+    {
+      "file": "previews/world/aqueduct-joins.jpg",
+      "sha256": "c763032418506aae7a1c6a05735a4db699b9f56135f76198b6b3ef484efaaa2a",
+      "status": "passed-local",
+      "finding": "Actually viewed both axes with three exported level-water modules. Native water and stone banks meet without transparent interior cracks.16 source-role/axis assemblies and32 native Alpha interfaces passed; supporting sloped land and vehicle clearance remain Unity checks.",
+      "recheckedAt": "2026-10-27T05:15:51.997387+00:00"
+    },
+    {
+      "file": "previews/world/bridge-joins-page1.jpg",
+      "sha256": "2ec4708d096ce02fec2e80e540af2925d5e3b61f4f774d7bc5d7c69b63be5f8f",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "4d9dac749f9a59d3118c078bf2057d454aeb30bd213fcf9ed323d4ad040de492",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page2.jpg",
+      "sha256": "1681d0150a2e825f754062cddd688e1b4d7c539b896c6068f98f9544cc7dfb8f",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "f441924494f7d25a3917fdbbfa360e668864585a1307fe4b3fdf8bc41a3d99f3",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page3.jpg",
+      "sha256": "88ae329aa44ef9e7bc282167c6427baa51623af71ad5ee2160b4a4ebef3d458f",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "af6439c47fb04723b2a7aa5ddcdc2573a3106b51cb476f3650732f15a4d6918d",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page4.jpg",
+      "sha256": "e706bfcc3a9feebea33c2d6d3a73b047812802a6757de6e8ab04c0c4aeabd617",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "415ddc4851117468a7c6a4825ebd04367a7cf76bae341d705d6df6ac05679f9f",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page5.jpg",
+      "sha256": "cd72cb3f5d6f6ebe25437e4bc3220ecd3c13931a5cf81bfcfbbe19ac9e9fe42a",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "30d8b2d499b0b41050eed2bf1686f86b664cc0d04318966e7d39561f5d0e61f2",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page6.jpg",
+      "sha256": "fbec4bdba4a7b62510134e1f661b89153e8126cdcd6b9702ccdd2949eb215487",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "4b2f733744f8c4dc2a72b287e2b392ff393512f04591293d32fc6b228a3e2d5d",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page7.jpg",
+      "sha256": "d3e2135eab88b6fe4a704443fb87d689d4f33f5cd44c72261913aba05041ef30",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "38be67630b5f912aa6655ebbce480717b64d6b80e783af49e1d76b39a0b384ac",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page8.jpg",
+      "sha256": "4e5f19f5502370a8a7e700068848a5557695ad2422a831d51e43109c7e8a2fff",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "0b64b2b3c466431b5242a6745265c842e3ad2145f724437afea63146a104f4a5",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page9.jpg",
+      "sha256": "55ea6f6889c671aa33fd6f37dc15b0cb9e003e89a834f524fea4d04ac96063ca",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "c4b34e8975bed3006bed61457cfcb53f10ab642fa805d9700a5661033dec433b",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page10.jpg",
+      "sha256": "407681fd283e41b5045ce4c89d91f476f49e5bd0c6833b4bcb8e3eb25f3216af",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "74bad9b736454e68c096dd62123d704f642d5f59b2cbde75de8100e56bedbfb4",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page11.jpg",
+      "sha256": "1930b15d4445f8c7702cae8e15384cef0299b2e60faa5165233d8ca00e26e065",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "feaa17bbf8dbf3f422486daa2c5118b47cdde1793697b3d62bdc5cd11ffa37be",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page12.jpg",
+      "sha256": "5181a4654ac0d80494071552e86e5959c7b776e078f85104851059b9fc275bd9",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "a55acb12f87bab471035ee39c5abfe7e6b41adb65fa552854d5853874872bc57",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/bridge-joins-page13.jpg",
+      "sha256": "ecef4c355f99e99cc81fa90dd7a1b6cedb93d4fe854cb953370bfd297edd91f9",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened this current bridge family contact: both axes, three flat spans and up32/flat/down32 spans have joined deck silhouettes with no open exterior gap. Painted railings and structural faces remain readable. Declared 2D projection/material sharing remains explicit; this is a static art contact check, not vehicle clearance or engine sorting approval.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "d7d198792b96296edef97586054c53ae40fdec52619d3a435c51cf861de4fd19",
+          "status": "passed-local",
+          "finding": "Actual runtime PNG assembly page matches previously independently viewed final working page byte-for-byte; all13 family/material pages were viewed, and formal pages1/7 were additionally reopened. Both axes, three flat spans and up32/flat/down32 collars remain connected. Native-pixel geometric derivatives, not13 new native paintings."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/runtime-station.jpg",
+      "sha256": "cdd55a1cf93e2ac7df28e69a46554e3e0a14072ff4b9c2887af8671963d24caf",
+      "status": "passed-local",
+      "finding": "Actually viewed station layout contact: platform/building/canopy pairs, shelter/loading-stop reinterpretations and shared waypoint marker axes are visible and clean. Logical slot/side aliases are declared; renderer route legality remains next phase.",
+      "recheckedAt": "2026-10-27T05:23:38.389072+00:00"
+    },
+    {
+      "file": "previews/world/runtime-depot.jpg",
+      "sha256": "f7eeca78e87ba8f6fe55b38871ee3e5fa700810359d4144e4f9893be76ab9af8",
+      "status": "passed-local",
+      "finding": "Actually viewed all native front/rear service directions and ship-depot axis pair. Front service doors and rear roof/wall views are distinct actual paintings; no atlas neighbour fragments observed.",
+      "recheckedAt": "2026-10-27T05:23:38.389072+00:00"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/tunnel-rail-SE-normal.png",
+      "sha256": "f973be2e6ffe8d1464ca162969fdb1c66ede08c83b7111a3f9b80cf66ff463b7",
+      "status": "passed-local",
+      "finding": "Continuation root actually reopened the current 512px tunnel: complete native portal, clean dark mouth and two painted rails on the approach; no grass-tile rectangle inside the hole. Floor is a separate layer and the declared rear/floor/front composition reconstructs this whole exactly.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00",
+      "history": [
+        {
+          "sha256": "c696e01bab83cd38700574f19abe9685a355e9c4ce68f2ac6b80f289d4aa3668",
+          "status": "needs-repair",
+          "finding": "Opened actual512px composite: native portal grass base covers approach track before the mouth, leaving visible grass interruption between rail tip and dark opening. Whole floor was composited behind body. Owner notified to project actual track/road pixels into mouth corridor with proper portal occlusion, then rebuild all technology/climate variants."
+        }
+      ]
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-1.jpg",
+      "sha256": "1903873890dff0fffcb2bf2af0c3649df41479182db38abfec891d616d5d0717",
+      "status": "passed-local",
+      "finding": "Actually viewed 24 current terrain assemblies: regular leveled and inclined surfaces, W/S/E half triangles and EW saddle cases meet the matching current native terrain. No open crack or atlas-neighbour fragment observed. Continuation root independently reopened this same current contact; no quarter-square half-tile footprint remains.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00"
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-2.jpg",
+      "sha256": "a5af30a7148c6fe7e92f0136c1b3063921d5be6edc11125331aa7972c1052c57",
+      "status": "passed-local",
+      "finding": "Actually viewed 24 current terrain assemblies: N and NS half triangles, special Rail surfaces, and first steep W cases. Source remainder stays visible under the selected half; Rail surfaces retain the source diagonal split. Continuation root independently reopened this same current contact; no quarter-square half-tile footprint remains.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00"
+    },
+    {
+      "file": "previews/world/foundation-terrain-assembly-3.jpg",
+      "sha256": "d8a29ee05d0a4c280846a7bef24b41eb0713e1e9436e1438518dd34275a5fddd",
+      "status": "passed-local",
+      "finding": "Actually viewed 18 current steep assemblies across S/E/N directions. SteepBoth keeps a lower height-1 triangle and a height-2 upper triangle with a continuous textured step, rather than a full height-2 square. No blank foundation gaps observed. Continuation root independently reopened this same current contact; no quarter-square half-tile footprint remains.",
+      "recheckedAt": "2026-10-28T10:21:29.899600+00:00"
+    }
+  ],
+  "userArtAccepted": false,
+  "unityValidated": false,
+  "additionalReviewAt": "2026-10-27T05:23:38.389072+00:00",
+  "continuationReviewAt": "2026-10-28T10:21:29.899600+00:00",
+  "supersededReviews": [
+    {
+      "file": "previews/world/shore-postures-contact.jpg",
+      "sha256": "82498578b64fe1fc18b78ee36ece3be1306c72f186c5728b03e7a47423bf1165",
+      "status": "passed-local",
+      "finding": "18 grass/sand/snow posture selections each present; painted bank strips remain readable. Source-index semantics depend on layout mapping review.",
+      "supersededReason": "Old flat/incorrectly indexed54shore exports are no longer authoritative; replaced by shore-geometry48valid+6noDraw and its dedicated current QA/visual record."
+    }
+  ]
+}

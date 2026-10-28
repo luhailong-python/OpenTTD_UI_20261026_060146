@@ -1,0 +1,1006 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:44:59.854776+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "dock-quay",
+      "image": "assets/world/infrastructure/waterworks/dock-quay.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        6,
+        0,
+        610,
+        368
+      ],
+      "sourceCropSize": [
+        604,
+        368
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        597,
+        362
+      ],
+      "sourceAnchorPx": [
+        302.0,
+        359
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.8677966101694915,
+      "targetOffsetPx": [
+        0,
+        143
+      ],
+      "contentNativeSize": [
+        590,
+        355
+      ],
+      "contentExportSize": [
+        512,
+        308
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 65,
+        "componentCorePixels": 133580
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+      "nativeSlot": 0,
+      "nativeComponentBox": [
+        14,
+        8,
+        602,
+        360
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "dock-pier",
+      "image": "assets/world/infrastructure/waterworks/dock-pier.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        610,
+        0,
+        1163,
+        369
+      ],
+      "sourceCropSize": [
+        553,
+        369
+      ],
+      "alphaTrimBox": [
+        7,
+        5,
+        546,
+        362
+      ],
+      "sourceAnchorPx": [
+        276.5,
+        360
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9499072356215214,
+      "targetOffsetPx": [
+        0,
+        111
+      ],
+      "contentNativeSize": [
+        539,
+        357
+      ],
+      "contentExportSize": [
+        512,
+        339
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 123,
+        "componentCorePixels": 84089
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "1e2fca121d117512c5784b1a00c4735cc339ffbfa5b10df7aad9d7c5820359a4",
+      "nativeSlot": 1,
+      "nativeComponentBox": [
+        618,
+        6,
+        1155,
+        361
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "buoy",
+      "image": "assets/world/infrastructure/waterworks/buoy.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        288
+      ],
+      "pivotUnity": [
+        0.5,
+        0.25
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1189,
+        56,
+        1496,
+        350
+      ],
+      "sourceCropSize": [
+        307,
+        294
+      ],
+      "alphaTrimBox": [
+        8,
+        8,
+        300,
+        287
+      ],
+      "sourceAnchorPx": [
+        153,
+        226
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.85,
+      "targetOffsetPx": [
+        69,
+        103
+      ],
+      "contentNativeSize": [
+        292,
+        279
+      ],
+      "contentExportSize": [
+        248,
+        237
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 6,
+        "componentCorePixels": 28566
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c",
+      "nativeSlot": 2,
+      "nativeComponentBox": [
+        1197,
+        64,
+        1488,
+        342
+      ],
+      "anchorMeaning": "waterline contact centre"
+    },
+    {
+      "id": "ship-depot",
+      "image": "assets/world/infrastructure/waterworks/ship-depot.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1,
+        364,
+        583,
+        699
+      ],
+      "sourceCropSize": [
+        582,
+        335
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        574,
+        327
+      ],
+      "sourceAnchorPx": [
+        291.0,
+        326
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9014084507042254,
+      "targetOffsetPx": [
+        0,
+        160
+      ],
+      "contentNativeSize": [
+        567,
+        320
+      ],
+      "contentExportSize": [
+        511,
+        288
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 808,
+        "componentCorePixels": 109459
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "2efd668d9aac3dbd104db0fa83a996a873a68aa72d9e41274487a3c106064534",
+      "nativeSlot": 3,
+      "nativeComponentBox": [
+        9,
+        372,
+        575,
+        691
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "canal-banks",
+      "image": "assets/world/infrastructure/waterworks/canal-banks.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        583,
+        358,
+        1087,
+        679
+      ],
+      "sourceCropSize": [
+        504,
+        321
+      ],
+      "alphaTrimBox": [
+        6,
+        7,
+        497,
+        313
+      ],
+      "sourceAnchorPx": [
+        252.0,
+        312
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        10,
+        143
+      ],
+      "contentNativeSize": [
+        491,
+        306
+      ],
+      "contentExportSize": [
+        491,
+        306
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 1856,
+        "componentCorePixels": 74517
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "aad02e8c55eb5044b96e0bb7405f36ebd61758d31276d3270cdf9defd6bbb1a4",
+      "nativeSlot": 4,
+      "nativeComponentBox": [
+        591,
+        366,
+        1079,
+        671
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "lock-low",
+      "image": "assets/world/infrastructure/waterworks/lock-low.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1049,
+        354,
+        1536,
+        701
+      ],
+      "sourceCropSize": [
+        487,
+        347
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        485,
+        340
+      ],
+      "sourceAnchorPx": [
+        246.0,
+        338
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        17,
+        117
+      ],
+      "contentNativeSize": [
+        478,
+        333
+      ],
+      "contentExportSize": [
+        478,
+        333
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 1788,
+        "componentCorePixels": 90434
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "421021de02cacbd1a520b7b9e3e501e77b5b9ed62b7dd8b1636e47a33f1ea425",
+      "nativeSlot": 5,
+      "nativeComponentBox": [
+        1057,
+        362,
+        1533,
+        693
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "lock-mid",
+      "image": "assets/world/infrastructure/waterworks/lock-mid.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        3,
+        673,
+        535,
+        1024
+      ],
+      "sourceCropSize": [
+        532,
+        351
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        524,
+        348
+      ],
+      "sourceAnchorPx": [
+        266.0,
+        346
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9884169884169884,
+      "targetOffsetPx": [
+        0,
+        113
+      ],
+      "contentNativeSize": [
+        517,
+        341
+      ],
+      "contentExportSize": [
+        511,
+        337
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 2107,
+        "componentCorePixels": 100616
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "60eb52d1d7d84783e66167fd4ead7c8c247e82c91a977476e6f574f8f6c2b280",
+      "nativeSlot": 6,
+      "nativeComponentBox": [
+        11,
+        681,
+        527,
+        1020
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "lock-high",
+      "image": "assets/world/infrastructure/waterworks/lock-high.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        524,
+        665,
+        1033,
+        1024
+      ],
+      "sourceCropSize": [
+        509,
+        359
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        502,
+        352
+      ],
+      "sourceAnchorPx": [
+        254.5,
+        351
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        8,
+        104
+      ],
+      "contentNativeSize": [
+        495,
+        345
+      ],
+      "contentExportSize": [
+        495,
+        345
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 274,
+        "componentCorePixels": 98697
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "cc2431dca90dbe3389bd704892a3503e9cf5a95f4f05c492ca16bdd55aa49dff",
+      "nativeSlot": 7,
+      "nativeComponentBox": [
+        532,
+        673,
+        1025,
+        1017
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "river-rapids",
+      "image": "assets/world/infrastructure/waterworks/river-rapids.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "waterworks",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/waterworks-kit.png",
+          "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+          "record": "source-art/world/waterworks-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1031,
+        678,
+        1536,
+        1019
+      ],
+      "sourceCropSize": [
+        505,
+        341
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        499,
+        334
+      ],
+      "sourceAnchorPx": [
+        253.0,
+        332
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        10,
+        123
+      ],
+      "contentNativeSize": [
+        492,
+        327
+      ],
+      "contentExportSize": [
+        492,
+        327
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 505,
+        "componentCorePixels": 103242
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "b9fb773a4dd95cfa6d1cf2ee77d15b6ce9c81355b86b3ec254a642a97b9f5a2d",
+      "nativeSlot": 8,
+      "nativeComponentBox": [
+        1039,
+        686,
+        1529,
+        1011
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    }
+  ],
+  "qa": [
+    {
+      "id": "dock-quay.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        6,
+        0,
+        610,
+        368
+      ]
+    },
+    {
+      "id": "dock-pier.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        610,
+        0,
+        1163,
+        369
+      ]
+    },
+    {
+      "id": "buoy.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        1189,
+        56,
+        1496,
+        350
+      ]
+    },
+    {
+      "id": "ship-depot.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        1,
+        364,
+        583,
+        699
+      ]
+    },
+    {
+      "id": "canal-banks.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        583,
+        358,
+        1087,
+        679
+      ]
+    },
+    {
+      "id": "lock-low.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        1049,
+        354,
+        1536,
+        701
+      ]
+    },
+    {
+      "id": "lock-mid.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        3,
+        673,
+        535,
+        1024
+      ]
+    },
+    {
+      "id": "lock-high.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        524,
+        665,
+        1033,
+        1024
+      ]
+    },
+    {
+      "id": "river-rapids.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/waterworks-kit.png",
+      "sourceBox": [
+        1031,
+        678,
+        1536,
+        1019
+      ]
+    }
+  ],
+  "acceptance": "extracted; complete-sheet visual and state checks pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "services-waterworks",
+  "nativeSourceAtlas": {
+    "file": "source-art/world/waterworks-kit.png",
+    "sha256": "7dad9e30e4fcd0b6eaae712e331c19ae961248254fdb322f3ab394fa28db3e2e",
+    "record": "source-art/world/waterworks-kit.png.generation.json",
+    "sourceRecordAvailable": true
+  }
+}

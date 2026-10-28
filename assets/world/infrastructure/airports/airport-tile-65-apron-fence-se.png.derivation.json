@@ -1,0 +1,68 @@
+{
+  "id": "airport-tile-65-apron-fence-se",
+  "image": "assets/world/infrastructure/airports/airport-tile-65-apron-fence-se.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "03b070bfe0615ac923e028bac36d73c2b7da017f793c382c87db4fde2aab4e21",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-se.png",
+      "sha256": "a64f05acb1bd5888022d6a6c10f83230decf648605efba6c483603abdb6dedcd",
+      "record": "assets/world/infrastructure/airports/airport-fence-se.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 65,
+  "sourceTileEnum": "APT_APRON_FENCE_SE",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_fence_se) // APT_APRON_FENCE_SE",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-se",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-helistation",
+    "airport-intercontinental",
+    "airport-tile-65-apron-fence-se"
+  ]
+}

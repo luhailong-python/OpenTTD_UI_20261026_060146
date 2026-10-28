@@ -1,0 +1,45 @@
+{
+  "id": "station-bus-layout-4",
+  "image": "assets/world/infrastructure/transport-runtime/station-bus-layout-4.png",
+  "sha256": "e6bed0535903affe1e2150f3a7faa7b7bc228bbe2cfdbdc59efdf42d6af7e495",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bus-bay.png",
+      "sha256": "e6bed0535903affe1e2150f3a7faa7b7bc228bbe2cfdbdc59efdf42d6af7e495",
+      "record": "assets/world/infrastructure/transport/bus-bay.png.derivation.json"
+    }
+  ],
+  "operation": "Shared painted stop shelter/loading bay with true native rear service view where required; X/Y drive-through topology is separate data, no new native painting",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-bus"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:08.362019+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "X",
+  "sourceLayout": 4,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

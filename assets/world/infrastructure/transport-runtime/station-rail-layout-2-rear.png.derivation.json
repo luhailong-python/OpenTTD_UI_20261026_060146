@@ -1,0 +1,44 @@
+{
+  "id": "station-rail-layout-2-rear",
+  "image": "assets/world/infrastructure/transport-runtime/station-rail-layout-2-rear.png",
+  "sha256": "c31752c1863d3d7417c6e0a89eb3e940d37297f0ad4925ab8f80895fd51ce882",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/station-rail-layout-2.png",
+      "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+      "record": "assets/world/infrastructure/transport-runtime/station-rail-layout-2.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:07.908258+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

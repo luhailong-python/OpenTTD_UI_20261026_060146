@@ -1,0 +1,68 @@
+{
+  "id": "SPR_WARNING_SIGN",
+  "image": "assets/common/micro-ui/SPR_WARNING_SIGN.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "9fae043024ee7e5e66653386d56f217b1aa21ad7c67951a511269c1f9ce988d9",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/help.png",
+      "sha256": "028046ffd3b7d73e4586bee6e03f01efbe138638931cc18ece5faca6aaf14b72",
+      "record": "assets/icons/help.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_WARNING_SIGN.svg",
+      "sha256": "77aac4ead73f1faf47dc9ba45a820b0d4e00ca7482288bdd165b0b4610d5286a",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_WARNING_SIGN",
+  "sourceSpriteId": 4939,
+  "category": "function-status",
+  "functionalGlyph": "warning",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_WARNING_SIGN.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

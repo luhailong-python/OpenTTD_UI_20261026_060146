@@ -1,0 +1,47 @@
+{
+  "id": "industry-33-fizzy-drink-factory-construction-1",
+  "image": "assets/world/industries/construction/industry-33-fizzy-drink-factory/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "5aa6960aa3d86a57328e1d289cbae6665ee21fa0a9acc46e6c26eef6626d0c94",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/fizzy-drink-factory.png",
+      "sha256": "7e86fd759c2ee3f6b162e69663ceda212be97e23de91130cbf39cd7c74732b6a",
+      "record": "assets/world/industries/fizzy-drink-factory.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 33,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-33-fizzy-drink-factory",
+    "industry-tile-156",
+    "industry-tile-157",
+    "industry-tile-158",
+    "industry-tile-159"
+  ]
+}

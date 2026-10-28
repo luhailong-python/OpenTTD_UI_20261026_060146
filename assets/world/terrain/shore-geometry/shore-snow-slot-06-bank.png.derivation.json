@@ -1,0 +1,20 @@
+{
+  "file": "assets/world/terrain/shore-geometry/shore-snow-slot-06-bank.png",
+  "sha256": "c989a953bd3d5d31f899cb5485fa920910c1d43b1ab2eb0be6088eb3852cdcce",
+  "generatedAt": "2026-10-28T11:34:33.161620+00:00",
+  "tool": "build_shore_geometry.py",
+  "route": "deterministic-native-pixel-projection",
+  "width": 256,
+  "height": 192,
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/shore-sand.png",
+      "sha256": "8e9f4e0fcd1a4b4ee3321706b2b338200ab14a169026ef33720df8b238584a8c",
+      "record": "assets/world/infrastructure/fences-shore/shore-sand.png.derivation.json"
+    }
+  ],
+  "operation": "Native painted cross-shore strip sampled onto actual zero-height interface and the adjacent slope; Alpha-only ribbon mask, no code-painted bank/foam; snow retains only water-side native foam",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

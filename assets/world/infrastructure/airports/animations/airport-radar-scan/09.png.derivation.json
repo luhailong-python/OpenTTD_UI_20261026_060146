@@ -1,0 +1,120 @@
+{
+  "id": "animations/airport-radar-scan/09",
+  "image": "assets/world/infrastructure/airports/animations/airport-radar-scan/09.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-animation",
+  "sha256": "c51cd062ed148e443fd50658b3101218ade03455b293810c44dcff0e094742f8",
+  "operation": "actual painted moving-part ownership mask, fixed support; projected dish rigid sweep or premultiplied cloth warp; deterministic derivative, not native generated poses",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-radar.png",
+      "sha256": "b41f9e64c22ed09808e89183ebe0d7457e94e66ebca43b145ef2f592f0ddd14a",
+      "record": "assets/world/infrastructure/airports/airport-radar.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 9,
+  "animationId": "airport-radar-scan",
+  "ownershipPolygonNative": [
+    [
+      654,
+      10
+    ],
+    [
+      804,
+      5
+    ],
+    [
+      885,
+      56
+    ],
+    [
+      914,
+      143
+    ],
+    [
+      910,
+      222
+    ],
+    [
+      867,
+      245
+    ],
+    [
+      720,
+      219
+    ],
+    [
+      675,
+      163
+    ],
+    [
+      650,
+      78
+    ]
+  ],
+  "ownershipPolygonFormal": [
+    [
+      199,
+      224
+    ],
+    [
+      278,
+      222
+    ],
+    [
+      321,
+      249
+    ],
+    [
+      336,
+      295
+    ],
+    [
+      334,
+      336
+    ],
+    [
+      311,
+      348
+    ],
+    [
+      234,
+      335
+    ],
+    [
+      210,
+      305
+    ],
+    [
+      197,
+      260
+    ]
+  ],
+  "parameters": {
+    "angleDegrees": -9.0,
+    "pivotPx": [
+      252.04705882352943,
+      349.8588235294118
+    ],
+    "motion": "projected dish elevation sweep +/-9deg, not generated full360 yaw"
+  },
+  "sourceRequirementIds": [
+    "airport-tile-31-radar-grass-fence-sw",
+    "airport-tile-51-radar-fence-sw",
+    "airport-tile-52-radar-fence-ne",
+    "animation-airport-radar"
+  ]
+}

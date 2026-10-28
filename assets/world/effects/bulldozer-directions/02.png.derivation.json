@@ -1,0 +1,39 @@
+{
+  "file": "assets/world/effects/bulldozer-directions/02.png",
+  "sha256": "39194561254a6c5b829f03a05eb69a46de4ef2d3e5c570f866ed1471e90dd599",
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "frame": 2,
+  "durationMs": 250,
+  "operation": "painted machine facings;NE is explicitly mirrored fromNW; raw top-left duplicateSE unused, not four native facings",
+  "sources": [
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-bulldozer.png",
+        "sha256": "d53f93fe8004b89063c5341ed3d314a2047286e9d48a84f72ef48d01b2e52b7a",
+        "record": "source-art/world/fx-bulldozer.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "scale": 0.7910685805422647,
+      "paddingLeftTop": [
+        8,
+        8
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "unityVerified": false
+}

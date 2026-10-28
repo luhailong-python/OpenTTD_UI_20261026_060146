@@ -1,0 +1,1342 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:45:00.761617+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "light-block",
+      "image": "assets/world/infrastructure/signals/light-block.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        97,
+        1,
+        321,
+        330
+      ],
+      "sourceCropSize": [
+        224,
+        329
+      ],
+      "alphaTrimBox": [
+        8,
+        7,
+        217,
+        322
+      ],
+      "sourceAnchorPx": [
+        90,
+        320
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7667731629392971,
+      "targetOffsetPx": [
+        129,
+        112
+      ],
+      "contentNativeSize": [
+        209,
+        315
+      ],
+      "contentExportSize": [
+        160,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 103,
+        "componentCorePixels": 30885
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "5cce9e6cc884f006e0b0e051e7b0914dfae142898f90e5df5b7993b6472614e3",
+      "nativeSlot": 0,
+      "nativeComponentBox": [
+        105,
+        9,
+        313,
+        322
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "light-entry",
+      "image": "assets/world/infrastructure/signals/light-entry.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        472,
+        1,
+        697,
+        330
+      ],
+      "sourceCropSize": [
+        225,
+        329
+      ],
+      "alphaTrimBox": [
+        8,
+        7,
+        218,
+        321
+      ],
+      "sourceAnchorPx": [
+        94,
+        320
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7667731629392971,
+      "targetOffsetPx": [
+        126,
+        112
+      ],
+      "contentNativeSize": [
+        210,
+        314
+      ],
+      "contentExportSize": [
+        161,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 75,
+        "componentCorePixels": 30996
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "a2816a1afda63dfd78a9f95ebeaa719e1663b7ad52b43dbf6393069dcce8f30b",
+      "nativeSlot": 1,
+      "nativeComponentBox": [
+        480,
+        9,
+        689,
+        322
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "light-exit",
+      "image": "assets/world/infrastructure/signals/light-exit.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        853,
+        1,
+        1079,
+        330
+      ],
+      "sourceCropSize": [
+        226,
+        329
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        219,
+        321
+      ],
+      "sourceAnchorPx": [
+        94,
+        320
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7667731629392971,
+      "targetOffsetPx": [
+        125,
+        112
+      ],
+      "contentNativeSize": [
+        212,
+        314
+      ],
+      "contentExportSize": [
+        163,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 104,
+        "componentCorePixels": 30993
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "628070cdd88dea31de6e812f362e419fa6a3f7a5f549ff12bbfa00d23bd8a3cc",
+      "nativeSlot": 2,
+      "nativeComponentBox": [
+        861,
+        9,
+        1071,
+        322
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "light-combo",
+      "image": "assets/world/infrastructure/signals/light-combo.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1231,
+        1,
+        1459,
+        330
+      ],
+      "sourceCropSize": [
+        228,
+        329
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        221,
+        321
+      ],
+      "sourceAnchorPx": [
+        97,
+        320
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7667731629392971,
+      "targetOffsetPx": [
+        123,
+        112
+      ],
+      "contentNativeSize": [
+        214,
+        314
+      ],
+      "contentExportSize": [
+        164,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 151,
+        "componentCorePixels": 31111
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "33d4ce7a6b5fe6aaff2c9c420fb73642013ae738879f8927b7034689d54d467c",
+      "nativeSlot": 3,
+      "nativeComponentBox": [
+        1239,
+        9,
+        1451,
+        322
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "light-path",
+      "image": "assets/world/infrastructure/signals/light-path.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        97,
+        343,
+        327,
+        670
+      ],
+      "sourceCropSize": [
+        230,
+        327
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        223,
+        320
+      ],
+      "sourceAnchorPx": [
+        90,
+        318
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7717041800643086,
+      "targetOffsetPx": [
+        128,
+        112
+      ],
+      "contentNativeSize": [
+        216,
+        313
+      ],
+      "contentExportSize": [
+        167,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 92,
+        "componentCorePixels": 31501
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "912df2cfa28da8d33a2663f87f54b10b482b122b036b595bb1aaa630caed8f69",
+      "nativeSlot": 4,
+      "nativeComponentBox": [
+        105,
+        351,
+        319,
+        662
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "light-oneway",
+      "image": "assets/world/infrastructure/signals/light-oneway.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        473,
+        343,
+        714,
+        671
+      ],
+      "sourceCropSize": [
+        241,
+        328
+      ],
+      "alphaTrimBox": [
+        7,
+        8,
+        234,
+        320
+      ],
+      "sourceAnchorPx": [
+        93,
+        319
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7692307692307693,
+      "targetOffsetPx": [
+        126,
+        113
+      ],
+      "contentNativeSize": [
+        227,
+        312
+      ],
+      "contentExportSize": [
+        175,
+        240
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 35,
+        "componentCorePixels": 32357
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "e02379631a9a6272fdb2663cd421ca9373e246d269ebec2c74fa68c45fd1e9fb",
+      "nativeSlot": 5,
+      "nativeComponentBox": [
+        481,
+        351,
+        706,
+        663
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "semaphore-block",
+      "image": "assets/world/infrastructure/signals/semaphore-block.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        864,
+        332,
+        1101,
+        671
+      ],
+      "sourceCropSize": [
+        237,
+        339
+      ],
+      "alphaTrimBox": [
+        8,
+        7,
+        230,
+        331
+      ],
+      "sourceAnchorPx": [
+        83,
+        330
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7430340557275542,
+      "targetOffsetPx": [
+        136,
+        112
+      ],
+      "contentNativeSize": [
+        222,
+        324
+      ],
+      "contentExportSize": [
+        165,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 40,
+        "componentCorePixels": 28528
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "850912c44f360ed4e68cff1934fd5bd4cd4fed4e495dd4d0ffd37cc50549d142",
+      "nativeSlot": 6,
+      "nativeComponentBox": [
+        872,
+        340,
+        1093,
+        663
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "semaphore-entry",
+      "image": "assets/world/infrastructure/signals/semaphore-entry.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1240,
+        332,
+        1503,
+        670
+      ],
+      "sourceCropSize": [
+        263,
+        338
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        256,
+        331
+      ],
+      "sourceAnchorPx": [
+        88,
+        329
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7453416149068323,
+      "targetOffsetPx": [
+        132,
+        112
+      ],
+      "contentNativeSize": [
+        249,
+        324
+      ],
+      "contentExportSize": [
+        186,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 135,
+        "componentCorePixels": 29696
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "1ac321d03c8b7f8d6be9540914600d99cb58b76e2bda21e3c31dea9d9f17259f",
+      "nativeSlot": 7,
+      "nativeComponentBox": [
+        1248,
+        340,
+        1495,
+        662
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "semaphore-exit",
+      "image": "assets/world/infrastructure/signals/semaphore-exit.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        96,
+        672,
+        360,
+        1011
+      ],
+      "sourceCropSize": [
+        264,
+        339
+      ],
+      "alphaTrimBox": [
+        8,
+        7,
+        257,
+        332
+      ],
+      "sourceAnchorPx": [
+        68,
+        330
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7430340557275542,
+      "targetOffsetPx": [
+        147,
+        112
+      ],
+      "contentNativeSize": [
+        249,
+        325
+      ],
+      "contentExportSize": [
+        185,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 111,
+        "componentCorePixels": 30003
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "34edc385102848a8eaccd2becf07b4c8c16dee16958dec8df8fe36ef47c3002f",
+      "nativeSlot": 8,
+      "nativeComponentBox": [
+        104,
+        680,
+        352,
+        1003
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "semaphore-combo",
+      "image": "assets/world/infrastructure/signals/semaphore-combo.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        477,
+        672,
+        745,
+        1011
+      ],
+      "sourceCropSize": [
+        268,
+        339
+      ],
+      "alphaTrimBox": [
+        8,
+        7,
+        261,
+        332
+      ],
+      "sourceAnchorPx": [
+        68,
+        330
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7430340557275542,
+      "targetOffsetPx": [
+        147,
+        112
+      ],
+      "contentNativeSize": [
+        253,
+        325
+      ],
+      "contentExportSize": [
+        188,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 206,
+        "componentCorePixels": 30446
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "0c0da2e1f180ae80a304d5aaeb2aa3f1bb3a2bffb7efd1cc10bb1c263958e8bd",
+      "nativeSlot": 9,
+      "nativeComponentBox": [
+        485,
+        680,
+        737,
+        1003
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "semaphore-path",
+      "image": "assets/world/infrastructure/signals/semaphore-path.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        861,
+        671,
+        1124,
+        1011
+      ],
+      "sourceCropSize": [
+        263,
+        340
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        256,
+        332
+      ],
+      "sourceAnchorPx": [
+        66,
+        331
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7407407407407407,
+      "targetOffsetPx": [
+        148,
+        112
+      ],
+      "contentNativeSize": [
+        249,
+        325
+      ],
+      "contentExportSize": [
+        184,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 83,
+        "componentCorePixels": 30396
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "73bafb96155deade6231222b4ec5db2ee2bbce18657373204e4a819a72042dd8",
+      "nativeSlot": 10,
+      "nativeComponentBox": [
+        869,
+        679,
+        1116,
+        1003
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    },
+    {
+      "id": "semaphore-oneway",
+      "image": "assets/world/infrastructure/signals/semaphore-oneway.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-kit.png",
+          "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+          "record": "source-art/world/signal-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1246,
+        672,
+        1508,
+        1011
+      ],
+      "sourceCropSize": [
+        262,
+        339
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        254,
+        332
+      ],
+      "sourceAnchorPx": [
+        63,
+        330
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.7430340557275542,
+      "targetOffsetPx": [
+        150,
+        112
+      ],
+      "contentNativeSize": [
+        247,
+        325
+      ],
+      "contentExportSize": [
+        184,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 104,
+        "componentCorePixels": 30563
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "895b66e8cb637bd649224559281c958517346134302ea4462fe79f6fa24e955e",
+      "nativeSlot": 11,
+      "nativeComponentBox": [
+        1254,
+        680,
+        1500,
+        1003
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25
+    }
+  ],
+  "qa": [
+    {
+      "id": "light-block.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        97,
+        1,
+        321,
+        330
+      ]
+    },
+    {
+      "id": "light-entry.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        472,
+        1,
+        697,
+        330
+      ]
+    },
+    {
+      "id": "light-exit.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        853,
+        1,
+        1079,
+        330
+      ]
+    },
+    {
+      "id": "light-combo.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        1231,
+        1,
+        1459,
+        330
+      ]
+    },
+    {
+      "id": "light-path.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        97,
+        343,
+        327,
+        670
+      ]
+    },
+    {
+      "id": "light-oneway.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        473,
+        343,
+        714,
+        671
+      ]
+    },
+    {
+      "id": "semaphore-block.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        864,
+        332,
+        1101,
+        671
+      ]
+    },
+    {
+      "id": "semaphore-entry.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        1240,
+        332,
+        1503,
+        670
+      ]
+    },
+    {
+      "id": "semaphore-exit.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        96,
+        672,
+        360,
+        1011
+      ]
+    },
+    {
+      "id": "semaphore-combo.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        477,
+        672,
+        745,
+        1011
+      ]
+    },
+    {
+      "id": "semaphore-path.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        861,
+        671,
+        1124,
+        1011
+      ]
+    },
+    {
+      "id": "semaphore-oneway.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-kit.png",
+      "sourceBox": [
+        1246,
+        672,
+        1508,
+        1011
+      ]
+    }
+  ],
+  "acceptance": "extracted; complete-sheet visual and state checks pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "services-signals",
+  "nativeSourceAtlas": {
+    "file": "source-art/world/signal-kit.png",
+    "sha256": "82d09c10a44ecdb68aa3e9bdc846831879afcadf72c4af8d25bc8c616637fb47",
+    "record": "source-art/world/signal-kit.png.generation.json",
+    "sourceRecordAvailable": true
+  }
+}

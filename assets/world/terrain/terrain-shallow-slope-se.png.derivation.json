@@ -1,0 +1,31 @@
+{
+  "file": "assets/world/terrain/terrain-shallow-slope-se.png",
+  "sha256": "1adaa861c38d0566f2dc585fe68ff10243f774095025e2a83a58f2a3302ee520",
+  "derivedAt": "2026-10-28T10:25:52.048733+00:00",
+  "route": "deterministic-derivative",
+  "tool": "repair_terrain_materials.py / build_world_terrain.py square_material+periodic+project / world_pack.projected_slope",
+  "width": 256,
+  "height": 192,
+  "operation": "actual square hand-painted shallow master -> proportional192px UV downsample ->14px opposite-edge colour blend -> canonical256x128 diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/shallow-seamless.png",
+      "sha256": "232ca50f5ddecbb75c361a1376b86360b015686fbd51a8a6311b83d4cbe38fe6",
+      "record": "source-art/world/shallow-seamless.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceUVWorkingResolution": [
+    192,
+    192
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "previousFormalSHA256": "219c43e9b5a35794dd2c2ddfe892925a56391301ef10904ddbf3c3371dfdd786",
+  "nativeUpscale": false
+}

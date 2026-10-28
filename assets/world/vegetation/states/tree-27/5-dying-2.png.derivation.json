@@ -1,0 +1,46 @@
+{
+  "id": "tree-27-dying-2",
+  "image": "assets/world/vegetation/states/tree-27/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "6bbacf40151bf4e6fcfd3d70bd38a3a8322647c361fb17045ba793dab65b1808",
+  "climate": "tropical",
+  "artSpecies": "saguaro-cactus",
+  "sourceTreeType": 27,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-27.png",
+      "sha256": "608777c7a428c365a1bbd5aa2411a2814081872fd283c4e363fd68dbc9a0fb90",
+      "record": "assets/world/vegetation/mature/tree-27.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dying-cactus.png",
+      "sha256": "52c4ebf703e4e10190bf99fe2d59745ef444f0224b68fd6cbadb4b987a0a4e2f",
+      "record": "assets/world/vegetation/lifecycle/dying-cactus.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dying-cactus",
+    "sharedScale": 0.8053571428571428,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-27"
+  ]
+}

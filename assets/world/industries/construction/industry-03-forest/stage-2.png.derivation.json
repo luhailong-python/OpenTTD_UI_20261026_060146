@@ -1,0 +1,45 @@
+{
+  "id": "industry-03-forest-construction-2",
+  "image": "assets/world/industries/construction/industry-03-forest/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "26dffae243d77535937f2e314022596393096c6980a1501d782767b1b2f977d9",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/forest.png",
+      "sha256": "c507934d205c26fc862da6590cd9a39bc089da47bd36a877d470e179741a40b1",
+      "record": "assets/world/industries/forest.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 3,
+  "stage": 2,
+  "details": {
+    "kind": "vegetative site young compound scale derivative",
+    "sourceScale": 0.8
+  },
+  "sourceRequirementIds": [
+    "industry-03-forest",
+    "industry-tile-016",
+    "industry-tile-017"
+  ]
+}

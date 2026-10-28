@@ -1,0 +1,37 @@
+{
+  "id": "bridge-tubular-span-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-tubular-span-axis-y.png",
+  "sha256": "9047272a980c4e5e27cfcabb08191828a61c23cd499ee147b9f32ae61a722462",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-tubular-span.png",
+      "sha256": "7a92213188edcc8083b6b80a655339022322a5684786c12ef25e5f1295a6732b",
+      "record": "assets/world/infrastructure/transport/bridge-tubular-span.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

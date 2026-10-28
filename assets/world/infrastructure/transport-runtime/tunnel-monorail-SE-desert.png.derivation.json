@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-monorail-SE-desert",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-monorail-SE-desert.png",
+  "sha256": "1d89415a5a6be42e3a43149913d05a250ff615f60882c9ebd5fb110cd38c85e2",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-desert.png",
+      "sha256": "25a93b7ca2052e488c635b735f7a27862d21ae20645e79ade28aa41c2270dd9e",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-desert.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-monorail-SE-desert.png",
+      "sha256": "874e052d2209c40df89b77e1535fba5d94b3922415dede11b18c6fa0a8a43c87",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-monorail-SE-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-monorail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:13.314985+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "desert",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "mf-style-3-base-dressed",
+  "image": "assets/portraits/customization/mf-style-3-base-dressed.png",
+  "sha256": "80a59b9e9c1f8b7fcb579edd064bafdbaf8a314de4e8aafa240f8c01766c575a",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-base-dressed",
+  "family": "base-dressed",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/portraits/customization/mf-style-3-base-clean.png",
+      "sha256": "ae1092c627d11bfa54047a69e734dcec9d0eec2a60f354caed00866016c66170",
+      "record": "assets/portraits/customization/mf-style-3-base-clean.png.derivation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:33:51.681981+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Head/neck body for clothing rig: suppress only bare shoulder roots outside central neck below350; no skin painting or replacement",
+  "paintedBBoxPx": [
+    115,
+    70,
+    397,
+    405
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "sourceStyle": 3,
+  "clothingHiddenShoulderRule": {
+    "belowY": 350,
+    "retainedNeckX": [
+      196,
+      316
+    ]
+  }
+}

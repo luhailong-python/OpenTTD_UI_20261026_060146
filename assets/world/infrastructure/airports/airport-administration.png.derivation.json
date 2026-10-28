@@ -1,0 +1,41 @@
+{
+  "id": "airport-administration",
+  "image": "assets/world/infrastructure/airports/airport-administration.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-module",
+  "sha256": "569df4397e3db3b748ee4b266e122169d8c73852d3b311bb5e064c51137c6523",
+  "operation": "component ownership crop, alpha<8 removal and >=240 opaque normalization, proportional downscale to <=224w/320h, fixed512 canvas; not new native detail",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/airport-props.png",
+      "sha256": "fa12f615a187f5dde7acb872712f2ac51ff30d0e2f520e17f632e6d589037e9b",
+      "record": "source-art/world/airport-props.png.generation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceCropXYXY": [
+    567,
+    741,
+    1049,
+    1011
+  ],
+  "sourceCell": 7,
+  "uniformScale": 0.46473029045643155,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": []
+}

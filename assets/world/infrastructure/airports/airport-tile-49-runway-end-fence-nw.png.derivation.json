@@ -1,0 +1,67 @@
+{
+  "id": "airport-tile-49-runway-end-fence-nw",
+  "image": "assets/world/infrastructure/airports/airport-tile-49-runway-end-fence-nw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "5798f6c4ab83534265bd435e4e5c16d12ccc8bc02ae2546ec710bd92b2f23a62",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-threshold-x.png",
+      "sha256": "7523721b20254cdfb492b8eff798f70fb89649fdfd864aed15a721b9de4e3470",
+      "record": "assets/world/infrastructure/airports/airport-ground-threshold-x.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-nw.png",
+      "sha256": "09676bbd986b0b9b6b34a24ecb694df6a41f33d25de89853faa1c1550eeae5cc",
+      "record": "assets/world/infrastructure/airports/airport-fence-nw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 49,
+  "sourceTileEnum": "APT_RUNWAY_END_FENCE_NW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_RUNWAY_END,         _station_display_fence_nw)  // APT_RUNWAY_END_FENCE_NW",
+  "layers": [
+    {
+      "artId": "airport-ground-threshold-x",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-nw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-international",
+    "airport-tile-49-runway-end-fence-nw"
+  ]
+}

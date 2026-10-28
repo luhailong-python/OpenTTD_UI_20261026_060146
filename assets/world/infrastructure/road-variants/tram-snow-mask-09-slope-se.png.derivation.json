@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/infrastructure/road-variants/tram-snow-mask-09-slope-se.png",
+  "sha256": "0247109b6c2865722beae6fc105e8f94512c9b2a70f974a182a1f3f5d29e2bd9",
+  "generatedAt": "2026-10-28T07:33:54.873849+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 192,
+  "operation": "actual native road/tram lane Alpha over actual painted snow ground; piecewise-affine source-corner height projection, shared fixedcanvas/anchor; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/roads/tram-mask-09.png",
+      "sha256": "0b2de90f0f483534cafc9313a7a3e67f5e02a791fdb0b388603406c8492e8415",
+      "record": "assets/world/infrastructure/roads/tram-mask-09.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snow-flat.png",
+      "sha256": "1438cac1dd9ea9d8a870796ea7f6ddc12552aa6c75a7ce5f4c5966bf8820e92b",
+      "record": "assets/world/terrain/terrain-snow-flat.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Native imagegen model/quality undisclosed; derivative transformations add no native painted details."
+}

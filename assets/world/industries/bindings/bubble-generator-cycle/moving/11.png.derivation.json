@@ -1,0 +1,48 @@
+{
+  "id": "industry-bubble-generator-cycle-bound-11",
+  "image": "assets/world/industries/bindings/bubble-generator-cycle/moving/11.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "f253497c94aceff8866ca9ba2f253d0a09b76de7558153e37f250d8dc08dfc66",
+  "operation": "existing shared native lifetime FX; fixed-pivot proportional downsample and translation into parent512 coordinates; no new painted frame",
+  "derivedFrom": [
+    {
+      "file": "assets/world/effects/bubble-burst/03.png",
+      "sha256": "671946efc14e1921faaeb8c220b9a1db5a58379a7b6897295c06afe0a1c81d24",
+      "record": "assets/world/effects/bubble-burst/03.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceRequirementIds": [
+    "animation-industry-machinery",
+    "industry-34-bubble-generator"
+  ],
+  "frame": 11,
+  "parentArtId": "industry-34-bubble-generator",
+  "particlePhase": "burst",
+  "particleOriginPx": [
+    283,
+    116
+  ],
+  "sharedFXSource": "assets/world/effects/bubble-burst/03.png",
+  "sourceCanvasScale": 0.16015625,
+  "sourceFrameCanvas": [
+    512,
+    512
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

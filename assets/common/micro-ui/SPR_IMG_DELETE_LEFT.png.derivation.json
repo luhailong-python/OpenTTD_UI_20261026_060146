@@ -1,0 +1,68 @@
+{
+  "id": "SPR_IMG_DELETE_LEFT",
+  "image": "assets/common/micro-ui/SPR_IMG_DELETE_LEFT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "1cff2832a68d59b12e5b226733cc1011de51106b8b51454eca7168ea5c49b0b6",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/search.png",
+      "sha256": "66c4445500a539b783fdf0750684a8cc901ca6c2049823fa9855d8c72fa22336",
+      "record": "assets/icons/search.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_IMG_DELETE_LEFT.svg",
+      "sha256": "d5518a86ae9276227127235aeed03e99ffc9505319c49a9b647cecc94a65d113",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_IMG_DELETE_LEFT",
+  "sourceSpriteId": 5062,
+  "category": "function-status",
+  "functionalGlyph": "left",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_IMG_DELETE_LEFT.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

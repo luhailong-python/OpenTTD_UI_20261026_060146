@@ -1,0 +1,31 @@
+{
+  "id": "ground-snow-full-layout-0-slope-steep-e",
+  "image": "previews/world/rocks-overlay/assemblies/ground-snow-full-layout-0-slope-steep-e.png",
+  "sha256": "5fb8f837040230c4df6d5c69ac60815a16711914774f17c38556e13024f41215",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-grass-slope-steep-e.png",
+      "sha256": "de58421c8fb7c70121a2a09c1beef5abe9d8b558025cad60bd8c61ba3c1972bb",
+      "record": "assets/world/terrain/terrain-grass-slope-steep-e.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snow-slope-steep-e.png",
+      "sha256": "cc55aa4fb8b3fe5c9af0ed375af788b95807e77b16804163a672cf41017eb1f4",
+      "record": "assets/world/terrain/terrain-snow-slope-steep-e.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-steep-e.png",
+      "sha256": "bc1666fbed4c85ca47081aa474f43f5fbda9a18a9b38c6d516d0f55c6fdeeca0",
+      "record": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-steep-e.png.derivation.json"
+    }
+  ],
+  "operation": "Actual grass/snow material underlay at explicit fraction plus independent native painted rock overlay; source snow is on rock parts, not a white recolour",
+  "context": "clear-snow",
+  "slopeCode": 30,
+  "overlayId": "rocks-snow-full-layout-0-slope-steep-e",
+  "groundFraction": 1.0,
+  "label": "snow-full v0 / steep-e",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

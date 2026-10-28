@@ -1,0 +1,937 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T13:55:23.594835+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "construction-foundation",
+      "image": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        0,
+        0,
+        554,
+        361
+      ],
+      "sourceCropSize": [
+        554,
+        361
+      ],
+      "alphaTrimBox": [
+        15,
+        29,
+        552,
+        354
+      ],
+      "sourceAnchorPx": [
+        280,
+        350
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9411764705882353,
+      "targetOffsetPx": [
+        7,
+        146
+      ],
+      "contentNativeSize": [
+        537,
+        325
+      ],
+      "contentExportSize": [
+        505,
+        306
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 168,
+        "componentCorePixels": 93875
+      },
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-scaffold-low",
+      "image": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        554,
+        0,
+        1044,
+        365
+      ],
+      "sourceCropSize": [
+        490,
+        365
+      ],
+      "alphaTrimBox": [
+        7,
+        22,
+        476,
+        353
+      ],
+      "sourceAnchorPx": [
+        246,
+        350
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        17,
+        120
+      ],
+      "contentNativeSize": [
+        469,
+        331
+      ],
+      "contentExportSize": [
+        469,
+        331
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 0,
+        "componentCorePixels": 91260
+      },
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-scaffold-high-house",
+      "image": "assets/world/infrastructure/construction-ready/construction-scaffold-high-house.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1044,
+        0,
+        1536,
+        368
+      ],
+      "sourceCropSize": [
+        492,
+        368
+      ],
+      "alphaTrimBox": [
+        11,
+        10,
+        484,
+        365
+      ],
+      "sourceAnchorPx": [
+        249,
+        356
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        18,
+        102
+      ],
+      "contentNativeSize": [
+        473,
+        355
+      ],
+      "contentExportSize": [
+        473,
+        355
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 0,
+        "componentCorePixels": 105291
+      },
+      "sha256": "9d9a13867190abf6ce1cf56ee836a7921dc55987b7e8c2497ee28838754807e0",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-front-scaffold",
+      "image": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        330,
+        518,
+        742
+      ],
+      "sourceCropSize": [
+        518,
+        412
+      ],
+      "alphaTrimBox": [
+        126,
+        16,
+        438,
+        392
+      ],
+      "sourceAnchorPx": [
+        285,
+        382
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        97,
+        82
+      ],
+      "contentNativeSize": [
+        312,
+        376
+      ],
+      "contentExportSize": [
+        312,
+        376
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 3023,
+        "componentCorePixels": 55218
+      },
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-materials",
+      "image": "assets/world/infrastructure/construction-ready/construction-materials.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        520,
+        365,
+        1040,
+        720
+      ],
+      "sourceCropSize": [
+        520,
+        355
+      ],
+      "alphaTrimBox": [
+        38,
+        81,
+        500,
+        317
+      ],
+      "sourceAnchorPx": [
+        279,
+        326
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        15,
+        203
+      ],
+      "contentNativeSize": [
+        462,
+        236
+      ],
+      "contentExportSize": [
+        462,
+        236
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 0,
+        "componentCorePixels": 72829
+      },
+      "sha256": "dbd91705e8cd7eb9a65e984f0ce56267e604d550adc786efed6ff0d08e46fff5",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-crane",
+      "image": "assets/world/infrastructure/construction-ready/construction-crane.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1041,
+        350,
+        1536,
+        755
+      ],
+      "sourceCropSize": [
+        495,
+        405
+      ],
+      "alphaTrimBox": [
+        86,
+        23,
+        436,
+        382
+      ],
+      "sourceAnchorPx": [
+        280,
+        359
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        62,
+        112
+      ],
+      "contentNativeSize": [
+        350,
+        359
+      ],
+      "contentExportSize": [
+        350,
+        359
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 2744,
+        "componentCorePixels": 51559
+      },
+      "sha256": "1dbb2ee653bcfc1cfb62c950f1ad8e7085ee57e1582128ac3e5f3f8e87269037",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-rubble",
+      "image": "assets/world/infrastructure/construction-ready/construction-rubble.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        0,
+        695,
+        578,
+        1024
+      ],
+      "sourceCropSize": [
+        578,
+        329
+      ],
+      "alphaTrimBox": [
+        27,
+        16,
+        555,
+        313
+      ],
+      "sourceAnchorPx": [
+        286,
+        312
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9516728624535316,
+      "targetOffsetPx": [
+        10,
+        166
+      ],
+      "contentNativeSize": [
+        528,
+        297
+      ],
+      "contentExportSize": [
+        502,
+        283
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 894,
+        "componentCorePixels": 84677
+      },
+      "sha256": "3d4e8699a86c7d626addcece2201089fcf31f4f11fb8bd6a735505650f773ff5",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-stone-wall",
+      "image": "assets/world/infrastructure/construction-ready/construction-stone-wall.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        555,
+        720,
+        1017,
+        1024
+      ],
+      "sourceCropSize": [
+        462,
+        304
+      ],
+      "alphaTrimBox": [
+        39,
+        10,
+        416,
+        274
+      ],
+      "sourceAnchorPx": [
+        230,
+        280
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        65,
+        178
+      ],
+      "contentNativeSize": [
+        377,
+        264
+      ],
+      "contentExportSize": [
+        377,
+        264
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 0,
+        "componentCorePixels": 45193
+      },
+      "sha256": "bb923af3c07d7ae3cf926ce64ed338056de2761d1f677cc24aa8408cddc08dec",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    },
+    {
+      "id": "construction-taiji-platform",
+      "image": "assets/world/infrastructure/construction-ready/construction-taiji-platform.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/construction-kit.png",
+          "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+          "record": "source-art/world/construction-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1017,
+        712,
+        1536,
+        1024
+      ],
+      "sourceCropSize": [
+        519,
+        312
+      ],
+      "alphaTrimBox": [
+        15,
+        1,
+        499,
+        291
+      ],
+      "sourceAnchorPx": [
+        260,
+        296
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        11,
+        153
+      ],
+      "contentNativeSize": [
+        484,
+        290
+      ],
+      "contentExportSize": [
+        484,
+        290
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "source-prop-front-contact",
+        "basis": "native complete module; scale-to-site must be explicit"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 989,
+        "componentCorePixels": 70369
+      },
+      "sha256": "efd599724dea3259fa0d4a881ecaebf3450db899ece20b9a3a5a27fb3a0f262d",
+      "anchorMeaning": "front-contact of native construction prop, not logical tile centre",
+      "visualReview": "2026-10-26 complete9-prop contact sheet inspected; neighbouring-grid fragments removed;9 source-boundary checks passed"
+    }
+  ],
+  "qa": [
+    {
+      "id": "construction-foundation.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        0,
+        0,
+        554,
+        361
+      ]
+    },
+    {
+      "id": "construction-scaffold-low.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        554,
+        0,
+        1044,
+        365
+      ]
+    },
+    {
+      "id": "construction-scaffold-high-house.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        1044,
+        0,
+        1536,
+        368
+      ]
+    },
+    {
+      "id": "construction-front-scaffold.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        0,
+        330,
+        518,
+        742
+      ]
+    },
+    {
+      "id": "construction-materials.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        520,
+        365,
+        1040,
+        720
+      ]
+    },
+    {
+      "id": "construction-crane.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        1041,
+        350,
+        1536,
+        755
+      ]
+    },
+    {
+      "id": "construction-rubble.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        0,
+        695,
+        578,
+        1024
+      ]
+    },
+    {
+      "id": "construction-stone-wall.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        555,
+        720,
+        1017,
+        1024
+      ]
+    },
+    {
+      "id": "construction-taiji-platform.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/construction-kit.png",
+      "sourceBox": [
+        1017,
+        712,
+        1536,
+        1024
+      ]
+    }
+  ],
+  "acceptance": "local source-boundary/Alpha/contact-sheet checks passed; user art acceptance pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "construction-kit"
+}

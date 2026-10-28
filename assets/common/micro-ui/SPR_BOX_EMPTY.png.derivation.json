@@ -1,0 +1,63 @@
+{
+  "id": "SPR_BOX_EMPTY",
+  "image": "assets/common/micro-ui/SPR_BOX_EMPTY.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "dbdda1e680c1b004a86ad71687f2e24e157f26866b0eaeadccce132673d6f84b",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/common/reference-checkbox-off.png",
+      "sha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+      "record": "assets/common/reference-checkbox-off.png.generation.json"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_BOX_EMPTY",
+  "sourceSpriteId": 4937,
+  "category": "common-control",
+  "functionalGlyph": null,
+  "geometryFile": null,
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      24,
+      48
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

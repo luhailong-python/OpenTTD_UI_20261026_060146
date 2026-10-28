@@ -1,0 +1,37 @@
+{
+  "id": "rail-depot-monorail-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-depot-monorail-axis-y.png",
+  "sha256": "3160528cbffaed9ad3cb77c192a3126eecdc7f8ff7d386d48f76daef0f4ce0c7",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-depot-monorail.png",
+      "sha256": "e065a6f6c77dd11e4f55b0e55027c800263afde8a707d2acd57d5fcc7aa62771",
+      "record": "assets/world/infrastructure/transport/rail-depot-monorail.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

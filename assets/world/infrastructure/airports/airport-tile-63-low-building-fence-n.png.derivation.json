@@ -1,0 +1,93 @@
+{
+  "id": "airport-tile-63-low-building-fence-n",
+  "image": "assets/world/infrastructure/airports/airport-tile-63-low-building-fence-n.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "43209600f6cc63a360efa6a99f22677793fe0e2590fd1b22812663ecda751716",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-ne.png",
+      "sha256": "4b963ccbd37a7f3ca27ce4b89425163d011f85108899f2f60c6bba03b676c866",
+      "record": "assets/world/infrastructure/airports/airport-fence-ne.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-nw.png",
+      "sha256": "09676bbd986b0b9b6b34a24ecb694df6a41f33d25de89853faa1c1550eeae5cc",
+      "record": "assets/world/infrastructure/airports/airport-fence-nw.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-administration.png",
+      "sha256": "569df4397e3db3b748ee4b266e122169d8c73852d3b311bb5e064c51137c6523",
+      "record": "assets/world/infrastructure/airports/airport-administration.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 63,
+  "sourceTileEnum": "APT_LOW_BUILDING_FENCE_N",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_low_building_fence_ne_nw) // APT_LOW_BUILDING_FENCE_N",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-ne",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    },
+    {
+      "artId": "airport-fence-nw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    },
+    {
+      "artId": "airport-administration",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "building"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-helidepot",
+    "airport-tile-63-low-building-fence-n"
+  ]
+}

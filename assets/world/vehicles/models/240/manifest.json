@@ -1,0 +1,358 @@
+{
+  "id": 240,
+  "upstreamName": "Yate Z-Shuttle",
+  "familyId": "air-jet-narrow",
+  "transport": "aircraft",
+  "cargo": null,
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 343
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/N-body.png",
+      "sha256": "462dd344102ca3550cd94daf76460ba4213fdeadc0d29010661fa496d3b97361",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/N-body.png",
+          "sha256": "462dd344102ca3550cd94daf76460ba4213fdeadc0d29010661fa496d3b97361",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/N.png",
+          "sha256": "d7c912b0e3d4028aa4d86cda176101c388f8a2e6f2ac735b66ec31800cad1e6a",
+          "record": "assets/world/vehicles/families/air-jet-narrow/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/NE-body.png",
+      "sha256": "21d05bb88f254f0d9aab8947b48ccb32cbc380c2fde3d7716a2ad58e7feee42b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/NE-body.png",
+          "sha256": "21d05bb88f254f0d9aab8947b48ccb32cbc380c2fde3d7716a2ad58e7feee42b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/NE.png",
+          "sha256": "72fa0da287d945fb9531e6e9c9fc322f71c643bfa45bac4da2d698a497148144",
+          "record": "assets/world/vehicles/families/air-jet-narrow/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/E-body.png",
+      "sha256": "da5f1a00b9a0515d9b6e50021500d4beff9becc53f8938e1f34234e8aa8ec3ea",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/E-body.png",
+          "sha256": "da5f1a00b9a0515d9b6e50021500d4beff9becc53f8938e1f34234e8aa8ec3ea",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/E.png",
+          "sha256": "c4acaaec55f66ebcc31d5e379ae3d92f36b8317301464b7edbc99702069783ab",
+          "record": "assets/world/vehicles/families/air-jet-narrow/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/SE-body.png",
+      "sha256": "0e77512fb5febb0609c7b14c79fd08963fc860bdd4613486c6014ce41ba2635b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/SE-body.png",
+          "sha256": "0e77512fb5febb0609c7b14c79fd08963fc860bdd4613486c6014ce41ba2635b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/SE.png",
+          "sha256": "1837128803e99ee51c6162053103cf57a666ff6a1c32960f1d1d49fccd7a0e4f",
+          "record": "assets/world/vehicles/families/air-jet-narrow/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/S-body.png",
+      "sha256": "d81b9e2c13b60258e881241259d2a09f70da8b1936d820695b0aea5663f52fd3",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/S-body.png",
+          "sha256": "d81b9e2c13b60258e881241259d2a09f70da8b1936d820695b0aea5663f52fd3",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/S.png",
+          "sha256": "7af04731d6f1f2a37782252fa8c758b10dd057bb6a1c694a2861fbf64a932ed4",
+          "record": "assets/world/vehicles/families/air-jet-narrow/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/SW-body.png",
+      "sha256": "2f2dd3ec59b22de8fc429fded9edc57681ecbc70f570bded2e5720e7ad8c9a57",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/SW-body.png",
+          "sha256": "2f2dd3ec59b22de8fc429fded9edc57681ecbc70f570bded2e5720e7ad8c9a57",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/SW.png",
+          "sha256": "6fddecdf66b29e12539ea9545c6ae0390e934c9d3a8faaa3bcebf9c6dce30613",
+          "record": "assets/world/vehicles/families/air-jet-narrow/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/W-body.png",
+      "sha256": "db988c770a5a98aff4f764ab7e9874261ee58549d422254e41319cd16d4c6f03",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/W-body.png",
+          "sha256": "db988c770a5a98aff4f764ab7e9874261ee58549d422254e41319cd16d4c6f03",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/W.png",
+          "sha256": "53d39f7ab17ea910df3d1bbe729e2c97e80e077ee733b3b0845d84f433f09a88",
+          "record": "assets/world/vehicles/families/air-jet-narrow/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "body": "assets/world/vehicles/models/240/NW-body.png",
+      "sha256": "081ad4675183264c0b5cd6e30e56ff6e4a0ba156835a28397d7c597d0899b08c",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/240/NW-body.png",
+          "sha256": "081ad4675183264c0b5cd6e30e56ff6e4a0ba156835a28397d7c597d0899b08c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/air-jet-narrow/NW.png",
+          "sha256": "fae09ea574e04dce544efbace5cd341068da473ec633a52735e481b533b865d7",
+          "record": "assets/world/vehicles/families/air-jet-narrow/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/air-jet-narrow/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

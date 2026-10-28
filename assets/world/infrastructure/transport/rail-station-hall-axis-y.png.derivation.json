@@ -1,0 +1,37 @@
+{
+  "id": "rail-station-hall-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-station-hall-axis-y.png",
+  "sha256": "61af5c65ad6511633201df6e79955a2806537d2a5eef6096e465fed23cc4cace",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-station-hall.png",
+      "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+      "record": "assets/world/infrastructure/transport/rail-station-hall.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

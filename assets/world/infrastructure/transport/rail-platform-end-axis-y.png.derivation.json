@@ -1,0 +1,37 @@
+{
+  "id": "rail-platform-end-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-platform-end-axis-y.png",
+  "sha256": "f7a442ebcb121aafda2475675db1fc038c8b4ff48e17d27c819bce51d121f783",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-platform-end.png",
+      "sha256": "45ef045d440084fea2fd7c45c4aa2d4325d4f646ff7fb8b28ab4b2024e84fe26",
+      "record": "assets/world/infrastructure/transport/rail-platform-end.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "referenceCommit": "cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8",
+  "effects": [
+    {
+      "sourceId": 0,
+      "sourceEnum": "EV_CHIMNEY_SMOKE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 17,
+      "manifest": "assets/world/effects/chimney-smoke/manifest.json",
+      "sourceSpriteCount": 8,
+      "deliveredFrameCount": 8,
+      "independentNativeKeys": 4,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 1,
+      "sourceEnum": "EV_STEAM_SMOKE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 18,
+      "manifest": "assets/world/effects/steam-smoke/manifest.json",
+      "sourceSpriteCount": 5,
+      "deliveredFrameCount": 5,
+      "independentNativeKeys": 4,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 2,
+      "sourceEnum": "EV_DIESEL_SMOKE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 19,
+      "manifest": "assets/world/effects/diesel-smoke/manifest.json",
+      "sourceSpriteCount": 6,
+      "deliveredFrameCount": 6,
+      "independentNativeKeys": 4,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 3,
+      "sourceEnum": "EV_ELECTRIC_SPARK",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 20,
+      "manifest": "assets/world/effects/electric-spark/manifest.json",
+      "sourceSpriteCount": 6,
+      "deliveredFrameCount": 6,
+      "independentNativeKeys": 4,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 4,
+      "sourceEnum": "EV_CRASH_SMOKE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 21,
+      "manifest": "assets/world/effects/crash-smoke/manifest.json",
+      "sourceSpriteCount": 5,
+      "deliveredFrameCount": 5,
+      "independentNativeKeys": 4,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 5,
+      "sourceEnum": "EV_EXPLOSION_LARGE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 22,
+      "manifest": "assets/world/effects/explosion-large/manifest.json",
+      "sourceSpriteCount": 16,
+      "deliveredFrameCount": 16,
+      "independentNativeKeys": 16,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 6,
+      "sourceEnum": "EV_BREAKDOWN_SMOKE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 23,
+      "manifest": "assets/world/effects/breakdown-smoke/manifest.json",
+      "sourceSpriteCount": 4,
+      "deliveredFrameCount": 4,
+      "independentNativeKeys": 4,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 7,
+      "sourceEnum": "EV_EXPLOSION_SMALL",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 24,
+      "manifest": "assets/world/effects/explosion-small/manifest.json",
+      "sourceSpriteCount": 12,
+      "deliveredFrameCount": 12,
+      "independentNativeKeys": 16,
+      "unityVerified": false
+    },
+    {
+      "sourceId": 8,
+      "sourceEnum": "EV_BULLDOZER",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 25,
+      "manifest": "assets/world/effects/bulldozer-directions/manifest.json",
+      "sourceSpriteCount": 4,
+      "deliveredDirections": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "nativeFacingCount": 3,
+      "derivedFacingCount": 1
+    },
+    {
+      "sourceId": 9,
+      "sourceEnum": "EV_BUBBLE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 26,
+      "manifests": {
+        "bubble-generation": "assets/world/effects/bubble-generation/manifest.json",
+        "bubble-float": "assets/world/effects/bubble-float/manifest.json",
+        "bubble-burst": "assets/world/effects/bubble-burst/manifest.json",
+        "bubble-absorb": "assets/world/effects/bubble-absorb/manifest.json"
+      },
+      "sourceImageMapping": {
+        "generate0-2": "bubble-generation frames0-2;tick switches tofloat whenSprite reachesGENERATE_3",
+        "float0-2": "bubble-float",
+        "burst7-9": "bubble-burst;extra terminal paintedkey available",
+        "absorb10-14": "bubble-absorb"
+      },
+      "movement": "4 world drift directions are later source/game translation, not raster body rotation"
+    },
+    {
+      "sourceId": 10,
+      "sourceEnum": "EV_BREAKDOWN_SMOKE_AIRCRAFT",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 27,
+      "manifest": "assets/world/effects/crash-smoke/manifest.json",
+      "sharedArt": "source effect_procs uses the exact same SmokeInit/SmokeTick asEV_CRASH_SMOKE",
+      "sourceSpriteCount": 5,
+      "deliveredFrameCount": 5
+    },
+    {
+      "sourceId": 11,
+      "sourceEnum": "EV_COPPER_MINE_SMOKE",
+      "sourceFile": "src/effectvehicle_func.h",
+      "sourceLine": 28,
+      "manifest": "assets/world/effects/crash-smoke/manifest.json",
+      "sharedArt": "source effect_procs uses the exact same SmokeInit/SmokeTick asEV_CRASH_SMOKE",
+      "sourceSpriteCount": 5,
+      "deliveredFrameCount": 5
+    }
+  ],
+  "sourceTypeCount": 12,
+  "optionalAmbient": [
+    "furnace-flame"
+  ],
+  "nativeSourceAtlases": [
+    "fx-smoke-keys",
+    "fx-explosion-keys",
+    "fx-spark-bubble-fire",
+    "fx-bulldozer"
+  ],
+  "videoModelUsed": false,
+  "unityVerified": false,
+  "localAcceptanceRecord": "records/vehicle-fx-validation.json",
+  "userArtAcceptance": "pending"
+}

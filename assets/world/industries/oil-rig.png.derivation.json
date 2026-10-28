@@ -1,0 +1,60 @@
+{
+  "id": "industry-05-oil-rig",
+  "file": "assets/world/industries/oil-rig.png",
+  "sha256": "d4e61917d7a46fd9a9c6c8deefcda2aec2c57353ee39db54f1dec021badaf6fa",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    854,
+    398,
+    1246,
+    815
+  ],
+  "nativePaintingBounds": [
+    855,
+    398,
+    1245,
+    813
+  ],
+  "uniformScale": 0.920863309352518,
+  "pasteXY": [
+    76,
+    64
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    76,
+    64,
+    437,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-a.png",
+    "sha256": "e1365b0ae4270079d1f124002cf17d944a9dabdfa37e6a1ec3a5bcf4bcfe9643",
+    "record": "source-art/world/industry-a.png.generation.json"
+  },
+  "sourceIndustryTypeId": 5,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

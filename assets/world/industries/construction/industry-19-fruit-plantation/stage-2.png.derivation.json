@@ -1,0 +1,44 @@
+{
+  "id": "industry-19-fruit-plantation-construction-2",
+  "image": "assets/world/industries/construction/industry-19-fruit-plantation/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "b205e5b377ca99da6f0e9747d76c3d20a8ac32793b12cee79068c2e769356c33",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/fruit-plantation.png",
+      "sha256": "5391940bfde3837a2a1870d386661f546c81a5000edcf8d4ee91992d8cbef28d",
+      "record": "assets/world/industries/fruit-plantation.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 19,
+  "stage": 2,
+  "details": {
+    "kind": "vegetative site young compound scale derivative",
+    "sourceScale": 0.8
+  },
+  "sourceRequirementIds": [
+    "industry-19-fruit-plantation",
+    "industry-tile-116"
+  ]
+}

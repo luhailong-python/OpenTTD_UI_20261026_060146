@@ -1,0 +1,49 @@
+{
+  "id": "portal-lane-clean-SE-normal",
+  "image": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-normal.png",
+  "sha256": "cf786afc8a6be169e015565acf1984b17895fbfd3f3f17a1932dd77c3a66c993",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/tunnel-portal-SE.png",
+      "sha256": "380ba21f5e5bf07286a3bf1554255d53f61c78d7f2ecdf8a45c45d3497ff2506",
+      "record": "assets/world/infrastructure/transport/tunnel-portal-SE.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-floor-mask-SE.png",
+      "sha256": "f12e90b030becb84732cc8c1a9e7c0224688dafe70c1dd2706c05adc9f52334c",
+      "record": "assets/world/infrastructure/transport-runtime/portal-floor-mask-SE.png.derivation.json"
+    }
+  ],
+  "operation": "Remove actual dark portal floor / approach grass Alpha inside measured lane corridor only; retain every painted stone wall, lamp and column; declared climate grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.804295+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "cleanedOriginalImage": "assets/world/infrastructure/transport/tunnel-portal-SE.png",
+  "removedFloorMask": "assets/world/infrastructure/transport-runtime/portal-floor-mask-SE.png",
+  "ownershipPixelCount": 889,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "rail-canopy-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-canopy-axis-y.png",
+  "sha256": "893b166a49046375d85da7862846cf3d80b2f85b709ee77f6439285090b4f3b9",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-canopy.png",
+      "sha256": "7c173dfc3618abf4c9d78a3c6ceb1c6e270feb221f55ec161a1cd935ada1be5c",
+      "record": "assets/world/infrastructure/transport/rail-canopy.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

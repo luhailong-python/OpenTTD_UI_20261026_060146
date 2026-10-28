@@ -1,0 +1,177 @@
+{
+  "id": "bridge-07-cantilever-Y-monorail-flat",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-07-cantilever-Y-monorail-flat.png",
+  "sha256": "451963c01fc1cc6bf000c3f2896c27daff311c4568a52bcf8b7bd29c4669b9ed",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-Y-rail-rear.png",
+      "sha256": "7cd09ecc8419b64b21cfe832d0c026b401667ef2bbfec02c73801b6c978d933a",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-Y-rail-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-Y-monorail-0.png",
+      "sha256": "03e12520e0f79a39820f81b94266cb7506d921ec7e1853cede948c37f66f1e07",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-Y-monorail-0.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-Y-rail-front.png",
+      "sha256": "57c025d5520d0ab94501c40d285e85a9da9b823734f4ba7be835d1dc46d89284",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-Y-rail-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-07-cantilever"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "Y",
+  "railType": "monorail",
+  "risePx": 0,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        76,
+        259
+      ],
+      [
+        149,
+        228
+      ],
+      [
+        435,
+        376
+      ],
+      [
+        374,
+        406
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        112.5,
+        243.5
+      ],
+      [
+        404.5,
+        391.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        240
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        113.31506849315069,
+        183.34246575342465
+      ],
+      [
+        142.68493150684932,
+        168.65753424657535
+      ],
+      [
+        270.6849315068493,
+        232.65753424657535
+      ],
+      [
+        241.31506849315068,
+        247.34246575342465
+      ]
+    ],
+    "deckCrossSectionHalfX": 14.684931506849313,
+    "uniformNativeScaleReference": 0.4383561643835616,
+    "sourceXKnots": [
+      76.0,
+      149.0,
+      374.0,
+      435.0
+    ],
+    "targetXKnots": [
+      113.31506849315069,
+      142.68493150684932,
+      241.31506849315068,
+      270.6849315068493
+    ],
+    "verticalScaleAboveDeck": [
+      0.4520547945205479,
+      0.4905414220482713,
+      0.4254633360193392,
+      0.3962065331928345
+    ],
+    "verticalScaleBelowDeck": [
+      0.3150684931506849,
+      0.4383561643835616,
+      0.7201565557729941,
+      0.4383561643835616
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            76,
+            243
+          ],
+          [
+            374,
+            389
+          ]
+        ],
+        "commonCapHeightPx": 7.232876712328767
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            149,
+            207
+          ],
+          [
+            435,
+            350
+          ]
+        ],
+        "commonCapHeightPx": 10.301369863013697
+      }
+    ],
+    "axisMirror": true,
+    "rampRisePx": 0,
+    "advancePx": [
+      -128,
+      64
+    ],
+    "rampProfile": "flat",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-Y-rail-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-Y-monorail-0.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-Y-rail-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-Y-rail-0-mask.png"
+}

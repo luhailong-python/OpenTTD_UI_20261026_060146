@@ -1,0 +1,43 @@
+{
+  "id": "tree-40-dying-2",
+  "image": "assets/world/vegetation/states/tree-40/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "89efab7f1169d9e8664382071f3b50507f7003a64e1361019f7da88368f5abc5",
+  "climate": "toyland",
+  "artSpecies": "balloon-tree",
+  "sourceTreeType": 40,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-40.png",
+      "sha256": "c84501ceaa8ece7466ca7a3b8cc5f20c2405c35816e970ebf32c766db1f7ced0",
+      "record": "assets/world/vegetation/mature/tree-40.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "same toy phenotype desaturated and visibly shrivelled by declared 2D downscale; no other candy species spawned",
+    "scaleXY": [
+      0.9,
+      0.7
+    ],
+    "newNativeDeathDrawing": false
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-40"
+  ]
+}

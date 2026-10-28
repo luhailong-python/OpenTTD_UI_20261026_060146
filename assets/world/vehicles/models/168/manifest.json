@@ -1,0 +1,580 @@
+{
+  "id": 168,
+  "upstreamName": "Balogh Fruit Truck",
+  "familyId": "road-flat",
+  "transport": "road",
+  "cargo": "CT_FRUIT",
+  "climates": [
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 271
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/N-body.png",
+      "sha256": "8bc5e2ebf29a0426153b3701848f71e5f0fcd78557f2e52fc2d63a64440af178",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/N-body.png",
+          "sha256": "8bc5e2ebf29a0426153b3701848f71e5f0fcd78557f2e52fc2d63a64440af178",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/N-loaded.png",
+          "sha256": "97a9409691b4059bc86795c9e329bae7e66b7d27f01923e4a02dd6b223788ac5",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              224,
+              290
+            ],
+            "cargoSize": [
+              64,
+              53
+            ],
+            "loadBayCenter": [
+              255.5,
+              316.44
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/N.png",
+          "sha256": "e9aac7155440aef7305d63def3948220102e98db2009fe149b96c439548bd4cd",
+          "record": "assets/world/vehicles/families/road-flat/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/NE-body.png",
+      "sha256": "4d50ce962b3e3112111414111a346e26cb8eb85d0fb68573ba70e017c2ac2a0e",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/NE-body.png",
+          "sha256": "4d50ce962b3e3112111414111a346e26cb8eb85d0fb68573ba70e017c2ac2a0e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/NE-loaded.png",
+          "sha256": "0c6a4bc6af6986655d6cebc629382936acedf04f84e44d35bfe68e9e4b97f533",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              151,
+              228
+            ],
+            "cargoSize": [
+              106,
+              88
+            ],
+            "loadBayCenter": [
+              204.08,
+              272.17
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/NE.png",
+          "sha256": "f46302540463550addd9a9658c556893944dd84a7873c80c09aa26b057f86903",
+          "record": "assets/world/vehicles/families/road-flat/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/E-body.png",
+      "sha256": "a55c4378cb48067f37c1342aaa61521841ce77cd319a205a554c73bb4d0186f2",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/E-body.png",
+          "sha256": "a55c4378cb48067f37c1342aaa61521841ce77cd319a205a554c73bb4d0186f2",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/E-loaded.png",
+          "sha256": "ffba635966e06f4b5979ab2fa955217ecdb213c13b11a5681b339beadacf6477",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              154,
+              208
+            ],
+            "cargoSize": [
+              47,
+              39
+            ],
+            "loadBayCenter": [
+              177.84,
+              227.68
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/E.png",
+          "sha256": "7ac902f367900e233f168e416e626c1a5467f6c6be4c38150e49438e068c3a6e",
+          "record": "assets/world/vehicles/families/road-flat/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/SE-body.png",
+      "sha256": "5c2b89e25395db8eab398350ff191f9d7bebb38e0b442f4a44978a688b821207",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/SE-body.png",
+          "sha256": "5c2b89e25395db8eab398350ff191f9d7bebb38e0b442f4a44978a688b821207",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/SE-loaded.png",
+          "sha256": "b4a8247c16dd1e8551417564f977dc4e22c58b1a3c8d786f5017a9c2c6bc865f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              161,
+              164
+            ],
+            "cargoSize": [
+              96,
+              80
+            ],
+            "loadBayCenter": [
+              209.42,
+              204.13
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/SE.png",
+          "sha256": "0f3294db1f88149171c15810e035ce95df668241a3aaf024b5068e05a94215d8",
+          "record": "assets/world/vehicles/families/road-flat/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/S-body.png",
+      "sha256": "2a3d7ca0cfa6a70130a4224203de4dd9dfc2ff3fb01ddf7230562b9ebdf42df6",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/S-body.png",
+          "sha256": "2a3d7ca0cfa6a70130a4224203de4dd9dfc2ff3fb01ddf7230562b9ebdf42df6",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/S-loaded.png",
+          "sha256": "28742c811ce3be732ef8cab82bdeb5adaf1a7ff80dbf8bc8957f0cd159b94473",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              219,
+              164
+            ],
+            "cargoSize": [
+              74,
+              61
+            ],
+            "loadBayCenter": [
+              256.0,
+              194.91
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/S.png",
+          "sha256": "28bedd53bdec191ab49da141196fc41cf165763eb826687ad7ca88b783ab1d59",
+          "record": "assets/world/vehicles/families/road-flat/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/SW-body.png",
+      "sha256": "e454096c747f75edc9897e7db59ceda83d6a46a16fd05b32a78bec84f1e42304",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/SW-body.png",
+          "sha256": "e454096c747f75edc9897e7db59ceda83d6a46a16fd05b32a78bec84f1e42304",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/SW-loaded.png",
+          "sha256": "cc75bb29e0c38ca0f5f721402a68da61720ac283f86c6023fe405749b42ceb24",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              256,
+              151
+            ],
+            "cargoSize": [
+              102,
+              85
+            ],
+            "loadBayCenter": [
+              306.9,
+              193.84
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/SW.png",
+          "sha256": "bbce083712da7f4a8f439a45c37d7dc248e2c6310a9ad7e1f3fe4ed907d3d38c",
+          "record": "assets/world/vehicles/families/road-flat/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/W-body.png",
+      "sha256": "81a5dcfc5091afc395f4017427b94cde71e0aac254a77ee8dcb168ab5bcd6358",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/W-body.png",
+          "sha256": "81a5dcfc5091afc395f4017427b94cde71e0aac254a77ee8dcb168ab5bcd6358",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/W-loaded.png",
+          "sha256": "d399792448a1f440624ec0001d82d3952852edbf8d207ad6306e49b2a417a84c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              311,
+              208
+            ],
+            "cargoSize": [
+              47,
+              39
+            ],
+            "loadBayCenter": [
+              334.84,
+              227.68
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/W.png",
+          "sha256": "1d84d6dff47fb8fd3f6e742c8daa60879bf01e943a570b6b84de6fd7cac1738b",
+          "record": "assets/world/vehicles/families/road-flat/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/168/NW-body.png",
+      "sha256": "4b198a299ddc508a0f280bdbc91197f1ca1ffa968a0e7caae183b96f0449ce3f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/168/NW-body.png",
+          "sha256": "4b198a299ddc508a0f280bdbc91197f1ca1ffa968a0e7caae183b96f0449ce3f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/168/NW-loaded.png",
+          "sha256": "07cabdb959724ccc59b7a95a1153303c4df2e9e936b8a485cdd102ed9a80758e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": {
+            "file": "assets/cargo/fruit.png",
+            "sha256": "cd1b047e4726e2b1fe212e4e48ffe3594f4956900b811e8b8517fba7b2eb7cfe",
+            "record": "assets/cargo/fruit.png.generation.json",
+            "sourceCargoIconReused": true,
+            "operation": "downscale painted cargo prop; optional horizontal mirror; place in explicit facing load bay; hopper clipped to painted interior",
+            "paste": [
+              253,
+              230
+            ],
+            "cargoSize": [
+              105,
+              87
+            ],
+            "loadBayCenter": [
+              305.89,
+              273.4
+            ],
+            "notNativeEightDirectionCargo": true
+          },
+          "visuallyDifferentFromEmpty": true,
+          "usesBaseBody": false
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -5,
+        "jadeValueMultiplier": 0.96,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-flat/NW.png",
+          "sha256": "d6e9e2616813a9bfbec33ed3c95a8a680c22f42448325ed94c7ec23145b921ee",
+          "record": "assets/world/vehicles/families/road-flat/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/road-flat/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

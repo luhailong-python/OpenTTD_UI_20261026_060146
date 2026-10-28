@@ -1,0 +1,39 @@
+{
+  "id": "tree-12-growing-1",
+  "image": "assets/world/vegetation/states/tree-12/0-growing-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "30a3e4c035c5ab2a9927ec098c166f4405bbbe68c9614444143ae1a5d5f876e8",
+  "climate": "arctic",
+  "artSpecies": "dark-spruce",
+  "sourceTreeType": 12,
+  "sourceGrowthStage": 0,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-12.png",
+      "sha256": "ce748b680a692d6bfdce1fb449b0a4ce2aceb6dff29b33a09ed15a26c2b67f3b",
+      "record": "assets/world/vegetation/mature/tree-12.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.28,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-12"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "tunnel-tram-NE-desert",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-tram-NE-desert.png",
+  "sha256": "f3f87744b8ffb01acc0132e43664f8ab823be2f44825f2e7fa89d63dbe3a0f83",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/tunnel-portal-NE.png",
+      "sha256": "8b18d6de1e807e369f105fed458b2ea03a0f0c0152637d8c0447a1a204c8fa7d",
+      "record": "assets/world/infrastructure/transport/tunnel-portal-NE.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-tram"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:17.590329+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "NE",
+  "climate": "desert",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

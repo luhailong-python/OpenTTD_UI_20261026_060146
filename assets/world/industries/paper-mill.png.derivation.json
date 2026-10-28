@@ -1,0 +1,60 @@
+{
+  "id": "industry-14-paper-mill",
+  "file": "assets/world/industries/paper-mill.png",
+  "sha256": "5c234ace87ac14d92f0c5f28a7bd7ee5ae11ec8b410b98a738911974950bddc5",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    856,
+    460,
+    1249,
+    794
+  ],
+  "nativePaintingBounds": [
+    857,
+    461,
+    1247,
+    794
+  ],
+  "uniformScale": 0.9770992366412213,
+  "pasteXY": [
+    64,
+    122
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    122,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-b.png",
+    "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+    "record": "source-art/world/industry-b.png.generation.json"
+  },
+  "sourceIndustryTypeId": 14,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

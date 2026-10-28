@@ -1,0 +1,49 @@
+{
+  "id": "disasters/zeppelin-wreck",
+  "frames": [
+    {
+      "file": "assets/world/effects/disasters/zeppelin-wreck/00.png",
+      "sha256": "8b8a28199fc61f0804d08812d1e0ff3cc2023099061a11849f29823ff907c663",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 0,
+      "durationMs": 1000,
+      "operation": "actual isolated painted disaster prop, native crop/padding",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/disaster-air-props.png",
+            "sha256": "6cf6d2a26e698733979d5e42d7938c561e4b1d238786cd2c49175d0d263712fa",
+            "record": "source-art/world/disaster-air-props.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            47,
+            47
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art"
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "fpsSuggestion": 1,
+  "loop": false,
+  "timingStatus": "art preview recommendation; source gameplay tick adapter remains next stage",
+  "operation": "actual isolated painted disaster prop, native crop/padding",
+  "unityVerified": false
+}

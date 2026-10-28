@@ -1,0 +1,46 @@
+{
+  "id": "tree-17-dead",
+  "image": "assets/world/vegetation/states/tree-17/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "1a846edf843bbfc5732f39bf4a170d9d070bb150295b4568574888bf26deeb10",
+  "climate": "arctic",
+  "artSpecies": "arctic-birch",
+  "sourceTreeType": 17,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-17.png",
+      "sha256": "2503ca7077f9ca64e32b2c102af111ba514b6a65a4398ba13b22b933c56d4868",
+      "record": "assets/world/vegetation/mature/tree-17.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png",
+      "sha256": "9f12687fd3a2ea92f835b6926f1a62d76e71b96c7ee583ea09a1f633766c20cd",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-stump",
+    "sharedScale": 0.32142857142857145,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-17"
+  ]
+}

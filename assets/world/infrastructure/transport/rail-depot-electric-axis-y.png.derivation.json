@@ -1,0 +1,37 @@
+{
+  "id": "rail-depot-electric-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-depot-electric-axis-y.png",
+  "sha256": "e40e742082ed93227fbf4891ed4ffee7dcc90e9d6260a6133294231536309795",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-depot-electric.png",
+      "sha256": "f19bda25861e8afa7c1424432b1e259f9f44b3902b70e194d689847c4260fd37",
+      "record": "assets/world/infrastructure/transport/rail-depot-electric.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

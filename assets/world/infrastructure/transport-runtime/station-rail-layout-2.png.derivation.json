@@ -1,0 +1,45 @@
+{
+  "id": "station-rail-layout-2",
+  "image": "assets/world/infrastructure/transport-runtime/station-rail-layout-2.png",
+  "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-station-hall.png",
+      "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+      "record": "assets/world/infrastructure/transport/rail-station-hall.png.derivation.json"
+    }
+  ],
+  "operation": "Source station eight layouts mapped to two axes/four platform-building-canopy roles; A/B canopy shares native painting with opposite platform-side metadata",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:07.890520+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "axis": "X",
+  "platformSide": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

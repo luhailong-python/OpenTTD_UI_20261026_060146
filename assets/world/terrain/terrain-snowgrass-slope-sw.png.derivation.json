@@ -1,0 +1,31 @@
+{
+  "file": "assets/world/terrain/terrain-snowgrass-slope-sw.png",
+  "sha256": "015b90cfa185fc725ed72e79f1be50f2620c97292f6f9f0f331c63041a28d0f2",
+  "derivedAt": "2026-10-28T10:20:54.432121+00:00",
+  "route": "deterministic-derivative",
+  "tool": "repair_terrain_materials.py / build_world_terrain.py square_material+periodic+project / world_pack.projected_slope",
+  "width": 256,
+  "height": 192,
+  "operation": "actual square hand-painted snowgrass master -> proportional192px UV downsample ->14px opposite-edge colour blend -> canonical256x128 diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/snowgrass-seamless.png",
+      "sha256": "e10c2f47b0e427b0e7f10bbe1ce9c3ee9f3ec08234b8a7c565a3e912c5c0b1c9",
+      "record": "source-art/world/snowgrass-seamless.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceUVWorkingResolution": [
+    192,
+    192
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "previousFormalSHA256": "36badb1c451944b36b9e349e92aa9f2eb567c990a189669faa63a9ea87926d7b",
+  "nativeUpscale": false
+}

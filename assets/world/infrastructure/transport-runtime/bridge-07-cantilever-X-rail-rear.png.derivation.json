@@ -1,0 +1,174 @@
+{
+  "id": "bridge-07-cantilever-X-rail-rear",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-07-cantilever-X-rail-rear.png",
+  "sha256": "1f4484077851818c0503552b549433e57af15a2455035e8f131757b51007c03b",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-cantilever-span.png",
+      "sha256": "a24ee58fd49c13d741b37c0d851a5cec5087fc0a1ab980a0e5e7f5e00f634e26",
+      "record": "assets/world/infrastructure/transport/bridge-cantilever-span.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-X-rail-0-mask.png",
+      "sha256": "fb1b7c4d0ec3275d2d04a8587207f5198c4dbc20e39c815f964fe43f4768797b",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-X-rail-0-mask.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary native painted bridge floor / protected structure ownership Alpha partition; original railings, posts and roof pixels unchanged",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-07-cantilever"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:28.544989+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        76,
+        259
+      ],
+      [
+        149,
+        228
+      ],
+      [
+        435,
+        376
+      ],
+      [
+        374,
+        406
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        112.5,
+        243.5
+      ],
+      [
+        404.5,
+        391.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        240
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        113.31506849315069,
+        183.34246575342465
+      ],
+      [
+        142.68493150684932,
+        168.65753424657535
+      ],
+      [
+        270.6849315068493,
+        232.65753424657535
+      ],
+      [
+        241.31506849315068,
+        247.34246575342465
+      ]
+    ],
+    "deckCrossSectionHalfX": 14.684931506849313,
+    "uniformNativeScaleReference": 0.4383561643835616,
+    "sourceXKnots": [
+      76.0,
+      149.0,
+      374.0,
+      435.0
+    ],
+    "targetXKnots": [
+      113.31506849315069,
+      142.68493150684932,
+      241.31506849315068,
+      270.6849315068493
+    ],
+    "verticalScaleAboveDeck": [
+      0.4520547945205479,
+      0.4905414220482713,
+      0.4254633360193392,
+      0.3962065331928345
+    ],
+    "verticalScaleBelowDeck": [
+      0.3150684931506849,
+      0.4383561643835616,
+      0.7201565557729941,
+      0.4383561643835616
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            76,
+            243
+          ],
+          [
+            374,
+            389
+          ]
+        ],
+        "commonCapHeightPx": 7.232876712328767
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            149,
+            207
+          ],
+          [
+            435,
+            350
+          ]
+        ],
+        "commonCapHeightPx": 10.301369863013697
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": 0,
+    "advancePx": [
+      128,
+      64
+    ],
+    "rampProfile": "flat",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "ownershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-X-rail-0-mask.png",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

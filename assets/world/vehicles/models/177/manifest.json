@@ -1,0 +1,428 @@
+{
+  "id": 177,
+  "upstreamName": "MightyMover Cola Truck",
+  "familyId": "road-tank",
+  "transport": "road",
+  "cargo": "CT_COLA",
+  "climates": [
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 280
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/N-body.png",
+      "sha256": "772580a4a8da4f47b9ca9510760eca2371c64c1c15f6da344bbef05d9b1b641a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/N-body.png",
+          "sha256": "772580a4a8da4f47b9ca9510760eca2371c64c1c15f6da344bbef05d9b1b641a",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/N-body.png",
+          "sha256": "772580a4a8da4f47b9ca9510760eca2371c64c1c15f6da344bbef05d9b1b641a",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/N.png",
+          "sha256": "4d62b469fedee5a67785ea8819aaa5c25287c7561069a0b470e9747ebbe081fc",
+          "record": "assets/world/vehicles/families/road-tank/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/NE-body.png",
+      "sha256": "28d59c6b7ea73622cb11b33391e260b5ea3c7aae35d1f3de6f1f70c9efa220a4",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/NE-body.png",
+          "sha256": "28d59c6b7ea73622cb11b33391e260b5ea3c7aae35d1f3de6f1f70c9efa220a4",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/NE-body.png",
+          "sha256": "28d59c6b7ea73622cb11b33391e260b5ea3c7aae35d1f3de6f1f70c9efa220a4",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/NE.png",
+          "sha256": "f8b8568e627896577dd76f7eacd7f00c9d149f5f0b675738f6e8a6f923d3fdbc",
+          "record": "assets/world/vehicles/families/road-tank/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/E-body.png",
+      "sha256": "272a7c21e722f990b50979ffecd955c27e819c8f4277bc22252522f582825dca",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/E-body.png",
+          "sha256": "272a7c21e722f990b50979ffecd955c27e819c8f4277bc22252522f582825dca",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/E-body.png",
+          "sha256": "272a7c21e722f990b50979ffecd955c27e819c8f4277bc22252522f582825dca",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/E.png",
+          "sha256": "fb48ac2c3f287effd591575e50149aff7fcd04c4ad280b5cfd1674f834aa101f",
+          "record": "assets/world/vehicles/families/road-tank/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/SE-body.png",
+      "sha256": "5c4f4cfa99405ddf0b0ea6d12cae6444928e594dd43ee8a681a60158c7524533",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/SE-body.png",
+          "sha256": "5c4f4cfa99405ddf0b0ea6d12cae6444928e594dd43ee8a681a60158c7524533",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/SE-body.png",
+          "sha256": "5c4f4cfa99405ddf0b0ea6d12cae6444928e594dd43ee8a681a60158c7524533",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/SE.png",
+          "sha256": "6ac761c3708a0de1c049e35a9bedefd20e1083beb2bd078fa6dfe1f941ccffe6",
+          "record": "assets/world/vehicles/families/road-tank/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/S-body.png",
+      "sha256": "d26039a86608feafdd4c923dd289aa03da891ed480eced678b019e3293fdc65d",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/S-body.png",
+          "sha256": "d26039a86608feafdd4c923dd289aa03da891ed480eced678b019e3293fdc65d",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/S-body.png",
+          "sha256": "d26039a86608feafdd4c923dd289aa03da891ed480eced678b019e3293fdc65d",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/S.png",
+          "sha256": "00b2f9c62f3a8c60af4d03ec0353b20bbbd323b90d4911284996afccb7af5692",
+          "record": "assets/world/vehicles/families/road-tank/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/SW-body.png",
+      "sha256": "0e63cfd31aa1f04294589c54e2cceadb97d2728ba3648e0a31fa84c10303964f",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/SW-body.png",
+          "sha256": "0e63cfd31aa1f04294589c54e2cceadb97d2728ba3648e0a31fa84c10303964f",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/SW-body.png",
+          "sha256": "0e63cfd31aa1f04294589c54e2cceadb97d2728ba3648e0a31fa84c10303964f",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/SW.png",
+          "sha256": "f77f4fe5c25412eb8c24d5d80f57ea4b90174b9956da8e9d829b0240e3893eef",
+          "record": "assets/world/vehicles/families/road-tank/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/W-body.png",
+      "sha256": "24921bd79a2d8bfc86e2b81295c9cb62b91ce895519526c636c126c9489632ce",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/W-body.png",
+          "sha256": "24921bd79a2d8bfc86e2b81295c9cb62b91ce895519526c636c126c9489632ce",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/W-body.png",
+          "sha256": "24921bd79a2d8bfc86e2b81295c9cb62b91ce895519526c636c126c9489632ce",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/W.png",
+          "sha256": "fb0d1968df55f5be005ba91c65a2d227d283882ecd9c9eb0efa36bb45fafa6dd",
+          "record": "assets/world/vehicles/families/road-tank/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/177/NW-body.png",
+      "sha256": "60a79d43e91d6aa99b4af2965812d0d1fc5e492753d752764ef9b976c976786b",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/177/NW-body.png",
+          "sha256": "60a79d43e91d6aa99b4af2965812d0d1fc5e492753d752764ef9b976c976786b",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/177/NW-body.png",
+          "sha256": "60a79d43e91d6aa99b4af2965812d0d1fc5e492753d752764ef9b976c976786b",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 1.04,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-tank/NW.png",
+          "sha256": "c5cca4995323f9663f315599454c78060150c6e5f1c65b8f1e0991db23fb61ad",
+          "record": "assets/world/vehicles/families/road-tank/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/road-tank/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

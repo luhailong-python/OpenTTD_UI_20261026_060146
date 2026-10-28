@@ -1,0 +1,39 @@
+{
+  "id": "tree-18-dying-1",
+  "image": "assets/world/vegetation/states/tree-18/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "b0582aa10ace427f880dc6d4daa5726bd572cdd4ff8f5a564e36d565f619c7ed",
+  "climate": "arctic",
+  "artSpecies": "mountain-rowan",
+  "sourceTreeType": 18,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-18.png",
+      "sha256": "c681a17c19751ed54ff57a320de7116f0cbf137779e6e44dc5cc2a5711bf96cb",
+      "record": "assets/world/vegetation/mature/tree-18.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-18"
+  ]
+}

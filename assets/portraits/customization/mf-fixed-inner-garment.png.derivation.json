@@ -1,0 +1,111 @@
+{
+  "id": "mf-fixed-inner-garment",
+  "image": "assets/portraits/customization/mf-fixed-inner-garment.png",
+  "sha256": "f66c1091a32f5e22f0a1378c2e05d25c018ba9df10714a1b9efd55085b5172c3",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-fixed-inner",
+  "family": "fixed-inner",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/portraits/customization/mf-collar-00.png",
+      "sha256": "6439620e814fa4d9c5cfbf97be10a50c12273a9e26ad969772f5c746dae7f550",
+      "record": "assets/portraits/customization/mf-collar-00.png.derivation.json"
+    },
+    {
+      "file": "assets/portraits/customization/mf-robe-00.png",
+      "sha256": "bb3cff6073eb18171ba438937caff27db2178c1a0fea541013d977c1f62c9560",
+      "record": "assets/portraits/customization/mf-robe-00.png.derivation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:33:51.702061+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Actual white inner-collar plus copied native ivory front-panel textile, clipped to common neck/old-necklace ownership; fixed underwear beneath selectable collar; old robe clasp/pendant not copied",
+  "paintedBBoxPx": [
+    199,
+    326,
+    314,
+    494
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "neckOwnershipPolygonPx": [
+    [
+      200,
+      326
+    ],
+    [
+      312,
+      326
+    ],
+    [
+      313,
+      377
+    ],
+    [
+      291,
+      430
+    ],
+    [
+      282,
+      455
+    ],
+    [
+      282,
+      493
+    ],
+    [
+      230,
+      493
+    ],
+    [
+      230,
+      455
+    ],
+    [
+      221,
+      430
+    ],
+    [
+      199,
+      377
+    ]
+  ],
+  "ivoryPatchSourceCropPx": [
+    230,
+    455,
+    282,
+    490
+  ],
+  "ivoryPatchDestinationTopPx": [
+    420,
+    455,
+    490
+  ],
+  "ivoryPatchOperation": "same-size copies/crop, never enlargement or new painted detail"
+}

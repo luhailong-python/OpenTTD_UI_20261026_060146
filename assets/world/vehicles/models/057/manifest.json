@@ -1,0 +1,623 @@
+{
+  "id": 57,
+  "upstreamName": "Passenger Carriage",
+  "familyId": "wagon-passenger",
+  "transport": "train",
+  "cargo": "CT_PASSENGERS",
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic",
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 160
+  },
+  "trackHardware": "monorail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/N-body.png",
+      "sha256": "70becf75f579ca0a354d0f924a583ef965690419932586e20d098fa9a350548c",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/N-body.png",
+          "sha256": "70becf75f579ca0a354d0f924a583ef965690419932586e20d098fa9a350548c",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/N-body.png",
+          "sha256": "70becf75f579ca0a354d0f924a583ef965690419932586e20d098fa9a350548c",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/N.png",
+          "sha256": "7e8ff7f0c0326ec3a55b0325478d6fad886cc865aa8fc95cf8386c2c05ac9522",
+          "record": "assets/world/vehicles/families/wagon-passenger/N.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              187.38,
+              376.0
+            ],
+            [
+              324.62,
+              376.0
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/NE-body.png",
+      "sha256": "8c5288087c3cb706dfc484e2fb5e9f107dc2787908d93e660d833c44a4ac2711",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/NE-body.png",
+          "sha256": "8c5288087c3cb706dfc484e2fb5e9f107dc2787908d93e660d833c44a4ac2711",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/NE-body.png",
+          "sha256": "8c5288087c3cb706dfc484e2fb5e9f107dc2787908d93e660d833c44a4ac2711",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/NE.png",
+          "sha256": "afc7ffd76f4c4db3a83c49e625e4b8d7165df852261b7933b208d5e9ffab17c3",
+          "record": "assets/world/vehicles/families/wagon-passenger/NE.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              79.22,
+              375.52
+            ],
+            [
+              430.78,
+              243.92
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/E-body.png",
+      "sha256": "f642591e6810a9d007940a84a8a505079fad0694a8e3f30e4c9ab1d8f1bd9b3c",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/E-body.png",
+          "sha256": "f642591e6810a9d007940a84a8a505079fad0694a8e3f30e4c9ab1d8f1bd9b3c",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/E-body.png",
+          "sha256": "f642591e6810a9d007940a84a8a505079fad0694a8e3f30e4c9ab1d8f1bd9b3c",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/E.png",
+          "sha256": "511475d07fee29e93ea5802efa2335ef138818d0cd3fe01e04bf42c6dc2ad29e",
+          "record": "assets/world/vehicles/families/wagon-passenger/E.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              25.67,
+              306.2
+            ],
+            [
+              485.33,
+              306.2
+            ]
+          ],
+          "thickness": 31.640000000000004,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/SE-body.png",
+      "sha256": "2e67e5268eab0b678def2c64df710d198b8b4d96ccfb8a4f4fd0565047eca16e",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/SE-body.png",
+          "sha256": "2e67e5268eab0b678def2c64df710d198b8b4d96ccfb8a4f4fd0565047eca16e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/SE-body.png",
+          "sha256": "2e67e5268eab0b678def2c64df710d198b8b4d96ccfb8a4f4fd0565047eca16e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/SE.png",
+          "sha256": "c0ca0ab91100dc187512902aa8bd8f3faf63f72060c2eeb05b9e145645be6165",
+          "record": "assets/world/vehicles/families/wagon-passenger/SE.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              89.62,
+              242.28
+            ],
+            [
+              422.38,
+              376.68
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/S-body.png",
+      "sha256": "41dba278bfa54e274ab4a6edba5492cfc1b9a0cebd2fd7b4f07de87aca5aa75e",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/S-body.png",
+          "sha256": "41dba278bfa54e274ab4a6edba5492cfc1b9a0cebd2fd7b4f07de87aca5aa75e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/S-body.png",
+          "sha256": "41dba278bfa54e274ab4a6edba5492cfc1b9a0cebd2fd7b4f07de87aca5aa75e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/S.png",
+          "sha256": "7d9d67fa5b62b36c1a78e3c4489a2229c3b0cfae726e81966347a66c01d8fff3",
+          "record": "assets/world/vehicles/families/wagon-passenger/S.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              184.56,
+              376.2
+            ],
+            [
+              327.44,
+              376.2
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/SW-body.png",
+      "sha256": "3131a16d2bcbd745ab4928e2187e81f49488db29f6c9556035880b601bf985c2",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/SW-body.png",
+          "sha256": "3131a16d2bcbd745ab4928e2187e81f49488db29f6c9556035880b601bf985c2",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/SW-body.png",
+          "sha256": "3131a16d2bcbd745ab4928e2187e81f49488db29f6c9556035880b601bf985c2",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/SW.png",
+          "sha256": "7d9c0691eab019564f17d3ba113ddb710c21faa81430d8eb5edfeece54e3bffd",
+          "record": "assets/world/vehicles/families/wagon-passenger/SW.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              79.28,
+              376.8
+            ],
+            [
+              432.72,
+              242.79999999999998
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/W-body.png",
+      "sha256": "632b9a95fe42fbd45c7a53a44fc2015ea1f1b7dfc97844d918be51d2b27e02f9",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/W-body.png",
+          "sha256": "632b9a95fe42fbd45c7a53a44fc2015ea1f1b7dfc97844d918be51d2b27e02f9",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/W-body.png",
+          "sha256": "632b9a95fe42fbd45c7a53a44fc2015ea1f1b7dfc97844d918be51d2b27e02f9",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/W.png",
+          "sha256": "1ec0179eb7bfed39600a46990ee354a6a256566a0796601bc094c68f5bfb13a3",
+          "record": "assets/world/vehicles/families/wagon-passenger/W.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              25.7,
+              305.9
+            ],
+            [
+              486.3,
+              305.9
+            ]
+          ],
+          "thickness": 30.380000000000003,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/057/NW-body.png",
+      "sha256": "955ef227080fa99857ecc9c88e5f87cfff3872aaaa8fc3985e338d65b6665694",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/057/NW-body.png",
+          "sha256": "955ef227080fa99857ecc9c88e5f87cfff3872aaaa8fc3985e338d65b6665694",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/057/NW-body.png",
+          "sha256": "955ef227080fa99857ecc9c88e5f87cfff3872aaaa8fc3985e338d65b6665694",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 0.97,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/wagon-passenger/NW.png",
+          "sha256": "034741430b1b1b7397675cf2669477841073df1e12a5455339f0e237e83bb920",
+          "record": "assets/world/vehicles/families/wagon-passenger/NW.png.derivation.json"
+        },
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json",
+          "crop": [
+            45,
+            331,
+            441,
+            374
+          ],
+          "edge": [
+            [
+              102.84,
+              244.88
+            ],
+            [
+              411.16,
+              377.28000000000003
+            ]
+          ],
+          "thickness": 43,
+          "operation": "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained",
+        "single painted technology guide-bogie/skirt strip cropped without nose/cab; affine projection along each facing lower edge; conventional wheels masked below that edge; alpha composite, deterministic derivative"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/wagon-passenger/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

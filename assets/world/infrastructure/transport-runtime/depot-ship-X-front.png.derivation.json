@@ -1,0 +1,44 @@
+{
+  "id": "depot-ship-X-front",
+  "image": "assets/world/infrastructure/transport-runtime/depot-ship-X-front.png",
+  "sha256": "ba212f446e4b2182d64e477527c9dcdd676428e89f9bef1215496be209f1c4c1",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/depot-ship-X.png",
+      "sha256": "95565ebf001ee1d4929fe73cc29302caa90e721c4a47bb5ebadc21ab5ea09cfd",
+      "record": "assets/world/infrastructure/transport-runtime/depot-ship-X.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "depot-ship"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.622172+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

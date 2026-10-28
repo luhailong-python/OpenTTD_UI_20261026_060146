@@ -1,0 +1,75 @@
+{
+  "id": "lane-tunnel-monorail-SE-desert",
+  "image": "assets/world/infrastructure/transport-runtime/lane-tunnel-monorail-SE-desert.png",
+  "sha256": "874e052d2209c40df89b77e1535fba5d94b3922415dede11b18c6fa0a8a43c87",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+      "sha256": "3206bdbbd156f02e815e16d8db365a6cbfe5de927b3c22660b913584901daae2",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png.derivation.json"
+    }
+  ],
+  "operation": "Measured real portal approach quad -> actual central lane UV texture; no grass tile; interior darkening colour grade; no painted replacement strokes",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-monorail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:13.310118+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "desert",
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "targetQuadPx": [
+    [
+      262.04,
+      385.48
+    ],
+    [
+      307.96,
+      362.52
+    ],
+    [
+      415.96,
+      416.52
+    ],
+    [
+      370.04,
+      439.48
+    ]
+  ],
+  "offsetPx": [
+    0,
+    0
+  ],
+  "uvOrder": "near-left inner / far-left inner / far-right outer / near-right outer",
+  "uvDomain": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

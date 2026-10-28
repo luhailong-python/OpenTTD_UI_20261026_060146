@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-electric-SE-snow-rear",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-electric-SE-snow-rear.png",
+  "sha256": "861bc108aea70c8d37014ac90551aebef1bcd5ee3531ac2d56a2d0395fc14a1b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-snow.png",
+      "sha256": "4851c3e8de8fae005e9799d7a4b9cf6e50644602851abdc885526416d35e7cd7",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SE-snow.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-electric"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:11.794277+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

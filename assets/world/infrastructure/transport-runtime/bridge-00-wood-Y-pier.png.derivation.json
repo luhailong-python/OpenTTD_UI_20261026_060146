@@ -1,0 +1,44 @@
+{
+  "id": "bridge-00-wood-Y-pier",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-pier.png",
+  "sha256": "9b9e527629c9ae624a1bf24ee9b7c6996aef9c240fe72d03cf6d1ac52ecf2ab8",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-pier.png",
+      "sha256": "ceaea1fae2072713bc32ced692310389cc2869324ac6fe203181453dde3e8e99",
+      "record": "assets/world/infrastructure/transport/bridge-pier.png.derivation.json"
+    }
+  ],
+  "operation": "Shared native ivory pier proportional downscale and fixed contact placement",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-00-wood"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:19.082459+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "pier",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

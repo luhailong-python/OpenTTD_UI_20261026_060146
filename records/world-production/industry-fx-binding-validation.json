@@ -1,0 +1,988 @@
+{
+  "createdAt": "2026-10-28T10:47:00.755447+00:00",
+  "manifest": "assets/world/industries/manifest.json",
+  "manifestSHA256": "9162afcd7ac4f31af5ca9b845997dcd6b3c8eaa8c07c1a3c7c1cf041348ef3a6",
+  "scope": "source native eight-type set; exact parent RGBA and removal/swept mask meanings; all24 full-parent phase reassemblies; GIF decode/timing; original shared FX SHA",
+  "checks": [
+    {
+      "id": "eight-native-industry-animation-types",
+      "passed": true
+    },
+    {
+      "id": "two-attached-particle-draw-paths",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.parent-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.clean-RGB-preserved",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.only-declared-pose-alpha-removed",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.native-pose-removal-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.separate-mask-semantics",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.mask-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.no-duplicate-parent",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.fixed-parent-canvas",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.parent-and-generic-requirements",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.twelve-active-phase-frames",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.unchanged-native-parent",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.0.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.0.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.0.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.0.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.0.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.1.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.1.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.1.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.1.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.1.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.2.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.2.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.2.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.2.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.2.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.3.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.3.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.3.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.3.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.3.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.4.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.4.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.4.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.4.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.4.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.5.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.5.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.5.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.5.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.5.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.6.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.6.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.6.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.6.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.6.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.7.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.7.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.7.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.7.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.7.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.8.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.8.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.8.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.8.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.8.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.9.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.9.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.9.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.9.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.9.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.10.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.10.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.10.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.10.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.10.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.11.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.11.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.11.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.11.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.11.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.affected-mask-exact",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.GIF-decoding",
+      "passed": true
+    },
+    {
+      "id": "industry-coal-plant-sparks.source-inactive-state",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.parent-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.clean-RGB-preserved",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.only-declared-pose-alpha-removed",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.native-pose-removal-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.separate-mask-semantics",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.mask-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.no-duplicate-parent",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.fixed-parent-canvas",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.parent-and-generic-requirements",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.twelve-active-phase-frames",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.three-baked-bubble-centres-cleared",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.float-rises-continuously",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.0.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.0.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.0.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.0.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.0.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.1.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.1.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.1.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.1.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.1.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.2.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.2.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.2.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.2.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.2.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.3.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.3.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.3.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.3.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.3.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.4.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.4.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.4.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.4.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.4.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.5.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.5.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.5.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.5.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.5.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.6.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.6.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.6.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.6.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.6.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.7.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.7.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.7.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.7.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.7.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.8.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.8.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.8.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.8.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.8.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.9.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.9.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.9.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.9.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.9.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.10.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.10.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.10.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.10.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.10.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.11.exact-installed-assembly",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.11.fixed-RGBA-outside-particle",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.11.fixed-foundation",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.11.formal-PNG-contract",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.11.shared-source-sha",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.affected-mask-exact",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.GIF-decoding",
+      "passed": true
+    },
+    {
+      "id": "industry-bubble-generator-cycle.source-inactive-state",
+      "passed": true
+    }
+  ],
+  "passed": 151,
+  "failures": [],
+  "formalSpritePNGsAdded": 26,
+  "newBindings": [
+    {
+      "animationId": "industry-coal-plant-sparks",
+      "bindingKind": "shared-particle-lifetime",
+      "parentArtId": "industry-01-power-station",
+      "parentImage": "assets/world/industries/power-station.png",
+      "parentSha256": "360e587bb06897327cf1a21fb0280175acc9cbc86e99a24116b319129c555ae3",
+      "cleanBaseArtId": "industry-coal-plant-sparks-clean-base",
+      "cleanBaseImage": "assets/world/industries/bindings/coal-plant-sparks/clean-base.png",
+      "ownershipMask": "assets/world/industries/bindings/coal-plant-sparks/ownership-mask.png",
+      "ownershipMaskSha256": "644cf7b989f0958aeb5f102e319993c49b48429720b75799db6b416ffb9838df",
+      "removedPoseMask": "assets/world/industries/bindings/coal-plant-sparks/removed-pose-mask.png",
+      "removedPoseMaskSha256": "9bd3328ec2134686ac7ed072c42335bafefe086b6c493edb27c6890fac1b0d2a",
+      "ownershipMaskMeaning": "all affected pixels: native-pose Alpha removal plus swept overlay occupancy; clean-base deletion uses only separate removedPoseMask",
+      "bakedParticleRemoval": false,
+      "frameCanvasPx": [
+        512,
+        512
+      ],
+      "frameCoordinateSpace": "complete parent compound pixels; offset zero",
+      "attachmentOffsetPx": [
+        0,
+        0
+      ],
+      "attachmentScale": 1.0,
+      "parentAnchorPx": [
+        256,
+        448
+      ],
+      "movingMechanismPivotPx": [
+        256,
+        448
+      ],
+      "layerOrder": [
+        "cleanBase",
+        "movingParticle"
+      ],
+      "mustReplaceParentStaticArt": true,
+      "drawParentOriginalSimultaneously": false,
+      "sourceEvidence": [
+        "src/industry_cmd.cpp:309-320",
+        "src/table/sprites.h:1315"
+      ],
+      "sourceStateMap": {
+        "0": "no overlay",
+        "1..6": "electric-spark source keys0..5",
+        "7+": "no overlay"
+      },
+      "description": "actual shared electric-spark paintings downsampled at the visible right-hand copper transformer; active pulse only, source inactive state draws no overlay",
+      "nativePoseGenerationClaim": false,
+      "nativeFrameCount": 0,
+      "assemblyPreviewGIF": "previews/world/industry-assembly/coal-plant-sparks.gif",
+      "assemblyPreviewFrames": [
+        "previews/world/industry-assembly/coal-plant-sparks/00.png",
+        "previews/world/industry-assembly/coal-plant-sparks/01.png",
+        "previews/world/industry-assembly/coal-plant-sparks/02.png",
+        "previews/world/industry-assembly/coal-plant-sparks/03.png",
+        "previews/world/industry-assembly/coal-plant-sparks/04.png",
+        "previews/world/industry-assembly/coal-plant-sparks/05.png",
+        "previews/world/industry-assembly/coal-plant-sparks/06.png",
+        "previews/world/industry-assembly/coal-plant-sparks/07.png",
+        "previews/world/industry-assembly/coal-plant-sparks/08.png",
+        "previews/world/industry-assembly/coal-plant-sparks/09.png",
+        "previews/world/industry-assembly/coal-plant-sparks/10.png",
+        "previews/world/industry-assembly/coal-plant-sparks/11.png"
+      ],
+      "assemblyContactSheet": "previews/world/industry-assembly/coal-plant-sparks-phases.jpg",
+      "parametersByFrame": [
+        {
+          "frame": 0,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/00.png"
+        },
+        {
+          "frame": 1,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/01.png"
+        },
+        {
+          "frame": 2,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/02.png"
+        },
+        {
+          "frame": 3,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/03.png"
+        },
+        {
+          "frame": 4,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/04.png"
+        },
+        {
+          "frame": 5,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/05.png"
+        },
+        {
+          "frame": 6,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/04.png"
+        },
+        {
+          "frame": 7,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/03.png"
+        },
+        {
+          "frame": 8,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/02.png"
+        },
+        {
+          "frame": 9,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/01.png"
+        },
+        {
+          "frame": 10,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/00.png"
+        },
+        {
+          "frame": 11,
+          "phase": "active-spark",
+          "particleOriginPx": [
+            389,
+            292
+          ],
+          "sharedFXSource": "assets/world/effects/electric-spark/01.png"
+        }
+      ],
+      "status": "passed-local-installed-visual-review",
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "sourceMachineryType": "power-sparks"
+    },
+    {
+      "animationId": "industry-bubble-generator-cycle",
+      "bindingKind": "shared-particle-lifetime",
+      "parentArtId": "industry-34-bubble-generator",
+      "parentImage": "assets/world/industries/bubble-generator.png",
+      "parentSha256": "ce2b63a7e1dd11d452150f8fe2c7df9e961b350d2c4fe576b7d4bcb52e60e18a",
+      "cleanBaseArtId": "industry-bubble-generator-cycle-clean-base",
+      "cleanBaseImage": "assets/world/industries/bindings/bubble-generator-cycle/clean-base.png",
+      "ownershipMask": "assets/world/industries/bindings/bubble-generator-cycle/ownership-mask.png",
+      "ownershipMaskSha256": "7f72c9ec79db885746626703e1a33969ddecf2fe7605048a9e1dec6b90a909fb",
+      "removedPoseMask": "assets/world/industries/bindings/bubble-generator-cycle/removed-pose-mask.png",
+      "removedPoseMaskSha256": "326217fa66d34fbfebb6c02e7f25c836e1825993c3e573658d5720895a7a7ae7",
+      "ownershipMaskMeaning": "all affected pixels: native-pose Alpha removal plus swept overlay occupancy; clean-base deletion uses only separate removedPoseMask",
+      "bakedParticleRemoval": true,
+      "frameCanvasPx": [
+        512,
+        512
+      ],
+      "frameCoordinateSpace": "complete parent compound pixels; offset zero",
+      "attachmentOffsetPx": [
+        0,
+        0
+      ],
+      "attachmentScale": 1.0,
+      "parentAnchorPx": [
+        256,
+        448
+      ],
+      "movingMechanismPivotPx": [
+        256,
+        448
+      ],
+      "layerOrder": [
+        "cleanBase",
+        "movingParticle"
+      ],
+      "mustReplaceParentStaticArt": true,
+      "drawParentOriginalSimultaneously": false,
+      "sourceEvidence": [
+        "src/industry_cmd.cpp:285-290",
+        "src/table/sprites.h:1309-1310"
+      ],
+      "sourceStateMap": {
+        "uncompleted": "no emitted particle; vessel remains static",
+        "completed source draw frame": "spawned bubble height uses source animation offset; exact game tick adapter pending",
+        "EV_BUBBLE": "shared lifetime generation, float, burst phases; not new native frames"
+      },
+      "description": "three baked floating bubble silhouettes removed from parent Alpha; existing shared bubble generation/float/burst paintings emit above the actual vessel rim, rise and burst; small fixed foam in vessel stays static",
+      "nativePoseGenerationClaim": false,
+      "nativeFrameCount": 0,
+      "assemblyPreviewGIF": "previews/world/industry-assembly/bubble-generator-cycle.gif",
+      "assemblyPreviewFrames": [
+        "previews/world/industry-assembly/bubble-generator-cycle/00.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/01.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/02.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/03.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/04.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/05.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/06.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/07.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/08.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/09.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/10.png",
+        "previews/world/industry-assembly/bubble-generator-cycle/11.png"
+      ],
+      "assemblyContactSheet": "previews/world/industry-assembly/bubble-generator-cycle-phases.jpg",
+      "parametersByFrame": [
+        {
+          "frame": 0,
+          "phase": "generation",
+          "particleOriginPx": [
+            262,
+            174
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-generation/00.png"
+        },
+        {
+          "frame": 1,
+          "phase": "generation",
+          "particleOriginPx": [
+            262,
+            172
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-generation/01.png"
+        },
+        {
+          "frame": 2,
+          "phase": "generation",
+          "particleOriginPx": [
+            262,
+            170
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-generation/02.png"
+        },
+        {
+          "frame": 3,
+          "phase": "generation",
+          "particleOriginPx": [
+            262,
+            168
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-generation/03.png"
+        },
+        {
+          "frame": 4,
+          "phase": "float",
+          "particleOriginPx": [
+            266,
+            160
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-float/00.png"
+        },
+        {
+          "frame": 5,
+          "phase": "float",
+          "particleOriginPx": [
+            271,
+            149
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-float/01.png"
+        },
+        {
+          "frame": 6,
+          "phase": "float",
+          "particleOriginPx": [
+            276,
+            138
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-float/02.png"
+        },
+        {
+          "frame": 7,
+          "phase": "float",
+          "particleOriginPx": [
+            281,
+            127
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-float/01.png"
+        },
+        {
+          "frame": 8,
+          "phase": "burst",
+          "particleOriginPx": [
+            283,
+            116
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-burst/00.png"
+        },
+        {
+          "frame": 9,
+          "phase": "burst",
+          "particleOriginPx": [
+            283,
+            116
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-burst/01.png"
+        },
+        {
+          "frame": 10,
+          "phase": "burst",
+          "particleOriginPx": [
+            283,
+            116
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-burst/02.png"
+        },
+        {
+          "frame": 11,
+          "phase": "burst",
+          "particleOriginPx": [
+            283,
+            116
+          ],
+          "sharedFXSource": "assets/world/effects/bubble-burst/03.png"
+        }
+      ],
+      "status": "passed-local-installed-visual-review",
+      "userArtAcceptance": "pending",
+      "unityValidated": false,
+      "sourceMachineryType": "bubble-generator"
+    }
+  ],
+  "visualReview": "passed-local: all24 installed phases and baked-bubble removal comparison inspected; current hashes match",
+  "animationPlaybackObservation": "no connected browser surface available; all12 phase pixels per binding viewed separately, GIF12-frame decode/timing checked",
+  "nativePaintingCountAdded": 0,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "visualReviewRecord": {
+    "file": "records/world-production/industry-fx-visual-review.json",
+    "sha256": "121ed39fffdaa909f21d70a3b3bc64b96932cf29e8e7cfca96466125385cd71b"
+  }
+}

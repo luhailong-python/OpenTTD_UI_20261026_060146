@@ -1,0 +1,69 @@
+{
+  "id": "mf-style-0-bearded-lowerface-0",
+  "image": "assets/portraits/customization/mf-style-0-bearded-lowerface-0.png",
+  "sha256": "554a767ec9621e3740d2913689dc23db8ae24db7670bd6cdfe0db3392a36cf82",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-beard-ensemble",
+  "family": "beard-ensemble",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/portraits/customization/mf-mouth-00.png",
+      "sha256": "56281c836a1bd4c682a19ab9f45aa5b08e5afbd06a9b0f0a300d1650aacc0b8a",
+      "record": "assets/portraits/customization/mf-mouth-00.png.derivation.json"
+    },
+    {
+      "file": "assets/portraits/customization/mf-style-0-nose-00.png",
+      "sha256": "8905f7f4f01798a601acce43db27093f40b6bd86aa1bca32875e7b65c2d08277",
+      "record": "assets/portraits/customization/mf-style-0-nose-00.png.derivation.json"
+    },
+    {
+      "file": "assets/portraits/customization/mf-beard-00.png",
+      "sha256": "5f1f07977caf258c749dfa7ece1ac84156dfc782ba06bbf2c1f94421a64ef962",
+      "record": "assets/portraits/customization/mf-beard-00.png.derivation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:34:02.376910+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Actual fixed nose and mouth plus real beard mother part; independent source beard ensemble replaces suppressed nose/lips variables",
+  "paintedBBoxPx": [
+    181,
+    248,
+    330,
+    378
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "sourceStyle": 0,
+  "includedFixedPartIds": [
+    "mf-mouth-00",
+    "mf-style-0-nose-00",
+    "mf-beard-00"
+  ],
+  "independentNoseMouthVariablesHidden": true
+}

@@ -1,0 +1,71 @@
+{
+  "id": "airport-tile-02-apron-fence-sw",
+  "image": "assets/world/infrastructure/airports/airport-tile-02-apron-fence-sw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "67bb4ac964534779a463fa3d3cfbc3ed7ab3ac5199bdcc7aeb935086fabf7467",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-sw.png",
+      "sha256": "dfd1181689158396ccc48b724b81e424c34dbbb3001f6897a26fce68c5e08357",
+      "record": "assets/world/infrastructure/airports/airport-fence-sw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 2,
+  "sourceTileEnum": "APT_APRON_FENCE_SW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_fence_sw) // APT_APRON_FENCE_SW",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-sw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-commuter",
+    "airport-intercontinental",
+    "airport-international",
+    "airport-metropolitan",
+    "airport-tile-02-apron-fence-sw"
+  ]
+}

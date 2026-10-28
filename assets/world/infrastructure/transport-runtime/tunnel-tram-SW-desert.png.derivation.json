@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-tram-SW-desert",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-tram-SW-desert.png",
+  "sha256": "6ff9d85e68122768dba3f33bcd5ccf792eed6c026e997a8f755b9f9fb4b7d7fd",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-desert.png",
+      "sha256": "d1c871b5030c10c8e0b8a4e1cf81bc8e35b14b9e4f60d596a315441084136586",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-desert.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-tram-SW-desert.png",
+      "sha256": "6052e4a43cb9e8a83bbfd44f116f310eab1da19d0235af3e85d84ddc8a303a2e",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-tram-SW-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-tram"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:17.954577+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "climate": "desert",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "file": "source-art/cargo-icons.png",
+  "sha256": "4b9419bb9fa1e5878cca905126f886a5ab1ca1cc9a823ec88a2adcddaaee2197",
+  "generatedAt": "2026-10-26T10:16:35.217949+00:00",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolResultId": null,
+  "outputFileId": "55d629d7-50a0-40b8-9116-e78d175f4c2f",
+  "generatedAtEvidence": "本地生成输出PNG的文件落盘时间，UTC；工具未返回服务端生成时间。",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept / transport game cargo inventory icons. Attached images are strict STYLE reference only. Create a 6x6 evenly spaced atlas of 36 separate icons on genuine transparent alpha, high native resolution, desired 2048 square. Each icon must fit comfortably INSIDE its own cell with at least 15% padding so adjacent icons cannot touch. No checkerboard, no background, no tile borders, no labels, NO text or numbers. All fine hand-painted rounded chibi Chinese jade/cream/warm brass art like references, beautiful restrained material detail, easily readable 64px. Do not include UI panels or buttons.\nExactly these subjects in row reading order:\nrow1: two tiny chibi travelers with luggage (passengers); sealed mailbag with small envelope; pile of black coal; oil barrel; chubby brown cattle; wooden crate of finished goods.\nrow2: sack of golden grain; tied stack of timber logs; rusty iron ore rocks; stack of steel bars; small jewelry chest with coins (valuables); stack of rolled white paper.\nrow3: basket of bread and vegetables (food); crate of oranges and bananas (fruit); copper ore; wooden water barrel with blue drop; rubber bales; sack of white sugar.\nrow4: colorful wooden toy blocks; two cream-green batteries; wrapped colored sweets; caramel toffee pieces; glass cola bottle; pink cotton candy puff.\nrow5: iridescent soap bubbles; colored plastic pellets; fizzy drink bottles; gold ingots; blue diamond gems; sack of wheat seeds.\nrow6: simple cream passenger carriage; coal freight wagon; jade mail van; jade electric locomotive; small white steamship; twin-propeller cream jade aeroplane.\nAll exactly36 complete silhouettes, no cropped objects. Taoist details tiny decorative jade knots only, objects still represent cargo truthfully. Premium clean handpainting with warm subtle shadow only within each silhouette.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint_path": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a7-6d36-72f1-8ac7-6c557c4ea2e3\\exec-55d629d7-50a0-40b8-9116-e78d175f4c2f.png",
+    "nativeSizeFromSavedPNG": [
+      1254,
+      1254
+    ]
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际模型版本或质量；配置目标不是实际返回证明。",
+  "prompt": "Use case: stylized-concept / transport game cargo inventory icons. Attached images are strict STYLE reference only. Create a 6x6 evenly spaced atlas of 36 separate icons on genuine transparent alpha, high native resolution, desired 2048 square. Each icon must fit comfortably INSIDE its own cell with at least 15% padding so adjacent icons cannot touch. No checkerboard, no background, no tile borders, no labels, NO text or numbers. All fine hand-painted rounded chibi Chinese jade/cream/warm brass art like references, beautiful restrained material detail, easily readable 64px. Do not include UI panels or buttons.\nExactly these subjects in row reading order:\nrow1: two tiny chibi travelers with luggage (passengers); sealed mailbag with small envelope; pile of black coal; oil barrel; chubby brown cattle; wooden crate of finished goods.\nrow2: sack of golden grain; tied stack of timber logs; rusty iron ore rocks; stack of steel bars; small jewelry chest with coins (valuables); stack of rolled white paper.\nrow3: basket of bread and vegetables (food); crate of oranges and bananas (fruit); copper ore; wooden water barrel with blue drop; rubber bales; sack of white sugar.\nrow4: colorful wooden toy blocks; two cream-green batteries; wrapped colored sweets; caramel toffee pieces; glass cola bottle; pink cotton candy puff.\nrow5: iridescent soap bubbles; colored plastic pellets; fizzy drink bottles; gold ingots; blue diamond gems; sack of wheat seeds.\nrow6: simple cream passenger carriage; coal freight wagon; jade mail van; jade electric locomotive; small white steamship; twin-propeller cream jade aeroplane.\nAll exactly36 complete silhouettes, no cropped objects. Taoist details tiny decorative jade knots only, objects still represent cargo truthfully. Premium clean handpainting with warm subtle shadow only within each silhouette.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "首要手绘风格参考；未复制其业务文案"
+    }
+  ],
+  "promptFile": "records/05-cargo-icons.prompt.txt"
+}

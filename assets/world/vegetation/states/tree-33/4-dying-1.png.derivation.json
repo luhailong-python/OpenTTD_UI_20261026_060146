@@ -1,0 +1,39 @@
+{
+  "id": "tree-33-dying-1",
+  "image": "assets/world/vegetation/states/tree-33/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "23030ac90e4ce4ede35b1dc23e8458568a6ed07e2aac31f114fed86d3406b09f",
+  "climate": "toyland",
+  "artSpecies": "candy-cane",
+  "sourceTreeType": 33,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-33.png",
+      "sha256": "708639d1db6896cd55735153d0a543c494e5effe2ecce8a6cbaffff5f5508a35",
+      "record": "assets/world/vegetation/mature/tree-33.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-33"
+  ]
+}

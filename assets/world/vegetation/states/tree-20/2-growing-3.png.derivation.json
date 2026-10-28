@@ -1,0 +1,39 @@
+{
+  "id": "tree-20-growing-3",
+  "image": "assets/world/vegetation/states/tree-20/2-growing-3.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "fcb1da6b953842f72cc4b7890de05dda3387aadbf5cb5c93239458156aaad9fc",
+  "climate": "tropical",
+  "artSpecies": "coconut-palm",
+  "sourceTreeType": 20,
+  "sourceGrowthStage": 2,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-20.png",
+      "sha256": "e460d513fbd1458659dd3eaaf251780e3c4cebcb21e30e81f548551e3d26f3a1",
+      "record": "assets/world/vegetation/mature/tree-20.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.76,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-20"
+  ]
+}

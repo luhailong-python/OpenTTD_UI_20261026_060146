@@ -1,0 +1,39 @@
+{
+  "id": "tree-08-growing-2",
+  "image": "assets/world/vegetation/states/tree-08/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "1a0b427980693b62e84fc85ad2fdb7ae4d9c3d8d23ccced706bd2b395f2b9061",
+  "climate": "temperate",
+  "artSpecies": "willow",
+  "sourceTreeType": 8,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-08.png",
+      "sha256": "a14e1d36a69d1316d7fec5143e28cdcd3660c51b2aa15a5da57228971342641e",
+      "record": "assets/world/vegetation/mature/tree-08.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-08"
+  ]
+}

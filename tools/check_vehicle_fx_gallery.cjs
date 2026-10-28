@@ -1,0 +1,23 @@
+const {chromium}=require('C:/Users/luyua/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path');
+(async()=>{
+ const root=path.resolve(__dirname,'..'),checks=[],errors=[],failed=[];
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',args:['--no-first-run']});
+ const page=await browser.newPage({viewport:{width:1920,height:1080}});page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>failed.push(r.url()));
+ await page.goto('file:///'+path.join(root,'previews/vehicles/index.html').replaceAll('\\','/'),{waitUntil:'networkidle'});
+ checks.push({id:'256cards',passed:await page.locator('#cards article').count()===256});
+ checks.push({id:'27familyOptions',passed:await page.locator('#family option').count()===28});
+ checks.push({id:'8directions',passed:await page.locator('#direction option').count()===8});
+ await page.locator('#family').selectOption('wagon-hopper');await page.locator('#state').selectOption('loaded');await page.locator('#direction').selectOption('NE');
+ await page.waitForFunction(()=>[...document.querySelectorAll('#cards img')].slice(0,4).every(i=>i.complete&&i.naturalWidth===512));
+ checks.push({id:'loadedHopperPNG',passed:(await page.locator('#cards img').first().getAttribute('src')).includes('NE-loaded.png')});
+ await page.screenshot({path:path.join(root,'records/vehicle-gallery-desktop.png'),fullPage:false});
+ await page.locator('#family').selectOption('air-helicopter');await page.locator('#direction').selectOption('NW');
+ await page.waitForFunction(()=>[...document.querySelectorAll('#cards img')].every(i=>i.complete&&i.naturalWidth===512));
+ checks.push({id:'threeHelicopterModels',passed:await page.locator('#cards article').count()===3});
+ checks.push({id:'switchRealFacing',passed:(await page.locator('#cards img').first().getAttribute('src')).includes('NW-body.png')});
+ await page.locator('#turn').click();await page.waitForTimeout(950);checks.push({id:'automaticFacingsInspection',passed:(await page.locator('#direction').inputValue())!=='NW'});await page.locator('#turn').click();
+ const clips=await page.locator('#effects img').evaluateAll(es=>es.map(e=>e.getAttribute('src')));checks.push({id:'allEffectGIFReferencesExist',passed:clips.every(p=>fs.existsSync(path.resolve(root,'previews/vehicles',p))),count:clips.length});
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(root,'records/vehicle-gallery-mobile.png'),fullPage:false});checks.push({id:'390pxNoHorizontalOverflow',passed:await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)});
+ await browser.close();const result={time:new Date().toISOString(),scope:'offline art inspection gallery, no Unity or game simulation',checks,pageErrors:errors,failedRequests:failed,passed:checks.every(c=>c.passed)&&!errors.length&&!failed.length};fs.writeFileSync(path.join(root,'records/vehicle-fx-browser-validation.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+})().catch(e=>{console.error(e);process.exit(1)});

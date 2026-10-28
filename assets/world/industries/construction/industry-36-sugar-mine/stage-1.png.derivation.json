@@ -1,0 +1,51 @@
+{
+  "id": "industry-36-sugar-mine-construction-1",
+  "image": "assets/world/industries/construction/industry-36-sugar-mine/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "b115caedd20d9d799cf7d811af8254a75292270f925c8b79e5e0f27f2fe99a67",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/sugar-mine.png",
+      "sha256": "5e26440d9b1722a99431bd6ca93ac4d664386656a99bfee4dc9d3eba56fa65be",
+      "record": "assets/world/industries/sugar-mine.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 36,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-36-sugar-mine",
+    "industry-tile-167",
+    "industry-tile-168",
+    "industry-tile-169",
+    "industry-tile-170",
+    "industry-tile-171",
+    "industry-tile-172",
+    "industry-tile-173",
+    "industry-tile-174"
+  ]
+}

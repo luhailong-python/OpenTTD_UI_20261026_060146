@@ -1,0 +1,54 @@
+{
+  "id": "airport-tile-72-apron-half-west",
+  "image": "assets/world/infrastructure/airports/airport-tile-72-apron-half-west.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "ec69b054334e0be74d50076b52a3fb11032e061202e1f7b2dc11a0f1154d23f8",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-half-east.png",
+      "sha256": "eb0812091d2ae11a2869a35c60f5720a62a947387cfd2f026c284594aa47c416",
+      "record": "assets/world/infrastructure/airports/airport-ground-half-east.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 72,
+  "sourceTileEnum": "APT_APRON_HALF_WEST",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_grass_east) // APT_APRON_HALF_WEST",
+  "layers": [
+    {
+      "artId": "airport-ground-half-east",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-intercontinental",
+    "airport-tile-72-apron-half-west"
+  ]
+}

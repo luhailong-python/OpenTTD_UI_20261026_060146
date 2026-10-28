@@ -1,0 +1,49 @@
+{
+  "id": "bridge-wood-span",
+  "image": "assets/world/infrastructure/transport/bridge-wood-span.png",
+  "sha256": "13938698f517c84fb0f320583d8d4e4afba023f08184f1bdfc53398921db4363",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-modules.png",
+      "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+      "record": "source-art/world/bridge-modules.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    52,
+    11,
+    566,
+    361
+  ],
+  "scaleApplied": 0.7470817120622568,
+  "sourceAtlas": "bridge-modules",
+  "sourceComponent": 3,
+  "contentSize": [
+    384,
+    261
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

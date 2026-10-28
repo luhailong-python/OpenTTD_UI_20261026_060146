@@ -1,0 +1,907 @@
+{
+  "id": "field-stage-5-slope-steep-w",
+  "image": "assets/world/terrain/field-stages/field-stage-5-slope-steep-w.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    160
+  ],
+  "pivotUnity": [
+    0.5,
+    0.375
+  ],
+  "sha256": "4fc7593c81953db32ce4a4da556fa47ca7e9336bdb7e5ca980de3e4c2c485b68",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/field-stages/field-soil-slope-steep-w.png",
+      "sha256": "2d41d5a98d34b2b21b39e77d10d67ff6357e9f97e2a06f6d095c556605329581",
+      "record": "assets/world/terrain/field-stages/field-soil-slope-steep-w.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "sha256": "07f9225c23c5dafdd4ec88bee5571b19a69d6b56381945ee46f8dcac21015b7c",
+      "record": "assets/world/terrain/field-stages/field-primitive-green-grain.png.derivation.json"
+    }
+  ],
+  "operation": "source crop stage with projected native furrow soil and upright native plant/hay sprites at exact piecewise slope-root heights; no new native painting",
+  "category": "field-stage",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "sourceFieldType": 5,
+  "fieldStageName": "full-green-grain",
+  "slopeCode": 27,
+  "placements": [
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.14,
+        0.14
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        128.0,
+        81.92
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        117,
+        61
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.14,
+        0.28400000000000003
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        146.43200000000002,
+        95.744
+      ],
+      "rootHeightUnits": 0.856,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        136,
+        75
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.28400000000000003,
+        0.14
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        109.568,
+        86.52799999999999
+      ],
+      "rootHeightUnits": 1.1440000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        99,
+        66
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.14,
+        0.428
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        164.864,
+        109.568
+      ],
+      "rootHeightUnits": 0.7120000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        154,
+        89
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.28400000000000003,
+        0.28400000000000003
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        128.0,
+        100.352
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        117,
+        80
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.428,
+        0.14
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        91.136,
+        91.13600000000001
+      ],
+      "rootHeightUnits": 1.2879999999999998,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        80,
+        70
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.28400000000000003,
+        0.428
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        146.432,
+        114.17599999999999
+      ],
+      "rootHeightUnits": 0.8560000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        136,
+        93
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.428,
+        0.28400000000000003
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        109.56800000000001,
+        104.95999999999998
+      ],
+      "rootHeightUnits": 1.144,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        99,
+        84
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.14,
+        0.5720000000000001
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        183.296,
+        123.39200000000001
+      ],
+      "rootHeightUnits": 0.568,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        173,
+        103
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.5720000000000001,
+        0.14
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        72.704,
+        95.74400000000001
+      ],
+      "rootHeightUnits": 1.432,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        62,
+        75
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.14,
+        0.716
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        201.728,
+        137.21599999999998
+      ],
+      "rootHeightUnits": 0.42400000000000004,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        191,
+        116
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.428,
+        0.428
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        128.0,
+        118.78399999999999
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        117,
+        98
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.716,
+        0.14
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        54.272000000000006,
+        100.35199999999999
+      ],
+      "rootHeightUnits": 1.576,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        44,
+        80
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.28400000000000003,
+        0.5720000000000001
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        164.864,
+        128.0
+      ],
+      "rootHeightUnits": 0.712,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        154,
+        107
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.5720000000000001,
+        0.28400000000000003
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        91.136,
+        109.56799999999998
+      ],
+      "rootHeightUnits": 1.288,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        80,
+        89
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.14,
+        0.86
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        220.16,
+        151.04
+      ],
+      "rootHeightUnits": 0.28,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        209,
+        130
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.28400000000000003,
+        0.716
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        183.296,
+        141.824
+      ],
+      "rootHeightUnits": 0.5680000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        173,
+        121
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.428,
+        0.5720000000000001
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        146.43200000000002,
+        132.608
+      ],
+      "rootHeightUnits": 0.8559999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        136,
+        112
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.5720000000000001,
+        0.428
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        109.56799999999998,
+        123.392
+      ],
+      "rootHeightUnits": 1.1440000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        99,
+        103
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.716,
+        0.28400000000000003
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        72.70400000000001,
+        114.176
+      ],
+      "rootHeightUnits": 1.432,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        62,
+        93
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.86,
+        0.14
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        35.84,
+        104.96000000000001
+      ],
+      "rootHeightUnits": 1.72,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        25,
+        84
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.428,
+        0.716
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        164.864,
+        146.43200000000002
+      ],
+      "rootHeightUnits": 0.712,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        154,
+        126
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.716,
+        0.428
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        91.136,
+        128.0
+      ],
+      "rootHeightUnits": 1.2879999999999998,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        80,
+        107
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.28400000000000003,
+        0.86
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        201.728,
+        155.648
+      ],
+      "rootHeightUnits": 0.42400000000000004,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        191,
+        135
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.5720000000000001,
+        0.5720000000000001
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        128.0,
+        137.216
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        117,
+        116
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.86,
+        0.28400000000000003
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        54.272000000000006,
+        118.784
+      ],
+      "rootHeightUnits": 1.576,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        44,
+        98
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.428,
+        0.86
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        183.296,
+        160.25600000000003
+      ],
+      "rootHeightUnits": 0.568,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        173,
+        139
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.5720000000000001,
+        0.716
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        146.432,
+        151.04000000000002
+      ],
+      "rootHeightUnits": 0.8560000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        136,
+        130
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.716,
+        0.5720000000000001
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        109.56800000000001,
+        141.824
+      ],
+      "rootHeightUnits": 1.144,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        99,
+        121
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.86,
+        0.428
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        72.70400000000001,
+        132.608
+      ],
+      "rootHeightUnits": 1.432,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        62,
+        112
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.5720000000000001,
+        0.86
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        164.86399999999998,
+        164.864
+      ],
+      "rootHeightUnits": 0.7120000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        154,
+        144
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.716,
+        0.716
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        128.0,
+        155.648
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        117,
+        135
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.86,
+        0.5720000000000001
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        91.13600000000001,
+        146.43200000000002
+      ],
+      "rootHeightUnits": 1.2879999999999998,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        80,
+        126
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.716,
+        0.86
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        146.43200000000002,
+        169.472
+      ],
+      "rootHeightUnits": 0.856,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        136,
+        149
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.86,
+        0.716
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        109.568,
+        160.256
+      ],
+      "rootHeightUnits": 1.1440000000000001,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        99,
+        139
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "green-grain",
+      "uv": [
+        0.86,
+        0.86
+      ],
+      "heightPx": 21,
+      "rootPx": [
+        128.0,
+        174.07999999999998
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-green-grain.png",
+      "scale": 0.03860294117647059,
+      "offsetPx": [
+        117,
+        153
+      ],
+      "renderSizePx": [
+        20,
+        21
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    }
+  ]
+}

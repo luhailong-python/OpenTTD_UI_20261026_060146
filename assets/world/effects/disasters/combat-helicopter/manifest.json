@@ -1,0 +1,56 @@
+{
+  "id": "disasters/combat-helicopter",
+  "frames": [
+    {
+      "file": "assets/world/effects/disasters/combat-helicopter/00.png",
+      "sha256": "ab12ca8862710843f13fe0ad6329ca1f5783fc3aad2fd510303d2d4a0ebb9185",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 0,
+      "durationMs": 1000,
+      "operation": "actual native solid disaster body, fixed original canvas/pivot; keep largest8-connected Alpha component, remove proven neighbouring-cell body fragments; original retained-body pixels unchanged; transparent RGB cleared",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/disaster-air-props.png",
+            "sha256": "6cf6d2a26e698733979d5e42d7938c561e4b1d238786cd2c49175d0d263712fa",
+            "record": "source-art/world/disaster-air-props.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            47,
+            47
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 113,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art"
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false,
+      "alphaOwnershipRepair": {
+        "method": "largest8-connected nonzero-Alpha component, solid body only",
+        "removedVisiblePixels": 5176,
+        "retainedBodyRGBAUnchanged": true,
+        "canvasPivotUnchanged": true,
+        "nativeModelGeneration": false
+      }
+    }
+  ],
+  "fpsSuggestion": 1,
+  "loop": false,
+  "timingStatus": "art preview recommendation; source gameplay tick adapter remains next stage",
+  "operation": "actual native solid disaster body, fixed original canvas/pivot; keep largest8-connected Alpha component, remove proven neighbouring-cell body fragments; original retained-body pixels unchanged; transparent RGB cleared",
+  "unityVerified": false
+}

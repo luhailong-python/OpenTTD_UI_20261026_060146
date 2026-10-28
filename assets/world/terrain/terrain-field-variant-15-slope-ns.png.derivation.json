@@ -1,0 +1,22 @@
+{
+  "file": "assets/world/terrain/terrain-field-variant-15-slope-ns.png",
+  "sha256": "3ffd193735221553b744ef1ae1b70e27de9ee4f2761c67a86c5cec806014f684",
+  "generatedAt": "2026-10-27T04:06:39.379368+00:00",
+  "route": "deterministic-derivative",
+  "tool": "build_world_terrain.py",
+  "width": 256,
+  "height": 192,
+  "operation": "native hand-painted atlas crop -> UV geometric normalization -> 14px periodic opposite-edge colour blending -> canonical diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeModelGeneration": false,
+  "unverifiedReason": "Source imagegen actual model and quality undisclosed; geometric processing is not native image generation."
+}

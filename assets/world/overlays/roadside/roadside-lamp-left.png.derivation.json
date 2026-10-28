@@ -1,0 +1,70 @@
+{
+  "id": "roadside-lamp-left",
+  "image": "assets/world/overlays/roadside/roadside-lamp-left.png",
+  "width": 128,
+  "height": 160,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "1f1a8ee8c419035ccd386ea22f93ecbc7fab632ec5b3034acd519e981cd117d4",
+  "anchorPx": [
+    64,
+    144
+  ],
+  "pivotUnity": [
+    0.5,
+    0.1
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "roadside-reusable-prop",
+  "sourceRequirementIds": [
+    "road-road",
+    "road-tram"
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/roadside-lamps-native.png",
+      "sha256": "c08f6f21c25245b4c5ee162d7a8e89072a83aed28a26d8ce61c03b311918c8cc",
+      "record": "source-art/world/roadside-lamps-native.png.generation.json"
+    }
+  ],
+  "operation": "native physical lamp Alpha crop;remove source Alpha<=8 outer haze,clear Alpha0 hiddenRGB;preserve retained nativeRGB;proportional downsample to64pxphysical height;measured foot contact to fixed canvas;no repaint",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "sourceSpriteId": 1407,
+  "sourceCropXYXY": [
+    257,
+    42,
+    624,
+    973
+  ],
+  "sourceFootContactPx": [
+    553,
+    972
+  ],
+  "formalVisibleTargetHeight": 64,
+  "uniformScale": 0.06874328678839957,
+  "pasteXY": [
+    44,
+    80
+  ],
+  "sourceAlphaCutoff": 8,
+  "sourceHiddenRGBDiscarded": true,
+  "armDirectionScreen": "left",
+  "state": "normal",
+  "sourceBoundingBoxWorld": [
+    2,
+    2,
+    16
+  ],
+  "actualVisualReview": "records/roadside-visual-review.json"
+}

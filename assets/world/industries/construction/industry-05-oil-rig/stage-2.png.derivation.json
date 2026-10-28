@@ -1,0 +1,52 @@
+{
+  "id": "industry-05-oil-rig-construction-2",
+  "image": "assets/world/industries/construction/industry-05-oil-rig/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "8d5bd3f780e9c4d47528f07a736a03cddafa8facafbfeb0a379a36120d1bfae2",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/oil-rig.png",
+      "sha256": "d4e61917d7a46fd9a9c6c8deefcda2aec2c57353ee39db54f1dec021badaf6fa",
+      "record": "assets/world/industries/oil-rig.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 0.8677884615384616
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 5,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76,
+    "offshoreScaffoldAnchorCorrectionPx": [
+      0,
+      -80
+    ]
+  },
+  "sourceRequirementIds": [
+    "industry-05-oil-rig",
+    "industry-tile-024",
+    "industry-tile-025",
+    "industry-tile-026",
+    "industry-tile-027",
+    "industry-tile-028"
+  ]
+}

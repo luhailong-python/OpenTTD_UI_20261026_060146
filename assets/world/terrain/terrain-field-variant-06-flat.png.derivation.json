@@ -1,0 +1,22 @@
+{
+  "file": "assets/world/terrain/terrain-field-variant-06-flat.png",
+  "sha256": "b41e5e25bd9bafeaa2c36903448e799ed22bd897f6f2eb02501dd1dabc4cb3ed",
+  "generatedAt": "2026-10-27T04:06:37.358929+00:00",
+  "route": "deterministic-derivative",
+  "tool": "build_world_terrain.py",
+  "width": 256,
+  "height": 128,
+  "operation": "native hand-painted atlas crop -> UV geometric normalization -> 14px periodic opposite-edge colour blending -> canonical diamond with1.5px render extrusion; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeModelGeneration": false,
+  "unverifiedReason": "Source imagegen actual model and quality undisclosed; geometric processing is not native image generation."
+}

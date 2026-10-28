@@ -1,0 +1,148 @@
+{
+  "id": "bridge-12-tubular-X-monorail-down32",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-12-tubular-X-monorail-down32.png",
+  "sha256": "17632f01f49603ac41983641a2170de36a16a0c179d7c8b56f884d38f83aa55a",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-rail-south-rear.png",
+      "sha256": "0fc98aa9d69ac152cd41bb41f5c8c697dae10672d0fb50ae24b2072c3faf987e",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-rail-south-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-tubular-span-X-monorail-m32.png",
+      "sha256": "e643a4a1bb884ae04dbb1bd17a571861b81b4dae170618f4107b9c296a958af1",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-tubular-span-X-monorail-m32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-rail-south-front.png",
+      "sha256": "b695f129a80071748f68328bc1cc7d04e988eef83c3cfb7a5f276c595a4853a5",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-rail-south-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-12-tubular"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "X",
+  "railType": "monorail",
+  "risePx": -32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        91,
+        284
+      ],
+      [
+        161,
+        248
+      ],
+      [
+        431,
+        382
+      ],
+      [
+        354,
+        420
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        126.0,
+        266.0
+      ],
+      [
+        392.5,
+        401.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        110.34896810506567,
+        184.82551594746718
+      ],
+      [
+        145.65103189493433,
+        167.17448405253282
+      ],
+      [
+        273.65103189493436,
+        263.1744840525328
+      ],
+      [
+        238.34896810506567,
+        280.8255159474672
+      ]
+    ],
+    "deckCrossSectionHalfX": 17.651031894934334,
+    "uniformNativeScaleReference": 0.4803001876172608,
+    "sourceXKnots": [
+      91.0,
+      161.0,
+      354.0,
+      431.0
+    ],
+    "targetXKnots": [
+      110.34896810506567,
+      145.65103189493433,
+      238.34896810506567,
+      273.65103189493436
+    ],
+    "verticalScaleAboveDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "verticalScaleBelowDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "nativePostCorrespondence": [],
+    "axisMirror": false,
+    "rampRisePx": -32,
+    "advancePx": [
+      128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-rail-south-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-tubular-span-X-monorail-m32.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-rail-south-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-rail-m32-mask.png"
+}

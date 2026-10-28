@@ -1,0 +1,44 @@
+{
+  "id": "industry-20-rubber-plantation-construction-2",
+  "image": "assets/world/industries/construction/industry-20-rubber-plantation/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "bf427c5806f211c6f204f8512bf1ec910b0a96c95e2eaed5217ff540ac4f8bb6",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/rubber-plantation.png",
+      "sha256": "28db6f0b731dcf5348184217786dbafe91e770eb52f179a920fd68600e511660",
+      "record": "assets/world/industries/rubber-plantation.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 20,
+  "stage": 2,
+  "details": {
+    "kind": "vegetative site young compound scale derivative",
+    "sourceScale": 0.8
+  },
+  "sourceRequirementIds": [
+    "industry-20-rubber-plantation",
+    "industry-tile-117"
+  ]
+}

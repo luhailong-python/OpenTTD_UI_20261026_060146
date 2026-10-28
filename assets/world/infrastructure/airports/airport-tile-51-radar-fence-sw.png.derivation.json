@@ -1,0 +1,80 @@
+{
+  "id": "airport-tile-51-radar-fence-sw",
+  "image": "assets/world/infrastructure/airports/airport-tile-51-radar-fence-sw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "44939bc11f9a201c01563972301801828f400e83904bc774a2bb97f16ce7094a",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-radar.png",
+      "sha256": "b41f9e64c22ed09808e89183ebe0d7457e94e66ebca43b145ef2f592f0ddd14a",
+      "record": "assets/world/infrastructure/airports/airport-radar.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-sw.png",
+      "sha256": "dfd1181689158396ccc48b724b81e424c34dbbb3001f6897a26fce68c5e08357",
+      "record": "assets/world/infrastructure/airports/airport-fence-sw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 51,
+  "sourceTileEnum": "APT_RADAR_FENCE_SW",
+  "sourceDrawSpec": "TILE_SPRITE_NULL() // APT_RADAR_FENCE_SW",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-radar",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "building"
+    },
+    {
+      "artId": "airport-fence-sw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": "airport-radar-scan",
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-international",
+    "airport-tile-51-radar-fence-sw"
+  ]
+}

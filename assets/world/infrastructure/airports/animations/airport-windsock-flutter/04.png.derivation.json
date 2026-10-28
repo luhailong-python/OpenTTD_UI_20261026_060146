@@ -1,0 +1,94 @@
+{
+  "id": "animations/airport-windsock-flutter/04",
+  "image": "assets/world/infrastructure/airports/animations/airport-windsock-flutter/04.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-animation",
+  "sha256": "568316ce1e2a6129c7e88ec986c1e1e2881d5378bc065e75e05caf211c8c6469",
+  "operation": "actual painted moving-part ownership mask, fixed support; projected dish rigid sweep or premultiplied cloth warp; deterministic derivative, not native generated poses",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-windsock.png",
+      "sha256": "3a64e656fab8d2ae32b7bb089fa72e42f3c4552376e5cfd335cbc9894b110410",
+      "record": "assets/world/infrastructure/airports/airport-windsock.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 4,
+  "animationId": "airport-windsock-flutter",
+  "ownershipPolygonNative": [
+    [
+      1224,
+      70
+    ],
+    [
+      1275,
+      89
+    ],
+    [
+      1419,
+      132
+    ],
+    [
+      1421,
+      177
+    ],
+    [
+      1263,
+      153
+    ],
+    [
+      1223,
+      151
+    ]
+  ],
+  "ownershipPolygonFormal": [
+    [
+      226,
+      183
+    ],
+    [
+      263,
+      197
+    ],
+    [
+      369,
+      229
+    ],
+    [
+      370,
+      262
+    ],
+    [
+      254,
+      244
+    ],
+    [
+      225,
+      243
+    ]
+  ],
+  "parameters": {
+    "tailAmplitudePx": 4,
+    "phase": 3.141592653589793,
+    "pivotXPx": 243.14754098360655,
+    "tailXPx": 367.26557377049176,
+    "method": "premultiplied actual cloth pixel inverse warp; pole and mouth remain fixed"
+  },
+  "sourceRequirementIds": [
+    "airport-tile-39-grass-fence-ne-flag",
+    "airport-tile-73-grass-fence-ne-flag-2",
+    "animation-airport-flag"
+  ]
+}

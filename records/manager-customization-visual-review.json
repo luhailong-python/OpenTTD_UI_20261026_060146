@@ -1,0 +1,505 @@
+{
+  "schema": "manager-customization-visual-review.v1",
+  "reviewedAt": "2026-10-28T10:15:21.417170+00:00",
+  "reviewer": "Codex manager_review continuation; actual view_image inspection",
+  "manifest": "assets/portraits/customization/manifest.json",
+  "manifestSHA256": "27b025e7de0e9bae17e71e120202cefffc6128bce88a62f2852adf38731cb3b1",
+  "mechanicalValidation": {
+    "file": "records/manager-customization-validation.json",
+    "sha256": "3b5950eef44d01e1f3076955b6c5896b1590e74cc50d09bfe21b2e732a8fe8f0",
+    "checks": 3503,
+    "failures": 0
+  },
+  "browserValidation": {
+    "file": "records/manager-gallery-browser-validation.json",
+    "sha256": "3e637bebfd5c06fd3d1e5a641e5f5f20ca0e23124406cbac5e507cd527a88721",
+    "checks": 8,
+    "failures": 0
+  },
+  "reviewedSources": [
+    {
+      "image": "source-art/manager-customization/accessories.png",
+      "sha256": "5834a22377d8c8970ebd2d4ed8b5d4a2bc45e5061a3b2b370dc7f61960babc84",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/base-heads.png",
+      "sha256": "6bf234dbebd6b113da9220cca5d50223ace15c4d09a07a1aeb0ebba9179ab4f4",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/beards.png",
+      "sha256": "7823c09d38644af722a1ff67b3f3df93e6317846f69dc5fa888c29c8d6364969",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/clothes.png",
+      "sha256": "39e0287595db95070975042ea1bdfc082f0eeccee2f1eeadcba46bb7fa4d90ec",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/eyes.png",
+      "sha256": "57124480f5c8299bb24c8baed2fbf3b2a75fd470aaa1706d4db71d5f52aeb31c",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/hair.png",
+      "sha256": "202008b645de42da73993b3b4a129f40ebdd390feb0d327d090893e47845c3be",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/mouths.png",
+      "sha256": "ad7c4186effd28cf91a11ae04ea0c5a0ce89caaf9dc0be3c88db6dfb8f3903c4",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    },
+    {
+      "image": "source-art/manager-customization/noses.png",
+      "sha256": "0a842aceeb49ee93df6d7894bed73986f4ae0f4e970ee9c77734651377a30519",
+      "status": "source-reference-inspected",
+      "findings": [
+        "Native source inspected for content and source identity only. Some mother atlases contain coloured/subvisible matte contamination; the declared registered ownership extraction removes it. Formal output acceptance uses the actual clean registered parts and combinations, not raw atlas exteriors."
+      ]
+    }
+  ],
+  "reviewedPages": [
+    {
+      "image": "previews/manager-customization/native-parts-01.jpg",
+      "sha256": "574ff6889ff383f04f530d893288225b457199259d1a169282dd49943de60877",
+      "kind": "registered-parts",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "03476160f92bd0eedb6bb27db6b9b3fadf08e392f092e933cef4cedffd1b0e65",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Registered pieces have separate transparent ownership and consistent canvas placement; dark/light contact backgrounds reveal no blocking matte residue."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/native-parts-02.jpg",
+      "sha256": "29f12523ff3eaac8107894f8620c43cc59f7403fa296995d01f3ca69601bafc6",
+      "kind": "registered-parts",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "b788f8636ecdf427cf996bdc7b88d4891c8387d98ce412828f5cd4784e9bebf4",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Registered pieces have separate transparent ownership and consistent canvas placement; dark/light contact backgrounds reveal no blocking matte residue."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/native-parts-03.jpg",
+      "sha256": "dfece0ff851c5ab518f0fa1235fb8850a2caae28ea17b896fdb6eef755b86437",
+      "kind": "registered-parts",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "e0508f411a81456b3ed80f890c2b38645536218db4a4913b485174f34e7968c3",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Registered pieces have separate transparent ownership and consistent canvas placement; dark/light contact backgrounds reveal no blocking matte residue."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/native-parts-04.jpg",
+      "sha256": "18b49e45c1904fa0fbb9f1cbfc383ee2b22bb1e163e8922e563a76a8b1805ac5",
+      "kind": "registered-parts",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "dcea83e5ee7203f716891931dc74d65d7a14983a52adae56cfd88c3df75fefe9",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Registered pieces have separate transparent ownership and consistent canvas placement; dark/light contact backgrounds reveal no blocking matte residue."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/native-parts-05.jpg",
+      "sha256": "9c05c754b0f8ee0d6c9a7a76c5e4a488236314dc9459163422cb7d1d7c159688",
+      "kind": "registered-parts",
+      "sampleCount": 6,
+      "derivationRecordSHA256": "57d769e3af3eca78ce069afa1c365208e7bd782f2abb9a39b75382c25cb13c87",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Registered pieces have separate transparent ownership and consistent canvas placement; dark/light contact backgrounds reveal no blocking matte residue."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/supplemental-parts-01.jpg",
+      "sha256": "8e1f71e1971dc784054d99c4a9d475ba49ec5e378565fa0dea2fae75c3887dd5",
+      "kind": "supplemental-parts",
+      "sampleCount": 3,
+      "derivationRecordSHA256": "289680fc5d712606cb34a0fc5a4009267cba97409d325a0161e8a37c464b6fa9",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Registered pieces have separate transparent ownership and consistent canvas placement; dark/light contact backgrounds reveal no blocking matte residue."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-1-all-values-01.jpg",
+      "sha256": "98d950a8058a836c4d4ca7662a14861538552fb14a02c5848151e12d73d2b29b",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "1ab937907162a8bae6505bce4da0356ab4af468a57386720d0083ef00d713d68",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-1-all-values-02.jpg",
+      "sha256": "4a9435285a48451d2133c1ef66cd5dfd708b4bcd03242446e719930e5fc41404",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "86f658532e3a7d452e5d1d6ea43afe6d319329342eb628ad2dca3cb47826f0e3",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-1-all-values-03.jpg",
+      "sha256": "aca59ca953cde3b4028d92ea378cbbb5d12e0dc4fc77b547758de442f3bf0523",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "cf594a3bb13df10cddc4ba5da8539aa45acb04cfea0b9d070eb42d26c1f0608e",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-1-all-values-04.jpg",
+      "sha256": "e786de641eb0d948bfb3091d4c84ba024c3c23ec81a91b87dceda46788a94074",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "e74f9599fda4c04d655eab883cc7ba7324489f82c3a9ac8a7ad0e09b2bb245fe",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-2-all-values-01.jpg",
+      "sha256": "66af628501af1ddbe8a38b2aad9be8ff0b2fc29facba8e7cbb552cb026871ea5",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "9b40c7464dad96799d6435f7bd1f3e7ac0845cbaeb2728ab18e27ba2b540c255",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-2-all-values-02.jpg",
+      "sha256": "8c9ded0b1497df933f1747bfbca6392554fb5cb450739709e527c9ff2f435be5",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "4169903d0981e8f942bfe62727713492275e9b13aaefc9360537feef94194767",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-2-all-values-03.jpg",
+      "sha256": "7532f6e8a1b8f8cdba52503ef27b87221b9ededbf8d39687b2501f2a9bbbaa15",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "67b5c2109490a89ceff11b63dd614868367274b80f5c7498bbfe70ef64b6029b",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-2-all-values-04.jpg",
+      "sha256": "f858b3572fd7b4befa6e58b32e8856551407bf678e96294baf2cfb069ccca8fe",
+      "kind": "source-value-combinations",
+      "sampleCount": 1,
+      "derivationRecordSHA256": "c12a2298ed6fd8ea2273fd2840c3f583b08047bab31c7e26643ef806aa20da2d",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-3-all-values-01.jpg",
+      "sha256": "9ea57fb8fe73111613bd9c3dc4f88660f1144f74bd941a58cf537bc2666cabf3",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "9c2ae417331e851c126596140826103b74efdf49adcd7e13ad99d948c52d6324",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-3-all-values-02.jpg",
+      "sha256": "4391fb7d9d8331f25c3b690a9d5d441e819d6567eb5455c73c910862dd5142c8",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "85bb51939dfedfc95cb81ff187b3a341eeaef0f465199ac5d1997630bb3b2c89",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-3-all-values-03.jpg",
+      "sha256": "91394b38427e03cc4edee8fb1404337264f0786c5fb6f372fcfc9b60e2e21929",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "75193ceb0c23ff5a8e98194222ac14000576a9c065d93875b13a729da349a8f9",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-3-all-values-04.jpg",
+      "sha256": "c8cf0a0ed2f80fe4c693ae1095d522fab620844206fee9b2c1b7eb7630de56d5",
+      "kind": "source-value-combinations",
+      "sampleCount": 2,
+      "derivationRecordSHA256": "e296aa32e9d3098188490dee84542d6cd7342fe0a086e4fb7578956790b34cac",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-4-all-values-01.jpg",
+      "sha256": "14f28123ccd3c8e45a27664dae76eb66cd29dafc4f697507c23ec997a5195d41",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "bb588b2c1fa11a84af7d5c40b9b8298fee4fd6cbcc2c318c2d4b3fc635451798",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-4-all-values-02.jpg",
+      "sha256": "3f3413d1bcf89005ed86c5f81b88ce8d49a2e85d30bdb293edba68caaacf51fb",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "41210a5d5f2ef0bd7e16d323a27a5b53e9f8b498391c1090688524cfe6fb12b2",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-4-all-values-03.jpg",
+      "sha256": "e9043e076356089b7786cb1a2af7f4d7f1fa00e0ef62bf1b51992d05e0290a3c",
+      "kind": "source-value-combinations",
+      "sampleCount": 16,
+      "derivationRecordSHA256": "93939d0cb9cfab5b4d4bc61f5f99408e844166bef9f7e96cd51539caa83fc1b8",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/source-style-4-all-values-04.jpg",
+      "sha256": "c5a6ca1f76f98d31468e62e5f8c027819fb60a904b4eb9d2ba4c25aee993cc16",
+      "kind": "source-value-combinations",
+      "sampleCount": 2,
+      "derivationRecordSHA256": "05d9bc104cd7a58de40fd02474c63c521b682f733f4fc95d1d54a01eb5b9b7e2",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Shown facial value changes are independently placed; jaw, eyes, nose, mouth, hair, collar and clothing have no blocking seam or clipping visible on these dark/light contact samples."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/controls-and-palettes-01.jpg",
+      "sha256": "67d4ef6f2394d8991c7c04e581c4ba5708b1001fabca8d9b50c2a542f6095121",
+      "kind": "controls-and-palettes",
+      "sampleCount": 15,
+      "derivationRecordSHA256": "4fb656ac762b9829a1c37bb459f2febe38a74194fe9d8facf3cc3918f53b93d2",
+      "derivedSourcesCurrent": true,
+      "status": "locally-reviewed",
+      "findings": [
+        "Four base identities, beard/eye/glasses/earring controls, isolated brown/blue/green irises and exact cancel restoration are visually legible."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/advanced.png",
+      "sha256": "de01523dd474e66090108b14818d8e8244783e55d6af8d742a07dd0c24c55868",
+      "kind": "advanced-state",
+      "id": "advanced",
+      "layoutRecord": "layouts/manager-customization/advanced.json",
+      "layoutRecordSHA256": "87e5d47960cd25a94b4a90f243bfccf53c213897e8a2389961d726a0a5f17a50",
+      "status": "locally-reviewed",
+      "findings": [
+        "Seven visible fields and fixed portrait are legible; independent arrows and toggles align with their field rows."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/advanced-scroll-bottom.png",
+      "sha256": "1364077cb65be47eaa1ab9a8411b44cccd7a5a9a958e4396a41f9bc603f29dc7",
+      "kind": "advanced-state",
+      "id": "advanced-scroll-bottom",
+      "layoutRecord": "layouts/manager-customization/advanced-scroll-bottom.json",
+      "layoutRecordSHA256": "846c1db99da0e5f0a3c4e02862e0cae2ef5bf03633178315b40e9d7e5a760c4f",
+      "status": "locally-reviewed",
+      "findings": [
+        "Lower clothing/accessory rows, list count and bottom scrollbar position are legible."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/moustache-on.png",
+      "sha256": "7c30af96b161683f8c8ec633b4078e1e319f2e161264afc2a084ee76301af307",
+      "kind": "advanced-state",
+      "id": "moustache-on",
+      "layoutRecord": "layouts/manager-customization/moustache-on.json",
+      "layoutRecordSHA256": "361acc40268de4f6e723feb8323be3686deb593bc61d01568f9ff6820ba24f30",
+      "status": "locally-reviewed",
+      "findings": [
+        "Beard composition replaces the separate nose/mouth parameter controls, with one lower-face ensemble and no duplicate visible mouth."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/glasses-off.png",
+      "sha256": "7f552caea914b77cd242a7f41efa3fe15305b52700625e45b260e644ff5f2326",
+      "kind": "advanced-state",
+      "id": "glasses-off",
+      "layoutRecord": "layouts/manager-customization/glasses-off.json",
+      "layoutRecordSHA256": "d0648f86a55a77b2feb2a5eb6157a5f7b441905fb6861d5699a23d65faf3f5db",
+      "status": "locally-reviewed",
+      "findings": [
+        "Glasses are absent while eyes, hair and clothing remain visible."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/earring-off.png",
+      "sha256": "193f560fda6f7fc453f2e2e2a0f41deaab125995e43bc46294aff3b6c765a290",
+      "kind": "advanced-state",
+      "id": "earring-off",
+      "layoutRecord": "layouts/manager-customization/earring-off.json",
+      "layoutRecordSHA256": "fdacac961a16a7cde12ed51fefca3e6e8be3ea33961501bfd80b9547e8a1ced2",
+      "status": "locally-reviewed",
+      "findings": [
+        "Earrings are absent with the source-compatible style-2 controls and portrait retained."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/eye-colours.png",
+      "sha256": "3159a48b15af65adcf7c08cfedcbdf4d21378ad59f224f351fb9f55266a0f589",
+      "kind": "advanced-state",
+      "id": "eye-colours",
+      "layoutRecord": "layouts/manager-customization/eye-colours.json",
+      "layoutRecordSHA256": "0b7f47858885df2a8212cbb9a5555e1a3027aa4431b85253e3565df9072b5c7e",
+      "status": "locally-reviewed",
+      "findings": [
+        "Brown, blue and green iris differences are clear in portrait and native-size eye strips; non-iris appearance is consistent."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/facecode-load.png",
+      "sha256": "918c28728dce0905a8590011c230de5e54c4fef08d4385e8d0eb1c8c4e3ca007",
+      "kind": "advanced-state",
+      "id": "facecode-load",
+      "layoutRecord": "layouts/manager-customization/facecode-load.json",
+      "layoutRecordSHA256": "1cf2da39785b4684cd637f33a64f04fb241e45d23c8569441fb42ee49178c5f4",
+      "status": "locally-reviewed",
+      "findings": [
+        "Typed code default/face1:16 and successful glasses-on portrait are readable; misleading dropdown arrow removed."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/facecode-save.png",
+      "sha256": "08bc77075fd40d2e2628fab4262071162c0d7b64c8dcb25e949d70ef68a724e2",
+      "kind": "advanced-state",
+      "id": "facecode-save",
+      "layoutRecord": "layouts/manager-customization/facecode-save.json",
+      "layoutRecordSHA256": "4549cbc58c94b8c55951601c6ee1561f55c609da9548f2bd6f013d3ede098b92",
+      "status": "locally-reviewed",
+      "findings": [
+        "Saved code and confirmation are readable; field is specified as read-only single-line text with no dropdown arrow."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/facecode-invalid.png",
+      "sha256": "a7ddfeb28c0e4a0d4add074c9afe68e8448caba2a57345d5b2e00bced9242c9c",
+      "kind": "advanced-state",
+      "id": "facecode-invalid",
+      "layoutRecord": "layouts/manager-customization/facecode-invalid.json",
+      "layoutRecordSHA256": "50bf4ef53e5ddf5e7553528d09ca28b0f258087473c268e79bfad709ff4b92c2",
+      "status": "locally-reviewed",
+      "findings": [
+        "Long invalid code uses visible ellipsis within field; error message remains readable and existing portrait stays unchanged; full127-character input is preserved in layout metadata."
+      ]
+    },
+    {
+      "image": "previews/manager-customization/states/cancel-restores-original.png",
+      "sha256": "c448e6322814c5112438e9dc5b6f9afd2bda4ff6ca9624549b53618720082740",
+      "kind": "advanced-state",
+      "id": "cancel-restores-original",
+      "layoutRecord": "layouts/manager-customization/cancel-restores-original.json",
+      "layoutRecordSHA256": "67ac549fc44d3d5983bd74c43f127bb2c96a146096f96d5ae65fbaff781f6daa",
+      "status": "locally-reviewed",
+      "findings": [
+        "Edited and restored portraits can be compared; the restored original matches the initial image SHA."
+      ]
+    }
+  ],
+  "reviewedContactPageCount": 23,
+  "reviewedStateCount": 10,
+  "reviewedSourceSlotCount": 213,
+  "reviewedStyleCount": 4,
+  "sourceEvidenceCurrent": true,
+  "staleEvidence": [],
+  "localVisualPassed": true,
+  "unresolvedBlockingVisualIssues": [],
+  "repairedIssues": [
+    {
+      "id": "facecode-text-input-was-shown-as-dropdown",
+      "files": [
+        "previews/manager-customization/states/facecode-load.png",
+        "previews/manager-customization/states/facecode-save.png",
+        "previews/manager-customization/states/facecode-invalid.png"
+      ],
+      "repair": "Remove independent dropdown glyph from typed-code field; keep existing painted frame, source art and portrait parts. Re-rendered/reviewed3 states; no new image generation."
+    }
+  ],
+  "scope": "All23 existing contact pages, all10 advanced states and8 native sources actually viewed.213 source sprite slots each shown at least once. This is local illustrated-art review of delivered samples, not an exhaustive Cartesian product or a user approval. Runtime parser, configuration persistence and Unity remain unimplemented in this art phase.",
+  "userAccepted": false,
+  "unityValidated": false
+}

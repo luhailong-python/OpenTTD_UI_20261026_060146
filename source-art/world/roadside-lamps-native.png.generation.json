@@ -1,0 +1,65 @@
+{
+  "file": "source-art/world/roadside-lamps-native.png",
+  "sha256": "c08f6f21c25245b4c5ee162d7a8e89072a83aed28a26d8ce61c03b311918c8cc",
+  "generatedAt": "2026-10-28T10:41:36.482Z",
+  "generatedAtEvidence": "records/world-production/roadside-lamps-native-call.json records actual UTC call times",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: TWO isolated transparent isometric roadside streetlight sprites for an existing Taoist chibi transport management game.\nCreate one clean atlas with TWO equal side-by-side columns on TRUE transparent alpha. Each column contains a complete tall slim streetlight, entire lamp head, post and foot visible, generous transparent margins and an empty gap between columns. Same identical lamp design and height in both columns, shown in the two diagonal road-axis orientations of a 2:1 orthographic isometric world. Left lamp arm projects down-left/up-right diagonal; right lamp arm projects down-right/up-left diagonal. Post is vertical in screen space in both views. Bottom contact feet at exactly the same baseline. No grid lines, no labels.\nThe two attached reference images strictly define the refined Taoist chibi hand-painted finish: muted jade-green shaft and a small warm-gold collar, ivory pale warm lantern shade, rounded yet slender proportions, subtle clean hand-painted highlights. A simple roadside streetlight inspired by a restrained jade/gold Chinese lantern, not a temple, not a hanging festival string. Lamp must read clearly when reduced to64px height. One light head per streetlight, no double lamps. Light is indicated by the opaque warm ivory glass only, do not paint floating glow or haze outside the physical fixture.\nThe solid post ends in a SMALL low rounded metal foot with clear contact point, no pavement tile, no grass, no stone plinth, no scene, no cast shadow outside the object. Entire background, gaps and exterior must be fully alpha0 with clean soft physical silhouette edges, no dark matte, no glow halos, no painted checkerboard. Keep both objects equal scale and preserve the same material/design between orientations.\nNo words, numbers, letters, signs, logo, watermark, UI frame, people, vehicles, trees or buildings. Native large resolution requested, each lamp should occupy at least384x512 pixels of its own isolated cell if available; actual returned native dimensions will be recorded separately.\n\r\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-1da10ba7-b4f1-4d84-8e55-d6422b7eb0cb.png",
+    "nativeSizeFromPNG": [
+      1536,
+      1024
+    ],
+    "callRecord": "records/world-production/roadside-lamps-native-call.json"
+  },
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回亦未披露；配置目标不作为实际返回证明。",
+  "prompt": "Use case: stylized-concept\nAsset type: TWO isolated transparent isometric roadside streetlight sprites for an existing Taoist chibi transport management game.\nCreate one clean atlas with TWO equal side-by-side columns on TRUE transparent alpha. Each column contains a complete tall slim streetlight, entire lamp head, post and foot visible, generous transparent margins and an empty gap between columns. Same identical lamp design and height in both columns, shown in the two diagonal road-axis orientations of a 2:1 orthographic isometric world. Left lamp arm projects down-left/up-right diagonal; right lamp arm projects down-right/up-left diagonal. Post is vertical in screen space in both views. Bottom contact feet at exactly the same baseline. No grid lines, no labels.\nThe two attached reference images strictly define the refined Taoist chibi hand-painted finish: muted jade-green shaft and a small warm-gold collar, ivory pale warm lantern shade, rounded yet slender proportions, subtle clean hand-painted highlights. A simple roadside streetlight inspired by a restrained jade/gold Chinese lantern, not a temple, not a hanging festival string. Lamp must read clearly when reduced to64px height. One light head per streetlight, no double lamps. Light is indicated by the opaque warm ivory glass only, do not paint floating glow or haze outside the physical fixture.\nThe solid post ends in a SMALL low rounded metal foot with clear contact point, no pavement tile, no grass, no stone plinth, no scene, no cast shadow outside the object. Entire background, gaps and exterior must be fully alpha0 with clean soft physical silhouette edges, no dark matte, no glow halos, no painted checkerboard. Keep both objects equal scale and preserve the same material/design between orientations.\nNo words, numbers, letters, signs, logo, watermark, UI frame, people, vehicles, trees or buildings. Native large resolution requested, each lamp should occupy at least384x512 pixels of its own isolated cell if available; actual returned native dimensions will be recorded separately.\n\r\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "strict visual style reference"
+    }
+  ],
+  "promptFile": "records/world-production/roadside-lamps-native.prompt.txt",
+  "status": "native master retained; pending individual Alpha extraction and actual pixel review"
+}

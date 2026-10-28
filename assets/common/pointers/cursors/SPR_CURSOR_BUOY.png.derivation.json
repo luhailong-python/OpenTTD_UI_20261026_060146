@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_BUOY",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_BUOY.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "593e2a773636e9e32b60f13b4fa318f0e6aa2f12ab0851d4d878dccab2c2f287",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/waterworks/buoy.png",
+      "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c",
+      "record": "assets/world/infrastructure/waterworks/buoy.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_BUOY",
+  "sourceSpriteId": 702,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

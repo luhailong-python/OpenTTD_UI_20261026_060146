@@ -1,0 +1,81 @@
+{
+  "id": "airport-tile-20-tower-fence-sw",
+  "image": "assets/world/infrastructure/airports/airport-tile-20-tower-fence-sw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "005e2d1cad27ec5fe3b52808d2fd04daf11ff688905ba57ae9017a7aef5b9c70",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-control-tower.png",
+      "sha256": "b2b3fefeb37e0591ac19d81ecf0c874e8b368a6f9546a6d817d708c7009c07b4",
+      "record": "assets/world/infrastructure/airports/airport-control-tower.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-sw.png",
+      "sha256": "dfd1181689158396ccc48b724b81e424c34dbbb3001f6897a26fce68c5e08357",
+      "record": "assets/world/infrastructure/airports/airport-fence-sw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 20,
+  "sourceTileEnum": "APT_TOWER_FENCE_SW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_FLAT_GRASS_TILE,            _station_display_tower_fence_sw) // APT_TOWER_FENCE_SW",
+  "layers": [
+    {
+      "artId": "airport-ground-apron",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-control-tower",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "building"
+    },
+    {
+      "artId": "airport-fence-sw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-metropolitan",
+    "airport-tile-20-tower-fence-sw"
+  ]
+}

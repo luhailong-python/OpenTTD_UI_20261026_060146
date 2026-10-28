@@ -1,0 +1,48 @@
+{
+  "id": "field-soil-slope-e",
+  "image": "assets/world/terrain/field-stages/field-soil-slope-e.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    160
+  ],
+  "pivotUnity": [
+    0.5,
+    0.375
+  ],
+  "sha256": "c5ade4c09e63ee65f7e9ff9a9831ffb5d94207eb4f84740537b6a8f4b83b00f4",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-field-flat.png",
+      "sha256": "ebdc5c088381a919b78ead48288e485ba02d5ce75b276bf44e22c2ea3a69c21e",
+      "record": "assets/world/terrain/terrain-field-flat.png.derivation.json"
+    }
+  ],
+  "operation": "existing native furrow pixels -> source slope triangles;32px transparent head padding; no native detail enlargement",
+  "category": "field-stage-ground",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "slopeCode": 4,
+  "soilSource": {
+    "unwrappedNativeUVBox": [
+      28,
+      132,
+      124,
+      180
+    ],
+    "greenPlantPixelsInSelectedPatch": 0,
+    "repeatXY": [
+      2,
+      4
+    ],
+    "operation": "native furrow-only strip repeated2x4 in material UV; existing paint only; no seedling inpainting"
+  }
+}

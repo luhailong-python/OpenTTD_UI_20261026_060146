@@ -1,0 +1,49 @@
+{
+  "id": "bridge-arch-native",
+  "image": "assets/world/infrastructure/transport/bridge-arch-native.png",
+  "sha256": "f416c5f0d6383f025d9f65461b0701aeb05357f426303cc50691967474c3034a",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-families.png",
+      "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+      "record": "source-art/world/bridge-families.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    990,
+    339,
+    1511,
+    670
+  ],
+  "scaleApplied": 0.7370441458733206,
+  "sourceAtlas": "bridge-families",
+  "sourceComponent": 12,
+  "contentSize": [
+    384,
+    244
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

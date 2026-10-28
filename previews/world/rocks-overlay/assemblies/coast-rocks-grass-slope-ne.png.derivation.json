@@ -1,0 +1,72 @@
+{
+  "id": "coast-rocks-grass-slope-ne",
+  "image": "previews/world/rocks-overlay/assemblies/coast-rocks-grass-slope-ne.png",
+  "sha256": "80e825f2da12422653c3b445d09e63739c61663e574f6e5ed0f19b6bcfe98ac5",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-grass-slot-12-land.png",
+      "sha256": "2c18346ade69b606b7dde824f27220d434606daf4a4e093ac4a94a39a83b61f2",
+      "record": "assets/world/terrain/shore-geometry/shore-grass-slot-12-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-grass-slot-12-bank.png",
+      "sha256": "cab5d46de28aeced19b92245426a084a46b0f6a54a0e410c913581b9bc412503",
+      "record": "assets/world/terrain/shore-geometry/shore-grass-slot-12-bank.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-ne.png",
+      "sha256": "d1862e05425763a5ea158d53d27bd141eda0bba6ec580f81215c066fe97794a4",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-ne.png.derivation.json"
+    }
+  ],
+  "operation": "Formal source-height shoreline land/native-bank and strictly horizontal0-height water layers plus independently placed wet-rock bodies; source DryOut permits water:null, never add obsolete flat backing",
+  "context": "CoastRocks",
+  "shoreClimate": "grass",
+  "slopeCode": 12,
+  "sourceShoreIndex": 12,
+  "overlayId": "rocks-water-coast-layout-0-slope-ne",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "shoreOffsetPx": [
+    0,
+    64
+  ],
+  "formalLayers": [
+    {
+      "role": "land",
+      "image": "assets/world/terrain/shore-geometry/shore-grass-slot-12-land.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "bank",
+      "image": "assets/world/terrain/shore-geometry/shore-grass-slot-12-bank.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "wet-rocks",
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-ne.png",
+      "offsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "groundWhole": "assets/world/terrain/shore-geometry/shore-grass-slot-12-whole.png",
+  "groundManifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "groundManifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceFloodingBehaviour": "DryOut",
+  "waterHasPositiveArea": false,
+  "waterAbsentReason": "The source integer-height mesh has no positive-area zero-height face; this legal DryOut coast touches the water plane only at the low corner. No fake water triangle is exported.",
+  "label": "CoastRocks grass / ne",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

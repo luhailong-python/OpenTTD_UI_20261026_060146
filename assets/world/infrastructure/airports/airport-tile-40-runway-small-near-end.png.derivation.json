@@ -1,0 +1,67 @@
+{
+  "id": "airport-tile-40-runway-small-near-end",
+  "image": "assets/world/infrastructure/airports/airport-tile-40-runway-small-near-end.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "ef0d43a42c6093c112c8b8979b87b7c1785a694cf4d0a335d5d3cc657b7d883c",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-threshold-x.png",
+      "sha256": "7523721b20254cdfb492b8eff798f70fb89649fdfd864aed15a721b9de4e3470",
+      "record": "assets/world/infrastructure/airports/airport-ground-threshold-x.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-se.png",
+      "sha256": "a64f05acb1bd5888022d6a6c10f83230decf648605efba6c483603abdb6dedcd",
+      "record": "assets/world/infrastructure/airports/airport-fence-se.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 40,
+  "sourceTileEnum": "APT_RUNWAY_SMALL_NEAR_END",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRFIELD_RUNWAY_NEAR_END,   _station_display_fence_se)  // APT_RUNWAY_SMALL_NEAR_END",
+  "layers": [
+    {
+      "artId": "airport-ground-threshold-x",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-se",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-country",
+    "airport-tile-40-runway-small-near-end"
+  ]
+}

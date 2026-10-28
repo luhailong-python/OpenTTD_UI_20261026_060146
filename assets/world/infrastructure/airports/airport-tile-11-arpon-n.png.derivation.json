@@ -1,0 +1,54 @@
+{
+  "id": "airport-tile-11-arpon-n",
+  "image": "assets/world/infrastructure/airports/airport-tile-11-arpon-n.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "ec7a7cca43c17ed9fcb7d9b38a07157c8bc97dca2528c7e04cc177cde99d1b8a",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-taxi-mask-05.png",
+      "sha256": "938fcdb87fe9e4a13dd9355a69d0fc64c26a47f5783842b8bcfdb8f6e4678b95",
+      "record": "assets/world/infrastructure/airports/airport-ground-taxi-mask-05.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 11,
+  "sourceTileEnum": "APT_ARPON_N",
+  "sourceDrawSpec": "TILE_SPRITE_LINE_NOTHING(SPR_AIRPORT_TAXIWAY_EW_NORTH)  // APT_ARPON_N",
+  "layers": [
+    {
+      "artId": "airport-ground-taxi-mask-05",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-city",
+    "airport-tile-11-arpon-n"
+  ]
+}

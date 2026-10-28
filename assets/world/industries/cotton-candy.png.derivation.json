@@ -1,0 +1,60 @@
+{
+  "id": "industry-26-cotton-candy",
+  "file": "assets/world/industries/cotton-candy.png",
+  "sha256": "7e1527e2fc04ad7448374f0674ec5cfe307d641419f038006d635a61fcb2536e",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    841,
+    842,
+    1245,
+    1217
+  ],
+  "nativePaintingBounds": [
+    843,
+    843,
+    1245,
+    1216
+  ],
+  "uniformScale": 0.9504950495049505,
+  "pasteXY": [
+    64,
+    92
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    92,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-c.png",
+    "sha256": "5d0106d538514752887dab941c2b3c7ca8942f66f447ba114342d7590712ad83",
+    "record": "source-art/world/industry-c.png.generation.json"
+  },
+  "sourceIndustryTypeId": 26,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

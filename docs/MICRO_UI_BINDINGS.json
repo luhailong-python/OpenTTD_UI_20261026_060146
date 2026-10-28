@@ -1,0 +1,2650 @@
+{
+  "schema": "micro-ui-bindings.v1",
+  "createdAt": "2026-10-28T10:16:03.716235+00:00",
+  "referenceCommit": "cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8",
+  "sourceFile": {
+    "file": "reference/OpenTTD/src/table/sprites.h",
+    "sha256": "de61564d8e349c115b579e63b63b47c38e3462b3c48fd50b8d8b0b7d448c87c8",
+    "lines": [
+      56,
+      193
+    ]
+  },
+  "scope": "first UI sprite block incl window controls,4profit,4town rating,all24vehicle-group operations,keyboard/network/depot controls; cursor/selection and world assets separate",
+  "sourceRequirements": 96,
+  "bindings": [
+    {
+      "id": "SPR_LARGE_SMALL_WINDOW",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 56,
+        "expression": "682",
+        "spriteId": 682
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 299
+        },
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 1176
+        },
+        {
+          "file": "reference/OpenTTD/src/industry_gui.cpp",
+          "line": 1937
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_LARGE_SMALL_WINDOW.png",
+      "sha256": "f4c5d7c1996736453543ea2fdebdf4efd3af7b419f31df009259e87f79cb3435",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "LARGE_SMALL_WINDOW",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SQUARE",
+      "category": "palette-marker",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 71,
+        "expression": "SPR_OPENTTD_BASE + 38",
+        "spriteId": 4934
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 598
+        },
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 786
+        },
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 800
+        },
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 896
+        },
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 901
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_gui.cpp",
+          "line": 736
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SQUARE.png",
+      "sha256": "dbdda1e680c1b004a86ad71687f2e24e157f26866b0eaeadccce132673d6f84b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SQUARE",
+      "paletteVariants": [
+        {
+          "state": "company-00",
+          "name": "DarkBlue",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-00.png",
+          "sha256": "403fcbe18711ac27164507f8da83779962c39d65809a74a3fe3b40cd0dee157e"
+        },
+        {
+          "state": "company-01",
+          "name": "PaleGreen",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-01.png",
+          "sha256": "759d725ade1915bf19e4f16000767efb639fd21c8310e90ac8cb55cb2eeb1d39"
+        },
+        {
+          "state": "company-02",
+          "name": "Pink",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-02.png",
+          "sha256": "eda3629a63351f6020471738d612f3e32e481f5c74b072aa614d4a5f23983b6a"
+        },
+        {
+          "state": "company-03",
+          "name": "Yellow",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-03.png",
+          "sha256": "913422502e4bb35909c93af5ab2e140be06877295b55e055c20cc4f370cbd148"
+        },
+        {
+          "state": "company-04",
+          "name": "Red",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-04.png",
+          "sha256": "ee14cfafec2b978c732786377af67cd4bd13cc01bc51b2b4b2f0499f7e6f7ebe"
+        },
+        {
+          "state": "company-05",
+          "name": "LightBlue",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-05.png",
+          "sha256": "3ad1e35b14a6c2e7d0b496ae455c30409f931978ff8c593ee0aa7ed39ea37866"
+        },
+        {
+          "state": "company-06",
+          "name": "Green",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-06.png",
+          "sha256": "de741a93fe69c460871a5a34cc3aaaac45a7ad8e04986de6eecb1228e98041c3"
+        },
+        {
+          "state": "company-07",
+          "name": "DarkGreen",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-07.png",
+          "sha256": "bd08fe239ef48892cbb2cb2535790e08c24b029f5acf138b47063cb7a00225b9"
+        },
+        {
+          "state": "company-08",
+          "name": "Blue",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-08.png",
+          "sha256": "cd5a766fdf0c9b61e04b5a96070594aaf07812ac2073538a7c7152ac4205ab4b"
+        },
+        {
+          "state": "company-09",
+          "name": "Cream",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-09.png",
+          "sha256": "da1e5c8baa8bf533e57ff43d24384b6518a61c2884eca6957a8671b604db4202"
+        },
+        {
+          "state": "company-10",
+          "name": "Mauve",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-10.png",
+          "sha256": "a5b4f25eb5a761e513cfca4087ddadfe400755555a11b82285aeb1e3f7656e98"
+        },
+        {
+          "state": "company-11",
+          "name": "Purple",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-11.png",
+          "sha256": "ab9486e5707b735f6756c35d0bd12988ca55b3f0f2a0563feda1bbf808f899fe"
+        },
+        {
+          "state": "company-12",
+          "name": "Orange",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-12.png",
+          "sha256": "d286a166d4e5d0704c929ede59e26e9e335291e7bc08d27640a6f10d73e1631b"
+        },
+        {
+          "state": "company-13",
+          "name": "Brown",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-13.png",
+          "sha256": "62c62f8297bac76ad9da3aca8ee38f9b1fffbaa318f5330ee11718641d4567ea"
+        },
+        {
+          "state": "company-14",
+          "name": "Grey",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-14.png",
+          "sha256": "af1b0cf712b792b23107859d15ba883ab5d8b0705422e9848412a984b5018023"
+        },
+        {
+          "state": "company-15",
+          "name": "White",
+          "file": "assets/common/micro-ui/SPR_SQUARE--company-15.png",
+          "sha256": "0a8f2259e7cb2256b21e7ac4536676bb46408120b59d369f76122c5d1e0204c4"
+        }
+      ],
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_BLOT",
+      "category": "palette-marker",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 72,
+        "expression": "SPR_OPENTTD_BASE + 39",
+        "spriteId": 4935
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/picker_gui.cpp",
+          "line": 403
+        },
+        {
+          "file": "reference/OpenTTD/src/picker_gui.cpp",
+          "line": 407
+        },
+        {
+          "file": "reference/OpenTTD/src/picker_gui.cpp",
+          "line": 407
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 600
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 686
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 687
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_BLOT.png",
+      "sha256": "1b9b002e1fc9e4f191a10626645b1e47a4fe32df138ce51e20fdcb5190665f47",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "BLOT",
+      "paletteVariants": [
+        {
+          "state": "green",
+          "name": "compatible-or-installed",
+          "file": "assets/common/micro-ui/SPR_BLOT--green.png",
+          "sha256": "af4ab0bb9c197c2d16cf24d5d6fe3095efcba596a3f7b204427aef9cef08ded9"
+        },
+        {
+          "state": "red",
+          "name": "incompatible-or-missing",
+          "file": "assets/common/micro-ui/SPR_BLOT--red.png",
+          "sha256": "399a6ee278d173c60a4f81bc55a67f53e709a901026c5dbf15b5da38c235fe1e"
+        },
+        {
+          "state": "amber",
+          "name": "warning-or-pending",
+          "file": "assets/common/micro-ui/SPR_BLOT--amber.png",
+          "sha256": "247373bd51e74907f0125113413958298c4981ff7da20cd2433ea5240de23bad"
+        }
+      ],
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_LOCK",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 73,
+        "expression": "SPR_OPENTTD_BASE + 40",
+        "spriteId": 4936
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/toolbar_gui.cpp",
+          "line": 109
+        },
+        {
+          "file": "reference/OpenTTD/src/transparency_gui.cpp",
+          "line": 66
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 423
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 487
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_LOCK.png",
+      "sha256": "184aeb38261db2de09436c39e51fb9dd5341038d6bd05b29f492afedfaa5366d",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "LOCK",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_BOX_EMPTY",
+      "category": "common-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 74,
+        "expression": "SPR_OPENTTD_BASE + 41",
+        "spriteId": 4937
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 600
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 683
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_BOX_EMPTY.png",
+      "sha256": "dbdda1e680c1b004a86ad71687f2e24e157f26866b0eaeadccce132673d6f84b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "BOX_EMPTY",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_BOX_CHECKED",
+      "category": "common-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 75,
+        "expression": "SPR_OPENTTD_BASE + 42",
+        "spriteId": 4938
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 600
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 684
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_content_gui.cpp",
+          "line": 685
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_BOX_CHECKED.png",
+      "sha256": "ebfa390bba980862e96e45939972ebf78ec699abdad4266b810b451277b29401",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "BOX_CHECKED",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WARNING_SIGN",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 76,
+        "expression": "SPR_OPENTTD_BASE + 43",
+        "spriteId": 4939
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/newgrf_gui.cpp",
+          "line": 736
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_gui.cpp",
+          "line": 744
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_gui.cpp",
+          "line": 846
+        },
+        {
+          "file": "reference/OpenTTD/src/newgrf_gui.cpp",
+          "line": 875
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 1818
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 3114
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WARNING_SIGN.png",
+      "sha256": "9fae043024ee7e5e66653386d56f217b1aa21ad7c67951a511269c1f9ce988d9",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WARNING_SIGN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WINDOW_RESIZE_RIGHT",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 77,
+        "expression": "SPR_OPENTTD_BASE + 44",
+        "spriteId": 4940
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 715
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2893
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WINDOW_RESIZE_RIGHT.png",
+      "sha256": "d73d9ae88c74091ebcc0624438f9a621a5651637e384d84fe2308d2e4463022e",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WINDOW_RESIZE_RIGHT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WINDOW_RESIZE_LEFT",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 78,
+        "expression": "SPR_OPENTTD_BASE + 149",
+        "spriteId": 5045
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 715
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2893
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WINDOW_RESIZE_LEFT.png",
+      "sha256": "bd691218402bbad9a8188d52fcb95040d067c20aee0e11b9c0a6c173ec8516e0",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WINDOW_RESIZE_LEFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WINDOW_SHADE",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 79,
+        "expression": "SPR_OPENTTD_BASE + 151",
+        "spriteId": 5047
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 664
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2844
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WINDOW_SHADE.png",
+      "sha256": "11af6f901b69a8bc7fe1fa140e8d0cd8b2a73f6b84f8f1022eb40b27329f2889",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WINDOW_SHADE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WINDOW_UNSHADE",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 80,
+        "expression": "SPR_OPENTTD_BASE + 152",
+        "spriteId": 5048
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 664
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2844
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WINDOW_UNSHADE.png",
+      "sha256": "e173168a1e200e7969b27724230c56eb6fe1f45df0bc4bc6c9c2bf71d44c3573",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WINDOW_UNSHADE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WINDOW_DEBUG",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 81,
+        "expression": "SPR_OPENTTD_BASE + 153",
+        "spriteId": 5049
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 697
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2855
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WINDOW_DEBUG.png",
+      "sha256": "a6ec3e22178af09234fd210a4c0d4c980d2ca5a6dfbb94b29044aaba75037976",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WINDOW_DEBUG",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_IMG_PLAY_MUSIC_RTL",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 82,
+        "expression": "SPR_OPENTTD_BASE + 150",
+        "spriteId": 5046
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/music_gui.cpp",
+          "line": 740
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_IMG_PLAY_MUSIC_RTL.png",
+      "sha256": "294d5565075e91f8908b29ba90a85cbaedeee9a6a599c7dfdf89c2334a27e4ee",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "IMG_PLAY_MUSIC_RTL",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_ARROW_DOWN",
+      "category": "direction-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 85,
+        "expression": "SPR_OPENTTD_BASE + 45",
+        "spriteId": 4941
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 146
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 152
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 161
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 254
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 285
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 291
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_ARROW_DOWN.png",
+      "sha256": "b55f4f909a097aadbe4ff94a9c6f24090b99aaca2f109db7c5621cf9247f3515",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "ARROW_DOWN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_ARROW_UP",
+      "category": "direction-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 86,
+        "expression": "SPR_OPENTTD_BASE + 46",
+        "spriteId": 4942
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 148
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 154
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 163
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 256
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 287
+        },
+        {
+          "file": "reference/OpenTTD/src/genworld_gui.cpp",
+          "line": 293
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_ARROW_UP.png",
+      "sha256": "3a89889aaefba9e4dee150dba0551c78abbfd2ac58ffe69a1d007d58a5c06325",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "ARROW_UP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_ARROW_LEFT",
+      "category": "direction-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 87,
+        "expression": "SPR_OPENTTD_BASE + 47",
+        "spriteId": 4943
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/newgrf_debug_gui.cpp",
+          "line": 1140
+        },
+        {
+          "file": "reference/OpenTTD/src/order_gui.cpp",
+          "line": 227
+        },
+        {
+          "file": "reference/OpenTTD/src/order_gui.cpp",
+          "line": 1086
+        },
+        {
+          "file": "reference/OpenTTD/src/settings_gui.cpp",
+          "line": 1885
+        },
+        {
+          "file": "reference/OpenTTD/src/timetable_gui.cpp",
+          "line": 442
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 572
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_ARROW_LEFT.png",
+      "sha256": "b4ad5e57b7e9337c79c0904f8614ac24c5a1be6f897e0ec76fa4f0b0ea6d9b4b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "ARROW_LEFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_ARROW_RIGHT",
+      "category": "direction-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 88,
+        "expression": "SPR_OPENTTD_BASE + 48",
+        "spriteId": 4944
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/newgrf_debug_gui.cpp",
+          "line": 1147
+        },
+        {
+          "file": "reference/OpenTTD/src/order_gui.cpp",
+          "line": 227
+        },
+        {
+          "file": "reference/OpenTTD/src/order_gui.cpp",
+          "line": 1086
+        },
+        {
+          "file": "reference/OpenTTD/src/settings_gui.cpp",
+          "line": 1886
+        },
+        {
+          "file": "reference/OpenTTD/src/timetable_gui.cpp",
+          "line": 442
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 573
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_ARROW_RIGHT.png",
+      "sha256": "a323473ef26522a782d37996263d3931b8d2544692015e2c3f82c9061cb6bb62",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "ARROW_RIGHT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_HOUSE_ICON",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 90,
+        "expression": "SPR_OPENTTD_BASE + 49",
+        "spriteId": 4945
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/fios_gui.cpp",
+          "line": 119
+        },
+        {
+          "file": "reference/OpenTTD/src/fios_gui.cpp",
+          "line": 179
+        },
+        {
+          "file": "reference/OpenTTD/src/fios_gui.cpp",
+          "line": 224
+        },
+        {
+          "file": "reference/OpenTTD/src/fios_gui.cpp",
+          "line": 271
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_HOUSE_ICON.png",
+      "sha256": "001555933ec124f0b86717b273d912b5e71cd0d6e67e66ecdf2a4cc397b2a9df",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "HOUSE_ICON",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SHARED_ORDERS_ICON",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 91,
+        "expression": "SPR_OPENTTD_BASE + 50",
+        "spriteId": 4946
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/order_gui.cpp",
+          "line": 1625
+        },
+        {
+          "file": "reference/OpenTTD/src/order_gui.cpp",
+          "line": 1702
+        },
+        {
+          "file": "reference/OpenTTD/src/timetable_gui.cpp",
+          "line": 846
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SHARED_ORDERS_ICON.png",
+      "sha256": "3a60f7f6a6b04f0ddbbb74815d5ea6882a6203a384f7e83956668cc60c623fcb",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SHARED_ORDERS_ICON",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PIN_UP",
+      "category": "window-pin",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 92,
+        "expression": "SPR_OPENTTD_BASE + 51",
+        "spriteId": 4947
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 675
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2871
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PIN_UP.png",
+      "sha256": "e8375f7be039b817f06409d947d1dc361d19281397ffad7a5ac3bd54fac0593d",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PIN_UP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PIN_DOWN",
+      "category": "window-pin",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 93,
+        "expression": "SPR_OPENTTD_BASE + 52",
+        "spriteId": 4948
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 675
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2871
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PIN_DOWN.png",
+      "sha256": "5e912019b88c134c38b742bb7606a819dae0e20b075293260c141b1602d5854f",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PIN_DOWN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CLOSEBOX",
+      "category": "common-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 95,
+        "expression": "143",
+        "spriteId": 143
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 727
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 730
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 731
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2954
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CLOSEBOX.png",
+      "sha256": "d74695ec29f9e4af196d8468b485e3d8e0d1a2c76efc9aecf505471722bb85b8",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CLOSEBOX",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CIRCLE_FOLDED",
+      "category": "common-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 97,
+        "expression": "SPR_OPENTTD_BASE + 147",
+        "spriteId": 5043
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 932
+        },
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 995
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 244
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 376
+        },
+        {
+          "file": "reference/OpenTTD/src/settingentry_gui.cpp",
+          "line": 561
+        },
+        {
+          "file": "reference/OpenTTD/src/settings_gui.cpp",
+          "line": 449
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CIRCLE_FOLDED.png",
+      "sha256": "bc6c2be47f1da6ae11dc3c34f2e2099e119723add58e1dd2dae986b627d9056a",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CIRCLE_FOLDED",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CIRCLE_UNFOLDED",
+      "category": "common-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 98,
+        "expression": "SPR_OPENTTD_BASE + 148",
+        "spriteId": 5044
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 932
+        },
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 995
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 244
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 376
+        },
+        {
+          "file": "reference/OpenTTD/src/settingentry_gui.cpp",
+          "line": 561
+        },
+        {
+          "file": "reference/OpenTTD/src/settings_gui.cpp",
+          "line": 449
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CIRCLE_UNFOLDED.png",
+      "sha256": "7b53631908682a3f14a42c5955793b0d2642c2f5a0fb10ac56a6cfbe86aa2f23",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CIRCLE_UNFOLDED",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_OSK_LEFT",
+      "category": "direction-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 102,
+        "expression": "SPR_OPENTTD_BASE + 138",
+        "spriteId": 5034
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/osk_gui.cpp",
+          "line": 322
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_OSK_LEFT.png",
+      "sha256": "b4ad5e57b7e9337c79c0904f8614ac24c5a1be6f897e0ec76fa4f0b0ea6d9b4b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "OSK_LEFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_OSK_RIGHT",
+      "category": "direction-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 103,
+        "expression": "SPR_OPENTTD_BASE + 139",
+        "spriteId": 5035
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/osk_gui.cpp",
+          "line": 323
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_OSK_RIGHT.png",
+      "sha256": "a323473ef26522a782d37996263d3931b8d2544692015e2c3f82c9061cb6bb62",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "OSK_RIGHT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_OSK_CAPS",
+      "category": "keyboard-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 104,
+        "expression": "SPR_OPENTTD_BASE + 140",
+        "spriteId": 5036
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/osk_gui.cpp",
+          "line": 292
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_OSK_CAPS.png",
+      "sha256": "8de7b04b550098beb1bd377ffd273adaf082edba32a5f64e277ba392d10441ce",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "OSK_CAPS",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_OSK_SHIFT",
+      "category": "keyboard-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 105,
+        "expression": "SPR_OPENTTD_BASE + 141",
+        "spriteId": 5037
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/osk_gui.cpp",
+          "line": 305
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_OSK_SHIFT.png",
+      "sha256": "11af6f901b69a8bc7fe1fa140e8d0cd8b2a73f6b84f8f1022eb40b27329f2889",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "OSK_SHIFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_OSK_BACKSPACE",
+      "category": "keyboard-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 106,
+        "expression": "SPR_OPENTTD_BASE + 142",
+        "spriteId": 5038
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/osk_gui.cpp",
+          "line": 256
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_OSK_BACKSPACE.png",
+      "sha256": "c28cba5d1b8b0e8b613be02b3ffa371427344499395e1b7bea52fac0cabb0e84",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "OSK_BACKSPACE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_OSK_SPECIAL",
+      "category": "keyboard-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 107,
+        "expression": "SPR_OPENTTD_BASE + 143",
+        "spriteId": 5039
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/osk_gui.cpp",
+          "line": 278
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_OSK_SPECIAL.png",
+      "sha256": "a6ec3e22178af09234fd210a4c0d4c980d2ca5a6dfbb94b29044aaba75037976",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "OSK_SPECIAL",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CLONE_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 112,
+        "expression": "SPR_OPENTTD_BASE + 106",
+        "spriteId": 5002
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 3058
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CLONE_TRAIN.png",
+      "sha256": "b28adc845e0add2c7f7b9e95c6006036dc663a73ae3beab0374a190b004522a9",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CLONE_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CLONE_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 113,
+        "expression": "SPR_OPENTTD_BASE + 107",
+        "spriteId": 5003
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 3059
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CLONE_ROADVEH.png",
+      "sha256": "a92578ae1e796d47ae893b141b7e938f4c8d2e731df5bec6b8364f1ab4b04639",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CLONE_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CLONE_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 114,
+        "expression": "SPR_OPENTTD_BASE + 108",
+        "spriteId": 5004
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 3060
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CLONE_SHIP.png",
+      "sha256": "9edf6b8ea17b1c7e75565725ec84da5c11618db7b2093b92892b533395ccb003",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CLONE_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CLONE_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 115,
+        "expression": "SPR_OPENTTD_BASE + 109",
+        "spriteId": 5005
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 3061
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CLONE_AIRCRAFT.png",
+      "sha256": "0188a7a569e45f66d8e56f3a679454b135064969a9d420c85feca4c805f4b7d4",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CLONE_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 118,
+        "expression": "SPR_OPENTTD_BASE +  93",
+        "spriteId": 4989
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 653
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_TRAIN.png",
+      "sha256": "7642add9d0a29c6d5a2cf1273434f4c66628096f89f2dd0affcb82c4cb0b23ae",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 119,
+        "expression": "SPR_OPENTTD_BASE +  94",
+        "spriteId": 4990
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 662
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_ROADVEH.png",
+      "sha256": "e256265b024575b93c1c0c3f58f23825c15c2146ffb0830656a4afc90871dc8a",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 120,
+        "expression": "SPR_OPENTTD_BASE +  95",
+        "spriteId": 4991
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 671
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_SHIP.png",
+      "sha256": "d459dbc0cad9b0f5a75b8864a055d14eb671421a73a962a9ea20154967402bdc",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 121,
+        "expression": "SPR_OPENTTD_BASE +  96",
+        "spriteId": 4992
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 680
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_AIRCRAFT.png",
+      "sha256": "1982084ada4f31ada01b44e3f82fcd2c70cd3414482a06fc586f89c153b979ab",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_ALL_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 122,
+        "expression": "SPR_OPENTTD_BASE +  97",
+        "spriteId": 4993
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 654
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_ALL_TRAIN.png",
+      "sha256": "a2815bb3f1e5f13a443dd4c777a453f525c6d879c76c5cf825470fac418d5a38",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_ALL_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_ALL_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 123,
+        "expression": "SPR_OPENTTD_BASE +  98",
+        "spriteId": 4994
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 663
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_ALL_ROADVEH.png",
+      "sha256": "8df5d03ac9c73f66fb881f050e89cf47c9a129b4302a93bee30506ff07ef6e12",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_ALL_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_ALL_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 124,
+        "expression": "SPR_OPENTTD_BASE +  99",
+        "spriteId": 4995
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 672
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_ALL_SHIP.png",
+      "sha256": "0f195eb85591574ada4864eb2383ba583304b246aad4ed6f33b492db84663b86",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_ALL_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_ALL_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 125,
+        "expression": "SPR_OPENTTD_BASE + 100",
+        "spriteId": 4996
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 681
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_ALL_AIRCRAFT.png",
+      "sha256": "0f3588792f0c49737460b60e61a1957410e51d5530b2a170b4a5e70c5e67a941",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_ALL_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_REPLACE_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 126,
+        "expression": "SPR_OPENTTD_BASE + 101",
+        "spriteId": 4997
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 655
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_REPLACE_TRAIN.png",
+      "sha256": "6b34b22929e3c38b5a9b4f61ed3018b23ab83db2b71eb19ade9619d36759d425",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "REPLACE_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_REPLACE_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 127,
+        "expression": "SPR_OPENTTD_BASE + 102",
+        "spriteId": 4998
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 664
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_REPLACE_ROADVEH.png",
+      "sha256": "d923e8786cce602a5bf7783fa8a63416cda5ba2e210560315a2a8700339274c5",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "REPLACE_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_REPLACE_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 128,
+        "expression": "SPR_OPENTTD_BASE + 103",
+        "spriteId": 4999
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 673
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_REPLACE_SHIP.png",
+      "sha256": "b39a1c3fc3a2d833ec9217dfb52d30cde816bc68fd4598bd95cf02f22f4be1fa",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "REPLACE_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_REPLACE_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 129,
+        "expression": "SPR_OPENTTD_BASE + 104",
+        "spriteId": 5000
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 682
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_REPLACE_AIRCRAFT.png",
+      "sha256": "f09e0b91eb4acd825d45a60475cd0cb26a77355458f4642e7e928f2d2aca5fa0",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "REPLACE_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_SELL_CHAIN_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 130,
+        "expression": "SPR_OPENTTD_BASE + 105",
+        "spriteId": 5001
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 73
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_SELL_CHAIN_TRAIN.png",
+      "sha256": "8aa496764be6111bf5fd0d400296ce39d374a0005c72f77dffa1a44ee0fa09a3",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "SELL_CHAIN_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PROFIT_NA",
+      "category": "profit-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 132,
+        "expression": "SPR_OPENTTD_BASE + 154",
+        "spriteId": 5050
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 259
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 325
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 586
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PROFIT_NA.png",
+      "sha256": "4bba6b8154cdd92b2537fc76cd08d97f7b9b69afdea7a486d59694f420f2376f",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PROFIT_NA",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PROFIT_NEGATIVE",
+      "category": "profit-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 133,
+        "expression": "SPR_OPENTTD_BASE + 155",
+        "spriteId": 5051
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 259
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 328
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 588
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PROFIT_NEGATIVE.png",
+      "sha256": "81824fd984fc4ce409b87e367fdf3d23900bf36815bcd6f5b323c1a9a85eb850",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PROFIT_NEGATIVE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PROFIT_SOME",
+      "category": "profit-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 134,
+        "expression": "SPR_OPENTTD_BASE + 156",
+        "spriteId": 5052
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 259
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 329
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 590
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PROFIT_SOME.png",
+      "sha256": "98de2bdc1eb23585d8ef2b20a62c8aca185e35546c22ad9e7de92d36b5503443",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PROFIT_SOME",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PROFIT_LOT",
+      "category": "profit-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 135,
+        "expression": "SPR_OPENTTD_BASE + 157",
+        "spriteId": 5053
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 259
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 330
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 592
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 1790
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PROFIT_LOT.png",
+      "sha256": "9dbcf3968909da7e30ba8e9b3f045282362f2019ea0af2c62e7424c377b6d38d",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PROFIT_LOT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_UNREAD_NEWS",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 137,
+        "expression": "SPR_OPENTTD_BASE + 158",
+        "spriteId": 5054
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/statusbar_gui.cpp",
+          "line": 157
+        },
+        {
+          "file": "reference/OpenTTD/src/statusbar_gui.cpp",
+          "line": 158
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_UNREAD_NEWS.png",
+      "sha256": "f815dab326e76603e54571e10358b08f16ffbd83d3a7289594749752fb03a004",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "UNREAD_NEWS",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_EXCLUSIVE_TRANSPORT",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 138,
+        "expression": "SPR_OPENTTD_BASE + 159",
+        "spriteId": 5055
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 133
+        },
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 188
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_EXCLUSIVE_TRANSPORT.png",
+      "sha256": "184aeb38261db2de09436c39e51fb9dd5341038d6bd05b29f492afedfaa5366d",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "EXCLUSIVE_TRANSPORT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_PROTECT",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 139,
+        "expression": "SPR_OPENTTD_BASE + 160",
+        "spriteId": 5056
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 251
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 384
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_PROTECT.png",
+      "sha256": "e4ec2fb1f3838d60e190b3730eb1410542c57fb53d560f213236f75d6926c900",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_PROTECT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_ACTIVE",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 140,
+        "expression": "SPR_OPENTTD_BASE + 161",
+        "spriteId": 5057
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 943
+        },
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 1032
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 254
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 389
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_ACTIVE.png",
+      "sha256": "3984ddd414b3b384fc1a687c5c1649b2624f22fdcc03b19a96b7b9bd166a47cf",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_ACTIVE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_CREATE_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 142,
+        "expression": "SPR_OPENTTD_BASE + 114",
+        "spriteId": 5010
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 439
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_CREATE_TRAIN.png",
+      "sha256": "2df9661b5552789e98957141540ba8cc0c97285c9d3dc146a165a301728f276f",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_CREATE_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_CREATE_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 143,
+        "expression": "SPR_OPENTTD_BASE + 115",
+        "spriteId": 5011
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_CREATE_ROADVEH.png",
+      "sha256": "4254398e718f3cb6ae0b496513724e02ed854f2c45c94b4415eec1f64194a8f1",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_CREATE_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_CREATE_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 144,
+        "expression": "SPR_OPENTTD_BASE + 116",
+        "spriteId": 5012
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_CREATE_SHIP.png",
+      "sha256": "1d76169e187488bcf9e5c556d1f3cac50c478e2c8c04d72b598f4d121ff6aa6c",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_CREATE_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_CREATE_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 145,
+        "expression": "SPR_OPENTTD_BASE + 117",
+        "spriteId": 5013
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_CREATE_AIRCRAFT.png",
+      "sha256": "f29b302388d79051a1136fac41ad082db6494e499353c255e89228a8681c9857",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_CREATE_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_DELETE_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 146,
+        "expression": "SPR_OPENTTD_BASE + 118",
+        "spriteId": 5014
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 441
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_DELETE_TRAIN.png",
+      "sha256": "472d21514050b083366e07018539ff53935922717c38dc240940b347031b192c",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_DELETE_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_DELETE_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 147,
+        "expression": "SPR_OPENTTD_BASE + 119",
+        "spriteId": 5015
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_DELETE_ROADVEH.png",
+      "sha256": "be855ce933a900e9b85646941b11e40a385490a920a76f46c8b21733dbeeb606",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_DELETE_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_DELETE_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 148,
+        "expression": "SPR_OPENTTD_BASE + 120",
+        "spriteId": 5016
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_DELETE_SHIP.png",
+      "sha256": "b72f58d49e999836a44a7ed3d21a3b053f11c11c390b5bf37c5de994f5a6d938",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_DELETE_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_DELETE_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 149,
+        "expression": "SPR_OPENTTD_BASE + 121",
+        "spriteId": 5017
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_DELETE_AIRCRAFT.png",
+      "sha256": "22877372348d8064724635eaa64d51b2990a036a48db53ac7d1c5ee0c790f5f1",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_DELETE_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_RENAME_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 150,
+        "expression": "SPR_OPENTTD_BASE + 122",
+        "spriteId": 5018
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 440
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_RENAME_TRAIN.png",
+      "sha256": "f0ba71f716f841e6c917db18772fff4a0cc2d6176340c268d4355784a469c093",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_RENAME_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_RENAME_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 151,
+        "expression": "SPR_OPENTTD_BASE + 123",
+        "spriteId": 5019
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_RENAME_ROADVEH.png",
+      "sha256": "cb46eb44216786e66a31fa39962a4a98cad8309774b5f6e6e9afca752f431ea3",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_RENAME_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_RENAME_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 152,
+        "expression": "SPR_OPENTTD_BASE + 124",
+        "spriteId": 5020
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_RENAME_SHIP.png",
+      "sha256": "804141f6ddd7aa9994d98022afe8c3dbe5d07d69d0e1b008cf63ecc7c8faa698",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_RENAME_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_RENAME_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 153,
+        "expression": "SPR_OPENTTD_BASE + 125",
+        "spriteId": 5021
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_RENAME_AIRCRAFT.png",
+      "sha256": "e0d5ccb939d26d25507c26cdee75f2c298101c6c83d49e44249da2cb1d2595bd",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_RENAME_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_ON_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 154,
+        "expression": "SPR_OPENTTD_BASE + 126",
+        "spriteId": 5022
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 627
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_ON_TRAIN.png",
+      "sha256": "e2feb154da0a1ebc24b00e3f7df0935860f55cecf1213c7414172d340711844b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_ON_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_ON_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 155,
+        "expression": "SPR_OPENTTD_BASE + 127",
+        "spriteId": 5023
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_ON_ROADVEH.png",
+      "sha256": "4d67b0cfbdef26b8c013dfc556aa56a498804a58e72a35c2f1f833222c9e468b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_ON_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_ON_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 156,
+        "expression": "SPR_OPENTTD_BASE + 128",
+        "spriteId": 5024
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_ON_SHIP.png",
+      "sha256": "8c2ab83a1757f565adcb1ed8837bf59e84de919305e46c1d93a9ebcaf6584e47",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_ON_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_ON_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 157,
+        "expression": "SPR_OPENTTD_BASE + 129",
+        "spriteId": 5025
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_ON_AIRCRAFT.png",
+      "sha256": "0c51cc674db4446a5330b46c85db7446d779f981323e80808f336e0b92c08cff",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_ON_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_OFF_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 158,
+        "expression": "SPR_OPENTTD_BASE + 130",
+        "spriteId": 5026
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 443
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 626
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_OFF_TRAIN.png",
+      "sha256": "cb1d4fa2d850f8dbc298dcb9b6ff2fc5e1ec07578913a921810cdac992b299a8",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_OFF_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_OFF_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 159,
+        "expression": "SPR_OPENTTD_BASE + 131",
+        "spriteId": 5027
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_OFF_ROADVEH.png",
+      "sha256": "cbb60783fcc3902ce41e99ad71f2dd87fa6c5c01327e74bb62b17a8a6ec6f5f1",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_OFF_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_OFF_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 160,
+        "expression": "SPR_OPENTTD_BASE + 132",
+        "spriteId": 5028
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_OFF_SHIP.png",
+      "sha256": "555605ca63ee39ca29ad9e3688de627d0390f56e516a3347e558c1345364e992",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_OFF_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_REPLACE_OFF_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 161,
+        "expression": "SPR_OPENTTD_BASE + 133",
+        "spriteId": 5029
+      },
+      "usageExamples": [],
+      "file": "assets/common/micro-ui/SPR_GROUP_REPLACE_OFF_AIRCRAFT.png",
+      "sha256": "0bba5c022a3e5819407deeaa9a64e21f08a9989c30bb027338fd66028ed98fbc",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_REPLACE_OFF_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_LIVERY_TRAIN",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 163,
+        "expression": "SPR_OPENTTD_BASE + 175",
+        "spriteId": 5071
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 1084
+        },
+        {
+          "file": "reference/OpenTTD/src/group_gui.cpp",
+          "line": 442
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_LIVERY_TRAIN.png",
+      "sha256": "03d14da748ebfb38c72feace9a852c1d6b185c8d480a17e985855480999da073",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_LIVERY_TRAIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_LIVERY_ROADVEH",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 164,
+        "expression": "SPR_OPENTTD_BASE + 176",
+        "spriteId": 5072
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 1085
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_LIVERY_ROADVEH.png",
+      "sha256": "9c03dd3947d1acab202dc11a08151cb5ecbcd86ca8969e09b6bcfa7ff8fbc517",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_LIVERY_ROADVEH",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_LIVERY_SHIP",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 165,
+        "expression": "SPR_OPENTTD_BASE + 177",
+        "spriteId": 5073
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 1086
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_LIVERY_SHIP.png",
+      "sha256": "5efa5dc898a8da3c1de7e69251caa91e6e444bdc2c2efdd081b60b31e0504982",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_LIVERY_SHIP",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GROUP_LIVERY_AIRCRAFT",
+      "category": "vehicle-operation",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 166,
+        "expression": "SPR_OPENTTD_BASE + 178",
+        "spriteId": 5074
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/company_gui.cpp",
+          "line": 1087
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GROUP_LIVERY_AIRCRAFT.png",
+      "sha256": "390bb91591347f6c997830ba42930613bc51e8d3794e46cfaef3b38f532fdcb2",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GROUP_LIVERY_AIRCRAFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_TOWN_RATING_NA",
+      "category": "town-rating",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 168,
+        "expression": "SPR_OPENTTD_BASE + 162",
+        "spriteId": 5058
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 874
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_TOWN_RATING_NA.png",
+      "sha256": "4e4d8ccba0aeb654ad5f48e07f9572c84e4f31a4b32d24c996d7913796493a32",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "TOWN_RATING_NA",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_TOWN_RATING_APPALLING",
+      "category": "town-rating",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 169,
+        "expression": "SPR_OPENTTD_BASE + 163",
+        "spriteId": 5059
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 876
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_TOWN_RATING_APPALLING.png",
+      "sha256": "ade8a2d6556facd80087b73024458236164b6ad9c72f982a0ae2b1ed1cca74e7",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "TOWN_RATING_APPALLING",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_TOWN_RATING_MEDIOCRE",
+      "category": "town-rating",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 170,
+        "expression": "SPR_OPENTTD_BASE + 164",
+        "spriteId": 5060
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 877
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_TOWN_RATING_MEDIOCRE.png",
+      "sha256": "1e83f13207d66facc4e768753f4e80b411947b4c42d2bfa0c351515b34bc8c7d",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "TOWN_RATING_MEDIOCRE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_TOWN_RATING_GOOD",
+      "category": "town-rating",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 171,
+        "expression": "SPR_OPENTTD_BASE + 165",
+        "spriteId": 5061
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 863
+        },
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 878
+        },
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 918
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_TOWN_RATING_GOOD.png",
+      "sha256": "2091ac9ea3c74cef58e3f8ce1f07323d9a76ef8666f6edcb939ef02b67724068",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "TOWN_RATING_GOOD",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_IMG_SWITCH_TOOLBAR",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 173,
+        "expression": "SPR_OPENTTD_BASE + 144",
+        "spriteId": 5040
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/toolbar_gui.cpp",
+          "line": 2220
+        },
+        {
+          "file": "reference/OpenTTD/src/toolbar_gui.cpp",
+          "line": 2599
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_IMG_SWITCH_TOOLBAR.png",
+      "sha256": "3984ddd414b3b384fc1a687c5c1649b2624f22fdcc03b19a96b7b9bd166a47cf",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "IMG_SWITCH_TOOLBAR",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_IMG_DELETE_LEFT",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 175,
+        "expression": "SPR_OPENTTD_BASE + 166",
+        "spriteId": 5062
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 739
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 747
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 796
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 824
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 854
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 875
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_IMG_DELETE_LEFT.png",
+      "sha256": "1cff2832a68d59b12e5b226733cc1011de51106b8b51454eca7168ea5c49b0b6",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "IMG_DELETE_LEFT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_IMG_DELETE_RIGHT",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 176,
+        "expression": "SPR_OPENTTD_BASE + 167",
+        "spriteId": 5063
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 739
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 747
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 796
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 824
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 854
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 875
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_IMG_DELETE_RIGHT.png",
+      "sha256": "e8d85d587ce4b9a2bbdf2cdbe6286fb3233631023e9cc7e9e7296a65f861ec60",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "IMG_DELETE_RIGHT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_WINDOW_DEFSIZE",
+      "category": "window-control",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 178,
+        "expression": "SPR_OPENTTD_BASE + 168",
+        "spriteId": 5064
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 686
+        },
+        {
+          "file": "reference/OpenTTD/src/widget.cpp",
+          "line": 2882
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_WINDOW_DEFSIZE.png",
+      "sha256": "f4c5d7c1996736453543ea2fdebdf4efd3af7b419f31df009259e87f79cb3435",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "WINDOW_DEFSIZE",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_RENAME",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 179,
+        "expression": "SPR_OPENTTD_BASE + 184",
+        "spriteId": 5080
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 55
+        },
+        {
+          "file": "reference/OpenTTD/src/station_gui.cpp",
+          "line": 843
+        },
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 617
+        },
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 649
+        },
+        {
+          "file": "reference/OpenTTD/src/vehicle_gui.cpp",
+          "line": 2865
+        },
+        {
+          "file": "reference/OpenTTD/src/waypoint_gui.cpp",
+          "line": 200
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_RENAME.png",
+      "sha256": "8d7d25f549ec72ce1b607e9f71f45f1a9c9fd117d3305a77273c444fe35ec0fb",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "RENAME",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_GOTO_LOCATION",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 180,
+        "expression": "SPR_OPENTTD_BASE + 185",
+        "spriteId": 5081
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/depot_gui.cpp",
+          "line": 58
+        },
+        {
+          "file": "reference/OpenTTD/src/industry_gui.cpp",
+          "line": 1202
+        },
+        {
+          "file": "reference/OpenTTD/src/misc_gui.cpp",
+          "line": 51
+        },
+        {
+          "file": "reference/OpenTTD/src/signs_gui.cpp",
+          "line": 596
+        },
+        {
+          "file": "reference/OpenTTD/src/station_gui.cpp",
+          "line": 845
+        },
+        {
+          "file": "reference/OpenTTD/src/town_gui.cpp",
+          "line": 619
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_GOTO_LOCATION.png",
+      "sha256": "3b6800f39f14fb90b257fcf614a153c1a95851cab0035d11969be046b280b2a7",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "GOTO_LOCATION",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_CHAT",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 182,
+        "expression": "SPR_OPENTTD_BASE + 186",
+        "spriteId": 5082
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1735
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1745
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1838
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_CHAT.png",
+      "sha256": "3e895c48f3da60c86af8bf2a5b4090a215945eefd793b8de5f6db0504aeb3a3e",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "CHAT",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_ADMIN",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 183,
+        "expression": "SPR_OPENTTD_BASE + 187",
+        "spriteId": 5083
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1733
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1744
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1838
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_ADMIN.png",
+      "sha256": "e4ec2fb1f3838d60e190b3730eb1410542c57fb53d560f213236f75d6926c900",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "ADMIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_JOIN",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 184,
+        "expression": "SPR_OPENTTD_BASE + 188",
+        "spriteId": 5084
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1736
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1746
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1766
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1838
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_JOIN.png",
+      "sha256": "db755794b007bccd6ef808b7a7cd5d7e7ca9a03418732c159f8b6bc25cf1bd4b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "JOIN",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PLAYER_SELF",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 185,
+        "expression": "SPR_OPENTTD_BASE + 189",
+        "spriteId": 5085
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1561
+        },
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1578
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PLAYER_SELF.png",
+      "sha256": "def24c0c9e3f56711cff424a708e6e0fa3553552735a69996a7909078ade673b",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PLAYER_SELF",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_PLAYER_HOST",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 186,
+        "expression": "SPR_OPENTTD_BASE + 190",
+        "spriteId": 5086
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/network/network_gui.cpp",
+          "line": 1563
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_PLAYER_HOST.png",
+      "sha256": "d11370fd720b0b9515a9e38d4335c02c81e08b93fd91aa37e2e29f83d46ea4f3",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "PLAYER_HOST",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_EXTRA_MENU",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 188,
+        "expression": "SPR_OPENTTD_BASE + 191",
+        "spriteId": 5087
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/build_vehicle_gui.cpp",
+          "line": 76
+        },
+        {
+          "file": "reference/OpenTTD/src/picker_gui.cpp",
+          "line": 999
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_EXTRA_MENU.png",
+      "sha256": "e517b262d9d220fa7246e44717f0330d625fc508f295c9d6ecde31e691cf61ec",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "EXTRA_MENU",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    },
+    {
+      "id": "SPR_IMG_CARGOFLOW",
+      "category": "function-status",
+      "source": {
+        "file": "reference/OpenTTD/src/table/sprites.h",
+        "line": 190,
+        "expression": "SPR_OPENTTD_BASE + 174",
+        "spriteId": 5070
+      },
+      "usageExamples": [
+        {
+          "file": "reference/OpenTTD/src/smallmap_gui.cpp",
+          "line": 1925
+        }
+      ],
+      "file": "assets/common/micro-ui/SPR_IMG_CARGOFLOW.png",
+      "sha256": "5448a2c166896110f198d3bd72e049467e42feb4bc64ed3cb23991b49e65e2eb",
+      "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+      "localArtReviewed": true,
+      "functionalMeaning": "IMG_CARGOFLOW",
+      "actualVisualReview": "records/micro-ui-visual-review.json"
+    }
+  ],
+  "manifest": "assets/common/micro-ui/manifest.json",
+  "manifestSHA256": "9e8c5d577433f8d4cd3cde7cb3f680e601600d2e652ceb489ded4859d62debe7",
+  "complete": true,
+  "failed": [],
+  "userArtAcceptance": "pending",
+  "unityValidated": false
+}

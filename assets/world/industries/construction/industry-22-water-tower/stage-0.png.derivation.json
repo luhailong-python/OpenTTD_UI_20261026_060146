@@ -1,0 +1,44 @@
+{
+  "id": "industry-22-water-tower-construction-0",
+  "image": "assets/world/industries/construction/industry-22-water-tower/stage-0.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "91ccd43d1a6430dc209334954efb3ee4f9cef625a3ead72361d2d1956382e06b",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/water-tower.png",
+      "sha256": "8855d3c6b9befc012f2b6d0a8db3387c8cb447a45461d3de01299c1585e69ccf",
+      "record": "assets/world/industries/water-tower.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "record": "assets/world/infrastructure/construction-ready/construction-foundation.png.derivation.json",
+      "scale": 0.5762376237623762
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 22,
+  "stage": 0,
+  "details": {
+    "kind": "shared industry foundation matched to compound front contact",
+    "sharedSource": true
+  },
+  "sourceRequirementIds": [
+    "industry-22-water-tower",
+    "industry-tile-120"
+  ]
+}

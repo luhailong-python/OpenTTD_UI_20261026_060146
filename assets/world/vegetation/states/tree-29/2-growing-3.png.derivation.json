@@ -1,0 +1,39 @@
+{
+  "id": "tree-29-growing-3",
+  "image": "assets/world/vegetation/states/tree-29/2-growing-3.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "93ec4518f46b0ddb5b51f54d475e425d813ea79fedc91dcb8f670d0d4ea8f1f3",
+  "climate": "tropical",
+  "artSpecies": "acacia",
+  "sourceTreeType": 29,
+  "sourceGrowthStage": 2,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-29.png",
+      "sha256": "5bef7293ebff3c2bff9c89dbe3b332df33b630df6d2566682e2decbbd863f585",
+      "record": "assets/world/vegetation/mature/tree-29.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.76,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-29"
+  ]
+}

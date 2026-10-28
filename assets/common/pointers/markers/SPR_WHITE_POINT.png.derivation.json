@@ -1,0 +1,66 @@
+{
+  "id": "SPR_WHITE_POINT",
+  "image": "assets/common/pointers/markers/SPR_WHITE_POINT.png",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "c041e7549e409668879fdaa9805092c82472176eb094c29e7ada38cd315602ce",
+  "derivedFrom": [
+    {
+      "file": "tools/build_pointer_overlays.py",
+      "sha256": "59a9b5743e88c48b6993d1a2948accae481a834c03f6d25a784e010d6229b42a",
+      "sourceType": "functional-geometry-recipe",
+      "recipeId": "SPR_WHITE_POINT.v1"
+    }
+  ],
+  "operation": "literal functional UI point on transparent RGBA canvas;one putpixel at(16,16),RGBA(250,242,217,255);no painted parent or native model generation",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "interaction-marker",
+  "sourceSymbol": "SPR_WHITE_POINT",
+  "anchorPx": [
+    16,
+    16
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json",
+  "artSource": "functional-geometry",
+  "functionalGeometryRecipe": {
+    "id": "SPR_WHITE_POINT.v1",
+    "sourceSymbol": "SPR_WHITE_POINT",
+    "sourceSpriteId": 4079,
+    "canvasPx": [
+      32,
+      32
+    ],
+    "mode": "RGBA",
+    "backgroundRGBA": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pointPx": [
+      16,
+      16
+    ],
+    "pointRGBA": [
+      250,
+      242,
+      217,
+      255
+    ],
+    "coordinateOrigin": "top-left",
+    "paintedArtworkParent": false
+  },
+  "provenanceCorrection": {
+    "reason": "Original record correctly disclosed one-pixel UI geometry but omitted its production-code dependency;add actual recipe source instead of inventing a hand-painted PNG parent.",
+    "pixelChange": false,
+    "validationRecord": "records/pointer-white-point-recipe-validation.json"
+  }
+}

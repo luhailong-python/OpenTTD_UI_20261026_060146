@@ -1,0 +1,2038 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "batchId": "roads",
+  "createdAt": "2026-10-27T02:56:12.192643+00:00",
+  "assets": [
+    {
+      "id": "road-mask-00",
+      "image": "assets/world/infrastructure/roads/road-mask-00.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "9b9a7bff512b284db336580df0fefdeb36cafaee1596877275642584559c4579",
+      "connectionMask": 0,
+      "connectedPorts": [],
+      "portPixels": {},
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": true,
+      "sourceCellIndex": null,
+      "semanticConnectionVerified": false,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-01",
+      "image": "assets/world/infrastructure/roads/road-mask-01.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "3badcb7747bdc57016b0523e1a33e9c1b4029dea02a8dbaab06fe88d96b8210d",
+      "connectionMask": 1,
+      "connectedPorts": [
+        "NW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 0,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-02",
+      "image": "assets/world/infrastructure/roads/road-mask-02.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "b9b43623b502245893147fd8bf4dced2f9913a1b78d31dc1c1625040350abe5f",
+      "connectionMask": 2,
+      "connectedPorts": [
+        "NE"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 1,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-03",
+      "image": "assets/world/infrastructure/roads/road-mask-03.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "c779be58907aa0d7ef37290bd94bef6505393d86713e3d5433b343ca1993d624",
+      "connectionMask": 3,
+      "connectedPorts": [
+        "NW",
+        "NE"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 6,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-04",
+      "image": "assets/world/infrastructure/roads/road-mask-04.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "b502dea9bd8d7c8a99f09e9d8d84be619a10e4bafbe443d9103e34c91369da73",
+      "connectionMask": 4,
+      "connectedPorts": [
+        "SE"
+      ],
+      "portPixels": {
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 2,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-05",
+      "image": "assets/world/infrastructure/roads/road-mask-05.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "3321467a0df9f7ea22efc9caffd6a3db98a7f5dc217c4ec03a81b2146ef887ec",
+      "connectionMask": 5,
+      "connectedPorts": [
+        "NW",
+        "SE"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 4,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-06",
+      "image": "assets/world/infrastructure/roads/road-mask-06.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "9612369be6423aacf80305352e0d3bc491f8abd6e8a42bd833bd36fc7bf35eed",
+      "connectionMask": 6,
+      "connectedPorts": [
+        "NE",
+        "SE"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 7,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-07",
+      "image": "assets/world/infrastructure/roads/road-mask-07.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "334be9f4f9f939decc52b002c3499b09656e4d0c61bb87ce8c136b7590759f45",
+      "connectionMask": 7,
+      "connectedPorts": [
+        "NW",
+        "NE",
+        "SE"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": true,
+      "sourceCellIndex": null,
+      "semanticConnectionVerified": false,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-08",
+      "image": "assets/world/infrastructure/roads/road-mask-08.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "2032427fd76760904d2a9449555ab5ff9c5f16adb0e5c2839b2ef9beca55126d",
+      "connectionMask": 8,
+      "connectedPorts": [
+        "SW"
+      ],
+      "portPixels": {
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 3,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-09",
+      "image": "assets/world/infrastructure/roads/road-mask-09.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "a77319c7ef5e3719e0220486a9f86da56ace6e84faf2ccd95b833f1a09dd497c",
+      "connectionMask": 9,
+      "connectedPorts": [
+        "NW",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 9,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-10",
+      "image": "assets/world/infrastructure/roads/road-mask-10.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "6fdd0dbe2579d54e227320be3645049b2185cc935fd9207c5e46df34e7e3ea4f",
+      "connectionMask": 10,
+      "connectedPorts": [
+        "NE",
+        "SW"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 5,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-11",
+      "image": "assets/world/infrastructure/roads/road-mask-11.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "4eb5027813c49be8cf2f90b37a59da3fbe3066ce96d1aafef15fc47250014056",
+      "connectionMask": 11,
+      "connectedPorts": [
+        "NW",
+        "NE",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": true,
+      "sourceCellIndex": null,
+      "semanticConnectionVerified": false,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-12",
+      "image": "assets/world/infrastructure/roads/road-mask-12.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted road tile crop -> UV normalization -> fixed isometric diamond Alpha; no invented painted detail",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "58160c5656df8b251cc30ee25fd8e6b6da126a042fb6665f0fd61688a340fca4",
+      "connectionMask": 12,
+      "connectedPorts": [
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": false,
+      "sourceCellIndex": 8,
+      "semanticConnectionVerified": true,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-13",
+      "image": "assets/world/infrastructure/roads/road-mask-13.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "5f6817f2f2b140328ca268be3c34604cca8341478772344cb5938fdecd01e036",
+      "connectionMask": 13,
+      "connectedPorts": [
+        "NW",
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": true,
+      "sourceCellIndex": null,
+      "semanticConnectionVerified": false,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-14",
+      "image": "assets/world/infrastructure/roads/road-mask-14.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "d6c59588626e4c7a97cb8cdec6e0e7adfb178f8d175f4ff8f875d13e17704070",
+      "connectionMask": 14,
+      "connectedPorts": [
+        "NE",
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": true,
+      "sourceCellIndex": null,
+      "semanticConnectionVerified": false,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "road-mask-15",
+      "image": "assets/world/infrastructure/roads/road-mask-15.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "native painted endpoint lane strips + native stone plaza centre -> explicit multi-source module composition -> canonical diamond; raw generated T/cross excluded because port geometry drifted",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "145313a671e67cd7fdfcc7dba48b4150851a940a937b6ada800f65209dd54c6d",
+      "connectionMask": 15,
+      "connectedPorts": [
+        "NW",
+        "NE",
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "logicalFootprint": [
+        1,
+        1
+      ],
+      "reconstructedFromNativeModules": true,
+      "sourceCellIndex": null,
+      "semanticConnectionVerified": false,
+      "sourceGeometryReview": "Native straight/end/curve geometry retained. Composite junctions require additional connection-sheet review."
+    },
+    {
+      "id": "tram-ac",
+      "image": "assets/world/infrastructure/roads/tram-ac.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "painted tram native cell crop, UV projection",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "58125a7df02c83e1c5b5877d53d9107fefc49b1a753259176c6f974e7fb0d3cd",
+      "connectionMask": 5,
+      "mirrored": false
+    },
+    {
+      "id": "tram-bd",
+      "image": "assets/world/infrastructure/roads/tram-bd.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "painted tram native cell crop, UV projection; symmetric UV mirror",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "1c7f2208c7f2146776cc04bf9120feda774ccd920d74b6e273b810c7f9ba7b58",
+      "connectionMask": 10,
+      "mirrored": true
+    },
+    {
+      "id": "tram-mask-01",
+      "image": "assets/world/infrastructure/roads/tram-mask-01.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "fca122cffffb69843aa85166c12ba5f4b0b1e23fb25da4e8bcb798e72be4d123",
+      "connectionMask": 1,
+      "connectedPorts": [
+        "NW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-02",
+      "image": "assets/world/infrastructure/roads/tram-mask-02.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "0d4536683e5323e4baf4993292ff4849e2f1f42ac32170a55ebbf338d440f180",
+      "connectionMask": 2,
+      "connectedPorts": [
+        "NE"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-03",
+      "image": "assets/world/infrastructure/roads/tram-mask-03.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "146db127c21ff56105fee308f8703dc88ee1e8f0da03ec4ecaadc66fac1cd68f",
+      "connectionMask": 3,
+      "connectedPorts": [
+        "NW",
+        "NE"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-04",
+      "image": "assets/world/infrastructure/roads/tram-mask-04.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "9e5a17d1cfeff243271c3cc66d8805e1516a1a857e076cb4a6b60268b992926b",
+      "connectionMask": 4,
+      "connectedPorts": [
+        "SE"
+      ],
+      "portPixels": {
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-05",
+      "image": "assets/world/infrastructure/roads/tram-mask-05.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "c312d9c2d8b4a3d99540b70c90319865bf98cae420f1912373e929bd493f5779",
+      "connectionMask": 5,
+      "connectedPorts": [
+        "NW",
+        "SE"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-06",
+      "image": "assets/world/infrastructure/roads/tram-mask-06.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "d13aa74d137c916525238efccb60489dc6a52ae7b51916b1d48039b320d4fd11",
+      "connectionMask": 6,
+      "connectedPorts": [
+        "NE",
+        "SE"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-07",
+      "image": "assets/world/infrastructure/roads/tram-mask-07.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "91a7355f50d1f9bbc434f970e1ea33abad87432b4a5116305b41155d3bc5d3db",
+      "connectionMask": 7,
+      "connectedPorts": [
+        "NW",
+        "NE",
+        "SE"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-08",
+      "image": "assets/world/infrastructure/roads/tram-mask-08.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "58256f26eb28b6cd46c3525f3cded233c933905c70b48fd95cb4dd185d2d815d",
+      "connectionMask": 8,
+      "connectedPorts": [
+        "SW"
+      ],
+      "portPixels": {
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-09",
+      "image": "assets/world/infrastructure/roads/tram-mask-09.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "0b2de90f0f483534cafc9313a7a3e67f5e02a791fdb0b388603406c8492e8415",
+      "connectionMask": 9,
+      "connectedPorts": [
+        "NW",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-10",
+      "image": "assets/world/infrastructure/roads/tram-mask-10.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "4868b4d2db21c5fba3ca04d701168b502688d69b0fbec4deb14c906912d80585",
+      "connectionMask": 10,
+      "connectedPorts": [
+        "NE",
+        "SW"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-11",
+      "image": "assets/world/infrastructure/roads/tram-mask-11.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "2c5a4a76975c4291c2eafeecdd5542069ad1e4cbc83484865532ac1435609743",
+      "connectionMask": 11,
+      "connectedPorts": [
+        "NW",
+        "NE",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-12",
+      "image": "assets/world/infrastructure/roads/tram-mask-12.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "a9a8d904498305b3df1212749e9204d6625cbf43922fb6bb9d11c157ac1fa4be",
+      "connectionMask": 12,
+      "connectedPorts": [
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-13",
+      "image": "assets/world/infrastructure/roads/tram-mask-13.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "c3436b3c7092069dd9b3040a6e46bc0eeafa9da3fa14f453d03c9c9980d443b0",
+      "connectionMask": 13,
+      "connectedPorts": [
+        "NW",
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-14",
+      "image": "assets/world/infrastructure/roads/tram-mask-14.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "eff1ac98399a878ee2e0d9c6c6269d5ba3975556115d68b6c339946c1fc6d420",
+      "connectionMask": 14,
+      "connectedPorts": [
+        "NE",
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    },
+    {
+      "id": "tram-mask-15",
+      "image": "assets/world/infrastructure/roads/tram-mask-15.png",
+      "width": 256,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        64
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "actual painted tram rail pair extracted by colour range; UV centreline correction; true symmetric transpose or annular UV curve remap; layered over actual road network art. Geometry masks do not paint new rail pixels.",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/road-topology.png",
+          "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+          "record": "source-art/world/road-topology.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-port-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sha256": "f48c551c8e5d5adf8522189ba190ab71e7ede97936b50aae2317bdf6c22743b4",
+      "connectionMask": 15,
+      "connectedPorts": [
+        "NW",
+        "NE",
+        "SE",
+        "SW"
+      ],
+      "portPixels": {
+        "NW": [
+          64,
+          32
+        ],
+        "NE": [
+          192,
+          32
+        ],
+        "SE": [
+          192,
+          96
+        ],
+        "SW": [
+          64,
+          96
+        ]
+      },
+      "geometricCurveDerivative": true,
+      "sourceRequirementIds": [
+        "road-tram"
+      ]
+    }
+  ],
+  "animations": [],
+  "qa": [
+    {
+      "id": "road-mask-00.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-01.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-02.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-03.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-04.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-05.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-06.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-07.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-08.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-09.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-10.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-11.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-12.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-13.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-14.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    },
+    {
+      "id": "road-mask-15.canvas-alpha",
+      "level": "OK",
+      "value": [
+        256,
+        128
+      ]
+    }
+  ],
+  "sourceCrops": {
+    "nativeCellCentresX": [
+      198,
+      580,
+      962,
+      1347
+    ],
+    "nativeCellCentresY": [
+      120,
+      366,
+      608,
+      845
+    ],
+    "nativeQuadHalfWidth": 160,
+    "nativeQuadHeightAbove": 82,
+    "nativeQuadHeightBelow": 80
+  },
+  "acceptance": "not yet accepted; connection geometry sheets must be inspected",
+  "sourceLimitations": [
+    "Generated T and cross shapes had cardinal-screen port drift; deterministic painted-module reconstruction used instead.",
+    "Tram curves are remapped actual straight-rail paint; not separately native generated curves.",
+    "A road graph mask is topology data; no runtime pathfinding, collision or road ownership implemented."
+  ],
+  "portOrder": [
+    "NW",
+    "NE",
+    "SE",
+    "SW"
+  ],
+  "portPixels": [
+    [
+      64,
+      32
+    ],
+    [
+      192,
+      32
+    ],
+    [
+      192,
+      96
+    ],
+    [
+      64,
+      96
+    ]
+  ]
+}

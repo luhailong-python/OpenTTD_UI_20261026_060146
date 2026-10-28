@@ -1,0 +1,39 @@
+{
+  "id": "tree-09-dying-1",
+  "image": "assets/world/vegetation/states/tree-09/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "acd8d3b56245c6615e3d3a179d75d7ee3a9a484d09128b402380f5ca5fa5432b",
+  "climate": "temperate",
+  "artSpecies": "chestnut",
+  "sourceTreeType": 9,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-09.png",
+      "sha256": "75739df2bab218c265193cc6aa43b226921e966b4071c860339ffd6f0a8040f8",
+      "record": "assets/world/vegetation/mature/tree-09.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-09"
+  ]
+}

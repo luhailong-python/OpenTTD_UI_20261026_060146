@@ -1,0 +1,5478 @@
+{
+  "createdAt": "2026-10-26T13:41:33.134201+00:00",
+  "referenceCommit": "cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8",
+  "sourceHouseTileSpecs": 110,
+  "sourceWholeBuildings": 94,
+  "sourceDrawCombinations": 1760,
+  "plannedNativeFamilyCount": 45,
+  "sourceDistinctFamilyCount": 39,
+  "nativeFamilyAtlases": {
+    "traditional": [
+      "thatched-cottage",
+      "courtyard-dwelling",
+      "timber-rowhouse",
+      "paired-gables",
+      "courtyard-mansion",
+      "pavilion-apartments",
+      "small-temple-chapel",
+      "city-temple",
+      "townhall"
+    ],
+    "commerce": [
+      "food-market",
+      "teahouse",
+      "post-office",
+      "bank",
+      "clinic",
+      "school",
+      "theatre",
+      "museum",
+      "outdoor-stadium"
+    ],
+    "dense": [
+      "residential-block",
+      "slender-apartment",
+      "corner-hotel",
+      "office-block",
+      "stepped-offices",
+      "shopping-hall",
+      "jade-skyscraper",
+      "cylindrical-tower",
+      "cinema"
+    ],
+    "climates": [
+      "alpine-chalet",
+      "snow-lodge",
+      "arctic-apartment",
+      "adobe-home",
+      "tropical-stilt-home",
+      "tropical-villa",
+      "toy-candy-pot",
+      "toy-block-apartment",
+      "toy-sugar-manor"
+    ],
+    "special": [
+      "warehouse",
+      "geodesic-dome",
+      "tent-home",
+      "teacup-house",
+      "piggy-bank",
+      "bronze-sage-statue",
+      "stone-fountain",
+      "public-garden",
+      "indoor-stadium"
+    ]
+  },
+  "items": [
+    {
+      "sourceHouseId": 0,
+      "sourceRequirementId": "house-000",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1835,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 0,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1963",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "187",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-000",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 1,
+      "sourceRequirementId": "house-001",
+      "sourceName": "写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1839,
+          "symbol": "STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 1,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "office-block",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1957",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "85",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-001",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 2,
+      "sourceRequirementId": "house-002",
+      "sourceName": "小型公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1843,
+          "symbol": "STR_TOWN_BUILDING_NAME_SMALL_BLOCK_OF_FLATS_1"
+        }
+      ],
+      "parentHouseId": 2,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "pavilion-apartments",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1968",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "40",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-002",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 3,
+      "sourceRequirementId": "house-003",
+      "sourceName": "教堂",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1847,
+          "symbol": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+        }
+      ],
+      "parentHouseId": 3,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "small-temple-chapel",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "5",
+      "sourceBuildingFlags": [
+        "IsChurch",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-003",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 4,
+      "sourceRequirementId": "house-004",
+      "sourceName": "大型写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1851,
+          "symbol": "STR_TOWN_BUILDING_NAME_LARGE_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 4,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "stepped-offices",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1975",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "220",
+      "sourceBuildingFlags": [
+        "IsAnimated",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": true,
+      "renderGroup": "house-004",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 5,
+      "sourceRequirementId": "house-005",
+      "sourceName": "大型写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1855,
+          "symbol": "STR_TOWN_BUILDING_NAME_LARGE_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 5,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "arctic-apartment",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1975",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "220",
+      "sourceBuildingFlags": [
+        "IsAnimated",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": true,
+      "renderGroup": "house-005",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 6,
+      "sourceRequirementId": "house-006",
+      "sourceName": "别墅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1859,
+          "symbol": "STR_TOWN_BUILDING_NAME_TOWN_HOUSES_1"
+        }
+      ],
+      "parentHouseId": 6,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "courtyard-mansion",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "30",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-006",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 7,
+      "sourceRequirementId": "house-007",
+      "sourceName": "宾馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1863,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+        }
+      ],
+      "parentHouseId": 7,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "corner-hotel",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1959",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "140",
+      "sourceBuildingFlags": [
+        "Size1x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-007",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 8,
+      "sourceRequirementId": "house-008",
+      "sourceName": "宾馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1867,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+        }
+      ],
+      "parentHouseId": 7,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "corner-hotel",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1959",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-007",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 9,
+      "sourceRequirementId": "house-009",
+      "sourceName": "雕像",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1871,
+          "symbol": "STR_TOWN_BUILDING_NAME_STATUE_1"
+        }
+      ],
+      "parentHouseId": 9,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "bronze-sage-statue",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1945",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-009",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 10,
+      "sourceRequirementId": "house-010",
+      "sourceName": "喷泉",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1875,
+          "symbol": "STR_TOWN_BUILDING_NAME_FOUNTAIN_1"
+        }
+      ],
+      "parentHouseId": 10,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "stone-fountain",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1945",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-010",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 11,
+      "sourceRequirementId": "house-011",
+      "sourceName": "公园",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1879,
+          "symbol": "STR_TOWN_BUILDING_NAME_PARK_1"
+        }
+      ],
+      "parentHouseId": 11,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "public-garden",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-011",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 12,
+      "sourceRequirementId": "house-012",
+      "sourceName": "公园",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1883,
+          "symbol": "STR_TOWN_BUILDING_NAME_PARK_1"
+        }
+      ],
+      "parentHouseId": 12,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "public-garden",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1935",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-012",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 13,
+      "sourceRequirementId": "house-013",
+      "sourceName": "写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1887,
+          "symbol": "STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_2"
+        }
+      ],
+      "parentHouseId": 13,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "office-block",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1951",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "150",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-013",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 14,
+      "sourceRequirementId": "house-014",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1891,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 14,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "food-market",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1930",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "95",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-014",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 15,
+      "sourceRequirementId": "house-015",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1895,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 15,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1930",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "95",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-015",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 16,
+      "sourceRequirementId": "house-016",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1899,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 16,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "post-office",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1930",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "95",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-016",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 17,
+      "sourceRequirementId": "house-017",
+      "sourceName": "现代写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1903,
+          "symbol": "STR_TOWN_BUILDING_NAME_MODERN_OFFICE_BUILDING_1"
+        }
+      ],
+      "parentHouseId": 17,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "office-block",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1977",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "130",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-017",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 18,
+      "sourceRequirementId": "house-018",
+      "sourceName": "仓库",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1907,
+          "symbol": "STR_TOWN_BUILDING_NAME_WAREHOUSE_1"
+        }
+      ],
+      "parentHouseId": 18,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "warehouse",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1983",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "6",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-018",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 19,
+      "sourceRequirementId": "house-019",
+      "sourceName": "写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1911,
+          "symbol": "STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_3"
+        }
+      ],
+      "parentHouseId": 19,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "stepped-offices",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1985",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "110",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-019",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 20,
+      "sourceRequirementId": "house-020",
+      "sourceName": "体育馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1915,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+        }
+      ],
+      "parentHouseId": 20,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "indoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "65",
+      "sourceBuildingFlags": [
+        "IsStadium",
+        "Size2x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-020",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 21,
+      "sourceRequirementId": "house-021",
+      "sourceName": "体育馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1919,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+        }
+      ],
+      "parentHouseId": 20,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "indoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-020",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 22,
+      "sourceRequirementId": "house-022",
+      "sourceName": "体育馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1923,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+        }
+      ],
+      "parentHouseId": 20,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "indoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-020",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 23,
+      "sourceRequirementId": "house-023",
+      "sourceName": "体育馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1927,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+        }
+      ],
+      "parentHouseId": 20,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "indoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-020",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 24,
+      "sourceRequirementId": "house-024",
+      "sourceName": "旧式住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1931,
+          "symbol": "STR_TOWN_BUILDING_NAME_OLD_HOUSES_1"
+        }
+      ],
+      "parentHouseId": 24,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "timber-rowhouse",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1951",
+      "sourcePopulation": "15",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-024",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 25,
+      "sourceRequirementId": "house-025",
+      "sourceName": "农舍",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1935,
+          "symbol": "STR_TOWN_BUILDING_NAME_COTTAGES_1"
+        }
+      ],
+      "parentHouseId": 25,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "thatched-cottage",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1952",
+      "sourcePopulation": "12",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-025",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 26,
+      "sourceRequirementId": "house-026",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1939,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_1"
+        }
+      ],
+      "parentHouseId": 26,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "courtyard-dwelling",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1931",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "13",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-026",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 27,
+      "sourceRequirementId": "house-027",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1943,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 27,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "pavilion-apartments",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1935",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "100",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-027",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 28,
+      "sourceRequirementId": "house-028",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1947,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_2"
+        }
+      ],
+      "parentHouseId": 28,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1963",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "170",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-028",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 29,
+      "sourceRequirementId": "house-029",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1951,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_2"
+        }
+      ],
+      "parentHouseId": 29,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "food-market",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1955",
+      "sourcePopulation": "100",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-029",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 30,
+      "sourceRequirementId": "house-030",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1955,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_3"
+        }
+      ],
+      "parentHouseId": 30,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "Temperate",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1973",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "180",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-030",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 31,
+      "sourceRequirementId": "house-031",
+      "sourceName": "剧院",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1959,
+          "symbol": "STR_TOWN_BUILDING_NAME_THEATER_1"
+        }
+      ],
+      "parentHouseId": 31,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "theatre",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "35",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-031",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 32,
+      "sourceRequirementId": "house-032",
+      "sourceName": "体育场",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1963,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+        }
+      ],
+      "parentHouseId": 32,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "outdoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1958",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "65",
+      "sourceBuildingFlags": [
+        "IsStadium",
+        "Size2x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-032",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 33,
+      "sourceRequirementId": "house-033",
+      "sourceName": "体育场",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1967,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+        }
+      ],
+      "parentHouseId": 32,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "outdoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1958",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-032",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 34,
+      "sourceRequirementId": "house-034",
+      "sourceName": "体育场",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1971,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+        }
+      ],
+      "parentHouseId": 32,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "outdoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1958",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-032",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 35,
+      "sourceRequirementId": "house-035",
+      "sourceName": "体育场",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1975,
+          "symbol": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+        }
+      ],
+      "parentHouseId": 32,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "outdoor-stadium",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1958",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-032",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 36,
+      "sourceRequirementId": "house-036",
+      "sourceName": "写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1979,
+          "symbol": "STR_TOWN_BUILDING_NAME_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 36,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "office-block",
+      "sourceClimateMasks": [
+        "Temperate",
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "2000",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "140",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-036",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 37,
+      "sourceRequirementId": "house-037",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1983,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 37,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "alpine-chalet",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "15",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-037",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 38,
+      "sourceRequirementId": "house-038",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1987,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 38,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "snow-lodge",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "15",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-038",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 39,
+      "sourceRequirementId": "house-039",
+      "sourceName": "电影院",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1991,
+          "symbol": "STR_TOWN_BUILDING_NAME_CINEMA_1"
+        }
+      ],
+      "parentHouseId": 39,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "cinema",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1945",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "35",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-039",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 40,
+      "sourceRequirementId": "house-040",
+      "sourceName": "购物中心",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1995,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+        }
+      ],
+      "parentHouseId": 40,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "shopping-hall",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1983",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "180",
+      "sourceBuildingFlags": [
+        "Size2x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-040",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 41,
+      "sourceRequirementId": "house-041",
+      "sourceName": "购物中心",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 1999,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+        }
+      ],
+      "parentHouseId": 40,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "shopping-hall",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1983",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-040",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 42,
+      "sourceRequirementId": "house-042",
+      "sourceName": "购物中心",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2003,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+        }
+      ],
+      "parentHouseId": 40,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "shopping-hall",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1983",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-040",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 43,
+      "sourceRequirementId": "house-043",
+      "sourceName": "购物中心",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2007,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+        }
+      ],
+      "parentHouseId": 40,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        1
+      ],
+      "footprintTiles": [
+        2,
+        2
+      ],
+      "familyId": "shopping-hall",
+      "sourceClimateMasks": [
+        "Temperate"
+      ],
+      "sourceMinYear": "1983",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-040",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 44,
+      "sourceRequirementId": "house-044",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2011,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 44,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "arctic-apartment",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "80",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-044",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 45,
+      "sourceRequirementId": "house-045",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2015,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 45,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "arctic-apartment",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "80",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-045",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 46,
+      "sourceRequirementId": "house-046",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2019,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 46,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "alpine-chalet",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "16",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-046",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 47,
+      "sourceRequirementId": "house-047",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2023,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 47,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "snow-lodge",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "16",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-047",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 48,
+      "sourceRequirementId": "house-048",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2027,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 48,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "alpine-chalet",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1963",
+      "sourcePopulation": "14",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-048",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 49,
+      "sourceRequirementId": "house-049",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2031,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 49,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "snow-lodge",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1963",
+      "sourcePopulation": "14",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-049",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 50,
+      "sourceRequirementId": "house-050",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2035,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 50,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "stepped-offices",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1966",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "135",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-050",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 51,
+      "sourceRequirementId": "house-051",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2039,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 51,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "arctic-apartment",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1966",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "135",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-051",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 52,
+      "sourceRequirementId": "house-052",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2043,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 52,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "office-block",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "1970",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "170",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-052",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 53,
+      "sourceRequirementId": "house-053",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2047,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 53,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "arctic-apartment",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1970",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "170",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-053",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 54,
+      "sourceRequirementId": "house-054",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2051,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 54,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1974",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "210",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-054",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 55,
+      "sourceRequirementId": "house-055",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2055,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 55,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "arctic-apartment",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1974",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "210",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-055",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 56,
+      "sourceRequirementId": "house-056",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2059,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 56,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "alpine-chalet",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "10",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-056",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 57,
+      "sourceRequirementId": "house-057",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2063,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 57,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "snow-lodge",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "10",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-057",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 58,
+      "sourceRequirementId": "house-058",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2067,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 58,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "25",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-058",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 59,
+      "sourceRequirementId": "house-059",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2071,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 59,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "25",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-059",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 60,
+      "sourceRequirementId": "house-060",
+      "sourceName": "教堂",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2075,
+          "symbol": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+        }
+      ],
+      "parentHouseId": 60,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "city-temple",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "6",
+      "sourceBuildingFlags": [
+        "IsChurch",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-060",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 61,
+      "sourceRequirementId": "house-061",
+      "sourceName": "教堂",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2079,
+          "symbol": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+        }
+      ],
+      "parentHouseId": 61,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "city-temple",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "6",
+      "sourceBuildingFlags": [
+        "IsChurch",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-061",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 62,
+      "sourceRequirementId": "house-062",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2083,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 62,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "alpine-chalet",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "17",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-062",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 63,
+      "sourceRequirementId": "house-063",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2087,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 63,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "snow-lodge",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "17",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-063",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 64,
+      "sourceRequirementId": "house-064",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2091,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 64,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "food-market",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "90",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-064",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 65,
+      "sourceRequirementId": "house-065",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2095,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 65,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "food-market",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "1960",
+      "sourcePopulation": "90",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-065",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 66,
+      "sourceRequirementId": "house-066",
+      "sourceName": "宾馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2099,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+        }
+      ],
+      "parentHouseId": 66,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "corner-hotel",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "1972",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "140",
+      "sourceBuildingFlags": [
+        "Size1x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-066",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 67,
+      "sourceRequirementId": "house-067",
+      "sourceName": "宾馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2103,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+        }
+      ],
+      "parentHouseId": 66,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "corner-hotel",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "1972",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-066",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 68,
+      "sourceRequirementId": "house-068",
+      "sourceName": "宾馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2107,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+        }
+      ],
+      "parentHouseId": 68,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "corner-hotel",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1972",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "140",
+      "sourceBuildingFlags": [
+        "Size1x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-068",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 69,
+      "sourceRequirementId": "house-069",
+      "sourceName": "宾馆",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2111,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+        }
+      ],
+      "parentHouseId": 68,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "corner-hotel",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1972",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-068",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 70,
+      "sourceRequirementId": "house-070",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2115,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 70,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow",
+        "Subtropic"
+      ],
+      "sourceMinYear": "1963",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "105",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-070",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 71,
+      "sourceRequirementId": "house-071",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2119,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 71,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1963",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "105",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-071",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 72,
+      "sourceRequirementId": "house-072",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2123,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 72,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "slender-apartment",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "1978",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "190",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-072",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 73,
+      "sourceRequirementId": "house-073",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2127,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 73,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "slender-apartment",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1978",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "190",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-073",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 74,
+      "sourceRequirementId": "house-074",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2131,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 74,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "1967",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "250",
+      "sourceBuildingFlags": [
+        "Size2x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-074",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 75,
+      "sourceRequirementId": "house-075",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2135,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 74,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "SubarcticBelowSnow"
+      ],
+      "sourceMinYear": "1967",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-074",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 76,
+      "sourceRequirementId": "house-076",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2139,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 76,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1967",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "250",
+      "sourceBuildingFlags": [
+        "Size2x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-076",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 77,
+      "sourceRequirementId": "house-077",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2143,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 76,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "SubarcticAboveSnow"
+      ],
+      "sourceMinYear": "1967",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-076",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 78,
+      "sourceRequirementId": "house-078",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2147,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 78,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "adobe-home",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "16",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-078",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 79,
+      "sourceRequirementId": "house-079",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2151,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 79,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "tropical-stilt-home",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "16",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-079",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 80,
+      "sourceRequirementId": "house-080",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2155,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 80,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "tropical-villa",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "16",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-080",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 81,
+      "sourceRequirementId": "house-081",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2159,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 81,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "adobe-home",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "7",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-081",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 82,
+      "sourceRequirementId": "house-082",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2163,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 82,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "pavilion-apartments",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "45",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-082",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 83,
+      "sourceRequirementId": "house-083",
+      "sourceName": "教堂",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2167,
+          "symbol": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+        }
+      ],
+      "parentHouseId": 83,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "city-temple",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "8",
+      "sourceBuildingFlags": [
+        "IsChurch",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-083",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 84,
+      "sourceRequirementId": "house-084",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2171,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 84,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "tropical-villa",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "18",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-084",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 85,
+      "sourceRequirementId": "house-085",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2175,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 85,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "slender-apartment",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "1973",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "90",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-085",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 86,
+      "sourceRequirementId": "house-086",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2179,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 86,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "residential-block",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "1962",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "120",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-086",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 87,
+      "sourceRequirementId": "house-087",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2183,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 87,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "1984",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "250",
+      "sourceBuildingFlags": [
+        "Size2x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-087",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 88,
+      "sourceRequirementId": "house-088",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2187,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 87,
+      "isParent": false,
+      "tileOffsetXY": [
+        1,
+        0
+      ],
+      "footprintTiles": [
+        2,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "1984",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-087",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 89,
+      "sourceRequirementId": "house-089",
+      "sourceName": "公寓",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2191,
+          "symbol": "STR_TOWN_BUILDING_NAME_FLATS_1"
+        }
+      ],
+      "parentHouseId": 89,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "cylindrical-tower",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "80",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-089",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 90,
+      "sourceRequirementId": "house-090",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2195,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 90,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "stepped-offices",
+      "sourceClimateMasks": [
+        "Subtropic"
+      ],
+      "sourceMinYear": "1993",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "180",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-090",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 91,
+      "sourceRequirementId": "house-091",
+      "sourceName": "教堂",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2199,
+          "symbol": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+        }
+      ],
+      "parentHouseId": 91,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "small-temple-chapel",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "8",
+      "sourceBuildingFlags": [
+        "IsChurch",
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-091",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 92,
+      "sourceRequirementId": "house-092",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2203,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 92,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-candy-pot",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "18",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-092",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 93,
+      "sourceRequirementId": "house-093",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2207,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 93,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-block-apartment",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "7",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-093",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 94,
+      "sourceRequirementId": "house-094",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2211,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 94,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-sugar-manor",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "15",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-094",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 95,
+      "sourceRequirementId": "house-095",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2215,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 95,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-candy-pot",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "17",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-095",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 96,
+      "sourceRequirementId": "house-096",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2219,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 96,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-block-apartment",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "19",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-096",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 97,
+      "sourceRequirementId": "house-097",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2223,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 97,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-sugar-manor",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "21",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-097",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 98,
+      "sourceRequirementId": "house-098",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2227,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 98,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "cylindrical-tower",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "75",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-098",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 99,
+      "sourceRequirementId": "house-099",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2231,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 99,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "toy-sugar-manor",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "35",
+      "sourceBuildingFlags": [
+        "Size1x2"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-099",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 100,
+      "sourceRequirementId": "house-100",
+      "sourceName": "住宅",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2235,
+          "symbol": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+        }
+      ],
+      "parentHouseId": 99,
+      "isParent": false,
+      "tileOffsetXY": [
+        0,
+        1
+      ],
+      "footprintTiles": [
+        1,
+        2
+      ],
+      "familyId": "toy-sugar-manor",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "0",
+      "sourceBuildingFlags": [],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-099",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 101,
+      "sourceRequirementId": "house-101",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2239,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 101,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "jade-skyscraper",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "85",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-101",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 102,
+      "sourceRequirementId": "house-102",
+      "sourceName": "圆顶屋",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2243,
+          "symbol": "STR_TOWN_BUILDING_NAME_IGLOO_1"
+        }
+      ],
+      "parentHouseId": 102,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "geodesic-dome",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "11",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-102",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 103,
+      "sourceRequirementId": "house-103",
+      "sourceName": "帐篷",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2247,
+          "symbol": "STR_TOWN_BUILDING_NAME_TEPEES_1"
+        }
+      ],
+      "parentHouseId": 103,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "tent-home",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "10",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-103",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 104,
+      "sourceRequirementId": "house-104",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2251,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 104,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-candy-pot",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "67",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-104",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 105,
+      "sourceRequirementId": "house-105",
+      "sourceName": "商店与办公室",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2255,
+          "symbol": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+        }
+      ],
+      "parentHouseId": 105,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teahouse",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "86",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-105",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 106,
+      "sourceRequirementId": "house-106",
+      "sourceName": "高层写字楼",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2259,
+          "symbol": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+        }
+      ],
+      "parentHouseId": 106,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "toy-block-apartment",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "95",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-106",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 107,
+      "sourceRequirementId": "house-107",
+      "sourceName": "雕像",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2263,
+          "symbol": "STR_TOWN_BUILDING_NAME_STATUE_1"
+        }
+      ],
+      "parentHouseId": 107,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "bronze-sage-statue",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "30",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-107",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 108,
+      "sourceRequirementId": "house-108",
+      "sourceName": "茶杯小屋",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2267,
+          "symbol": "STR_TOWN_BUILDING_NAME_TEAPOT_HOUSE_1"
+        }
+      ],
+      "parentHouseId": 108,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "teacup-house",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "25",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-108",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    },
+    {
+      "sourceHouseId": 109,
+      "sourceRequirementId": "house-109",
+      "sourceName": "猪猪银行",
+      "source": [
+        {
+          "file": "src/table/town_land.h",
+          "line": 2271,
+          "symbol": "STR_TOWN_BUILDING_NAME_PIGGY_BANK_1"
+        }
+      ],
+      "parentHouseId": 109,
+      "isParent": true,
+      "tileOffsetXY": [
+        0,
+        0
+      ],
+      "footprintTiles": [
+        1,
+        1
+      ],
+      "familyId": "piggy-bank",
+      "sourceClimateMasks": [
+        "Toyland"
+      ],
+      "sourceMinYear": "0",
+      "sourceMaxYear": "CalendarTime::MAX_YEAR",
+      "sourcePopulation": "18",
+      "sourceBuildingFlags": [
+        "Size1x1"
+      ],
+      "randomVariants": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "constructionStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "animationRequired": false,
+      "renderGroup": "house-109",
+      "artStatus": "planned-awaiting-native-family",
+      "mappingBasis": "Source name/climate/footprint -> new Taoist art family; shared family re-design, not a copy of110 distinct OpenTTD paintings.",
+      "multiTileRenderPolicy": "whole-family composite plus complementary screen-space partition fragments; exact reassembly tested. Per-fragment runtime depth sorting remains unverified."
+    }
+  ],
+  "footprintSource": [
+    {
+      "file": "src/house.h",
+      "line": 40
+    },
+    {
+      "file": "src/town_cmd.cpp",
+      "line": 3081
+    },
+    {
+      "file": "src/town_gui.cpp",
+      "line": 1402
+    }
+  ],
+  "variationPolicy": {
+    "location4": "Four restrained colour grades of actual native family art, not4nativepaintings.",
+    "construction4": "shared painted construction/scaffold modules + staged reveal; not4nativebuildingpaintings.",
+    "climate": "source climate masks retained; terrain/site material selected from climate. Snow objects/roofs require explicit native source or recorded source-texture masking, not implied by a name.",
+    "multiTile": "child IDs share parent family and footprint; no invented independent child building."
+  },
+  "status": "production contract; not acceptance"
+}

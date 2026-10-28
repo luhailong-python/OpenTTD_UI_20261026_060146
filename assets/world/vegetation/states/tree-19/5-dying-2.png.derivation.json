@@ -1,0 +1,46 @@
+{
+  "id": "tree-19-dying-2",
+  "image": "assets/world/vegetation/states/tree-19/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "28ea6b7760db9b1538d556cf50406da5df09bff880a73321d38024b753930594",
+  "climate": "arctic",
+  "artSpecies": "alpine-broadleaf",
+  "sourceTreeType": 19,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-19.png",
+      "sha256": "16c1b9abacfd7b6cacdb7fc56937e2e5dae3d874dcad12ab7f4542b93ca6c10e",
+      "record": "assets/world/vegetation/mature/tree-19.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-bare-dead-tree.png",
+      "sha256": "3d42630a62e5fb7f53132a0d96f670ccb2ea168abaf2505ac4e80d2218eda012",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-bare-dead-tree.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-bare-dead-tree",
+    "sharedScale": 0.8268595041322314,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-19"
+  ]
+}

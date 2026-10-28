@@ -1,0 +1,39 @@
+{
+  "id": "tree-15-dying-1",
+  "image": "assets/world/vegetation/states/tree-15/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "d6130cef72c71426904d1a4f64ce478608246d962a0ef9ec1672e7e23f2b83e8",
+  "climate": "arctic",
+  "artSpecies": "larch",
+  "sourceTreeType": 15,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-15.png",
+      "sha256": "8ce4ce9343abd46ac4c5f55da68a50f86916acefc190305fdce0c3480276ffa6",
+      "record": "assets/world/vegetation/mature/tree-15.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-15"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "file": "assets/world/effects/disasters/submarine-small/01.png",
+  "sha256": "c7f4a255c07c0bcc4367b02e1d24e484469a4ec2b17a6be80661657ca726441d",
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "frame": 1,
+  "durationMs": 1000,
+  "operation": "four actual native painted diagonal body facings;source shares each one for twoDirection enum values",
+  "sources": [
+    {
+      "derivedFrom": {
+        "file": "source-art/world/disaster-submarines.png",
+        "sha256": "2cc5f9735a374953a6ca6d8d3049d26bea4dd912bef379ce3f53c5246538c8d6",
+        "record": "source-art/world/disaster-submarines.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        34,
+        34
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "unityVerified": false
+}

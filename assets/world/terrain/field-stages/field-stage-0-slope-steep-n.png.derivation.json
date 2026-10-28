@@ -1,0 +1,37 @@
+{
+  "id": "field-stage-0-slope-steep-n",
+  "image": "assets/world/terrain/field-stages/field-stage-0-slope-steep-n.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    160
+  ],
+  "pivotUnity": [
+    0.5,
+    0.375
+  ],
+  "sha256": "b1cb8fc8d18ced029704875aaa458b193361fc6b94f96b6005419a217898f7c0",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/field-stages/field-soil-slope-steep-n.png",
+      "sha256": "b1cb8fc8d18ced029704875aaa458b193361fc6b94f96b6005419a217898f7c0",
+      "record": "assets/world/terrain/field-stages/field-soil-slope-steep-n.png.derivation.json"
+    }
+  ],
+  "operation": "source crop stage with projected native furrow soil and upright native plant/hay sprites at exact piecewise slope-root heights; no new native painting",
+  "category": "field-stage",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "sourceFieldType": 0,
+  "fieldStageName": "bare-ploughed",
+  "slopeCode": 29,
+  "placements": []
+}

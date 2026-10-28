@@ -1,0 +1,1011 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:15:04.240287+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "house-family-alpine-chalet",
+      "image": "assets/world/houses/families/climates/house-family-alpine-chalet.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        0,
+        540,
+        354
+      ],
+      "sourceCropSize": [
+        540,
+        354
+      ],
+      "alphaTrimBox": [
+        64,
+        26,
+        500,
+        344
+      ],
+      "sourceAnchorPx": [
+        279,
+        335
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        41,
+        139
+      ],
+      "contentNativeSize": [
+        436,
+        318
+      ],
+      "contentExportSize": [
+        436,
+        318
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 154,
+        "componentCorePixels": 79040
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "83b6dc6e20a0a7fc7987580b2e2bb15ba0eda2b8b1b2c7781de0fa57f5c7b28d",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        373.88
+      ],
+      "familyId": "alpine-chalet",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-snow-lodge",
+      "image": "assets/world/houses/families/climates/house-family-snow-lodge.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed; authored Alpha-only removal of neighbouring atlas fragments",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        541,
+        0,
+        998,
+        355
+      ],
+      "sourceCropSize": [
+        457,
+        355
+      ],
+      "alphaTrimBox": [
+        11,
+        49,
+        440,
+        345
+      ],
+      "sourceAnchorPx": [
+        232,
+        338
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        35,
+        159
+      ],
+      "contentNativeSize": [
+        429,
+        296
+      ],
+      "contentExportSize": [
+        429,
+        296
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 548,
+        "componentCorePixels": 73485
+      },
+      "authoredAlphaCleanup": [
+        {
+          "operation": "Separate baked chimney smoke from static building; future shared smoke FX is a separate layer.",
+          "rect": [
+            270,
+            0,
+            388,
+            74
+          ]
+        }
+      ],
+      "sha256": "ad8e06d9d59b036a815c775a2918c9f000e9f09636d41180382afb4a481f889d",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        375.07
+      ],
+      "familyId": "snow-lodge",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-arctic-apartment",
+      "image": "assets/world/houses/families/climates/house-family-arctic-apartment.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        999,
+        0,
+        1536,
+        344
+      ],
+      "sourceCropSize": [
+        537,
+        344
+      ],
+      "alphaTrimBox": [
+        67,
+        17,
+        446,
+        343
+      ],
+      "sourceAnchorPx": [
+        265,
+        340
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        58,
+        125
+      ],
+      "contentNativeSize": [
+        379,
+        326
+      ],
+      "contentExportSize": [
+        379,
+        326
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 5,
+        "componentCorePixels": 77655
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "5d6522816d22e90e1921694a7123ade5eb0f1e0af3a72b9db1bab822c74014d5",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        383.57
+      ],
+      "familyId": "arctic-apartment",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-adobe-home",
+      "image": "assets/world/houses/families/climates/house-family-adobe-home.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        342,
+        541,
+        647
+      ],
+      "sourceCropSize": [
+        541,
+        305
+      ],
+      "alphaTrimBox": [
+        35,
+        15,
+        536,
+        298
+      ],
+      "sourceAnchorPx": [
+        289,
+        293
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        2,
+        170
+      ],
+      "contentNativeSize": [
+        501,
+        283
+      ],
+      "contentExportSize": [
+        501,
+        283
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 72,
+        "componentCorePixels": 96734
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "134ecc7ec1a2507b98a994cb03313e34132f1f39da4c235b8ed0c05e2f67af46",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        362.83
+      ],
+      "familyId": "adobe-home",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-tropical-stilt-home",
+      "image": "assets/world/houses/families/climates/house-family-tropical-stilt-home.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        542,
+        326,
+        998,
+        652
+      ],
+      "sourceCropSize": [
+        456,
+        326
+      ],
+      "alphaTrimBox": [
+        30,
+        10,
+        420,
+        319
+      ],
+      "sourceAnchorPx": [
+        220,
+        318
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        66,
+        140
+      ],
+      "contentNativeSize": [
+        390,
+        309
+      ],
+      "contentExportSize": [
+        390,
+        309
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 1373,
+        "componentCorePixels": 77481
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "feb73d97008cf6d61ee79f397247b9f0d343d2ac595bd44cb418a88f0375bf34",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        381.7
+      ],
+      "familyId": "tropical-stilt-home",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-tropical-villa",
+      "image": "assets/world/houses/families/climates/house-family-tropical-villa.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        999,
+        340,
+        1536,
+        651
+      ],
+      "sourceCropSize": [
+        537,
+        311
+      ],
+      "alphaTrimBox": [
+        27,
+        7,
+        476,
+        301
+      ],
+      "sourceAnchorPx": [
+        263,
+        288
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        20,
+        167
+      ],
+      "contentNativeSize": [
+        449,
+        294
+      ],
+      "contentExportSize": [
+        449,
+        294
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 362,
+        "componentCorePixels": 85737
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "e0b303c37dd15f3e6b5131e5f8e63d0b2ef3480bfca8e4d8f5d109ffbcd6f9b0",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        371.66999999999996
+      ],
+      "familyId": "tropical-villa",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-toy-candy-pot",
+      "image": "assets/world/houses/families/climates/house-family-toy-candy-pot.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        644,
+        539,
+        1024
+      ],
+      "sourceCropSize": [
+        539,
+        380
+      ],
+      "alphaTrimBox": [
+        91,
+        9,
+        482,
+        358
+      ],
+      "sourceAnchorPx": [
+        286,
+        353
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        61,
+        104
+      ],
+      "contentNativeSize": [
+        391,
+        349
+      ],
+      "contentExportSize": [
+        391,
+        349
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 102,
+        "componentCorePixels": 90624
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "b8b5719d101f8e532fdce3b11eef8c966ba0c885abd004792288dec57b959df6",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        381.53
+      ],
+      "familyId": "toy-candy-pot",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-toy-block-apartment",
+      "image": "assets/world/houses/families/climates/house-family-toy-block-apartment.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        540,
+        643,
+        999,
+        1024
+      ],
+      "sourceCropSize": [
+        459,
+        381
+      ],
+      "alphaTrimBox": [
+        23,
+        9,
+        420,
+        358
+      ],
+      "sourceAnchorPx": [
+        238,
+        357
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        41,
+        100
+      ],
+      "contentNativeSize": [
+        397,
+        349
+      ],
+      "contentExportSize": [
+        397,
+        349
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 57,
+        "componentCorePixels": 95409
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "85416bfe2af592509e2ad53156c873d631d1416d27d776bb0473f5c4712d5d0f",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        380.51
+      ],
+      "familyId": "toy-block-apartment",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-toy-sugar-manor",
+      "image": "assets/world/houses/families/climates/house-family-toy-sugar-manor.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-climates.png",
+          "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+          "record": "source-art/world/houses-climates.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1000,
+        638,
+        1536,
+        1024
+      ],
+      "sourceCropSize": [
+        536,
+        386
+      ],
+      "alphaTrimBox": [
+        51,
+        2,
+        454,
+        365
+      ],
+      "sourceAnchorPx": [
+        269,
+        364
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        38,
+        86
+      ],
+      "contentNativeSize": [
+        403,
+        363
+      ],
+      "contentExportSize": [
+        403,
+        363
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 79,
+        "componentCorePixels": 97254
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "14d7a09ec13d2de1b2518a3ad61374f4835a75d0b63531f9e6ccc021535879ad",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        379.49
+      ],
+      "familyId": "toy-sugar-manor",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    }
+  ],
+  "qa": [
+    {
+      "id": "house-family-alpine-chalet.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        0,
+        0,
+        540,
+        354
+      ]
+    },
+    {
+      "id": "house-family-snow-lodge.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        541,
+        0,
+        998,
+        355
+      ]
+    },
+    {
+      "id": "house-family-arctic-apartment.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        999,
+        0,
+        1536,
+        344
+      ]
+    },
+    {
+      "id": "house-family-adobe-home.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        0,
+        342,
+        541,
+        647
+      ]
+    },
+    {
+      "id": "house-family-tropical-stilt-home.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        542,
+        326,
+        998,
+        652
+      ]
+    },
+    {
+      "id": "house-family-tropical-villa.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        999,
+        340,
+        1536,
+        651
+      ]
+    },
+    {
+      "id": "house-family-toy-candy-pot.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        0,
+        644,
+        539,
+        1024
+      ]
+    },
+    {
+      "id": "house-family-toy-block-apartment.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        540,
+        643,
+        999,
+        1024
+      ]
+    },
+    {
+      "id": "house-family-toy-sugar-manor.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-climates.png",
+      "sourceBox": [
+        1000,
+        638,
+        1536,
+        1024
+      ]
+    }
+  ],
+  "acceptance": "local Alpha,source boundary,source hash and complete contact-sheet visual checks passed; user art review pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "house-families-climates",
+  "anchorConvention": "front-contact of complete native site; per-instance logical centre correction recorded separately"
+}

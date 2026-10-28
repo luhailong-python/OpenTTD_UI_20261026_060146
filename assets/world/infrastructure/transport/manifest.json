@@ -1,0 +1,3360 @@
+{
+  "schema": "world-transport-components.v1",
+  "assets": [
+    {
+      "id": "rail-platform",
+      "image": "assets/world/infrastructure/transport/rail-platform.png",
+      "sha256": "9829a88d1d126e88176398761d6ddf93f669cf64557682958161a54220e44e5b",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        5,
+        12,
+        577,
+        348
+      ],
+      "scaleApplied": 0.6713286713286714,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 2,
+      "contentSize": [
+        384,
+        226
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-platform-end",
+      "image": "assets/world/infrastructure/transport/rail-platform-end.png",
+      "sha256": "45ef045d440084fea2fd7c45c4aa2d4325d4f646ff7fb8b28ab4b2024e84fe26",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        596,
+        37,
+        955,
+        343
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 3,
+      "contentSize": [
+        359,
+        306
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-canopy",
+      "image": "assets/world/infrastructure/transport/rail-canopy.png",
+      "sha256": "7c173dfc3618abf4c9d78a3c6ceb1c6e270feb221f55ec161a1cd935ada1be5c",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        995,
+        7,
+        1536,
+        375
+      ],
+      "scaleApplied": 0.7097966728280961,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 1,
+      "contentSize": [
+        384,
+        261
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-station-hall",
+      "image": "assets/world/infrastructure/transport/rail-station-hall.png",
+      "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        19,
+        333,
+        582,
+        711
+      ],
+      "scaleApplied": 0.6820603907637656,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 4,
+      "contentSize": [
+        384,
+        258
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-cargo-platform",
+      "image": "assets/world/infrastructure/transport/rail-cargo-platform.png",
+      "sha256": "425a8cb5501d6e34bb87f4529cb77ebc2541278818edcd76bb8a847ab7b5574f",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        589,
+        394,
+        1091,
+        711
+      ],
+      "scaleApplied": 0.7649402390438247,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 6,
+      "contentSize": [
+        384,
+        242
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-warehouse",
+      "image": "assets/world/infrastructure/transport/rail-warehouse.png",
+      "sha256": "02a3de50e8b4d02e1bfc9c24dd25231283a142d73c443a5d61a6c8ca87136130",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1090,
+        377,
+        1525,
+        731
+      ],
+      "scaleApplied": 0.8827586206896552,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 5,
+      "contentSize": [
+        384,
+        312
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-signalbox",
+      "image": "assets/world/infrastructure/transport/rail-signalbox.png",
+      "sha256": "20d9c25fa4ddf9c5828cb6a4877073b391ee245a4e7064910319d5e618234308",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        96,
+        714,
+        408,
+        997
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 11,
+      "contentSize": [
+        312,
+        283
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-footbridge",
+      "image": "assets/world/infrastructure/transport/rail-footbridge.png",
+      "sha256": "1d07ce447abc9b557466f1ddcb998454f488760686be39cd66f2861b0cf7c84a",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        477,
+        685,
+        1063,
+        1019
+      ],
+      "scaleApplied": 0.6552901023890785,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 10,
+      "contentSize": [
+        384,
+        219
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-ticketgate",
+      "image": "assets/world/infrastructure/transport/rail-ticketgate.png",
+      "sha256": "0915c2fb97a2d3562585866660d24602f14107350934f9df3239a8c4ddc38b29",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/station-kit.png",
+          "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+          "record": "source-art/world/station-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1124,
+        726,
+        1507,
+        1016
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "station-kit",
+      "sourceComponent": 12,
+      "contentSize": [
+        383,
+        290
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-steam",
+      "image": "assets/world/infrastructure/transport/rail-depot-steam.png",
+      "sha256": "30b8f5fb77b3d5d2245b76486b587e12e2044163d3cf18b2b2de328d2affa4a7",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        24,
+        15,
+        521,
+        356
+      ],
+      "scaleApplied": 0.772635814889336,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 2,
+      "contentSize": [
+        384,
+        263
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-electric",
+      "image": "assets/world/infrastructure/transport/rail-depot-electric.png",
+      "sha256": "f19bda25861e8afa7c1424432b1e259f9f44b3902b70e194d689847c4260fd37",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        513,
+        50,
+        1040,
+        366
+      ],
+      "scaleApplied": 0.7286527514231499,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 3,
+      "contentSize": [
+        384,
+        230
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-monorail",
+      "image": "assets/world/infrastructure/transport/rail-depot-monorail.png",
+      "sha256": "e065a6f6c77dd11e4f55b0e55027c800263afde8a707d2acd57d5fcc7aa62771",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1032,
+        10,
+        1524,
+        386
+      ],
+      "scaleApplied": 0.7804878048780488,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 1,
+      "contentSize": [
+        384,
+        293
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-maglev",
+      "image": "assets/world/infrastructure/transport/rail-depot-maglev.png",
+      "sha256": "e5e1e395673dff901351b449b7fd473b698006314afc219d348cee9750582ccb",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        15,
+        377,
+        524,
+        679
+      ],
+      "scaleApplied": 0.7544204322200393,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 12,
+      "contentSize": [
+        384,
+        228
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "road-depot",
+      "image": "assets/world/infrastructure/transport/road-depot.png",
+      "sha256": "6d030235c6542f6b6078b9bd66d5b12357ed1482e761b3108ab48f44078be83e",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        521,
+        359,
+        1053,
+        684
+      ],
+      "scaleApplied": 0.7218045112781954,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 10,
+      "contentSize": [
+        384,
+        235
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bus-bay",
+      "image": "assets/world/infrastructure/transport/bus-bay.png",
+      "sha256": "e6bed0535903affe1e2150f3a7faa7b7bc228bbe2cfdbdc59efdf42d6af7e495",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1070,
+        369,
+        1534,
+        677
+      ],
+      "scaleApplied": 0.8275862068965517,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 11,
+      "contentSize": [
+        384,
+        255
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "truck-bay",
+      "image": "assets/world/infrastructure/transport/truck-bay.png",
+      "sha256": "59dbd88f755066dae2b329df8dc53e4a80708383d138cbeeaf642b65152d9f39",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        16,
+        679,
+        516,
+        997
+      ],
+      "scaleApplied": 0.768,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 19,
+      "contentSize": [
+        384,
+        244
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "ship-depot",
+      "image": "assets/world/infrastructure/transport/ship-depot.png",
+      "sha256": "95565ebf001ee1d4929fe73cc29302caa90e721c4a47bb5ebadc21ab5ea09cfd",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        526,
+        673,
+        1052,
+        1013
+      ],
+      "scaleApplied": 0.7300380228136882,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 18,
+      "contentSize": [
+        384,
+        248
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "tram-depot",
+      "image": "assets/world/infrastructure/transport/tram-depot.png",
+      "sha256": "73ab8b32eb6c4b27508478f48e6fb34f7f028ba2b606af1a58dde5a180b9cf94",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/depot-kit.png",
+          "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+          "record": "source-art/world/depot-kit.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1061,
+        681,
+        1528,
+        1006
+      ],
+      "scaleApplied": 0.8222698072805139,
+      "sourceAtlas": "depot-kit",
+      "sourceComponent": 20,
+      "contentSize": [
+        384,
+        267
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-wood-native",
+      "image": "assets/world/infrastructure/transport/bridge-wood-native.png",
+      "sha256": "5b0f3d4a784e73dfc776454b1c4420638d17d9f8bc07709583624af11ed409da",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        21,
+        14,
+        499,
+        329
+      ],
+      "scaleApplied": 0.803347280334728,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 2,
+      "contentSize": [
+        384,
+        253
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-stone-native",
+      "image": "assets/world/infrastructure/transport/bridge-stone-native.png",
+      "sha256": "7d9fddcd13d36ede43313016dc96e3c8e4465dea22f76f3740537761c6df76b1",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        497,
+        0,
+        1014,
+        349
+      ],
+      "scaleApplied": 0.7427466150870407,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 1,
+      "contentSize": [
+        384,
+        259
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-truss-native",
+      "image": "assets/world/infrastructure/transport/bridge-truss-native.png",
+      "sha256": "018622fc48e343ffa80a85ec425c185ed147ce78dafe741873f94a72ac6c88e9",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        984,
+        18,
+        1523,
+        361
+      ],
+      "scaleApplied": 0.712430426716141,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 3,
+      "contentSize": [
+        384,
+        244
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-concrete-native",
+      "image": "assets/world/infrastructure/transport/bridge-concrete-native.png",
+      "sha256": "7578786e3075ede4daee119bc05c92fff21b678d1479ea4dafa41071c5d0a6f3",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        20,
+        297,
+        543,
+        655
+      ],
+      "scaleApplied": 0.734225621414914,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 10,
+      "contentSize": [
+        384,
+        263
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-cantilever-native",
+      "image": "assets/world/infrastructure/transport/bridge-cantilever-native.png",
+      "sha256": "52764830361c7d56f1c3377ee63c584b3a3699e8d11ec40d3ac0c2a84e75c84d",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        493,
+        328,
+        1030,
+        674
+      ],
+      "scaleApplied": 0.7150837988826816,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 11,
+      "contentSize": [
+        384,
+        247
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-arch-native",
+      "image": "assets/world/infrastructure/transport/bridge-arch-native.png",
+      "sha256": "f416c5f0d6383f025d9f65461b0701aeb05357f426303cc50691967474c3034a",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        990,
+        339,
+        1511,
+        670
+      ],
+      "scaleApplied": 0.7370441458733206,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 12,
+      "contentSize": [
+        384,
+        244
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-suspension-native",
+      "image": "assets/world/infrastructure/transport/bridge-suspension-native.png",
+      "sha256": "aaddb921af623749076e6a6164809a462f51cd7d5c47e7b250306bb63140aaae",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        16,
+        562,
+        587,
+        995
+      ],
+      "scaleApplied": 0.6725043782837128,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 15,
+      "contentSize": [
+        384,
+        291
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-tubular-native",
+      "image": "assets/world/infrastructure/transport/bridge-tubular-native.png",
+      "sha256": "d38715af59441d0a3473a562f82082ee02668d5975de3721a495cb25025167e2",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        527,
+        628,
+        1033,
+        997
+      ],
+      "scaleApplied": 0.758893280632411,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 17,
+      "contentSize": [
+        384,
+        280
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-covered-native",
+      "image": "assets/world/infrastructure/transport/bridge-covered-native.png",
+      "sha256": "d23dbb6c253f197b0b12fe2a9343d0db43afe9b45e55d9e8ab0b610ce376c38d",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-families.png",
+          "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+          "record": "source-art/world/bridge-families.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1016,
+        633,
+        1518,
+        994
+      ],
+      "scaleApplied": 0.7649402390438247,
+      "sourceAtlas": "bridge-families",
+      "sourceComponent": 19,
+      "contentSize": [
+        384,
+        276
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-wood-span",
+      "image": "assets/world/infrastructure/transport/bridge-wood-span.png",
+      "sha256": "13938698f517c84fb0f320583d8d4e4afba023f08184f1bdfc53398921db4363",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        52,
+        11,
+        566,
+        361
+      ],
+      "scaleApplied": 0.7470817120622568,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 3,
+      "contentSize": [
+        384,
+        261
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-concrete-span",
+      "image": "assets/world/infrastructure/transport/bridge-concrete-span.png",
+      "sha256": "7587f3ef9e6f9aa485deb7921d20455f29f036d5bab654e024c91dda48e110b8",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        530,
+        7,
+        1039,
+        338
+      ],
+      "scaleApplied": 0.7544204322200393,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 2,
+      "contentSize": [
+        384,
+        250
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-truss-span",
+      "image": "assets/world/infrastructure/transport/bridge-truss-span.png",
+      "sha256": "d7d53e7efbfa05326375628d0062f6d3c56acf66177e8ffcb3743ea1761a8e49",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1050,
+        5,
+        1498,
+        329
+      ],
+      "scaleApplied": 0.8571428571428571,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 1,
+      "contentSize": [
+        384,
+        278
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-cantilever-span",
+      "image": "assets/world/infrastructure/transport/bridge-cantilever-span.png",
+      "sha256": "a24ee58fd49c13d741b37c0d851a5cec5087fc0a1ab980a0e5e7f5e00f634e26",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        59,
+        314,
+        565,
+        638
+      ],
+      "scaleApplied": 0.758893280632411,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 5,
+      "contentSize": [
+        384,
+        246
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-arch-span",
+      "image": "assets/world/infrastructure/transport/bridge-arch-span.png",
+      "sha256": "9ee3564a55e4e56dd46b5657e872089c369f8b7874c0726787339d6726677063",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        548,
+        316,
+        1024,
+        651
+      ],
+      "scaleApplied": 0.8067226890756303,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 6,
+      "contentSize": [
+        384,
+        270
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-suspension-span",
+      "image": "assets/world/infrastructure/transport/bridge-suspension-span.png",
+      "sha256": "92717b7b1f71bb768f4c0d5445867d4303a1ebf40975e7fef6e33f005cfc74c2",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1043,
+        316,
+        1504,
+        666
+      ],
+      "scaleApplied": 0.8329718004338394,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 7,
+      "contentSize": [
+        384,
+        292
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-suspension-tower",
+      "image": "assets/world/infrastructure/transport/bridge-suspension-tower.png",
+      "sha256": "83e0a4267ed72d8c46a438d3c7c0375dc32d3e690329dd3cdf09426f92a7eb65",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        33,
+        598,
+        480,
+        983
+      ],
+      "scaleApplied": 0.8590604026845637,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 9,
+      "contentSize": [
+        384,
+        331
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-tubular-span",
+      "image": "assets/world/infrastructure/transport/bridge-tubular-span.png",
+      "sha256": "7a92213188edcc8083b6b80a655339022322a5684786c12ef25e5f1295a6732b",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        541,
+        632,
+        1041,
+        991
+      ],
+      "scaleApplied": 0.768,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 10,
+      "contentSize": [
+        384,
+        276
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-pier",
+      "image": "assets/world/infrastructure/transport/bridge-pier.png",
+      "sha256": "ceaea1fae2072713bc32ced692310389cc2869324ac6fe203181453dde3e8e99",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/bridge-modules.png",
+          "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+          "record": "source-art/world/bridge-modules.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1179,
+        667,
+        1368,
+        993
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "bridge-modules",
+      "sourceComponent": 11,
+      "contentSize": [
+        189,
+        326
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-view-SW",
+      "image": "assets/world/infrastructure/transport/rail-depot-view-SW.png",
+      "sha256": "11251b76d3f3261119571344da3a088576e36bcdf3ee8c25639ad404d3d38640",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        54,
+        46,
+        410,
+        296
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 3,
+      "contentSize": [
+        356,
+        250
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-view-SE",
+      "image": "assets/world/infrastructure/transport/rail-depot-view-SE.png",
+      "sha256": "b0cc4137cf8f31f452f61103fcf13f81ae7d6e7ee5a591ef5ef93e55a7cfcc4e",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        473,
+        47,
+        836,
+        296
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 4,
+      "contentSize": [
+        363,
+        249
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-view-NE",
+      "image": "assets/world/infrastructure/transport/rail-depot-view-NE.png",
+      "sha256": "05b9765d9b1f2891bc4f30956dee351de74f0f67ffa0d9b5b4b5600a16e45cd8",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        919,
+        40,
+        1276,
+        305
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 1,
+      "contentSize": [
+        357,
+        265
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-view-NW",
+      "image": "assets/world/infrastructure/transport/rail-depot-view-NW.png",
+      "sha256": "096062c7998ade28777d21a112b342ba2352b0460c78ff167fbd9c0669a20479",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1371,
+        40,
+        1717,
+        305
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 2,
+      "contentSize": [
+        346,
+        265
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "road-depot-view-SW",
+      "image": "assets/world/infrastructure/transport/road-depot-view-SW.png",
+      "sha256": "877edf0647017c51375b57405b8efd792ea99f01fd049edb6187453420d00982",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        38,
+        320,
+        420,
+        594
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 6,
+      "contentSize": [
+        382,
+        274
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "road-depot-view-SE",
+      "image": "assets/world/infrastructure/transport/road-depot-view-SE.png",
+      "sha256": "71d63d96827936f73f3f0aea4e49c223278feecdce4b173c57452a3d3d81e1e8",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        466,
+        317,
+        859,
+        595
+      ],
+      "scaleApplied": 0.9770992366412213,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 5,
+      "contentSize": [
+        384,
+        272
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "road-depot-view-NE",
+      "image": "assets/world/infrastructure/transport/road-depot-view-NE.png",
+      "sha256": "bd497a80fbcea82bba01719e334d9ec4cae200bcae54866f25ca825c9fd960fa",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        931,
+        337,
+        1316,
+        583
+      ],
+      "scaleApplied": 0.9974025974025974,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 8,
+      "contentSize": [
+        384,
+        245
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "road-depot-view-NW",
+      "image": "assets/world/infrastructure/transport/road-depot-view-NW.png",
+      "sha256": "84150cf5aa1fd59f3d3833f8d32fa88c87e4bd7c8e808608d51855a8253d0eab",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1346,
+        329,
+        1729,
+        583
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 7,
+      "contentSize": [
+        383,
+        254
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "tunnel-portal-SW",
+      "image": "assets/world/infrastructure/transport/tunnel-portal-SW.png",
+      "sha256": "08000037f6ed53a444cf08767435244dc4e39df423705e985eeb1f81642ec27c",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        45,
+        600,
+        436,
+        856
+      ],
+      "scaleApplied": 0.9820971867007673,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 9,
+      "contentSize": [
+        384,
+        251
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "tunnel-portal-SE",
+      "image": "assets/world/infrastructure/transport/tunnel-portal-SE.png",
+      "sha256": "380ba21f5e5bf07286a3bf1554255d53f61c78d7f2ecdf8a45c45d3497ff2506",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        481,
+        605,
+        879,
+        860
+      ],
+      "scaleApplied": 0.964824120603015,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 10,
+      "contentSize": [
+        384,
+        246
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "tunnel-portal-NE",
+      "image": "assets/world/infrastructure/transport/tunnel-portal-NE.png",
+      "sha256": "8b18d6de1e807e369f105fed458b2ea03a0f0c0152637d8c0447a1a204c8fa7d",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        933,
+        605,
+        1324,
+        863
+      ],
+      "scaleApplied": 0.9820971867007673,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 11,
+      "contentSize": [
+        384,
+        253
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "tunnel-portal-NW",
+      "image": "assets/world/infrastructure/transport/tunnel-portal-NW.png",
+      "sha256": "93dd72eb33b5d5b6cdcdc62060d4e186a30feeae76a3bfaa0bd3572d483b7b2c",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "source-art/world/service-directions.png",
+          "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+          "record": "source-art/world/service-directions.png.generation.json"
+        }
+      ],
+      "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "nativeCrop": [
+        1366,
+        613,
+        1733,
+        863
+      ],
+      "scaleApplied": 1,
+      "sourceAtlas": "service-directions",
+      "sourceComponent": 12,
+      "contentSize": [
+        367,
+        250
+      ],
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-platform-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-platform-axis-y.png",
+      "sha256": "05ee91db808cd4ef9c7e4105e8b7b76b3bd9fbceb33ceef70bae81c2d6c5fe21",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-platform.png",
+          "sha256": "9829a88d1d126e88176398761d6ddf93f669cf64557682958161a54220e44e5b",
+          "record": "assets/world/infrastructure/transport/rail-platform.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-platform-end-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-platform-end-axis-y.png",
+      "sha256": "f7a442ebcb121aafda2475675db1fc038c8b4ff48e17d27c819bce51d121f783",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-platform-end.png",
+          "sha256": "45ef045d440084fea2fd7c45c4aa2d4325d4f646ff7fb8b28ab4b2024e84fe26",
+          "record": "assets/world/infrastructure/transport/rail-platform-end.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-canopy-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-canopy-axis-y.png",
+      "sha256": "893b166a49046375d85da7862846cf3d80b2f85b709ee77f6439285090b4f3b9",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-canopy.png",
+          "sha256": "7c173dfc3618abf4c9d78a3c6ceb1c6e270feb221f55ec161a1cd935ada1be5c",
+          "record": "assets/world/infrastructure/transport/rail-canopy.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-station-hall-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-station-hall-axis-y.png",
+      "sha256": "61af5c65ad6511633201df6e79955a2806537d2a5eef6096e465fed23cc4cace",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-station-hall.png",
+          "sha256": "748633fabe09a7d346d75a7c0e02c597ea4d214b9c88bc1b886856b9778a84a1",
+          "record": "assets/world/infrastructure/transport/rail-station-hall.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-cargo-platform-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-cargo-platform-axis-y.png",
+      "sha256": "e76cef0354ef7f9d95a61d98bf2e655e01c16becc59cadc74ce78d742c43fa39",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-cargo-platform.png",
+          "sha256": "425a8cb5501d6e34bb87f4529cb77ebc2541278818edcd76bb8a847ab7b5574f",
+          "record": "assets/world/infrastructure/transport/rail-cargo-platform.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-warehouse-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-warehouse-axis-y.png",
+      "sha256": "abdd98cfce26d6dac8d66881c368b3761f65d3b6627173ad5e3ee20ba73db2a7",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-warehouse.png",
+          "sha256": "02a3de50e8b4d02e1bfc9c24dd25231283a142d73c443a5d61a6c8ca87136130",
+          "record": "assets/world/infrastructure/transport/rail-warehouse.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-signalbox-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-signalbox-axis-y.png",
+      "sha256": "01d6f1c5bfa9b3d79258b2fec4920b1d7c280a1be5270bcb9461539c8c837766",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-signalbox.png",
+          "sha256": "20d9c25fa4ddf9c5828cb6a4877073b391ee245a4e7064910319d5e618234308",
+          "record": "assets/world/infrastructure/transport/rail-signalbox.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-footbridge-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-footbridge-axis-y.png",
+      "sha256": "27f0e608c98db58d3cf2213a8ca7d3fcc39629cdcf82400da8db44e5618f57f2",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-footbridge.png",
+          "sha256": "1d07ce447abc9b557466f1ddcb998454f488760686be39cd66f2861b0cf7c84a",
+          "record": "assets/world/infrastructure/transport/rail-footbridge.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-ticketgate-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-ticketgate-axis-y.png",
+      "sha256": "8068347aae2815f4bdd1930ebd0cb56d3a4dd0403062e92c6221272f8b6ba248",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-ticketgate.png",
+          "sha256": "0915c2fb97a2d3562585866660d24602f14107350934f9df3239a8c4ddc38b29",
+          "record": "assets/world/infrastructure/transport/rail-ticketgate.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-steam-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-depot-steam-axis-y.png",
+      "sha256": "252a2a96e51dba97eef7f483a1ac459af849215ba42a020f39a2aaea4e724d26",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-depot-steam.png",
+          "sha256": "30b8f5fb77b3d5d2245b76486b587e12e2044163d3cf18b2b2de328d2affa4a7",
+          "record": "assets/world/infrastructure/transport/rail-depot-steam.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-electric-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-depot-electric-axis-y.png",
+      "sha256": "e40e742082ed93227fbf4891ed4ffee7dcc90e9d6260a6133294231536309795",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-depot-electric.png",
+          "sha256": "f19bda25861e8afa7c1424432b1e259f9f44b3902b70e194d689847c4260fd37",
+          "record": "assets/world/infrastructure/transport/rail-depot-electric.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-monorail-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-depot-monorail-axis-y.png",
+      "sha256": "3160528cbffaed9ad3cb77c192a3126eecdc7f8ff7d386d48f76daef0f4ce0c7",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-depot-monorail.png",
+          "sha256": "e065a6f6c77dd11e4f55b0e55027c800263afde8a707d2acd57d5fcc7aa62771",
+          "record": "assets/world/infrastructure/transport/rail-depot-monorail.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "rail-depot-maglev-axis-y",
+      "image": "assets/world/infrastructure/transport/rail-depot-maglev-axis-y.png",
+      "sha256": "0acaacf18fcfe7f44abe16fdd405acb21e2dde45d4bc28566e4c414bd9a47d8f",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/rail-depot-maglev.png",
+          "sha256": "e5e1e395673dff901351b449b7fd473b698006314afc219d348cee9750582ccb",
+          "record": "assets/world/infrastructure/transport/rail-depot-maglev.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "road-depot-axis-y",
+      "image": "assets/world/infrastructure/transport/road-depot-axis-y.png",
+      "sha256": "0bc4ab780ac8bb1cb7f239cb79fc430811f153e35c5f11454d67e4c5a3b7362e",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/road-depot.png",
+          "sha256": "6d030235c6542f6b6078b9bd66d5b12357ed1482e761b3108ab48f44078be83e",
+          "record": "assets/world/infrastructure/transport/road-depot.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bus-bay-axis-y",
+      "image": "assets/world/infrastructure/transport/bus-bay-axis-y.png",
+      "sha256": "87a7406dc60aaec5e4d7b242f27cc128615586a0a2c73f60f1df3e6535fb984f",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bus-bay.png",
+          "sha256": "e6bed0535903affe1e2150f3a7faa7b7bc228bbe2cfdbdc59efdf42d6af7e495",
+          "record": "assets/world/infrastructure/transport/bus-bay.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "truck-bay-axis-y",
+      "image": "assets/world/infrastructure/transport/truck-bay-axis-y.png",
+      "sha256": "63ebf2558d85b1ee36c54b3679a0e89c0f60932846ea4c2ebc84f08cd462ba31",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/truck-bay.png",
+          "sha256": "59dbd88f755066dae2b329df8dc53e4a80708383d138cbeeaf642b65152d9f39",
+          "record": "assets/world/infrastructure/transport/truck-bay.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "ship-depot-axis-y",
+      "image": "assets/world/infrastructure/transport/ship-depot-axis-y.png",
+      "sha256": "54d36403d8698e565a9b51ff43f7a7963d6e0dc7e652c5e0797a0adec5b40dab",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/ship-depot.png",
+          "sha256": "95565ebf001ee1d4929fe73cc29302caa90e721c4a47bb5ebadc21ab5ea09cfd",
+          "record": "assets/world/infrastructure/transport/ship-depot.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "tram-depot-axis-y",
+      "image": "assets/world/infrastructure/transport/tram-depot-axis-y.png",
+      "sha256": "efc7d14c64e8518f59d29101d116a77004de87d8bf1d3b8b0d700d2a156ffb88",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/tram-depot.png",
+          "sha256": "73ab8b32eb6c4b27508478f48e6fb34f7f028ba2b606af1a58dde5a180b9cf94",
+          "record": "assets/world/infrastructure/transport/tram-depot.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-wood-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-wood-span-axis-y.png",
+      "sha256": "cc765b042df73ee04190e34cbe8d7c55fa8bded9cf69ac82ec660b5e0509e91b",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-wood-span.png",
+          "sha256": "13938698f517c84fb0f320583d8d4e4afba023f08184f1bdfc53398921db4363",
+          "record": "assets/world/infrastructure/transport/bridge-wood-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-concrete-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-concrete-span-axis-y.png",
+      "sha256": "578c8b445892d4c687b2598450ec4084300b2f06555f566bffe7f45b1e593c7b",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-concrete-span.png",
+          "sha256": "7587f3ef9e6f9aa485deb7921d20455f29f036d5bab654e024c91dda48e110b8",
+          "record": "assets/world/infrastructure/transport/bridge-concrete-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-truss-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-truss-span-axis-y.png",
+      "sha256": "96693ee52350ca40e4ee2f78871e2ed44934557b3032fa3835bc4cc6a72c5e53",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-truss-span.png",
+          "sha256": "d7d53e7efbfa05326375628d0062f6d3c56acf66177e8ffcb3743ea1761a8e49",
+          "record": "assets/world/infrastructure/transport/bridge-truss-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-cantilever-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-cantilever-span-axis-y.png",
+      "sha256": "c31fe51c3f0be2379792ce01f984a8c0d462805de441799fcee778a76caee19b",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-cantilever-span.png",
+          "sha256": "a24ee58fd49c13d741b37c0d851a5cec5087fc0a1ab980a0e5e7f5e00f634e26",
+          "record": "assets/world/infrastructure/transport/bridge-cantilever-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-arch-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-arch-span-axis-y.png",
+      "sha256": "fde1c0e6fc7e19c879a9900669260816a355ae390706a6f1be7fa5b1a37f99af",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-arch-span.png",
+          "sha256": "9ee3564a55e4e56dd46b5657e872089c369f8b7874c0726787339d6726677063",
+          "record": "assets/world/infrastructure/transport/bridge-arch-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-suspension-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-suspension-span-axis-y.png",
+      "sha256": "ef2723a39464ebe289b7e002ee955796ac4ab122c1474ccc534d513b0b4eee9b",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-suspension-span.png",
+          "sha256": "92717b7b1f71bb768f4c0d5445867d4303a1ebf40975e7fef6e33f005cfc74c2",
+          "record": "assets/world/infrastructure/transport/bridge-suspension-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-suspension-tower-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-suspension-tower-axis-y.png",
+      "sha256": "8f21585b26eea2032e95fb1d9db850cd7e0d5a12ee47166813599df96e1d4a0d",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-suspension-tower.png",
+          "sha256": "83e0a4267ed72d8c46a438d3c7c0375dc32d3e690329dd3cdf09426f92a7eb65",
+          "record": "assets/world/infrastructure/transport/bridge-suspension-tower.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-tubular-span-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-tubular-span-axis-y.png",
+      "sha256": "9047272a980c4e5e27cfcabb08191828a61c23cd499ee147b9f32ae61a722462",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-tubular-span.png",
+          "sha256": "7a92213188edcc8083b6b80a655339022322a5684786c12ef25e5f1295a6732b",
+          "record": "assets/world/infrastructure/transport/bridge-tubular-span.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    },
+    {
+      "id": "bridge-pier-axis-y",
+      "image": "assets/world/infrastructure/transport/bridge-pier-axis-y.png",
+      "sha256": "cebde639d40e976e82190407a128fcba0a6e88f97545effc236d6ca7a64ab674",
+      "width": 512,
+      "height": 512,
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/transport/bridge-pier.png",
+          "sha256": "ceaea1fae2072713bc32ced692310389cc2869324ac6fe203181453dde3e8e99",
+          "record": "assets/world/infrastructure/transport/bridge-pier.png.derivation.json"
+        }
+      ],
+      "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+      "nativeUpscale": false,
+      "unityValidated": false,
+      "category": "infrastructure",
+      "sourceRequirementIds": [],
+      "status": "produced-needs-visual-review",
+      "symmetricAxisReflection": true,
+      "validation": {
+        "rgba": true,
+        "hasAlpha": true,
+        "insideCanvas": true,
+        "dimensions": true,
+        "hash": true,
+        "noUpscale": true
+      }
+    }
+  ],
+  "animations": [],
+  "qa": [],
+  "artSource": "host_image_derivative",
+  "unityValidated": false
+}

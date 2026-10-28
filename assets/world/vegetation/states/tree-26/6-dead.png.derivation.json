@@ -1,0 +1,46 @@
+{
+  "id": "tree-26-dead",
+  "image": "assets/world/vegetation/states/tree-26/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "fdfa85e036fec638b929bc49c67b778107e63a6be90a029437e6a5a05255a09b",
+  "climate": "tropical",
+  "artSpecies": "mahogany",
+  "sourceTreeType": 26,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-26.png",
+      "sha256": "d0b9ef344a9df637d899e81c4ff3989cdd36902e389f7c28ae3357f7400d6622",
+      "record": "assets/world/vegetation/mature/tree-26.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png",
+      "sha256": "9f12687fd3a2ea92f835b6926f1a62d76e71b96c7ee583ea09a1f633766c20cd",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-stump",
+    "sharedScale": 0.33714285714285713,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-26"
+  ]
+}

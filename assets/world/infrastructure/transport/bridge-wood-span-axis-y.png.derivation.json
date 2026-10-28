@@ -1,0 +1,37 @@
+{
+  "id": "bridge-wood-span-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-wood-span-axis-y.png",
+  "sha256": "cc765b042df73ee04190e34cbe8d7c55fa8bded9cf69ac82ec660b5e0509e91b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-wood-span.png",
+      "sha256": "13938698f517c84fb0f320583d8d4e4afba023f08184f1bdfc53398921db4363",
+      "record": "assets/world/infrastructure/transport/bridge-wood-span.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/terrain/shore-geometry/shore-snow-slot-00-whole.png",
+  "sha256": "335a61185b61615f699576b4a887f0537db7dbfeaf6caa45126de2d48180b994",
+  "generatedAt": "2026-10-28T11:34:25.374007+00:00",
+  "tool": "build_shore_geometry.py",
+  "route": "deterministic-native-pixel-projection",
+  "width": 256,
+  "height": 192,
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-00-land.png",
+      "sha256": "210a098322619d34caa6fde5e479e5ef0b19c52e45cbf4565542ea75521dec55",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-00-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-00-bank.png",
+      "sha256": "2d329d38a30710d7e441dcca4535ae64b5a6595d85d13a41256fecc1d299882e",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-00-bank.png.derivation.json"
+    }
+  ],
+  "operation": "Exact ordered composition: horizontal native water, source-height native land, source-height native shorestrip",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

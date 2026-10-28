@@ -1,0 +1,778 @@
+{
+  "reviewer": "openttd_research / part A",
+  "reviewedAt": "2026-10-26T10:53:32.089284+00:00",
+  "reviewType": "static visual contact-sheet scan plus focused original PNG inspection",
+  "status": "requires-repair",
+  "userArtApproval": "pending",
+  "unityValidated": false,
+  "screenRange": "catalogue items 1–72",
+  "screensScanned": [
+    "01-main-menu",
+    "02-bootstrap",
+    "03-new-world",
+    "04-heightmap",
+    "05-scenario-select",
+    "06-load-game",
+    "07-save-game",
+    "08-world-progress",
+    "09-main-hud",
+    "10-game-menu",
+    "11-rail-build",
+    "12-rail-station",
+    "13-rail-signals",
+    "14-rail-depot",
+    "15-rail-waypoint",
+    "16-rail-convert",
+    "17-bridge",
+    "18-tunnel",
+    "19-road-build",
+    "20-tram-build",
+    "21-road-station",
+    "22-road-depot",
+    "23-road-waypoint",
+    "24-water-build",
+    "25-dock",
+    "26-shipyard",
+    "27-canal-lock",
+    "28-airport-build",
+    "29-airport-picker",
+    "30-station-join",
+    "31-stations-list",
+    "32-station-detail",
+    "33-station-ratings",
+    "34-waypoint-detail",
+    "35-vehicles-train",
+    "36-vehicles-road",
+    "37-vehicles-ship",
+    "38-vehicles-air",
+    "39-depot-train",
+    "40-depot-road",
+    "41-depot-ship",
+    "42-depot-air",
+    "43-buy-train",
+    "44-buy-road",
+    "45-buy-ship",
+    "46-buy-air",
+    "47-vehicle-view",
+    "48-vehicle-details",
+    "49-vehicle-refit",
+    "50-orders",
+    "51-conditional-order",
+    "52-shared-orders",
+    "53-timetable",
+    "54-vehicle-groups",
+    "55-auto-replace",
+    "56-engine-preview",
+    "57-company-overview",
+    "58-company-manager",
+    "59-company-livery",
+    "60-finances",
+    "61-loan",
+    "62-infrastructure",
+    "63-buy-company",
+    "64-company-league",
+    "65-company-graphs",
+    "66-performance",
+    "67-cargo-payment",
+    "68-subsidies",
+    "69-small-map",
+    "70-linkgraph",
+    "71-extra-viewport",
+    "72-transparency"
+  ],
+  "stateRange": "first 80 catalogue states via contacts 01–04",
+  "statesScanned": [
+    {
+      "screenId": "01-main-menu",
+      "stateId": "no-baseset",
+      "file": "previews/states/01-main-menu--no-baseset.png"
+    },
+    {
+      "screenId": "02-bootstrap",
+      "stateId": "download-failed",
+      "file": "previews/states/02-bootstrap--download-failed.png"
+    },
+    {
+      "screenId": "02-bootstrap",
+      "stateId": "ready",
+      "file": "previews/states/02-bootstrap--ready.png"
+    },
+    {
+      "screenId": "03-new-world",
+      "stateId": "large-world",
+      "file": "previews/states/03-new-world--large-world.png"
+    },
+    {
+      "screenId": "04-heightmap",
+      "stateId": "bad-file",
+      "file": "previews/states/04-heightmap--bad-file.png"
+    },
+    {
+      "screenId": "04-heightmap",
+      "stateId": "aspect-warning",
+      "file": "previews/states/04-heightmap--aspect-warning.png"
+    },
+    {
+      "screenId": "05-scenario-select",
+      "stateId": "empty",
+      "file": "previews/states/05-scenario-select--empty.png"
+    },
+    {
+      "screenId": "05-scenario-select",
+      "stateId": "missing-newgrf",
+      "file": "previews/states/05-scenario-select--missing-newgrf.png"
+    },
+    {
+      "screenId": "06-load-game",
+      "stateId": "empty",
+      "file": "previews/states/06-load-game--empty.png"
+    },
+    {
+      "screenId": "06-load-game",
+      "stateId": "corrupt",
+      "file": "previews/states/06-load-game--corrupt.png"
+    },
+    {
+      "screenId": "06-load-game",
+      "stateId": "incompatible",
+      "file": "previews/states/06-load-game--incompatible.png"
+    },
+    {
+      "screenId": "07-save-game",
+      "stateId": "overwrite",
+      "file": "previews/states/07-save-game--overwrite.png"
+    },
+    {
+      "screenId": "07-save-game",
+      "stateId": "saved",
+      "file": "previews/states/07-save-game--saved.png"
+    },
+    {
+      "screenId": "07-save-game",
+      "stateId": "disk-error",
+      "file": "previews/states/07-save-game--disk-error.png"
+    },
+    {
+      "screenId": "08-world-progress",
+      "stateId": "generating",
+      "file": "previews/states/08-world-progress--generating.png"
+    },
+    {
+      "screenId": "08-world-progress",
+      "stateId": "abort",
+      "file": "previews/states/08-world-progress--abort.png"
+    },
+    {
+      "screenId": "09-main-hud",
+      "stateId": "paused",
+      "file": "previews/states/09-main-hud--paused.png"
+    },
+    {
+      "screenId": "09-main-hud",
+      "stateId": "spectator",
+      "file": "previews/states/09-main-hud--spectator.png"
+    },
+    {
+      "screenId": "10-game-menu",
+      "stateId": "quit-confirm",
+      "file": "previews/states/10-game-menu--quit-confirm.png"
+    },
+    {
+      "screenId": "11-rail-build",
+      "stateId": "blocked",
+      "file": "previews/states/11-rail-build--blocked.png"
+    },
+    {
+      "screenId": "11-rail-build",
+      "stateId": "insufficient",
+      "file": "previews/states/11-rail-build--insufficient.png"
+    },
+    {
+      "screenId": "11-rail-build",
+      "stateId": "built",
+      "file": "previews/states/11-rail-build--built.png"
+    },
+    {
+      "screenId": "12-rail-station",
+      "stateId": "town-refused",
+      "file": "previews/states/12-rail-station--town-refused.png"
+    },
+    {
+      "screenId": "12-rail-station",
+      "stateId": "too-large",
+      "file": "previews/states/12-rail-station--too-large.png"
+    },
+    {
+      "screenId": "13-rail-signals",
+      "stateId": "no-track",
+      "file": "previews/states/13-rail-signals--no-track.png"
+    },
+    {
+      "screenId": "14-rail-depot",
+      "stateId": "slope",
+      "file": "previews/states/14-rail-depot--slope.png"
+    },
+    {
+      "screenId": "15-rail-waypoint",
+      "stateId": "wrong-rail",
+      "file": "previews/states/15-rail-waypoint--wrong-rail.png"
+    },
+    {
+      "screenId": "16-rail-convert",
+      "stateId": "locked",
+      "file": "previews/states/16-rail-convert--locked.png"
+    },
+    {
+      "screenId": "16-rail-convert",
+      "stateId": "vehicle-blocked",
+      "file": "previews/states/16-rail-convert--vehicle-blocked.png"
+    },
+    {
+      "screenId": "17-bridge",
+      "stateId": "length-limit",
+      "file": "previews/states/17-bridge--length-limit.png"
+    },
+    {
+      "screenId": "17-bridge",
+      "stateId": "invalid-end",
+      "file": "previews/states/17-bridge--invalid-end.png"
+    },
+    {
+      "screenId": "18-tunnel",
+      "stateId": "no-exit",
+      "file": "previews/states/18-tunnel--no-exit.png"
+    },
+    {
+      "screenId": "18-tunnel",
+      "stateId": "conflict",
+      "file": "previews/states/18-tunnel--conflict.png"
+    },
+    {
+      "screenId": "19-road-build",
+      "stateId": "road-refused",
+      "file": "previews/states/19-road-build--road-refused.png"
+    },
+    {
+      "screenId": "20-tram-build",
+      "stateId": "no-tram",
+      "file": "previews/states/20-tram-build--no-tram.png"
+    },
+    {
+      "screenId": "21-road-station",
+      "stateId": "wrong-road",
+      "file": "previews/states/21-road-station--wrong-road.png"
+    },
+    {
+      "screenId": "22-road-depot",
+      "stateId": "no-road",
+      "file": "previews/states/22-road-depot--no-road.png"
+    },
+    {
+      "screenId": "23-road-waypoint",
+      "stateId": "invalid",
+      "file": "previews/states/23-road-waypoint--invalid.png"
+    },
+    {
+      "screenId": "24-water-build",
+      "stateId": "not-water",
+      "file": "previews/states/24-water-build--not-water.png"
+    },
+    {
+      "screenId": "25-dock",
+      "stateId": "shore",
+      "file": "previews/states/25-dock--shore.png"
+    },
+    {
+      "screenId": "26-shipyard",
+      "stateId": "blocked",
+      "file": "previews/states/26-shipyard--blocked.png"
+    },
+    {
+      "screenId": "27-canal-lock",
+      "stateId": "slope",
+      "file": "previews/states/27-canal-lock--slope.png"
+    },
+    {
+      "screenId": "28-airport-build",
+      "stateId": "noise-refused",
+      "file": "previews/states/28-airport-build--noise-refused.png"
+    },
+    {
+      "screenId": "29-airport-picker",
+      "stateId": "unavailable",
+      "file": "previews/states/29-airport-picker--unavailable.png"
+    },
+    {
+      "screenId": "30-station-join",
+      "stateId": "too-far",
+      "file": "previews/states/30-station-join--too-far.png"
+    },
+    {
+      "screenId": "31-stations-list",
+      "stateId": "empty",
+      "file": "previews/states/31-stations-list--empty.png"
+    },
+    {
+      "screenId": "32-station-detail",
+      "stateId": "no-cargo",
+      "file": "previews/states/32-station-detail--no-cargo.png"
+    },
+    {
+      "screenId": "32-station-detail",
+      "stateId": "closed-airport",
+      "file": "previews/states/32-station-detail--closed-airport.png"
+    },
+    {
+      "screenId": "33-station-ratings",
+      "stateId": "no-rating",
+      "file": "previews/states/33-station-ratings--no-rating.png"
+    },
+    {
+      "screenId": "34-waypoint-detail",
+      "stateId": "unused",
+      "file": "previews/states/34-waypoint-detail--unused.png"
+    },
+    {
+      "screenId": "35-vehicles-train",
+      "stateId": "empty",
+      "file": "previews/states/35-vehicles-train--empty.png"
+    },
+    {
+      "screenId": "35-vehicles-train",
+      "stateId": "other-company",
+      "file": "previews/states/35-vehicles-train--other-company.png"
+    },
+    {
+      "screenId": "36-vehicles-road",
+      "stateId": "empty",
+      "file": "previews/states/36-vehicles-road--empty.png"
+    },
+    {
+      "screenId": "36-vehicles-road",
+      "stateId": "other-company",
+      "file": "previews/states/36-vehicles-road--other-company.png"
+    },
+    {
+      "screenId": "37-vehicles-ship",
+      "stateId": "empty",
+      "file": "previews/states/37-vehicles-ship--empty.png"
+    },
+    {
+      "screenId": "37-vehicles-ship",
+      "stateId": "other-company",
+      "file": "previews/states/37-vehicles-ship--other-company.png"
+    },
+    {
+      "screenId": "38-vehicles-air",
+      "stateId": "empty",
+      "file": "previews/states/38-vehicles-air--empty.png"
+    },
+    {
+      "screenId": "38-vehicles-air",
+      "stateId": "other-company",
+      "file": "previews/states/38-vehicles-air--other-company.png"
+    },
+    {
+      "screenId": "39-depot-train",
+      "stateId": "empty",
+      "file": "previews/states/39-depot-train--empty.png"
+    },
+    {
+      "screenId": "39-depot-train",
+      "stateId": "sell-confirm",
+      "file": "previews/states/39-depot-train--sell-confirm.png"
+    },
+    {
+      "screenId": "40-depot-road",
+      "stateId": "empty",
+      "file": "previews/states/40-depot-road--empty.png"
+    },
+    {
+      "screenId": "40-depot-road",
+      "stateId": "sell-confirm",
+      "file": "previews/states/40-depot-road--sell-confirm.png"
+    },
+    {
+      "screenId": "41-depot-ship",
+      "stateId": "empty",
+      "file": "previews/states/41-depot-ship--empty.png"
+    },
+    {
+      "screenId": "41-depot-ship",
+      "stateId": "sell-confirm",
+      "file": "previews/states/41-depot-ship--sell-confirm.png"
+    },
+    {
+      "screenId": "42-depot-air",
+      "stateId": "empty",
+      "file": "previews/states/42-depot-air--empty.png"
+    },
+    {
+      "screenId": "42-depot-air",
+      "stateId": "sell-confirm",
+      "file": "previews/states/42-depot-air--sell-confirm.png"
+    },
+    {
+      "screenId": "43-buy-train",
+      "stateId": "no-model",
+      "file": "previews/states/43-buy-train--no-model.png"
+    },
+    {
+      "screenId": "43-buy-train",
+      "stateId": "no-money",
+      "file": "previews/states/43-buy-train--no-money.png"
+    },
+    {
+      "screenId": "43-buy-train",
+      "stateId": "purchased",
+      "file": "previews/states/43-buy-train--purchased.png"
+    },
+    {
+      "screenId": "44-buy-road",
+      "stateId": "no-model",
+      "file": "previews/states/44-buy-road--no-model.png"
+    },
+    {
+      "screenId": "44-buy-road",
+      "stateId": "no-money",
+      "file": "previews/states/44-buy-road--no-money.png"
+    },
+    {
+      "screenId": "44-buy-road",
+      "stateId": "purchased",
+      "file": "previews/states/44-buy-road--purchased.png"
+    },
+    {
+      "screenId": "45-buy-ship",
+      "stateId": "no-model",
+      "file": "previews/states/45-buy-ship--no-model.png"
+    },
+    {
+      "screenId": "45-buy-ship",
+      "stateId": "no-money",
+      "file": "previews/states/45-buy-ship--no-money.png"
+    },
+    {
+      "screenId": "45-buy-ship",
+      "stateId": "purchased",
+      "file": "previews/states/45-buy-ship--purchased.png"
+    },
+    {
+      "screenId": "46-buy-air",
+      "stateId": "no-model",
+      "file": "previews/states/46-buy-air--no-model.png"
+    },
+    {
+      "screenId": "46-buy-air",
+      "stateId": "no-money",
+      "file": "previews/states/46-buy-air--no-money.png"
+    },
+    {
+      "screenId": "46-buy-air",
+      "stateId": "purchased",
+      "file": "previews/states/46-buy-air--purchased.png"
+    },
+    {
+      "screenId": "47-vehicle-view",
+      "stateId": "broken",
+      "file": "previews/states/47-vehicle-view--broken.png"
+    },
+    {
+      "screenId": "47-vehicle-view",
+      "stateId": "lost",
+      "file": "previews/states/47-vehicle-view--lost.png"
+    }
+  ],
+  "actualViewedFiles": [
+    {
+      "file": "previews/screens-contact-01.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "b0371e8dbad8540e246a2109dbfc6a2fd1395d51257e1e46c173475bfbd2a47c"
+    },
+    {
+      "file": "previews/screens-contact-02.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "bb10a6cb12ef2a5a4da9c96834cd56175a2da1acab1bd8e6d218cc9b85fa9c3c"
+    },
+    {
+      "file": "previews/screens-contact-03.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "338ec6d9a4b7307a0f55063a14c7058b6e573d17c47dfedfa5003d882554a020"
+    },
+    {
+      "file": "previews/screens-contact-04.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "10d34cf6285047fec7e764185d6bab023ee67c662402272c62a29b43bcf786f8"
+    },
+    {
+      "file": "previews/screens-contact-05.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "dbe1560de150dfb573fcf26e9dab2cb0804ce12707edf49256200eb3bc6fc091"
+    },
+    {
+      "file": "previews/screens-contact-06.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "0e55c1228006b99e1144b6ce25146549d8fef7a5db45730769726835df2033f4"
+    },
+    {
+      "file": "previews/states-contact-01.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "d420f40488c3c3279e4b0736e0b3483ec85c44f9d495492e6c68902f819fa292"
+    },
+    {
+      "file": "previews/states-contact-02.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "2421b3c7a7fd76720e63bc62384dbb6d4ea83115428468e1f6981845b344ee5c"
+    },
+    {
+      "file": "previews/states-contact-03.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "aee79c9119fd742658b565feabdb09fe9e1c258fecd5fd4d0c17defd319984b4"
+    },
+    {
+      "file": "previews/states-contact-04.jpg",
+      "mode": "contact-sheet",
+      "sha256AtRecord": "37c2dc35ed3e89f7e5f4151907d532fb638a81899e0fc4d0b34ebf10dd5ccd74"
+    },
+    {
+      "file": "designs/13-rail-signals.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/17-bridge.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/43-buy-train.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/47-vehicle-view.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/53-timetable.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/69-small-map.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/48-vehicle-details.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/49-vehicle-refit.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/32-station-detail.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/12-rail-station.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/60-finances.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/66-performance.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/09-main-hud.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    },
+    {
+      "file": "designs/57-company-overview.png",
+      "mode": "original PNG",
+      "sha256AtInitialDisplay": null,
+      "note": "Initial PNG was displayed before root repair. No SHA captured at display time; files may already be overwritten by authorized repair. Do not equate current SHA with initial displayed pixels."
+    }
+  ],
+  "positiveFindings": [
+    {
+      "screens": [
+        "09-main-hud"
+      ],
+      "finding": "主地图、工具栏、资金日期及概览易辨识，按钮与文字完整。"
+    },
+    {
+      "screens": [
+        "43-buy-train",
+        "44-buy-road",
+        "45-buy-ship",
+        "46-buy-air"
+      ],
+      "finding": "采购列表有相应交通工具缩略图、价格、参数与操作。43原图核准清晰。"
+    },
+    {
+      "screens": [
+        "50-orders",
+        "53-timetable"
+      ],
+      "finding": "指令顺序、计划/预计/偏差和底部操作清楚；53原图核准无遮挡。"
+    },
+    {
+      "screens": [
+        "60-finances",
+        "65-company-graphs",
+        "66-performance",
+        "67-cargo-payment"
+      ],
+      "finding": "财务KPI和图表单位/轴可辨，66九项完整642/1000；60/66原图核准文字完整。"
+    },
+    {
+      "stateContacts": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "finding": "状态标题、原因和主按钮对比清楚，没有发现文字越外框；确认分支需按A-06补齐。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "A-01",
+      "severity": "blocking",
+      "screens": [
+        "47-vehicle-view",
+        "48-vehicle-details"
+      ],
+      "finding": "底部详情表多行行高不足，后行背景覆盖前行字形，目的地、速度、载客、可靠性等出现半字。",
+      "evidence": [
+        "designs/47-vehicle-view.png",
+        "designs/48-vehicle-details.png"
+      ],
+      "region": [
+        365,
+        631,
+        1755,
+        851
+      ],
+      "expected": "正文完全落在各自行背景内，至少保留完整字形与间距。"
+    },
+    {
+      "id": "A-02",
+      "severity": "needs-repair",
+      "screens": [
+        "32-station-detail",
+        "49-vehicle-refit"
+      ],
+      "finding": "三行详情表正文贴底边且部分字脚靠近或受后行边界影响。",
+      "evidence": [
+        "designs/32-station-detail.png",
+        "designs/49-vehicle-refit.png"
+      ],
+      "region": [
+        365,
+        631,
+        1755,
+        851
+      ],
+      "expected": "提高底表空间与行高，正文在单行中垂直居中。"
+    },
+    {
+      "id": "A-03",
+      "severity": "blocking",
+      "screens": [
+        "12-rail-station",
+        "13-rail-signals",
+        "17-bridge"
+      ],
+      "finding": "专属建设选择页使用通用建造/地形/轨道/道路/城镇/产业六格，缺少与站台、信号种类、桥型对应的可辨识选择区；格内文字还压到下边框。",
+      "relatedByContactSheet": [
+        "21-road-station",
+        "25-dock"
+      ],
+      "evidence": [
+        "designs/12-rail-station.png",
+        "designs/13-rail-signals.png",
+        "designs/17-bridge.png"
+      ],
+      "expected": "使用相应系统的选择列表或卡片，文本/图例对齐并完整。"
+    },
+    {
+      "id": "A-04",
+      "severity": "needs-repair",
+      "screens": [
+        "47-vehicle-view",
+        "48-vehicle-details"
+      ],
+      "finding": "当前位置与外观区显示铁轨图标，未显示车辆外观。",
+      "evidence": [
+        "designs/47-vehicle-view.png",
+        "designs/48-vehicle-details.png"
+      ],
+      "expected": "车辆视图使用列车图或车辆视窗，轨道图仅作分类图标。"
+    },
+    {
+      "id": "A-05",
+      "severity": "blocking",
+      "screens": [
+        "69-small-map"
+      ],
+      "finding": "右下的东山煤矿与西岭电厂标签叠压，两节点的名称框覆盖。",
+      "evidence": [
+        "designs/69-small-map.png"
+      ],
+      "region": [
+        1060,
+        638,
+        1270,
+        737
+      ],
+      "expected": "错开标签并保持节点对应关系。"
+    },
+    {
+      "id": "A-06",
+      "severity": "blocking",
+      "screens": [
+        "07-save-game",
+        "08-world-progress",
+        "39-depot-train",
+        "40-depot-road",
+        "41-depot-ship",
+        "42-depot-air"
+      ],
+      "finding": "覆盖、中止及出售等确认状态只有主按钮，没有取消或返回，确认分支不完整。",
+      "evidence": [
+        "previews/states-contact-01.jpg",
+        "previews/states-contact-03.jpg",
+        "previews/states-contact-04.jpg"
+      ],
+      "expected": "确认类状态同时显示主操作与取消；取消生成用确认中止/继续生成。"
+    }
+  ],
+  "nextStep": "Root has announced repairs; reread affected original PNGs and capture final hashes in visual-repair-a.json. This initial report intentionally retains the pre-repair findings."
+}

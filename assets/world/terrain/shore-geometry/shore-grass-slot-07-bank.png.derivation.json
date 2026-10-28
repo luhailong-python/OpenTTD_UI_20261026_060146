@@ -1,0 +1,20 @@
+{
+  "file": "assets/world/terrain/shore-geometry/shore-grass-slot-07-bank.png",
+  "sha256": "454cbb7da54a043d892da7bd007890e3574e410990aa12a6183afd8f7173a211",
+  "generatedAt": "2026-10-28T11:34:33.732025+00:00",
+  "tool": "build_shore_geometry.py",
+  "route": "deterministic-native-pixel-projection",
+  "width": 256,
+  "height": 192,
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/river-grass-bank.png",
+      "sha256": "368d7f7aa7d217327f20a2220fed846f2d0080b02c4f874605c91862063efca3",
+      "record": "assets/world/infrastructure/fences-shore/river-grass-bank.png.derivation.json"
+    }
+  ],
+  "operation": "Native painted cross-shore strip sampled onto actual zero-height interface and the adjacent slope; Alpha-only ribbon mask, no code-painted bank/foam; snow retains only water-side native foam",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

@@ -1,0 +1,41 @@
+{
+  "id": "airport-hangar",
+  "image": "assets/world/infrastructure/airports/airport-hangar.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-module",
+  "sha256": "87c1980eb8575fcc404abed42c42a3f0680c08db6f5d0f53161ce3c7097cc9fe",
+  "operation": "component ownership crop, alpha<8 removal and >=240 opaque normalization, proportional downscale to <=224w/320h, fixed512 canvas; not new native detail",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/airport-ground.png",
+      "sha256": "4cec755069580116eeda73ee40b02229b7939b688ecdd7c03a2f7b3cc03ecc45",
+      "record": "source-art/world/airport-ground.png.generation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceCropXYXY": [
+    455,
+    610,
+    1014,
+    977
+  ],
+  "sourceCell": 7,
+  "uniformScale": 0.4007155635062612,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": []
+}

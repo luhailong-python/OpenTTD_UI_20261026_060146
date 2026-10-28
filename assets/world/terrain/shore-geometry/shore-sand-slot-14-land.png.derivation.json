@@ -1,0 +1,20 @@
+{
+  "file": "assets/world/terrain/shore-geometry/shore-sand-slot-14-land.png",
+  "sha256": "d4efd30218c5db46c488aaba0353f85d4b38215261d6dea5bcee17a2738ddf8d",
+  "generatedAt": "2026-10-28T11:34:43.523112+00:00",
+  "tool": "build_shore_geometry.py",
+  "route": "deterministic-native-pixel-projection",
+  "width": 256,
+  "height": 192,
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-flat.png",
+      "sha256": "f99bac4b79823ba6df605d857cc324d3df5b36ac2fbc2b30a1b68f5a8a112e3d",
+      "record": "assets/world/terrain/terrain-shore-sand-flat.png.derivation.json"
+    }
+  ],
+  "operation": "Native grass/sand/snow pixels sampled in worldUV and projected on integer-source-height mesh; positive-height land only",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

@@ -1,0 +1,75 @@
+{
+  "id": "lane-tunnel-tram-SE-normal",
+  "image": "assets/world/infrastructure/transport-runtime/lane-tunnel-tram-SE-normal.png",
+  "sha256": "373704db7c11ceae7a6416f2d1b60c7c078474cfdd673f6e82031b54bef3e284",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-tram.png",
+      "sha256": "f8cffe6ec7a0f385ce12cf599c08baca2bd35ccd56aed6eb87a092422d5985ca",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-tram.png.derivation.json"
+    }
+  ],
+  "operation": "Measured real portal approach quad -> actual central lane UV texture; no grass tile; interior darkening colour grade; no painted replacement strokes",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-tram"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:16.806430+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "normal",
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-tram.png",
+  "targetQuadPx": [
+    [
+      257.0,
+      388.0
+    ],
+    [
+      313.0,
+      360.0
+    ],
+    [
+      421.0,
+      414.0
+    ],
+    [
+      365.0,
+      442.0
+    ]
+  ],
+  "offsetPx": [
+    0,
+    0
+  ],
+  "uvOrder": "near-left inner / far-left inner / far-right outer / near-right outer",
+  "uvDomain": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

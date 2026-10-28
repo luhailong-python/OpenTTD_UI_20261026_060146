@@ -1,0 +1,145 @@
+{
+  "id": "bridge-10-tubular-Y-road-south-front",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-10-tubular-Y-road-south-front.png",
+  "sha256": "3e0af31e229eb9b7bf14cbe63e7fa40abf028ea552abc5658822327b8b490f4a",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-tubular-span.png",
+      "sha256": "7a92213188edcc8083b6b80a655339022322a5684786c12ef25e5f1295a6732b",
+      "record": "assets/world/infrastructure/transport/bridge-tubular-span.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-Y-road-m32-mask.png",
+      "sha256": "e0196716c3648bbc980efa630ec0bacfaec3ba677d4331950d37761c5a2c23da",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-Y-road-m32-mask.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary native painted bridge floor / protected structure ownership Alpha partition; original railings, posts and roof pixels unchanged",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-10-tubular"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:32.715954+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        91,
+        284
+      ],
+      [
+        161,
+        248
+      ],
+      [
+        431,
+        382
+      ],
+      [
+        354,
+        420
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        126.0,
+        266.0
+      ],
+      [
+        392.5,
+        401.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        110.34896810506567,
+        184.82551594746718
+      ],
+      [
+        145.65103189493433,
+        167.17448405253282
+      ],
+      [
+        273.65103189493436,
+        263.1744840525328
+      ],
+      [
+        238.34896810506567,
+        280.8255159474672
+      ]
+    ],
+    "deckCrossSectionHalfX": 17.651031894934334,
+    "uniformNativeScaleReference": 0.4803001876172608,
+    "sourceXKnots": [
+      91.0,
+      161.0,
+      354.0,
+      431.0
+    ],
+    "targetXKnots": [
+      110.34896810506567,
+      145.65103189493433,
+      238.34896810506567,
+      273.65103189493436
+    ],
+    "verticalScaleAboveDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "verticalScaleBelowDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "nativePostCorrespondence": [],
+    "axisMirror": true,
+    "rampRisePx": -32,
+    "advancePx": [
+      -128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "ownershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-Y-road-m32-mask.png",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

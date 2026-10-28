@@ -1,0 +1,94 @@
+{
+  "createdAt": "2026-10-28T12:08:53.328Z",
+  "url": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/pointers/index.html",
+  "htmlSha256": "07aef977761de3c8a7e183207ab09193694ac277a19a683724936e9a15f7fe9c",
+  "bindingSha256": "025a392e61a6a451dca279d2dd5cfcf201e7d29f8fe1570ab22e3f5fd75e1752",
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "72staticOptions",
+      "passed": true
+    },
+    {
+      "id": "5sourceAnimatedGroups",
+      "passed": true
+    },
+    {
+      "id": "all72Actual96pxCursorPNGsLoad",
+      "passed": true,
+      "count": 72
+    },
+    {
+      "id": "actualHotspotAlignsPointerToCrosshair",
+      "passed": true
+    },
+    {
+      "id": "all5ActualCursorAnimationsAdvance",
+      "passed": true,
+      "groups": [
+        {
+          "id": "ANIMCURSOR_DEMOLISH",
+          "advances": true,
+          "sourceTicks": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "id": "ANIMCURSOR_LOWERLAND",
+          "advances": true,
+          "sourceTicks": [
+            10,
+            10,
+            29
+          ]
+        },
+        {
+          "id": "ANIMCURSOR_RAISELAND",
+          "advances": true,
+          "sourceTicks": [
+            10,
+            10,
+            29
+          ]
+        },
+        {
+          "id": "ANIMCURSOR_PICKSTATION",
+          "advances": true,
+          "sourceTicks": [
+            10,
+            10,
+            29
+          ]
+        },
+        {
+          "id": "ANIMCURSOR_BUILDSIGNALS",
+          "advances": true,
+          "sourceTicks": [
+            20,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "allGalleryPNGandSVGReferencesActuallyLoad",
+      "passed": true,
+      "count": 471
+    },
+    {
+      "id": "390pxNoHorizontalOverflow",
+      "passed": true
+    },
+    {
+      "id": "noScriptOrFileErrors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "scope": "offline art PNG/SVG,hotspot and source-timed animation preview only; no Unity or game business logic"
+}

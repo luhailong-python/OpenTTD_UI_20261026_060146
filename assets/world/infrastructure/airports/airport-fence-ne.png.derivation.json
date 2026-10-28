@@ -1,0 +1,37 @@
+{
+  "id": "airport-fence-ne",
+  "image": "assets/world/infrastructure/airports/airport-fence-ne.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-fence",
+  "sha256": "4b963ccbd37a7f3ca27ce4b89425163d011f85108899f2f60c6bba03b676c866",
+  "operation": "actual symmetric fence painting downsized to128px edge width, ground-baseline Y shear +0.22x preserving vertical poles; declared horizontal mirror for other diagonal; fixed edge placement, not separately native perspective",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-source.png",
+      "sha256": "f9511af16d8a94997f145a8b474e4502dffcae102ecc7c74fb7f473765b79799",
+      "record": "assets/world/infrastructure/airports/airport-fence-source.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "edge": "NE",
+  "sourceBaselineSlopeEstimate": 0.28,
+  "targetBaselineSlope": 0.5,
+  "symmetricMirror": false,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": []
+}

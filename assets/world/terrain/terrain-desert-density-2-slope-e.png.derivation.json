@@ -1,0 +1,30 @@
+{
+  "file": "assets/world/terrain/terrain-desert-density-2-slope-e.png",
+  "sha256": "5b4f061788fddc063cf3606e90e9f3a355d4959e6207807b79c5f65f056cbb96",
+  "derivedAt": "2026-10-28T11:29:07.273509+00:00",
+  "operation": "Actual native bare/desert atlas UVs -> explicit0.75 source snow/desert fraction ->14px periodic edge blend -> canonical diamond;19slope variants use piecewise-affine source-corner projection. No new native painting.",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "tool": "repair_density_stages.py; shared density_material/periodic/project/projected_slope pipeline",
+  "width": 256,
+  "height": 192,
+  "densityStage": 2,
+  "compositeFraction": 0.75,
+  "compositeUnderlayMaterial": "bare",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false
+}

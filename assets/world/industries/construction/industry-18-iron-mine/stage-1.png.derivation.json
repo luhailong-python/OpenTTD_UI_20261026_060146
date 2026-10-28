@@ -1,0 +1,59 @@
+{
+  "id": "industry-18-iron-mine-construction-1",
+  "image": "assets/world/industries/construction/industry-18-iron-mine/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "9d55237fe2053424f6cc89b3313158f27dc0c6c5ae9f78f162c523def312c47f",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/iron-mine.png",
+      "sha256": "bde814cd1c961bfa5425cbfecc3147824305b6c0fbba936548dd73ced160f7c4",
+      "record": "assets/world/industries/iron-mine.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 18,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-18-iron-mine",
+    "industry-tile-100",
+    "industry-tile-101",
+    "industry-tile-102",
+    "industry-tile-103",
+    "industry-tile-104",
+    "industry-tile-105",
+    "industry-tile-106",
+    "industry-tile-107",
+    "industry-tile-108",
+    "industry-tile-109",
+    "industry-tile-110",
+    "industry-tile-111",
+    "industry-tile-112",
+    "industry-tile-113",
+    "industry-tile-114",
+    "industry-tile-115"
+  ]
+}

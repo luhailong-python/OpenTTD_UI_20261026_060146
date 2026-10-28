@@ -1,0 +1,39 @@
+{
+  "id": "tree-25-dying-1",
+  "image": "assets/world/vegetation/states/tree-25/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "bb1a5afc4221990d5161d1cb5e2f7ae858bf2576a3aecf2af9679792672d6db4",
+  "climate": "tropical",
+  "artSpecies": "rubber",
+  "sourceTreeType": 25,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-25.png",
+      "sha256": "ca6d555c2faf299fc943c2c3d704405e6081ff2bea1448db0058ee05d871487c",
+      "record": "assets/world/vegetation/mature/tree-25.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-25"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "industry-28-battery-farm",
+  "file": "assets/world/industries/battery-farm.png",
+  "sha256": "0e1720b8426eb1f7bd6d77d5586386eeb93069b8a44f1f56d5b17d1e8495bf9a",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    433,
+    73,
+    839,
+    387
+  ],
+  "nativePaintingBounds": [
+    433,
+    73,
+    838,
+    387
+  ],
+  "uniformScale": 0.9458128078817734,
+  "pasteXY": [
+    64,
+    151
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    151,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-d.png",
+    "sha256": "b5329fcc645bf679b32bc15c40a1d5728c931e4917086e79f3b873028ad5ca11",
+    "record": "source-art/world/industry-d.png.generation.json"
+  },
+  "sourceIndustryTypeId": 28,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

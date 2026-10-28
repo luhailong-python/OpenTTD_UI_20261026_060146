@@ -1,0 +1,60 @@
+{
+  "id": "industry-01-power-station",
+  "file": "assets/world/industries/power-station.png",
+  "sha256": "360e587bb06897327cf1a21fb0280175acc9cbc86e99a24116b319129c555ae3",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    427,
+    28,
+    830,
+    409
+  ],
+  "nativePaintingBounds": [
+    427,
+    28,
+    830,
+    409
+  ],
+  "uniformScale": 0.9528535980148883,
+  "pasteXY": [
+    64,
+    85
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    85,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-a.png",
+    "sha256": "e1365b0ae4270079d1f124002cf17d944a9dabdfa37e6a1ec3a5bcf4bcfe9643",
+    "record": "source-art/world/industry-a.png.generation.json"
+  },
+  "sourceIndustryTypeId": 1,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "industry-mine-winding-wheel-bound-08",
+  "image": "assets/world/industries/bindings/mine-winding-wheel/moving/08.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "b4939962db0f684c2274af0987781cb33ff5625268ffb74ea5b3d078948dfd46",
+  "operation": "actual parent moving-pixel crop + declared deterministic disc-spin; full512 attachment layer already positioned in parent coordinates; not a new native pose",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/coal-mine.png",
+      "sha256": "85aafe57c9ddc58a4d20d3cf3f9329f69b04ed842c7d5076d137832717683609",
+      "record": "assets/world/industries/coal-mine.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 8,
+  "phase": 0.6666666666666666,
+  "parameters": {
+    "phaseRadians": 4.1887902047863905,
+    "method": "actual parent mechanism RGB inverse sampling inside fixed ownership Alpha; unchanged painted boundary",
+    "pivotPx": [
+      309,
+      150
+    ]
+  },
+  "parentArtId": "industry-00-coal-mine",
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

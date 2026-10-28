@@ -1,0 +1,47 @@
+{
+  "id": "industry-34-bubble-generator-construction-0",
+  "image": "assets/world/industries/construction/industry-34-bubble-generator/stage-0.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "d7dbb94be2e98e48ac856020aa183f1b314159e9f25a7f3ceb5ef65abf12f163",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/bubble-generator.png",
+      "sha256": "ce2b63a7e1dd11d452150f8fe2c7df9e961b350d2c4fe576b7d4bcb52e60e18a",
+      "record": "assets/world/industries/bubble-generator.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "record": "assets/world/infrastructure/construction-ready/construction-foundation.png.derivation.json",
+      "scale": 0.7544554455445545
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 34,
+  "stage": 0,
+  "details": {
+    "kind": "shared industry foundation matched to compound front contact",
+    "sharedSource": true
+  },
+  "sourceRequirementIds": [
+    "industry-34-bubble-generator",
+    "industry-tile-160",
+    "industry-tile-161",
+    "industry-tile-162",
+    "industry-tile-163"
+  ]
+}

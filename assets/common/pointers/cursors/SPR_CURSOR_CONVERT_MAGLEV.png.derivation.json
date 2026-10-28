@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_CONVERT_MAGLEV",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_CONVERT_MAGLEV.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "7183f85047a343982b97c1857920d78d2b77d46dc16affd4bf96c1e85f42b724",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/rail/rail-maglev-segment-x.png",
+      "sha256": "18fc21a895a8873d4ea1f4d77baa33692bdce942e5cdd4b39eaf2b70c13890f7",
+      "record": "assets/world/infrastructure/rail/rail-maglev-segment-x.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_CONVERT_MAGLEV",
+  "sourceSpriteId": 4968,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

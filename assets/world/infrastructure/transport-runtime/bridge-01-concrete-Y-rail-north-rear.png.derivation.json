@@ -1,0 +1,174 @@
+{
+  "id": "bridge-01-concrete-Y-rail-north-rear",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-01-concrete-Y-rail-north-rear.png",
+  "sha256": "311875b122f4f539a405836e19fefdd3cc28b09a46e0bac3ffa84b6b5afee95b",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-concrete-span.png",
+      "sha256": "7587f3ef9e6f9aa485deb7921d20455f29f036d5bab654e024c91dda48e110b8",
+      "record": "assets/world/infrastructure/transport/bridge-concrete-span.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-Y-rail-32-mask.png",
+      "sha256": "5ec42a0b87d4f7576797572b895b149b5d52777bb2d19f86f287c790e675b138",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-Y-rail-32-mask.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary native painted bridge floor / protected structure ownership Alpha partition; original railings, posts and roof pixels unchanged",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-01-concrete"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:21.624230+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        86,
+        258
+      ],
+      [
+        159,
+        227
+      ],
+      [
+        434,
+        358
+      ],
+      [
+        362,
+        390
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        122.5,
+        242.5
+      ],
+      [
+        398.0,
+        374.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        111.15789473684211,
+        184.42105263157896
+      ],
+      [
+        144.8421052631579,
+        167.57894736842104
+      ],
+      [
+        272.8421052631579,
+        199.57894736842104
+      ],
+      [
+        239.1578947368421,
+        216.42105263157896
+      ]
+    ],
+    "deckCrossSectionHalfX": 16.842105263157894,
+    "uniformNativeScaleReference": 0.4646098003629764,
+    "sourceXKnots": [
+      86.0,
+      159.0,
+      362.0,
+      434.0
+    ],
+    "targetXKnots": [
+      111.15789473684211,
+      144.8421052631579,
+      239.1578947368421,
+      272.8421052631579
+    ],
+    "verticalScaleAboveDeck": [
+      0.4878402903811252,
+      0.5088583527784979,
+      0.4434911730737502,
+      0.4274410163339383
+    ],
+    "verticalScaleBelowDeck": [
+      0.4426942437420813,
+      0.4646098003629764,
+      0.48880822746521474,
+      0.4646098003629764
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            86,
+            238
+          ],
+          [
+            362,
+            368
+          ]
+        ],
+        "commonCapHeightPx": 9.756805807622504
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            159,
+            206
+          ],
+          [
+            434,
+            333
+          ]
+        ],
+        "commonCapHeightPx": 10.686025408348456
+      }
+    ],
+    "axisMirror": true,
+    "rampRisePx": 32,
+    "advancePx": [
+      -128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "ownershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-Y-rail-32-mask.png",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

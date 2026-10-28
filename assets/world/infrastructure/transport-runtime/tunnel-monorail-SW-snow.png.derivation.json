@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-monorail-SW-snow",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-monorail-SW-snow.png",
+  "sha256": "86a4289e75c6d9c9d4b1468eb299c70be737c43900fdf95192f6c46e14d47c38",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-snow.png",
+      "sha256": "c8c491c16f912b428cef841d7b5f91e560ab9b1eee99136b9d4149068ea7e5e7",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-snow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-monorail-SW-snow.png",
+      "sha256": "83f8e3dd4275ca622f65caf630aa730b989fa371f7fed35a1ddaa4839628afac",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-monorail-SW-snow.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-monorail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:12.982900+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "climate": "snow",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

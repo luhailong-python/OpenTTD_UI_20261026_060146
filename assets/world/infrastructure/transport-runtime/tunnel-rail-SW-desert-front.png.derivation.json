@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-rail-SW-desert-front",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-rail-SW-desert-front.png",
+  "sha256": "c02ec93fb9a2a3b74106831c3e52429d73c75aa96dd48f25ca9c9ca685435326",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-desert.png",
+      "sha256": "d1c871b5030c10c8e0b8a4e1cf81bc8e35b14b9e4f60d596a315441084136586",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:11.413321+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

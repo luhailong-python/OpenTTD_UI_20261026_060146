@@ -1,0 +1,471 @@
+{
+  "sources": [
+    {
+      "file": "source-art/world/terrain-base.png",
+      "sha256": "ec5ec4f2b16ec616f52f20d810f304e606f7882e46ef8fd6b0d64f2f8534867a",
+      "record": "source-art/world/terrain-base.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/water-cycle.png",
+      "sha256": "5f4d8176b1ac35ae9bb834f8e04992b20cc6c264135b6e964a2cf65d55135c1f",
+      "record": "source-art/world/water-cycle.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/shore-sand-seamless.png",
+      "sha256": "53c5340ca2a1817576d21d4ea4b87bd79882ad4fde512a38ca4d2a975b4767be",
+      "record": "source-art/world/shore-sand-seamless.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/snowgrass-seamless.png",
+      "sha256": "e10c2f47b0e427b0e7f10bbe1ce9c3ee9f3ec08234b8a7c565a3e912c5c0b1c9",
+      "record": "source-art/world/snowgrass-seamless.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "source-art/world/shallow-seamless.png",
+      "sha256": "232ca50f5ddecbb75c361a1376b86360b015686fbd51a8a6311b83d4cbe38fe6",
+      "record": "source-art/world/shallow-seamless.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "nativeSourceDimensions": {
+    "terrain": [
+      1254,
+      1254
+    ],
+    "water": [
+      1254,
+      1254
+    ],
+    "shore-sand": [
+      1254,
+      1254
+    ],
+    "snowgrass": [
+      1254,
+      1254
+    ],
+    "shallow": [
+      1254,
+      1254
+    ]
+  },
+  "uvWorkingSize": [
+    192,
+    192
+  ],
+  "items": [
+    {
+      "id": "grass",
+      "quadNWES": [
+        [
+          212,
+          145
+        ],
+        [
+          412,
+          251
+        ],
+        [
+          212,
+          355
+        ],
+        [
+          18,
+          251
+        ]
+      ],
+      "climate": "temperate"
+    },
+    {
+      "id": "bare",
+      "quadNWES": [
+        [
+          625,
+          145
+        ],
+        [
+          824,
+          251
+        ],
+        [
+          625,
+          355
+        ],
+        [
+          431,
+          251
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "rough",
+      "quadNWES": [
+        [
+          1036,
+          145
+        ],
+        [
+          1234,
+          251
+        ],
+        [
+          1036,
+          355
+        ],
+        [
+          843,
+          251
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "field",
+      "quadNWES": [
+        [
+          212,
+          524
+        ],
+        [
+          412,
+          631
+        ],
+        [
+          212,
+          737
+        ],
+        [
+          18,
+          631
+        ]
+      ],
+      "climate": "temperate"
+    },
+    {
+      "id": "snow",
+      "quadNWES": [
+        [
+          625,
+          524
+        ],
+        [
+          824,
+          631
+        ],
+        [
+          625,
+          737
+        ],
+        [
+          431,
+          631
+        ]
+      ],
+      "climate": "arctic"
+    },
+    {
+      "id": "snowgrass",
+      "climate": "arctic",
+      "sourceKind": "square_texture",
+      "sourceBox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "sourceMaster": "source-art/world/snowgrass-seamless.png",
+      "sourceUVWorkingResolution": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "desert",
+      "quadNWES": [
+        [
+          212,
+          907
+        ],
+        [
+          412,
+          1013
+        ],
+        [
+          212,
+          1118
+        ],
+        [
+          18,
+          1013
+        ]
+      ],
+      "climate": "tropic"
+    },
+    {
+      "id": "tropical",
+      "quadNWES": [
+        [
+          625,
+          907
+        ],
+        [
+          824,
+          1013
+        ],
+        [
+          625,
+          1118
+        ],
+        [
+          431,
+          1013
+        ]
+      ],
+      "climate": "tropic"
+    },
+    {
+      "id": "toyland",
+      "quadNWES": [
+        [
+          1036,
+          907
+        ],
+        [
+          1234,
+          1013
+        ],
+        [
+          1036,
+          1118
+        ],
+        [
+          843,
+          1013
+        ]
+      ],
+      "climate": "toyland"
+    },
+    {
+      "id": "water-key-0",
+      "quadNWES": [
+        [
+          214,
+          520
+        ],
+        [
+          407,
+          628
+        ],
+        [
+          214,
+          735
+        ],
+        [
+          19,
+          628
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "water-key-1",
+      "quadNWES": [
+        [
+          625,
+          520
+        ],
+        [
+          817,
+          628
+        ],
+        [
+          625,
+          735
+        ],
+        [
+          434,
+          628
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "water-key-2",
+      "quadNWES": [
+        [
+          1036,
+          520
+        ],
+        [
+          1228,
+          628
+        ],
+        [
+          1036,
+          735
+        ],
+        [
+          845,
+          628
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "water-key-3",
+      "quadNWES": [
+        [
+          214,
+          752
+        ],
+        [
+          407,
+          860
+        ],
+        [
+          214,
+          968
+        ],
+        [
+          19,
+          860
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "water-key-4",
+      "quadNWES": [
+        [
+          625,
+          752
+        ],
+        [
+          817,
+          860
+        ],
+        [
+          625,
+          968
+        ],
+        [
+          434,
+          860
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "water-key-5",
+      "quadNWES": [
+        [
+          1036,
+          752
+        ],
+        [
+          1228,
+          860
+        ],
+        [
+          1036,
+          968
+        ],
+        [
+          845,
+          860
+        ]
+      ],
+      "climate": "shared"
+    },
+    {
+      "id": "shallow",
+      "climate": "shared",
+      "sourceKind": "square_texture",
+      "sourceBox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "sourceMaster": "source-art/world/shallow-seamless.png",
+      "sourceUVWorkingResolution": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "shore-sand",
+      "climate": "shared",
+      "sourceKind": "square_texture",
+      "sourceBox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "sourceMaster": "source-art/world/shore-sand-seamless.png",
+      "sourceUVWorkingResolution": [
+        192,
+        192
+      ]
+    },
+    {
+      "id": "riverbed",
+      "quadNWES": [
+        [
+          1036,
+          990
+        ],
+        [
+          1228,
+          1096
+        ],
+        [
+          1036,
+          1203
+        ],
+        [
+          845,
+          1096
+        ]
+      ],
+      "climate": "shared"
+    }
+  ],
+  "operations": [
+    "actual native diamond crop or explicitly identified full square master",
+    "inverse2:1UV or proportional square downsample",
+    "14px periodic opposite-edge colour blend",
+    "canonical2:1 projection with1.5px render-only Alpha extrusion"
+  ],
+  "claim": "geometric/photometric derivative, not new native detail",
+  "targetedBoundaryCorrection": {
+    "materials": [
+      "snowgrass",
+      "shore-sand"
+    ],
+    "bandUVPixels": 18,
+    "sharedEdgeUVPixels": 8,
+    "profile": "mean opposite4px, convolution [1,4,6,4,1]/16; flat8px then cosine transition",
+    "centrePaintUnchanged": true,
+    "newNativeDetail": false
+  },
+  "localizedRepairAt": "2026-10-28T10:25:52.655854+00:00"
+}

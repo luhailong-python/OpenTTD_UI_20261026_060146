@@ -1,0 +1,49 @@
+{
+  "id": "bus-bay",
+  "image": "assets/world/infrastructure/transport/bus-bay.png",
+  "sha256": "e6bed0535903affe1e2150f3a7faa7b7bc228bbe2cfdbdc59efdf42d6af7e495",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/depot-kit.png",
+      "sha256": "aa90a80c7e46081d6c6a300ad01c24da747e213baa9ac5a87ce5a748ecc9e4e0",
+      "record": "source-art/world/depot-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    1070,
+    369,
+    1534,
+    677
+  ],
+  "scaleApplied": 0.8275862068965517,
+  "sourceAtlas": "depot-kit",
+  "sourceComponent": 11,
+  "contentSize": [
+    384,
+    255
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

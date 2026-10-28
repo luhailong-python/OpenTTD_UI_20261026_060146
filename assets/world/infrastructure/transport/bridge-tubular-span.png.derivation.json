@@ -1,0 +1,49 @@
+{
+  "id": "bridge-tubular-span",
+  "image": "assets/world/infrastructure/transport/bridge-tubular-span.png",
+  "sha256": "7a92213188edcc8083b6b80a655339022322a5684786c12ef25e5f1295a6732b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-modules.png",
+      "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+      "record": "source-art/world/bridge-modules.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    541,
+    632,
+    1041,
+    991
+  ],
+  "scaleApplied": 0.768,
+  "sourceAtlas": "bridge-modules",
+  "sourceComponent": 10,
+  "contentSize": [
+    384,
+    276
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

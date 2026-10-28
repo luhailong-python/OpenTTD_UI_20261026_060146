@@ -1,0 +1,69 @@
+{
+  "id": "farm-timber-offset-1",
+  "image": "assets/world/overlays/fence-adapter/farm-timber-offset-1.png",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "4911905b486d29c71a8ef66b14d647a7041db4ad9f7490b0bf71af8ee3db9d45",
+  "anchorPx": [
+    160,
+    192
+  ],
+  "pivotUnity": [
+    0.5,
+    0.4
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "source-fence-adapter",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/fence-wood.png",
+      "sha256": "01435bfbc42e5681d9853e7a0cfe5a455097dc70af003de42ea09c4907443e9b",
+      "record": "assets/world/infrastructure/fences-shore/fence-wood.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted fence-wood;vertical-post preserving affine ground-baseline projection;no code-drawn fence/paint,no new native viewpoint",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "terrain-fence"
+  ],
+  "sourceFamily": {
+    "fenceValue": 3,
+    "symbol": "SPR_HEDGE_FENCE",
+    "spriteBase": 4102
+  },
+  "sourceSpriteOffset": 1,
+  "sourceSpriteId": 4103,
+  "sourceBaselineCalibration": {
+    "x0": 50,
+    "x1": 199,
+    "slope": -0.455988266145162,
+    "intercept": 198.41053913507258,
+    "fitRMSE": 2.9007685892745485,
+    "method": "robust interior nativeAlpha ground-contact envelope,not claimed exact model perspective"
+  },
+  "localEndpointPx": [
+    [
+      96,
+      224.0
+    ],
+    [
+      224,
+      160.0
+    ]
+  ],
+  "localEndpointHeightDifferencePx": -64,
+  "actualVisualReview": "records/fence-adapter-visual-review.json"
+}

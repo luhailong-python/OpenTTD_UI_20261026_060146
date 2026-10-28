@@ -1,0 +1,83 @@
+from pathlib import Path
+from PIL import Image,ImageDraw,ImageFont
+import json,html,hashlib,datetime,csv,collections
+ROOT=Path(__file__).resolve().parents[1]
+def load(p):return json.loads((ROOT/p).read_text(encoding="utf-8-sig"))
+def sj(p,x):(ROOT/p).write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding="utf-8")
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def font(sz):return ImageFont.truetype(str(ROOT/"assets/fonts/NotoSansSC-Variable.ttf"),sz)
+def main():
+ m=load("docs/UI_MASTER_MANIFEST.json");screens=m["screens"]
+ resources=[]
+ for p in ["common","icons","cargo","portraits"]:
+  resources+=load(f"docs/asset-{p}-manifest.json")
+ for a in resources:
+  a["spriteType"]="Sliced" if any(a.get("border",[0,0,0,0])) else "Simple"
+  a["textureType"]="Sprite (2D and UI)";a["spriteMode"]="Single";a["pixelsPerUnit"]=100;a["mipMaps"]=False;a["filterMode"]="Bilinear";a["compressionSuggestion"]="None for QA; platform atlas compression to be validated";a["alphaIsTransparency"]=a.get("alphaMin")==0
+ sj("docs/ASSET_MASTER_MANIFEST.json",{"referenceResolution":[1920,1080],"resources":resources,"backgrounds":[{"file":"assets/transport-valley.png","nativeSize":[1672,941],"use":"主菜单与故事插画"},{"file":"assets/world-viewport.png","nativeSize":[1672,941],"use":"HUD/建设/详情的静态场景构图；不是世界tileset"}],"fonts":load("docs/asset-fonts-manifest.json"),"integrationStatus":"Not imported into Unity"})
+ derivs=[]
+ # Screens contact sheets for full visual sweep.
+ for k in range(0,len(screens),12):
+  subset=screens[k:k+12];sheet=Image.new("RGB",(1960,1020),"#F0ECD9");d=ImageDraw.Draw(sheet)
+  for j,s in enumerate(subset):
+   x=20+(j%4)*485;y=20+(j//4)*331
+   pic=Image.open(ROOT/s["designPath"]);pic.thumbnail((465,262));sheet.paste(pic,(x,y))
+   d.text((x,y+269),s["id"],font=font(18),fill="#164F45")
+   d.text((x,y+297),s["title"],font=font(21),fill="#164F45")
+  p=f"previews/screens-contact-{k//12+1:02}.jpg";sheet.save(ROOT/p,quality=91)
+  derivs.append({"file":p,"operation":"等比缩小整屏并排评审，非新模型图","derivedFrom":[s["designPath"] for s in subset]})
+ # All states contact pages.
+ states=[(s,st) for s in screens for st in s.get("states",[])]
+ for k in range(0,len(states),20):
+  subset=states[k:k+20];sheet=Image.new("RGB",(1920,1330),"#EAE5CF");d=ImageDraw.Draw(sheet)
+  for j,(s,st) in enumerate(subset):
+   x=(j%4)*480;y=(j//4)*266
+   pic=Image.open(ROOT/st["previewPath"]);pic.thumbnail((470,236));sheet.paste(pic,(x,y))
+   d.text((x+10,y+239),s["id"]+" / "+st["name"],font=font(16),fill="#164F45")
+  p=f"previews/states-contact-{k//20+1:02}.jpg";sheet.save(ROOT/p,quality=90)
+  derivs.append({"file":p,"operation":"状态图等比缩小拼版","derivedFrom":[st["previewPath"]for _,st in subset]})
+ # An overview of representative art screens.
+ ids=["01-main-menu","09-main-hud","11-rail-build","43-buy-train","53-timetable","60-finances","69-small-map","93-servers","127-scenario-editor"]
+ chosen=[next(s for s in screens if s["id"]==i)for i in ids]
+ sheet=Image.new("RGB",(1920,1190),"#F1ECD8");d=ImageDraw.Draw(sheet)
+ d.text((30,14),"云途万里（暂名） · 整套 UI 总览",font=font(35),fill="#164F45")
+ for j,s in enumerate(chosen):
+  x=(j%3)*640+12;y=(j//3)*370+75
+  pic=Image.open(ROOT/s["designPath"]);pic.thumbnail((615,346));sheet.paste(pic,(x,y));d.text((x,y+347),s["title"],font=font(19),fill="#164F45")
+ sheet.save(ROOT/"previews/overview.jpg",quality=93)
+ derivs.append({"file":"previews/overview.jpg","operation":"九个完整设计稿缩略拼版","derivedFrom":[s["designPath"]for s in chosen]})
+ for s in screens:derivs.append({"file":s["thumbnailPath"],"operation":"等比缩小至480×270以内，WebP","derivedFrom":[s["designPath"]]})
+ sj("records/preview-derivatives.json",derivs)
+ # CSV is convenient for review without custom tooling.
+ with (ROOT/"docs/UI功能与资源总清单.csv").open("w",encoding="utf-8-sig",newline="")as f:
+  wr=csv.writer(f);wr.writerow(["ID","系统","界面","来源功能ID","来源","整屏","独立资源清单","状态数","制作","内部检查","Unity"])
+  for s in screens:wr.writerow([s["id"],s["system"],s["title"],"|".join(s.get("upstreamFeatureIds",[])),"|".join(a["file"]+":"+str(a["line"]) for a in s["source"]),s["designPath"],"|".join(s["resourceManifests"]),len(s.get("states",[])),s["productionStatus"],s["acceptanceStatus"],s["unityStatus"]])
+ # Standalone local HTML: data embedded, works via file:// and HTTP.
+ data=json.dumps(screens,ensure_ascii=False).replace("</","<\\/")
+ statenum=len(states)
+ page=r"""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>云途万里 · UI 美术全览</title><style>
+@font-face{font-family:noto;src:url('assets/fonts/NotoSansSC-Variable.ttf')}@font-face{font-family:shan;src:url('assets/fonts/MaShanZheng-Regular.ttf')}
+*{box-sizing:border-box}body{margin:0;background:#efecdf;color:#214c41;font-family:noto,system-ui}button,input,select{font:inherit}a{color:#327464;text-decoration:none}button,a,input,select{outline-offset:4px}header{background:#153e35;color:#f4e7c8;padding:32px 5vw 26px;border-bottom:3px solid #bd9858}header small{font-size:12px;letter-spacing:3px;color:#d5be8e}h1{font-family:shan,serif;font-size:49px;font-weight:400;margin:8px 0}header p{color:#c9d6c8;font-size:14px;margin:8px 0;line-height:1.8}.stats{display:flex;gap:42px;margin-top:20px}.stats b{font-size:29px;color:#ead4a2}.stats span{font-size:12px;margin-left:8px}nav{display:flex;gap:20px;flex-wrap:wrap;margin-top:22px}nav a{color:#e5dbb9;border-bottom:1px solid #8c976d;font-size:13px;padding-bottom:4px}main{padding:28px 4vw}section{margin-bottom:36px}.tools{display:flex;gap:14px;align-items:center;position:sticky;top:0;background:#efecdfed;backdrop-filter:blur(12px);padding:16px 0;z-index:2}.tools input{flex:1;min-width:140px}input,select{padding:11px 14px;border:1px solid #c9ba94;border-radius:7px;background:#faf6e9;color:#214c41}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.card{background:#fcf8ec;border:1px solid #d3c4a1;border-radius:10px;overflow:hidden;box-shadow:0 6px 20px #254a3b0a;cursor:pointer}.card:hover{border-color:#528773;box-shadow:0 8px 24px #254a3b20}.card img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}.card .meta{padding:14px 17px}.card h3{margin:5px 0;font-size:19px}.meta small{font-size:11px;color:#70826f}.meta p{font-size:12px;color:#69816e;margin:7px 0}.tag{color:#327464;font-size:12px;border:1px solid #c8d5c2;border-radius:20px;padding:2px 10px}.resources{display:flex;gap:14px;flex-wrap:wrap}.resources a{display:block;background:#faf6e9;border:1px solid #cbb991;padding:14px 19px;border-radius:7px}dialog{padding:0;border:1px solid #b99c62;border-radius:9px;background:#f4efdd;width:96vw;max-width:1800px;color:#214c41}dialog::backdrop{background:#071c16d9}.viewer{display:grid;grid-template-columns:minmax(0,1fr) 290px}.stage{background:#102c25;display:flex;align-items:center;justify-content:center;min-height:500px}.stage img{width:100%;height:auto;max-height:88vh;object-fit:contain}.side{padding:20px;max-height:88vh;overflow:auto}.side h2{font-family:shan,serif;font-size:30px;font-weight:400;line-height:1.2}.side button{border:1px solid #baa370;border-radius:5px;padding:8px 11px;background:#fff8e8;color:#214c41;cursor:pointer}.side button.active{background:#2b6b56;color:#fff2cf}.side .states{display:flex;flex-wrap:wrap;gap:8px}.side p{font-size:12px;line-height:1.9}.side .flow a{display:block;margin:8px 0;font-size:13px}#close{float:right}#counter{white-space:nowrap;font-size:13px}.foot{padding:24px;background:#ded8c2;font-size:12px;color:#4b6c5b;line-height:1.9}.empty{grid-column:1/-1;text-align:center;padding:60px}.source{word-break:break-all;font-size:11px;color:#72816c}.caption{font-size:13px;color:#6f806c;line-height:1.8}
+@media(max-width:1100px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.viewer{grid-template-columns:1fr}.stage{min-height:250px}.side{max-height:35vh}.stats{gap:20px}}@media(max-width:650px){.grid{grid-template-columns:1fr}.stats{flex-wrap:wrap}.tools{flex-wrap:wrap}h1{font-size:40px}.stats b{font-size:23px}}
+</style></head><body><header><small>TRANSPORT SIMULATION · UI ART COLLECTION</small><h1>云途万里 <small>暂名</small></h1><p>以 OpenTTD 的功能与流程为依据，承接指定道家 Q 版高清手绘风格。<br>整屏为独立手绘资源与原生文字的静态组合设计，可切换状态和关联流程进行审阅。</p><div class="stats"><div><b>149</b><span>整屏设计</span></div><div><b>227</b><span>状态预览</span></div><div><b>132</b><span>上游功能映射</span></div><div><b>__ASSETS__</b><span>基础PNG资源</span></div></div><nav><a href="previews/manager-customization/index.html" target="_blank">经理五官与脸码</a><a href="previews/pointers/index.html" target="_blank">鼠标与建造选区</a><a href="previews/micro-ui/index.html" target="_blank">窗口与状态图标</a><a href="previews/road-oneway/index.html" target="_blank">道路限制标记</a><a href="previews/airport-ui/index.html" target="_blank">机场选择九图</a><a href="previews/world/index.html" target="_blank">世界资源预览</a><a href="previews/vehicles/index.html" target="_blank">车辆与效果</a><a href="docs/WORLD_DELIVERY_COVERAGE.json" target="_blank">世界覆盖清单</a><a href="#screens">全部界面</a><a href="#resources">资源与切片</a><a href="previews/overview.jpg" target="_blank">整套概览</a><a href="docs/UI功能与资源总清单.csv">功能总清单</a><a href="docs/UNITY_IMPORT.md" target="_blank">Unity 导入建议</a><a href="docs/ACCEPTANCE.md" target="_blank">验收记录</a><a href="previews/roadside/index.html" target="_blank">路边灯树</a><a href="previews/world/bridge-railtypes/index.html" target="_blank">桥面轨制</a><a href="previews/world/field-stages/index.html" target="_blank">农田0–8阶段</a><a href="previews/rail-reservation/index.html" target="_blank">路径预留</a><a href="previews/fence-adapter/index.html" target="_blank">坡面围栏</a><a href="previews/world/shore-geometry/index.html" target="_blank">有效坡岸线</a><a href="previews/world/rocks-overlay/index.html" target="_blank">气候岩石叠层</a><a href="docs/ART_RESOURCE_INDEX.json" target="_blank">完整资源导入索引</a></nav></header><main><section id="screens"><div class="tools"><input id="search" type="search" aria-label="搜索界面" placeholder="搜索界面、系统或功能…"><select id="system" aria-label="筛选系统"><option value="">全部系统</option></select><span id="counter"></span></div><div id="grid" class="grid"></div></section><section id="resources"><h2>资源与制作记录</h2><p class="caption">无字正式控件另行交付，动态标题、公司名、金额与数量保持独立。PNG 包含真实 Alpha；九宫格与尺寸逐件记录。</p><div class="resources"><a href="records/common-assets-qa.png" target="_blank">通用控件</a><a href="previews/icon-native-contact-sheet.jpg" target="_blank">系统图标</a><a href="previews/cargo-contact.png" target="_blank">货物图标</a><a href="previews/portraits-contact.png" target="_blank">经理形象</a><a href="previews/flow-map.svg" target="_blank">核心流程图</a><a href="docs/ASSET_MASTER_MANIFEST.json" target="_blank">资源参数清单</a><a href="docs/UI_MASTER_MANIFEST.json" target="_blank">完整界面映射</a><a href="docs/SOURCES.md" target="_blank">来源与关联</a></div></section></main><footer class="foot">美术本地交付 · 未建立 Unity 工程，未提交 Git，成果远端待用户提供。<br>1920×1080 是设计画布；AI 原画实际尺寸记录在逐图元数据中，合成或缩放不代表原生高清生成。内置工具未披露的实际模型和质量标为未确认。</footer><dialog id="viewer"><div class="viewer"><div class="stage"><img id="full" alt=""></div><aside class="side"><button id="close">关闭 ×</button><h2 id="title"></h2><span id="sub" class="tag"></span><p id="desc"></p><div class="states" id="states"></div><p><button id="prev">← 上一页</button> <button id="next">下一页 →</button></p><a id="original" target="_blank">打开完整 PNG ↗</a><h4>关联流程</h4><div class="flow" id="flow"></div><h4>来源</h4><div class="source" id="source"></div></aside></div></dialog><script>const SCREENS=__DATA__;const $=x=>document.getElementById(x),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let current=0,filtered=SCREENS;
+[...new Set(SCREENS.map(s=>s.system))].forEach(s=>{const o=document.createElement('option');o.value=o.textContent=s;$('system').append(o)});
+function render(){let q=$('search').value.toLowerCase(),sys=$('system').value;filtered=SCREENS.filter(s=>(!sys||s.system===sys)&&(!q||JSON.stringify([s.id,s.title,s.system,s.tabs,s.actions]).toLowerCase().includes(q)));$('counter').textContent=filtered.length+' / '+SCREENS.length+' 页';$('grid').innerHTML=filtered.map(s=>'<article class="card" tabindex="0" role="button" data-id="'+s.id+'" aria-label="查看'+esc(s.title)+'"><img loading="lazy" src="'+s.thumbnailPath+'" alt="'+esc(s.title)+'"><div class="meta"><small>'+s.id+' · '+esc(s.system)+'</small><h3>'+esc(s.title)+'</h3><p>'+s.states.length+' 个状态 · '+s.upstreamFeatureIds.length+' 项功能映射</p></div></article>').join('')||'<p class="empty">没有匹配界面，请更换关键词。</p>'}
+function show(id){let i=SCREENS.findIndex(s=>s.id===id);if(i<0)return;current=i;let s=SCREENS[i];$('title').textContent=s.title;$('sub').textContent=s.system;$('desc').textContent='整屏设计 · '+s.id+' · 静态示例数据';selectImage(s.designPath);$('states').innerHTML='<button class="active" data-path="'+s.designPath+'">默认整屏</button>'+s.states.map(st=>'<button data-path="'+st.previewPath+'" title="'+esc(st.message)+'">'+esc(st.name)+'</button>').join('');$('flow').innerHTML=s.flowTo.map(id=>{let t=SCREENS.find(x=>x.id===id);return t?'<a href="#" data-goto="'+t.id+'">'+esc(t.title)+' →</a>':''}).join('');$('source').textContent=s.source.map(x=>x.file+':'+x.line).join('\n');if(!$('viewer').open)$('viewer').showModal();location.hash=s.id}
+function selectImage(path){$('full').src=path;$('full').alt=SCREENS[current].title;$('original').href=path}
+$('search').oninput=render;$('system').onchange=render;$('grid').onclick=e=>{let c=e.target.closest('[data-id]');if(c)show(c.dataset.id)};$('grid').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){let c=e.target.closest('[data-id]');if(c){e.preventDefault();show(c.dataset.id)}}};$('states').onclick=e=>{let b=e.target.closest('[data-path]');if(b){selectImage(b.dataset.path);$('states').querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b))}};$('flow').onclick=e=>{let a=e.target.closest('[data-goto]');if(a){e.preventDefault();show(a.dataset.goto)}};$('close').onclick=()=>$('viewer').close();$('prev').onclick=()=>show(SCREENS[(current+SCREENS.length-1)%SCREENS.length].id);$('next').onclick=()=>show(SCREENS[(current+1)%SCREENS.length].id);document.addEventListener('keydown',e=>{if($('viewer').open&&e.key==='ArrowRight')$('next').click();if($('viewer').open&&e.key==='ArrowLeft')$('prev').click()});render();if(SCREENS.some(s=>s.id===location.hash.slice(1)))show(location.hash.slice(1));window.UI_ART={screens:SCREENS,show};
+</script></body></html>"""
+ page=page.replace("__DATA__",data).replace("__ASSETS__",str(len(resources)+2))
+ (ROOT/"index.html").write_text(page,encoding="utf-8")
+ # Compact static flow with links into the local gallery.
+ nodes=[("01-main-menu","主菜单","单人 / 联机 / 创作"),("03-new-world","创建世界","气候 · 年份 · 地形"),("09-main-hud","经营主视窗","时间 · 工具 · 快讯"),("11-rail-build","建设网络","轨道 · 道路 · 水路 · 航空"),("32-station-detail","站点与覆盖","接受货物 · 评级"),("43-buy-train","购置与编组","车型 · 改装 · 车库"),("50-orders","运输指令","停靠 · 装卸 · 条件"),("53-timetable","时刻与运营","等待 · 行驶 · 晚点"),("60-finances","经营与扩张","收支 · 贷款 · 统计"),("93-servers","联机","公司 · 玩家 · 交流"),("102-online-content","在线内容","NewGRF · AI · GameScript"),("127-scenario-editor","情景编辑","地形 · 城镇 · 产业")]
+ svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1020" viewBox="0 0 1440 1020"><rect width="1440" height="1020" fill="#f3efdf"/><style>text{font-family:Microsoft YaHei,sans-serif;fill:#235343}a{text-decoration:none}</style><text x="50" y="65" font-size="34">云途万里（暂名） · UI 核心流程</text><text x="50" y="105" font-size="17">来源于 OpenTTD 功能研究；点击节点查看对应静态设计。</text>']
+ for j,(id,title,desc) in enumerate(nodes):
+  x=55+(j%3)*465;y=155+(j//3)*210
+  if j<8:
+   target=j+1;nx=55+(target%3)*465;ny=155+(target//3)*210
+   svg.append(f'<path d="M {x+200} {y+132} L {nx+200} {ny}" stroke="#9b8d5c" stroke-width="3" fill="none"/>')
+  svg.append(f'<a href="../index.html#{id}"><rect x="{x}" y="{y}" width="410" height="135" rx="20" fill="#e6ecda" stroke="#b29861" stroke-width="2"/><text x="{x+26}" y="{y+46}" font-size="27">{title}</text><text x="{x+26}" y="{y+91}" font-size="18">{desc}</text></a>')
+ svg.append('</svg>');(ROOT/"previews/flow-map.svg").write_text("".join(svg),encoding="utf-8")
+ print(f"gallery {len(screens)} screens / {len(states)} states / {len(resources)+2} PNG resources; contact sheets complete")
+if __name__=="__main__":main()
+

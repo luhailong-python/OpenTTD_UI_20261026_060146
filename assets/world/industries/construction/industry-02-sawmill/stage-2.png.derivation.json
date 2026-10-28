@@ -1,0 +1,48 @@
+{
+  "id": "industry-02-sawmill-construction-2",
+  "image": "assets/world/industries/construction/industry-02-sawmill/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "3183222e520e556caf4af7d8c28fe35d7310bdfe6977a64e00ee077208b12b66",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/sawmill.png",
+      "sha256": "9fa9935875e15e040a44f4ff0025c56f1be2f776c81253b44352f6dec260cbc6",
+      "record": "assets/world/industries/sawmill.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 2,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-02-sawmill",
+    "industry-tile-011",
+    "industry-tile-012",
+    "industry-tile-013",
+    "industry-tile-014",
+    "industry-tile-015"
+  ]
+}

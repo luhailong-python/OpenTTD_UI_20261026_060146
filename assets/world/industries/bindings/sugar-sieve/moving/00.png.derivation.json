@@ -1,0 +1,42 @@
+{
+  "id": "industry-sugar-sieve-bound-00",
+  "image": "assets/world/industries/bindings/sugar-sieve/moving/00.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "35b6772697b23e6f2bb57df8b14066849686de19d2aeeefe47a4ff3089d55ffd",
+  "operation": "actual parent moving-pixel crop + declared deterministic grain-sift; full512 attachment layer already positioned in parent coordinates; not a new native pose",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/sugar-mine.png",
+      "sha256": "5e26440d9b1722a99431bd6ca93ac4d664386656a99bfee4dc9d3eba56fa65be",
+      "record": "assets/world/industries/sugar-mine.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 0,
+  "phase": 0.0,
+  "parameters": {
+    "phaseRadians": 0.0,
+    "method": "actual parent mechanism RGB inverse sampling inside fixed ownership Alpha; unchanged painted boundary",
+    "pivotPx": [
+      301,
+      310
+    ]
+  },
+  "parentArtId": "industry-36-sugar-mine",
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

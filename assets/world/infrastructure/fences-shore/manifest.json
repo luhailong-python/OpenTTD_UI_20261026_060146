@@ -1,0 +1,1018 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:45:03.129095+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "fence-wood",
+      "image": "assets/world/infrastructure/fences-shore/fence-wood.png",
+      "width": 256,
+      "height": 192,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        128
+      ],
+      "pivotUnity": [
+        0.5,
+        0.33333333333333337
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        6,
+        8,
+        519,
+        347
+      ],
+      "sourceCropSize": [
+        513,
+        339
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        506,
+        332
+      ],
+      "sourceAnchorPx": [
+        265,
+        193
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.324,
+      "targetOffsetPx": [
+        44,
+        68
+      ],
+      "contentNativeSize": [
+        499,
+        325
+      ],
+      "contentExportSize": [
+        162,
+        105
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 235,
+        "componentCorePixels": 43629
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "01435bfbc42e5681d9853e7a0cfe5a455097dc70af003de42ea09c4907443e9b",
+      "nativeSlot": 0,
+      "nativeComponentBox": [
+        14,
+        16,
+        511,
+        339
+      ],
+      "anchorMeaning": "centre of fence segment on ground line",
+      "logicalEdgeVectorSuggested": [
+        128,
+        -64
+      ]
+    },
+    {
+      "id": "fence-stone",
+      "image": "assets/world/infrastructure/fences-shore/fence-stone.png",
+      "width": 256,
+      "height": 192,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        128
+      ],
+      "pivotUnity": [
+        0.5,
+        0.33333333333333337
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        514,
+        0,
+        1028,
+        345
+      ],
+      "sourceCropSize": [
+        514,
+        345
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        507,
+        338
+      ],
+      "sourceAnchorPx": [
+        257,
+        192
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.324,
+      "targetOffsetPx": [
+        47,
+        68
+      ],
+      "contentNativeSize": [
+        500,
+        331
+      ],
+      "contentExportSize": [
+        162,
+        107
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 69,
+        "componentCorePixels": 60176
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "421950cae0436c54ddac79cad2e5fa258e6e2dcd97d4dca043beb12cc0c4ec7d",
+      "nativeSlot": 1,
+      "nativeComponentBox": [
+        522,
+        7,
+        1020,
+        337
+      ],
+      "anchorMeaning": "centre of fence segment on ground line",
+      "logicalEdgeVectorSuggested": [
+        128,
+        -64
+      ]
+    },
+    {
+      "id": "fence-hedge",
+      "image": "assets/world/infrastructure/fences-shore/fence-hedge.png",
+      "width": 256,
+      "height": 192,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        128,
+        128
+      ],
+      "pivotUnity": [
+        0.5,
+        0.33333333333333337
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1047,
+        6,
+        1535,
+        350
+      ],
+      "sourceCropSize": [
+        488,
+        344
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        482,
+        337
+      ],
+      "sourceAnchorPx": [
+        240,
+        188
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.324,
+      "targetOffsetPx": [
+        53,
+        69
+      ],
+      "contentNativeSize": [
+        475,
+        330
+      ],
+      "contentExportSize": [
+        154,
+        107
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 36,
+        "componentCorePixels": 70173
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "6d2fd034a6a735768c6781ad04cd6dd2cf942b68d948d12dec1837e3fbaadad0",
+      "nativeSlot": 2,
+      "nativeComponentBox": [
+        1055,
+        14,
+        1527,
+        342
+      ],
+      "anchorMeaning": "centre of fence segment on ground line",
+      "logicalEdgeVectorSuggested": [
+        128,
+        -64
+      ]
+    },
+    {
+      "id": "shore-sand",
+      "image": "assets/world/infrastructure/fences-shore/shore-sand.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1,
+        342,
+        527,
+        681
+      ],
+      "sourceCropSize": [
+        526,
+        339
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        520,
+        332
+      ],
+      "sourceAnchorPx": [
+        263.0,
+        330
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9961089494163424,
+      "targetOffsetPx": [
+        1,
+        126
+      ],
+      "contentNativeSize": [
+        513,
+        325
+      ],
+      "contentExportSize": [
+        511,
+        324
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 227,
+        "componentCorePixels": 81338
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "8e9f4e0fcd1a4b4ee3321706b2b338200ab14a169026ef33720df8b238584a8c",
+      "nativeSlot": 3,
+      "nativeComponentBox": [
+        9,
+        350,
+        519,
+        673
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "shore-rock",
+      "image": "assets/world/infrastructure/fences-shore/shore-rock.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        511,
+        340,
+        1039,
+        682
+      ],
+      "sourceCropSize": [
+        528,
+        342
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        522,
+        335
+      ],
+      "sourceAnchorPx": [
+        264.0,
+        333
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9922480620155039,
+      "targetOffsetPx": [
+        1,
+        125
+      ],
+      "contentNativeSize": [
+        515,
+        328
+      ],
+      "contentExportSize": [
+        511,
+        325
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 383,
+        "componentCorePixels": 81882
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "09338a789d9375334dbb2c166835e9e3b959e43ba4d71aeff287e1b4e5548fa1",
+      "nativeSlot": 4,
+      "nativeComponentBox": [
+        519,
+        348,
+        1031,
+        674
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "river-grass-bank",
+      "image": "assets/world/infrastructure/fences-shore/river-grass-bank.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1024,
+        349,
+        1534,
+        696
+      ],
+      "sourceCropSize": [
+        510,
+        347
+      ],
+      "alphaTrimBox": [
+        6,
+        7,
+        503,
+        340
+      ],
+      "sourceAnchorPx": [
+        255.0,
+        338
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        7,
+        117
+      ],
+      "contentNativeSize": [
+        497,
+        333
+      ],
+      "contentExportSize": [
+        497,
+        333
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 753,
+        "componentCorePixels": 99113
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "368d7f7aa7d217327f20a2220fed846f2d0080b02c4f874605c91862063efca3",
+      "nativeSlot": 5,
+      "nativeComponentBox": [
+        1032,
+        357,
+        1526,
+        688
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "field-seedlings",
+      "image": "assets/world/infrastructure/fences-shore/field-seedlings.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        0,
+        683,
+        517,
+        1000
+      ],
+      "sourceCropSize": [
+        517,
+        317
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        511,
+        310
+      ],
+      "sourceAnchorPx": [
+        258.5,
+        308
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        4,
+        147
+      ],
+      "contentNativeSize": [
+        504,
+        303
+      ],
+      "contentExportSize": [
+        504,
+        303
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 71,
+        "componentCorePixels": 80963
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "daad07877512471b0a7ae14a05d8b1c1d50307e579e7b177e5cfe72c79eb8cb2",
+      "nativeSlot": 6,
+      "nativeComponentBox": [
+        8,
+        691,
+        509,
+        992
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "field-ripe-grain",
+      "image": "assets/world/infrastructure/fences-shore/field-ripe-grain.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        518,
+        672,
+        1026,
+        1011
+      ],
+      "sourceCropSize": [
+        508,
+        339
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        502,
+        332
+      ],
+      "sourceAnchorPx": [
+        254.0,
+        330
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        9,
+        125
+      ],
+      "contentNativeSize": [
+        495,
+        325
+      ],
+      "contentExportSize": [
+        495,
+        325
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 151,
+        "componentCorePixels": 88471
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "a113027c71b1211ea4b449f27a29fbcd93ed7f732f3302b21f8c2778abe6ac43",
+      "nativeSlot": 7,
+      "nativeComponentBox": [
+        526,
+        680,
+        1018,
+        1003
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    },
+    {
+      "id": "rocks-cluster",
+      "image": "assets/world/infrastructure/fences-shore/rocks-cluster.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "infrastructure",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/fences-shore-kit.png",
+          "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+          "record": "source-art/world/fences-shore-kit.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1053,
+        679,
+        1535,
+        1013
+      ],
+      "sourceCropSize": [
+        482,
+        334
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        476,
+        327
+      ],
+      "sourceAnchorPx": [
+        241.0,
+        325
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        22,
+        130
+      ],
+      "contentNativeSize": [
+        469,
+        320
+      ],
+      "contentExportSize": [
+        469,
+        320
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 1323,
+        "componentCorePixels": 80146
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "ab68fbc277673f4db666256270482413ed8ae5d58e8fcc925ce995694854e611",
+      "nativeSlot": 8,
+      "nativeComponentBox": [
+        1061,
+        687,
+        1527,
+        1005
+      ],
+      "anchorMeaning": "compound-front contact; not logical tile centre"
+    }
+  ],
+  "qa": [
+    {
+      "id": "fence-wood.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        6,
+        8,
+        519,
+        347
+      ]
+    },
+    {
+      "id": "fence-stone.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        514,
+        0,
+        1028,
+        345
+      ]
+    },
+    {
+      "id": "fence-hedge.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        1047,
+        6,
+        1535,
+        350
+      ]
+    },
+    {
+      "id": "shore-sand.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        1,
+        342,
+        527,
+        681
+      ]
+    },
+    {
+      "id": "shore-rock.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        511,
+        340,
+        1039,
+        682
+      ]
+    },
+    {
+      "id": "river-grass-bank.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        1024,
+        349,
+        1534,
+        696
+      ]
+    },
+    {
+      "id": "field-seedlings.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        0,
+        683,
+        517,
+        1000
+      ]
+    },
+    {
+      "id": "field-ripe-grain.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        518,
+        672,
+        1026,
+        1011
+      ]
+    },
+    {
+      "id": "rocks-cluster.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/fences-shore-kit.png",
+      "sourceBox": [
+        1053,
+        679,
+        1535,
+        1013
+      ]
+    }
+  ],
+  "acceptance": "extracted; complete-sheet visual and state checks pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "services-fences-shore",
+  "nativeSourceAtlas": {
+    "file": "source-art/world/fences-shore-kit.png",
+    "sha256": "ca73a5aff7e45161457a1b26b09e40e0da9776e3d141d22f9fafec3f2ffd62e3",
+    "record": "source-art/world/fences-shore-kit.png.generation.json",
+    "sourceRecordAvailable": true
+  }
+}

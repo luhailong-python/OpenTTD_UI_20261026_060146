@@ -1,0 +1,39 @@
+{
+  "id": "tree-02-growing-3",
+  "image": "assets/world/vegetation/states/tree-02/2-growing-3.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "516df5b0b2276cc84c7efacb0e54cf58da580be1ad4f82adb99172fe6800ede3",
+  "climate": "temperate",
+  "artSpecies": "silver-birch",
+  "sourceTreeType": 2,
+  "sourceGrowthStage": 2,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-02.png",
+      "sha256": "6b9dcdb596a1647677390cf35ebda0abe0d6e368889210ce5d6b4bb1bbbdc0af",
+      "record": "assets/world/vegetation/mature/tree-02.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.76,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-02"
+  ]
+}

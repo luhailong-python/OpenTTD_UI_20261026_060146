@@ -1,0 +1,49 @@
+{
+  "id": "rail-platform",
+  "image": "assets/world/infrastructure/transport/rail-platform.png",
+  "sha256": "9829a88d1d126e88176398761d6ddf93f669cf64557682958161a54220e44e5b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/station-kit.png",
+      "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+      "record": "source-art/world/station-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    5,
+    12,
+    577,
+    348
+  ],
+  "scaleApplied": 0.6713286713286714,
+  "sourceAtlas": "station-kit",
+  "sourceComponent": 2,
+  "contentSize": [
+    384,
+    226
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

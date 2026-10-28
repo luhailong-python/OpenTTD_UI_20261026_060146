@@ -1,0 +1,60 @@
+{
+  "id": "industry-04-oil-refinery",
+  "file": "assets/world/industries/oil-refinery.png",
+  "sha256": "7845be266415d33d03feaa4e4131931e06cbefde8334cffe09d9b29906c2168a",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    432,
+    419,
+    867,
+    821
+  ],
+  "nativePaintingBounds": [
+    434,
+    419,
+    867,
+    820
+  ],
+  "uniformScale": 0.8827586206896552,
+  "pasteXY": [
+    64,
+    93
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    93,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-a.png",
+    "sha256": "e1365b0ae4270079d1f124002cf17d944a9dabdfa37e6a1ec3a5bcf4bcfe9643",
+    "record": "source-art/world/industry-a.png.generation.json"
+  },
+  "sourceIndustryTypeId": 4,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

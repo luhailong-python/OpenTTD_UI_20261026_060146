@@ -1,0 +1,356 @@
+{
+  "id": 2,
+  "upstreamName": "Ploddyphut Choo-Choo",
+  "familyId": "loco-toy",
+  "transport": "train",
+  "cargo": "CT_NONE",
+  "climates": [
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 105
+  },
+  "trackHardware": "rail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/N-body.png",
+      "sha256": "c644d446abd6dc139cb2bc372ff7d0e99ed12f5f44a117cb70a02e84c0e7cc67",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/N-body.png",
+          "sha256": "c644d446abd6dc139cb2bc372ff7d0e99ed12f5f44a117cb70a02e84c0e7cc67",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/N.png",
+          "sha256": "c9cae653f56351134913966ad534f5d45bd425c7568170b64b620c7ba50d74d6",
+          "record": "assets/world/vehicles/families/loco-toy/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/NE-body.png",
+      "sha256": "8e6d4b2b112a058a5b86dffbfce9674f8c94b9308d00e64765ef81d04c35cab1",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/NE-body.png",
+          "sha256": "8e6d4b2b112a058a5b86dffbfce9674f8c94b9308d00e64765ef81d04c35cab1",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/NE.png",
+          "sha256": "aebaf473a5a3007baf94b46528d3291e30e273edff8274246b1fd4cc5c72144b",
+          "record": "assets/world/vehicles/families/loco-toy/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/E-body.png",
+      "sha256": "f0f8aac84e763fc83ef377679d1bc6d03c8e917b1e14189655d173fd52ed4a2e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/E-body.png",
+          "sha256": "f0f8aac84e763fc83ef377679d1bc6d03c8e917b1e14189655d173fd52ed4a2e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/E.png",
+          "sha256": "34c261cb75dafd4b53371a2f085709d9664c0d9ddc477613b4733b919d4f55cb",
+          "record": "assets/world/vehicles/families/loco-toy/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/SE-body.png",
+      "sha256": "715a2400a781d64efc844fff19a6b82c0d1b16d2ef108ccb53475c32f9833934",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/SE-body.png",
+          "sha256": "715a2400a781d64efc844fff19a6b82c0d1b16d2ef108ccb53475c32f9833934",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/SE.png",
+          "sha256": "068b6768de3178bbd4408eada79850cbc204dd8f57060f3bca21d5af946231b2",
+          "record": "assets/world/vehicles/families/loco-toy/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/S-body.png",
+      "sha256": "b0ecb845a6104f7e71ad9220bf9b48fbe0fe7b4ed69568db872ad30ad5941c38",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/S-body.png",
+          "sha256": "b0ecb845a6104f7e71ad9220bf9b48fbe0fe7b4ed69568db872ad30ad5941c38",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/S.png",
+          "sha256": "5eaa66ed1c55d5116d05cc417505f20bfd27117333ef6166e8228c4c293f725c",
+          "record": "assets/world/vehicles/families/loco-toy/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/SW-body.png",
+      "sha256": "93f85fd718a68976e72141fadafbdbb6ed2eaf0958ffa4d5653c77c386f31181",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/SW-body.png",
+          "sha256": "93f85fd718a68976e72141fadafbdbb6ed2eaf0958ffa4d5653c77c386f31181",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/SW.png",
+          "sha256": "7be7fb8b504d71bedf8357932bedb781add3104b85a809f0fe82d15aaec358b4",
+          "record": "assets/world/vehicles/families/loco-toy/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/W-body.png",
+      "sha256": "c18ee381ee9d141c75338c41af64f222162dcda85fe31cea4d1d8a834b5c01b0",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/W-body.png",
+          "sha256": "c18ee381ee9d141c75338c41af64f222162dcda85fe31cea4d1d8a834b5c01b0",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/W.png",
+          "sha256": "6d9603db6e577ed1a75488dd66db25d6ba2d98f43ea44367679d81ffbd4f371b",
+          "record": "assets/world/vehicles/families/loco-toy/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/002/NW-body.png",
+      "sha256": "1ee12d62f3acb3e7fb3fdb1ac5e1b3dc314e167ba40e52ce678e902831c0b178",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/002/NW-body.png",
+          "sha256": "1ee12d62f3acb3e7fb3fdb1ac5e1b3dc314e167ba40e52ce678e902831c0b178",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 6,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-toy/NW.png",
+          "sha256": "fbd677a09ca21c0f52fefd2540347efe2f6e97145d46f44ddfdac9d7442e5390",
+          "record": "assets/world/vehicles/families/loco-toy/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/loco-toy/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

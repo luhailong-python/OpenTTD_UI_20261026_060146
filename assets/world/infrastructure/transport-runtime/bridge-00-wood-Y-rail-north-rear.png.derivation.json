@@ -1,0 +1,174 @@
+{
+  "id": "bridge-00-wood-Y-rail-north-rear",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-00-wood-Y-rail-north-rear.png",
+  "sha256": "125dd7fd9af9bc3e1153a50c681baa20b8324f064edf3740d7aa7de399da658a",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-wood-span.png",
+      "sha256": "13938698f517c84fb0f320583d8d4e4afba023f08184f1bdfc53398921db4363",
+      "record": "assets/world/infrastructure/transport/bridge-wood-span.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-wood-Y-rail-32-mask.png",
+      "sha256": "a0b35c6f26369ab9306c3d8f5caadcd141c66157871a6f707d85e9c7ea518da0",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-wood-Y-rail-32-mask.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary native painted bridge floor / protected structure ownership Alpha partition; original railings, posts and roof pixels unchanged",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-00-wood"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:19.803487+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        86,
+        242
+      ],
+      [
+        146,
+        214
+      ],
+      [
+        427,
+        348
+      ],
+      [
+        365,
+        376
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        116.0,
+        228.0
+      ],
+      [
+        396.0,
+        362.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        114.05714285714285,
+        182.97142857142856
+      ],
+      [
+        141.94285714285715,
+        169.02857142857144
+      ],
+      [
+        269.9428571428571,
+        201.02857142857144
+      ],
+      [
+        242.05714285714285,
+        214.97142857142856
+      ]
+    ],
+    "deckCrossSectionHalfX": 13.942857142857143,
+    "uniformNativeScaleReference": 0.45714285714285713,
+    "sourceXKnots": [
+      86.0,
+      146.0,
+      365.0,
+      427.0
+    ],
+    "targetXKnots": [
+      114.05714285714285,
+      141.94285714285715,
+      242.05714285714285,
+      269.9428571428571
+    ],
+    "verticalScaleAboveDeck": [
+      0.5142857142857142,
+      0.5028571428571429,
+      0.41142857142857137,
+      0.41904761904761906
+    ],
+    "verticalScaleBelowDeck": [
+      0.43243243243243246,
+      0.45714285714285713,
+      0.48484848484848486,
+      0.45714285714285713
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            86,
+            226
+          ],
+          [
+            365,
+            356
+          ]
+        ],
+        "commonCapHeightPx": 8.228571428571428
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            146,
+            194
+          ],
+          [
+            427,
+            324
+          ]
+        ],
+        "commonCapHeightPx": 10.057142857142857
+      }
+    ],
+    "axisMirror": true,
+    "rampRisePx": 32,
+    "advancePx": [
+      -128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "ownershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-wood-Y-rail-32-mask.png",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

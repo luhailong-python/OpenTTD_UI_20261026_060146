@@ -1,0 +1,46 @@
+{
+  "id": "tree-37-dying-2",
+  "image": "assets/world/vegetation/states/tree-37/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "2696e4cb04caaa582a49c93b4fa28da6a1a2afb178744cec2d907e85e6ec1c18",
+  "climate": "toyland",
+  "artSpecies": "jelly-cone",
+  "sourceTreeType": 37,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-37.png",
+      "sha256": "822806d1135759c9ddc0241f4e4c1fbcc359e20b30110b1e9a3c4d48c24de324",
+      "record": "assets/world/vegetation/mature/tree-37.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dying-candy.png",
+      "sha256": "77616ec1b974301802a3bcd9cc36280ae30de2a689c838f7023a5e5f13c85dd8",
+      "record": "assets/world/vegetation/lifecycle/dying-candy.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dying-candy",
+    "sharedScale": 0.7922553191489362,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-37"
+  ]
+}

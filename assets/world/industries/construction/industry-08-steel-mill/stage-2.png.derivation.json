@@ -1,0 +1,49 @@
+{
+  "id": "industry-08-steel-mill-construction-2",
+  "image": "assets/world/industries/construction/industry-08-steel-mill/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "089d48a33e46f7830280ab8dd6a0307f71e4bdbe9652ddc8c8802ac33c95d28a",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/steel-mill.png",
+      "sha256": "e95dbaa314eb324627d776f36a47aaf36c8ecbb7a2bcfe0d60bab523d5b5fce4",
+      "record": "assets/world/industries/steel-mill.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 8,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-08-steel-mill",
+    "industry-tile-052",
+    "industry-tile-053",
+    "industry-tile-054",
+    "industry-tile-055",
+    "industry-tile-056",
+    "industry-tile-057"
+  ]
+}

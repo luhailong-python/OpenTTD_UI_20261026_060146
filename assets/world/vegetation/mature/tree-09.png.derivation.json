@@ -1,0 +1,54 @@
+{
+  "id": "tree-09",
+  "image": "assets/world/vegetation/mature/tree-09.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "75739df2bab218c265193cc6aa43b226921e966b4071c860339ffd6f0a8040f8",
+  "climate": "temperate",
+  "artSpecies": "chestnut",
+  "sourceTreeType": 9,
+  "sourceCell": 9,
+  "sourceCropXYXY": [
+    408,
+    679,
+    769,
+    1004
+  ],
+  "sourceAnchorInCrop": [
+    179.0,
+    325
+  ],
+  "nativeCropSize": [
+    361,
+    325
+  ],
+  "uniformScale": 0.6593406593406593,
+  "pasteXY": [
+    10,
+    138
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-temperate.png",
+    "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+    "record": "source-art/world/trees-temperate.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-09"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

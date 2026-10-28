@@ -1,0 +1,46 @@
+{
+  "id": "tree-14-dead",
+  "image": "assets/world/vegetation/states/tree-14/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "6350ac67f018586ee88bfc2a94012e559c01e0e891456a0a5a1d9ae6a71c9500",
+  "climate": "arctic",
+  "artSpecies": "snow-fir",
+  "sourceTreeType": 14,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-14.png",
+      "sha256": "e67e2eb33e3f17819552ae43fc0b354f8cfe5094a55940d6ed2e9d5a01bc070f",
+      "record": "assets/world/vegetation/mature/tree-14.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png",
+      "sha256": "9f12687fd3a2ea92f835b6926f1a62d76e71b96c7ee583ea09a1f633766c20cd",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-dead-stump.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-stump",
+    "sharedScale": 0.41285714285714287,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-14"
+  ]
+}

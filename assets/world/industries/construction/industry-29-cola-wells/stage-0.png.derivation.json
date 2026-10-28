@@ -1,0 +1,44 @@
+{
+  "id": "industry-29-cola-wells-construction-0",
+  "image": "assets/world/industries/construction/industry-29-cola-wells/stage-0.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "7717ba740626566338a83c065436afbeb664c7308d7b6ed6bc2be56036cc6afe",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/cola-wells.png",
+      "sha256": "ec6d36d535e9e762bd06515a63e15084475f5c8ef93af6a4e00c221ed4e0fcf9",
+      "record": "assets/world/industries/cola-wells.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "record": "assets/world/infrastructure/construction-ready/construction-foundation.png.derivation.json",
+      "scale": 0.7603960396039604
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 29,
+  "stage": 0,
+  "details": {
+    "kind": "shared industry foundation matched to compound front contact",
+    "sharedSource": true
+  },
+  "sourceRequirementIds": [
+    "industry-29-cola-wells",
+    "industry-tile-137"
+  ]
+}

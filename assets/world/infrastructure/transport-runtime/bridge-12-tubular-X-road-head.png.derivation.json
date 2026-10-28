@@ -1,0 +1,253 @@
+{
+  "id": "bridge-12-tubular-X-road-head",
+  "image": "assets/world/infrastructure/transport-runtime/bridge-12-tubular-X-road-head.png",
+  "sha256": "73a350ff576b78426276a132bc77293cd1a2fac9f1055a276d2cdb56c690c331",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-tubular-span.png",
+      "sha256": "7a92213188edcc8083b6b80a655339022322a5684786c12ef25e5f1295a6732b",
+      "record": "assets/world/infrastructure/transport/bridge-tubular-span.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-road-32.png",
+      "sha256": "bcb86312eeee423b1c9e3433931c99e1f3d245b23f1315afe5a54c5eb75d8ba0",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-road-32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-road-32-mask.png",
+      "sha256": "be5bbb26345714b72548ce1f8e7aa06e120b8882e9be636a2a08f439435f3842",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-road-32-mask.png.derivation.json"
+    }
+  ],
+  "operation": "Native structural span in frozen measured bridge geometry; actual narrow central road/rail lane installed between complementary native floor/structure layers; declared source-ID livery; no grass deck tile",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "bridge-12-tubular"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:33.763406+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        91,
+        284
+      ],
+      [
+        161,
+        248
+      ],
+      [
+        431,
+        382
+      ],
+      [
+        354,
+        420
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        126.0,
+        266.0
+      ],
+      [
+        392.5,
+        401.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        110.34896810506567,
+        184.82551594746718
+      ],
+      [
+        145.65103189493433,
+        167.17448405253282
+      ],
+      [
+        273.65103189493436,
+        199.17448405253282
+      ],
+      [
+        238.34896810506567,
+        216.82551594746718
+      ]
+    ],
+    "deckCrossSectionHalfX": 17.651031894934334,
+    "uniformNativeScaleReference": 0.4803001876172608,
+    "sourceXKnots": [
+      91.0,
+      161.0,
+      354.0,
+      431.0
+    ],
+    "targetXKnots": [
+      110.34896810506567,
+      145.65103189493433,
+      238.34896810506567,
+      273.65103189493436
+    ],
+    "verticalScaleAboveDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "verticalScaleBelowDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "nativePostCorrespondence": [],
+    "axisMirror": false,
+    "rampRisePx": 32,
+    "advancePx": [
+      128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "axis": "X",
+  "deck": "road",
+  "piece": "head",
+  "deckLayerImage": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-road-32.png",
+  "deckLayerOffsetPx": [
+    0,
+    0
+  ],
+  "deckMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-road.png",
+  "deckOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-road-32-mask.png",
+  "laneProjection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        91,
+        284
+      ],
+      [
+        161,
+        248
+      ],
+      [
+        431,
+        382
+      ],
+      [
+        354,
+        420
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        126.0,
+        266.0
+      ],
+      [
+        392.5,
+        401.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        110.34896810506567,
+        184.82551594746718
+      ],
+      [
+        145.65103189493433,
+        167.17448405253282
+      ],
+      [
+        273.65103189493436,
+        199.17448405253282
+      ],
+      [
+        238.34896810506567,
+        216.82551594746718
+      ]
+    ],
+    "deckCrossSectionHalfX": 17.651031894934334,
+    "uniformNativeScaleReference": 0.4803001876172608,
+    "sourceXKnots": [
+      91.0,
+      161.0,
+      354.0,
+      431.0
+    ],
+    "targetXKnots": [
+      110.34896810506567,
+      145.65103189493433,
+      238.34896810506567,
+      273.65103189493436
+    ],
+    "verticalScaleAboveDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "verticalScaleBelowDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "nativePostCorrespondence": [],
+    "axisMirror": false,
+    "rampRisePx": 32,
+    "advancePx": [
+      128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

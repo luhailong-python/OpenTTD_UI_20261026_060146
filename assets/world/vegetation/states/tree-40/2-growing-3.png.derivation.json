@@ -1,0 +1,39 @@
+{
+  "id": "tree-40-growing-3",
+  "image": "assets/world/vegetation/states/tree-40/2-growing-3.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "1ee4497927e0f6078f5d2a73578b1421627d9e35a168ed78446a0a8e6b5c347d",
+  "climate": "toyland",
+  "artSpecies": "balloon-tree",
+  "sourceTreeType": 40,
+  "sourceGrowthStage": 2,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-40.png",
+      "sha256": "c84501ceaa8ece7466ca7a3b8cc5f20c2405c35816e970ebf32c766db1f7ced0",
+      "record": "assets/world/vegetation/mature/tree-40.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.76,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-40"
+  ]
+}

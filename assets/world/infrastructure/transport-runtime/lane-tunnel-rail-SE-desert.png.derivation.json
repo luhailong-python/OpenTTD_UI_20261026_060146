@@ -1,0 +1,75 @@
+{
+  "id": "lane-tunnel-rail-SE-desert",
+  "image": "assets/world/infrastructure/transport-runtime/lane-tunnel-rail-SE-desert.png",
+  "sha256": "07c2541a99af87a1f27fc01f86d098565ef7c04ff31ccd470dd913f4872f06df",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-rail.png",
+      "sha256": "03bbe6c012ff505818879a47dd0d5ddd706613007f4c5f098787f763c1c83632",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-rail.png.derivation.json"
+    }
+  ],
+  "operation": "Measured real portal approach quad -> actual central lane UV texture; no grass tile; interior darkening colour grade; no painted replacement strokes",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-rail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:11.112865+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "desert",
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-rail.png",
+  "targetQuadPx": [
+    [
+      257.0,
+      388.0
+    ],
+    [
+      313.0,
+      360.0
+    ],
+    [
+      421.0,
+      414.0
+    ],
+    [
+      365.0,
+      442.0
+    ]
+  ],
+  "offsetPx": [
+    0,
+    0
+  ],
+  "uvOrder": "near-left inner / far-left inner / far-right outer / near-right outer",
+  "uvDomain": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

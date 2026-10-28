@@ -1,0 +1,343 @@
+{
+  "id": "crash-smoke",
+  "frames": [
+    {
+      "file": "assets/world/effects/crash-smoke/00.png",
+      "sha256": "a8dec79cc9296df688bf0a8eaae9e7c371c6d4fe09c9a73f48a56282983d1c79",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.203125
+      ],
+      "frame": 0,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            940,
+            314,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            940,
+            627,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false,
+      "emitterPx": [
+        256,
+        408
+      ]
+    },
+    {
+      "file": "assets/world/effects/crash-smoke/01.png",
+      "sha256": "b4666d51fcc9868a10c4a1eb8cd4ff226081c499b4f59c36c4844a23061315ff",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.203125
+      ],
+      "frame": 1,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            940,
+            314,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.25
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            940,
+            627,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.75
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false,
+      "emitterPx": [
+        256,
+        408
+      ]
+    },
+    {
+      "file": "assets/world/effects/crash-smoke/02.png",
+      "sha256": "a4c621313f880e3a7c37d7f8c43ac6ca0f40d97cbff18bf1498a68d7b625d243",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.203125
+      ],
+      "frame": 2,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            314,
+            940,
+            627,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.5
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 42,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.5
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false,
+      "emitterPx": [
+        256,
+        408
+      ]
+    },
+    {
+      "file": "assets/world/effects/crash-smoke/03.png",
+      "sha256": "cceb34e9b4428e7c04c2dadea20f6d9b749e66aca9cb7c21ec2cf03b6ac88c27",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.203125
+      ],
+      "frame": 3,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 42,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.75
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 18,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.25
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false,
+      "emitterPx": [
+        256,
+        408
+      ]
+    },
+    {
+      "file": "assets/world/effects/crash-smoke/04.png",
+      "sha256": "a5bf96f0667235bc6604a3ed0e7dc1bf606269c29f83e1c9d8f07e5cd517a6da",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.203125
+      ],
+      "frame": 4,
+      "durationMs": 83,
+      "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 18,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 1.0
+        },
+        {
+          "derivedFrom": {
+            "file": "source-art/world/fx-smoke-keys.png",
+            "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+            "record": "source-art/world/fx-smoke-keys.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            99,
+            99
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 18,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "keyWeight": 0.0
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false,
+      "emitterPx": [
+        256,
+        408
+      ]
+    }
+  ],
+  "fpsSuggestion": 12,
+  "loop": false,
+  "timingStatus": "art preview recommendation; source gameplay tick adapter remains next stage",
+  "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+  "unityVerified": false,
+  "emitterPx": [
+    256,
+    408
+  ],
+  "pivot": [
+    0.5,
+    0.203125
+  ]
+}

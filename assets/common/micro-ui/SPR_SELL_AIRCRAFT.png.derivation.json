@@ -1,0 +1,68 @@
+{
+  "id": "SPR_SELL_AIRCRAFT",
+  "image": "assets/common/micro-ui/SPR_SELL_AIRCRAFT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "1982084ada4f31ada01b44e3f82fcd2c70cd3414482a06fc586f89c153b979ab",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/air.png",
+      "sha256": "ad3019bf3d002c1db27927687f948c890131867c8bbb123ea2e2ace57409c4e2",
+      "record": "assets/icons/air.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_SELL_AIRCRAFT.svg",
+      "sha256": "eed1627bb2aef339dad93a8b3c83940843a854da6a51fc9230a075cd6f202fa4",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_SELL_AIRCRAFT",
+  "sourceSpriteId": 4992,
+  "category": "vehicle-operation",
+  "functionalGlyph": "minus",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_SELL_AIRCRAFT.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

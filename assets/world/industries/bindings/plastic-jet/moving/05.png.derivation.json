@@ -1,0 +1,42 @@
+{
+  "id": "industry-plastic-jet-bound-05",
+  "image": "assets/world/industries/bindings/plastic-jet/moving/05.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-bound-animation",
+  "sha256": "a86d15bc0c574921ebdef3bf1f8daef0cde5f682d74a9413871f68180aba0e3a",
+  "operation": "actual parent moving-pixel crop + declared deterministic liquid-surface; full512 attachment layer already positioned in parent coordinates; not a new native pose",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/plastic-fountains.png",
+      "sha256": "2f2603fa53ead7f81d721dac35e7536b22b0ff33ec19608a7d5c46666f7523b4",
+      "record": "assets/world/industries/plastic-fountains.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 5,
+  "phase": 0.4166666666666667,
+  "parameters": {
+    "phaseRadians": 2.6179938779914944,
+    "method": "actual parent mechanism RGB inverse sampling inside fixed ownership Alpha; unchanged painted boundary",
+    "pivotPx": [
+      215,
+      289
+    ]
+  },
+  "parentArtId": "industry-32-plastic-fountains",
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ],
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

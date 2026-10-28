@@ -1,0 +1,37 @@
+{
+  "id": "bridge-cantilever-span-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-cantilever-span-axis-y.png",
+  "sha256": "c31fe51c3f0be2379792ce01f984a8c0d462805de441799fcee778a76caee19b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-cantilever-span.png",
+      "sha256": "a24ee58fd49c13d741b37c0d851a5cec5087fc0a1ab980a0e5e7f5e00f634e26",
+      "record": "assets/world/infrastructure/transport/bridge-cantilever-span.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

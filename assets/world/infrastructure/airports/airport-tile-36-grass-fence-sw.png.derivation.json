@@ -1,0 +1,67 @@
+{
+  "id": "airport-tile-36-grass-fence-sw",
+  "image": "assets/world/infrastructure/airports/airport-tile-36-grass-fence-sw.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "6a81d06978b4ad522c52a151f9d88cb1563f93ca59dbaba949e8fb369d7991d2",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-grass.png",
+      "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+      "record": "assets/world/infrastructure/airports/airport-ground-grass.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-sw.png",
+      "sha256": "dfd1181689158396ccc48b724b81e424c34dbbb3001f6897a26fce68c5e08357",
+      "record": "assets/world/infrastructure/airports/airport-fence-sw.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 36,
+  "sourceTileEnum": "APT_GRASS_FENCE_SW",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRFIELD_APRON_A,           _station_display_fence_sw)  // APT_GRASS_FENCE_SW",
+  "layers": [
+    {
+      "artId": "airport-ground-grass",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-sw",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-country",
+    "airport-tile-36-grass-fence-sw"
+  ]
+}

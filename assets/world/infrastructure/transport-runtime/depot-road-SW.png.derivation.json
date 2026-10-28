@@ -1,0 +1,44 @@
+{
+  "id": "depot-road-SW",
+  "image": "assets/world/infrastructure/transport-runtime/depot-road-SW.png",
+  "sha256": "877edf0647017c51375b57405b8efd792ea99f01fd049edb6187453420d00982",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/road-depot-view-SW.png",
+      "sha256": "877edf0647017c51375b57405b8efd792ea99f01fd049edb6187453420d00982",
+      "record": "assets/world/infrastructure/transport/road-depot-view-SW.png.derivation.json"
+    }
+  ],
+  "operation": "Native four service perspectives or symmetric ship-depot axis reflection; no fake rear from front image",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "depot-road"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.500709+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

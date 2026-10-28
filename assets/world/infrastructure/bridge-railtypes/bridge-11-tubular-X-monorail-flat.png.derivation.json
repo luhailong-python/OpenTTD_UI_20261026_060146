@@ -1,0 +1,148 @@
+{
+  "id": "bridge-11-tubular-X-monorail-flat",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-11-tubular-X-monorail-flat.png",
+  "sha256": "69843d7c1c03b341755256a2e29bf32236d6e6ed9403f6910509877961eba450",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-11-tubular-X-rail-rear.png",
+      "sha256": "201b9e738cfb300f5995455ac282db7595a6c336e54cd8a5acd29f26d926dba5",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-11-tubular-X-rail-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-tubular-span-X-monorail-0.png",
+      "sha256": "21a89bae58fd1eb15ba8302ec90bb1c02b0a85ac5dd2370c8b123352f01b9671",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-tubular-span-X-monorail-0.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-11-tubular-X-rail-front.png",
+      "sha256": "86ec594807f4ee0fe34175aa12ee459f2745d6d2c881fb4e3639e5cedaeb8390",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-11-tubular-X-rail-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-11-tubular"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "X",
+  "railType": "monorail",
+  "risePx": 0,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        91,
+        284
+      ],
+      [
+        161,
+        248
+      ],
+      [
+        431,
+        382
+      ],
+      [
+        354,
+        420
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        126.0,
+        266.0
+      ],
+      [
+        392.5,
+        401.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        240
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        110.34896810506567,
+        184.82551594746718
+      ],
+      [
+        145.65103189493433,
+        167.17448405253282
+      ],
+      [
+        273.65103189493436,
+        231.17448405253282
+      ],
+      [
+        238.34896810506567,
+        248.82551594746718
+      ]
+    ],
+    "deckCrossSectionHalfX": 17.651031894934334,
+    "uniformNativeScaleReference": 0.4803001876172608,
+    "sourceXKnots": [
+      91.0,
+      161.0,
+      354.0,
+      431.0
+    ],
+    "targetXKnots": [
+      110.34896810506567,
+      145.65103189493433,
+      238.34896810506567,
+      273.65103189493436
+    ],
+    "verticalScaleAboveDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "verticalScaleBelowDeck": [
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608,
+      0.4803001876172608
+    ],
+    "nativePostCorrespondence": [],
+    "axisMirror": false,
+    "rampRisePx": 0,
+    "advancePx": [
+      128,
+      64
+    ],
+    "rampProfile": "flat",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-11-tubular-X-rail-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-tubular-span-X-monorail-0.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-11-tubular-X-rail-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-tubular-X-rail-0-mask.png"
+}

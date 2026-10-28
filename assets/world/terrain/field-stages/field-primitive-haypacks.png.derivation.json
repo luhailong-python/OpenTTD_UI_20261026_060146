@@ -1,0 +1,56 @@
+{
+  "id": "field-primitive-haypacks",
+  "image": "assets/world/terrain/field-stages/field-primitive-haypacks.png",
+  "width": 525,
+  "height": 419,
+  "anchorPx": [
+    263.2644101876676,
+    414
+  ],
+  "pivotUnity": [
+    0.5014560194050811,
+    0.011933174224343701
+  ],
+  "sha256": "d09aefc5a7709801f6b8cf40f2417449b33538ed955851c59b3d8699727bcb7c",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/field-crop-components-native.png",
+      "sha256": "eb56f6436ec61c25fb5e7ab3b2797a12578a1dd3edc84ecc4b114119076d891d",
+      "record": "source-art/world/field-crop-components-native.png.generation.json"
+    }
+  ],
+  "operation": "adopted native standalone crop/hay component; source cell crop, main-component Alpha cleanup, transparent padding and explicit physical root anchor; no repaint or enlargement",
+  "category": "field-native-primitive",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "nativeCropXYXY": [
+    1448,
+    0,
+    2172,
+    724
+  ],
+  "alphaCleanup": {
+    "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+    "coreThreshold": 32,
+    "removedVisiblePixels": 0,
+    "componentCorePixels": 144364,
+    "maskedNonzeroPixels": 10019,
+    "alphaBelow4Removed": true,
+    "outsideZeroAlphaRGBCleared": true,
+    "alphaTrimBox": [
+      85,
+      216,
+      602,
+      627
+    ],
+    "transparentPaddingPx": 4,
+    "anchorPolicy": "physical stem/bale bottom contact; Alpha-weighted center of last7 opaque rows, not whole Alpha centroid"
+  }
+}

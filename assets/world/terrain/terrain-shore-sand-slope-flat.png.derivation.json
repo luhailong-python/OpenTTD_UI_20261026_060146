@@ -1,0 +1,31 @@
+{
+  "file": "assets/world/terrain/terrain-shore-sand-slope-flat.png",
+  "sha256": "bb0dadbdea21fd4cbb2f02a1f179d748b5da0f5f855a3fe41eeb15a86a04d29a",
+  "derivedAt": "2026-10-28T10:20:53.989067+00:00",
+  "route": "deterministic-derivative",
+  "tool": "repair_terrain_materials.py / build_world_terrain.py square_material+periodic+project / world_pack.projected_slope",
+  "width": 256,
+  "height": 192,
+  "operation": "actual square hand-painted shore-sand master -> proportional192px UV downsample ->14px opposite-edge colour blend -> canonical256x128 diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/shore-sand-seamless.png",
+      "sha256": "53c5340ca2a1817576d21d4ea4b87bd79882ad4fde512a38ca4d2a975b4767be",
+      "record": "source-art/world/shore-sand-seamless.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "sourceNativeSize": [
+    1254,
+    1254
+  ],
+  "sourceUVWorkingResolution": [
+    192,
+    192
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "previousFormalSHA256": "e40739c21654ad2b050571be5e8f4f7469ad005bf743e3fb1dde0ec9c2419988",
+  "nativeUpscale": false
+}

@@ -1,0 +1,24 @@
+const {chromium}=require('C:/Users/luyua/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),{pathToFileURL}=require('url');
+(async()=>{
+ const R=path.resolve(__dirname,'..'),checks=[],errors=[];
+ const sha=f=>crypto.createHash('sha256').update(fs.readFileSync(path.join(R,f))).digest('hex');
+ const manifest='assets/world/overlays/fence-adapter/manifest.json',html='previews/fence-adapter/index.html';
+ const m=JSON.parse(fs.readFileSync(path.join(R,manifest)));
+ const b=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const p=await b.newPage({viewport:{width:1440,height:1000}});
+ p.on('pageerror',e=>errors.push(e.message));p.on('requestfailed',r=>errors.push(r.url()));
+ await p.goto(pathToFileURL(path.join(R,html)).href,{waitUntil:'load'});
+ await p.waitForFunction(()=>[...document.images].every(i=>i.complete&&i.naturalWidth>0));
+ checks.push({id:'8ActualFarmRailAndHalfWaterAssemblyPagesLoad',passed:await p.locator('img').count()===8});
+ const loaded=await p.evaluate(async files=>Promise.all(files.map(f=>new Promise(resolve=>{const i=new Image();i.onload=()=>resolve(i.naturalWidth===320&&i.naturalHeight===320);i.onerror=()=>resolve(false);i.src='../../'+f}))),m.assets.map(a=>a.image));
+ checks.push({id:'44ActualNativeFenceAdaptersLoad',passed:loaded.length===44&&loaded.every(Boolean)});
+ await p.screenshot({path:path.join(R,'records/fence-adapter-browser-desktop.png')});
+ await p.setViewportSize({width:390,height:844});
+ checks.push({id:'390pxNoHorizontalOverflow',passed:await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)});
+ await p.screenshot({path:path.join(R,'records/fence-adapter-browser-mobile.png')});
+ checks.push({id:'noScriptOrFileErrors',passed:errors.length===0});await b.close();
+ const failures=checks.filter(x=>!x.passed);
+ const r={createdAt:new Date().toISOString(),preview:html,htmlSha256:sha(html),manifest,manifestSHA256:sha(manifest),passed:checks.length-failures.length,failed:failures.length,complete:failures.length===0,checks,errors,failures,userArtAcceptance:'pending',unityValidated:false};
+ fs.writeFileSync(path.join(R,'records/fence-adapter-browser-validation.json'),JSON.stringify(r,null,2));console.log(JSON.stringify(r));if(!r.complete)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exitCode=1});

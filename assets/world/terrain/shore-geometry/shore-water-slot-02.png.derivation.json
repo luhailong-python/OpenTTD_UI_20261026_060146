@@ -1,0 +1,20 @@
+{
+  "file": "assets/world/terrain/shore-geometry/shore-water-slot-02.png",
+  "sha256": "722cfe9705e4b02c75768778e7e99c6128ee7c3b08edaec63749519e72e0211e",
+  "generatedAt": "2026-10-28T11:34:26.990345+00:00",
+  "tool": "build_shore_geometry.py",
+  "route": "deterministic-native-pixel-projection",
+  "width": 256,
+  "height": 192,
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/water-sea-frame-00.png",
+      "sha256": "a2456b3552dc724be1ed017ca17ef574c524662edbd7b2c30930b640e1c19bd1",
+      "record": "assets/world/terrain/water-sea-frame-00.png.derivation.json"
+    }
+  ],
+  "operation": "Native painted sea sampled in worldUV; mask restricted to GetPartialPixelZ zero-height mesh region; every visible water pixel stays z=0",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

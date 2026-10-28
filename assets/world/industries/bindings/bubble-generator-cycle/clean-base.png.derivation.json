@@ -1,0 +1,40 @@
+{
+  "id": "industry-bubble-generator-cycle-clean-base",
+  "image": "assets/world/industries/bindings/bubble-generator-cycle/clean-base.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "category": "industry-animation-clean-base",
+  "sha256": "5e385b0265c308e6b657e68df57deeb449681d96ecf3801e7973b871580678e6",
+  "operation": "original native parent pixels; Alpha-only removal of three isolated baked floating bubbles, no inpainting or fabricated hidden pixels",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/bubble-generator.png",
+      "sha256": "ce2b63a7e1dd11d452150f8fe2c7df9e961b350d2c4fe576b7d4bcb52e60e18a",
+      "record": "assets/world/industries/bubble-generator.png.derivation.json"
+    }
+  ],
+  "status": "passed-local-installed-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "parentArtId": "industry-34-bubble-generator",
+  "sourceRequirementIds": [
+    "industry-34-bubble-generator",
+    "industry-tile-160",
+    "industry-tile-161",
+    "industry-tile-162",
+    "industry-tile-163"
+  ],
+  "bakedParticleRemoval": true,
+  "anchorMeaning": "complete parent compound front-contact, independent of moving-region extents"
+}

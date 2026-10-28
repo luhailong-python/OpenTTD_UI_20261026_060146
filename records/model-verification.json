@@ -1,0 +1,25 @@
+{
+  "verifiedOn": "2026-10-26",
+  "configurationUnchanged": true,
+  "configurationTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "officialSources": {
+    "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  },
+  "finding": "官方产品页与型号页确认目标系列及max质量。未发现可核实的更新正式版本。内置入口无model/quality选择器，实际调用型号/质量未确认。",
+  "artReferenceWrites": "仅后续必要关联记录；未更新F配置"
+}

@@ -1,0 +1,65 @@
+{
+  "file": "assets/world/effects/chimney-smoke/00.png",
+  "sha256": "df18b831e81b3e73c4581af7f053db10c2e8a8ee47cbca63d2e1269c6dc2a830",
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    0.5,
+    0.203125
+  ],
+  "frame": 0,
+  "durationMs": 83,
+  "operation": "native painted lifetime keys + premultiplied-alpha interpolation to source frame count",
+  "sources": [
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-smoke-keys.png",
+        "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+        "record": "source-art/world/fx-smoke-keys.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        99,
+        99
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+      "keyWeight": 1.0
+    },
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-smoke-keys.png",
+        "sha256": "698a2bd1ffbafef2bd2cee655e1fbc88e36b26f911dd8eb772ad24ea5efd869e",
+        "record": "source-art/world/fx-smoke-keys.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        99,
+        99
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+      "keyWeight": 0.0
+    }
+  ],
+  "nativeModelGeneration": false,
+  "unityVerified": false,
+  "emitterPx": [
+    256,
+    408
+  ]
+}

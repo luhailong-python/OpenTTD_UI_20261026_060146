@@ -1,0 +1,37 @@
+{
+  "id": "bridge-concrete-span-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-concrete-span-axis-y.png",
+  "sha256": "578c8b445892d4c687b2598450ec4084300b2f06555f566bffe7f45b1e593c7b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-concrete-span.png",
+      "sha256": "7587f3ef9e6f9aa485deb7921d20455f29f036d5bab654e024c91dda48e110b8",
+      "record": "assets/world/infrastructure/transport/bridge-concrete-span.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

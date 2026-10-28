@@ -1,0 +1,69 @@
+{
+  "id": "farm-red-bloom-offset-5",
+  "image": "assets/world/overlays/fence-adapter/farm-red-bloom-offset-5.png",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "6c193a90783d7c7d9af5dc5783eb799bb57a88c6f21c88bad79ff8b341e93b25",
+  "anchorPx": [
+    160,
+    192
+  ],
+  "pivotUnity": [
+    0.5,
+    0.4
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "source-fence-adapter",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/fence-hedge.png",
+      "sha256": "6d2fd034a6a735768c6781ad04cd6dd2cf942b68d948d12dec1837e3fbaadad0",
+      "record": "assets/world/infrastructure/fences-shore/fence-hedge.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted fence-hedge;selective hue-grade actual native flower petals only;no code flowers;vertical-post preserving affine ground-baseline projection;no code-drawn fence/paint,no new native viewpoint",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "terrain-fence"
+  ],
+  "sourceFamily": {
+    "fenceValue": 5,
+    "symbol": "SPR_HEDGE_BLOOMBUSH_RED",
+    "spriteBase": 4114
+  },
+  "sourceSpriteOffset": 5,
+  "sourceSpriteId": 4119,
+  "sourceBaselineCalibration": {
+    "x0": 59,
+    "x1": 199,
+    "slope": -0.4188364227920714,
+    "intercept": 204.2639410933686,
+    "fitRMSE": 2.772709374017205,
+    "method": "robust interior nativeAlpha ground-contact envelope,not claimed exact model perspective"
+  },
+  "localEndpointPx": [
+    [
+      96,
+      208.0
+    ],
+    [
+      224,
+      176.0
+    ]
+  ],
+  "localEndpointHeightDifferencePx": -32,
+  "actualVisualReview": "records/fence-adapter-visual-review.json"
+}

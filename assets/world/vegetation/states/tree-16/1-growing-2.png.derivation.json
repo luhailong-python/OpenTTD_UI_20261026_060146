@@ -1,0 +1,39 @@
+{
+  "id": "tree-16-growing-2",
+  "image": "assets/world/vegetation/states/tree-16/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "7e162afb52c96208023101ee79f14b8b0818d619f8e47163ce5e1c72c48d4219",
+  "climate": "arctic",
+  "artSpecies": "snow-pine",
+  "sourceTreeType": 16,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-16.png",
+      "sha256": "fd4bff9858190435c2aabc4ed4f6953dafb943223dd068670c9824c83a980c48",
+      "record": "assets/world/vegetation/mature/tree-16.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-16"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "tree-35",
+  "image": "assets/world/vegetation/mature/tree-35.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "5eb14c42ff5be664a84755e8c66a1cce743eff1808797cb96cabe5b347663784",
+  "climate": "toyland",
+  "artSpecies": "gumdrop",
+  "sourceTreeType": 35,
+  "sourceCell": 3,
+  "sourceCropXYXY": [
+    181,
+    344,
+    539,
+    673
+  ],
+  "sourceAnchorInCrop": [
+    176.0,
+    329
+  ],
+  "nativeCropSize": [
+    358,
+    329
+  ],
+  "uniformScale": 0.6593406593406593,
+  "pasteXY": [
+    12,
+    135
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-toyland.png",
+    "sha256": "b1ce27c381a3c9cca28ac85168bb973ac00fc261cbe761da14164e417c326f91",
+    "record": "source-art/world/trees-toyland.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-35"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

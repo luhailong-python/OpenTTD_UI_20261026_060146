@@ -1,0 +1,356 @@
+{
+  "id": 24,
+  "upstreamName": "SH '40' (Electric)",
+  "familyId": "loco-electric",
+  "transport": "train",
+  "cargo": "CT_NONE",
+  "climates": [
+    "temperate"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 127
+  },
+  "trackHardware": "electric",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/N-body.png",
+      "sha256": "1b53e9c10a7730c1db8fd56e7c1e15ca8bf68e0fd4eeab870c9b3664778eb8b4",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/N-body.png",
+          "sha256": "1b53e9c10a7730c1db8fd56e7c1e15ca8bf68e0fd4eeab870c9b3664778eb8b4",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/N.png",
+          "sha256": "aaa66c36ec8cb4892d9545c43404e8398d8154b3f8fd0811d37c17daf0b4b66c",
+          "record": "assets/world/vehicles/families/loco-electric/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/NE-body.png",
+      "sha256": "bda393fa01cd34e4b6def1e49563c28e51efe03a98aca7e3902f25b82568c322",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/NE-body.png",
+          "sha256": "bda393fa01cd34e4b6def1e49563c28e51efe03a98aca7e3902f25b82568c322",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/NE.png",
+          "sha256": "c6ec6616c0de24b0ecdc80571f6a1fbbe8fd36cbb41ef0305b421e718fe4d730",
+          "record": "assets/world/vehicles/families/loco-electric/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/E-body.png",
+      "sha256": "949ab8fea946bec6ed8bae12554469efd37773e7a2e4a15604332ba2ff9947ea",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/E-body.png",
+          "sha256": "949ab8fea946bec6ed8bae12554469efd37773e7a2e4a15604332ba2ff9947ea",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/E.png",
+          "sha256": "7ffb7d0e1c470b24a8c91c13fb2affea14b738b7f9312c0a14e269585688228a",
+          "record": "assets/world/vehicles/families/loco-electric/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/SE-body.png",
+      "sha256": "d2ea67a501c94a0214d3e664821bc2f8b97618ad1cfad45b40ced55187160cb8",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/SE-body.png",
+          "sha256": "d2ea67a501c94a0214d3e664821bc2f8b97618ad1cfad45b40ced55187160cb8",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/SE.png",
+          "sha256": "faf0baa187126e1dbcfb45c53f91cc6cb377a8b922132e1abac5c3bb97ae3606",
+          "record": "assets/world/vehicles/families/loco-electric/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/S-body.png",
+      "sha256": "8e10785164b46c98efbbc859b7146bb7a97d2295e475a3211d95bff842f22e9b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/S-body.png",
+          "sha256": "8e10785164b46c98efbbc859b7146bb7a97d2295e475a3211d95bff842f22e9b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/S.png",
+          "sha256": "e96f78d3f57120ac07ce834d20711a163aac891cba8ae2741175541e8f008c45",
+          "record": "assets/world/vehicles/families/loco-electric/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/SW-body.png",
+      "sha256": "67ab52526fbb22b382217aeb916df06a103729284f4532dcd6843aafd5edd5ac",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/SW-body.png",
+          "sha256": "67ab52526fbb22b382217aeb916df06a103729284f4532dcd6843aafd5edd5ac",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/SW.png",
+          "sha256": "3a6b6a077a4e746e31d7ac4d80a07562935a635242638ce400662d8136ad112a",
+          "record": "assets/world/vehicles/families/loco-electric/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/W-body.png",
+      "sha256": "7ffc72c9b4ebd22c8d9b1a79fb64b214c49f19b34080819fb26b500629e16036",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/W-body.png",
+          "sha256": "7ffc72c9b4ebd22c8d9b1a79fb64b214c49f19b34080819fb26b500629e16036",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/W.png",
+          "sha256": "06938ccd9537e84a052709a3a64a5b683e81cb0a212a2c58c6ae42bbcc15ff30",
+          "record": "assets/world/vehicles/families/loco-electric/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/024/NW-body.png",
+      "sha256": "d50838dc6f3df677a5624654b9ef26a5da02a7ba1dae65e5b2f71da0d2c60cf8",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/024/NW-body.png",
+          "sha256": "d50838dc6f3df677a5624654b9ef26a5da02a7ba1dae65e5b2f71da0d2c60cf8",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 7,
+        "jadeValueMultiplier": 0.98,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-electric/NW.png",
+          "sha256": "e816a69736c971b590da5bb1fc9adef5edf9c088871be4dd3dd4ca3418787eab",
+          "record": "assets/world/vehicles/families/loco-electric/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/loco-electric/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

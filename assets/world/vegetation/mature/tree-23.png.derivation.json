@@ -1,0 +1,61 @@
+{
+  "id": "tree-23",
+  "image": "assets/world/vegetation/mature/tree-23.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "cce7bad2b8707939e3237509a7b24137441b1dd54c429378448ece0a7c0544df",
+  "climate": "tropical",
+  "artSpecies": "fan-palm",
+  "sourceTreeType": 23,
+  "sourceCell": 3,
+  "sourceCropXYXY": [
+    1144,
+    9,
+    1511,
+    364
+  ],
+  "sourceAnchorInCrop": [
+    184.0,
+    355
+  ],
+  "nativeCropSize": [
+    367,
+    355
+  ],
+  "uniformScale": 0.6521739130434783,
+  "pasteXY": [
+    8,
+    120
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-tropical.png",
+    "sha256": "4c66ac2d46f9ece8c56c130ba66f85727cacdfa1f614089d63d1f3d6bdfccaad",
+    "record": "source-art/world/trees-tropical.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-23"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": [
+    {
+      "originalComponent": 1,
+      "splitAxis": "y",
+      "splitAt": 362,
+      "reason": "row1 oil-palm ground and row2 mahogany foliage tangent; ownership cut, not procedural repaint"
+    }
+  ]
+}

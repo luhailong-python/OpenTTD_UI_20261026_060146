@@ -1,0 +1,60 @@
+{
+  "id": "industry-06-factory",
+  "file": "assets/world/industries/factory.png",
+  "sha256": "4757aca7a59f55b46e10d79a7eb1cc1e5cf75244b38cd30ccd998a112641ecf5",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    9,
+    855,
+    443,
+    1184
+  ],
+  "nativePaintingBounds": [
+    9,
+    855,
+    443,
+    1183
+  ],
+  "uniformScale": 0.8847926267281107,
+  "pasteXY": [
+    64,
+    157
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    157,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-a.png",
+    "sha256": "e1365b0ae4270079d1f124002cf17d944a9dabdfa37e6a1ec3a5bcf4bcfe9643",
+    "record": "source-art/world/industry-a.png.generation.json"
+  },
+  "sourceIndustryTypeId": 6,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

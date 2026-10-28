@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-monorail-NW-desert-rear",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-monorail-NW-desert-rear.png",
+  "sha256": "e00a30fa5b3963aa02ea5b8930be1406ab48a7fd24bc3726721b130030bc48c5",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/tunnel-monorail-NW-desert.png",
+      "sha256": "991ce694fc5cffa956638e2a37ae085c1013bc0a69c3146c03ea7bfecc0bb6ad",
+      "record": "assets/world/infrastructure/transport-runtime/tunnel-monorail-NW-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-monorail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:13.566266+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "rear",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

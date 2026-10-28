@@ -1,0 +1,180 @@
+{
+  "scope": "targeted non-AI UV sampling-boundary photometric correction",
+  "before": {
+    "snowgrass.oppositeVEdgeRMSE": 23.723,
+    "shore-sand.oppositeVEdgeRMSE": 20.851
+  },
+  "after": {
+    "snowgrass.oppositeUEdgeRMSE": 0.0,
+    "snowgrass.oppositeVEdgeRMSE": 0.0,
+    "shore-sand.oppositeUEdgeRMSE": 0.0,
+    "shore-sand.oppositeVEdgeRMSE": 0.0
+  },
+  "threshold": 18,
+  "thresholdChanged": false,
+  "newNativeDetail": false,
+  "affectedFiles": [
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-flat.png",
+      "sha256": "224373b83bef9cca90841626aa8e8a4906e6c647fac8fe625a2826139303318e"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-flat.png",
+      "sha256": "a23c7253ed073d082a1c50086107b756fa9e8102573611aaf003852d48f2743a"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-w.png",
+      "sha256": "d7c67fd58b726ac5f15415f0070f2848dc6cc7a8302792311a4323bc3a1af274"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-s.png",
+      "sha256": "7a20e888b0e6ce4511244d15e14dccea4af81ea5f210ff01db82b62159e09cdd"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-sw.png",
+      "sha256": "36badb1c451944b36b9e349e92aa9f2eb567c990a189669faa63a9ea87926d7b"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-e.png",
+      "sha256": "57bea12a1ec514bbe0755f270a4005c3635fc54a37ccb618c4cbd1974aab9b5e"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-ew.png",
+      "sha256": "81d38ad61679ec868c8dbe73ec9eb977b185915caee76680a2c1ac12c5e0e4b1"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-se.png",
+      "sha256": "6daad06fbc8a062fd6ff7bb30e5f1afa2be8779c805dbaf52ed6c0c19548064f"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-wse.png",
+      "sha256": "641e2e398c13b69fb16da5b92598ca3ce57c427b5172da5c30c02dfee6e29104"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-n.png",
+      "sha256": "aae0e5d4383a8929e78d5bd2f817e3d6df8caa2b7b2e419665ade7ac3fcfdd3d"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-nw.png",
+      "sha256": "6baf281b5925c5421feea47a920db279dcb503190bf1e8ca070b39457984ebc5"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-ns.png",
+      "sha256": "d1ef46627755023aed2bf2fc29a10d704c73d96b5f46fe444046e07f68aafd4f"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-nws.png",
+      "sha256": "79a0ea7322fbac0c975e4bfb7030b71c5143b24bbbee989ee5e4db70c516cd95"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-ne.png",
+      "sha256": "b8be2929afa0a7a619df8f7ffb5410d6e1eec83a596b8967567cb9f3e533c03a"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-enw.png",
+      "sha256": "caef3e3ab6d5f591ff4b84f52d3ca353f810c37d781bc66f774e7e73fe3ae7a9"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-sen.png",
+      "sha256": "570e057385a841b57aff540d59225dcb01cd84d23d76e4ac5e045d4ca8219bfd"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-steep-w.png",
+      "sha256": "8d3680c3524da1c960dbcc816eafcec5e38563f5312e074573c259ffe6cd0339"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-steep-s.png",
+      "sha256": "a2f2ffdbab1188259f40495637e5d4927768b969ecb5ffd0ae9d2f8a77e9fdc4"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-steep-e.png",
+      "sha256": "25f2298def24c44df68d67cd4150935539d778e10d6c8fff9254d191458944f3"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snowgrass-slope-steep-n.png",
+      "sha256": "52a66d32fef790c0dd9a51fa05457a6bfbbb71537edd561913d9b04b939d723a"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-flat.png",
+      "sha256": "c72a3732c89c65fdb7d992f52b88e84a799cc3141d52ae0e4202ccb52646a9a3"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-flat.png",
+      "sha256": "e40739c21654ad2b050571be5e8f4f7469ad005bf743e3fb1dde0ec9c2419988"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-w.png",
+      "sha256": "cb933686fbcc8703eef9060deb2dba5a32a9673a177e544284d5f62ce99a0bf3"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-s.png",
+      "sha256": "d65d16aff06f4448ac2c403e505beed186db619e880bc2f3e3aaaae2dd02d91a"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-sw.png",
+      "sha256": "642c1b20c8672e0541308da033d4bea670e9b993cdff804dc33d3d46655e1ec5"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-e.png",
+      "sha256": "83c6e52cbf6b9100c7b668a37d8269e8a2904b4d22f7997f093a73ad89f5937b"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-ew.png",
+      "sha256": "ca2b85b3edb1f832c2e929eda012277dfd13114afc6af4d837495a3b2cc5061d"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-se.png",
+      "sha256": "d107a177a18d762f9b0f931d46b254e7cb53eff3f04667f70432fea8e3591b55"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-wse.png",
+      "sha256": "6bf08eb78ec22f636f8e06a5a9c89c359c068fbeddabfe52ca8cbbe26073ced7"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-n.png",
+      "sha256": "da67bfbb00c369232711106f4af7b23b0bc8d67d3472aebe8ec8d87523fb1753"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-nw.png",
+      "sha256": "1d7ca59223ba04fb98547730c20187b799526a7b5f2a7aea3e919f5f7287671c"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-ns.png",
+      "sha256": "e00e562389d6ac165edcaaee291dc1d7ad93a1d3f6eff2b82432fcbff14e3e3d"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-nws.png",
+      "sha256": "311f7c5d960c5b9f37fe8affa6bf7634fc69fe3c1c523981be840e6f0b761995"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-ne.png",
+      "sha256": "52884d95b4249200bbc332da874f601c9c3a81d92ab7e2025d793add8c0e69c5"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-enw.png",
+      "sha256": "dc70b8ceb6d6a579a093e5969a6ab16dd509f143926b76968f9defaf869f5ab3"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-sen.png",
+      "sha256": "38f1d9e48d7a8e6edca2d03d0573272a92ccc34b394ab3d34f9fa48e96a42217"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-steep-w.png",
+      "sha256": "2bcd85726aadff126ff75041480b50a869b00b82b6ddba96b1260364a51e8ce9"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-steep-s.png",
+      "sha256": "b8196eeb44a25a2f7d9766febce719dbbbebf7c56d31f629f7e1ad5985380b9c"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-steep-e.png",
+      "sha256": "51941de4909419a8a82009f6803179f64cf981410d0815bb70b6ced4ea3900f4"
+    },
+    {
+      "file": "assets/world/terrain/terrain-shore-sand-slope-steep-n.png",
+      "sha256": "a38bd24046a539b33d64da997242b618ec45c424129611a4b3f28cac60e7b4fb"
+    }
+  ],
+  "visualPreview": "previews/world/terrain-repeat.jpg",
+  "unityValidated": false
+}

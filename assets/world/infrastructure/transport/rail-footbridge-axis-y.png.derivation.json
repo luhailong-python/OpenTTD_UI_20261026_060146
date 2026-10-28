@@ -1,0 +1,37 @@
+{
+  "id": "rail-footbridge-axis-y",
+  "image": "assets/world/infrastructure/transport/rail-footbridge-axis-y.png",
+  "sha256": "27f0e608c98db58d3cf2213a8ca7d3fcc39629cdcf82400da8db44e5618f57f2",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-footbridge.png",
+      "sha256": "1d07ce447abc9b557466f1ddcb998454f488760686be39cd66f2861b0cf7c84a",
+      "record": "assets/world/infrastructure/transport/rail-footbridge.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "disasters/combat-helicopter-shadow",
+  "frames": [
+    {
+      "file": "assets/world/effects/disasters/combat-helicopter-shadow/00.png",
+      "sha256": "71f4909d5d8b3aaebe09ecc81f8039b36b62d3432391ef5a740cc80a8efc39b8",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 0,
+      "durationMs": 1000,
+      "operation": "shadow projected from current cleaned native helicopter body Alpha; vertical scale200/512 and30percent opacity; no detached neighbouring-cell shadows",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "assets/world/effects/disasters/combat-helicopter/00.png",
+            "sha256": "ab12ca8862710843f13fe0ad6329ca1f5783fc3aad2fd510303d2d4a0ebb9185",
+            "record": "assets/world/effects/disasters/combat-helicopter/00.png.derivation.json"
+          },
+          "verticalScale": 0.390625,
+          "alphaMultiplier": 0.3,
+          "silhouetteTint": [
+            27,
+            43,
+            38
+          ]
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "fpsSuggestion": 1,
+  "loop": false,
+  "timingStatus": "art preview recommendation; source gameplay tick adapter remains next stage",
+  "operation": "shadow projected from current cleaned native helicopter body Alpha; vertical scale200/512 and30percent opacity; no detached neighbouring-cell shadows",
+  "unityVerified": false
+}

@@ -1,0 +1,26 @@
+{
+  "file": "assets/world/infrastructure/rail/rail-maglev-mask-38-snow.png",
+  "sha256": "f2bb2258c21c148c4a4ed08bec2e6b1fc8b7202517bb2aa1873ee27655699e2b",
+  "route": "deterministic-derivative",
+  "generatedAt": "2026-10-26T14:30:10.711539+00:00",
+  "width": 256,
+  "height": 128,
+  "operation": "actual hand-painted rail/beam/slab strip crop -> UV coordinate normalization -> true symmetric transpose or annular curve remap -> exact2:1 diamond projection; no code-painted rails or newly generated details; six track-bit overlays composed on actual painted snow ground",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "record": "source-art/world/rail-topology.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "assets/world/terrain/terrain-snow-flat.png",
+      "sha256": "1438cac1dd9ea9d8a870796ea7f6ddc12552aa6c75a7ce5f4c5966bf8820e92b",
+      "record": "assets/world/terrain/terrain-snow-flat.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source native generation did not expose actual model/quality; geometric and layered exports do not add native detail."
+}

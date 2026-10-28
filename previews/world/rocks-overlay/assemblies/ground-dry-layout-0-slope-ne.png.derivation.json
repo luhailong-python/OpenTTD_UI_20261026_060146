@@ -1,0 +1,26 @@
+{
+  "id": "ground-dry-layout-0-slope-ne",
+  "image": "previews/world/rocks-overlay/assemblies/ground-dry-layout-0-slope-ne.png",
+  "sha256": "6e07c2e72b4aec2506a42f4ac36279b24ca23a494b15125bd2eb214ac821aab5",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-grass-slope-ne.png",
+      "sha256": "9285b4bd2ce63393b96e503ed10271d9339845473c7e9411fdfa98391fc38cb3",
+      "record": "assets/world/terrain/terrain-grass-slope-ne.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-ne.png",
+      "sha256": "9d8ac90f2991bc775adac56fa8c5f0e30bd0eab7ea1ffebbb6d204962ef1c74d",
+      "record": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-ne.png.derivation.json"
+    }
+  ],
+  "operation": "Actual grass/snow material underlay at explicit fraction plus independent native painted rock overlay; source snow is on rock parts, not a white recolour",
+  "context": "clear-normal",
+  "slopeCode": 12,
+  "overlayId": "rocks-dry-layout-0-slope-ne",
+  "groundFraction": 0,
+  "label": "dry v0 / ne",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

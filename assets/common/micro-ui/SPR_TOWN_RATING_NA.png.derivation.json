@@ -1,0 +1,68 @@
+{
+  "id": "SPR_TOWN_RATING_NA",
+  "image": "assets/common/micro-ui/SPR_TOWN_RATING_NA.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "4e4d8ccba0aeb654ad5f48e07f9572c84e4f31a4b32d24c996d7913796493a32",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/town.png",
+      "sha256": "6f753ec7c2c57ead634484ee62cf30a01d069ac605b1bf8c81f052bfe6dfc8d6",
+      "record": "assets/icons/town.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_TOWN_RATING_NA.svg",
+      "sha256": "ef143eab686b97b5bdaf170cf4097d993573916079a3fb658379e82f49578ff2",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_TOWN_RATING_NA",
+  "sourceSpriteId": 5058,
+  "category": "town-rating",
+  "functionalGlyph": "na",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_TOWN_RATING_NA.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

@@ -1,0 +1,73 @@
+{
+  "file": "source-art/world/houses-climates.png",
+  "sha256": "eba8d07a463811beabb7ad09a7debfd262b09426a9438f9025b3ab353a8d18e3",
+  "generatedAt": "2026-10-26T14:04:52.409718+00:00",
+  "generatedAtEvidence": "UTC file write time of returned image; service timestamp not returned",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "toolResultId": null,
+  "outputFileId": "exec-ebbe2bf7-3850-4959-ade8-619d95bdf60c",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept. Production sprite atlas for Taoist chibi transport management game. Attached image1+2 STYLE ONLY: jade/teal, warm ivory, restrained gold, rounded cloud motifs, fine clean HD handpainted illustration, NOT UI frames or text. Image3 is world camera/art reference. True orthographic 2:1 isometric elevated view, consistent fixed camera and soft daylight upper left. Real transparent background, no labels numbers typography grids or watermarks. Each item completely separate with clear alpha gutters. Crisp coherent handpainted fine details, not plastic 3D. No characters unless specified. One atlas EXACT3columns x3rows of9 DISTINCT climate town buildings. Row1: snowy alpine chalet with steep jade roof;snowy timber lodge with stone chimney;compact arctic apartment on stone base. Row2: desert adobe courtyard dwelling with jade awning;tropical stilted palm-roof home with teal shutters;tropical villa with open veranda and jade tile roof. Row3: Toyland house shaped like rounded candy pot with pastelceladon roof;toy wind-up block apartment with colorful teal ivory pink chunks;whimsical sugarcone manor with candycane columns and jadegold detail. Keep toyland unmistakable but samefine handpainted palette. No snow scenery outside footprints, no trees/background.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world-viewport.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a7-6d36-72f1-8ac7-6c557c4ea2e3\\exec-ebbe2bf7-3850-4959-ade8-619d95bdf60c.png",
+    "nativeSizeFromPNG": [
+      1536,
+      1024
+    ]
+  },
+  "unverifiedReason": "宿主管理，入口与返回未披露实际模型/质量；目标不能视为锁定调用证据。",
+  "prompt": "Use case: stylized-concept. Production sprite atlas for Taoist chibi transport management game. Attached image1+2 STYLE ONLY: jade/teal, warm ivory, restrained gold, rounded cloud motifs, fine clean HD handpainted illustration, NOT UI frames or text. Image3 is world camera/art reference. True orthographic 2:1 isometric elevated view, consistent fixed camera and soft daylight upper left. Real transparent background, no labels numbers typography grids or watermarks. Each item completely separate with clear alpha gutters. Crisp coherent handpainted fine details, not plastic 3D. No characters unless specified. One atlas EXACT3columns x3rows of9 DISTINCT climate town buildings. Row1: snowy alpine chalet with steep jade roof;snowy timber lodge with stone chimney;compact arctic apartment on stone base. Row2: desert adobe courtyard dwelling with jade awning;tropical stilted palm-roof home with teal shutters;tropical villa with open veranda and jade tile roof. Row3: Toyland house shaped like rounded candy pot with pastelceladon roof;toy wind-up block apartment with colorful teal ivory pink chunks;whimsical sugarcone manor with candycane columns and jadegold detail. Keep toyland unmistakable but samefine handpainted palette. No snow scenery outside footprints, no trees/background.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world-viewport.png",
+      "sha256": "9a545794549f285f6ae4bc04739f88b975cb431b8169d91fe6cba80d1b85cadf",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    }
+  ],
+  "promptFile": "records/world-production/houses-climates.prompt.txt"
+}

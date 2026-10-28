@@ -1,0 +1,39 @@
+{
+  "id": "tree-33-growing-2",
+  "image": "assets/world/vegetation/states/tree-33/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "c275735e3a15df45e503219953014af6fbe02e395048c40d9c20c33c5dbc4806",
+  "climate": "toyland",
+  "artSpecies": "candy-cane",
+  "sourceTreeType": 33,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-33.png",
+      "sha256": "708639d1db6896cd55735153d0a543c494e5effe2ecce8a6cbaffff5f5508a35",
+      "record": "assets/world/vegetation/mature/tree-33.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-33"
+  ]
+}

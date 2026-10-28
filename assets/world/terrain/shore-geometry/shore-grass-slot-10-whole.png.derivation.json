@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/terrain/shore-geometry/shore-grass-slot-10-whole.png",
+  "sha256": "a3597684c6689412a7fe0e9a0b40b3a7b2a09f32bae574359bfd7d8710013358",
+  "generatedAt": "2026-10-28T11:34:37.784328+00:00",
+  "tool": "build_shore_geometry.py",
+  "route": "deterministic-native-pixel-projection",
+  "width": 256,
+  "height": 192,
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-grass-slot-10-land.png",
+      "sha256": "e21843390e3d079500703eb03f6787041733facf1507655dd7e38cf0d3c7d37c",
+      "record": "assets/world/terrain/shore-geometry/shore-grass-slot-10-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-grass-slot-10-bank.png",
+      "sha256": "e403ec38023ff93d1979ba93e6b0c0ad2027adf16cea8ca3712ecefc37acf1ac",
+      "record": "assets/world/terrain/shore-geometry/shore-grass-slot-10-bank.png.derivation.json"
+    }
+  ],
+  "operation": "Exact ordered composition: horizontal native water, source-height native land, source-height native shorestrip",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

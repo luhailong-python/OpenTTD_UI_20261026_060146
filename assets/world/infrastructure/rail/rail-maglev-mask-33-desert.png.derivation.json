@@ -1,0 +1,26 @@
+{
+  "file": "assets/world/infrastructure/rail/rail-maglev-mask-33-desert.png",
+  "sha256": "3a5879c0ed66c3d9ece57acdb6c0360f875c3ba3826440bd7af60fa875a7c548",
+  "route": "deterministic-derivative",
+  "generatedAt": "2026-10-26T14:30:10.647090+00:00",
+  "width": 256,
+  "height": 128,
+  "operation": "actual hand-painted rail/beam/slab strip crop -> UV coordinate normalization -> true symmetric transpose or annular curve remap -> exact2:1 diamond projection; no code-painted rails or newly generated details; six track-bit overlays composed on actual painted desert ground",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "record": "source-art/world/rail-topology.png.generation.json",
+      "sourceRecordAvailable": true
+    },
+    {
+      "file": "assets/world/terrain/terrain-desert-flat.png",
+      "sha256": "49cafe95aff659fbe26ccb1ca01a02ae823c960a0ed0dda638c8ce134dcdc32b",
+      "record": "assets/world/terrain/terrain-desert-flat.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source native generation did not expose actual model/quality; geometric and layered exports do not add native detail."
+}

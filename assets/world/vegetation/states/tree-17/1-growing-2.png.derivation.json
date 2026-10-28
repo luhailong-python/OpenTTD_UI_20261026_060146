@@ -1,0 +1,39 @@
+{
+  "id": "tree-17-growing-2",
+  "image": "assets/world/vegetation/states/tree-17/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "9fa1023f1e9956d3e9337b2145ff107ed4a10b4ded7297e00699eaa1bb713625",
+  "climate": "arctic",
+  "artSpecies": "arctic-birch",
+  "sourceTreeType": 17,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-17.png",
+      "sha256": "2503ca7077f9ca64e32b2c102af111ba514b6a65a4398ba13b22b933c56d4868",
+      "record": "assets/world/vegetation/mature/tree-17.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-17"
+  ]
+}

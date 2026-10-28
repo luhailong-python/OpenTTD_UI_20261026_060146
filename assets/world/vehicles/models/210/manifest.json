@@ -1,0 +1,356 @@
+{
+  "id": 210,
+  "upstreamName": "Shivershake Passenger Ferry",
+  "familyId": "ship-ferry",
+  "transport": "ship",
+  "cargo": "CT_PASSENGERS",
+  "climates": [
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 313
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/N-body.png",
+      "sha256": "764d9805c4ea85f9dc19a4173a0566f17b6c7ac707654c4d64e39932994f051a",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/N-body.png",
+          "sha256": "764d9805c4ea85f9dc19a4173a0566f17b6c7ac707654c4d64e39932994f051a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/N.png",
+          "sha256": "90244e49c5da9218cb11dbf6c5a18976b5c1544f24b608a2315f1fab12e7d828",
+          "record": "assets/world/vehicles/families/ship-ferry/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/NE-body.png",
+      "sha256": "8d04639413c5fca0b27dd79416ebf897e97e4fc267dab641cb4117a1e9cadf2b",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/NE-body.png",
+          "sha256": "8d04639413c5fca0b27dd79416ebf897e97e4fc267dab641cb4117a1e9cadf2b",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/NE.png",
+          "sha256": "cc729aadfc3aad4ccb05e3633b905c68ec48bf14764fa1a8abce67eef946c0a3",
+          "record": "assets/world/vehicles/families/ship-ferry/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/E-body.png",
+      "sha256": "1f2785396bb92bb2d16d8b8cf07b0504161818bbbb658ea1a5bd6972ada12f6a",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/E-body.png",
+          "sha256": "1f2785396bb92bb2d16d8b8cf07b0504161818bbbb658ea1a5bd6972ada12f6a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/E.png",
+          "sha256": "1f98a9d950589f973af947f5e30176b1ca573a5f756f9e6652215435ac957349",
+          "record": "assets/world/vehicles/families/ship-ferry/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/SE-body.png",
+      "sha256": "b2c1975b376b8608b40980b412f34c4ce2dafbc3c44075e9f389229cb82e055e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/SE-body.png",
+          "sha256": "b2c1975b376b8608b40980b412f34c4ce2dafbc3c44075e9f389229cb82e055e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/SE.png",
+          "sha256": "212045e02e3182eca35658239fcbb80c0eb844f1ecba0fc450902a50b8ac6eff",
+          "record": "assets/world/vehicles/families/ship-ferry/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/S-body.png",
+      "sha256": "6c00372654ebf9ef05f69650ca6e7db87195f70c439d7288ad6b9346b9162652",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/S-body.png",
+          "sha256": "6c00372654ebf9ef05f69650ca6e7db87195f70c439d7288ad6b9346b9162652",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/S.png",
+          "sha256": "a2ba1d3d166fce20aa62697d641472509525a1f8bb7aa4a8f38a053ecca6212c",
+          "record": "assets/world/vehicles/families/ship-ferry/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/SW-body.png",
+      "sha256": "3ee0c3209e54519ad31659d6a98ce1e12b4e6d95085a78f0bfe62cdb08ffe912",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/SW-body.png",
+          "sha256": "3ee0c3209e54519ad31659d6a98ce1e12b4e6d95085a78f0bfe62cdb08ffe912",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/SW.png",
+          "sha256": "32d84c5a6e1ed911a87df38e9695c5d7d09ae28d32020d415a6bcba21745b126",
+          "record": "assets/world/vehicles/families/ship-ferry/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/W-body.png",
+      "sha256": "444b4957fbbfe1712f0d6f0b1081efccb05cc1df1e99d8acd19778e4af1980e3",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/W-body.png",
+          "sha256": "444b4957fbbfe1712f0d6f0b1081efccb05cc1df1e99d8acd19778e4af1980e3",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/W.png",
+          "sha256": "b764545e63bfed05d28a53de31427abcae3786db02f25e1a8fa6fc95ab11b341",
+          "record": "assets/world/vehicles/families/ship-ferry/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/210/NW-body.png",
+      "sha256": "c723656f0d1f46430bbc10164299c79e80560e83336a66b9858e3c367f801691",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/210/NW-body.png",
+          "sha256": "c723656f0d1f46430bbc10164299c79e80560e83336a66b9858e3c367f801691",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 0,
+        "jadeValueMultiplier": 1.03,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-ferry/NW.png",
+          "sha256": "35aa4c792243e43936ee1f333ad0b17e5334acab2ae7ba5570a599a196af4ad4",
+          "record": "assets/world/vehicles/families/ship-ferry/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/ship-ferry/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

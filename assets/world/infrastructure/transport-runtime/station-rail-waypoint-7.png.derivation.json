@@ -1,0 +1,44 @@
+{
+  "id": "station-rail-waypoint-7",
+  "image": "assets/world/infrastructure/transport-runtime/station-rail-waypoint-7.png",
+  "sha256": "01d6f1c5bfa9b3d79258b2fec4920b1d7c280a1be5270bcb9461539c8c837766",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/rail-signalbox.png",
+      "sha256": "20d9c25fa4ddf9c5828cb6a4877073b391ee245a4e7064910319d5e618234308",
+      "record": "assets/world/infrastructure/transport/rail-signalbox.png.derivation.json"
+    }
+  ],
+  "operation": "Shared native signalbox/ticketgate as waypoint marker; source route axis and slot retained",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-rail-waypoint"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.074375+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "axis": "Y",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

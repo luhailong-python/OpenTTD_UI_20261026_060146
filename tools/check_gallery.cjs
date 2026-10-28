@@ -1,0 +1,42 @@
+const { chromium }=require('C:/Users/luyua/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs');const path=require('path');
+(async()=>{
+ const root=path.resolve(__dirname,'..');const errs=[],failed=[];const checks=[];
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',args:['--no-first-run']});
+ const page=await browser.newPage({viewport:{width:1920,height:1080}});
+ page.on('pageerror',e=>errs.push(e.message));page.on('requestfailed',r=>failed.push(r.url()));
+ await page.goto('file:///'+path.join(root,'index.html').replaceAll('\\','/'),{waitUntil:'networkidle'});
+ checks.push({name:'149 cards rendered',passed:await page.locator('.card').count()===149});
+ await page.locator('#search').fill('机场');
+ const n=await page.locator('.card').count();checks.push({name:'search filters airport',passed:n>0&&n<149,count:n});
+ await page.locator('#search').fill('无此界面xyz');checks.push({name:'no results state',passed:await page.locator('.empty').count()===1});
+ await page.locator('#search').fill('');await page.locator('.card').first().click();
+ checks.push({name:'viewer opens full image',passed:await page.locator('#viewer').evaluate(e=>e.open)});
+ await page.waitForFunction(()=>{let i=document.getElementById('full');return i.complete&&i.naturalWidth===1920});
+ await page.locator('#next').click();await page.waitForFunction(()=>document.getElementById('title').textContent==='基础资源准备');
+ await page.locator('#states button').nth(1).click();
+ await page.waitForFunction(()=>{let i=document.getElementById('full');return i.complete&&i.naturalWidth===960});
+ checks.push({name:'state preview switches actual image',passed:true});
+ await page.locator('#states button').first().click();
+ await page.locator('#flow a').first().click();checks.push({name:'related flow navigates',passed:await page.locator('#title').textContent()!=='基础资源准备'});
+ await page.keyboard.press('Escape');checks.push({name:'Escape closes viewer',passed:!(await page.locator('#viewer').evaluate(e=>e.open))});
+ await page.locator('#system').selectOption({index:2});checks.push({name:'system filter',passed:await page.locator('.card').count()>0&&await page.locator('.card').count()<149});
+ await page.locator('#system').selectOption('');
+ const cases=['09-main-hud','46-buy-air','53-timetable','58-company-manager','66-performance','69-small-map','93-servers','127-scenario-editor','144-on-screen-keyboard'];
+ for(const id of cases){
+  await page.evaluate(id=>window.UI_ART.show(id),id);await page.waitForFunction(()=>{let i=document.getElementById('full');return i.complete&&i.naturalWidth===1920});
+  checks.push({name:'preview '+id,passed:true});
+ }
+ await page.locator('#close').click();
+ await page.screenshot({path:path.join(root,'records','gallery-desktop.png'),fullPage:false});
+ const allPaths=await page.evaluate(()=>window.UI_ART.screens.flatMap(s=>[s.designPath,s.thumbnailPath,...s.states.map(st=>st.previewPath)]));
+ checks.push({name:'all 525 image references exist',passed:allPaths.every(p=>fs.existsSync(path.join(root,p))),count:allPaths.length});
+ const resources=await page.locator('.resources a').evaluateAll(es=>es.map(e=>e.getAttribute('href')));
+ checks.push({name:'resource links exist',passed:resources.every(p=>fs.existsSync(path.join(root,decodeURIComponent(p))))});
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(root,'records','gallery-mobile.png'),fullPage:false});
+ checks.push({name:'gallery fits 390px',passed:await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)});
+ await browser.close();
+ const report={checkedAt:new Date().toISOString(),scope:'local static design gallery; not Unity/game runtime',checks,pageErrors:errs,failedRequests:failed,passed:checks.every(x=>x.passed)&&!errs.length&&!failed.length};
+ fs.writeFileSync(path.join(root,'records','browser-validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+})().catch(e=>{console.error(e);process.exit(1)});
+

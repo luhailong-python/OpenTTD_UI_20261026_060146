@@ -1,0 +1,47 @@
+{
+  "id": "industry-27-candy-factory-construction-1",
+  "image": "assets/world/industries/construction/industry-27-candy-factory/stage-1.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "69f0d4b024316e7d3db06bcd3a2b517b40cdfd522af89fb61bcf2acb066fcbab",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/candy-factory.png",
+      "sha256": "545fbbfda1e3b63c4b8b5550d130e501045d8dc7e49221113c9a797766617439",
+      "record": "assets/world/industries/candy-factory.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png",
+      "sha256": "d82e49238b3d37f1f38d0c6ea343b90c18599029d1412f103a3745961605d6f7",
+      "record": "assets/world/infrastructure/construction-ready/construction-scaffold-low.png.derivation.json",
+      "scale": 0.8187633262260128
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 27,
+  "stage": 1,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.38
+  },
+  "sourceRequirementIds": [
+    "industry-27-candy-factory",
+    "industry-tile-131",
+    "industry-tile-132",
+    "industry-tile-133",
+    "industry-tile-134"
+  ]
+}

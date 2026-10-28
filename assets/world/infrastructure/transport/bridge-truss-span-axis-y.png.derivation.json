@@ -1,0 +1,37 @@
+{
+  "id": "bridge-truss-span-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-truss-span-axis-y.png",
+  "sha256": "96693ee52350ca40e4ee2f78871e2ed44934557b3032fa3835bc4cc6a72c5e53",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-truss-span.png",
+      "sha256": "d7d53e7efbfa05326375628d0062f6d3c56acf66177e8ffcb3743ea1761a8e49",
+      "record": "assets/world/infrastructure/transport/bridge-truss-span.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "aqueduct-X-piece-7-front",
+  "image": "assets/world/infrastructure/transport-runtime/aqueduct-X-piece-7-front.png",
+  "sha256": "cecc946279327bec365262cfb7bdef6cc52559f27542a2aa3f53f36173c69c44",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/aqueduct-X-piece-7.png",
+      "sha256": "4569ae1ea8412ab19672f8ebcdd918554becb4fcf9e614f657417968c4c2501d",
+      "record": "assets/world/infrastructure/transport-runtime/aqueduct-X-piece-7.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "water-aqueduct"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:34.473017+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "file": "source-art/world/road-topology.png",
+  "sha256": "aa33785c7e4b6f13d2bd9bc2862920a6dab390b432341a7f708000af0073940c",
+  "generatedAt": "2026-10-26T13:30:46.449561+00:00",
+  "generatedAtEvidence": "UTC file write time of returned image; service timestamp not returned",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "toolResultId": null,
+  "outputFileId": "exec-2202f0bb-406b-4687-9d95-fbee95b0cd76",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept. Production asset: hand-painted isometric world ROAD modular tiles for Taoist chibi transport management game. Attached images1/2 are style-only references (jade teal ivory warm gold rounded finely handpainted), image3 world camera/reference. Create one transparent sprite atlas with EXACT 4 columns x4 rows equal-sized cells, each cell one separate flat 2:1 isometric diamond grey warm stone road tile with small grassy border. Orthographic camera, no side thickness. Every diamond same size and center in its cell with comfortable transparent gutters, no shadows outside diamond. All road width constant and road mouths terminate at MIDPOINTS of the diamond EDGES, never at tips. Four ports A=upper-left edge midpoint, B=upper-right edge midpoint,C=lower-right edge midpoint,D=lower-left edge midpoint. Tiles row-major: row1 [single-ended road A;single-ended B;single-ended C;single-ended D]. row2 [straight A-C;straight B-D;90degree bend A-B;90degree bend B-C]. row3 [bend C-D;bend D-A;3way A-B-C;3way B-C-D]. row4 [3way C-D-A;3way D-A-B;4way A-B-C-D;parallel tram tracks along A-C embedded in stone road]. Roads simple softly grey beige paving with subtle jade verge, dashed ivory lane markings only on straights, gold metal tram rails. No buildings, vehicles, trees, lettering, numbers, UI, grid lines, borders, labels, arrows. High definition crisp exquisite painted texture matching world reference; this is GAME TILESET notinfographic. Keep ALL16 islands neatly distributed occupying full atlas, 4rows fromtop tobottom without blankheader. Real Alpha transparency.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world-viewport.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a7-6d36-72f1-8ac7-6c557c4ea2e3\\exec-2202f0bb-406b-4687-9d95-fbee95b0cd76.png",
+    "nativeSizeFromPNG": [
+      1536,
+      1024
+    ]
+  },
+  "unverifiedReason": "宿主管理，入口与返回未披露实际模型/质量；目标不能视为锁定调用证据。",
+  "prompt": "Use case: stylized-concept. Production asset: hand-painted isometric world ROAD modular tiles for Taoist chibi transport management game. Attached images1/2 are style-only references (jade teal ivory warm gold rounded finely handpainted), image3 world camera/reference. Create one transparent sprite atlas with EXACT 4 columns x4 rows equal-sized cells, each cell one separate flat 2:1 isometric diamond grey warm stone road tile with small grassy border. Orthographic camera, no side thickness. Every diamond same size and center in its cell with comfortable transparent gutters, no shadows outside diamond. All road width constant and road mouths terminate at MIDPOINTS of the diamond EDGES, never at tips. Four ports A=upper-left edge midpoint, B=upper-right edge midpoint,C=lower-right edge midpoint,D=lower-left edge midpoint. Tiles row-major: row1 [single-ended road A;single-ended B;single-ended C;single-ended D]. row2 [straight A-C;straight B-D;90degree bend A-B;90degree bend B-C]. row3 [bend C-D;bend D-A;3way A-B-C;3way B-C-D]. row4 [3way C-D-A;3way D-A-B;4way A-B-C-D;parallel tram tracks along A-C embedded in stone road]. Roads simple softly grey beige paving with subtle jade verge, dashed ivory lane markings only on straights, gold metal tram rails. No buildings, vehicles, trees, lettering, numbers, UI, grid lines, borders, labels, arrows. High definition crisp exquisite painted texture matching world reference; this is GAME TILESET notinfographic. Keep ALL16 islands neatly distributed occupying full atlas, 4rows fromtop tobottom without blankheader. Real Alpha transparency.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world-viewport.png",
+      "sha256": "9a545794549f285f6ae4bc04739f88b975cb431b8169d91fe6cba80d1b85cadf",
+      "purpose": "绘画风格、材质或投影参考；非旧游戏业务"
+    }
+  ],
+  "promptFile": "records/world-production/road-topology.prompt.txt",
+  "recordCorrection": {
+    "date": "2026-10-26",
+    "scope": "Saved actual submitted prompt text read from existing exact prompt file; image/config/model evidence unchanged."
+  }
+}

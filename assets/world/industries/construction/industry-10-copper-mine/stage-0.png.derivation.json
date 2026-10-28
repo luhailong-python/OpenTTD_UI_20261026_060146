@@ -1,0 +1,48 @@
+{
+  "id": "industry-10-copper-mine-construction-0",
+  "image": "assets/world/industries/construction/industry-10-copper-mine/stage-0.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "7717ba740626566338a83c065436afbeb664c7308d7b6ed6bc2be56036cc6afe",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/copper-mine.png",
+      "sha256": "b7c8a50fb22e4b4f357890ab81912a150dde070839d3772bff67f0c4290fbb20",
+      "record": "assets/world/industries/copper-mine.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "record": "assets/world/infrastructure/construction-ready/construction-foundation.png.derivation.json",
+      "scale": 0.7603960396039604
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 10,
+  "stage": 0,
+  "details": {
+    "kind": "shared industry foundation matched to compound front contact",
+    "sharedSource": true
+  },
+  "sourceRequirementIds": [
+    "industry-10-copper-mine",
+    "industry-tile-047",
+    "industry-tile-048",
+    "industry-tile-049",
+    "industry-tile-050",
+    "industry-tile-051"
+  ]
+}

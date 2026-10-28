@@ -1,0 +1,1047 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "assets": [
+    {
+      "id": "station-dock-layout-0",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-0.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted dock-quay; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/dock-quay.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/waterworks/dock-quay.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 0,
+      "direction": "NE",
+      "role": "shore-head",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d"
+    },
+    {
+      "id": "station-dock-layout-0-rear",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-0-rear.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-0.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-0.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 0,
+      "direction": "NE",
+      "layer": "rear",
+      "sha256": "1b162c37e5d81186c42c74ee93ada59c593fbe3ec4e6beabf240a4cd744b2fc1"
+    },
+    {
+      "id": "station-dock-layout-0-front",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-0-front.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-0.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-0.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 0,
+      "direction": "NE",
+      "layer": "front",
+      "sha256": "1b76488671b5f78b5c72bc3494d3b871074bbe337144c404d002d446fb3702fd"
+    },
+    {
+      "id": "station-dock-layout-1",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-1.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted dock-quay; symmetric horizontal reflection; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/dock-quay.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/waterworks/dock-quay.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 1,
+      "direction": "SE",
+      "role": "shore-head",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "aecadf45506a9af91c71b0c6e82849bf4479ac4716cb475ef06dcf20bf54ba50"
+    },
+    {
+      "id": "station-dock-layout-1-rear",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-1-rear.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-1.png",
+          "sha256": "aecadf45506a9af91c71b0c6e82849bf4479ac4716cb475ef06dcf20bf54ba50",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-1.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 1,
+      "direction": "SE",
+      "layer": "rear",
+      "sha256": "c5db06fc19baadd20f6b9a4c8d14e7b28e1a977cbabdd34c540fde7677310adc"
+    },
+    {
+      "id": "station-dock-layout-1-front",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-1-front.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-1.png",
+          "sha256": "aecadf45506a9af91c71b0c6e82849bf4479ac4716cb475ef06dcf20bf54ba50",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-1.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 1,
+      "direction": "SE",
+      "layer": "front",
+      "sha256": "b186962378aed5810a75eee25e5441d1cae4575374764e35926d479a242b3860"
+    },
+    {
+      "id": "station-dock-layout-2",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-2.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted dock-quay; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/dock-quay.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/waterworks/dock-quay.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 2,
+      "direction": "SW",
+      "role": "shore-head",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d"
+    },
+    {
+      "id": "station-dock-layout-2-rear",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-2-rear.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-2.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-2.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 2,
+      "direction": "SW",
+      "layer": "rear",
+      "sha256": "1b162c37e5d81186c42c74ee93ada59c593fbe3ec4e6beabf240a4cd744b2fc1"
+    },
+    {
+      "id": "station-dock-layout-2-front",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-2-front.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-2.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-2.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 2,
+      "direction": "SW",
+      "layer": "front",
+      "sha256": "1b76488671b5f78b5c72bc3494d3b871074bbe337144c404d002d446fb3702fd"
+    },
+    {
+      "id": "station-dock-layout-3",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-3.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted dock-quay; symmetric horizontal reflection; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/dock-quay.png",
+          "sha256": "d2f5c6b576db212d5d55ea92003f7584f415092f0e304bc4d8a55d004077791d",
+          "record": "assets/world/infrastructure/waterworks/dock-quay.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 3,
+      "direction": "NW",
+      "role": "shore-head",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "aecadf45506a9af91c71b0c6e82849bf4479ac4716cb475ef06dcf20bf54ba50"
+    },
+    {
+      "id": "station-dock-layout-3-rear",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-3-rear.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-3.png",
+          "sha256": "aecadf45506a9af91c71b0c6e82849bf4479ac4716cb475ef06dcf20bf54ba50",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-3.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 3,
+      "direction": "NW",
+      "layer": "rear",
+      "sha256": "c5db06fc19baadd20f6b9a4c8d14e7b28e1a977cbabdd34c540fde7677310adc"
+    },
+    {
+      "id": "station-dock-layout-3-front",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-3-front.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-3.png",
+          "sha256": "aecadf45506a9af91c71b0c6e82849bf4479ac4716cb475ef06dcf20bf54ba50",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-3.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 3,
+      "direction": "NW",
+      "layer": "front",
+      "sha256": "b186962378aed5810a75eee25e5441d1cae4575374764e35926d479a242b3860"
+    },
+    {
+      "id": "station-dock-layout-4",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-4.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted dock-pier; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/dock-pier.png",
+          "sha256": "1e2fca121d117512c5784b1a00c4735cc339ffbfa5b10df7aad9d7c5820359a4",
+          "record": "assets/world/infrastructure/waterworks/dock-pier.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 4,
+      "direction": "X",
+      "role": "water-pier",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "1e2fca121d117512c5784b1a00c4735cc339ffbfa5b10df7aad9d7c5820359a4"
+    },
+    {
+      "id": "station-dock-layout-4-rear",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-4-rear.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-4.png",
+          "sha256": "1e2fca121d117512c5784b1a00c4735cc339ffbfa5b10df7aad9d7c5820359a4",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-4.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 4,
+      "direction": "X",
+      "layer": "rear",
+      "sha256": "5aa0ca207d03e1452b2b8ec563bc92daee9470bdc45f3d0ffd6b82548fc07c00"
+    },
+    {
+      "id": "station-dock-layout-4-front",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-4-front.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-4.png",
+          "sha256": "1e2fca121d117512c5784b1a00c4735cc339ffbfa5b10df7aad9d7c5820359a4",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-4.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 4,
+      "direction": "X",
+      "layer": "front",
+      "sha256": "20c4c0f6d449cb37ad1a21ef2d404d323b81a4ccc5b38cd59d8895772a932055"
+    },
+    {
+      "id": "station-dock-layout-5",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-5.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted dock-pier; symmetric horizontal reflection; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/dock-pier.png",
+          "sha256": "1e2fca121d117512c5784b1a00c4735cc339ffbfa5b10df7aad9d7c5820359a4",
+          "record": "assets/world/infrastructure/waterworks/dock-pier.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 5,
+      "direction": "Y",
+      "role": "water-pier",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "09e7b67078e110b67228b4c90c1b4a09707dadcad34941da3e4a175797cb282c"
+    },
+    {
+      "id": "station-dock-layout-5-rear",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-5-rear.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-5.png",
+          "sha256": "09e7b67078e110b67228b4c90c1b4a09707dadcad34941da3e4a175797cb282c",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-5.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 5,
+      "direction": "Y",
+      "layer": "rear",
+      "sha256": "8198357fc3182c25f4d250cc29adbc7a05def244b84a8773e381c701d7b5b84f"
+    },
+    {
+      "id": "station-dock-layout-5-front",
+      "image": "assets/world/infrastructure/water-stations/station-dock-layout-5-front.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-dock-layout-5.png",
+          "sha256": "09e7b67078e110b67228b4c90c1b4a09707dadcad34941da3e4a175797cb282c",
+          "record": "assets/world/infrastructure/water-stations/station-dock-layout-5.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-dock"
+      ],
+      "layout": 5,
+      "direction": "Y",
+      "layer": "front",
+      "sha256": "a33309885dc60ddc7608f5874c720c31bb10326107de24a29a8d463ca14e3464"
+    },
+    {
+      "id": "station-buoy-layout-0",
+      "image": "assets/world/infrastructure/water-stations/station-buoy-layout-0.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        288
+      ],
+      "pivotUnity": [
+        0.5,
+        0.25
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "actual native painted buoy; explicit source-layout role; opposite travel directions share declared art axis, not newly painted rear views; complementary Alpha depth ownership",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/waterworks/buoy.png",
+          "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c",
+          "record": "assets/world/infrastructure/waterworks/buoy.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-buoy"
+      ],
+      "layout": 0,
+      "direction": "single",
+      "role": "navigation-marker",
+      "nativeViewClaim": "one native source view plus symmetric axis; source travel orientations are explicit metadata",
+      "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c"
+    },
+    {
+      "id": "station-buoy-layout-0-rear",
+      "image": "assets/world/infrastructure/water-stations/station-buoy-layout-0-rear.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        288
+      ],
+      "pivotUnity": [
+        0.5,
+        0.25
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-buoy-layout-0.png",
+          "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c",
+          "record": "assets/world/infrastructure/water-stations/station-buoy-layout-0.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-buoy"
+      ],
+      "layout": 0,
+      "direction": "single",
+      "layer": "rear",
+      "sha256": "7444a7c9542ce148f113034b35dd1d81e3986593ca79fc0a84f255b9286ed06d"
+    },
+    {
+      "id": "station-buoy-layout-0-front",
+      "image": "assets/world/infrastructure/water-stations/station-buoy-layout-0-front.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        288
+      ],
+      "pivotUnity": [
+        0.5,
+        0.25
+      ],
+      "category": "water-station",
+      "artSource": "host_image",
+      "operation": "exclusive Alpha depth partition of actual whole dock/buoy artwork; unchanged paint; no separate native original",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "assets/world/infrastructure/water-stations/station-buoy-layout-0.png",
+          "sha256": "704ab8c53b7123e464110f90f94f893ae9dddf7b6dab6787492555d73894db6c",
+          "record": "assets/world/infrastructure/water-stations/station-buoy-layout-0.png.derivation.json"
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceRequirementIds": [
+        "station-buoy"
+      ],
+      "layout": 0,
+      "direction": "single",
+      "layer": "front",
+      "sha256": "54aeb8535ef2633fefb8b49383fc23a44e777f32f9ed3cddf60a4b1c2bdd34c5"
+    }
+  ],
+  "animations": [],
+  "coverageMappings": [
+    {
+      "requirementId": "station-dock",
+      "files": [
+        "assets/world/infrastructure/water-stations/station-dock-layout-0.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-0-rear.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-0-front.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-1.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-1-rear.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-1-front.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-2.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-2-rear.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-2-front.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-3.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-3-rear.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-3-front.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-4.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-4-rear.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-4-front.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-5.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-5-rear.png",
+        "assets/world/infrastructure/water-stations/station-dock-layout-5-front.png"
+      ],
+      "states": [
+        {
+          "layout": 0,
+          "direction": "NE",
+          "role": "shore-head",
+          "image": "assets/world/infrastructure/water-stations/station-dock-layout-0.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-dock-layout-0-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-dock-layout-0-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        },
+        {
+          "layout": 1,
+          "direction": "SE",
+          "role": "shore-head",
+          "image": "assets/world/infrastructure/water-stations/station-dock-layout-1.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-dock-layout-1-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-dock-layout-1-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        },
+        {
+          "layout": 2,
+          "direction": "SW",
+          "role": "shore-head",
+          "image": "assets/world/infrastructure/water-stations/station-dock-layout-2.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-dock-layout-2-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-dock-layout-2-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        },
+        {
+          "layout": 3,
+          "direction": "NW",
+          "role": "shore-head",
+          "image": "assets/world/infrastructure/water-stations/station-dock-layout-3.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-dock-layout-3-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-dock-layout-3-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        },
+        {
+          "layout": 4,
+          "direction": "X",
+          "role": "water-pier",
+          "image": "assets/world/infrastructure/water-stations/station-dock-layout-4.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-dock-layout-4-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-dock-layout-4-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        },
+        {
+          "layout": 5,
+          "direction": "Y",
+          "role": "water-pier",
+          "image": "assets/world/infrastructure/water-stations/station-dock-layout-5.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-dock-layout-5-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-dock-layout-5-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        }
+      ],
+      "sourceLayouts": 6,
+      "frontRearLayers": true,
+      "completeVariantCoverage": true,
+      "nativeViewClaim": "same approved painted body reused by role; two symmetric visual axes, not four independent rear/front paintings",
+      "renderStrategy": "large painted dock terminal overlay once at shore anchor; original6sprite roles mapped to4head directions plus2pier axes; no repeated whole building per underlying tile"
+    },
+    {
+      "requirementId": "station-buoy",
+      "files": [
+        "assets/world/infrastructure/water-stations/station-buoy-layout-0.png",
+        "assets/world/infrastructure/water-stations/station-buoy-layout-0-rear.png",
+        "assets/world/infrastructure/water-stations/station-buoy-layout-0-front.png"
+      ],
+      "states": [
+        {
+          "layout": 0,
+          "direction": "single",
+          "role": "navigation-marker",
+          "image": "assets/world/infrastructure/water-stations/station-buoy-layout-0.png",
+          "layers": {
+            "rear": "assets/world/infrastructure/water-stations/station-buoy-layout-0-rear.png",
+            "front": "assets/world/infrastructure/water-stations/station-buoy-layout-0-front.png"
+          },
+          "renderRule": "whole or rear/front partition, never both",
+          "sourceViewClaim": "opposite travel directions share same native axis artwork; no new rear-facing painting"
+        }
+      ],
+      "sourceLayouts": 1,
+      "frontRearLayers": true,
+      "completeVariantCoverage": true,
+      "nativeViewClaim": "same approved painted body reused by role; two symmetric visual axes, not four independent rear/front paintings",
+      "renderStrategy": "single native buoy marker with complementary front waterline ownership"
+    }
+  ],
+  "qa": [
+    {
+      "id": "station-dock-layout-0.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    },
+    {
+      "id": "station-dock-layout-1.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    },
+    {
+      "id": "station-dock-layout-2.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    },
+    {
+      "id": "station-dock-layout-3.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    },
+    {
+      "id": "station-dock-layout-4.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    },
+    {
+      "id": "station-dock-layout-5.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    },
+    {
+      "id": "station-buoy-layout-0.layer-reassembly",
+      "level": "OK",
+      "exactVisibleRGBA": true
+    }
+  ],
+  "unityValidated": false,
+  "limitations": [
+    "Original source sprite roles are explicit layout bindings, not6 independent native paintings.",
+    "Engine draw sorting and vessel occlusion require next-stage Unity validation."
+  ]
+}

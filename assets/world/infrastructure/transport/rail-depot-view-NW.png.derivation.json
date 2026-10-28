@@ -1,0 +1,49 @@
+{
+  "id": "rail-depot-view-NW",
+  "image": "assets/world/infrastructure/transport/rail-depot-view-NW.png",
+  "sha256": "096062c7998ade28777d21a112b342ba2352b0460c78ff167fbd9c0669a20479",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/service-directions.png",
+      "sha256": "8489d52032dfc78cf79f9e6d97c7d6b1014e8b1fc06507369223653ee8743a82",
+      "record": "source-art/world/service-directions.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    1371,
+    40,
+    1717,
+    305
+  ],
+  "scaleApplied": 1,
+  "sourceAtlas": "service-directions",
+  "sourceComponent": 2,
+  "contentSize": [
+    346,
+    265
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

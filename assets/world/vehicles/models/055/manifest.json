@@ -1,0 +1,358 @@
+{
+  "id": 55,
+  "upstreamName": "'Millennium Z1' (Electric)",
+  "familyId": "loco-monorail",
+  "transport": "train",
+  "cargo": "CT_PASSENGERS",
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 158
+  },
+  "trackHardware": "monorail",
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/N-body.png",
+      "sha256": "a302c988f8aa282736f3b4323fbcfd236ecfb4604af45f1bc19d5601199a1d3c",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/N-body.png",
+          "sha256": "a302c988f8aa282736f3b4323fbcfd236ecfb4604af45f1bc19d5601199a1d3c",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/N.png",
+          "sha256": "2188af0258a09f46708564b23cd2ae9e0a8fcf9750a20b419d68baf628891dff",
+          "record": "assets/world/vehicles/families/loco-monorail/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/NE-body.png",
+      "sha256": "52c13773bfcae6d73817f197bcfb33baa3f7d4d3401e2c8e2688730d91039800",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/NE-body.png",
+          "sha256": "52c13773bfcae6d73817f197bcfb33baa3f7d4d3401e2c8e2688730d91039800",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/NE.png",
+          "sha256": "95b5f30619831b77c3d18b39ef85c87a17e0f818b33634f9234c99ca436002be",
+          "record": "assets/world/vehicles/families/loco-monorail/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/E-body.png",
+      "sha256": "25b051fefc399c7d3a9331224536b87d86e40caea6b4bc45c1a445cc1aca1031",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/E-body.png",
+          "sha256": "25b051fefc399c7d3a9331224536b87d86e40caea6b4bc45c1a445cc1aca1031",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/E.png",
+          "sha256": "aba1a22b156246126b71aa68f3b7432454886d951cf3191a9586c97cbb96998e",
+          "record": "assets/world/vehicles/families/loco-monorail/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/SE-body.png",
+      "sha256": "e28f5916d1ab4fd2a0b04a92f417526aef144ac2fcff48c9c94e65b3ba5497f3",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/SE-body.png",
+          "sha256": "e28f5916d1ab4fd2a0b04a92f417526aef144ac2fcff48c9c94e65b3ba5497f3",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/SE.png",
+          "sha256": "7c1d881ec21b543677a74b6cdbc60ba896128f45df2a6d24977e1fad40dede39",
+          "record": "assets/world/vehicles/families/loco-monorail/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/S-body.png",
+      "sha256": "a677227d325f4463f727c92faaa9edd02db1729121ca785211517f200dccb704",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/S-body.png",
+          "sha256": "a677227d325f4463f727c92faaa9edd02db1729121ca785211517f200dccb704",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/S.png",
+          "sha256": "ffd7f979bfd253eccd22fc25b1fca78636b1e4f0195db7aad22cc4c9cd2b0128",
+          "record": "assets/world/vehicles/families/loco-monorail/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/SW-body.png",
+      "sha256": "96a715bc07e8ca18496058a06870b714a9c969c6333ced680064b61bc2784035",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/SW-body.png",
+          "sha256": "96a715bc07e8ca18496058a06870b714a9c969c6333ced680064b61bc2784035",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/SW.png",
+          "sha256": "e55f2bd6b3701552f32a0ccd76dc051f2592e25724be11e8ae7ccc11a476ae1e",
+          "record": "assets/world/vehicles/families/loco-monorail/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/W-body.png",
+      "sha256": "62b5b07f476cc12ed55f06df34f205d68cd156514c0c8b3bef3a8348e5931e15",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/W-body.png",
+          "sha256": "62b5b07f476cc12ed55f06df34f205d68cd156514c0c8b3bef3a8348e5931e15",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/W.png",
+          "sha256": "e14481aba80e7f8bbfb97073132fe9f2811ddb9f38fdb658785609ac68b48257",
+          "record": "assets/world/vehicles/families/loco-monorail/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/055/NW-body.png",
+      "sha256": "f116785cb9f082632c8c5c6020242003736b2eca197eb6fd2e1d185a87c596a6",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/055/NW-body.png",
+          "sha256": "f116785cb9f082632c8c5c6020242003736b2eca197eb6fd2e1d185a87c596a6",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 1.01,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/loco-monorail/NW.png",
+          "sha256": "ff445eee3312dcd21c72ae3a96f3bc3a4274b5ea87edf5297185ee8515a6aa5b",
+          "record": "assets/world/vehicles/families/loco-monorail/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/loco-monorail/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

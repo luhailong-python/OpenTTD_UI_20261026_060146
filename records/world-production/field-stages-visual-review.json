@@ -1,0 +1,103 @@
+{
+  "schema": "actual-art-visual-review.v1",
+  "recordedAt": "2026-10-28T11:12:13.114921+00:00",
+  "inspector": "foundation_review continuation agent; actual9stage overview, all9pages/171slopes and native components on both mattes viewed",
+  "manifest": "assets/world/terrain/field-stages/manifest.json",
+  "manifestSHA256": "4d66288c42a1033a79d8815fa6ad27f3e90e9e958f30b27399e7532460c002a9",
+  "result": "local-source-field-stage-art-and-slope-roots-checked-user-acceptance-pending",
+  "pages": [
+    {
+      "file": "previews/world/field-stages/stage-0-all19-slopes.jpg",
+      "sha256": "7fa932e8712c9dedb9d9d54c5efb7542d5e53a5b906a63762a63dcc3bdc6773c",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-1-all19-slopes.jpg",
+      "sha256": "51ce09d9216551fbc0ae30a389ed3659f1a49f4e04cff451b603ab4cc84ce7de",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-2-all19-slopes.jpg",
+      "sha256": "07f2f02b8a7fad4ef8b803dac1e0c46672412d7118bcde3dfed1ff0510a9de35",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-3-all19-slopes.jpg",
+      "sha256": "8afb5b83ad182083e6ac06bb7d86e3fb658918be5da45684c0451d0a36d260ec",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-4-all19-slopes.jpg",
+      "sha256": "c20de3b8d55f0bd686a873ba8eada8af8b1ad6c9c893c948163145014fee42a8",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-5-all19-slopes.jpg",
+      "sha256": "9c1de1bcdf5c5237dbf34ef073b58f721ca65e8dd83fc325b317ab0cd1aeaee5",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-6-all19-slopes.jpg",
+      "sha256": "0a4e279ac4b474b41fd651e75bab2eec3b2e1784ec41a16fffd5d3f93b8a5750",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-7-all19-slopes.jpg",
+      "sha256": "1ec75b642975095fedc977bafe0fe5e1aadd1cc6d72bb7268792aaaaa3eabecb",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/stage-8-all19-slopes.jpg",
+      "sha256": "470aa232973d2ae192382393f0f07e067b2bbe25d7882d07167243955f9c7db6",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/nine-stage-overview.jpg",
+      "sha256": "2aaf928df2f0e8cb3ff16e254842f3a33e0f7fe4fb6925d6460331780971285b",
+      "result": "actually viewed current stage/root/cutout pixels"
+    },
+    {
+      "file": "previews/world/field-stages/native-components-mattes.jpg",
+      "sha256": "5032e22b18b3881732d086bf2db098004e82c5fb5b7d67b3e4d2e4d7ec3254f8",
+      "result": "actually viewed current stage/root/cutout pixels"
+    }
+  ],
+  "findings": [
+    "Bare furrows, sparse germination, two seedling levels, two green grain levels, mixed ripening, full golden grain and harvested square haypacks are visibly distinct.",
+    "All171source-stage/slope assemblies were viewed. Crop sprites stay upright and root heights follow the terrain; no cut heads or detached root gaps observed.",
+    "Source native clump edges on warm and dark mattes show no isolated coloured low-Alpha debris after connected-component cleanup.",
+    "Mature and haypack stages use three complete native components from2172x724master; nine stages reuse scale/density/placement, not nine independent paintings.",
+    "Original main terrain PNGs remain unchanged; legacy16UVvariants are explicitly not source field_type states."
+  ],
+  "nativeMasterUsed": {
+    "file": "source-art/world/field-crop-components-native.png",
+    "sha256": "eb56f6436ec61c25fb5e7ab3b2797a12578a1dd3edc84ecc4b114119076d891d",
+    "nativeDimensions": [
+      2172,
+      724
+    ],
+    "generatedComponentsUsed": 3
+  },
+  "fieldStages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "slopeShapes": 19,
+  "sourceStateBindings": 171,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "metadataOnlyUpdates": [
+    {
+      "updatedAt": "2026-10-28T11:17:31.666696+00:00",
+      "oldManifestSHA256": "822b9f3dfabff7d09e71bbdfcef9116a7c174f8dde9f01ba255cbc7dbc34ef42",
+      "reason": "all-terrain no-write snapshot moved into historical production proof; no state PNG or reviewed pixel changed; live dependencies limited to actual derivedFrom sources"
+    }
+  ]
+}

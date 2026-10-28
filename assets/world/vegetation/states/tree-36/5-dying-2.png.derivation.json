@@ -1,0 +1,43 @@
+{
+  "id": "tree-36-dying-2",
+  "image": "assets/world/vegetation/states/tree-36/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "201e72c452777ac3d517613482a1f764384b7b75833708f578b7e32840206505",
+  "climate": "toyland",
+  "artSpecies": "spring-tree",
+  "sourceTreeType": 36,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-36.png",
+      "sha256": "b2d62a25ea3e3eef4ceb624e42761f65be7ea1c719b6555117e6aed9bf9d8a7f",
+      "record": "assets/world/vegetation/mature/tree-36.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "same toy phenotype desaturated and visibly shrivelled by declared 2D downscale; no other candy species spawned",
+    "scaleXY": [
+      0.9,
+      0.7
+    ],
+    "newNativeDeathDrawing": false
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-36"
+  ]
+}

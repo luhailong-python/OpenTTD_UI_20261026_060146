@@ -1,0 +1,39 @@
+{
+  "id": "tree-15-growing-1",
+  "image": "assets/world/vegetation/states/tree-15/0-growing-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "c9ea4fbaa6373ccc567707d5c0c6b97253bc391afe579db45e2560b7d2afb18f",
+  "climate": "arctic",
+  "artSpecies": "larch",
+  "sourceTreeType": 15,
+  "sourceGrowthStage": 0,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-15.png",
+      "sha256": "8ce4ce9343abd46ac4c5f55da68a50f86916acefc190305fdce0c3480276ffa6",
+      "record": "assets/world/vegetation/mature/tree-15.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.28,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-15"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "bridge-concrete-span",
+  "image": "assets/world/infrastructure/transport/bridge-concrete-span.png",
+  "sha256": "7587f3ef9e6f9aa485deb7921d20455f29f036d5bab654e024c91dda48e110b8",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-modules.png",
+      "sha256": "25799230bf5e2194dcc7610c43717689d7f39414d02c23dd6a5065128da4724f",
+      "record": "source-art/world/bridge-modules.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    530,
+    7,
+    1039,
+    338
+  ],
+  "scaleApplied": 0.7544204322200393,
+  "sourceAtlas": "bridge-modules",
+  "sourceComponent": 2,
+  "contentSize": [
+    384,
+    250
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

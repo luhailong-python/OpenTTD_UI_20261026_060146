@@ -1,0 +1,43 @@
+{
+  "id": "tree-39-dying-2",
+  "image": "assets/world/vegetation/states/tree-39/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "8aacb3759c615c7db6dcaa7dd20b1ffac7633b38869f3a1312fdbfc09e1fa840",
+  "climate": "toyland",
+  "artSpecies": "caramel-tree",
+  "sourceTreeType": 39,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-39.png",
+      "sha256": "aea0781723fdb2293d306920ce7de89577421ef631ca11f63d64d7f613ae309a",
+      "record": "assets/world/vegetation/mature/tree-39.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "same toy phenotype desaturated and visibly shrivelled by declared 2D downscale; no other candy species spawned",
+    "scaleXY": [
+      0.9,
+      0.7
+    ],
+    "newNativeDeathDrawing": false
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-39"
+  ]
+}

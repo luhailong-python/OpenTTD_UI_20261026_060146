@@ -1,0 +1,136 @@
+{
+  "id": "mf-beard-00",
+  "image": "assets/portraits/customization/mf-beard-00.png",
+  "sha256": "5f1f07977caf258c749dfa7ece1ac84156dfc782ba06bbf2c1f94421a64ef962",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-beard",
+  "family": "beard",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/manager-customization/beards.png",
+      "sha256": "7823c09d38644af722a1ff67b3f3df93e6317846f69dc5fa888c29c8d6364969",
+      "record": "source-art/manager-customization/beards.png.generation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:31:49.426968+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Actual accepted transparent atlas ownership crop; proportional downscale only; fixed512 canvas registration; not a complete preset bust",
+  "paintedBBoxPx": [
+    181,
+    282,
+    330,
+    378
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "sourceCellCropPx": [
+    0,
+    80,
+    740,
+    670
+  ],
+  "sourcePaintBBoxWithinCell": [
+    30,
+    98,
+    708,
+    535
+  ],
+  "sourcePaintSizePx": [
+    678,
+    437
+  ],
+  "targetGuideRectPx": [
+    173,
+    258,
+    339,
+    344
+  ],
+  "registeredOffsetPx": [
+    181,
+    282
+  ],
+  "scaleApplied": 0.22,
+  "measuredLandmarkRegistration": {
+    "scale": 0.22,
+    "sourceAnchorWithinCellPx": [
+      370,
+      120
+    ],
+    "destinationAnchorPx": [
+      256,
+      287
+    ],
+    "anchorMeaning": "actual central moustache/nose contact, not full beard bounding-box centre"
+  },
+  "nativeFaceFrameFit": null,
+  "frameFitSampling": null,
+  "matteCleanup": {
+    "coreAlphaThreshold": 128,
+    "selectedActualComponentBoundsPx": [
+      [
+        32,
+        179,
+        366,
+        409
+      ],
+      [
+        375,
+        180,
+        707,
+        407
+      ],
+      [
+        246,
+        291,
+        494,
+        610
+      ]
+    ],
+    "ownershipMethod": "nearest significant actual native Alpha component; retain source antialias/skin feather within24px, discard subvisible or remote/neon background contamination; no invented paint",
+    "discardedNonOwnedPixels": 406710
+  },
+  "nativeAtlasIndex": 0,
+  "sourceAtlas": "source-art/manager-customization/beards.png",
+  "closedIrisSides": [],
+  "irisBoxesPx": [
+    [
+      178,
+      203,
+      230,
+      257
+    ],
+    [
+      282,
+      203,
+      334,
+      257
+    ]
+  ],
+  "supplemental": false
+}

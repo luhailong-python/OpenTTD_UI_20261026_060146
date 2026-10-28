@@ -1,0 +1,82 @@
+{
+  "schema": "actual-art-visual-review.v1",
+  "recordedAt": "2026-10-28T10:34:52.260281+00:00",
+  "inspector": "foundation_review continuation agent, actual24 installed phase pixels and native-removal comparison viewed",
+  "manifest": "assets/world/industries/manifest.json",
+  "manifestSHA256": "9162afcd7ac4f31af5ca9b845997dcd6b3c8eaa8c07c1a3c7c1cf041348ef3a6",
+  "result": "local-installed-particle-art-checked-user-acceptance-pending",
+  "pages": [
+    {
+      "file": "previews/world/industry-assembly/bubble-generator-removal-review.jpg",
+      "sha256": "7d845d500963caca392652512a714d3df176c335829dd4308c67fd7190b65802",
+      "status": "passed-local",
+      "finding": "Actually viewed opaque native before/clean comparison: all three large baked floating bubbles are removed; metal vessel, pipes, fixed small foam and foundation remain intact. Removal is Alpha-only, native RGB unchanged."
+    },
+    {
+      "file": "previews/world/industry-assembly/coal-plant-sparks-phases.jpg",
+      "sha256": "2f829c01ac8154de41cdc31f48374028f48933962ca80cb2bf5174aa848875c2",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 complete coal-plant phases on alternating warm/dark mattes. The small shared electrical flash stays attached to the visible right copper transformer; no old baked flash or moving building/foundation."
+    },
+    {
+      "file": "previews/world/industry-assembly/bubble-generator-cycle-phases.jpg",
+      "sha256": "994ddca4ffbf9173532f7e2daef9f07c75bca72b1e97e4f243f06398d19f3667",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 complete bubble-generator phases after monotonic-rise correction. Shared bubble art forms above the vessel rim, rises, bursts, then clears; the three original large static bubbles are absent in every assembled phase."
+    }
+  ],
+  "items": [
+    {
+      "file": "previews/world/industry-assembly/bubble-generator-removal-review.jpg",
+      "sha256": "7d845d500963caca392652512a714d3df176c335829dd4308c67fd7190b65802",
+      "status": "passed-local",
+      "finding": "Actually viewed opaque native before/clean comparison: all three large baked floating bubbles are removed; metal vessel, pipes, fixed small foam and foundation remain intact. Removal is Alpha-only, native RGB unchanged."
+    },
+    {
+      "file": "previews/world/industry-assembly/coal-plant-sparks-phases.jpg",
+      "sha256": "2f829c01ac8154de41cdc31f48374028f48933962ca80cb2bf5174aa848875c2",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 complete coal-plant phases on alternating warm/dark mattes. The small shared electrical flash stays attached to the visible right copper transformer; no old baked flash or moving building/foundation."
+    },
+    {
+      "file": "previews/world/industry-assembly/bubble-generator-cycle-phases.jpg",
+      "sha256": "994ddca4ffbf9173532f7e2daef9f07c75bca72b1e97e4f243f06398d19f3667",
+      "status": "passed-local",
+      "finding": "Actually viewed all12 complete bubble-generator phases after monotonic-rise correction. Shared bubble art forms above the vessel rim, rises, bursts, then clears; the three original large static bubbles are absent in every assembled phase."
+    }
+  ],
+  "animationPlaybackObservation": "No connected browser surface available.12-frame GIF decoding,100ms durations and loop metadata checked; no browser playback or Unity execution claimed.",
+  "nativePaintingCountAdded": 0,
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "sourceMachineryTypes": [
+    "power-sparks",
+    "bubble-generator"
+  ],
+  "metadataRepairHistory": [
+    {
+      "recordedAt": "2026-10-28T10:46:59.572731+00:00",
+      "previousManifestSHA256": "ffb534e7d66bd18e5c6f918a049fe53c3f07c615a68408926044060e2a606d5b",
+      "reason": "ownership envelope now includes every original-parent to clean-base Alpha difference plus particle Alpha; dedicated removedPoseMask still controls only native-pose deletion; actual reviewed plant/frame pixels unchanged"
+    }
+  ],
+  "ownershipMaskCorrectionCheckedAt": "2026-10-28T10:46:59.573783+00:00",
+  "continuationBrowserPlayback": {
+    "checkedAt": "2026-10-28T11:29:31.893Z",
+    "record": "records/world-production/industry-binding-browser-validation.json",
+    "sha256": "41b69bd0e23344f64a4a6a5fa46f2349f801a531696a856bf2d76b091347fde3",
+    "passed": true,
+    "actualAnimatedGIFs": 8,
+    "distinctViewportFramesPerGIF": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "scope": "Actual local Edge screenshots at4times per512px installed GIF; confirms displayed animation changes, no Unity or simulation claim."
+  }
+}

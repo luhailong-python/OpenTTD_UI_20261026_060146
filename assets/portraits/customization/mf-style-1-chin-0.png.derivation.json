@@ -1,0 +1,64 @@
+{
+  "id": "mf-style-1-chin-0",
+  "image": "assets/portraits/customization/mf-style-1-chin-0.png",
+  "sha256": "ab8f1f881f8d600ec1685624e529f47ea9f9ed1ac0dd8f83c999f8385b601d5b",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-chin",
+  "family": "chin",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/portraits/customization/mf-base-style-1-full.png",
+      "sha256": "dfab8d40ef6285414567208af1069dc861e3301de91b15faf6217bb232562ed4",
+      "record": "assets/portraits/customization/mf-base-style-1-full.png.derivation.json"
+    },
+    {
+      "file": "assets/portraits/customization/mf-style-1-chin-mask.png",
+      "sha256": "a92b0315cae5c74bf0a3cd3a4db3276844b34dff0b4b54e36c93da0524d53cd5",
+      "record": "assets/portraits/customization/mf-style-1-chin-mask.png.derivation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:33:51.253128+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Actual lower-face band crop; fixed top/bottom seam, bounded source-pixel lower-cheek narrowing; no added paint",
+  "paintedBBoxPx": [
+    151,
+    292,
+    363,
+    360
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "sourceStyle": 1,
+  "chinBandPx": [
+    292,
+    360
+  ],
+  "middleWidthScale": 1,
+  "joinRowsFixed": true
+}

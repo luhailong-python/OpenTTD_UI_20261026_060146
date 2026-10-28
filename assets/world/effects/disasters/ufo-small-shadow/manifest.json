@@ -1,0 +1,56 @@
+{
+  "id": "disasters/ufo-small-shadow",
+  "frames": [
+    {
+      "file": "assets/world/effects/disasters/ufo-small-shadow/00.png",
+      "sha256": "ee283fc86813edf9aa9f5f2fb68b977a988549f13a828646a62a88aae80c125b",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "frame": 0,
+      "durationMs": 1000,
+      "operation": "shadow derived from actual body Alpha, vertical projection and30percent opacity",
+      "sources": [
+        {
+          "derivedFrom": {
+            "file": "source-art/world/disaster-air-props.png",
+            "sha256": "6cf6d2a26e698733979d5e42d7938c561e4b1d238786cd2c49175d0d263712fa",
+            "record": "source-art/world/disaster-air-props.png.generation.json"
+          },
+          "nativeSourceRectXYXY": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "scale": 1,
+          "paddingLeftTop": [
+            47,
+            47
+          ],
+          "nativeCellEdgeSolidPixelsFeathered": 0,
+          "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+          "silhouetteTint": [
+            27,
+            43,
+            38
+          ],
+          "alphaMultiplier": 0.3,
+          "verticalScale": 0.390625
+        }
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "fpsSuggestion": 1,
+  "loop": false,
+  "timingStatus": "art preview recommendation; source gameplay tick adapter remains next stage",
+  "operation": "shadow derived from actual body Alpha, vertical projection and30percent opacity",
+  "unityVerified": false
+}

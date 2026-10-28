@@ -1,0 +1,54 @@
+{
+  "id": "tree-11",
+  "image": "assets/world/vegetation/mature/tree-11.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "6f1c1fccb5451e695879939bf5e8b40e73d437761286bf83f4b20036e3ed38ce",
+  "climate": "temperate",
+  "artSpecies": "cherry",
+  "sourceTreeType": 11,
+  "sourceCell": 11,
+  "sourceCropXYXY": [
+    1169,
+    674,
+    1525,
+    1002
+  ],
+  "sourceAnchorInCrop": [
+    182.0,
+    328
+  ],
+  "nativeCropSize": [
+    356,
+    328
+  ],
+  "uniformScale": 0.6593406593406593,
+  "pasteXY": [
+    8,
+    136
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-temperate.png",
+    "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+    "record": "source-art/world/trees-temperate.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-11"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

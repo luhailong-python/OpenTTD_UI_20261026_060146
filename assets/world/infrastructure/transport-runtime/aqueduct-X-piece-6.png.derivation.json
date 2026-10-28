@@ -1,0 +1,140 @@
+{
+  "id": "aqueduct-X-piece-6",
+  "image": "assets/world/infrastructure/transport-runtime/aqueduct-X-piece-6.png",
+  "sha256": "4569ae1ea8412ab19672f8ebcdd918554becb4fcf9e614f657417968c4c2501d",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/waterworks/canal-banks.png",
+      "sha256": "aad02e8c55eb5044b96e0bb7405f36ebd61758d31276d3270cdf9defd6bbb1a4",
+      "record": "assets/world/infrastructure/waterworks/canal-banks.png.derivation.json"
+    }
+  ],
+  "operation": "Shared native stone canal banks and water mirrored/reprojected into elevated aqueduct span; horizontal level water in all 8 source roles; four bank heads use sloped land foundation support, never tilted water; separate bridge pier",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "water-aqueduct"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:34.434905+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        30,
+        255
+      ],
+      [
+        132,
+        204
+      ],
+      [
+        457,
+        370
+      ],
+      [
+        357,
+        420
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        81.0,
+        229.5
+      ],
+      [
+        407.0,
+        395.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        240
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        108.1717791411043,
+        185.91411042944785
+      ],
+      [
+        147.8282208588957,
+        166.08588957055215
+      ],
+      [
+        275.8282208588957,
+        230.08588957055215
+      ],
+      [
+        236.1717791411043,
+        249.91411042944785
+      ]
+    ],
+    "deckCrossSectionHalfX": 19.828220858895705,
+    "uniformNativeScaleReference": 0.39263803680981596,
+    "sourceXKnots": [
+      30.0,
+      132.0,
+      357.0,
+      457.0
+    ],
+    "targetXKnots": [
+      108.1717791411043,
+      147.8282208588957,
+      236.1717791411043,
+      275.8282208588957
+    ],
+    "verticalScaleAboveDeck": [
+      0.39263803680981596,
+      0.39263803680981596,
+      0.39263803680981596,
+      0.39263803680981596
+    ],
+    "verticalScaleBelowDeck": [
+      0.39263803680981596,
+      0.39263803680981596,
+      0.39263803680981596,
+      0.39263803680981596
+    ],
+    "nativePostCorrespondence": [],
+    "axisMirror": false,
+    "rampRisePx": 0,
+    "advancePx": [
+      128,
+      64
+    ],
+    "rampProfile": "flat",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "sourcePiece": 6,
+  "axis": "X",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+  "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+  "generatedAt": "2026-10-26T13:55:23.530685+00:00",
+  "route": "deterministic-derivative",
+  "tool": "world_pack.py",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "nativeModelGeneration": false,
+  "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/construction-kit.png",
+      "sha256": "03833cd39a2505be92584e63b2973e852232024fbeb252fa8062b9f88c2c5842",
+      "record": "source-art/world/construction-kit.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+  "disconnectedFragmentCleanup": {
+    "method": "largest8-connected native opaque component with8px fringe; disconnected neighbouring-grid fragments removed",
+    "coreThreshold": 100,
+    "removedVisiblePixels": 3023,
+    "componentCorePixels": 55218
+  },
+  "anchorMeaning": "front-contact of native construction prop, not logical tile centre"
+}

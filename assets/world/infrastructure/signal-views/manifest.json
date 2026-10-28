@@ -1,0 +1,1794 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:45:01.589550+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "light-view-0",
+      "image": "assets/world/infrastructure/signal-views/light-view-0.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        113,
+        0,
+        315,
+        265
+      ],
+      "sourceCropSize": [
+        202,
+        265
+      ],
+      "alphaTrimBox": [
+        8,
+        6,
+        195,
+        258
+      ],
+      "sourceAnchorPx": [
+        82,
+        256
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.96,
+      "targetOffsetPx": [
+        121,
+        112
+      ],
+      "contentNativeSize": [
+        187,
+        252
+      ],
+      "contentExportSize": [
+        180,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 39,
+        "componentCorePixels": 22512
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "d8fdfb31c116859eb6f5f878cd994517c4347250eccf66a4768d3cb8ad5d2ead",
+      "nativeSlot": 0,
+      "nativeComponentBox": [
+        121,
+        7,
+        307,
+        257
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-1",
+      "image": "assets/world/infrastructure/signal-views/light-view-1.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        472,
+        0,
+        660,
+        265
+      ],
+      "sourceCropSize": [
+        188,
+        265
+      ],
+      "alphaTrimBox": [
+        8,
+        6,
+        181,
+        257
+      ],
+      "sourceAnchorPx": [
+        81,
+        256
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.96,
+      "targetOffsetPx": [
+        122,
+        112
+      ],
+      "contentNativeSize": [
+        173,
+        251
+      ],
+      "contentExportSize": [
+        166,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 79,
+        "componentCorePixels": 21353
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "61cdb597f98cd1cb56745bf70b792753bea90dfcaa68232f06ecfa51239dd3e8",
+      "nativeSlot": 1,
+      "nativeComponentBox": [
+        480,
+        7,
+        652,
+        257
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-2",
+      "image": "assets/world/infrastructure/signal-views/light-view-2.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        852,
+        2,
+        1022,
+        270
+      ],
+      "sourceCropSize": [
+        170,
+        268
+      ],
+      "alphaTrimBox": [
+        8,
+        7,
+        163,
+        261
+      ],
+      "sourceAnchorPx": [
+        79,
+        259
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9523809523809523,
+      "targetOffsetPx": [
+        124,
+        112
+      ],
+      "contentNativeSize": [
+        155,
+        254
+      ],
+      "contentExportSize": [
+        148,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 133,
+        "componentCorePixels": 20329
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "e7905aefe70b11dba336c92b4cb96e41f5edf500759990321cfb65b5b9cfa6f5",
+      "nativeSlot": 2,
+      "nativeComponentBox": [
+        860,
+        10,
+        1014,
+        262
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-3",
+      "image": "assets/world/infrastructure/signal-views/light-view-3.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1256,
+        1,
+        1396,
+        266
+      ],
+      "sourceCropSize": [
+        140,
+        265
+      ],
+      "alphaTrimBox": [
+        8,
+        8,
+        133,
+        258
+      ],
+      "sourceAnchorPx": [
+        63,
+        256
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.963855421686747,
+      "targetOffsetPx": [
+        139,
+        113
+      ],
+      "contentNativeSize": [
+        125,
+        250
+      ],
+      "contentExportSize": [
+        120,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 54,
+        "componentCorePixels": 18870
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "dde5ab31cc18dda09809f759560977ef41b34588ad2dc70e74c7a6d9b898658d",
+      "nativeSlot": 3,
+      "nativeComponentBox": [
+        1264,
+        9,
+        1388,
+        258
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-4",
+      "image": "assets/world/infrastructure/signal-views/light-view-4.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        102,
+        258,
+        272,
+        512
+      ],
+      "sourceCropSize": [
+        170,
+        254
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        163,
+        246
+      ],
+      "sourceAnchorPx": [
+        97,
+        245
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        102,
+        114
+      ],
+      "contentNativeSize": [
+        156,
+        239
+      ],
+      "contentExportSize": [
+        156,
+        239
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 0,
+        "componentCorePixels": 19056
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "3441a3629a12661eea408878fb3718a424d02a5f8fbb82409ecc384ffc1be7c2",
+      "nativeSlot": 4,
+      "nativeComponentBox": [
+        110,
+        266,
+        264,
+        504
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-5",
+      "image": "assets/world/infrastructure/signal-views/light-view-5.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        483,
+        255,
+        654,
+        512
+      ],
+      "sourceCropSize": [
+        171,
+        257
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        164,
+        249
+      ],
+      "sourceAnchorPx": [
+        76,
+        248
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.995850622406639,
+      "targetOffsetPx": [
+        123,
+        112
+      ],
+      "contentNativeSize": [
+        157,
+        242
+      ],
+      "contentExportSize": [
+        156,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 23,
+        "componentCorePixels": 19970
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "d45dc6588203ead3cbbd3a263038a6d2c8dff516f33f16e5cbc3e73cd528b518",
+      "nativeSlot": 5,
+      "nativeComponentBox": [
+        491,
+        263,
+        646,
+        504
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-6",
+      "image": "assets/world/infrastructure/signal-views/light-view-6.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        860,
+        255,
+        1013,
+        515
+      ],
+      "sourceCropSize": [
+        153,
+        260
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        145,
+        253
+      ],
+      "sourceAnchorPx": [
+        79,
+        251
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9836065573770492,
+      "targetOffsetPx": [
+        121,
+        112
+      ],
+      "contentNativeSize": [
+        138,
+        246
+      ],
+      "contentExportSize": [
+        136,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 151,
+        "componentCorePixels": 18550
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "f34475d2b99bbab8a2f676a1b4e779387e3caea0299cd9e10263056cad84623f",
+      "nativeSlot": 6,
+      "nativeComponentBox": [
+        868,
+        263,
+        1005,
+        507
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "light-view-7",
+      "image": "assets/world/infrastructure/signal-views/light-view-7.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1226,
+        255,
+        1389,
+        517
+      ],
+      "sourceCropSize": [
+        163,
+        262
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        156,
+        255
+      ],
+      "sourceAnchorPx": [
+        98,
+        253
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.975609756097561,
+      "targetOffsetPx": [
+        103,
+        112
+      ],
+      "contentNativeSize": [
+        149,
+        248
+      ],
+      "contentExportSize": [
+        145,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 111,
+        "componentCorePixels": 19185
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "1b4670bf95df97d506b73a0e6756b92cf8b928762bfba46f71c5b68921d765b0",
+      "nativeSlot": 7,
+      "nativeComponentBox": [
+        1234,
+        263,
+        1381,
+        509
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-0",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-0.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        112,
+        507,
+        357,
+        767
+      ],
+      "sourceCropSize": [
+        245,
+        260
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        238,
+        253
+      ],
+      "sourceAnchorPx": [
+        59,
+        251
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9836065573770492,
+      "targetOffsetPx": [
+        141,
+        112
+      ],
+      "contentNativeSize": [
+        231,
+        246
+      ],
+      "contentExportSize": [
+        227,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 156,
+        "componentCorePixels": 22228
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "044e3d9c263f15aacbd398b0e7472644bd1ccc12a1408f1886dbd4427e481e9d",
+      "nativeSlot": 8,
+      "nativeComponentBox": [
+        120,
+        515,
+        349,
+        759
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-1",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-1.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        485,
+        506,
+        711,
+        767
+      ],
+      "sourceCropSize": [
+        226,
+        261
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        219,
+        254
+      ],
+      "sourceAnchorPx": [
+        66,
+        252
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9795918367346939,
+      "targetOffsetPx": [
+        134,
+        112
+      ],
+      "contentNativeSize": [
+        212,
+        247
+      ],
+      "contentExportSize": [
+        208,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 118,
+        "componentCorePixels": 21668
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "4204e7a6ec7517dbeb3d1d2795d211ed9fd0395e27ab67cda13a2047bdae6f2e",
+      "nativeSlot": 9,
+      "nativeComponentBox": [
+        493,
+        514,
+        703,
+        759
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-2",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-2.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        859,
+        507,
+        1076,
+        766
+      ],
+      "sourceCropSize": [
+        217,
+        259
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        210,
+        251
+      ],
+      "sourceAnchorPx": [
+        58,
+        250
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9876543209876543,
+      "targetOffsetPx": [
+        142,
+        112
+      ],
+      "contentNativeSize": [
+        203,
+        244
+      ],
+      "contentExportSize": [
+        200,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 49,
+        "componentCorePixels": 21183
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "7ef2134c6db98c78819c9a52e10e3dbec3778fc0f90866a4904a861bb86b0981",
+      "nativeSlot": 10,
+      "nativeComponentBox": [
+        867,
+        515,
+        1068,
+        758
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-3",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-3.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1242,
+        504,
+        1441,
+        766
+      ],
+      "sourceCropSize": [
+        199,
+        262
+      ],
+      "alphaTrimBox": [
+        7,
+        8,
+        192,
+        255
+      ],
+      "sourceAnchorPx": [
+        61,
+        253
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.975609756097561,
+      "targetOffsetPx": [
+        139,
+        113
+      ],
+      "contentNativeSize": [
+        185,
+        247
+      ],
+      "contentExportSize": [
+        180,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 94,
+        "componentCorePixels": 20784
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "409d55f640e1d72e30547de46f34b02bfd1c68162d0350d2ba4f67ca2e36e7f2",
+      "nativeSlot": 11,
+      "nativeComponentBox": [
+        1250,
+        512,
+        1433,
+        758
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-4",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-4.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        60,
+        752,
+        264,
+        1009
+      ],
+      "sourceCropSize": [
+        204,
+        257
+      ],
+      "alphaTrimBox": [
+        7,
+        8,
+        197,
+        250
+      ],
+      "sourceAnchorPx": [
+        146,
+        248
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.995850622406639,
+      "targetOffsetPx": [
+        54,
+        113
+      ],
+      "contentNativeSize": [
+        190,
+        242
+      ],
+      "contentExportSize": [
+        189,
+        241
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 162,
+        "componentCorePixels": 20766
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "753fc95b02097c9f64757b6990384bae08355a97a01a9497b82304c63b964a63",
+      "nativeSlot": 12,
+      "nativeComponentBox": [
+        68,
+        760,
+        256,
+        1001
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-5",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-5.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        470,
+        753,
+        676,
+        1009
+      ],
+      "sourceCropSize": [
+        206,
+        256
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        199,
+        249
+      ],
+      "sourceAnchorPx": [
+        109,
+        247
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        90,
+        112
+      ],
+      "contentNativeSize": [
+        192,
+        242
+      ],
+      "contentExportSize": [
+        192,
+        242
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 130,
+        "componentCorePixels": 20522
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "b354d97b0bfe9598382cb8edebcf5b98acd5440bbea8e331a1a6ed1fb467f50b",
+      "nativeSlot": 13,
+      "nativeComponentBox": [
+        478,
+        761,
+        668,
+        1001
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-6",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-6.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        847,
+        758,
+        1033,
+        1012
+      ],
+      "sourceCropSize": [
+        186,
+        254
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        179,
+        247
+      ],
+      "sourceAnchorPx": [
+        106,
+        245
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        93,
+        114
+      ],
+      "contentNativeSize": [
+        172,
+        240
+      ],
+      "contentExportSize": [
+        172,
+        240
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 18,
+        "componentCorePixels": 19290
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "3a72cf014e39f4a420cc290932a9319b59bab00892f55619c4111fa2bf51012a",
+      "nativeSlot": 14,
+      "nativeComponentBox": [
+        855,
+        766,
+        1025,
+        1004
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    },
+    {
+      "id": "semaphore-view-7",
+      "image": "assets/world/infrastructure/signal-views/semaphore-view-7.png",
+      "width": 384,
+      "height": 384,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        192,
+        352
+      ],
+      "pivotUnity": [
+        0.5,
+        0.08333333333333337
+      ],
+      "category": "signals",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/signal-directions.png",
+          "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+          "record": "source-art/world/signal-directions.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "produced-needs-visual-review",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1230,
+        758,
+        1423,
+        1011
+      ],
+      "sourceCropSize": [
+        193,
+        253
+      ],
+      "alphaTrimBox": [
+        7,
+        7,
+        185,
+        246
+      ],
+      "sourceAnchorPx": [
+        90,
+        244
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        109,
+        115
+      ],
+      "contentNativeSize": [
+        178,
+        239
+      ],
+      "contentExportSize": [
+        178,
+        239
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-module",
+        "basis": "logical footprint supplied by assembly mapping"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 128,
+        "removedVisiblePixels": 1,
+        "componentCorePixels": 19685
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "b7078adac1404965626d13d2559cfd4c82f10b86be05a6dca1d563b93b78127f",
+      "nativeSlot": 15,
+      "nativeComponentBox": [
+        1238,
+        766,
+        1415,
+        1003
+      ],
+      "anchorMeaning": "pole-base physical contact; independent of plaque/arm extent",
+      "recommendedWorldDrawScale": 0.25,
+      "directionEvidence": "Native atlas provides front/side/back variants with repeated near views; not8 precise native azimuths."
+    }
+  ],
+  "qa": [
+    {
+      "id": "light-view-0.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        113,
+        0,
+        315,
+        265
+      ]
+    },
+    {
+      "id": "light-view-1.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        472,
+        0,
+        660,
+        265
+      ]
+    },
+    {
+      "id": "light-view-2.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        852,
+        2,
+        1022,
+        270
+      ]
+    },
+    {
+      "id": "light-view-3.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        1256,
+        1,
+        1396,
+        266
+      ]
+    },
+    {
+      "id": "light-view-4.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        102,
+        258,
+        272,
+        512
+      ]
+    },
+    {
+      "id": "light-view-5.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        483,
+        255,
+        654,
+        512
+      ]
+    },
+    {
+      "id": "light-view-6.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        860,
+        255,
+        1013,
+        515
+      ]
+    },
+    {
+      "id": "light-view-7.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        1226,
+        255,
+        1389,
+        517
+      ]
+    },
+    {
+      "id": "semaphore-view-0.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        112,
+        507,
+        357,
+        767
+      ]
+    },
+    {
+      "id": "semaphore-view-1.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        485,
+        506,
+        711,
+        767
+      ]
+    },
+    {
+      "id": "semaphore-view-2.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        859,
+        507,
+        1076,
+        766
+      ]
+    },
+    {
+      "id": "semaphore-view-3.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        1242,
+        504,
+        1441,
+        766
+      ]
+    },
+    {
+      "id": "semaphore-view-4.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        60,
+        752,
+        264,
+        1009
+      ]
+    },
+    {
+      "id": "semaphore-view-5.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        470,
+        753,
+        676,
+        1009
+      ]
+    },
+    {
+      "id": "semaphore-view-6.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        847,
+        758,
+        1033,
+        1012
+      ]
+    },
+    {
+      "id": "semaphore-view-7.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/signal-directions.png",
+      "sourceBox": [
+        1230,
+        758,
+        1423,
+        1011
+      ]
+    }
+  ],
+  "acceptance": "extracted; complete-sheet visual and state checks pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "services-signal-views",
+  "nativeSourceAtlas": {
+    "file": "source-art/world/signal-directions.png",
+    "sha256": "833eb969876bedc52160e376d91cb8cf14ca5c7bac97d5fead610f91962c01f3",
+    "record": "source-art/world/signal-directions.png.generation.json",
+    "sourceRecordAvailable": true
+  }
+}

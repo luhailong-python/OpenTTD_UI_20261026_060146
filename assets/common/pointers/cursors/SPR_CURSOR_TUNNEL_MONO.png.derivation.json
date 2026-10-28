@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_TUNNEL_MONO",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_TUNNEL_MONO.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "7c4c4431d0f7877159db742d00de523a67ec64b36e649ab4f02bf557f8ccd326",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/icons/tunnel.png",
+      "sha256": "2e01a3e3d790e371d82f6ff4dccd3ad7f7ff2e997506869471cbecb6b57883a9",
+      "record": "assets/icons/tunnel.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_TUNNEL_MONO",
+  "sourceSpriteId": 2435,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

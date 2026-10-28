@@ -1,0 +1,75 @@
+{
+  "id": "lane-tunnel-maglev-SE-normal",
+  "image": "assets/world/infrastructure/transport-runtime/lane-tunnel-maglev-SE-normal.png",
+  "sha256": "97e9803d35cb6dfe036dec41229ef5f8a2f7163de0013ca8a1f59fca18aa0bc6",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+      "sha256": "d4f7554da6e776282b5ab71c1213ee7274917fa0c1056fae06b55be7e9b5369a",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png.derivation.json"
+    }
+  ],
+  "operation": "Measured real portal approach quad -> actual central lane UV texture; no grass tile; interior darkening colour grade; no painted replacement strokes",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-maglev"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:13.787801+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SE",
+  "climate": "normal",
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+  "targetQuadPx": [
+    [
+      257.0,
+      388.0
+    ],
+    [
+      313.0,
+      360.0
+    ],
+    [
+      421.0,
+      414.0
+    ],
+    [
+      365.0,
+      442.0
+    ]
+  ],
+  "offsetPx": [
+    0,
+    0
+  ],
+  "uvOrder": "near-left inner / far-left inner / far-right outer / near-right outer",
+  "uvDomain": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

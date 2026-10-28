@@ -1,0 +1,72 @@
+{
+  "id": "coast-rocks-snow-slope-sw",
+  "image": "previews/world/rocks-overlay/assemblies/coast-rocks-snow-slope-sw.png",
+  "sha256": "21b84df255d7af2b31feec8bd822aeb8915b7f0edad0c9368b9f66b93caed35b",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-03-land.png",
+      "sha256": "aad8bde91e0edecd592cf4adc707b762a95879755ae498adae15817d7036faf2",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-03-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-snow-slot-03-bank.png",
+      "sha256": "8adbd99dd767e4326a59d926011bc3c3fa631e2d27e0c37d2b1106b7436ea656",
+      "record": "assets/world/terrain/shore-geometry/shore-snow-slot-03-bank.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-sw.png",
+      "sha256": "97368ba07c5e3f78d683567e8d9bd3c39a6d32d64f0561eadd3afb8553f05559",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-sw.png.derivation.json"
+    }
+  ],
+  "operation": "Formal source-height shoreline land/native-bank and strictly horizontal0-height water layers plus independently placed wet-rock bodies; source DryOut permits water:null, never add obsolete flat backing",
+  "context": "CoastRocks",
+  "shoreClimate": "snow",
+  "slopeCode": 3,
+  "sourceShoreIndex": 3,
+  "overlayId": "rocks-water-coast-layout-0-slope-sw",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "shoreOffsetPx": [
+    0,
+    64
+  ],
+  "formalLayers": [
+    {
+      "role": "land",
+      "image": "assets/world/terrain/shore-geometry/shore-snow-slot-03-land.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "bank",
+      "image": "assets/world/terrain/shore-geometry/shore-snow-slot-03-bank.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "wet-rocks",
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-sw.png",
+      "offsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "groundWhole": "assets/world/terrain/shore-geometry/shore-snow-slot-03-whole.png",
+  "groundManifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "groundManifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceFloodingBehaviour": "DryOut",
+  "waterHasPositiveArea": false,
+  "waterAbsentReason": "The source integer-height mesh has no positive-area zero-height face; this legal DryOut coast touches the water plane only at the low corner. No fake water triangle is exported.",
+  "label": "CoastRocks snow / sw",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

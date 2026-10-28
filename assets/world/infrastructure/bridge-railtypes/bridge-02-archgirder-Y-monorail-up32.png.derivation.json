@@ -1,0 +1,177 @@
+{
+  "id": "bridge-02-archgirder-Y-monorail-up32",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-02-archgirder-Y-monorail-up32.png",
+  "sha256": "724ff76e226a6df73a51bf19b84a5146735628a844d1f440eda67c56cd9f42a3",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-02-archgirder-Y-rail-north-rear.png",
+      "sha256": "11b151a776c972fdf89267b064ef3d30487b2d811df8e61d85a8c9941a7523c9",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-02-archgirder-Y-rail-north-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-arch-span-Y-monorail-32.png",
+      "sha256": "0d49932e8ee867523a46c2d20dbd27fd71c541693a5240dbfec92fcd7cf3d05d",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-arch-span-Y-monorail-32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-02-archgirder-Y-rail-north-front.png",
+      "sha256": "8af902893701899c3e7787ba5dd57f59eed565b57d026a638c345291770ce920",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-02-archgirder-Y-rail-north-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-02-archgirder"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "Y",
+  "railType": "monorail",
+  "risePx": 32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        79,
+        281
+      ],
+      [
+        170,
+        244
+      ],
+      [
+        433,
+        386
+      ],
+      [
+        365,
+        422
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        124.5,
+        262.5
+      ],
+      [
+        399.0,
+        404.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        256,
+        176
+      ],
+      [
+        128,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        109.46448087431693,
+        185.26775956284152
+      ],
+      [
+        146.53551912568307,
+        166.73224043715848
+      ],
+      [
+        274.53551912568304,
+        198.73224043715848
+      ],
+      [
+        237.46448087431693,
+        217.26775956284152
+      ]
+    ],
+    "deckCrossSectionHalfX": 18.53551912568306,
+    "uniformNativeScaleReference": 0.4663023679417122,
+    "sourceXKnots": [
+      79.0,
+      170.0,
+      365.0,
+      433.0
+    ],
+    "targetXKnots": [
+      109.46448087431693,
+      146.53551912568307,
+      237.46448087431693,
+      274.53551912568304
+    ],
+    "verticalScaleAboveDeck": [
+      0.4607511492757394,
+      0.423126222761924,
+      0.4719889821849038,
+      0.519291273389634
+    ],
+    "verticalScaleBelowDeck": [
+      0.5129326047358834,
+      0.4663023679417122,
+      0.4274438372799028,
+      0.4663023679417122
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            79,
+            239
+          ],
+          [
+            365,
+            381
+          ]
+        ],
+        "commonCapHeightPx": 19.351548269581055
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            170,
+            190
+          ],
+          [
+            433,
+            342
+          ]
+        ],
+        "commonCapHeightPx": 22.848816029143897
+      }
+    ],
+    "axisMirror": true,
+    "rampRisePx": 32,
+    "advancePx": [
+      -128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-02-archgirder-Y-rail-north-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-arch-span-Y-monorail-32.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-02-archgirder-Y-rail-north-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-arch-Y-rail-32-mask.png"
+}

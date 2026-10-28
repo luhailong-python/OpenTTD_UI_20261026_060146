@@ -1,0 +1,54 @@
+{
+  "id": "airport-tile-55-helipad-2",
+  "image": "assets/world/infrastructure/airports/airport-tile-55-helipad-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "0e979db69d346e16a9dfbfff23bccfebb70e3f02f2dd9b89bee131d7bd63b9f3",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-helipad.png",
+      "sha256": "6c86b0e25cb88043e42cf6b0f448e2c5d8cd87f1d63ef9d42d3d3f574e8882e1",
+      "record": "assets/world/infrastructure/airports/airport-ground-helipad.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 55,
+  "sourceTileEnum": "APT_HELIPAD_2",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_APRON,              _station_display_helipad)     // APT_HELIPAD_2",
+  "layers": [
+    {
+      "artId": "airport-ground-helipad",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-intercontinental",
+    "airport-tile-55-helipad-2"
+  ]
+}

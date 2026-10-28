@@ -1,0 +1,22 @@
+{
+  "file": "assets/world/terrain/terrain-riverbed-slope-steep-e.png",
+  "sha256": "80393b668b38293cb0d210f21a490c6ba3912aca585b179f7c5744d0a7736a74",
+  "generatedAt": "2026-10-27T04:06:31.590692+00:00",
+  "route": "deterministic-derivative",
+  "tool": "build_world_terrain.py",
+  "width": 256,
+  "height": 192,
+  "operation": "native hand-painted atlas crop -> UV geometric normalization -> 14px periodic opposite-edge colour blending -> canonical diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/water-cycle.png",
+      "sha256": "5f4d8176b1ac35ae9bb834f8e04992b20cc6c264135b6e964a2cf65d55135c1f",
+      "record": "source-art/world/water-cycle.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeModelGeneration": false,
+  "unverifiedReason": "Source imagegen actual model and quality undisclosed; geometric processing is not native image generation."
+}

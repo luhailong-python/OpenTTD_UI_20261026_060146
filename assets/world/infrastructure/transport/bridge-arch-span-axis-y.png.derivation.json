@@ -1,0 +1,37 @@
+{
+  "id": "bridge-arch-span-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-arch-span-axis-y.png",
+  "sha256": "fde1c0e6fc7e19c879a9900669260816a355ae390706a6f1be7fa5b1a37f99af",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-arch-span.png",
+      "sha256": "9ee3564a55e4e56dd46b5657e872089c369f8b7874c0726787339d6726677063",
+      "record": "assets/world/infrastructure/transport/bridge-arch-span.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "lane-concrete-span-X-maglev-m32",
+  "image": "assets/world/infrastructure/bridge-railtypes/lane-concrete-span-X-maglev-m32.png",
+  "sha256": "f710f945936415f631babf6fa3f0ad986ea6da029ab44e27f5325672d44bb621",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype-lane",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+      "sha256": "d4f7554da6e776282b5ab71c1213ee7274917fa0c1056fae06b55be7e9b5369a",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-X-rail-m32-mask.png",
+      "sha256": "e3798a35ae4e3b43e296d0db101ff443c9621de2fd037af71cbc3f84f42632ad",
+      "record": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-X-rail-m32-mask.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-01-concrete"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "X",
+  "railType": "maglev",
+  "risePx": -32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        86,
+        258
+      ],
+      [
+        159,
+        227
+      ],
+      [
+        434,
+        358
+      ],
+      [
+        362,
+        390
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        122.5,
+        242.5
+      ],
+      [
+        398.0,
+        374.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        272
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        111.15789473684211,
+        184.42105263157896
+      ],
+      [
+        144.8421052631579,
+        167.57894736842104
+      ],
+      [
+        272.8421052631579,
+        263.57894736842104
+      ],
+      [
+        239.1578947368421,
+        280.42105263157896
+      ]
+    ],
+    "deckCrossSectionHalfX": 16.842105263157894,
+    "uniformNativeScaleReference": 0.4646098003629764,
+    "sourceXKnots": [
+      86.0,
+      159.0,
+      362.0,
+      434.0
+    ],
+    "targetXKnots": [
+      111.15789473684211,
+      144.8421052631579,
+      239.1578947368421,
+      272.8421052631579
+    ],
+    "verticalScaleAboveDeck": [
+      0.4878402903811252,
+      0.5088583527784979,
+      0.4434911730737502,
+      0.4274410163339383
+    ],
+    "verticalScaleBelowDeck": [
+      0.4426942437420813,
+      0.4646098003629764,
+      0.48880822746521474,
+      0.4646098003629764
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            86,
+            238
+          ],
+          [
+            362,
+            368
+          ]
+        ],
+        "commonCapHeightPx": 9.756805807622504
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            159,
+            206
+          ],
+          [
+            434,
+            333
+          ]
+        ],
+        "commonCapHeightPx": 10.686025408348456
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": -32,
+    "advancePx": [
+      128,
+      96
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-concrete-X-rail-m32-mask.png",
+  "innerCrossDomain": [
+    0.15,
+    0.85
+  ],
+  "longitudinalDomain": [
+    0.015,
+    0.985
+  ],
+  "rampProfile": "same port-locked native endpoint collars and32px height transfer as accepted source projection"
+}

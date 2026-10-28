@@ -1,0 +1,46 @@
+{
+  "id": "tree-12-dying-2",
+  "image": "assets/world/vegetation/states/tree-12/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "b4cb1fda25598164537a4c4d02e8e954d6240174bf9d3cadce1582b9f403a524",
+  "climate": "arctic",
+  "artSpecies": "dark-spruce",
+  "sourceTreeType": 12,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-12.png",
+      "sha256": "ce748b680a692d6bfdce1fb449b0a4ce2aceb6dff29b33a09ed15a26c2b67f3b",
+      "record": "assets/world/vegetation/mature/tree-12.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/tree-lifecycle-bare-dead-tree.png",
+      "sha256": "3d42630a62e5fb7f53132a0d96f670ccb2ea168abaf2505ac4e80d2218eda012",
+      "record": "assets/world/vegetation/lifecycle/tree-lifecycle-bare-dead-tree.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-bare-dead-tree",
+    "sharedScale": 0.8536986301369862,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-12"
+  ]
+}

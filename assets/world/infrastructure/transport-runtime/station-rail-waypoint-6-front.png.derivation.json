@@ -1,0 +1,44 @@
+{
+  "id": "station-rail-waypoint-6-front",
+  "image": "assets/world/infrastructure/transport-runtime/station-rail-waypoint-6-front.png",
+  "sha256": "e8b450eadbbb3f9ec46ff1d869b22abd6336da25fcb12d5d6505a46f772f70db",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/station-rail-waypoint-6.png",
+      "sha256": "20d9c25fa4ddf9c5828cb6a4877073b391ee245a4e7064910319d5e618234308",
+      "record": "assets/world/infrastructure/transport-runtime/station-rail-waypoint-6.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-rail-waypoint"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:09.057167+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

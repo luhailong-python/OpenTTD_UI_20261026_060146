@@ -1,0 +1,22 @@
+{
+  "file": "assets/world/terrain/terrain-riverbed-slope-flat.png",
+  "sha256": "9c81a04ce418facb1688ab1e712097548ab86e7e05c981c6f92066e9b9de0d00",
+  "generatedAt": "2026-10-27T04:06:31.423344+00:00",
+  "route": "deterministic-derivative",
+  "tool": "build_world_terrain.py",
+  "width": 256,
+  "height": 192,
+  "operation": "native hand-painted atlas crop -> UV geometric normalization -> 14px periodic opposite-edge colour blending -> canonical diamond with1.5px render extrusion; no new native detail -> piecewise-affine slope projection",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/water-cycle.png",
+      "sha256": "5f4d8176b1ac35ae9bb834f8e04992b20cc6c264135b6e964a2cf65d55135c1f",
+      "record": "source-art/world/water-cycle.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeModelGeneration": false,
+  "unverifiedReason": "Source imagegen actual model and quality undisclosed; geometric processing is not native image generation."
+}

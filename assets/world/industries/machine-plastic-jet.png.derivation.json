@@ -1,0 +1,60 @@
+{
+  "id": "industry-machine-plastic-jet",
+  "file": "assets/world/industries/machine-plastic-jet.png",
+  "sha256": "44fa680ef7f58af0a5c48dde248b2b891ceef89449d0901e9ccd16d37fd1c018",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    877,
+    456,
+    1213,
+    810
+  ],
+  "nativePaintingBounds": [
+    877,
+    458,
+    1212,
+    808
+  ],
+  "uniformScale": 1,
+  "pasteXY": [
+    88,
+    94
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    88,
+    94,
+    424,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-e.png",
+    "sha256": "6a0a1fec8f64dd496421944f0923edc6922a66d71f82eaaabe69928d8cf96586",
+    "record": "source-art/world/industry-e.png.generation.json"
+  },
+  "sourceIndustryTypeId": null,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

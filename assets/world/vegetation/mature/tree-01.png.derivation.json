@@ -1,0 +1,54 @@
+{
+  "id": "tree-01",
+  "image": "assets/world/vegetation/mature/tree-01.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front contact; x estimated from opaque bottom contact band, not canopy centre",
+  "category": "vegetation",
+  "sha256": "6743af5765312bdea6ef5ad397e49fcc359fa231e7165e0a3517fef0a4374495",
+  "climate": "temperate",
+  "artSpecies": "beech",
+  "sourceTreeType": 1,
+  "sourceCell": 1,
+  "sourceCropXYXY": [
+    441,
+    11,
+    749,
+    334
+  ],
+  "sourceAnchorInCrop": [
+    146.5,
+    323
+  ],
+  "nativeCropSize": [
+    308,
+    323
+  ],
+  "uniformScale": 0.7430340557275542,
+  "pasteXY": [
+    19,
+    112
+  ],
+  "operation": "component ownership crop with all attached/disconnected meaningful fragments; alpha below8 removed and alpha>=240 normalized opaque; fixed-root proportional downscale and transparent padding; not new generation",
+  "derivedFrom": {
+    "file": "source-art/world/trees-temperate.png",
+    "sha256": "03ecfb878fa66770da73d2ae7fbd5515f0f773991ef687c376c2bf5bc146ed32",
+    "record": "source-art/world/trees-temperate.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-01"
+  ],
+  "speciesNameEvidence": "botanical/whimsical identity is new art design; source defines numeric tree types/climates, not these species names",
+  "ownershipAdjustments": []
+}

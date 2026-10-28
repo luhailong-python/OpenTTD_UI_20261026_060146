@@ -1,0 +1,643 @@
+{
+  "id": "field-stage-2-slope-steep-n",
+  "image": "assets/world/terrain/field-stages/field-stage-2-slope-steep-n.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    160
+  ],
+  "pivotUnity": [
+    0.5,
+    0.375
+  ],
+  "sha256": "7e9d124baaac9d0ca640cbe79460ac8e5ba4fb54d112ffb51378b9d0b18c6494",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/field-stages/field-soil-slope-steep-n.png",
+      "sha256": "b1cb8fc8d18ced029704875aaa458b193361fc6b94f96b6005419a217898f7c0",
+      "record": "assets/world/terrain/field-stages/field-soil-slope-steep-n.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "sha256": "38629c62545288563f2423f2eb22f809a5713ee20586b43a29d01dad1df79208",
+      "record": "assets/world/terrain/field-stages/field-primitive-seedling.png.derivation.json"
+    }
+  ],
+  "operation": "source crop stage with projected native furrow soil and upright native plant/hay sprites at exact piecewise slope-root heights; no new native painting",
+  "category": "field-stage",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "sourceFieldType": 2,
+  "fieldStageName": "young-seedlings",
+  "slopeCode": 29,
+  "placements": [
+    {
+      "kind": "seedling",
+      "uv": [
+        0.14,
+        0.14
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        128.0,
+        58.879999999999995
+      ],
+      "rootHeightUnits": 1.7200000000000002,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        123,
+        52
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.14,
+        0.32
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        151.04,
+        76.16
+      ],
+      "rootHeightUnits": 1.54,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        146,
+        69
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.32,
+        0.14
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        104.96000000000001,
+        76.16
+      ],
+      "rootHeightUnits": 1.5399999999999998,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        100,
+        69
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.14,
+        0.5
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        174.07999999999998,
+        93.44000000000001
+      ],
+      "rootHeightUnits": 1.3599999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        169,
+        86
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.32,
+        0.32
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        128.0,
+        93.44000000000001
+      ],
+      "rootHeightUnits": 1.3599999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        123,
+        86
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.5,
+        0.14
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        81.92,
+        93.44000000000001
+      ],
+      "rootHeightUnits": 1.3599999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        77,
+        86
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.14,
+        0.68
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        197.12,
+        110.72000000000001
+      ],
+      "rootHeightUnits": 1.1800000000000002,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        192,
+        104
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.32,
+        0.5
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        151.04,
+        110.72000000000003
+      ],
+      "rootHeightUnits": 1.18,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        146,
+        104
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.5,
+        0.32
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        104.96000000000001,
+        110.72000000000003
+      ],
+      "rootHeightUnits": 1.18,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        100,
+        104
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.68,
+        0.14
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        58.879999999999995,
+        110.72000000000003
+      ],
+      "rootHeightUnits": 1.18,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        54,
+        104
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.14,
+        0.86
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        220.16,
+        128.0
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        215,
+        121
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.32,
+        0.68
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        174.08,
+        128.0
+      ],
+      "rootHeightUnits": 0.9999999999999998,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        169,
+        121
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.5,
+        0.5
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        128.0,
+        128.0
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        123,
+        121
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.68,
+        0.32
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        81.91999999999999,
+        128.0
+      ],
+      "rootHeightUnits": 0.9999999999999998,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        77,
+        121
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.86,
+        0.14
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        35.84,
+        128.0
+      ],
+      "rootHeightUnits": 1.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        31,
+        121
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.32,
+        0.86
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        197.12,
+        145.27999999999997
+      ],
+      "rootHeightUnits": 0.82,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        192,
+        138
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.86,
+        0.32
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        58.879999999999995,
+        145.27999999999997
+      ],
+      "rootHeightUnits": 0.82,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        54,
+        138
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.5,
+        0.68
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        151.04000000000002,
+        145.28
+      ],
+      "rootHeightUnits": 0.82,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        146,
+        138
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.68,
+        0.5
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        104.96,
+        145.28
+      ],
+      "rootHeightUnits": 0.82,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        100,
+        138
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.5,
+        0.86
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        174.07999999999998,
+        162.56
+      ],
+      "rootHeightUnits": 0.64,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        169,
+        155
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.86,
+        0.5
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        81.92,
+        162.56
+      ],
+      "rootHeightUnits": 0.64,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        77,
+        155
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.68,
+        0.68
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        128.0,
+        162.56000000000003
+      ],
+      "rootHeightUnits": 0.6399999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        123,
+        155
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.68,
+        0.86
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        151.04,
+        179.84
+      ],
+      "rootHeightUnits": 0.45999999999999996,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        146,
+        173
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.86,
+        0.68
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        104.96000000000001,
+        179.84
+      ],
+      "rootHeightUnits": 0.45999999999999996,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        100,
+        173
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "seedling",
+      "uv": [
+        0.86,
+        0.86
+      ],
+      "heightPx": 8,
+      "rootPx": [
+        128.0,
+        197.11999999999998
+      ],
+      "rootHeightUnits": 0.28,
+      "image": "assets/world/terrain/field-stages/field-primitive-seedling.png",
+      "scale": 0.8,
+      "offsetPx": [
+        123,
+        190
+      ],
+      "renderSizePx": [
+        10,
+        8
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    }
+  ]
+}

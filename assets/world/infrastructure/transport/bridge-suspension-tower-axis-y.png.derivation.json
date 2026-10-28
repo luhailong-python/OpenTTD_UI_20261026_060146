@@ -1,0 +1,37 @@
+{
+  "id": "bridge-suspension-tower-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-suspension-tower-axis-y.png",
+  "sha256": "8f21585b26eea2032e95fb1d9db850cd7e0d5a12ee47166813599df96e1d4a0d",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-suspension-tower.png",
+      "sha256": "83e0a4267ed72d8c46a438d3c7c0375dc32d3e690329dd3cdf09426f92a7eb65",
+      "record": "assets/world/infrastructure/transport/bridge-suspension-tower.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

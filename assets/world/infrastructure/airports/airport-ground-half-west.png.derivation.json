@@ -1,0 +1,34 @@
+{
+  "id": "airport-ground-half-west",
+  "image": "assets/world/infrastructure/airports/airport-ground-half-west.png",
+  "width": 256,
+  "height": 128,
+  "anchorPx": [
+    128,
+    64
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "anchorMeaning": "diamond-centre",
+  "category": "airport-ground",
+  "sha256": "85a43214105a9f5ceb224c0914714dc03c4cd34df51914b5235593ec5054b6b7",
+  "operation": "canonical diamond half-mask composition of actual shared grass and painted concrete; no new paint",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-grass-flat.png",
+      "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+      "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-apron.png",
+      "sha256": "cc57858b43e3ee2aedfb605654354cd1587c16b062d3f4cf7b6ba39e11490301",
+      "record": "assets/world/infrastructure/airports/airport-ground-apron.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": []
+}

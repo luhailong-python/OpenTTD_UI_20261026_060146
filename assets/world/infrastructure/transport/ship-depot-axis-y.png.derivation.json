@@ -1,0 +1,37 @@
+{
+  "id": "ship-depot-axis-y",
+  "image": "assets/world/infrastructure/transport/ship-depot-axis-y.png",
+  "sha256": "54d36403d8698e565a9b51ff43f7a7963d6e0dc7e652c5e0797a0adec5b40dab",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/ship-depot.png",
+      "sha256": "95565ebf001ee1d4929fe73cc29302caa90e721c4a47bb5ebadc21ab5ea09cfd",
+      "record": "assets/world/infrastructure/transport/ship-depot.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

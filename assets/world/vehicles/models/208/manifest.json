@@ -1,0 +1,358 @@
+{
+  "id": 208,
+  "upstreamName": "Bakewell 300 Hovercraft",
+  "familyId": "ship-hovercraft",
+  "transport": "ship",
+  "cargo": "CT_PASSENGERS",
+  "climates": [
+    "temperate",
+    "arctic",
+    "tropic"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 311
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/N-body.png",
+      "sha256": "c1c5d7ad484804b2ceedb7665fb3cfb88eba044cf676f559a026ffc60addaa2d",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/N-body.png",
+          "sha256": "c1c5d7ad484804b2ceedb7665fb3cfb88eba044cf676f559a026ffc60addaa2d",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/N.png",
+          "sha256": "4cc1e92579cb433fe42a9a4555cbae6b55c13d0c58cdb15952d508768bc78d8f",
+          "record": "assets/world/vehicles/families/ship-hovercraft/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/NE-body.png",
+      "sha256": "a0850e0b212ca8f7a391b0c203f6940d38e7242f88093781474d5e90a79e7dfb",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/NE-body.png",
+          "sha256": "a0850e0b212ca8f7a391b0c203f6940d38e7242f88093781474d5e90a79e7dfb",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/NE.png",
+          "sha256": "073b7e84267bd9f4da54e9de808978a1297adc22da6445573ced24d6ed9aea81",
+          "record": "assets/world/vehicles/families/ship-hovercraft/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/E-body.png",
+      "sha256": "f6c9de4814794cd153d7af94a55e1fd8b33e75f3a420ec00c128be3935ef215a",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/E-body.png",
+          "sha256": "f6c9de4814794cd153d7af94a55e1fd8b33e75f3a420ec00c128be3935ef215a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/E.png",
+          "sha256": "ec0560a179163a98fd74dfd488e564364c35dfa90d2f810e957242a84e5bd49e",
+          "record": "assets/world/vehicles/families/ship-hovercraft/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/SE-body.png",
+      "sha256": "9ad1290feb30610935556af4e5ea9ed4449918057711b1edd48485497a731c8d",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/SE-body.png",
+          "sha256": "9ad1290feb30610935556af4e5ea9ed4449918057711b1edd48485497a731c8d",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/SE.png",
+          "sha256": "fd3dd55b9cb2b5c8aaf181f5ef76a33aed33b426325d0309913274d10f6e5758",
+          "record": "assets/world/vehicles/families/ship-hovercraft/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/S-body.png",
+      "sha256": "56db57b503c25c4387d5ef9d67e3d54566703048c492e0947f990af3c96a1ac4",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/S-body.png",
+          "sha256": "56db57b503c25c4387d5ef9d67e3d54566703048c492e0947f990af3c96a1ac4",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/S.png",
+          "sha256": "189218214e29463892b447395af8e3866f47273dfd6363e462565b6db2748559",
+          "record": "assets/world/vehicles/families/ship-hovercraft/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/SW-body.png",
+      "sha256": "b4c45e9c8959d76a4fb1e2fd819a880130a1225b296e9c7406c9f92430b37f13",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/SW-body.png",
+          "sha256": "b4c45e9c8959d76a4fb1e2fd819a880130a1225b296e9c7406c9f92430b37f13",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/SW.png",
+          "sha256": "d48c2cb4298a65a33ff831053f44a4bf9410364f317a6c39bd9d82f2cae174ac",
+          "record": "assets/world/vehicles/families/ship-hovercraft/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/W-body.png",
+      "sha256": "64c1535e41a0f6a1f9e7f826d2c1c3887e2f9315a1bfb2580f6e5bd086b71e7e",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/W-body.png",
+          "sha256": "64c1535e41a0f6a1f9e7f826d2c1c3887e2f9315a1bfb2580f6e5bd086b71e7e",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/W.png",
+          "sha256": "f497b0619480b02b65350a8d4d4ee051e00e23fcdc50f24eda620d377cafcf2a",
+          "record": "assets/world/vehicles/families/ship-hovercraft/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/208/NW-body.png",
+      "sha256": "ff74402ff802e68550ff91549653b9dee1b47a536c71770559c202c0311d9819",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/208/NW-body.png",
+          "sha256": "ff74402ff802e68550ff91549653b9dee1b47a536c71770559c202c0311d9819",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 3,
+        "jadeValueMultiplier": 0.94,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-hovercraft/NW.png",
+          "sha256": "0b4792d524eceaf868db1918bca10223f891919530b110e890bf7773d1b76a2f",
+          "record": "assets/world/vehicles/families/ship-hovercraft/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/ship-hovercraft/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

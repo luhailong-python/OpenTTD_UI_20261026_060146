@@ -1,0 +1,68 @@
+{
+  "id": "SPR_GROUP_REPLACE_OFF_AIRCRAFT",
+  "image": "assets/common/micro-ui/SPR_GROUP_REPLACE_OFF_AIRCRAFT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "0bba5c022a3e5819407deeaa9a64e21f08a9989c30bb027338fd66028ed98fbc",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/air.png",
+      "sha256": "ad3019bf3d002c1db27927687f948c890131867c8bbb123ea2e2ace57409c4e2",
+      "record": "assets/icons/air.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_GROUP_REPLACE_OFF_AIRCRAFT.svg",
+      "sha256": "4f9db903c825fc3527c23fd57608f908fe53ddce7f54e0314eacfd61efa61ac0",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_GROUP_REPLACE_OFF_AIRCRAFT",
+  "sourceSpriteId": 5029,
+  "category": "vehicle-operation",
+  "functionalGlyph": "unlock",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_GROUP_REPLACE_OFF_AIRCRAFT.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

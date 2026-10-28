@@ -1,0 +1,49 @@
+{
+  "id": "bridge-wood-native",
+  "image": "assets/world/infrastructure/transport/bridge-wood-native.png",
+  "sha256": "5b0f3d4a784e73dfc776454b1c4420638d17d9f8bc07709583624af11ed409da",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-families.png",
+      "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+      "record": "source-art/world/bridge-families.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    21,
+    14,
+    499,
+    329
+  ],
+  "scaleApplied": 0.803347280334728,
+  "sourceAtlas": "bridge-families",
+  "sourceComponent": 2,
+  "contentSize": [
+    384,
+    253
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

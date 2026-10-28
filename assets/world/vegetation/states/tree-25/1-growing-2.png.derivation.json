@@ -1,0 +1,39 @@
+{
+  "id": "tree-25-growing-2",
+  "image": "assets/world/vegetation/states/tree-25/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "1e40dc0619d194391d805a0e7ea776360c97128b3563259355056958a1d9b01f",
+  "climate": "tropical",
+  "artSpecies": "rubber",
+  "sourceTreeType": 25,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-25.png",
+      "sha256": "ca6d555c2faf299fc943c2c3d704405e6081ff2bea1448db0058ee05d871487c",
+      "record": "assets/world/vegetation/mature/tree-25.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-25"
+  ]
+}

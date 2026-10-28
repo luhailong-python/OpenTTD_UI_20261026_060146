@@ -1,0 +1,60 @@
+{
+  "id": "industry-toy-press-head-04",
+  "image": "assets/world/industries/animations/toy-press-head/04.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "category": "industry-animation",
+  "sha256": "a6520b29cbb46d8e3865a961cbad40f86dc869d094104d3c6995778df4e6ba8a",
+  "operation": "split-press-jaw; crop/downscale/painted-part affine or articulated transform; not new AI generation",
+  "derivedFrom": {
+    "file": "assets/world/industries/machine-toy-press-head.png",
+    "sha256": "e495ea4071d6bcf671e7930b28e81e615bc8a1dc52094e491828234728c729a5",
+    "record": "assets/world/industries/machine-toy-press-head.png.derivation.json"
+  },
+  "status": "passed-local-part-motion-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 4,
+  "phase": 0.3333333333333333,
+  "parameters": {
+    "upperJawOffsetYPx": 4,
+    "ownershipPolygon": [
+      [
+        0,
+        33
+      ],
+      [
+        53,
+        0
+      ],
+      [
+        184,
+        33
+      ],
+      [
+        192,
+        66
+      ],
+      [
+        134,
+        88
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "sourceToFrameScale": 0.5,
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ]
+}

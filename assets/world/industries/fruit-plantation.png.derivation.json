@@ -1,0 +1,60 @@
+{
+  "id": "industry-19-fruit-plantation",
+  "file": "assets/world/industries/fruit-plantation.png",
+  "sha256": "5391940bfde3837a2a1870d386661f546c81a5000edcf8d4ee91992d8cbef28d",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    433,
+    39,
+    820,
+    417
+  ],
+  "nativePaintingBounds": [
+    433,
+    39,
+    820,
+    417
+  ],
+  "uniformScale": 0.9922480620155039,
+  "pasteXY": [
+    64,
+    73
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    73,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-c.png",
+    "sha256": "5d0106d538514752887dab941c2b3c7ca8942f66f447ba114342d7590712ad83",
+    "record": "source-art/world/industry-c.png.generation.json"
+  },
+  "sourceIndustryTypeId": 19,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

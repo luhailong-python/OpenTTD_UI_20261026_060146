@@ -1,0 +1,134 @@
+{
+  "reviewer": "openttd_research / part A",
+  "reviewedAt": "2026-10-26T11:09:38.443131+00:00",
+  "status": "passed-local-art-repair-review",
+  "result": "本地美术检查通过；用户美术确认未完成。",
+  "userArtApproval": "pending",
+  "unityValidated": false,
+  "initialReport": "records/visual-review-part-a.json",
+  "scope": "原A组问题指定返修复核：12/13/17/32/47/48/49/69整屏，以及07覆盖确认状态。未扩大到其他新功能。",
+  "actualViewedFiles": [
+    {
+      "file": "designs/47-vehicle-view.png",
+      "sha256": "c54cc366a2fdaded11423b863342ee12bccec9343e4282ca26866211d3e6f83c",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/48-vehicle-details.png",
+      "sha256": "5c66633f881cbfeec584e1a753dc8bb16aa702bca8eb126d834bc355aa6f81dc",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/32-station-detail.png",
+      "sha256": "c54ba01cb6b79b88f1ce100dc6e00b128bb6e01e22d6f29823a5514ff2af67b1",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/13-rail-signals.png",
+      "sha256": "b643f9914ab5b588b77c6f60249f79a831f8035aa2ed9a1f35d2dd652b57edb4",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/17-bridge.png",
+      "sha256": "a75a8763418aa35aea9c54ae1d3c85e598e46734869a264a6cb692db18f52e9e",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/69-small-map.png",
+      "sha256": "d513c71fda7fc57e182c11d680adf069e7a0377058c93c971fdf0556febd58c7",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/12-rail-station.png",
+      "sha256": "29192f0ef2d0c317499b03fd3566d6d7486f8a90cb01367701617b76d95c26a5",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "designs/49-vehicle-refit.png",
+      "sha256": "8740c57b0a395c3d11e6bf79fc59beab797f1922984f09395998b8239829d556",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    },
+    {
+      "file": "previews/states/07-save-game--overwrite.png",
+      "sha256": "982e1feee3adffb39092e9de88b15b59599e5252c23d3e37b3c0f74b5eff9324",
+      "inspection": "actual original PNG via view_image",
+      "stableDuringReview": true
+    }
+  ],
+  "issueClosure": [
+    {
+      "id": "A-01",
+      "status": "closed",
+      "screens": [
+        "47-vehicle-view",
+        "48-vehicle-details"
+      ],
+      "evidence": "底部表移高并增行高，目的地、速度、载客、最高速度、可靠性、寿命和年成本完整，未见后行背景遮字。"
+    },
+    {
+      "id": "A-02",
+      "status": "closed",
+      "screens": [
+        "32-station-detail",
+        "49-vehicle-refit"
+      ],
+      "evidence": "三行表完整，文字垂直空间足够，末行仍在底部操作按钮上方。"
+    },
+    {
+      "id": "A-03",
+      "status": "closed-for-initial-originals",
+      "screens": [
+        "12-rail-station",
+        "13-rail-signals",
+        "17-bridge"
+      ],
+      "evidence": "12改为四方向、站台设置和覆盖预览选择；13改为信号类型列表；17改为桥型、限速和费用列表；没有原通用六格误配。卡片标题与正文完整，未压住下边框。",
+      "relatedContactsNote": "初始仅从联系表提示的21/25由根级返修清单处理，本次未另增原图复核范围。"
+    },
+    {
+      "id": "A-04",
+      "status": "closed",
+      "screens": [
+        "47-vehicle-view",
+        "48-vehicle-details"
+      ],
+      "evidence": "车辆外观改为机车与旅客车厢，未再用铁轨图标冒充车辆外观。"
+    },
+    {
+      "id": "A-05",
+      "status": "closed",
+      "screens": [
+        "69-small-map"
+      ],
+      "evidence": "东山煤矿与西岭电厂标签上下错开，名称完整，各自靠近相应节点，没有名称框叠压。"
+    },
+    {
+      "id": "A-06",
+      "status": "representative-confirmation-closed",
+      "screens": [
+        "07-save-game"
+      ],
+      "state": "overwrite",
+      "evidence": "覆盖确认现在同时具有确认覆盖、取消两按钮及右上关闭入口；文本与按钮完整。",
+      "limit": "其他确认态已由根级统一返修，本次只抽样实看该覆盖确认原图，不把抽样称作逐张复看。"
+    }
+  ],
+  "blockingIssuesInRecheckedFiles": [],
+  "checks": {
+    "functionRecognizable": true,
+    "noVisibleTextOverdraw": true,
+    "noVisibleCanvasOverflow": true,
+    "actionsCompleteInRecheckedOriginals": true,
+    "contrastReadable": true,
+    "recordedHashesMatchViewedStableFiles": true
+  },
+  "boundaries": "此结果仅确认本地静态美术图的可见质量及已指出问题闭环，不是用户最终美术认可、Unity导入、交互运行或线上业务验收。"
+}

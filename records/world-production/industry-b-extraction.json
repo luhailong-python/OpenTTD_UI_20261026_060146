@@ -1,0 +1,552 @@
+{
+  "source": "source-art\\world\\industry-b.png",
+  "sourceSha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+  "size": [
+    1254,
+    1254
+  ],
+  "mainComponents": 9,
+  "algorithm": "alpha connected component nearest ownership; not erasing disconnected fragments",
+  "items": [
+    {
+      "id": "industry-09-farm",
+      "file": "assets/world/industries/farm.png",
+      "sha256": "1f2ccf728f582c5b643c71ffb00e123b3b3616a99bbc9f626a2dfc85fd7e1aa9",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        20,
+        104,
+        437,
+        401
+      ],
+      "nativePaintingBounds": [
+        20,
+        104,
+        437,
+        401
+      ],
+      "uniformScale": 0.920863309352518,
+      "pasteXY": [
+        64,
+        175
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        175,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 9,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-10-copper-mine",
+      "file": "assets/world/industries/copper-mine.png",
+      "sha256": "b7c8a50fb22e4b4f357890ab81912a150dde070839d3772bff67f0c4290fbb20",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        440,
+        48,
+        858,
+        413
+      ],
+      "nativePaintingBounds": [
+        441,
+        48,
+        857,
+        413
+      ],
+      "uniformScale": 0.9186602870813397,
+      "pasteXY": [
+        64,
+        113
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        113,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 10,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-11-oil-well",
+      "file": "assets/world/industries/oil-well.png",
+      "sha256": "d1040703d86b926994e8060aab8506caed0c709546fb9814d4ab0388c611c49d",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        866,
+        54,
+        1242,
+        405
+      ],
+      "nativePaintingBounds": [
+        866,
+        54,
+        1242,
+        405
+      ],
+      "uniformScale": 1,
+      "pasteXY": [
+        68,
+        97
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        68,
+        97,
+        444,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 11,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-12-bank-temp",
+      "file": "assets/world/industries/bank-temp.png",
+      "sha256": "56a2bdc44760f7933447627ba4e6d73a54cbbd102548dc0c50cd2aca086960dd",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        13,
+        445,
+        453,
+        799
+      ],
+      "nativePaintingBounds": [
+        14,
+        445,
+        453,
+        799
+      ],
+      "uniformScale": 0.8727272727272727,
+      "pasteXY": [
+        64,
+        139
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        139,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 12,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-13-food-process",
+      "file": "assets/world/industries/food-process.png",
+      "sha256": "05ee6355eb3ea2129f981fed94415a337e7013f22581015a6a3255fc50e5c0e6",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        453,
+        446,
+        847,
+        777
+      ],
+      "nativePaintingBounds": [
+        455,
+        446,
+        846,
+        777
+      ],
+      "uniformScale": 0.9746192893401016,
+      "pasteXY": [
+        64,
+        125
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        125,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 13,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-14-paper-mill",
+      "file": "assets/world/industries/paper-mill.png",
+      "sha256": "5c234ace87ac14d92f0c5f28a7bd7ee5ae11ec8b410b98a738911974950bddc5",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        856,
+        460,
+        1249,
+        794
+      ],
+      "nativePaintingBounds": [
+        857,
+        461,
+        1247,
+        794
+      ],
+      "uniformScale": 0.9770992366412213,
+      "pasteXY": [
+        64,
+        122
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        122,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 14,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-15-gold-mine",
+      "file": "assets/world/industries/gold-mine.png",
+      "sha256": "b1db565baf9efb11a209e35f6e422da8726b440a3ea91ea5da1d049a2287d592",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        18,
+        845,
+        458,
+        1207
+      ],
+      "nativePaintingBounds": [
+        19,
+        846,
+        458,
+        1207
+      ],
+      "uniformScale": 0.8727272727272727,
+      "pasteXY": [
+        64,
+        132
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        132,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 15,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-16-bank-tropic-arctic",
+      "file": "assets/world/industries/bank-tropic-arctic.png",
+      "sha256": "7611e9d7231ec39f9f9428fc5e89f50aaea7110c57c164f8fd87e2afca898331",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        468,
+        846,
+        853,
+        1197
+      ],
+      "nativePaintingBounds": [
+        468,
+        846,
+        852,
+        1197
+      ],
+      "uniformScale": 0.9974025974025974,
+      "pasteXY": [
+        64,
+        98
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        98,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 16,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    },
+    {
+      "id": "industry-17-diamond-mine",
+      "file": "assets/world/industries/diamond-mine.png",
+      "sha256": "32e9cbc407da0f204c6f842b1948b02362dfc3547bd7f9ba7c63e2608655be11",
+      "canvas": [
+        512,
+        512
+      ],
+      "sourceCropXYXY": [
+        848,
+        872,
+        1247,
+        1204
+      ],
+      "nativePaintingBounds": [
+        848,
+        872,
+        1246,
+        1203
+      ],
+      "uniformScale": 0.9624060150375939,
+      "pasteXY": [
+        64,
+        128
+      ],
+      "pivotPixel": [
+        256,
+        448
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.125
+      ],
+      "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        64,
+        128,
+        448,
+        448
+      ],
+      "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+      "derivedFrom": {
+        "file": "source-art/world/industry-b.png",
+        "sha256": "6d87bd4eb41d8ef0da1a71f827a82cbededb13810a5a651aa7278669d945fef9",
+        "record": "source-art/world/industry-b.png.generation.json"
+      },
+      "sourceIndustryTypeId": 17,
+      "artSource": "host_image_derivative",
+      "nativeImageCount": 0,
+      "validation": {
+        "hasRealAlpha": true,
+        "fitsCanvas": true,
+        "visualStatus": "passed-local-art-review"
+      },
+      "unityStatus": "import suggestions only, not validated in Unity"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mf-style-2-base-clean",
+  "image": "assets/portraits/customization/mf-style-2-base-clean.png",
+  "sha256": "34d0f213c16e6e25bcde4e541b682d5f630202f049583751472027742ade2065",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-base-clean",
+  "family": "base-clean",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/portraits/customization/mf-base-style-2-full.png",
+      "sha256": "57898f06e4f2e1105f8901bc8c6c7a99e8a912c05c6976f97af09dcb74fa5a87",
+      "record": "assets/portraits/customization/mf-base-style-2-full.png.derivation.json"
+    },
+    {
+      "file": "assets/portraits/customization/mf-style-2-chin-mask.png",
+      "sha256": "0e0ccdb451fb5b107d01c574a2ec6dccd112ddc0166a675c9e6b2c127c1721c7",
+      "record": "assets/portraits/customization/mf-style-2-chin-mask.png.derivation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:33:51.317863+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Remove only actual lower-face band Alpha; original unfeatured head/neck remains; chin supplied separately",
+  "paintedBBoxPx": [
+    110,
+    70,
+    401,
+    405
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "sourceStyle": 2,
+  "removedOwnershipMask": "assets/portraits/customization/mf-style-2-chin-mask.png"
+}

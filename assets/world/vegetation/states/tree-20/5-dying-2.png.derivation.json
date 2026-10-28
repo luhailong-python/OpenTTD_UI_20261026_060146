@@ -1,0 +1,46 @@
+{
+  "id": "tree-20-dying-2",
+  "image": "assets/world/vegetation/states/tree-20/5-dying-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "25e7284030395e01aee5dd9d18a660ff7cc35b0b63e115f197bec98301c1ce24",
+  "climate": "tropical",
+  "artSpecies": "coconut-palm",
+  "sourceTreeType": 20,
+  "sourceGrowthStage": 5,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-20.png",
+      "sha256": "e460d513fbd1458659dd3eaaf251780e3c4cebcb21e30e81f548551e3d26f3a1",
+      "record": "assets/world/vegetation/mature/tree-20.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dying-palm.png",
+      "sha256": "4475c68570f698775b5cb7057eae73997309dec004151dde7829795923cde5d6",
+      "record": "assets/world/vegetation/lifecycle/dying-palm.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dying-palm",
+    "sharedScale": 0.5502826855123675,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-20"
+  ]
+}

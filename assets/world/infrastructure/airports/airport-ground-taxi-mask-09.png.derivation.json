@@ -1,0 +1,175 @@
+{
+  "id": "airport-ground-taxi-mask-09",
+  "image": "assets/world/infrastructure/airports/airport-ground-taxi-mask-09.png",
+  "width": 256,
+  "height": 128,
+  "anchorPx": [
+    128,
+    64
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "anchorMeaning": "diamond-centre",
+  "category": "airport-ground",
+  "sha256": "6d10b03d749009ec2907f8c6cf68e0f5a06ee8a47d27b6eb11a4d43ec405f11e",
+  "operation": "actual native inner pavement quad ->192UV; native marking centerline fit/recenter; painted pavement/marking corridor clipping or symmetric UV transpose; native crossing centre or taxi painted-stripe annular remap; canonical256x128 diamond. No runway/taxi paint drawn by code.",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/airport-ground.png",
+      "sha256": "4cec755069580116eeda73ee40b02229b7939b688ecdd7c03a2f7b3cc03ecc45",
+      "record": "source-art/world/airport-ground.png.generation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "nativeQuads": {
+    "runway": [
+      [
+        270,
+        83
+      ],
+      [
+        467,
+        178
+      ],
+      [
+        270,
+        272
+      ],
+      [
+        78,
+        176
+      ]
+    ],
+    "threshold": [
+      [
+        768,
+        82
+      ],
+      [
+        963,
+        178
+      ],
+      [
+        768,
+        275
+      ],
+      [
+        570,
+        177
+      ]
+    ],
+    "cross": [
+      [
+        1267,
+        85
+      ],
+      [
+        1452,
+        178
+      ],
+      [
+        1267,
+        276
+      ],
+      [
+        1080,
+        178
+      ]
+    ],
+    "taxi": [
+      [
+        270,
+        368
+      ],
+      [
+        455,
+        459
+      ],
+      [
+        270,
+        550
+      ],
+      [
+        86,
+        457
+      ]
+    ],
+    "curve": [
+      [
+        768,
+        368
+      ],
+      [
+        951,
+        459
+      ],
+      [
+        768,
+        551
+      ],
+      [
+        580,
+        457
+      ]
+    ],
+    "apron": [
+      [
+        1267,
+        367
+      ],
+      [
+        1448,
+        459
+      ],
+      [
+        1267,
+        551
+      ],
+      [
+        1087,
+        458
+      ]
+    ],
+    "helipad": [
+      [
+        229,
+        709
+      ],
+      [
+        405,
+        804
+      ],
+      [
+        229,
+        899
+      ],
+      [
+        51,
+        804
+      ]
+    ]
+  },
+  "markingFits": {
+    "runway": {
+      "slope": 0.0377114351556814,
+      "intercept": 0.37027821868860145,
+      "paintPixels": 705
+    },
+    "taxi": {
+      "slope": 0.060547752092729584,
+      "intercept": 0.4399396866187992,
+      "paintPixels": 1491
+    }
+  },
+  "uvWorkingSize": [
+    192,
+    192
+  ],
+  "sourceMaxQuadWidth": 390,
+  "sourceMinQuadHeight": 184,
+  "sourceRequirementIds": []
+}

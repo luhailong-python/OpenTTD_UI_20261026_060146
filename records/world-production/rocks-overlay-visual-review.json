@@ -1,0 +1,1410 @@
+{
+  "schema": "native-rock-overlay-current-visual-review.v1",
+  "reviewedAt": "2026-10-28T11:44:13.600918+00:00",
+  "reviewer": "Codex manager_review; actual view_image inspection, not inferred from file counts",
+  "manifest": "assets/world/terrain/rocks-overlay/manifest.json",
+  "manifestSHA256": "9f2d52b007b5faea675e097154af6c1a3ec64c370cf7ca8b01143e25916bfd23",
+  "mechanicalValidation": {
+    "file": "records/world-production/rocks-overlay-validation.json",
+    "sha256": "9bbab177c6b8ed8eca1df40fb1e668027d17c3f50f3392ebe9671c0505f169a4",
+    "checks": 1984,
+    "failures": []
+  },
+  "nativeSource": {
+    "image": "source-art/world/rock-overlays-native.png",
+    "sha256": "3f28247d7b210466f6786152b2faa06390b4d1da85a18c65082c3df476cc440f",
+    "nativeSize": [
+      1536,
+      1024
+    ],
+    "perfectNativeAlpha": false,
+    "nativeAlphaRange": [
+      0,
+      254
+    ],
+    "cornerAlpha": 1,
+    "cleanup": "each real alpha>=128 stone body+2source-pixel fringe; remove nonowned/alpha<8 low-alpha glow; original native RGB and snow paint retained"
+  },
+  "reviewedFormalAssets": [
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-dry-0.png",
+      "sha256": "9fba8aa474db862afeafbe3d58eff3dd4aa0539e62d3abf824932e7810ffc9bc",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-dry-1.png",
+      "sha256": "ed5ca277b50339a13484c6259a050e3948a95f2a5085b8488e90c52446310092",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-dry-2.png",
+      "sha256": "9c34f3c8acfa2c5eaaea367c519a97b2fc7b7a5c2bced3c1009a9065f2b026c5",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-quarter-0.png",
+      "sha256": "df8b478b3ced4c2bf170a057f969636de1b30206e34365380b9cfa76e9b51aac",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-quarter-1.png",
+      "sha256": "aec1279880919e0d66dc433bf4dd9098d9a5557089c50b3f59e0b8eec9c897f2",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-quarter-2.png",
+      "sha256": "948a66fbcac81149a188d74af8197f6a15dea6577c9e40d574088a677470f68b",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-half-0.png",
+      "sha256": "743e312be9ebd4f620db665b998eb7a49a7963f332098b3a91191205973e863b",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-half-1.png",
+      "sha256": "c904be1c9d3c26115593009cab812be83ac0a808fd93187a148e2bcc0b72fc19",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-half-2.png",
+      "sha256": "0cec8ab6bfa19ce9bbdebe5f134fa3d6ff0c56c986af0da66e4edeb9d0b64dc9",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-three-quarter-0.png",
+      "sha256": "4a1cd95a4d022eae59a1ef802af505f2a465f4d703f603231e38060ef3bd1bc6",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-three-quarter-1.png",
+      "sha256": "dfdd96ebca04a670c90e11c2b6313e78390e9c1a65d542a60fc99ef5c1f1e349",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-three-quarter-2.png",
+      "sha256": "51feaef725d6e5ab3b99330e8440cc4c9b4ac46f5c30717914530f0eced187aa",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-full-0.png",
+      "sha256": "dfa0dfeffa2416fb11b720d73945e6a26d75d48bfc13ea614c2e836ab41e200a",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-full-1.png",
+      "sha256": "565895fe8ac574e0059f9a315c793cfb0a56ed795b819d59a8e7409bccc73587",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-snow-full-2.png",
+      "sha256": "4f48af1761f72af1719952c2435564c06023f9b90750e583bf83efb739876966",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-water-coast-0.png",
+      "sha256": "fcd58581fa233bda80e36a22c059328a6769281e185b4d1e4e0a1b28b0c7c1c7",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-water-coast-1.png",
+      "sha256": "3e1d7eb01d0c29d91539bc0895449ea0e4c6b906157ee2eb7dc51b4158315192",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rock-part-water-coast-2.png",
+      "sha256": "d3b36b42388d4fccd188b0b7bd8232e22638952ea84ce5611eb375ad9c7b3c5b",
+      "category": "rocks-native-part",
+      "overlayState": null,
+      "layoutVariant": null,
+      "slopeCode": null
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-flat.png",
+      "sha256": "b0c3be9a4dcdf614f771a0e2c3f40222c31afd5277cf8f50525cc43deb5c9042",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-w.png",
+      "sha256": "3974fbc8a431b2cd7c336be8c074d25205ca849e0bb34e825e1f6f94145c3ecb",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-s.png",
+      "sha256": "99e945e6ff659a60a78b260fa4f1e75c95920ae67aa25d1d7f10179b26fa0879",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-sw.png",
+      "sha256": "978d0baed39f9f0cf049c4569d978823882d222daf9973b450d26df94f7976fb",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-e.png",
+      "sha256": "06a0e053dea6db0031b0359e0e70700c497041d23b918b0e40650f39de808cb0",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-ew.png",
+      "sha256": "b11bf7918151a0bd4e4186136bb9ea69799f86d0602f6bae7efb2683d4769803",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-se.png",
+      "sha256": "46338928f507a72d61d83c04c3b5298d9de26756174d19e10a9ef7654c983bc0",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-wse.png",
+      "sha256": "d824fe0bfeabcefb88c54ec822fc3f1790b2fdc4e50ccc1c47a724511a1f348e",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-n.png",
+      "sha256": "5fff0f0147bff4234681277410ef7c1b641cb80c24e1a7dd7d7cffde99bab016",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-nw.png",
+      "sha256": "440b6329730a169cc73dce4da085d043cf6da2b94da9f111dd3d42a156368097",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-ns.png",
+      "sha256": "5679acc50841f52b8bb9cfe5fd4f4e6f800f8678891dc3d73b990cc7b0f4920a",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-nws.png",
+      "sha256": "229cd200b5fb0d1351e43c3bb6bf5a08e714c62d112187dd2fdd1a829a1b4a5c",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-ne.png",
+      "sha256": "9d8ac90f2991bc775adac56fa8c5f0e30bd0eab7ea1ffebbb6d204962ef1c74d",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-enw.png",
+      "sha256": "e667b9a27fee14ce24586a00784b46107601f2dfd01b24c2ee774b125b94efb7",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-sen.png",
+      "sha256": "4ce765cb7c5053dcf360151d25e70bfedfb59eb41c612a01bab52e933bda062f",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-steep-w.png",
+      "sha256": "3ee4d9badb67fd2013b63655610db4d33665b9f938a21dcda77943d9e24af4b1",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-steep-s.png",
+      "sha256": "dc3d099c32c8ff22726e1d819abdb9fa3a80c0263862d512a6a804b839bed92a",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-steep-e.png",
+      "sha256": "192f266e6229c7ec58c541588f80229fba156cf51e31c5cc7ebd99c3cb948bab",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-0-slope-steep-n.png",
+      "sha256": "bb9e0028f3280a8992a5b67c5e9a54a1d48bb1f6462b01b377a9ba421c0923fa",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 0,
+      "slopeCode": 29
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-flat.png",
+      "sha256": "842d1ad96e77258687d309a1a169de9b7f14dbab7cfd938fde21944e304dc1d6",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-w.png",
+      "sha256": "677ec9558f4e1af40ea56e5156b7be33e09c00a548ff52c0ca4fbf7d2f303f4e",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-s.png",
+      "sha256": "5d096ff7b4edf5cb3a69fb51e9be2920644648b43024bc87b466529d8aaff65b",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-sw.png",
+      "sha256": "83cbf10c27fec2acfa6c2f967fd801e4b84aa23a944300fecf22ec91d43997ad",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-e.png",
+      "sha256": "79f1a16cbe6dd1e365fec15094ee4c6ce014e1c59d86154ad6ca3dff9081c900",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-ew.png",
+      "sha256": "186987d4a3e3bba4f4c2225ad57d3bbdb3b8420f4f1fb2ce7bafd2a6620af792",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-se.png",
+      "sha256": "8021493f37f7adb0fbd21a08073e7415d6467b274705c2ec50325bcd49e2ea82",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-wse.png",
+      "sha256": "78afdf7ffa103fb8ff7c70fd0141dd63075e637ea22203a5760691f672b5fc25",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-n.png",
+      "sha256": "1222f1dda770bd0831d4d5ef7e10ffc17898c5cfb99f1cfb7d2a9f0f5a919a68",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-nw.png",
+      "sha256": "aecce9a8a7a3dcdca1911c0e5a647a04f8e5b444721db4aa0063dd14c9667bf5",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-ns.png",
+      "sha256": "df526e5f97c62024abd1716610f4934dae1cc062ba8b9f82d59b9a5c13dcb67e",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-nws.png",
+      "sha256": "4d5535bcb7a7b3903039b3fc79af8e9119bcb9b2e0f91b3c8978e6d5566e00ba",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-ne.png",
+      "sha256": "d30b027aac35f9603d4fce2bdc8860ab41c12c88a31b48b3996fa263704c1174",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-enw.png",
+      "sha256": "1a9c5a7c83749dd3fb5ea8ed2c06fb57496ffb4e07954e23ded32780b3734741",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-sen.png",
+      "sha256": "8dc961fb4d267ad43ec3ed555f2bf1302bee6aabb1f1df42de454b290ab9faaa",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-steep-w.png",
+      "sha256": "f2549ab7eec44953a2455df535649885931fcb5f2a82b2c0ac0677aff5484d78",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-steep-s.png",
+      "sha256": "bf769de84c5e41c472f41388e88b9bba0925859355123e94e969f894b0b89efc",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-steep-e.png",
+      "sha256": "c9ad4436aa5e87f1387dedfd6604dec177aa7d6181e78cb4e00000a06817a056",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-dry-layout-1-slope-steep-n.png",
+      "sha256": "cbca617f9d60610b379a74d04e266a1ebe596b9d71cbd4c04c0beeb09daeb40a",
+      "category": "rocks-overlay",
+      "overlayState": "dry",
+      "layoutVariant": 1,
+      "slopeCode": 29
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-flat.png",
+      "sha256": "abe09a500561999437dc5efc251bf139b1b844b5739f97f62bf6f4d190979a7a",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-w.png",
+      "sha256": "ab0d96c9815de178a73c3e26a3efb23aacf1aebf50b7c1effac04b483897aeb1",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-s.png",
+      "sha256": "2d6562b2a356e034b995b6b52bf0eea880210a42ed086531a293c6a1510675c9",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-sw.png",
+      "sha256": "59433de19946c87406c36e3b37686b2a6c39f274bb8ea0aaf8e6fb22d98865a3",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-e.png",
+      "sha256": "d0a854bfa5c783a7b9ba728553523b0d96995895a597654d2a5fb196e99be3bb",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-ew.png",
+      "sha256": "cd1b7b689d4d446bb8537a58433c6bd9d4f3ced5b4ba852dfc8a04026d4345d2",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-se.png",
+      "sha256": "659ded6a07aa71778e332dead9877e7709c42917df8ed2efe645848ca516008f",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-wse.png",
+      "sha256": "5571269e05ae1d789b52f1c38ed2aa47561e32554f66463c7371d80daa2aebbf",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-n.png",
+      "sha256": "4c59645acd713d1b0f4dc8d2f79ee07d96db2ae2e3cbc5a4e8f17374a435037b",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-nw.png",
+      "sha256": "311bc027b4f9554afcec03eb25553c68d2091b2b74932488fee3af8fbe7fde56",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-ns.png",
+      "sha256": "1d1a967a05094a2bb846796d76543266d2b742608d684e2f45b44710d36aa5d0",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-nws.png",
+      "sha256": "ba9c7a255307178045f835d32a586670f314e6c0e178f33cd454a0865651bf27",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-ne.png",
+      "sha256": "3034caa7ce69a439e6364f840bc424452f2bd3584bab1d19c98b21e7af7e899b",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-enw.png",
+      "sha256": "9aa2f87aa1e87368be38bfd7981fae909f2c18827273d69de8b106cbd599d7ff",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-sen.png",
+      "sha256": "9de76cb1aeb1017fc214cb97bfd023221e8e736e642f6e9c465c643dce43cc66",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-steep-w.png",
+      "sha256": "75606668c056ecfc12088c06d5dbd498e8c296b9fb21babf9523311bdb9ac35f",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-steep-s.png",
+      "sha256": "fa5ef9443b389a84c52882066dca7902456652e1cc8a0fa11baa7bf30b7a60e7",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-steep-e.png",
+      "sha256": "db7d93e04b6709680c88a88e2616edef189a4d7969ec6329144d8af5474dd78c",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-quarter-layout-0-slope-steep-n.png",
+      "sha256": "366e0e5e3b9aa695199414a18e077f9ed1720c3796320f6103401b0f5f525194",
+      "category": "rocks-overlay",
+      "overlayState": "snow-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 29
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-flat.png",
+      "sha256": "3ad483c5f355839fa441367459ecbda1e6b9fcd0c4dc5b141c1dbeb32329fb8d",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-w.png",
+      "sha256": "41f5ddeb3398a8dc13a311c465855027fd21831f76ee161126b976243d2b82b6",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-s.png",
+      "sha256": "23c34070253ccd6eea8a6d3792a3f6ce6d35ea61a090eadf32c58e8aa100b59b",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-sw.png",
+      "sha256": "9fbf5a587e9f517469dfa853a94902772b4256c3d249b7c75dcef97e6f70c40f",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-e.png",
+      "sha256": "c2339cea61c47ea298bddcac1f70238ecb787b8eb30628ca0896c8486ab4e7f5",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-ew.png",
+      "sha256": "49f4911d71663abb379efb71707ddfc88bb0a54e1481456a70631e481b08e268",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-se.png",
+      "sha256": "e4822d6f0183b2f17e3a61541089c1e821af2669828bad22c90fdd026878daa1",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-wse.png",
+      "sha256": "ea7210ab5af02f8c1c3322c9c8ccea287726171c3239ef502ed85a7a7913af9d",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-n.png",
+      "sha256": "97dfdd05943189fdd90fed9febb39952666b8e45c9a5df66fcbb038c868eaf11",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-nw.png",
+      "sha256": "a54b9d2ca0b6c750f78668f36678016a46149f5f6aa67d4206490ebe94348e28",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-ns.png",
+      "sha256": "3ebdd9687657f8f82f587875078209167fd68d513436f15e65e4e918a41b0761",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-nws.png",
+      "sha256": "85c55cd80270d0f72be8ff1880ccab35e3987dea74c87b5c57cbed6c5d0176c2",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-ne.png",
+      "sha256": "8dd98dba8c19ac562d110a1e9e8f8a65c73b250c55094c9e799719504ea5bad5",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-enw.png",
+      "sha256": "b20746469c8afb037a2547d467f2dfdc54254482216911d8f4c2d31f620f2385",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-sen.png",
+      "sha256": "caa24e14d17e35a80f3dc8071c812b0f4e51a682b188898eef2777f76e3c7992",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-steep-w.png",
+      "sha256": "975abc1d5a9a764aad9e2c5f53a58cda4ebd81b36ce0510e91808c6a644a7312",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-steep-s.png",
+      "sha256": "f079cb7f683118f45b545b1ea4f8964120a2c9544d5a7aa384f62dcda99d0a66",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-steep-e.png",
+      "sha256": "0d4bf6e8f00a7bae6ea6ee0190fce5ea37a22c7f180ea9075231acb6025a7627",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-half-layout-0-slope-steep-n.png",
+      "sha256": "50dbc65696ccd6e5bea06fc12120ad510a921e79ba2ebeef608ac75849b7a4f3",
+      "category": "rocks-overlay",
+      "overlayState": "snow-half",
+      "layoutVariant": 0,
+      "slopeCode": 29
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-flat.png",
+      "sha256": "ad455b15300e80ed4731cf69c399499c21cc28faadba876ee7c720981b59ec77",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-w.png",
+      "sha256": "8b013587641e3e9befc92ce6986a484deb6bfbc8cd49d642e32c4b353456b646",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-s.png",
+      "sha256": "1ca9ea4c854ed56cc797a86806d8a77c2856ef7a3f6282bd6bc4e3628d76718e",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-sw.png",
+      "sha256": "852e9653fa18ccd0c564aca10aa2a0241de541611d2de0ac63f297afb210a6dc",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-e.png",
+      "sha256": "a746b7ab059cb227223224ab6ea8e870b0d8721eafd925a4501be4873c51c731",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-ew.png",
+      "sha256": "6b2a45adad61ebbd9b4a41673d196c11a3863d589ed10737bf06a20070751249",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-se.png",
+      "sha256": "dad25f3c6327a45b00cd58982d6baa8fe57a6dd41925b21aa95197ffe04c97f5",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-wse.png",
+      "sha256": "bf84eb69db1ab91673ae202f51057794c69945f57ae6ed1b35cb569bc5d4f8bb",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-n.png",
+      "sha256": "80467bb11f0657d690abda50bc268e34152360abc0cdf3bb828c5d05a849095e",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-nw.png",
+      "sha256": "0e3e7d2559a7de44e3c09dfc262c1465208c296098df5a837b7f0b998eed6475",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-ns.png",
+      "sha256": "3639b0a349ea89e13fc7092c11028bd409bd882dede638e9e47f7acd5590482a",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-nws.png",
+      "sha256": "1afdb80d79ffc43df25890bd5bbe4c42ca2e5d1742a9e1f95e5710bf6cf97814",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-ne.png",
+      "sha256": "da17db4b2af4352a3ae2597f97f9fb5fd444f23ae1058ce805c1fd8f8c379377",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-enw.png",
+      "sha256": "14c72e96cbcf5616d333f0bc0739de398b42d8326ace1eef383085b124d83e5f",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-sen.png",
+      "sha256": "a4cee48d58b701f65b8389c8ff09f7764da8566a9317aa4760bf8c300fbf9c61",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-steep-w.png",
+      "sha256": "bc3aa3801cf7cf86f95d396044046d5467b15e557fc737165d63edc52881c660",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-steep-s.png",
+      "sha256": "ec8abc1cc776fa9507b27cc98a45057108bc51ecfb78631982d8dfd4306a7262",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-steep-e.png",
+      "sha256": "15cf959ca11261a37c947e11763a6d515b826923aa1ea1f1a9a525d05abf9d5a",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-three-quarter-layout-0-slope-steep-n.png",
+      "sha256": "8aed5d247cc4068a89aef8349ee260efade97a73ce0a45a943b26873a6ae2824",
+      "category": "rocks-overlay",
+      "overlayState": "snow-three-quarter",
+      "layoutVariant": 0,
+      "slopeCode": 29
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-flat.png",
+      "sha256": "4aa8f19d2d7e73b0dfa242b4f72f6ee8e314af8d044c917219f19e88f4cd558b",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-w.png",
+      "sha256": "eac0378ff18bcefb9c78efba803c2bdd26ac0de14d890bee36f3fde18b5ce8df",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-s.png",
+      "sha256": "339df04e29dbcbcf17f1cf95f3c9ac7cd1f9e5ac6b39dc1645bcb29d28afe292",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-sw.png",
+      "sha256": "42fa712795e3b2ad6a781bfe51f8d12fc7226912d5d12dc2c494ba2274c8e8eb",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-e.png",
+      "sha256": "2d25daaf2fb25cbb9f620d2968262286d8179f9c48333353d4658221da6e7273",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-ew.png",
+      "sha256": "3fcfa969498b9dedddabf9b01467e8100335a22247dacf7c1c298b8244218a7a",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-se.png",
+      "sha256": "e36e9bb5061136dafbbaadfc16f68f151455fae7c495fbc1c78829a20f185616",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-wse.png",
+      "sha256": "68ba6f610b7b18e41544c64fc3183a4ac35a1e1165c71e75a5907ebf432be944",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-n.png",
+      "sha256": "41c371469407d5ef46bbf1ef123be5620852b4f7ccf5860e87b0ec655dcde4f5",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-nw.png",
+      "sha256": "b9c6bc1eb5131606cc1a9ed19d3584d1b840c2024fbe066f2d18c7f864ee0c1f",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-ns.png",
+      "sha256": "e36860e3c56ade926d7a896ec0493d45fab2465b49f446ee3e3dfc00692b01f5",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-nws.png",
+      "sha256": "318e309eac506788271d38c3aed3ed1faba9125c460d697a7bf9a8d11ef5a635",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-ne.png",
+      "sha256": "e879970b7220c9429dfd085d299ffb83f2971a39bd1095c695c3e643e7d0b780",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-enw.png",
+      "sha256": "8cc488d541f7100cf8d2b634b5bc803775c0ae0688573a7cbe7c81c772539c5d",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-sen.png",
+      "sha256": "787e6ab6fcc452c6c6a16fdb8c75fee683a52bf9f315392b4f7b3f99a0d52ef9",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-steep-w.png",
+      "sha256": "45a8e7e6c1f8aac8e2eb7d7a31ef8aeaba6d67ec165b2b2ab13f805793f87d13",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-steep-s.png",
+      "sha256": "6d1c56a0788ee49bc22a370c0c310dbd3528d359cd5d4abc68aa7a947ac9fb5d",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-steep-e.png",
+      "sha256": "bc1666fbed4c85ca47081aa474f43f5fbda9a18a9b38c6d516d0f55c6fdeeca0",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-steep-n.png",
+      "sha256": "2c2e15f6425aa0b53d7baf42c9f5ea06c63824c75a8b16584c3093c8401f7ee9",
+      "category": "rocks-overlay",
+      "overlayState": "snow-full",
+      "layoutVariant": 0,
+      "slopeCode": 29
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-flat.png",
+      "sha256": "b369b02294ef44d65d25cad895b6cf0b32399f910e1b3ef8301bd4b8893c738f",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 0
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-w.png",
+      "sha256": "598a2cec908dbf6df444e44ad96bc27698ab253e01a91d97e19aed8f83439bac",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 1
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-s.png",
+      "sha256": "586ad62ac59aa1ebbe88102e9c0b4a2a1c7f3258a874862e4fe209e234c2a107",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 2
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-sw.png",
+      "sha256": "97368ba07c5e3f78d683567e8d9bd3c39a6d32d64f0561eadd3afb8553f05559",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 3
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-e.png",
+      "sha256": "230224960edcbadbb83fe4a3c5ecceb29bbacfa77c26475f43dc548664f2d692",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 4
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-ew.png",
+      "sha256": "db1cb58ef942cd30d6c4b6627afbd5ae6c82326bfaa6179ed7dd68ced5e6eb2d",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 5
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-se.png",
+      "sha256": "52c74621b0275fb80693a4e660936f3a7e5bc9111155a138b1bc9f7efe1bc5f8",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 6
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-wse.png",
+      "sha256": "914fababc0aae53224139a0031fd5a92bf39ea6a2a312282b895227cfc60c6b7",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 7
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-n.png",
+      "sha256": "9d0b8072093c8785194beee29c3f0c8f4a5597741e6796a72c6191cc1a4a0141",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 8
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-nw.png",
+      "sha256": "de27605e21b68044b1ff518f2ebe264cbc519ff419a8a2770f76ca1c78254eca",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 9
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-ns.png",
+      "sha256": "27143ec1998e8e38791a4457f30b5770fa283c3327715ba9e9d339cbf5ade095",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 10
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-nws.png",
+      "sha256": "bc5249cf3a1a2fc45ac2414a75b35f39998e6889e3cbdd2de2da4aee58298342",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 11
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-ne.png",
+      "sha256": "d1862e05425763a5ea158d53d27bd141eda0bba6ec580f81215c066fe97794a4",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 12
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-enw.png",
+      "sha256": "792c289402cffbed33c395f4396152a400a76422142421245a922a54219e593e",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 13
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-sen.png",
+      "sha256": "701f59e0ba910496ecee17506b0f9ab9076057c725a8f05177f3b530fb13adb4",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 14
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-w.png",
+      "sha256": "3d200dbf1804cd385df4a38ecbb0c05a768419c684040533d1554abb2e7d8a70",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 27
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-s.png",
+      "sha256": "e0657b28cc697cab05c6084aa6c701eba44429b7281730db2d7736baf2448163",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 23
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-e.png",
+      "sha256": "d23fcf9a6951f006eb7a6d8eb5ecb67ecea39aa2222a93b5787b119d7a30b67d",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 30
+    },
+    {
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-steep-n.png",
+      "sha256": "37a3bf50ed436751d6ff3b31b69435c7098113649dde4f6013b0592f6bd2b28b",
+      "category": "rocks-overlay",
+      "overlayState": "water-coast",
+      "layoutVariant": 0,
+      "slopeCode": 29
+    }
+  ],
+  "reviewedPages": [
+    {
+      "image": "previews/world/rocks-overlay/native-parts-01.jpg",
+      "sha256": "dc0887a44183f34260936709795ab5d5457493e6681ad1dbfa5b0ffd6b736ac6",
+      "status": "locally-reviewed",
+      "sampleCount": 18,
+      "findings": [
+        "Six native painting states and3identities inspected. Snow caps visibly increase, wet moss/stone appearance distinct; no shared complete baked ground/water layer."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/native-alpha-edges.jpg",
+      "sha256": "6427ed53df8f1c5d96865af994561808384750d85cc2d45ad900e5be588e66cf",
+      "status": "locally-reviewed",
+      "sampleCount": 36,
+      "findings": [
+        "All18registered96px painted parts actually inspected on both light and dark panels at1:1. No blocking glow rectangle, discoloured fringe or lost snow silhouette observed. Native mother alpha was not perfect; declared body-alpha ownership cleanup is visible and verified."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/dry-layout-0-01.jpg",
+      "sha256": "1bce2e0c44972af011bf2b6461e331b2a6c4f890bc16ae2b262e2f51c3e7fd8b",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19source slopes in this native state/layout inspected on actual grass/snow materials. Stone shape stays upright, native snow cap is visible, feet align to the raised ground; dry second layout is a declared rearrangement of the same3mother rocks."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/dry-layout-1-01.jpg",
+      "sha256": "77c94eb77e6956e2d6350228be126cb4b6fe2acd7b17884bac5983c2f8d4e84d",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19source slopes in this native state/layout inspected on actual grass/snow materials. Stone shape stays upright, native snow cap is visible, feet align to the raised ground; dry second layout is a declared rearrangement of the same3mother rocks."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/snow-quarter-layout-0-01.jpg",
+      "sha256": "629b0611c2be4f83bca249a5bb6b85a21d7c9e4a5405f5cbd476b32a7345087f",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19source slopes in this native state/layout inspected on actual grass/snow materials. Stone shape stays upright, native snow cap is visible, feet align to the raised ground; dry second layout is a declared rearrangement of the same3mother rocks."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/snow-half-layout-0-01.jpg",
+      "sha256": "a034131a834eb10fb12f4f9eb476ea9acd18310c9e7e8ff9094e573f5373e040",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19source slopes in this native state/layout inspected on actual grass/snow materials. Stone shape stays upright, native snow cap is visible, feet align to the raised ground; dry second layout is a declared rearrangement of the same3mother rocks."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/snow-three-quarter-layout-0-01.jpg",
+      "sha256": "49e7c46a0926f4f2052fdb742cc7fc7e9fca0735ad0c2a7f1049a4c9f0d24b7b",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19source slopes in this native state/layout inspected on actual grass/snow materials. Stone shape stays upright, native snow cap is visible, feet align to the raised ground; dry second layout is a declared rearrangement of the same3mother rocks."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/snow-full-layout-0-01.jpg",
+      "sha256": "21b1d8462dc0f787a8548b9ce89e34267cbdac5ce65635a8363975d9007e9523",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19source slopes in this native state/layout inspected on actual grass/snow materials. Stone shape stays upright, native snow cap is visible, feet align to the raised ground; dry second layout is a declared rearrangement of the same3mother rocks."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/desert-combinations-01.jpg",
+      "sha256": "c4bdbeb4d56315554f2fb71e988cbafe38df6752c5eaeced54696c6da869fa7d",
+      "status": "locally-reviewed",
+      "sampleCount": 20,
+      "findings": [
+        "All4quarter-based sand mixtures×19slopes actually inspected with independent dry rock overlays. No gravel-only substitution, apparent clipping or floating contact observed."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/desert-combinations-02.jpg",
+      "sha256": "8186e8cb48e90514e62705bae4b6cf43efca90842abb3ceafecf64a9faecc4aa",
+      "status": "locally-reviewed",
+      "sampleCount": 20,
+      "findings": [
+        "All4quarter-based sand mixtures×19slopes actually inspected with independent dry rock overlays. No gravel-only substitution, apparent clipping or floating contact observed."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/desert-combinations-03.jpg",
+      "sha256": "fe57af7d465eeef814f49bd90c3ffd9fa2a461a6ab4f67a11ae885ccbc9ba2fd",
+      "status": "locally-reviewed",
+      "sampleCount": 20,
+      "findings": [
+        "All4quarter-based sand mixtures×19slopes actually inspected with independent dry rock overlays. No gravel-only substitution, apparent clipping or floating contact observed."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/desert-combinations-04.jpg",
+      "sha256": "4afe90ef362598517783455e4ad2fbf807cc28d4205786b410debd9172b866cf",
+      "status": "locally-reviewed",
+      "sampleCount": 16,
+      "findings": [
+        "All4quarter-based sand mixtures×19slopes actually inspected with independent dry rock overlays. No gravel-only substitution, apparent clipping or floating contact observed."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/water-coast-combinations-01.jpg",
+      "sha256": "775ea90c74db1a1183f5919c42d307d4f8d32c0be4dd8f9f7c6a47149c08c40a",
+      "status": "locally-reviewed",
+      "sampleCount": 20,
+      "findings": [
+        "Current48CoastRocks combinations use formal source-height shore geometry, horizontal-only water and correct DryOut null-water states. Old visibly floating-stone candidates were replaced. All3wet-stone contacts visually sit on their current land/water bases; no old flat-backing fallback remains.",
+        "ClearRocks Sea/Canal/River images retain separate water and rock layers; water animation is still engine work."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/water-coast-combinations-02.jpg",
+      "sha256": "df090cbed97533055105f3992337bb046bda1b75ef810df719b59de47f130414",
+      "status": "locally-reviewed",
+      "sampleCount": 20,
+      "findings": [
+        "Current48CoastRocks combinations use formal source-height shore geometry, horizontal-only water and correct DryOut null-water states. Old visibly floating-stone candidates were replaced. All3wet-stone contacts visually sit on their current land/water bases; no old flat-backing fallback remains.",
+        "ClearRocks Sea/Canal/River images retain separate water and rock layers; water animation is still engine work."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/water-coast-combinations-03.jpg",
+      "sha256": "eb454af75b05c35b333038ae6b34e6caf56644996860443999b2f9ade52da2ad",
+      "status": "locally-reviewed",
+      "sampleCount": 11,
+      "findings": [
+        "Current48CoastRocks combinations use formal source-height shore geometry, horizontal-only water and correct DryOut null-water states. Old visibly floating-stone candidates were replaced. All3wet-stone contacts visually sit on their current land/water bases; no old flat-backing fallback remains.",
+        "ClearRocks Sea/Canal/River images retain separate water and rock layers; water animation is still engine work."
+      ]
+    },
+    {
+      "image": "previews/world/rocks-overlay/wet-overlay-slopes-01.jpg",
+      "sha256": "6b5c97d057692cc464b4b090bb9348249f748ad800e82b95d867e636688ea7cd",
+      "status": "locally-reviewed",
+      "sampleCount": 19,
+      "findings": [
+        "All19wet overlay slopes inspected as independent real-alpha stone layers. Bodies remain upright and per-stone heights change; no tile ground is baked into overlays."
+      ]
+    }
+  ],
+  "reviewedNativePartCount": 18,
+  "reviewedIndependentOverlayCount": 133,
+  "reviewedCompositionSampleCount": 241,
+  "coastGroundManifest": {
+    "file": "assets/world/terrain/shore-geometry/manifest.json",
+    "sha256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+    "rule": "Use formal current source-height layers/whole. Old water-states flat shoreline paintings are not authoritative."
+  },
+  "coastRockRecipeCount": 48,
+  "clearRocksWaterClasses": [
+    "Sea",
+    "Canal",
+    "River"
+  ],
+  "localVisualPassed": true,
+  "unresolvedBlockingVisualIssues": [],
+  "gallery": {
+    "file": "previews/world/rocks-overlay/index.html",
+    "sha256": "d63f713ebb2dbcd3257b34318e9b21847ee5f7a1540ae38294a70f04fb9595f1"
+  },
+  "scope": "All16current-hash contact pages actually viewed, including all133variant overlays through actual contexts or wet-overlay slope sheets and241compositions. This is local illustration/geometry inspection; source-SHA and C++/layer checks are separate mechanical evidence. It does not approve legacy gravel mappings or old flat shore sprites.",
+  "userAccepted": false,
+  "unityValidated": false
+}

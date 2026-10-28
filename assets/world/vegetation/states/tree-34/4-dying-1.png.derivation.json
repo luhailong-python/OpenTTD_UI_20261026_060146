@@ -1,0 +1,39 @@
+{
+  "id": "tree-34-dying-1",
+  "image": "assets/world/vegetation/states/tree-34/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "acaf55f7228867ad612716cffea087690d88df5546f484511c0d211c8e515c5a",
+  "climate": "toyland",
+  "artSpecies": "cotton-candy",
+  "sourceTreeType": 34,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-34.png",
+      "sha256": "51d12a2f62a0f01dc1351266dbe436342559c4b5fe1727b0a86fd3f4c9a3f3bc",
+      "record": "assets/world/vegetation/mature/tree-34.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-34"
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "id": 186,
+  "upstreamName": "MightyMover Toy Van",
+  "familyId": "road-box",
+  "transport": "road",
+  "cargo": "CT_TOYS",
+  "climates": [
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 289
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/N-body.png",
+      "sha256": "91bb1d37a1f76130c6705833b24ff0428305b649321573b619d1064ef84f2fc3",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/N-body.png",
+          "sha256": "91bb1d37a1f76130c6705833b24ff0428305b649321573b619d1064ef84f2fc3",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/N-body.png",
+          "sha256": "91bb1d37a1f76130c6705833b24ff0428305b649321573b619d1064ef84f2fc3",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/N.png",
+          "sha256": "ffe1fb2c7f4169c0ff150fdceb3e923cce144860d24219c25f37a9b188fd4a78",
+          "record": "assets/world/vehicles/families/road-box/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/NE-body.png",
+      "sha256": "5c3fe6d5da97aab6bb7a42d92763e505d539fd8bf175d4869040d14e483a279a",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/NE-body.png",
+          "sha256": "5c3fe6d5da97aab6bb7a42d92763e505d539fd8bf175d4869040d14e483a279a",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/NE-body.png",
+          "sha256": "5c3fe6d5da97aab6bb7a42d92763e505d539fd8bf175d4869040d14e483a279a",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/NE.png",
+          "sha256": "744963f882bc7532600e5c5594c2dea943405f4c569795717fe9bcecfcf5333b",
+          "record": "assets/world/vehicles/families/road-box/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/E-body.png",
+      "sha256": "09798ad47db642f8175e4feb0ab7741e602ece340f9936c53f44bbaa572e635e",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/E-body.png",
+          "sha256": "09798ad47db642f8175e4feb0ab7741e602ece340f9936c53f44bbaa572e635e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/E-body.png",
+          "sha256": "09798ad47db642f8175e4feb0ab7741e602ece340f9936c53f44bbaa572e635e",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/E.png",
+          "sha256": "fe0d733f2c8c806e5312dd7d6ee29cd3a880d22ec2ed18aba9a960a34cccc2c4",
+          "record": "assets/world/vehicles/families/road-box/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/SE-body.png",
+      "sha256": "ecb9cf3022924b4664bb3dc15b7254cc836abf71d2ffd6cd463fd45a58b98783",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/SE-body.png",
+          "sha256": "ecb9cf3022924b4664bb3dc15b7254cc836abf71d2ffd6cd463fd45a58b98783",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/SE-body.png",
+          "sha256": "ecb9cf3022924b4664bb3dc15b7254cc836abf71d2ffd6cd463fd45a58b98783",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/SE.png",
+          "sha256": "30a8d40bb3aa5e2bf7cd9e30120907aa1b1242e53eae33e7659cfd93ef2d5a20",
+          "record": "assets/world/vehicles/families/road-box/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/S-body.png",
+      "sha256": "042b1531549ba809040306d1227a60df518a73f91d2c9be1adac7d3685fcc974",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/S-body.png",
+          "sha256": "042b1531549ba809040306d1227a60df518a73f91d2c9be1adac7d3685fcc974",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/S-body.png",
+          "sha256": "042b1531549ba809040306d1227a60df518a73f91d2c9be1adac7d3685fcc974",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/S.png",
+          "sha256": "cdfce8802b09fef7c73abec45443179745154cd6a1d379023cce94c146d73584",
+          "record": "assets/world/vehicles/families/road-box/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/SW-body.png",
+      "sha256": "998b46cb5b8d91e490a70bea562434d3c4c7247293976cf9ddbb39eeeb671073",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/SW-body.png",
+          "sha256": "998b46cb5b8d91e490a70bea562434d3c4c7247293976cf9ddbb39eeeb671073",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/SW-body.png",
+          "sha256": "998b46cb5b8d91e490a70bea562434d3c4c7247293976cf9ddbb39eeeb671073",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/SW.png",
+          "sha256": "49a787caae312617ba230f3fa0ec063fb15b09fc13cf2a502a7ea4721b0014c1",
+          "record": "assets/world/vehicles/families/road-box/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/W-body.png",
+      "sha256": "047304dcd2e71e4ebed2dcf67d1e41d08c4313926a0cba1de8994bacb5975e32",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/W-body.png",
+          "sha256": "047304dcd2e71e4ebed2dcf67d1e41d08c4313926a0cba1de8994bacb5975e32",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/W-body.png",
+          "sha256": "047304dcd2e71e4ebed2dcf67d1e41d08c4313926a0cba1de8994bacb5975e32",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/W.png",
+          "sha256": "1b71bc1178db0cb5d59b15e1fa90a87e141c0734d8d12dac7d1bc5ab184e7d09",
+          "record": "assets/world/vehicles/families/road-box/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/186/NW-body.png",
+      "sha256": "189150071f258209d4d785093804e6c45e38cf58a15d0c15a7920c9342992498",
+      "states": [
+        {
+          "state": "empty",
+          "file": "assets/world/vehicles/models/186/NW-body.png",
+          "sha256": "189150071f258209d4d785093804e6c45e38cf58a15d0c15a7920c9342992498",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        },
+        {
+          "state": "loaded",
+          "file": "assets/world/vehicles/models/186/NW-body.png",
+          "sha256": "189150071f258209d4d785093804e6c45e38cf58a15d0c15a7920c9342992498",
+          "sharedBodyWhenClosed": true,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": 2,
+        "jadeValueMultiplier": 0.99,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/road-box/NW.png",
+          "sha256": "d4ae23aefe13f002474c4f3100d39184914eb3bb8b6b897c6e08b66b7c49b243",
+          "record": "assets/world/vehicles/families/road-box/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": 0.5,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/road-box/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

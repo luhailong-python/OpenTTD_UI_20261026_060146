@@ -1,0 +1,45 @@
+{
+  "id": "station-truck-layout-4",
+  "image": "assets/world/infrastructure/transport-runtime/station-truck-layout-4.png",
+  "sha256": "59dbd88f755066dae2b329df8dc53e4a80708383d138cbeeaf642b65152d9f39",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/truck-bay.png",
+      "sha256": "59dbd88f755066dae2b329df8dc53e4a80708383d138cbeeaf642b65152d9f39",
+      "record": "assets/world/infrastructure/transport/truck-bay.png.derivation.json"
+    }
+  ],
+  "operation": "Shared painted stop shelter/loading bay with true native rear service view where required; X/Y drive-through topology is separate data, no new native painting",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "station-truck"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:08.649128+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "X",
+  "sourceLayout": 4,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

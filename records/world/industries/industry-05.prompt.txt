@@ -1,0 +1,17 @@
+Use case: stylized-concept / production isometric building sprite atlas. Create ONE 3-column by 3-row atlas of exactly NINE separate fully built transport-economy INDUSTRY FACILITY sprites on a genuine TRANSPARENT alpha background. Desired highest native resolution 2048 square. Equal cells, each facility centered INSIDE its cell with at least 12% transparent margin. No overlap between cells, no labels, no text, no numbers, no frames, no checkerboard, no UI.
+Image 1 and 2 are STRICT material/painting/style references only: jade and teal roofs, warm ivory plaster, warm wood, muted gold metal, rounded Q/chibi shapes, detailed clean painterly shading, modest Taoist cloud/ruyi details, very restrained red lantern accents. Image 3 is the exact gameplay camera/style guide: match its daylight, isometric 2:1 ground axes (26.565-degree diagonal ground lines), fixed orthographic 3/4 view and buildings with vertical upright walls. These are tiny game-world FACILITIES, NOT UI icons, NOT a splash scene, NOT photorealistic toys. Painterly and legible when small.
+Each sprite shows a complete distinctive facility compound at a consistent scale, with a minimal FLAT ground contact surface only; no chunky pedestal, no raised floating island, no background landscape. Full walls, roofs and essential industrial equipment visible. Keep foreground uncluttered, no large people or vehicles; do not surround with trees except where the industry itself is a forest/orchard. Each factory must be visually distinct; don't recycle the same warehouse shape. No smoke covering the sprite; operating smoke and moving parts are separate future animation layers. Entire art remains within its cell. Ground shadow subtle and within silhouette; actual transparency outside.
+READING ORDER, left to right, top to bottom:
+ROW1:
+1. SUGAR MINE: pale ivory sugar-crystal quarry with small wooden-and-brass sieve/screen machine, cream sugar piles and jade-roof sorting shed; no snow landscape.
+2. COAL MINE HOIST MODULE: a standalone timber headframe, brass winding wheel and hoist house as one compact piece, no coal ground field.
+3. INDUSTRIAL LOADING BAY MODULE: open cream jade-roof cargo loading canopy with timber pallets, crates and brass roller chute, no surrounding factory.
+ROW2:
+4. MINE ORE SORTING MODULE: timber conveyor trestle, ore hopper and separated three small rusty ore bins, no ground quarry.
+5. FARM GRANARY MODULE: round cream grain silo with jade cap and small open barn containing hay bales, short timber fence only.
+6. INDUSTRY WATER PUMP MODULE: brass wheel/valve assembly, cream pipe elbows and round shallow stone water basin, no building.
+ROW3:
+7. FACTORY CHIMNEY MODULE: two short cream brick chimneys and a low jade-roof boiler shed, no smoke plume.
+8. PLANT STORAGE TANK MODULE: two cream cylindrical tanks with brass pipes/valves on a flat base, no complete refinery.
+9. INDUSTRIAL CRANE MODULE: compact wooden-and-brass yard crane with hanging hook, small timber cargo platform, no cargo dangling far outside.
+These nine include one final source-game facility plus eight shared visual submodules for later source-gfx composition; the submodules must not be mistaken for eight additional source industry types.

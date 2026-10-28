@@ -1,0 +1,50 @@
+{
+  "id": "tunnel-maglev-SW-snow",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-maglev-SW-snow.png",
+  "sha256": "dbd647ac30099f0b5ddc9a38c9f5ff8ed4d319c9fc36d7f40f11e0641928a82c",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-snow.png",
+      "sha256": "c8c491c16f912b428cef841d7b5f91e560ab9b1eee99136b9d4149068ea7e5e7",
+      "record": "assets/world/infrastructure/transport-runtime/portal-lane-clean-SW-snow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-tunnel-maglev-SW-snow.png",
+      "sha256": "2533529bf04c5b01ec0060bbaf16a8cbeeda989a2d39af9747a58b654ffdf9db",
+      "record": "assets/world/infrastructure/transport-runtime/lane-tunnel-maglev-SW-snow.png.derivation.json"
+    }
+  ],
+  "operation": "Native front/rear portal; front only: actual painted central lane fitted to measured hole/approach and native floor Alpha removed; rear: lane correctly hidden by rock body; climate is declared colour grade",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-maglev"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:14.437842+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "climate": "snow",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

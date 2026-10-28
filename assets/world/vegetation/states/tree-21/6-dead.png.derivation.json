@@ -1,0 +1,46 @@
+{
+  "id": "tree-21-dead",
+  "image": "assets/world/vegetation/states/tree-21/6-dead.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "a2feb3f2d55e8445d275032bdf6bef45ae3e0c8c789a872b1b069a475dc8b5f0",
+  "climate": "tropical",
+  "artSpecies": "date-palm",
+  "sourceTreeType": 21,
+  "sourceGrowthStage": 6,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-21.png",
+      "sha256": "776591d996be8195a0e4d7b2ba6b13c414ec91f6a9e5f9fb08f9a592f4cdd15c",
+      "record": "assets/world/vegetation/mature/tree-21.png.derivation.json"
+    },
+    {
+      "file": "assets/world/vegetation/lifecycle/dead-palm.png",
+      "sha256": "346e95956789c11e7bbd38352b5c63c0a71d8e3d99539aedde4810b144b020cd",
+      "record": "assets/world/vegetation/lifecycle/dead-palm.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "shared explicitly painted climate/family death-state prop",
+    "sharedArtId": "tree-lifecycle-dead-palm",
+    "sharedScale": 0.4576271186440678,
+    "notSpeciesSpecificNativeDeathDrawing": true
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-21"
+  ]
+}

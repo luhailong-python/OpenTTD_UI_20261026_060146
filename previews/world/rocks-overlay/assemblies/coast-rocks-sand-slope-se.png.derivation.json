@@ -1,0 +1,72 @@
+{
+  "id": "coast-rocks-sand-slope-se",
+  "image": "previews/world/rocks-overlay/assemblies/coast-rocks-sand-slope-se.png",
+  "sha256": "7535fd41e6dfa95f90abb8b0f50d90b15f81d5ba82b3cd78df634c2873eb03b0",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-sand-slot-06-land.png",
+      "sha256": "9897d96518379f1a5eaab8164e9d4d85c96bc03727e1185b919ff6727f864ffd",
+      "record": "assets/world/terrain/shore-geometry/shore-sand-slot-06-land.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/shore-geometry/shore-sand-slot-06-bank.png",
+      "sha256": "93bfb97c8fb532c18bdb91b73527ea1cb43d4abdf39dffd1e1bba93bd901a26b",
+      "record": "assets/world/terrain/shore-geometry/shore-sand-slot-06-bank.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-se.png",
+      "sha256": "52c74621b0275fb80693a4e660936f3a7e5bc9111155a138b1bc9f7efe1bc5f8",
+      "record": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-se.png.derivation.json"
+    }
+  ],
+  "operation": "Formal source-height shoreline land/native-bank and strictly horizontal0-height water layers plus independently placed wet-rock bodies; source DryOut permits water:null, never add obsolete flat backing",
+  "context": "CoastRocks",
+  "shoreClimate": "sand",
+  "slopeCode": 6,
+  "sourceShoreIndex": 6,
+  "overlayId": "rocks-water-coast-layout-0-slope-se",
+  "overlayOffsetPx": [
+    0,
+    0
+  ],
+  "shoreOffsetPx": [
+    0,
+    64
+  ],
+  "formalLayers": [
+    {
+      "role": "land",
+      "image": "assets/world/terrain/shore-geometry/shore-sand-slot-06-land.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "bank",
+      "image": "assets/world/terrain/shore-geometry/shore-sand-slot-06-bank.png",
+      "offsetPx": [
+        0,
+        64
+      ]
+    },
+    {
+      "role": "wet-rocks",
+      "image": "assets/world/terrain/rocks-overlay/rocks-water-coast-layout-0-slope-se.png",
+      "offsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "groundWhole": "assets/world/terrain/shore-geometry/shore-sand-slot-06-whole.png",
+  "groundManifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "groundManifestSHA256": "cb98f9e4e4d8b683636cbc89e01e4a1682d3ddaf205bb6229948f5ac42774b53",
+  "sourceFloodingBehaviour": "DryOut",
+  "waterHasPositiveArea": false,
+  "waterAbsentReason": "The source integer-height mesh has no positive-area zero-height face; this legal DryOut coast touches the water plane only at the low corner. No fake water triangle is exported.",
+  "label": "CoastRocks sand / se",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

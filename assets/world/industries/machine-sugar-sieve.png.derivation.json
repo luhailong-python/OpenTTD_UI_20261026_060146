@@ -1,0 +1,60 @@
+{
+  "id": "industry-machine-sugar-sieve",
+  "file": "assets/world/industries/machine-sugar-sieve.png",
+  "sha256": "fee6c3d538ae4963464348a26ffcaee105f2a2f8788c9689fa21ab9b62d63a8f",
+  "canvas": [
+    512,
+    512
+  ],
+  "sourceCropXYXY": [
+    800,
+    890,
+    1227,
+    1171
+  ],
+  "nativePaintingBounds": [
+    800,
+    892,
+    1226,
+    1171
+  ],
+  "uniformScale": 0.8992974238875878,
+  "pasteXY": [
+    64,
+    195
+  ],
+  "pivotPixel": [
+    256,
+    448
+  ],
+  "pivotNormalized": [
+    0.5,
+    0.125
+  ],
+  "groundAnchor": "bottom tip of whole compound footprint, fixed 256,448; Unity y origin bottom",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBBox": [
+    64,
+    195,
+    448,
+    448
+  ],
+  "operation": "connected-component ownership of separate painted compounds; nearest parent ownership; remove alpha below8/255 subvisible matte noise, preserve meaningful disconnected fragments; crop; proportional downscale only; transparent padding. No enlargement or new AI generation.",
+  "derivedFrom": {
+    "file": "source-art/world/industry-e.png",
+    "sha256": "6a0a1fec8f64dd496421944f0923edc6922a66d71f82eaaabe69928d8cf96586",
+    "record": "source-art/world/industry-e.png.generation.json"
+  },
+  "sourceIndustryTypeId": null,
+  "artSource": "host_image_derivative",
+  "nativeImageCount": 0,
+  "validation": {
+    "hasRealAlpha": true,
+    "fitsCanvas": true,
+    "visualStatus": "passed-local-art-review"
+  },
+  "unityStatus": "import suggestions only, not validated in Unity"
+}

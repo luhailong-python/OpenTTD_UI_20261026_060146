@@ -1,0 +1,47 @@
+{
+  "createdAt": "2026-10-27T06:51:31.510Z",
+  "checks": [
+    {
+      "id": "all-17-state-and-detail-pages-load",
+      "level": "OK"
+    },
+    {
+      "id": "desktop-no-overflow",
+      "level": "OK"
+    },
+    {
+      "id": "actual-72-tunnel-and-all-bridge-source-caption",
+      "level": "OK"
+    },
+    {
+      "id": "all-image-links-return-200",
+      "level": "OK"
+    },
+    {
+      "id": "mobile-no-overflow",
+      "level": "OK"
+    },
+    {
+      "id": "browser-no-javascript-errors",
+      "level": "OK",
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "screenshots": [
+    {
+      "file": "records/world-production/transport-lane-gallery-desktop.png",
+      "sha256": "f16360d93fb4f27f0f43af96ca24dc70905d4045d8949d4d3f277ebc6bdada43"
+    },
+    {
+      "file": "records/world-production/transport-lane-gallery-bridge.png",
+      "sha256": "747ea901dfc54dbbe25d8288222249877c489765a870188da36bfe4686422815"
+    },
+    {
+      "file": "records/world-production/transport-lane-gallery-mobile.png",
+      "sha256": "246d1afa9ee4373d97423351a17e73eaa97911697c88a6350c69dfcc8aa1601c"
+    }
+  ],
+  "gallerySHA256": "aceca7bca0631ee66db9359a0d6a73808d4ab74b9890a96660ad3bdba5447139",
+  "limitations": "Browser QA verifies display and available links only; static lane/structure assembly is independently checked by PNG RGBA checks and visual review. Unity not run."
+}

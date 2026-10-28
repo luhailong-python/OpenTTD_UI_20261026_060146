@@ -1,0 +1,44 @@
+{
+  "id": "industry-20-rubber-plantation-construction-0",
+  "image": "assets/world/industries/construction/industry-20-rubber-plantation/stage-0.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "016af279c581048d8949fc571f9ba8f0cb2fddab92caa86d3f27b58a6c3158b1",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/rubber-plantation.png",
+      "sha256": "28db6f0b731dcf5348184217786dbafe91e770eb52f179a920fd68600e511660",
+      "record": "assets/world/industries/rubber-plantation.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "record": "assets/world/infrastructure/construction-ready/construction-foundation.png.derivation.json",
+      "scale": 0.7485148514851485
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 20,
+  "stage": 0,
+  "details": {
+    "kind": "shared industry foundation matched to compound front contact",
+    "sharedSource": true
+  },
+  "sourceRequirementIds": [
+    "industry-20-rubber-plantation",
+    "industry-tile-117"
+  ]
+}

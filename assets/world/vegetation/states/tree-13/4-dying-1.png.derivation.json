@@ -1,0 +1,39 @@
+{
+  "id": "tree-13-dying-1",
+  "image": "assets/world/vegetation/states/tree-13/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "6a242ff3ee2ca4e0a4ef8053e084006e77b016771260666b8726d970bd2c3ab6",
+  "climate": "arctic",
+  "artSpecies": "blue-spruce",
+  "sourceTreeType": 13,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-13.png",
+      "sha256": "823ae5200e02019e89626fb0a8d3b401a8ee67293df77455591533f8e61fb322",
+      "record": "assets/world/vegetation/mature/tree-13.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-13"
+  ]
+}

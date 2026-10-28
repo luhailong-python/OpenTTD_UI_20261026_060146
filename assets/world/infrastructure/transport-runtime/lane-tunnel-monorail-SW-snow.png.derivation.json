@@ -1,0 +1,75 @@
+{
+  "id": "lane-tunnel-monorail-SW-snow",
+  "image": "assets/world/infrastructure/transport-runtime/lane-tunnel-monorail-SW-snow.png",
+  "sha256": "83f8e3dd4275ca622f65caf630aa730b989fa371f7fed35a1ddaa4839628afac",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+      "sha256": "3206bdbbd156f02e815e16d8db365a6cbfe5de927b3c22660b913584901daae2",
+      "record": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png.derivation.json"
+    }
+  ],
+  "operation": "Measured real portal approach quad -> actual central lane UV texture; no grass tile; interior darkening colour grade; no painted replacement strokes",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-monorail"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:12.977992+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "direction": "SW",
+  "climate": "snow",
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "targetQuadPx": [
+    [
+      237.96,
+      393.98
+    ],
+    [
+      192.04,
+      371.02
+    ],
+    [
+      84.04,
+      425.02
+    ],
+    [
+      129.96,
+      447.98
+    ]
+  ],
+  "offsetPx": [
+    0,
+    0
+  ],
+  "uvOrder": "near-left inner / far-left inner / far-right outer / near-right outer",
+  "uvDomain": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

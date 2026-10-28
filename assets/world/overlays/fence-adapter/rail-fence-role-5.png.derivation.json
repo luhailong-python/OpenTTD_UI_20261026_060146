@@ -1,0 +1,76 @@
+{
+  "id": "rail-fence-role-5",
+  "image": "assets/world/overlays/fence-adapter/rail-fence-role-5.png",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "b5da28ca6ace910e0cd40a566e11b7829903558df39c58f1f9b393a5a0eccbe0",
+  "anchorPx": [
+    160,
+    192
+  ],
+  "pivotUnity": [
+    0.5,
+    0.4
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "source-fence-adapter",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/fences-shore/fence-wood.png",
+      "sha256": "01435bfbc42e5681d9853e7a0cfe5a455097dc70af003de42ea09c4907443e9b",
+      "record": "assets/world/infrastructure/fences-shore/fence-wood.png.derivation.json"
+    }
+  ],
+  "operation": "existing native-painted fence-wood;vertical-post preserving affine ground-baseline projection;no code-drawn fence/paint,no new native viewpoint",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "rail-rail",
+    "rail-electric",
+    "rail-monorail",
+    "rail-maglev"
+  ],
+  "sourceSpriteId": 1306,
+  "sourceRole": 5,
+  "sourceBaselineCalibration": {
+    "x0": 50,
+    "x1": 199,
+    "slope": -0.455988266145162,
+    "intercept": 198.41053913507258,
+    "fitRMSE": 2.9007685892745485,
+    "method": "robust interior nativeAlpha ground-contact envelope,not claimed exact model perspective"
+  },
+  "logicalEndpointPx": [
+    [
+      96,
+      176.0
+    ],
+    [
+      224,
+      208.0
+    ]
+  ],
+  "renderBaselineEndpointPx": [
+    [
+      96,
+      176.0
+    ],
+    [
+      224,
+      208.0
+    ]
+  ],
+  "actualVisualReview": "records/fence-adapter-visual-review.json"
+}

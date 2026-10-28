@@ -1,0 +1,54 @@
+{
+  "id": "lane-source-monorail",
+  "image": "assets/world/infrastructure/transport-runtime/lane-source-monorail.png",
+  "sha256": "3206bdbbd156f02e815e16d8db365a6cbfe5de927b3c22660b913584901daae2",
+  "width": 196,
+  "height": 52,
+  "anchorPx": [
+    98,
+    26
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "record": "source-art/world/rail-topology.png.generation.json"
+    }
+  ],
+  "operation": "Actual painted central transport strip crop and UV normalization; 2px transparent export border; roadside grass excluded; no new painted pixels",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "transport-lane-material",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:12.199823+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "innerUVRectPx": [
+    2,
+    2,
+    194,
+    50
+  ],
+  "nativeAtlasCrop": [
+    548,
+    695,
+    603,
+    897
+  ],
+  "nativeCropRotation": 90,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

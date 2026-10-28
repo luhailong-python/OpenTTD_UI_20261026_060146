@@ -1,0 +1,44 @@
+{
+  "id": "tunnel-electric-NW-desert-front",
+  "image": "assets/world/infrastructure/transport-runtime/tunnel-electric-NW-desert-front.png",
+  "sha256": "71a62f2f7a8967fbf110ba61fcca51a6de5c5ab5e9e67e68232adfb335480d0b",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/tunnel-electric-NW-desert.png",
+      "sha256": "991ce694fc5cffa956638e2a37ae085c1013bc0a69c3146c03ea7bfecc0bb6ad",
+      "record": "assets/world/infrastructure/transport-runtime/tunnel-electric-NW-desert.png.derivation.json"
+    }
+  ],
+  "operation": "Complementary authored screen-depth Alpha partition; retains every original painted pixel, engine occlusion not yet validated",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [
+    "tunnel-electric"
+  ],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:12.148184+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "layer": "front",
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

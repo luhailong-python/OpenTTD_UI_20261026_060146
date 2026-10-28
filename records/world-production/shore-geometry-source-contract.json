@@ -1,0 +1,111 @@
+{
+  "createdAt": "2026-10-28T11:34:45.518836+00:00",
+  "manifest": "assets/world/terrain/shore-geometry/manifest.json",
+  "sourceFiles": [
+    {
+      "file": "reference/OpenTTD/src/water_cmd.cpp",
+      "sha256": "ba0e13376f597330af6c588f525d3c82218f1b1ce9cfbd2a2beef8843e1d0c66",
+      "record": null
+    },
+    {
+      "file": "reference/OpenTTD/src/landscape.cpp",
+      "sha256": "c6166aa9c4ce20475d0f376d7b651dda40b5e6089f7382410da709f0d00ac2d6",
+      "record": null
+    },
+    {
+      "file": "reference/OpenTTD/src/slope_type.h",
+      "sha256": "ee8e3abfc8c98034a17b02b09ec823ce19ef71fc8422735304a97bb47d975996",
+      "record": null
+    },
+    {
+      "file": "reference/OpenTTD/src/table/sprites.h",
+      "sha256": "de61564d8e349c115b579e63b63b47c38e3462b3c48fd50b8d8b0b7d448c87c8",
+      "record": null
+    }
+  ],
+  "sourceSlopeToShoreTable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    16,
+    6,
+    7,
+    8,
+    9,
+    17,
+    11,
+    12,
+    13,
+    14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    10,
+    15
+  ],
+  "validStates": 48,
+  "reservedStates": [
+    {
+      "sourceShoreIndex": 16,
+      "sourceSlopeCode": 5,
+      "shoreClimate": "grass",
+      "applicable": false,
+      "image": null,
+      "reason": "DrawShoreTile explicitly asserts slope != SLOPE_EW/NS; slots are reserved by the table but unreachable for current flooding behaviour."
+    },
+    {
+      "sourceShoreIndex": 16,
+      "sourceSlopeCode": 5,
+      "shoreClimate": "sand",
+      "applicable": false,
+      "image": null,
+      "reason": "DrawShoreTile explicitly asserts slope != SLOPE_EW/NS; slots are reserved by the table but unreachable for current flooding behaviour."
+    },
+    {
+      "sourceShoreIndex": 16,
+      "sourceSlopeCode": 5,
+      "shoreClimate": "snow",
+      "applicable": false,
+      "image": null,
+      "reason": "DrawShoreTile explicitly asserts slope != SLOPE_EW/NS; slots are reserved by the table but unreachable for current flooding behaviour."
+    },
+    {
+      "sourceShoreIndex": 17,
+      "sourceSlopeCode": 10,
+      "shoreClimate": "grass",
+      "applicable": false,
+      "image": null,
+      "reason": "DrawShoreTile explicitly asserts slope != SLOPE_EW/NS; slots are reserved by the table but unreachable for current flooding behaviour."
+    },
+    {
+      "sourceShoreIndex": 17,
+      "sourceSlopeCode": 10,
+      "shoreClimate": "sand",
+      "applicable": false,
+      "image": null,
+      "reason": "DrawShoreTile explicitly asserts slope != SLOPE_EW/NS; slots are reserved by the table but unreachable for current flooding behaviour."
+    },
+    {
+      "sourceShoreIndex": 17,
+      "sourceSlopeCode": 10,
+      "shoreClimate": "snow",
+      "applicable": false,
+      "image": null,
+      "reason": "DrawShoreTile explicitly asserts slope != SLOPE_EW/NS; slots are reserved by the table but unreachable for current flooding behaviour."
+    }
+  ],
+  "sourceMaskClaim": "Reconstruction from source height geometry. Upstream DrawShoreTile selects external painted sprites and provides no independent pixel mask; no claim to duplicate an upstream artwork mask."
+}

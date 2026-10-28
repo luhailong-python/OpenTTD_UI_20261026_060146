@@ -1,0 +1,80 @@
+{
+  "id": "airport-tile-60-runway-end-fence-ne-se",
+  "image": "assets/world/infrastructure/airports/airport-tile-60-runway-end-fence-ne-se.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-ground-footprint",
+  "category": "airport-tile",
+  "sha256": "a33f5f42c2847d7e0ee304e7c9d7b65ade23b83d4b3cc375eead52c5768caf11",
+  "operation": "layered static airport tile composite from actual painted canonical ground, building and symmetric fence modules; original enum identity and source layout preserved; no new model painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/airports/airport-ground-threshold-x.png",
+      "sha256": "7523721b20254cdfb492b8eff798f70fb89649fdfd864aed15a721b9de4e3470",
+      "record": "assets/world/infrastructure/airports/airport-ground-threshold-x.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-ne.png",
+      "sha256": "4b963ccbd37a7f3ca27ce4b89425163d011f85108899f2f60c6bba03b676c866",
+      "record": "assets/world/infrastructure/airports/airport-fence-ne.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/airport-fence-se.png",
+      "sha256": "a64f05acb1bd5888022d6a6c10f83230decf648605efba6c483603abdb6dedcd",
+      "record": "assets/world/infrastructure/airports/airport-fence-se.png.derivation.json"
+    }
+  ],
+  "status": "art-checked",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceTileId": 60,
+  "sourceTileEnum": "APT_RUNWAY_END_FENCE_NE_SE",
+  "sourceDrawSpec": "TILE_SPRITE_LINE(SPR_AIRPORT_RUNWAY_END,         _station_display_fence_ne_se) // APT_RUNWAY_END_FENCE_NE_SE",
+  "layers": [
+    {
+      "artId": "airport-ground-threshold-x",
+      "offsetPx": [
+        128,
+        320
+      ],
+      "layer": "ground"
+    },
+    {
+      "artId": "airport-fence-ne",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "rear-fence"
+    },
+    {
+      "artId": "airport-fence-se",
+      "offsetPx": [
+        0,
+        0
+      ],
+      "layer": "front-fence"
+    }
+  ],
+  "animationId": null,
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "logicalGroundCentrePx": [
+    256,
+    384
+  ],
+  "sourceRequirementIds": [
+    "airport-intercontinental",
+    "airport-tile-60-runway-end-fence-ne-se"
+  ]
+}

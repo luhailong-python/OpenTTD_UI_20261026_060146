@@ -1,0 +1,37 @@
+{
+  "id": "bridge-pier-axis-y",
+  "image": "assets/world/infrastructure/transport/bridge-pier-axis-y.png",
+  "sha256": "cebde639d40e976e82190407a128fcba0a6e88f97545effc236d6ca7a64ab674",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport/bridge-pier.png",
+      "sha256": "ceaea1fae2072713bc32ced692310389cc2869324ac6fe203181453dde3e8e99",
+      "record": "assets/world/infrastructure/transport/bridge-pier.png.derivation.json"
+    }
+  ],
+  "operation": "Horizontal reflection of symmetric module for perpendicular isometric axis; lighting is inherited from native artwork, not a new painted view",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "symmetricAxisReflection": true,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

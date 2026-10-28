@@ -1,0 +1,74 @@
+{
+  "file": "source-art/world/shore-sand-seamless.png",
+  "sha256": "53c5340ca2a1817576d21d4ea4b87bd79882ad4fde512a38ca4d2a975b4767be",
+  "generatedAt": "2026-10-28T10:15:22.562Z",
+  "generatedAtEvidence": "records/world-production/shore-sand-seamless-call.json records actual call start and completion UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: seamless square ground-material master for the existing Taoist chibi OpenTTD art pack.\nCreate ONE full-bleed SQUARE, perfectly overhead, flat hand-painted shore sand texture, designed to repeat seamlessly left/right and top/bottom. No perspective, no diamond, no panels, no frame, no vignette, no cast shadow, no transparent border, no scene or large object. It will be projected into a 2:1 isometric ground tile afterwards.\nInput images 1 and 2 are strict painting-quality/palette references only: refined clean Taoist chibi hand painting, warm ivory beige sand, gentle muted sage-green accents. Do not reproduce their UI, people, buildings, text or ornaments. Image 3 shows the existing sand material's colors and small painted grass/pebbles. Its edge-heavy vegetation and bright blank central patch cause a checkerboard when tiled: change that spatial distribution completely.\nPaint a very even warm pale sand field with delicate natural sandy brush texture, sparse tiny rounded pebbles and only a few tiny subtle low sage grass tufts DISTRIBUTED EVENLY across the entire square. All four edges and the middle must have the same average color, brightness and detail density. Absolutely no green wreath around the edges, no central clearing, no large pale/dark patch, no checkerboard, no decorative motifs, no visible tile grid. Low contrast and calm detail while retaining fine crisp hand-painted texture. The material is mostly sand, with grass occupying under five percent of its area. No directional lighting gradient. Every pixel is material, entirely opaque. Make the opposite edges continue naturally when tiled.\nNo words, labels, logo, watermark, UI, people, boats, water or shoreline boundary. This is the sand substrate; separate bank modules already provide the actual shore edges. Native high resolution requested; output dimensions must be reported from the actual returned PNG.\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world\\terrain\\terrain-shore-sand-flat.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-5283fb62-fe11-4b43-8da2-298c12b2cf56.png",
+    "nativeSizeFromPNG": [
+      1254,
+      1254
+    ],
+    "callRecord": "records/world-production/shore-sand-seamless-call.json"
+  },
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回亦未披露；配置目标不作为实际返回证明。",
+  "prompt": "Use case: stylized-concept\nAsset type: seamless square ground-material master for the existing Taoist chibi OpenTTD art pack.\nCreate ONE full-bleed SQUARE, perfectly overhead, flat hand-painted shore sand texture, designed to repeat seamlessly left/right and top/bottom. No perspective, no diamond, no panels, no frame, no vignette, no cast shadow, no transparent border, no scene or large object. It will be projected into a 2:1 isometric ground tile afterwards.\nInput images 1 and 2 are strict painting-quality/palette references only: refined clean Taoist chibi hand painting, warm ivory beige sand, gentle muted sage-green accents. Do not reproduce their UI, people, buildings, text or ornaments. Image 3 shows the existing sand material's colors and small painted grass/pebbles. Its edge-heavy vegetation and bright blank central patch cause a checkerboard when tiled: change that spatial distribution completely.\nPaint a very even warm pale sand field with delicate natural sandy brush texture, sparse tiny rounded pebbles and only a few tiny subtle low sage grass tufts DISTRIBUTED EVENLY across the entire square. All four edges and the middle must have the same average color, brightness and detail density. Absolutely no green wreath around the edges, no central clearing, no large pale/dark patch, no checkerboard, no decorative motifs, no visible tile grid. Low contrast and calm detail while retaining fine crisp hand-painted texture. The material is mostly sand, with grass occupying under five percent of its area. No directional lighting gradient. Every pixel is material, entirely opaque. Make the opposite edges continue naturally when tiled.\nNo words, labels, logo, watermark, UI, people, boats, water or shoreline boundary. This is the sand substrate; separate bank modules already provide the actual shore edges. Native high resolution requested; output dimensions must be reported from the actual returned PNG.\n",
+  "references": [
+    {
+      "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "submittedPath": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "submittedPath": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "strict visual style reference"
+    },
+    {
+      "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\docs\\reference-images\\shore-sand-before-repair.png",
+      "submittedPath": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\assets\\world\\terrain\\terrain-shore-sand-flat.png",
+      "sha256": "c72a3732c89c65fdb7d992f52b88e84a799cc3141d52ae0e4202ccb52646a9a3",
+      "purpose": "previous actual shore material colour/detail reference; exact bytes retained here before formal asset replacement"
+    }
+  ],
+  "promptFile": "records/world-production/shore-sand-seamless.prompt.txt",
+  "status": "native-material-master-visual-inspected; formal tiling derivative pending"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "road-oneway-07-X-drd2-north",
+  "image": "assets/world/overlays/road-oneway/road-oneway-07-X-drd2-north.png",
+  "width": 256,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "8c365cf28c89a8b567c0f6eea01c19c32a048af02b8009885478232564fbfd54",
+  "category": "road-ground-direction-overlay",
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.3333333333333333
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "logicalFootprint": [
+    1,
+    1
+  ],
+  "sourceRequirementIds": [
+    "road-oneway-markings"
+  ],
+  "sourceSymbol": "SPR_ONEWAY_BASE",
+  "sourceSpriteOffset": 7,
+  "sourceSpriteId": 6112,
+  "axis": "X",
+  "connectionMask": 10,
+  "disallowedRoadDirectionBits": 2,
+  "allowedTrackdir": "X_NE",
+  "effectiveSlopeCode": 12,
+  "sourceSlopeGroup": "north",
+  "sourceGroupOffset": 6,
+  "sourceCentreTileXY": [
+    8,
+    8
+  ],
+  "sourcePartialPixelZ": 4,
+  "sourceCentrePixelInFullTileCanvas": [
+    128,
+    112
+  ],
+  "heightStepPixels": 32,
+  "cornerHeightUnits": {
+    "n": 1,
+    "e": 1,
+    "s": 0,
+    "w": 0
+  },
+  "cornerPixels": {
+    "n": [
+      128,
+      32
+    ],
+    "e": [
+      256,
+      96
+    ],
+    "s": [
+      128,
+      192
+    ],
+    "w": [
+      0,
+      128
+    ]
+  },
+  "operation": "actual native jade/gold chevron or red/gold prohibition symbol crop/downsample/rotation -> canonical squareUV ->2:1ground projection ->post-foundation slope projection; no new painting or vector replacement; explicit saved functional direction shaft under native arrowhead, not new hand-painted detail",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/chevron.png",
+      "sha256": "299e8c387dff8ddb25480303fe7d8f2641fb820b4ebaf4e5fbce5774308cb743",
+      "record": "assets/common/pointers/components/chevron.png.derivation.json"
+    },
+    {
+      "file": "assets/world/overlays/road-oneway/svg/shaft-X-drd2.svg",
+      "sha256": "3f14c6dcb1810f6256d88972e933dd15c6b1f19f9f43d58fc70f6f6a4459ed92",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "projectionRecipe": {
+    "sourceNativeCropScale": "downsample only",
+    "sourceUVCanvas": [
+      192,
+      192
+    ],
+    "sourceUVComponentSize": [
+      58,
+      49
+    ],
+    "sourceUVOffset": [
+      67,
+      71
+    ],
+    "rotationDegreesCCW": 90,
+    "functionalShaftSVG": "assets/world/overlays/road-oneway/svg/shaft-X-drd2.svg",
+    "worldUVConvention": "UV x grows in worldY/SE; UV y grows in worldX/SW; project screen.x=128+(worldY-worldX)*128"
+  },
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "artSource": "native-painted-component-derivative",
+  "userArtAcceptance": "pending",
+  "unityValidated": false,
+  "status": "locally-checked-user-review-pending",
+  "drawRule": "separate ground overlay after current road ground, before road catenary/roadside details; fixed tile-anchor variant already includes source centre PartialPixelZ, do not apply it twice",
+  "engineImportSuggestion": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "wrapMode": "Clamp",
+    "mipMaps": false,
+    "atlasPaddingMin": 4
+  },
+  "actualVisualReview": "records/road-oneway-visual-review.json"
+}

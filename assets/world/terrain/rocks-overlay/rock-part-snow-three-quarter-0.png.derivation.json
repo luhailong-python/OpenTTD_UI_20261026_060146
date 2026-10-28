@@ -1,0 +1,20 @@
+{
+  "file": "assets/world/terrain/rocks-overlay/rock-part-snow-three-quarter-0.png",
+  "sha256": "4a1cd95a4d022eae59a1ef802af505f2a465f4d703f603231e38060ef3bd1bc6",
+  "derivedAt": "2026-10-28T11:40:45.485800+00:00",
+  "tool": "build_rocks_overlay.py",
+  "operation": "Actual alpha>=128 native stone component and2px source fringe; remove only nonowned/subvisible alpha<8 glow, preserve original RGB/painted snow; uniform.18downscale and fixed96canvas",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rock-overlays-native.png",
+      "sha256": "3f28247d7b210466f6786152b2faa06390b4d1da85a18c65082c3df476cc440f",
+      "record": "source-art/world/rock-overlays-native.png.generation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 96,
+  "height": 96,
+  "nativeUpscale": false
+}

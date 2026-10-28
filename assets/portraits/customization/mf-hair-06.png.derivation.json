@@ -1,0 +1,129 @@
+{
+  "id": "mf-hair-06",
+  "image": "assets/portraits/customization/mf-hair-06.png",
+  "sha256": "5c73035cf3a53a5a71549144e753509f8bd04378325a4d3ca1b174961d8843c3",
+  "width": 512,
+  "height": 512,
+  "canvas": [
+    512,
+    512
+  ],
+  "anchorPx": [
+    256,
+    496
+  ],
+  "pivotUnity": [
+    0.5,
+    0.03125
+  ],
+  "category": "manager-hair",
+  "family": "hair",
+  "assetRole": "composable-sprite",
+  "sRGBSuggested": true,
+  "spriteTypeSuggested": "Single",
+  "borderLBRTPx": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/manager-customization/hair.png",
+      "sha256": "202008b645de42da73993b3b4a129f40ebdd390feb0d327d090893e47845c3be",
+      "record": "source-art/manager-customization/hair.png.generation.json"
+    }
+  ],
+  "derivedAt": "2026-10-28T09:31:48.648532+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "operation": "Actual accepted transparent atlas ownership crop; proportional downscale only; fixed512 canvas registration; not a complete preset bust",
+  "paintedBBoxPx": [
+    65,
+    55,
+    439,
+    346
+  ],
+  "unityValidated": false,
+  "status": "produced-needs-assembly-review",
+  "sourceCellCropPx": [
+    40,
+    687,
+    483,
+    1000
+  ],
+  "sourcePaintBBoxWithinCell": [
+    8,
+    7,
+    436,
+    305
+  ],
+  "sourcePaintSizePx": [
+    428,
+    298
+  ],
+  "targetGuideRectPx": [
+    100,
+    30,
+    412,
+    173
+  ],
+  "registeredOffsetPx": [
+    103,
+    55
+  ],
+  "scaleApplied": 0.7,
+  "measuredLandmarkRegistration": {
+    "scale": 0.7,
+    "sourceAnchorWithinCellPx": [
+      226,
+      29
+    ],
+    "destinationAnchorPx": [
+      256,
+      70
+    ],
+    "anchorMeaning": "measured native main scalp crown centre, independent of topknot/ribbon bounds"
+  },
+  "nativeFaceFrameFit": {
+    "fixedCrownY": 70,
+    "belowCrownYScale": 1.4285714285714286,
+    "lowerFrameXScale": 1.25,
+    "purpose": "match actual base forehead/ears/chin; topknot stays fixed, native source y scale remains<=1 and x<=.875"
+  },
+  "frameFitSampling": "direct original native part pixel coordinates, not enlargement of a pre-scaled raster",
+  "matteCleanup": {
+    "coreAlphaThreshold": 128,
+    "selectedActualComponentBoundsPx": [
+      [
+        48,
+        695,
+        475,
+        992
+      ]
+    ],
+    "ownershipMethod": "nearest significant actual native Alpha component; retain source antialias/skin feather within24px, discard subvisible or remote/neon background contamination; no invented paint",
+    "discardedNonOwnedPixels": 768627
+  },
+  "nativeAtlasIndex": 6,
+  "sourceAtlas": "source-art/manager-customization/hair.png",
+  "closedIrisSides": [],
+  "irisBoxesPx": [
+    [
+      178,
+      203,
+      230,
+      257
+    ],
+    [
+      282,
+      203,
+      334,
+      257
+    ]
+  ],
+  "supplemental": false
+}

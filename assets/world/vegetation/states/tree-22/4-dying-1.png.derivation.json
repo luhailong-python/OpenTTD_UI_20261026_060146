@@ -1,0 +1,39 @@
+{
+  "id": "tree-22-dying-1",
+  "image": "assets/world/vegetation/states/tree-22/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "d9cd199b539dde3f04cfcd1e94c308b52d6a8dfeba2fac66d503ff54a7b38f17",
+  "climate": "tropical",
+  "artSpecies": "oil-palm",
+  "sourceTreeType": 22,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-22.png",
+      "sha256": "bd2163319180cdd79199ed5b89515f0a5a61faa70df761141b5d9779eb8488be",
+      "record": "assets/world/vegetation/mature/tree-22.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-22"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tree-38-growing-1",
+  "image": "assets/world/vegetation/states/tree-38/0-growing-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "23c1b6d4c0bc648f03ff388d3af05162d5f0256a7636f20e8af006f646b4bb26",
+  "climate": "toyland",
+  "artSpecies": "cookie-tree",
+  "sourceTreeType": 38,
+  "sourceGrowthStage": 0,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-38.png",
+      "sha256": "679e73feb84b13e1da7a3b402b0cdccf5b66306e3b77c448ec97b929726970c1",
+      "record": "assets/world/vegetation/mature/tree-38.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.28,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-38"
+  ]
+}

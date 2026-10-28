@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-10-28T07:33:57.051840+00:00",
+  "formalPNGCount": 651,
+  "matrixChecks": [
+    {
+      "id": "road-road.mask-context-slope-matrix",
+      "level": "OK",
+      "expected": 320,
+      "actual": 320,
+      "missing": []
+    },
+    {
+      "id": "road-tram.mask-context-slope-matrix",
+      "level": "OK",
+      "expected": 300,
+      "actual": 300,
+      "missing": []
+    }
+  ],
+  "passed": 653,
+  "failures": [],
+  "sourceManifestSha256": "ab0f20c563d6a1b42b423cc67b7827522e6605a2364bd3b92b855477c30f4c7c",
+  "visualReview": {
+    "status": "passed-local",
+    "record": "records/world-production/world-final-visual-review.json",
+    "recordSHA256": "76a256dc8d64345707ede35b0e2ebf041c9d0e22f8b03878aed7183b28313623"
+  },
+  "unityValidated": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": "roadside-tree",
+  "image": "assets/world/overlays/roadside/roadside-tree.png",
+  "width": 128,
+  "height": 160,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "672064365a4bf7e24178d5713f48b6a8ad506e0728cbe19800615d2939451f0f",
+  "anchorPx": [
+    64,
+    144
+  ],
+  "pivotUnity": [
+    0.5,
+    0.1
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "category": "roadside-reusable-prop",
+  "sourceRequirementIds": [
+    "road-road",
+    "road-tram"
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-07.png",
+      "sha256": "f0526e0d96d8501539e242ff716eea68994a19daa025b574edf038f66f879139",
+      "record": "assets/world/vegetation/mature/tree-07.png.derivation.json"
+    }
+  ],
+  "operation": "direct reuse of existing native-painted poplar phenotype;uniform80pxheight downsample and existing root-anchor registration;not a new species/master",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "locally-checked-user-review-pending",
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "sourceSpriteId": 4626,
+  "sourceCropXYXY": [
+    32,
+    32,
+    216,
+    352
+  ],
+  "sourceFootContactPx": [
+    128,
+    352
+  ],
+  "formalVisibleTargetHeight": 80,
+  "uniformScale": 0.25,
+  "pasteXY": [
+    40,
+    64
+  ],
+  "state": "normal",
+  "sourceBoundingBoxWorld": [
+    2,
+    2,
+    16
+  ],
+  "treeIdentity": "new art uses existing poplar;source table provides one numeric treeSprite,not a botanical species",
+  "actualVisualReview": "records/roadside-visual-review.json"
+}

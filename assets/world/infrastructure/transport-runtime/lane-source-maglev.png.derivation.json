@@ -1,0 +1,54 @@
+{
+  "id": "lane-source-maglev",
+  "image": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+  "sha256": "d4f7554da6e776282b5ab71c1213ee7274917fa0c1056fae06b55be7e9b5369a",
+  "width": 196,
+  "height": 76,
+  "anchorPx": [
+    98,
+    38
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "record": "source-art/world/rail-topology.png.generation.json"
+    }
+  ],
+  "operation": "Actual painted central transport strip crop and UV normalization; 2px transparent export border; roadside grass excluded; no new painted pixels",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "transport-lane-material",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "derivedAt": "2026-10-27T06:49:13.626332+00:00",
+  "route": "deterministic-derivative",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "innerUVRectPx": [
+    2,
+    2,
+    194,
+    74
+  ],
+  "nativeAtlasCrop": [
+    900,
+    700,
+    1020,
+    910
+  ],
+  "nativeCropRotation": 90,
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

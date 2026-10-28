@@ -1,0 +1,37 @@
+{
+  "id": "tree-lifecycle-dying-cactus",
+  "image": "assets/world/vegetation/lifecycle/dying-cactus.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "plant root front ground-contact",
+  "category": "vegetation-lifecycle",
+  "sha256": "52c4ebf703e4e10190bf99fe2d59745ef444f0224b68fd6cbadb4b987a0a4e2f",
+  "sourceCropXYXY": [
+    170,
+    33,
+    424,
+    372
+  ],
+  "nativeCropSize": [
+    254,
+    339
+  ],
+  "uniformScale": 0.8818897637795275,
+  "operation": "component ownership cutout; remove subvisible alpha<8; normalize alpha>=240 to opaque; crop; proportional downscale only; fixed transparent canvas; not new AI generation",
+  "derivedFrom": {
+    "file": "source-art/world/tree-lifecycle-special-with-backdrop.png",
+    "sha256": "cff3cdae4d33f6d1212e11f161d08aaa0be5b47b94188e0e621171d06729372b",
+    "record": "source-art/world/tree-lifecycle-special-with-backdrop.png.generation.json"
+  },
+  "status": "passed-local-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false
+}

@@ -1,0 +1,49 @@
+{
+  "id": "rail-warehouse",
+  "image": "assets/world/infrastructure/transport/rail-warehouse.png",
+  "sha256": "02a3de50e8b4d02e1bfc9c24dd25231283a142d73c443a5d61a6c8ca87136130",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/station-kit.png",
+      "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+      "record": "source-art/world/station-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    1090,
+    377,
+    1525,
+    731
+  ],
+  "scaleApplied": 0.8827586206896552,
+  "sourceAtlas": "station-kit",
+  "sourceComponent": 5,
+  "contentSize": [
+    384,
+    312
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

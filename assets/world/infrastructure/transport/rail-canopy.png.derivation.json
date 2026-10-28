@@ -1,0 +1,49 @@
+{
+  "id": "rail-canopy",
+  "image": "assets/world/infrastructure/transport/rail-canopy.png",
+  "sha256": "7c173dfc3618abf4c9d78a3c6ceb1c6e270feb221f55ec161a1cd935ada1be5c",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/station-kit.png",
+      "sha256": "a2a6eb06e4857ddaf84f0e383ff3a998f77494ab84c9dd8e1d658816deedab82",
+      "record": "source-art/world/station-kit.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    995,
+    7,
+    1536,
+    375
+  ],
+  "scaleApplied": 0.7097966728280961,
+  "sourceAtlas": "station-kit",
+  "sourceComponent": 1,
+  "contentSize": [
+    384,
+    261
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

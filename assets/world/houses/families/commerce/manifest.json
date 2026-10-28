@@ -1,0 +1,1001 @@
+{
+  "schema": "cloud-route.world-art.v1",
+  "createdAt": "2026-10-26T14:14:58.351225+00:00",
+  "taskRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
+  "projection": {
+    "logicalTileSize": [
+      128,
+      64
+    ],
+    "exportTileSize": [
+      256,
+      128
+    ],
+    "exportHeightStep": 32,
+    "logicalHeightStep": 16,
+    "origin": "tile centre; world x SW, world y SE; screen x=(j-i)*64, screen y=(i+j)*32-z*16"
+  },
+  "assets": [
+    {
+      "id": "house-family-food-market",
+      "image": "assets/world/houses/families/commerce/house-family-food-market.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        0,
+        0,
+        510,
+        346
+      ],
+      "sourceCropSize": [
+        510,
+        346
+      ],
+      "alphaTrimBox": [
+        14,
+        30,
+        494,
+        341
+      ],
+      "sourceAnchorPx": [
+        282,
+        339
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9552238805970149,
+      "targetOffsetPx": [
+        0,
+        153
+      ],
+      "contentNativeSize": [
+        480,
+        311
+      ],
+      "contentExportSize": [
+        459,
+        297
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 91,
+        "componentCorePixels": 88687
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "13bda4df8b777b14cbac527a343eef6243bad1dbd00de06cac0457b42232be37",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        370.0537313432836
+      ],
+      "familyId": "food-market",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-teahouse",
+      "image": "assets/world/houses/families/commerce/house-family-teahouse.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        511,
+        0,
+        1026,
+        365
+      ],
+      "sourceCropSize": [
+        515,
+        365
+      ],
+      "alphaTrimBox": [
+        4,
+        2,
+        510,
+        359
+      ],
+      "sourceAnchorPx": [
+        258,
+        355
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        2,
+        95
+      ],
+      "contentNativeSize": [
+        506,
+        357
+      ],
+      "contentExportSize": [
+        506,
+        357
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 322,
+        "componentCorePixels": 114919
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "18888797a7f8a16d917395b9885b19d1840884a1902de351fb4857fc98f5c85d",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        361.98
+      ],
+      "familyId": "teahouse",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-post-office",
+      "image": "assets/world/houses/families/commerce/house-family-post-office.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        1027,
+        0,
+        1536,
+        365
+      ],
+      "sourceCropSize": [
+        509,
+        365
+      ],
+      "alphaTrimBox": [
+        18,
+        15,
+        485,
+        353
+      ],
+      "sourceAnchorPx": [
+        253,
+        353
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        21,
+        110
+      ],
+      "contentNativeSize": [
+        467,
+        338
+      ],
+      "contentExportSize": [
+        467,
+        338
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 73,
+        "componentCorePixels": 103903
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "d1d7048ce856f7024128867410cf6302a617f0832b82cd162113bcedf2538999",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        368.61
+      ],
+      "familyId": "post-office",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-bank",
+      "image": "assets/world/houses/families/commerce/house-family-bank.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        0,
+        329,
+        551,
+        681
+      ],
+      "sourceCropSize": [
+        551,
+        352
+      ],
+      "alphaTrimBox": [
+        10,
+        11,
+        540,
+        334
+      ],
+      "sourceAnchorPx": [
+        259,
+        329
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9110320284697508,
+      "targetOffsetPx": [
+        29,
+        158
+      ],
+      "contentNativeSize": [
+        530,
+        323
+      ],
+      "contentExportSize": [
+        483,
+        294
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 938,
+        "componentCorePixels": 115256
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "50e6aa4ae377f417ec2cc88b06db997d25b20c86c23e3f452ac6b933c9589d97",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        365.91601423487543
+      ],
+      "familyId": "bank",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-clinic",
+      "image": "assets/world/houses/families/commerce/house-family-clinic.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": false,
+      "sourceBox": [
+        522,
+        340,
+        1025,
+        681
+      ],
+      "sourceCropSize": [
+        503,
+        341
+      ],
+      "alphaTrimBox": [
+        25,
+        9,
+        496,
+        312
+      ],
+      "sourceAnchorPx": [
+        247,
+        318
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 1.0,
+      "targetOffsetPx": [
+        34,
+        139
+      ],
+      "contentNativeSize": [
+        471,
+        303
+      ],
+      "contentExportSize": [
+        471,
+        303
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 4039,
+        "componentCorePixels": 94453
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "ee667e6f5387b43b413946e72235dc80418b0801c89df2b341cb27e693d7f20d",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        367.93
+      ],
+      "familyId": "clinic",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-school",
+      "image": "assets/world/houses/families/commerce/house-family-school.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        1026,
+        357,
+        1536,
+        685
+      ],
+      "sourceCropSize": [
+        510,
+        328
+      ],
+      "alphaTrimBox": [
+        7,
+        4,
+        505,
+        318
+      ],
+      "sourceAnchorPx": [
+        238,
+        318
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9588014981273408,
+      "targetOffsetPx": [
+        35,
+        147
+      ],
+      "contentNativeSize": [
+        498,
+        314
+      ],
+      "contentExportSize": [
+        477,
+        301
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 689,
+        "componentCorePixels": 108748
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "190676a4051ece579cc961ffd7d4bc96abce7a643e0bd103a8ab5501a40bbcff",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        366.82786516853935
+      ],
+      "familyId": "school",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-theatre",
+      "image": "assets/world/houses/families/commerce/house-family-theatre.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        0,
+        648,
+        508,
+        1024
+      ],
+      "sourceCropSize": [
+        508,
+        376
+      ],
+      "alphaTrimBox": [
+        6,
+        14,
+        491,
+        340
+      ],
+      "sourceAnchorPx": [
+        268,
+        354
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9770992366412213,
+      "targetOffsetPx": [
+        0,
+        116
+      ],
+      "contentNativeSize": [
+        485,
+        326
+      ],
+      "contentExportSize": [
+        474,
+        319
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 1961,
+        "componentCorePixels": 101392
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "3144a660d8d06834a6ae97797c1dd3b99f4e1db18d57f5bdd7ba3418011600e8",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        367.4381679389313
+      ],
+      "familyId": "theatre",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-museum",
+      "image": "assets/world/houses/families/commerce/house-family-museum.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        492,
+        637,
+        1030,
+        1024
+      ],
+      "sourceCropSize": [
+        538,
+        387
+      ],
+      "alphaTrimBox": [
+        4,
+        12,
+        513,
+        360
+      ],
+      "sourceAnchorPx": [
+        281,
+        373
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.924187725631769,
+      "targetOffsetPx": [
+        0,
+        114
+      ],
+      "contentNativeSize": [
+        509,
+        348
+      ],
+      "contentExportSize": [
+        470,
+        322
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 3066,
+        "componentCorePixels": 114641
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "ed102f8dce96a81ba65015a2992d6334b7c0b6f55ddeea6ff1f2932184534a59",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        368.03003610108306
+      ],
+      "familyId": "museum",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    },
+    {
+      "id": "house-family-outdoor-stadium",
+      "image": "assets/world/houses/families/commerce/house-family-outdoor-stadium.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "anchorPx": [
+        256,
+        448
+      ],
+      "pivotUnity": [
+        0.5,
+        0.125
+      ],
+      "category": "houses",
+      "artSource": "host_image",
+      "operation": "lossless source crop and Alpha trim; optional explicit downscale-to-fit; transparent fixed-canvas padding; no upscale; largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+      "nativeModelGeneration": false,
+      "derivedFrom": [
+        {
+          "file": "source-art/world/houses-commerce.png",
+          "sha256": "9bc51b59241838ff2cba2e05901f74c1072df8dc3492d9e0f1e3cffd6b19b7c8",
+          "record": "source-art/world/houses-commerce.png.generation.json",
+          "sourceRecordAvailable": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Inherited from source image record; unreported model/quality remain unconfirmed.",
+      "status": "art-checked",
+      "unityValidated": false,
+      "nativeUpscale": false,
+      "sourcePixelCountChanged": true,
+      "sourceBox": [
+        993,
+        655,
+        1536,
+        1024
+      ],
+      "sourceCropSize": [
+        543,
+        369
+      ],
+      "alphaTrimBox": [
+        7,
+        11,
+        538,
+        352
+      ],
+      "sourceAnchorPx": [
+        290,
+        356
+      ],
+      "anchorSource": "authored",
+      "scaleApplied": 0.9045936395759717,
+      "targetOffsetPx": [
+        0,
+        136
+      ],
+      "contentNativeSize": [
+        531,
+        341
+      ],
+      "contentExportSize": [
+        480,
+        308
+      ],
+      "climate": "shared",
+      "footprint": {
+        "kind": "native-complete-building",
+        "anchorMeaning": "front-contact; logical footprint belongs to source parent instance"
+      },
+      "occlusionClass": "tall",
+      "layer": "objects",
+      "animationGroup": null,
+      "direction": null,
+      "frame": null,
+      "disconnectedFragmentCleanup": {
+        "method": "largest8-connected native opaque component with2px fringe; disconnected neighbouring-grid fragments removed",
+        "coreThreshold": 100,
+        "removedVisiblePixels": 1518,
+        "componentCorePixels": 125352
+      },
+      "authoredAlphaCleanup": [],
+      "sha256": "7616df00a74975ace1b12efd6dd7ccefb006be129c8bde6f9a43b9b190e7277d",
+      "anchorMeaning": "front-contact of native whole-building site; not logical tile centre",
+      "suggestedFootprintCentrePx": [
+        256,
+        366.34233215547704
+      ],
+      "familyId": "outdoor-stadium",
+      "nativeFamilyClaim": true,
+      "visualReview": "2026-10-26 complete45-family sheets inspected; exact source geometry and Alpha cleanup documented."
+    }
+  ],
+  "qa": [
+    {
+      "id": "house-family-food-market.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        0,
+        0,
+        510,
+        346
+      ]
+    },
+    {
+      "id": "house-family-teahouse.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        511,
+        0,
+        1026,
+        365
+      ]
+    },
+    {
+      "id": "house-family-post-office.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        1027,
+        0,
+        1536,
+        365
+      ]
+    },
+    {
+      "id": "house-family-bank.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        0,
+        329,
+        551,
+        681
+      ]
+    },
+    {
+      "id": "house-family-clinic.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        522,
+        340,
+        1025,
+        681
+      ]
+    },
+    {
+      "id": "house-family-school.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        1026,
+        357,
+        1536,
+        685
+      ]
+    },
+    {
+      "id": "house-family-theatre.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        0,
+        648,
+        508,
+        1024
+      ]
+    },
+    {
+      "id": "house-family-museum.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        492,
+        637,
+        1030,
+        1024
+      ]
+    },
+    {
+      "id": "house-family-outdoor-stadium.source-edge-touch",
+      "level": "OK",
+      "value": false,
+      "threshold": false,
+      "file": "source-art/world/houses-commerce.png",
+      "sourceBox": [
+        993,
+        655,
+        1536,
+        1024
+      ]
+    }
+  ],
+  "acceptance": "local Alpha,source boundary,source hash and complete contact-sheet visual checks passed; user art review pending",
+  "limitations": [
+    "Not a runtime game map, collision proof or Unity import verification.",
+    "Geometrical resampling does not create new native model detail."
+  ],
+  "batchId": "house-families-commerce",
+  "anchorConvention": "front-contact of complete native site; per-instance logical centre correction recorded separately"
+}

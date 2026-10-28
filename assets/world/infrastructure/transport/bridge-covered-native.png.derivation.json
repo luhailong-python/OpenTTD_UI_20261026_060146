@@ -1,0 +1,49 @@
+{
+  "id": "bridge-covered-native",
+  "image": "assets/world/infrastructure/transport/bridge-covered-native.png",
+  "sha256": "d23dbb6c253f197b0b12fe2a9343d0db43afe9b45e55d9e8ab0b610ce376c38d",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "derivedFrom": [
+    {
+      "file": "source-art/world/bridge-families.png",
+      "sha256": "90510b77b20a30f02626052cde4bf0854229b958ca82bfe27c80d6f52288df42",
+      "record": "source-art/world/bridge-families.png.generation.json"
+    }
+  ],
+  "operation": "Alpha connected-component ownership; preserve disconnected pieces by nearest compound; discard subvisible Alpha<8; normalize source254 to255; native crop; proportional downscale only; transparent fixed canvas",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "category": "infrastructure",
+  "sourceRequirementIds": [],
+  "status": "produced-needs-visual-review",
+  "nativeCrop": [
+    1016,
+    633,
+    1518,
+    994
+  ],
+  "scaleApplied": 0.7649402390438247,
+  "sourceAtlas": "bridge-families",
+  "sourceComponent": 19,
+  "contentSize": [
+    384,
+    276
+  ],
+  "validation": {
+    "rgba": true,
+    "hasAlpha": true,
+    "insideCanvas": true,
+    "dimensions": true,
+    "hash": true,
+    "noUpscale": true
+  }
+}

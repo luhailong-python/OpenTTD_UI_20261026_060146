@@ -1,0 +1,41 @@
+{
+  "file": "assets/world/effects/bubble-absorb/02.png",
+  "sha256": "c71e61ef99b9d8efb37281f932cec41f7645e45bab23175a69cba9e9f47b5a30",
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "frame": 2,
+  "durationMs": 100,
+  "operation": "painted bubble; deterministic scale and alpha absorption progression",
+  "sources": [
+    {
+      "derivedFrom": {
+        "file": "source-art/world/fx-spark-bubble-fire.png",
+        "sha256": "96f82b9fc8ce743950271c1f02fb802c126202512dc2a9bf1be0b651e1c79376",
+        "record": "source-art/world/fx-spark-bubble-fire.png.generation.json"
+      },
+      "nativeSourceRectXYXY": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "scale": 1,
+      "paddingLeftTop": [
+        99,
+        99
+      ],
+      "nativeCellEdgeSolidPixelsFeathered": 0,
+      "operation": "equal atlas cell crop, retain all particles;2px exterior glow feather; downscale only ifneeded; transparent padding, not new AI art",
+      "deterministicScale": 0.64,
+      "alphaMultiplier": 0.7
+    }
+  ],
+  "nativeModelGeneration": false,
+  "unityVerified": false
+}

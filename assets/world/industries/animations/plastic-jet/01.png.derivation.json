@@ -1,0 +1,35 @@
+{
+  "id": "industry-plastic-jet-01",
+  "image": "assets/world/industries/animations/plastic-jet/01.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    128
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "category": "industry-animation",
+  "sha256": "47a90b1a884565fabc2661ad744ed1528c6532828b51fc707368fa057447681a",
+  "operation": "liquid-flow-pulse; crop/downscale/painted-part affine or articulated transform; not new AI generation",
+  "derivedFrom": {
+    "file": "assets/world/industries/machine-plastic-jet.png",
+    "sha256": "44fa680ef7f58af0a5c48dde248b2b891ceef89449d0901e9ccd16d37fd1c018",
+    "record": "assets/world/industries/machine-plastic-jet.png.derivation.json"
+  },
+  "status": "passed-local-part-motion-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "frame": 1,
+  "phase": 0.08333333333333333,
+  "parameters": {
+    "widthScale": 0.98,
+    "origin": "fixed top and bottom y; lateral flow pulse"
+  },
+  "sourceToFrameScale": 0.4971751412429379,
+  "sourceRequirementIds": [
+    "animation-industry-machinery"
+  ]
+}

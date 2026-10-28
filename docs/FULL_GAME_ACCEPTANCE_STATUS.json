@@ -1,0 +1,199 @@
+{
+  "schema": "cloud-route.full-game-acceptance.v1",
+  "checkedAt": "2026-10-28T12:12:41.249048+00:00",
+  "status": "local-art-checks-passed; user-art-review-pending",
+  "mechanicalSnapshotPassed": true,
+  "fullGameLocalArtAccepted": true,
+  "userArtAccepted": false,
+  "unityValidated": false,
+  "gitSubmitted": false,
+  "counts": {
+    "passedChecks": 226986,
+    "failures": 0,
+    "warnings": 0,
+    "formalPNGs": 12204,
+    "uiFormalPNGs": 649,
+    "worldFormalPNGsInCurrentPackManifests": 11555,
+    "screens": 149,
+    "states": 227,
+    "upstreamUIFeatures": 132,
+    "nativeImageGenMasters": 88,
+    "nativeGenerationRecords": 89,
+    "retiredImageRecords": 1,
+    "exportedFragmentReassemblyGroups": 149,
+    "exportedLayerReassemblyGroups": 742,
+    "industryBoundClips": 8,
+    "industryAssembledFrames": 96,
+    "formalPNGByDirectory": {
+      "ui": 649,
+      "effects": 109,
+      "houses": 1357,
+      "industries": 260,
+      "infrastructure": 4328,
+      "overlays": 547,
+      "terrain": 1709,
+      "vegetation": 300,
+      "vehicles": 2945
+    }
+  },
+  "worldCoverage": {
+    "sourceRequirements": 550,
+    "mappedRows": 550,
+    "missingOrUnmappedRows": 0,
+    "missingOrUnmappedIds": [],
+    "rowsWithoutFinalLocalAcceptance": 0,
+    "unacceptedIds": [],
+    "aggregateStale": false,
+    "staleOrUnaggregatedPacks": [],
+    "aggregateAssetCount": 11555,
+    "aggregateAnimations": 106
+  },
+  "audit": "records/full-game-art-audit.json",
+  "remaining": [],
+  "acceptanceRule": "No whole-game acceptance claim while an upstream requirement, required state, stale aggregate, failed check or local visual review remains unresolved. User art approval and Unity runtime approval are separate.",
+  "supplementalArt": {
+    "manager": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/manager-customization-validation.json",
+      "visualRecord": "records/manager-customization-visual-review.json"
+    },
+    "pointers": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": 232,
+      "mechanicalRecord": "records/pointer-art-validation.json",
+      "visualRecord": "records/pointer-visual-review.json"
+    },
+    "microUI": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/micro-ui-validation.json",
+      "visualRecord": "records/micro-ui-visual-review.json"
+    },
+    "roadOneWay": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": 18,
+      "mechanicalRecord": "records/road-oneway-validation.json",
+      "visualRecord": "records/road-oneway-visual-review.json"
+    },
+    "airportUI": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": 9,
+      "mechanicalRecord": "records/airport-ui-validation.json",
+      "visualRecord": "records/airport-ui-visual-review.json"
+    },
+    "roadside": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/roadside-validation.json",
+      "visualRecord": "records/roadside-visual-review.json"
+    },
+    "railReservation": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": null,
+      "mechanicalRecord": "records/rail-reservation-validation.json",
+      "visualRecord": "records/rail-reservation-visual-review.json"
+    },
+    "fenceAdapter": {
+      "currentLocalChecksPassed": true,
+      "sourceRequirements": null,
+      "mechanicalRecord": "records/fence-adapter-validation.json",
+      "visualRecord": "records/fence-adapter-visual-review.json"
+    },
+    "foundation": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/foundation-geometry-validation.json",
+      "visualRecord": "records/world-production/foundation-visual-review.json"
+    },
+    "bridge-railtypes": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/bridge-railtypes-validation.json",
+      "visualRecord": "records/world-production/bridge-railtypes-visual-review.json"
+    },
+    "industry-particles": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/industry-fx-binding-validation.json",
+      "visualRecord": "records/world-production/industry-fx-visual-review.json"
+    },
+    "field-stages": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/field-stages-validation.json",
+      "visualRecord": "records/world-production/field-stages-visual-review.json"
+    },
+    "snow-desert-coverage": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/terrain-density-quarter-repair.json",
+      "visualRecord": "records/world-production/terrain-density-quarter-visual.json"
+    },
+    "shore-geometry": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/shore-geometry-validation.json",
+      "visualRecord": "records/world-production/shore-geometry-visual-review.json"
+    },
+    "rocks-overlay": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/world-production/rocks-overlay-validation.json",
+      "visualRecord": "records/world-production/rocks-overlay-visual-review.json"
+    },
+    "road-oneway": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/road-oneway-validation.json",
+      "visualRecord": "records/road-oneway-visual-review.json"
+    },
+    "rail-reservation": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/rail-reservation-validation.json",
+      "visualRecord": "records/rail-reservation-visual-review.json"
+    },
+    "fence-adapter": {
+      "currentLocalChecksPassed": true,
+      "mechanicalRecord": "records/fence-adapter-validation.json",
+      "visualRecord": "records/fence-adapter-visual-review.json"
+    },
+    "supplementalGalleries": {
+      "currentLocalChecksPassed": true,
+      "browserRecord": "records/supplemental-gallery-browser-validation.json"
+    },
+    "allCurrentLocalChecksPassed": true,
+    "userArtAccepted": false,
+    "unityValidated": false
+  },
+  "independentVisualReview": {
+    "record": "records/full-game-independent-visual-review.json",
+    "reviewedContacts": 42,
+    "openFindings": []
+  },
+  "managerCustomization": {
+    "complete": true,
+    "artManifest": "assets/portraits/customization/manifest.json",
+    "spriteValueSlots": 213,
+    "uniqueSourceSpriteIds": 184,
+    "requiredBindings": 235,
+    "suppliedBindings": 235,
+    "existingPresetCount": 8,
+    "gaps": []
+  },
+  "browserReports": [
+    {
+      "record": "records/browser-validation.json",
+      "preview": "index.html",
+      "passed": true,
+      "currentForPreview": true
+    },
+    {
+      "record": "records/vehicle-fx-browser-validation.json",
+      "preview": "previews/vehicles/index.html",
+      "passed": true,
+      "currentForPreview": true
+    },
+    {
+      "record": "records/world-production/browser-validation.json",
+      "preview": "previews/world/index.html",
+      "passed": true,
+      "currentForPreview": true
+    },
+    {
+      "record": "records/world-production/industry-binding-browser-validation.json",
+      "preview": "previews/world/industry-assembly/index.html",
+      "passed": true,
+      "currentForPreview": true
+    }
+  ]
+}

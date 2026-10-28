@@ -1,0 +1,39 @@
+{
+  "id": "tree-10-growing-2",
+  "image": "assets/world/vegetation/states/tree-10/1-growing-2.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "000e2fb0d9ef6f29b52155e5e63ac843951a516683cad15ba6af1440ddfdead1",
+  "climate": "temperate",
+  "artSpecies": "elm",
+  "sourceTreeType": 10,
+  "sourceGrowthStage": 1,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-10.png",
+      "sha256": "3bbdd42c199e8db54b7698cb23e78375da23af03b9966cb7ef84df53afb413c1",
+      "record": "assets/world/vegetation/mature/tree-10.png.derivation.json"
+    }
+  ],
+  "details": {
+    "matureScale": 0.5,
+    "method": "same painted phenotype shrunk; not separate sapling anatomy or native detail"
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-10"
+  ]
+}

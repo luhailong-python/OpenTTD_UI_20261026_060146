@@ -1,0 +1,68 @@
+{
+  "id": "SPR_CHAT",
+  "image": "assets/common/micro-ui/SPR_CHAT.png",
+  "width": 96,
+  "height": 96,
+  "sha256": "3e895c48f3da60c86af8bf2a5b4090a215945eefd793b8de5f6db0504aeb3a3e",
+  "format": "PNG",
+  "mode": "RGBA",
+  "anchorPx": [
+    48,
+    48
+  ],
+  "pivotUnity": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/icons/network.png",
+      "sha256": "35ce6343d16dfb4930270d52d1973e7c0b38b2e015299f6b253d6b4171d59c38",
+      "record": "assets/icons/network.png.derivation.json"
+    },
+    {
+      "file": "assets/common/micro-ui/svg/SPR_CHAT.svg",
+      "sha256": "bedca92a9955ed8fc75b293e88f0f89ea269b75772ffa86e524ec62ef11bbe2b",
+      "sourceType": "functional-vector-geometry"
+    }
+  ],
+  "operation": "existing native-painted source crop/downsample/rotation/composition; optional saved functional UI line glyph only; no new native drawing or AI call",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceSymbol": "SPR_CHAT",
+  "sourceSpriteId": 5082,
+  "category": "function-status",
+  "functionalGlyph": "bubble",
+  "geometryFile": "assets/common/micro-ui/svg/SPR_CHAT.svg",
+  "statesContract": {
+    "normal": "this PNG",
+    "pressed": "existing button_secondary_pressed, same96icon position",
+    "selected": "existing button_primary_selected, same96icon position",
+    "disabled": "same96icon at0.40 opacity on existing button_disabled; art-only recommendation",
+    "locked": "existing lock micro icon overlay only when function is locked"
+  },
+  "unityImport": {
+    "spriteMode": "Single",
+    "meshType": "FullRect",
+    "filterMode": "Bilinear",
+    "mipMaps": false,
+    "wrapMode": "Clamp",
+    "atlasPaddingMin": 4,
+    "suggestedDisplayPx": [
+      48,
+      64
+    ],
+    "unityValidated": false
+  },
+  "userArtAcceptance": "pending",
+  "status": "locally-checked-user-review-pending",
+  "actualVisualReview": "records/micro-ui-visual-review.json"
+}

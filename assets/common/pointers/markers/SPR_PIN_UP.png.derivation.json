@@ -1,0 +1,31 @@
+{
+  "id": "SPR_PIN_UP",
+  "image": "assets/common/pointers/markers/SPR_PIN_UP.png",
+  "width": 64,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "b938568c93f1fc7797f2fb4922ca9533e3f5e2ce70df4949ed7fb4fde1c9c7b2",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/map-pin.png",
+      "sha256": "5929ddb9a901d64ea81da012f08ceb7fa15429c2216b55ee4658031a4c3b8a3e",
+      "record": "assets/common/pointers/components/map-pin.png.derivation.json"
+    }
+  ],
+  "operation": "native jade marker/pin crop, downsample and declared180degree orientation; WHITE_POINT is explicit one-pixel UI geometry on transparent32canvas, not new native art",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "interaction-marker",
+  "sourceSymbol": "SPR_PIN_UP",
+  "anchorPx": [
+    32,
+    32
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

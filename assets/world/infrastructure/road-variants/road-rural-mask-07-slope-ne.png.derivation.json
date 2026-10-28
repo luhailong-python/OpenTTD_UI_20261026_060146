@@ -1,0 +1,25 @@
+{
+  "file": "assets/world/infrastructure/road-variants/road-rural-mask-07-slope-ne.png",
+  "sha256": "f17938113eecf24f79f7aee95bb0be85f157ad453839d4d48123a0e458d088c0",
+  "generatedAt": "2026-10-28T07:33:51.210634+00:00",
+  "route": "deterministic-derivative",
+  "width": 256,
+  "height": 192,
+  "operation": "actual native road/tram lane Alpha over actual painted rural ground; piecewise-affine source-corner height projection, shared fixedcanvas/anchor; no new native detail",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/roads/road-mask-07.png",
+      "sha256": "334be9f4f9f939decc52b002c3499b09656e4d0c61bb87ce8c136b7590759f45",
+      "record": "assets/world/infrastructure/roads/road-mask-07.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-grass-flat.png",
+      "sha256": "24a41cd990ac761ab24a8bb9b9db1ddb47c2a95a12a6cb1c953056508f2dfa38",
+      "record": "assets/world/terrain/terrain-grass-flat.png.derivation.json"
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Native imagegen model/quality undisclosed; derivative transformations add no native painted details."
+}

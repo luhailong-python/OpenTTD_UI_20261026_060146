@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_CANAL",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_CANAL.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "eb7b2ebe61e115e00d48937fb2db3f6b8d57ed7cca1ea2f4b3f796696107d6b7",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/waterworks/canal-banks.png",
+      "sha256": "aad02e8c55eb5044b96e0bb7405f36ebd61758d31276d3270cdf9defd6bbb1a4",
+      "record": "assets/world/infrastructure/waterworks/canal-banks.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_CANAL",
+  "sourceSpriteId": 4985,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

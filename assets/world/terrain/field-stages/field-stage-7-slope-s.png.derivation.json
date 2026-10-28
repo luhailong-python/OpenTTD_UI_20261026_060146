@@ -1,0 +1,907 @@
+{
+  "id": "field-stage-7-slope-s",
+  "image": "assets/world/terrain/field-stages/field-stage-7-slope-s.png",
+  "width": 256,
+  "height": 256,
+  "anchorPx": [
+    128,
+    160
+  ],
+  "pivotUnity": [
+    0.5,
+    0.375
+  ],
+  "sha256": "da09425726464d690ab96b63ae851673ae289b6c7e3ff50aa24df23dfb24513c",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/field-stages/field-soil-slope-s.png",
+      "sha256": "b784f9b1a89a00be703d641f9062346df592708e0af0ce39dc70437ecfa033eb",
+      "record": "assets/world/terrain/field-stages/field-soil-slope-s.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "sha256": "1458dcda037e2813fb015f11a93c3f072ceeed71e467dc2a10610055a85c0d2e",
+      "record": "assets/world/terrain/field-stages/field-primitive-gold-grain.png.derivation.json"
+    }
+  ],
+  "operation": "source crop stage with projected native furrow soil and upright native plant/hay sprites at exact piecewise slope-root heights; no new native painting",
+  "category": "field-stage",
+  "sourceRequirementIds": [
+    "terrain-field"
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeUpscale": false,
+  "status": "produced-needs-stage-art-review",
+  "unityValidated": false,
+  "sourceFieldType": 7,
+  "fieldStageName": "ripe-golden-grain",
+  "slopeCode": 2,
+  "placements": [
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.14,
+        0.14
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        128.0,
+        113.92
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        116,
+        87
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.14,
+        0.28400000000000003
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        146.43200000000002,
+        123.136
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        134,
+        96
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.28400000000000003,
+        0.14
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        109.568,
+        123.136
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        97,
+        96
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.14,
+        0.428
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        164.864,
+        132.352
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        152,
+        106
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.28400000000000003,
+        0.28400000000000003
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        128.0,
+        132.352
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        116,
+        106
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.428,
+        0.14
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        91.136,
+        132.352
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        79,
+        106
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.28400000000000003,
+        0.428
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        146.432,
+        141.56799999999998
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        134,
+        115
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.428,
+        0.28400000000000003
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        109.56800000000001,
+        141.56799999999998
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        97,
+        115
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.14,
+        0.5720000000000001
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        183.296,
+        141.568
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        171,
+        115
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.5720000000000001,
+        0.14
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        72.704,
+        141.568
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        60,
+        115
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.14,
+        0.716
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        201.728,
+        150.784
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        189,
+        124
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.428,
+        0.428
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        128.0,
+        150.784
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        116,
+        124
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.716,
+        0.14
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        54.272000000000006,
+        150.784
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        42,
+        124
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.28400000000000003,
+        0.5720000000000001
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        164.864,
+        150.784
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        152,
+        124
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.5720000000000001,
+        0.28400000000000003
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        91.136,
+        150.784
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        79,
+        124
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.14,
+        0.86
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        220.16,
+        160.0
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        208,
+        133
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.28400000000000003,
+        0.716
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        183.296,
+        160.0
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        171,
+        133
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.428,
+        0.5720000000000001
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        146.43200000000002,
+        160.0
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        134,
+        133
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.5720000000000001,
+        0.428
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        109.56799999999998,
+        160.0
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        97,
+        133
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.716,
+        0.28400000000000003
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        72.70400000000001,
+        160.0
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        60,
+        133
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.86,
+        0.14
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        35.84,
+        160.0
+      ],
+      "rootHeightUnits": 0.0,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        23,
+        133
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.428,
+        0.716
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        164.864,
+        164.608
+      ],
+      "rootHeightUnits": 0.1439999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        152,
+        138
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.716,
+        0.428
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        91.136,
+        164.608
+      ],
+      "rootHeightUnits": 0.14399999999999996,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        79,
+        138
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.28400000000000003,
+        0.86
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        201.728,
+        164.608
+      ],
+      "rootHeightUnits": 0.14400000000000002,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        189,
+        138
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.5720000000000001,
+        0.5720000000000001
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        128.0,
+        164.608
+      ],
+      "rootHeightUnits": 0.14400000000000013,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        116,
+        138
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.86,
+        0.28400000000000003
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        54.272000000000006,
+        164.608
+      ],
+      "rootHeightUnits": 0.14400000000000002,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        42,
+        138
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.428,
+        0.86
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        183.296,
+        169.216
+      ],
+      "rootHeightUnits": 0.2879999999999999,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        171,
+        142
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.5720000000000001,
+        0.716
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        146.432,
+        169.216
+      ],
+      "rootHeightUnits": 0.28800000000000003,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        134,
+        142
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.716,
+        0.5720000000000001
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        109.56800000000001,
+        169.216
+      ],
+      "rootHeightUnits": 0.28800000000000003,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        97,
+        142
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.86,
+        0.428
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        72.70400000000001,
+        169.216
+      ],
+      "rootHeightUnits": 0.288,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        60,
+        142
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.5720000000000001,
+        0.86
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        164.86399999999998,
+        173.82399999999998
+      ],
+      "rootHeightUnits": 0.43200000000000005,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        152,
+        147
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.716,
+        0.716
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        128.0,
+        173.824
+      ],
+      "rootHeightUnits": 0.43199999999999994,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        116,
+        147
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.86,
+        0.5720000000000001
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        91.13600000000001,
+        173.82399999999998
+      ],
+      "rootHeightUnits": 0.43200000000000005,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        79,
+        147
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.716,
+        0.86
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        146.43200000000002,
+        178.43200000000002
+      ],
+      "rootHeightUnits": 0.576,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        134,
+        152
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.86,
+        0.716
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        109.568,
+        178.43200000000002
+      ],
+      "rootHeightUnits": 0.576,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        97,
+        152
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    },
+    {
+      "kind": "gold-grain",
+      "uv": [
+        0.86,
+        0.86
+      ],
+      "heightPx": 27,
+      "rootPx": [
+        128.0,
+        183.04
+      ],
+      "rootHeightUnits": 0.72,
+      "image": "assets/world/terrain/field-stages/field-primitive-gold-grain.png",
+      "scale": 0.04918032786885246,
+      "offsetPx": [
+        116,
+        156
+      ],
+      "renderSizePx": [
+        27,
+        27
+      ],
+      "orientation": "upright billboard, no terrain/shear deformation"
+    }
+  ]
+}

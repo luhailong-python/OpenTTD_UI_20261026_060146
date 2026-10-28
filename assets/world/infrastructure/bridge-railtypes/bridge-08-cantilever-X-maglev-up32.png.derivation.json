@@ -1,0 +1,177 @@
+{
+  "id": "bridge-08-cantilever-X-maglev-up32",
+  "image": "assets/world/infrastructure/bridge-railtypes/bridge-08-cantilever-X-maglev-up32.png",
+  "sha256": "6dbb5363ed850ca7323c908623922ca16aea73e101e5e505504c48a778c4e7ec",
+  "width": 384,
+  "height": 384,
+  "anchorPx": [
+    192,
+    320
+  ],
+  "pivotUnity": [
+    0.5,
+    0.16666666666666663
+  ],
+  "category": "bridge-railtype",
+  "derivedFrom": [
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-08-cantilever-X-rail-north-rear.png",
+      "sha256": "4b37488aa9e353ea9f6d8a59e4b57b13963eb8c3a4ffe82216d8478b33a2d2d5",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-08-cantilever-X-rail-north-rear.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-X-maglev-32.png",
+      "sha256": "80b4dd17fae39fdf754ddb247af034bc14ca5fb705a3bcc1478ad6599e8a6bab",
+      "record": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-X-maglev-32.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/transport-runtime/bridge-08-cantilever-X-rail-north-front.png",
+      "sha256": "624262d0a65340dd95c184ed5803c1d757ee9cd24e6726fe2b9c52ae8c9b3c99",
+      "record": "assets/world/infrastructure/transport-runtime/bridge-08-cantilever-X-rail-north-front.png.derivation.json"
+    }
+  ],
+  "sourceRequirementIds": [
+    "bridge-08-cantilever"
+  ],
+  "nativeUpscale": false,
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "operation": "existing native lane pixels reprojected through the frozen bridge plane; existing rear/front structure reused verbatim; no new painting",
+  "status": "produced-needs-visual-review",
+  "unityValidated": false,
+  "axis": "X",
+  "railType": "maglev",
+  "risePx": 32,
+  "projection": {
+    "method": "measured native floor/column sections -> monotone separable source-pixel rectification; verticals remain vertical",
+    "sourceDeckQuadNearLeftFarLeftFarRightNearRight": [
+      [
+        76,
+        259
+      ],
+      [
+        149,
+        228
+      ],
+      [
+        435,
+        376
+      ],
+      [
+        374,
+        406
+      ]
+    ],
+    "sourceDeckMouths": [
+      [
+        112.5,
+        243.5
+      ],
+      [
+        404.5,
+        391.0
+      ]
+    ],
+    "targetDeckMouths": [
+      [
+        128,
+        176
+      ],
+      [
+        256,
+        208
+      ]
+    ],
+    "targetDeckQuadBeforeAxisMirror": [
+      [
+        113.31506849315069,
+        183.34246575342465
+      ],
+      [
+        142.68493150684932,
+        168.65753424657535
+      ],
+      [
+        270.6849315068493,
+        200.65753424657535
+      ],
+      [
+        241.31506849315068,
+        215.34246575342465
+      ]
+    ],
+    "deckCrossSectionHalfX": 14.684931506849313,
+    "uniformNativeScaleReference": 0.4383561643835616,
+    "sourceXKnots": [
+      76.0,
+      149.0,
+      374.0,
+      435.0
+    ],
+    "targetXKnots": [
+      113.31506849315069,
+      142.68493150684932,
+      241.31506849315068,
+      270.6849315068493
+    ],
+    "verticalScaleAboveDeck": [
+      0.4520547945205479,
+      0.4905414220482713,
+      0.4254633360193392,
+      0.3962065331928345
+    ],
+    "verticalScaleBelowDeck": [
+      0.3150684931506849,
+      0.4383561643835616,
+      0.7201565557729941,
+      0.4383561643835616
+    ],
+    "nativePostCorrespondence": [
+      {
+        "side": "front",
+        "nativeCapCentres": [
+          [
+            76,
+            243
+          ],
+          [
+            374,
+            389
+          ]
+        ],
+        "commonCapHeightPx": 7.232876712328767
+      },
+      {
+        "side": "back",
+        "nativeCapCentres": [
+          [
+            149,
+            207
+          ],
+          [
+            435,
+            350
+          ]
+        ],
+        "commonCapHeightPx": 10.301369863013697
+      }
+    ],
+    "axisMirror": false,
+    "rampRisePx": 32,
+    "advancePx": [
+      128,
+      32
+    ],
+    "rampProfile": "one-level native-pixel height transfer, constant at complete endpoint collars",
+    "nativeGeometryReprojected": true,
+    "nativeDetailClaim": "source-pixel geometric resampling only; no new original painting, fabricated material or added native detail"
+  },
+  "layers": {
+    "rear": "assets/world/infrastructure/transport-runtime/bridge-08-cantilever-X-rail-north-rear.png",
+    "lane": "assets/world/infrastructure/bridge-railtypes/lane-cantilever-span-X-maglev-32.png",
+    "front": "assets/world/infrastructure/transport-runtime/bridge-08-cantilever-X-rail-north-front.png"
+  },
+  "laneMaterialUV": "assets/world/infrastructure/transport-runtime/lane-source-maglev.png",
+  "frozenLaneOwnershipMask": "assets/world/infrastructure/transport-runtime/lane-bridge-cantilever-X-rail-32-mask.png"
+}

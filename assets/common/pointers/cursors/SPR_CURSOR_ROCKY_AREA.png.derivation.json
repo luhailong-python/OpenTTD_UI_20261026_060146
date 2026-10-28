@@ -1,0 +1,41 @@
+{
+  "id": "SPR_CURSOR_ROCKY_AREA",
+  "image": "assets/common/pointers/cursors/SPR_CURSOR_ROCKY_AREA.png",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "9c5a857b14cd46b3dbac703ca60a1e9adaa16fb977efbbb76923da7831261e6b",
+  "derivedFrom": [
+    {
+      "file": "assets/common/pointers/components/cursor-arrow.png",
+      "sha256": "a90aaef72ed3b89e0a14f4720b3f37ff16490ed5bd982eeb4cb644e7affb134c",
+      "record": "assets/common/pointers/components/cursor-arrow.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-rocks-density-3-flat.png",
+      "sha256": "596cb66ade2977d029120a43e362df536f14b47161abaaf6389cd7a7347188d4",
+      "record": "assets/world/terrain/terrain-rocks-density-3-flat.png.derivation.json"
+    }
+  ],
+  "operation": "same native arrow with actual measured tip hotspot; native functional badge downsample/padding; explicit vector orientation/clone or native chevron conversion modifier; no new native drawing",
+  "nativeModelGeneration": false,
+  "nativeUpscale": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unityValidated": false,
+  "userArtAcceptance": "pending",
+  "category": "static-cursor",
+  "sourceSymbol": "SPR_CURSOR_ROCKY_AREA",
+  "sourceSpriteId": 4087,
+  "hotspotPx": [
+    9,
+    8
+  ],
+  "anchorPx": [
+    9,
+    8
+  ],
+  "status": "art-checked-user-review-pending",
+  "actualVisualReview": "records/pointer-visual-review.json"
+}

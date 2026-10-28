@@ -1,0 +1,47 @@
+{
+  "id": "industry-30-toy-shop-construction-2",
+  "image": "assets/world/industries/construction/industry-30-toy-shop/stage-2.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "5f8e819ee089b24816874b75cbbab36372c3165d6ed4725533c1ca27d2340314",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/toy-shop.png",
+      "sha256": "0e1f84cdba725181863c38ba9450dd87dc665b2484421fa9a823ec72f05270c1",
+      "record": "assets/world/industries/toy-shop.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png",
+      "sha256": "8f880e3fb5e501a5882af4c29bd410559a4031b7efd432232671d359f4d1fdef",
+      "record": "assets/world/infrastructure/construction-ready/construction-front-scaffold.png.derivation.json",
+      "scale": 1
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 30,
+  "stage": 2,
+  "details": {
+    "kind": "partially completed compound revealed behind scaffold",
+    "visibleBottomFraction": 0.76
+  },
+  "sourceRequirementIds": [
+    "industry-30-toy-shop",
+    "industry-tile-138",
+    "industry-tile-139",
+    "industry-tile-140",
+    "industry-tile-141"
+  ]
+}

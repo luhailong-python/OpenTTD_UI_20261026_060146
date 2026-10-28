@@ -1,0 +1,21 @@
+{
+  "file": "assets/world/infrastructure/rail/rail-catenary-wire-x.png",
+  "sha256": "2b04c9ab8239088328dbf99357f02cc204f86df16d894642ffdbe59bf3304209",
+  "route": "deterministic-derivative",
+  "generatedAt": "2026-10-26T14:30:07.511484+00:00",
+  "width": 256,
+  "height": 128,
+  "operation": "actual native copper-wire span crop -> four repeats -> downscale -> UV direction/curve remap ->2:1 projection; no code-painted wire",
+  "derivedFrom": [
+    {
+      "file": "source-art/world/rail-topology.png",
+      "sha256": "6d010fb43d2c4fc873f3bbb5004cf4b9a98940ae85f45445536e26e706d7cfae",
+      "record": "source-art/world/rail-topology.png.generation.json",
+      "sourceRecordAvailable": true
+    }
+  ],
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source native generation did not expose actual model/quality; geometric and layered exports do not add native detail."
+}

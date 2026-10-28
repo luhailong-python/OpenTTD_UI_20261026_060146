@@ -1,0 +1,356 @@
+{
+  "id": 214,
+  "upstreamName": "Powernaut Cargo ship",
+  "familyId": "ship-cargo",
+  "transport": "ship",
+  "cargo": "CT_GOODS",
+  "climates": [
+    "toyland"
+  ],
+  "source": {
+    "file": "src/table/engines.h",
+    "line": 317
+  },
+  "trackHardware": null,
+  "sprites": [
+    {
+      "direction": "N",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/N-body.png",
+      "sha256": "9583ee05f179d5583bbc4c0e991ccadd73cdf2779480c5ff049cd3de9376b43a",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/N-body.png",
+          "sha256": "9583ee05f179d5583bbc4c0e991ccadd73cdf2779480c5ff049cd3de9376b43a",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/N.png",
+          "sha256": "830be7b0c1bed4c4ea28a8d4c88e7f09275c3f6f6b4b3d74a655ddb7ab303d10",
+          "record": "assets/world/vehicles/families/ship-cargo/N.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/NE-body.png",
+      "sha256": "9919b36337c8bb434483cc7bcc455564c1555a07a44bc444a2c10c423df2f424",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/NE-body.png",
+          "sha256": "9919b36337c8bb434483cc7bcc455564c1555a07a44bc444a2c10c423df2f424",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/NE.png",
+          "sha256": "b1f700270474b252b109a6e5a9b356558e5f20396d0fa432253a454d6c90ad95",
+          "record": "assets/world/vehicles/families/ship-cargo/NE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "E",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/E-body.png",
+      "sha256": "9d28d933ac3df75b95b134d68143268d5f3c9a61a393b86f4366b7ee79feea3f",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/E-body.png",
+          "sha256": "9d28d933ac3df75b95b134d68143268d5f3c9a61a393b86f4366b7ee79feea3f",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/E.png",
+          "sha256": "c2f019b66f342c6c934a8c191c895e6487e0d19d64c0b4d16fc20ef00a4a3f1f",
+          "record": "assets/world/vehicles/families/ship-cargo/E.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SE",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/SE-body.png",
+      "sha256": "ad42bc471dd70497ca78585ac2340a408c9e2c3955005eb7485920d1549cb1cd",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/SE-body.png",
+          "sha256": "ad42bc471dd70497ca78585ac2340a408c9e2c3955005eb7485920d1549cb1cd",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/SE.png",
+          "sha256": "822b4f9f024eb4709e63d8abc73114677b819d6cff0767314dd21a9377276388",
+          "record": "assets/world/vehicles/families/ship-cargo/SE.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "S",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/S-body.png",
+      "sha256": "a6297d0f4d40cd98dc78c57e7ccad5b9f2b04d2fbaa53a0f9eaf5c9cbdea743d",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/S-body.png",
+          "sha256": "a6297d0f4d40cd98dc78c57e7ccad5b9f2b04d2fbaa53a0f9eaf5c9cbdea743d",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/S.png",
+          "sha256": "64060158332d4af5b27dc9f9c9613b3c584a4e86f43cc27b8b4141589fb629c7",
+          "record": "assets/world/vehicles/families/ship-cargo/S.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "SW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/SW-body.png",
+      "sha256": "4e907fea33bbdc848a719cc78c7e3c2c83f1ed3918f15e72345c74c800d6d860",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/SW-body.png",
+          "sha256": "4e907fea33bbdc848a719cc78c7e3c2c83f1ed3918f15e72345c74c800d6d860",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/SW.png",
+          "sha256": "a5500685dc3dea8e93bd9fb30f9877e869d3b719a51827b690f601868afb1f0a",
+          "record": "assets/world/vehicles/families/ship-cargo/SW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "W",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/W-body.png",
+      "sha256": "e95aab6d3667f75a900f134a01a5d6dc5ecfbd865eb550497209d222788d34d9",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/W-body.png",
+          "sha256": "e95aab6d3667f75a900f134a01a5d6dc5ecfbd865eb550497209d222788d34d9",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/W.png",
+          "sha256": "24576391835a29c40d418258297649a5d999c684ad8bc11c94690dfff3618cc7",
+          "record": "assets/world/vehicles/families/ship-cargo/W.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    },
+    {
+      "direction": "NW",
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.31640625
+      ],
+      "body": "assets/world/vehicles/models/214/NW-body.png",
+      "sha256": "f7ba2439a20642d28c4fd79c04e3fbda5f14993dd05cd7fb1644c8283355a6c7",
+      "states": [
+        {
+          "state": "body",
+          "file": "assets/world/vehicles/models/214/NW-body.png",
+          "sha256": "f7ba2439a20642d28c4fd79c04e3fbda5f14993dd05cd7fb1644c8283355a6c7",
+          "sharedBodyWhenClosed": false,
+          "loadSource": null,
+          "visuallyDifferentFromEmpty": false,
+          "usesBaseBody": true
+        }
+      ],
+      "livery": {
+        "jadeHueOffset256": -6,
+        "jadeValueMultiplier": 0.95,
+        "preserveWarmIvoryAndGold": true
+      },
+      "sources": [
+        {
+          "file": "assets/world/vehicles/families/ship-cargo/NW.png",
+          "sha256": "09519622c005253cf7fe1abede710c79e2f982beede92f6bdaf8fbea5efefeb1",
+          "record": "assets/world/vehicles/families/ship-cargo/NW.png.derivation.json"
+        }
+      ],
+      "operations": [
+        "jade region livery derivative; warm ivory/gold retained"
+      ],
+      "nativeModelGeneration": false,
+      "unityVerified": false
+    }
+  ],
+  "loadedThreshold": null,
+  "bodyMotion": "eight static direction sprites; translation owned by later engine",
+  "status": "local-art-checked",
+  "artReuseDisclosure": "27 independent native family atlases; per-EngineID jade livery, track chassis and visible cargo composites; closed body can share empty/loaded art; not256 independent paintings",
+  "sourceGenerationFamily": "assets/world/vehicles/families/ship-cargo/atlas.png",
+  "unityImport": "Sprite Single, alpha transparency, Bilinear, no mipmaps UI; world sampling verify in Unity, per-frame pivot inmanifest; PPU initial100",
+  "acceptance": {
+    "localRecord": "records/vehicle-fx-validation.json",
+    "userArtAcceptance": "pending",
+    "unityVerified": false
+  }
+}

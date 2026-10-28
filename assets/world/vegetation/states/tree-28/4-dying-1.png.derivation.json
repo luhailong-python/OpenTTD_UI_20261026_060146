@@ -1,0 +1,39 @@
+{
+  "id": "tree-28-dying-1",
+  "image": "assets/world/vegetation/states/tree-28/4-dying-1.png",
+  "width": 256,
+  "height": 384,
+  "anchorPx": [
+    128,
+    352
+  ],
+  "pivotUnity": [
+    0.5,
+    0.08333333333333333
+  ],
+  "anchorMeaning": "same fixed plant root reference across all seven states",
+  "category": "vegetation-state",
+  "sha256": "e4e67cdf8e925ffc14f9e72c8c8aa3c2f44a93c8329303932eae859b22805ca4",
+  "climate": "tropical",
+  "artSpecies": "teak",
+  "sourceTreeType": 28,
+  "sourceGrowthStage": 4,
+  "operation": "declared static growth/death state derivative; scale/palette/shared painted parts only, no new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/world/vegetation/mature/tree-28.png",
+      "sha256": "8a501f1332d42fc429ce245ecf84feb7a75c0d66e914669a41d8dd9be46fcece",
+      "record": "assets/world/vegetation/mature/tree-28.png.derivation.json"
+    }
+  ],
+  "details": {
+    "method": "desaturated warm dry palette transform of species art",
+    "dryPaletteBlend": 0.68
+  },
+  "status": "passed-local-state-art-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceRequirementIds": [
+    "tree-28"
+  ]
+}

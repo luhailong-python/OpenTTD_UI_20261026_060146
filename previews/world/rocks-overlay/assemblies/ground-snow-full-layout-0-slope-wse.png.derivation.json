@@ -1,0 +1,31 @@
+{
+  "id": "ground-snow-full-layout-0-slope-wse",
+  "image": "previews/world/rocks-overlay/assemblies/ground-snow-full-layout-0-slope-wse.png",
+  "sha256": "59569bf5dbf62869bbd0a31a04008e41373658f0a299f0946e7b37c51cf41261",
+  "derivedFrom": [
+    {
+      "file": "assets/world/terrain/terrain-grass-slope-wse.png",
+      "sha256": "de6eb1add5e40a0adf19ee3254483717e3b8f4d5ead698679ec738db3eea50d8",
+      "record": "assets/world/terrain/terrain-grass-slope-wse.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/terrain-snow-slope-wse.png",
+      "sha256": "bd5a7ce1f25f5f508abf2b8e64c14436d685fb77da943464bc2e905d390977a5",
+      "record": "assets/world/terrain/terrain-snow-slope-wse.png.derivation.json"
+    },
+    {
+      "file": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-wse.png",
+      "sha256": "68ba6f610b7b18e41544c64fc3183a4ac35a1e1165c71e75a5907ebf432be944",
+      "record": "assets/world/terrain/rocks-overlay/rocks-snow-full-layout-0-slope-wse.png.derivation.json"
+    }
+  ],
+  "operation": "Actual grass/snow material underlay at explicit fraction plus independent native painted rock overlay; source snow is on rock parts, not a white recolour",
+  "context": "clear-snow",
+  "slopeCode": 7,
+  "overlayId": "rocks-snow-full-layout-0-slope-wse",
+  "groundFraction": 1.0,
+  "label": "snow-full v0 / wse",
+  "nativeModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null
+}

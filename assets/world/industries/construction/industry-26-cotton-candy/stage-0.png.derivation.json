@@ -1,0 +1,45 @@
+{
+  "id": "industry-26-cotton-candy-construction-0",
+  "image": "assets/world/industries/construction/industry-26-cotton-candy/stage-0.png",
+  "width": 512,
+  "height": 512,
+  "anchorPx": [
+    256,
+    448
+  ],
+  "pivotUnity": [
+    0.5,
+    0.125
+  ],
+  "anchorMeaning": "front-contact-of-compound",
+  "category": "industry-construction",
+  "sha256": "7717ba740626566338a83c065436afbeb664c7308d7b6ed6bc2be56036cc6afe",
+  "operation": "layered construction derivative from terminal compound and shared native construction kit; transparent masking/reveal or proportional shrink for growing plantations; not new AI painting",
+  "derivedFrom": [
+    {
+      "file": "assets/world/industries/cotton-candy.png",
+      "sha256": "7e1527e2fc04ad7448374f0674ec5cfe307d641419f038006d635a61fcb2536e",
+      "record": "assets/world/industries/cotton-candy.png.derivation.json"
+    },
+    {
+      "file": "assets/world/infrastructure/construction-ready/construction-foundation.png",
+      "sha256": "c6da2d561034b2934ba619e70c6c2f7537794a8c0db1414a65bc68d78411d401",
+      "record": "assets/world/infrastructure/construction-ready/construction-foundation.png.derivation.json",
+      "scale": 0.7603960396039604
+    }
+  ],
+  "status": "passed-local-construction-review",
+  "nativeUpscale": false,
+  "unityValidated": false,
+  "sourceIndustryTypeId": 26,
+  "stage": 0,
+  "details": {
+    "kind": "shared industry foundation matched to compound front contact",
+    "sharedSource": true
+  },
+  "sourceRequirementIds": [
+    "industry-26-cotton-candy",
+    "industry-tile-129",
+    "industry-tile-130"
+  ]
+}
