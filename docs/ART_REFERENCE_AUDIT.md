@@ -1,6 +1,6 @@
 # 美术参考实读与使用核验
 
-核实日期：2026-10-26（America/New_York）。本任务成果目录为 `E:/work/image/OpenTTD_UI_20261026_060146`；美术参考库为 `F:/work/image`。功能参考为 OpenTTD，成果远端待用户提供。此文档记录美术参考与控件提取，不代表 OpenTTD 功能覆盖或 Unity 接入验收。
+核实日期：2026-10-26（America/New_York）。本任务成果目录为 `E:/work/image/OpenTTD_UI_20261026_060146`；美术参考库为 `F:/work/image`。功能参考为 OpenTTD，核实时成果远端尚待提供；后续已配置独立成果仓库并推送，当前记录见[Git交付记录](GIT_DELIVERY.md)。此文档记录美术参考与控件提取，不代表 OpenTTD 功能覆盖或 Unity 接入验收。
 
 ## 已读规则与资料
 

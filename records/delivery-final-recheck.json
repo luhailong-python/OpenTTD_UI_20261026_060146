@@ -1,0 +1,76 @@
+{
+  "schema": "cloud-route.delivery-final-recheck.v1",
+  "checkedAt": "2026-10-30T02:55:12.396775+00:00",
+  "scope": "Current whole-game art delivery package; no Unity integration. Corrected current naming/publication copy and refreshed actual local evidence.",
+  "resolvedFindings": [
+    "Removed obsolete provisional-name notes from current UI manifest and screen catalog.",
+    "Replaced pending/unsubmitted Git copy in main HTML and its generator with current handoff link.",
+    "Regenerated full-game overview footer with the verified independent GitHub repository, main branch and handoff-record path.",
+    "Separated historical research-stage Git status from current delivery documentation."
+  ],
+  "formalArtPreservation": {
+    "verifiedFiles": 12763,
+    "formalPNGsUnchanged": 12212,
+    "screenDesignsUnchanged": 149,
+    "statePreviewsUnchanged": 227,
+    "hashMismatches": []
+  },
+  "checks": {
+    "browser": {
+      "record": "records/browser-validation.json",
+      "passed": true,
+      "count": 26
+    },
+    "ui": {
+      "record": "records/final-validation.json",
+      "passed": true,
+      "count": 6001
+    },
+    "wholeGame": {
+      "record": "records/full-game-art-audit.json",
+      "sha256": "ee436918ad27eb57d65ecf93b7e3a132bb30e43784dc60a18f3923b2dd6571d1",
+      "passed": true,
+      "count": 230631,
+      "failures": 0,
+      "warnings": 0,
+      "inputsStable": true
+    }
+  },
+  "actualVisualReview": [
+    {
+      "file": "previews/full-game-overview.jpg",
+      "sha256": "e4e2a653af57da21e4895ac5e7c441c427261d22b59f847a443ebbef4666aa94",
+      "reviewer": "root",
+      "status": "passed-local",
+      "finding": "Actually reopened after footer regeneration: correct independent repository/main and handoff-record path, both lines fit; formal Logo, four UI plates, world and vehicle samples intact."
+    },
+    {
+      "file": "records/gallery-desktop.png",
+      "sha256": "94c2aff8cfa67608277f650fd4467b76942e90f505c03ec4555326ab0104df6a",
+      "reviewer": "root",
+      "status": "passed-local",
+      "finding": "Actually viewed current desktop gallery: formal Logo, UI cards and navigation fit; name and card counts correct."
+    },
+    {
+      "file": "records/gallery-mobile.png",
+      "sha256": "7ca089e556d91fe3e9bfd664f17c793778c27eaeb080483d67c834f6c34459db",
+      "reviewer": "root",
+      "status": "passed-local",
+      "finding": "Actually viewed current390px gallery: Logo proportional, navigation wraps inside viewport, search controls fit."
+    },
+    {
+      "file": "records/gallery-footer.png",
+      "sha256": "6a96ef47f7bfcda113a7656cedcb546a736631b93d74facd2d83427dd3f85156",
+      "reviewer": "root",
+      "status": "passed-local",
+      "finding": "Actually viewed current390px footer: Git handoff link and Unity status readable, no stale pending-remote or unsubmitted statement."
+    }
+  ],
+  "fullGameLocalArtAccepted": true,
+  "remainingArtItems": [],
+  "openFindings": [],
+  "userArtAccepted": false,
+  "unityValidated": false,
+  "gitDeliveryRecord": "docs/GIT_DELIVERY.md",
+  "publicationRule": "Initial complete art push verified; exact final commit/remote equality verified after committing this follow-up."
+}

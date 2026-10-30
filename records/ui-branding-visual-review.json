@@ -257,10 +257,20 @@
     },
     {
       "file": "previews/full-game-overview.jpg",
-      "sha256": "74ce754aa04c6211226bf16cebd4520f819fbc8120b42f04293cf1f9ed2f0674",
+      "sha256": "e4e2a653af57da21e4895ac5e7c441c427261d22b59f847a443ebbef4666aa94",
       "status": "passed-local",
-      "finding": "Actually viewed: adopted Logo, four current UI screens and unchanged world/vehicle art aligned; formal name shown.",
-      "reviewer": "root"
+      "finding": "Actually reopened the regenerated full-game overview: formal Logo and four UI plates unchanged; world and vehicle samples intact. Footer now lists the verified independent GitHub repository, main branch and Git delivery record; no pending-remote or unsubmitted placeholder remains, and both footer lines fit inside the canvas.",
+      "reviewer": "root",
+      "history": [
+        {
+          "file": "previews/full-game-overview.jpg",
+          "sha256": "74ce754aa04c6211226bf16cebd4520f819fbc8120b42f04293cf1f9ed2f0674",
+          "status": "passed-local",
+          "finding": "Actually viewed: adopted Logo, four current UI screens and unchanged world/vehicle art aligned; formal name shown.",
+          "reviewer": "root"
+        }
+      ],
+      "reviewedAt": "2026-10-30T02:50:08.071824+00:00"
     }
   ],
   "contactReview": "records/ui-branding-contact-review.json",
@@ -268,5 +278,6 @@
   "openFindings": [],
   "scope": "Actual4full screens,13screen contacts,12state contacts,UI overview and full-game overview. Two current contacts were reopened by root after final copy cleanup. Historical initial review evidence remains intact.",
   "userArtAccepted": false,
-  "unityValidated": false
+  "unityValidated": false,
+  "publicationCopyReviewAt": "2026-10-30T02:50:08.071824+00:00"
 }

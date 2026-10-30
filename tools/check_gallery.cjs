@@ -9,6 +9,9 @@ const fs=require('fs');const path=require('path');const crypto=require('crypto')
  checks.push({name:'formal title and native logo in gallery header',passed:await page.locator('header h1 img[alt="云途万里"]').evaluate(e=>e.complete&&e.naturalWidth===1860&&e.getAttribute('src')==='branding/yuntu-wanli/logo-main.png')});
  checks.push({name:'formal branding gallery linked',passed:await page.locator('nav a[href="previews/branding/index.html"]').count()===1});
  checks.push({name:'no provisional name in visible page',passed:!await page.locator('body').innerText().then(t=>t.includes('暂名')||t.includes('临时游戏名称'))});
+  checks.push({name:'current Git handoff linked in footer',passed:await page.locator('footer a[href="docs/GIT_DELIVERY.md"]').count()===1});
+  checks.push({name:'no obsolete publication status in visible page',passed:!await page.locator('body').innerText().then(t=>t.includes('未提交 Git')||t.includes('成果远端待用户提供'))});
+  checks.push({name:'formal title notes in embedded current screen data',passed:await page.evaluate(()=>!window.UI_ART.screens.some(s=>(s.notes||[]).some(t=>/临时美术名称|临时游戏名|待用户定名|待用户最终定名/.test(t))))});
  checks.push({name:'149 cards rendered',passed:await page.locator('.card').count()===149});
  await page.locator('#search').fill('机场');
  const n=await page.locator('.card').count();checks.push({name:'search filters airport',passed:n>0&&n<149,count:n});
@@ -37,6 +40,7 @@ const fs=require('fs');const path=require('path');const crypto=require('crypto')
  const resources=await page.locator('.resources a').evaluateAll(es=>es.map(e=>e.getAttribute('href')));
  checks.push({name:'resource links exist',passed:resources.every(p=>fs.existsSync(path.join(root,decodeURIComponent(p))))});
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(root,'records','gallery-mobile.png'),fullPage:false});
+  await page.locator('footer').screenshot({path:path.join(root,'records','gallery-footer.png')});
  checks.push({name:'gallery fits 390px',passed:await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)});
  await browser.close();
  const inputFiles=['index.html','docs/UI_MASTER_MANIFEST.json','docs/asset-branding-manifest.json','branding/yuntu-wanli/logo-main.png','branding/yuntu-wanli/logo-symbol-64.png'];

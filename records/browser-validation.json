@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T07:43:21.128Z",
+  "checkedAt": "2026-10-30T02:51:06.451Z",
   "scope": "local static design gallery; not Unity/game runtime",
   "checks": [
     {
@@ -12,6 +12,18 @@
     },
     {
       "name": "no provisional name in visible page",
+      "passed": true
+    },
+    {
+      "name": "current Git handoff linked in footer",
+      "passed": true
+    },
+    {
+      "name": "no obsolete publication status in visible page",
+      "passed": true
+    },
+    {
+      "name": "formal title notes in embedded current screen data",
       "passed": true
     },
     {
@@ -100,11 +112,11 @@
   "inputSnapshots": [
     {
       "file": "index.html",
-      "sha256": "aa1c30ac5309c3fd78bc0f152b823ff2559955e8abfd0c8f3cfe4c36977cebf3"
+      "sha256": "773ed5f03983dbe473415067e934f7b0a40ff1f6db791c744a8eb6d671861c36"
     },
     {
       "file": "docs/UI_MASTER_MANIFEST.json",
-      "sha256": "37a11ab12949529c15994a5e9212d3560df69839b9b92dc6eb32f0b3926e327d"
+      "sha256": "5642f255c541822483566c8de00106137c50fd3c0f436bf2aac6b8542a221eaf"
     },
     {
       "file": "docs/asset-branding-manifest.json",
@@ -121,17 +133,5 @@
   ],
   "pageErrors": [],
   "failedRequests": [],
-  "passed": true,
-  "localVisualPassed": true,
-  "visualReviewer": "root; actual desktop/mobile screenshots viewed",
-  "screenshots": [
-    {
-      "file": "records/gallery-desktop.png",
-      "sha256": "94c2aff8cfa67608277f650fd4467b76942e90f505c03ec4555326ab0104df6a"
-    },
-    {
-      "file": "records/gallery-mobile.png",
-      "sha256": "7ca089e556d91fe3e9bfd664f17c793778c27eaeb080483d67c834f6c34459db"
-    }
-  ]
+  "passed": true
 }

@@ -378,6 +378,8 @@ def audit(a):
     for s in screens:
         display = {k:s.get(k) for k in ("title", "subtitle", "tabs", "columns", "rows", "details", "actions", "states")}
         a.check(not any("暂名" in t for t in strings(display)), "brand.no-provisional-visible-screen-copy", detail=s.get("id"))
+        a.check(not any(word in t for t in strings(s.get("notes", [])) for word in ("临时美术名称", "临时游戏名", "待用户定名", "待用户最终定名")),
+                "brand.no-obsolete-naming-note-in-current-contract", detail=s.get("id"))
         variants = [(s["id"], "docs/layouts/" + s["id"] + ".json", s.get("designPath"))]
         variants += [(s["id"]+"--"+st["id"], "docs/layouts/states/"+s["id"]+"--"+st["id"]+".json", st.get("previewPath")) for st in s.get("states", [])]
         for identifier, layout_name, image_name in variants:
@@ -425,6 +427,8 @@ def audit(a):
             continue
         parser=VisibleHTML();parser.feed(hp.read_text(encoding="utf-8-sig"));a.read_files[hp]=a.sha(hp)
         a.check(not any("暂名" in t for t in parser.text), "brand.no-provisional-active-HTML-visible-copy", hp)
+        a.check(not any(word in t for t in parser.text for word in ("未提交 Git", "成果远端待用户提供", "成果 GitHub 待提供")),
+                "delivery.no-obsolete-publication-placeholder-in-active-HTML", hp)
     index_path = a.root / "docs/ART_RESOURCE_INDEX.json"
     if a.check(index_path.is_file(), "brand.complete-resource-index-exists", index_path):
         index = a.read(index_path);assets = index.get("assets", [])

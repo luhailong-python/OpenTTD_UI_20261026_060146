@@ -1,6 +1,6 @@
 {
   "schema": "cloud-route.full-game-acceptance.v1",
-  "checkedAt": "2026-10-29T08:11:44.830893+00:00",
+  "checkedAt": "2026-10-30T02:52:41.681371+00:00",
   "status": "local-art-checks-passed; user-art-review-pending",
   "mechanicalSnapshotPassed": true,
   "fullGameLocalArtAccepted": true,
@@ -8,7 +8,7 @@
   "unityValidated": false,
   "gitSubmitted": false,
   "counts": {
-    "passedChecks": 230455,
+    "passedChecks": 230631,
     "failures": 0,
     "warnings": 0,
     "formalPNGs": 12212,
@@ -55,10 +55,10 @@
   "acceptanceRule": "No whole-game acceptance claim while an upstream requirement, required state, stale aggregate, failed check or local visual review remains unresolved. User art approval and Unity runtime approval are separate.",
   "brandIntegration": {
     "schema": "cloud-route.brand-integration-validation.v1",
-    "checkedAt": "2026-10-29T08:11:29.593112+00:00",
+    "checkedAt": "2026-10-30T02:52:27.524481+00:00",
     "complete": true,
     "passed": true,
-    "passedChecks": 2213,
+    "passedChecks": 2362,
     "failed": 0,
     "checks": [
       {
@@ -759,6 +759,11 @@
         "detail": "01-main-menu"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "01-main-menu"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/01-main-menu.json"
@@ -863,6 +868,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "02-bootstrap"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "02-bootstrap"
       },
@@ -985,6 +995,11 @@
         "detail": "03-new-world"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "03-new-world"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/03-new-world.json"
@@ -1089,6 +1104,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "04-heightmap"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "04-heightmap"
       },
@@ -1211,6 +1231,11 @@
         "detail": "05-scenario-select"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "05-scenario-select"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/05-scenario-select.json"
@@ -1325,6 +1350,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "06-load-game"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "06-load-game"
       },
@@ -1457,6 +1487,11 @@
         "detail": "07-save-game"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "07-save-game"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/07-save-game.json"
@@ -1585,6 +1620,11 @@
         "detail": "08-world-progress"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "08-world-progress"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/08-world-progress.json"
@@ -1699,6 +1739,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "09-main-hud"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "09-main-hud"
       },
@@ -1821,6 +1866,11 @@
         "detail": "10-game-menu"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "10-game-menu"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/10-game-menu.json"
@@ -1925,6 +1975,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "11-rail-build"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "11-rail-build"
       },
@@ -2057,6 +2112,11 @@
         "detail": "12-rail-station"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "12-rail-station"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/12-rail-station.json"
@@ -2175,6 +2235,11 @@
         "detail": "13-rail-signals"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "13-rail-signals"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/13-rail-signals.json"
@@ -2279,6 +2344,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "14-rail-depot"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "14-rail-depot"
       },
@@ -2391,6 +2461,11 @@
         "detail": "15-rail-waypoint"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "15-rail-waypoint"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/15-rail-waypoint.json"
@@ -2495,6 +2570,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "16-rail-convert"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "16-rail-convert"
       },
@@ -2617,6 +2697,11 @@
         "detail": "17-bridge"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "17-bridge"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/17-bridge.json"
@@ -2731,6 +2816,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "18-tunnel"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "18-tunnel"
       },
@@ -2853,6 +2943,11 @@
         "detail": "19-road-build"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "19-road-build"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/19-road-build.json"
@@ -2957,6 +3052,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "20-tram-build"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "20-tram-build"
       },
@@ -3069,6 +3169,11 @@
         "detail": "21-road-station"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "21-road-station"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/21-road-station.json"
@@ -3173,6 +3278,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "22-road-depot"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "22-road-depot"
       },
@@ -3285,6 +3395,11 @@
         "detail": "23-road-waypoint"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "23-road-waypoint"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/23-road-waypoint.json"
@@ -3389,6 +3504,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "24-water-build"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "24-water-build"
       },
@@ -3501,6 +3621,11 @@
         "detail": "25-dock"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "25-dock"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/25-dock.json"
@@ -3605,6 +3730,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "26-shipyard"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "26-shipyard"
       },
@@ -3717,6 +3847,11 @@
         "detail": "27-canal-lock"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "27-canal-lock"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/27-canal-lock.json"
@@ -3821,6 +3956,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "28-airport-build"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "28-airport-build"
       },
@@ -3933,6 +4073,11 @@
         "detail": "29-airport-picker"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "29-airport-picker"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/29-airport-picker.json"
@@ -4037,6 +4182,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "30-station-join"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "30-station-join"
       },
@@ -4149,6 +4299,11 @@
         "detail": "31-stations-list"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "31-stations-list"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/31-stations-list.json"
@@ -4253,6 +4408,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "32-station-detail"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "32-station-detail"
       },
@@ -4375,6 +4535,11 @@
         "detail": "33-station-ratings"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "33-station-ratings"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/33-station-ratings.json"
@@ -4483,6 +4648,11 @@
         "detail": "34-waypoint-detail"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "34-waypoint-detail"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/34-waypoint-detail.json"
@@ -4587,6 +4757,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "35-vehicles-train"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "35-vehicles-train"
       },
@@ -4709,6 +4884,11 @@
         "detail": "36-vehicles-road"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "36-vehicles-road"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/36-vehicles-road.json"
@@ -4823,6 +5003,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "37-vehicles-ship"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "37-vehicles-ship"
       },
@@ -4945,6 +5130,11 @@
         "detail": "38-vehicles-air"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "38-vehicles-air"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/38-vehicles-air.json"
@@ -5059,6 +5249,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "39-depot-train"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "39-depot-train"
       },
@@ -5181,6 +5376,11 @@
         "detail": "40-depot-road"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "40-depot-road"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/40-depot-road.json"
@@ -5295,6 +5495,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "41-depot-ship"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "41-depot-ship"
       },
@@ -5417,6 +5622,11 @@
         "detail": "42-depot-air"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "42-depot-air"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/42-depot-air.json"
@@ -5531,6 +5741,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "43-buy-train"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "43-buy-train"
       },
@@ -5663,6 +5878,11 @@
         "detail": "44-buy-road"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "44-buy-road"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/44-buy-road.json"
@@ -5787,6 +6007,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "45-buy-ship"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "45-buy-ship"
       },
@@ -5919,6 +6144,11 @@
         "detail": "46-buy-air"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "46-buy-air"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/46-buy-air.json"
@@ -6043,6 +6273,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "47-vehicle-view"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "47-vehicle-view"
       },
@@ -6175,6 +6410,11 @@
         "detail": "48-vehicle-details"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "48-vehicle-details"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/48-vehicle-details.json"
@@ -6279,6 +6519,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "49-vehicle-refit"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "49-vehicle-refit"
       },
@@ -6411,6 +6656,11 @@
         "detail": "50-orders"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "50-orders"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/50-orders.json"
@@ -6539,6 +6789,11 @@
         "detail": "51-conditional-order"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "51-conditional-order"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/51-conditional-order.json"
@@ -6643,6 +6898,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "52-shared-orders"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "52-shared-orders"
       },
@@ -6765,6 +7025,11 @@
         "detail": "53-timetable"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "53-timetable"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/53-timetable.json"
@@ -6879,6 +7144,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "54-vehicle-groups"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "54-vehicle-groups"
       },
@@ -7001,6 +7271,11 @@
         "detail": "55-auto-replace"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "55-auto-replace"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/55-auto-replace.json"
@@ -7119,6 +7394,11 @@
         "detail": "56-engine-preview"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "56-engine-preview"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/56-engine-preview.json"
@@ -7223,6 +7503,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "57-company-overview"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "57-company-overview"
       },
@@ -7345,6 +7630,11 @@
         "detail": "58-company-manager"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "58-company-manager"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/58-company-manager.json"
@@ -7453,6 +7743,11 @@
         "detail": "59-company-livery"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "59-company-livery"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/59-company-livery.json"
@@ -7557,6 +7852,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "60-finances"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "60-finances"
       },
@@ -7679,6 +7979,11 @@
         "detail": "61-loan"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "61-loan"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/61-loan.json"
@@ -7797,6 +8102,11 @@
         "detail": "62-infrastructure"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "62-infrastructure"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/62-infrastructure.json"
@@ -7901,6 +8211,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "63-buy-company"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "63-buy-company"
       },
@@ -8023,6 +8338,11 @@
         "detail": "64-company-league"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "64-company-league"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/64-company-league.json"
@@ -8127,6 +8447,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "65-company-graphs"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "65-company-graphs"
       },
@@ -8239,6 +8564,11 @@
         "detail": "66-performance"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "66-performance"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/66-performance.json"
@@ -8347,6 +8677,11 @@
         "detail": "67-cargo-payment"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "67-cargo-payment"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/67-cargo-payment.json"
@@ -8451,6 +8786,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "68-subsidies"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "68-subsidies"
       },
@@ -8583,6 +8923,11 @@
         "detail": "69-small-map"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "69-small-map"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/69-small-map.json"
@@ -8687,6 +9032,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "70-linkgraph"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "70-linkgraph"
       },
@@ -8799,6 +9149,11 @@
         "detail": "71-extra-viewport"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "71-extra-viewport"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/71-extra-viewport.json"
@@ -8903,6 +9258,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "72-transparency"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "72-transparency"
       },
@@ -9015,6 +9375,11 @@
         "detail": "73-land-info"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "73-land-info"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/73-land-info.json"
@@ -9123,6 +9488,11 @@
         "detail": "74-signs"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "74-signs"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/74-signs.json"
@@ -9227,6 +9597,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "75-sign-edit"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "75-sign-edit"
       },
@@ -9349,6 +9724,11 @@
         "detail": "76-towns"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "76-towns"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/76-towns.json"
@@ -9457,6 +9837,11 @@
         "detail": "77-town-detail"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "77-town-detail"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/77-town-detail.json"
@@ -9561,6 +9946,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "78-town-authority"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "78-town-authority"
       },
@@ -9693,6 +10083,11 @@
         "detail": "79-found-town"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "79-found-town"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/79-found-town.json"
@@ -9811,6 +10206,11 @@
         "detail": "80-industries"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "80-industries"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/80-industries.json"
@@ -9915,6 +10315,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "81-industry-detail"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "81-industry-detail"
       },
@@ -10033,6 +10438,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "82-fund-industry"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "82-fund-industry"
       },
@@ -10165,6 +10575,11 @@
         "detail": "83-cargo-chain"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "83-cargo-chain"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/83-cargo-chain.json"
@@ -10269,6 +10684,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "84-industry-production"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "84-industry-production"
       },
@@ -10381,6 +10801,11 @@
         "detail": "85-town-cargo"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "85-town-cargo"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/85-town-cargo.json"
@@ -10485,6 +10910,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "86-news"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "86-news"
       },
@@ -10597,6 +11027,11 @@
         "detail": "87-news-history"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "87-news-history"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/87-news-history.json"
@@ -10701,6 +11136,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "88-goals"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "88-goals"
       },
@@ -10823,6 +11263,11 @@
         "detail": "89-goal-question"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "89-goal-question"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/89-goal-question.json"
@@ -10927,6 +11372,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "90-story-book"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "90-story-book"
       },
@@ -11039,6 +11489,11 @@
         "detail": "91-highscores"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "91-highscores"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/91-highscores.json"
@@ -11147,6 +11602,11 @@
         "detail": "92-endgame"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "92-endgame"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/92-endgame.json"
@@ -11251,6 +11711,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "93-servers"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "93-servers"
       },
@@ -11383,6 +11848,11 @@
         "detail": "94-server-create"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "94-server-create"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/94-server-create.json"
@@ -11487,6 +11957,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "95-network-join"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "95-network-join"
       },
@@ -11629,6 +12104,11 @@
         "detail": "96-network-password"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "96-network-password"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/96-network-password.json"
@@ -11743,6 +12223,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "97-clients"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "97-clients"
       },
@@ -11875,6 +12360,11 @@
         "detail": "98-chat"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "98-chat"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/98-chat.json"
@@ -11989,6 +12479,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "99-gift-money"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "99-gift-money"
       },
@@ -12111,6 +12606,11 @@
         "detail": "100-relay-consent"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "100-relay-consent"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/100-relay-consent.json"
@@ -12219,6 +12719,11 @@
         "detail": "101-survey-consent"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "101-survey-consent"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/101-survey-consent.json"
@@ -12323,6 +12828,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "102-online-content"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "102-online-content"
       },
@@ -12455,6 +12965,11 @@
         "detail": "103-content-download"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "103-content-download"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/103-content-download.json"
@@ -12569,6 +13084,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "104-newgrf"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "104-newgrf"
       },
@@ -12701,6 +13221,11 @@
         "detail": "105-newgrf-parameters"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "105-newgrf-parameters"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/105-newgrf-parameters.json"
@@ -12815,6 +13340,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "106-newgrf-presets"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "106-newgrf-presets"
       },
@@ -12937,6 +13467,11 @@
         "detail": "107-content-scan"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "107-content-scan"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/107-content-scan.json"
@@ -13041,6 +13576,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "108-content-text"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "108-content-text"
       },
@@ -13153,6 +13693,11 @@
         "detail": "109-ai-config"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "109-ai-config"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/109-ai-config.json"
@@ -13257,6 +13802,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "110-gs-config"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "110-gs-config"
       },
@@ -13369,6 +13919,11 @@
         "detail": "111-script-list"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "111-script-list"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/111-script-list.json"
@@ -13473,6 +14028,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "112-script-settings"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "112-script-settings"
       },
@@ -13595,6 +14155,11 @@
         "detail": "113-script-debug"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "113-script-debug"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/113-script-debug.json"
@@ -13699,6 +14264,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "114-options"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "114-options"
       },
@@ -13811,6 +14381,11 @@
         "detail": "115-graphics-options"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "115-graphics-options"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/115-graphics-options.json"
@@ -13915,6 +14490,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "116-sound-options"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "116-sound-options"
       },
@@ -14027,6 +14607,11 @@
         "detail": "117-social-options"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "117-social-options"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/117-social-options.json"
@@ -14131,6 +14716,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "118-advanced-options"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "118-advanced-options"
       },
@@ -14253,6 +14843,11 @@
         "detail": "119-custom-currency"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "119-custom-currency"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/119-custom-currency.json"
@@ -14357,6 +14952,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "120-music-player"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "120-music-player"
       },
@@ -14469,6 +15069,11 @@
         "detail": "121-music-tracks"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "121-music-tracks"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/121-music-tracks.json"
@@ -14573,6 +15178,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "122-help"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "122-help"
       },
@@ -14685,6 +15295,11 @@
         "detail": "123-about"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "123-about"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/123-about.json"
@@ -14779,6 +15394,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "124-screenshot"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "124-screenshot"
       },
@@ -14901,6 +15521,11 @@
         "detail": "125-date-picker"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "125-date-picker"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/125-date-picker.json"
@@ -15005,6 +15630,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "126-scenario-create"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "126-scenario-create"
       },
@@ -15117,6 +15747,11 @@
         "detail": "127-scenario-editor"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "127-scenario-editor"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/127-scenario-editor.json"
@@ -15225,6 +15860,11 @@
         "detail": "128-editor-terrain"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "128-editor-terrain"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/128-editor-terrain.json"
@@ -15329,6 +15969,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "129-terraform"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "129-terraform"
       },
@@ -15451,6 +16096,11 @@
         "detail": "130-trees"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "130-trees"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/130-trees.json"
@@ -15555,6 +16205,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "131-objects"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "131-objects"
       },
@@ -15667,6 +16322,11 @@
         "detail": "132-build-house"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "132-build-house"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/132-build-house.json"
@@ -15775,6 +16435,11 @@
         "detail": "133-town-data-import"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "133-town-data-import"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/133-town-data-import.json"
@@ -15879,6 +16544,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "134-sandbox"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "134-sandbox"
       },
@@ -16001,6 +16671,11 @@
         "detail": "135-console"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "135-console"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/135-console.json"
@@ -16105,6 +16780,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "136-newgrf-inspect"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "136-newgrf-inspect"
       },
@@ -16217,6 +16897,11 @@
         "detail": "137-sprite-align"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "137-sprite-align"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/137-sprite-align.json"
@@ -16321,6 +17006,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "138-performance-monitor"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "138-performance-monitor"
       },
@@ -16433,6 +17123,11 @@
         "detail": "139-frame-time"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "139-frame-time"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/139-frame-time.json"
@@ -16527,6 +17222,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "140-generic-error"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "140-generic-error"
       },
@@ -16649,6 +17349,11 @@
         "detail": "141-tooltip-cost"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "141-tooltip-cost"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/141-tooltip-cost.json"
@@ -16743,6 +17448,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "142-input-query"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "142-input-query"
       },
@@ -16865,6 +17575,11 @@
         "detail": "143-confirm"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "143-confirm"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/143-confirm.json"
@@ -16983,6 +17698,11 @@
         "detail": "144-on-screen-keyboard"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "144-on-screen-keyboard"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/144-on-screen-keyboard.json"
@@ -17087,6 +17807,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "145-profit-graph"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "145-profit-graph"
       },
@@ -17199,6 +17924,11 @@
         "detail": "146-cargo-graph"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "146-cargo-graph"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/146-cargo-graph.json"
@@ -17303,6 +18033,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "147-performance-graph"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "147-performance-graph"
       },
@@ -17415,6 +18150,11 @@
         "detail": "148-value-graph"
       },
       {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
+        "passed": true,
+        "detail": "148-value-graph"
+      },
+      {
         "code": "brand.actual-layout-record-exists",
         "passed": true,
         "file": "docs/layouts/148-value-graph.json"
@@ -17519,6 +18259,11 @@
       },
       {
         "code": "brand.no-provisional-visible-screen-copy",
+        "passed": true,
+        "detail": "149-script-league"
+      },
+      {
+        "code": "brand.no-obsolete-naming-note-in-current-contract",
         "passed": true,
         "detail": "149-script-league"
       },
@@ -17987,7 +18732,7 @@
         "file": "records/browser-validation.json",
         "detail": {
           "file": "index.html",
-          "sha256": "aa1c30ac5309c3fd78bc0f152b823ff2559955e8abfd0c8f3cfe4c36977cebf3"
+          "sha256": "773ed5f03983dbe473415067e934f7b0a40ff1f6db791c744a8eb6d671861c36"
         }
       },
       {
@@ -18002,7 +18747,7 @@
         "file": "records/browser-validation.json",
         "detail": {
           "file": "docs/UI_MASTER_MANIFEST.json",
-          "sha256": "37a11ab12949529c15994a5e9212d3560df69839b9b92dc6eb32f0b3926e327d"
+          "sha256": "5642f255c541822483566c8de00106137c50fd3c0f436bf2aac6b8542a221eaf"
         }
       },
       {
@@ -18860,10 +19605,20 @@
         "file": "records/ui-branding-visual-review.json",
         "detail": {
           "file": "previews/full-game-overview.jpg",
-          "sha256": "74ce754aa04c6211226bf16cebd4520f819fbc8120b42f04293cf1f9ed2f0674",
+          "sha256": "e4e2a653af57da21e4895ac5e7c441c427261d22b59f847a443ebbef4666aa94",
           "status": "passed-local",
-          "finding": "Actually viewed: adopted Logo, four current UI screens and unchanged world/vehicle art aligned; formal name shown.",
-          "reviewer": "root"
+          "finding": "Actually reopened the regenerated full-game overview: formal Logo and four UI plates unchanged; world and vehicle samples intact. Footer now lists the verified independent GitHub repository, main branch and Git delivery record; no pending-remote or unsubmitted placeholder remains, and both footer lines fit inside the canvas.",
+          "reviewer": "root",
+          "history": [
+            {
+              "file": "previews/full-game-overview.jpg",
+              "sha256": "74ce754aa04c6211226bf16cebd4520f819fbc8120b42f04293cf1f9ed2f0674",
+              "status": "passed-local",
+              "finding": "Actually viewed: adopted Logo, four current UI screens and unchanged world/vehicle art aligned; formal name shown.",
+              "reviewer": "root"
+            }
+          ],
+          "reviewedAt": "2026-10-30T02:50:08.071824+00:00"
         }
       },
       {
@@ -18994,7 +19749,7 @@
       },
       "index": {
         "file": "index.html",
-        "sha256": "aa1c30ac5309c3fd78bc0f152b823ff2559955e8abfd0c8f3cfe4c36977cebf3",
+        "sha256": "773ed5f03983dbe473415067e934f7b0a40ff1f6db791c744a8eb6d671861c36",
         "actualLogoImages": [
           "branding/yuntu-wanli/logo-main.png"
         ]
@@ -19003,7 +19758,7 @@
     "browserEvidence": [
       {
         "record": "records/browser-validation.json",
-        "sha256": "5b459218f966f86fa4efc6ab55c7b549a49ea89f445fc53f72c5ee91e3e2c925",
+        "sha256": "274745f2cc2c9a7162b6c544aa75645d907b32f98ef5bc8f2aa9550b1845ed80",
         "passed": true,
         "requiredInputs": [
           "index.html"
@@ -19032,7 +19787,7 @@
     ],
     "uiBrandingVisualReview": {
       "record": "records/ui-branding-visual-review.json",
-      "sha256": "6962b532a3dffeb905ba61c588f1b63682e99f18d7b8403d73fc03951b7abc7e",
+      "sha256": "ce59a31a2ec7681fe78ac25337bc183739d3cde5a184f9c55e6e1a9aa412848e",
       "passed": true,
       "reviewedCurrentFiles": 31,
       "requiredCurrentFiles": [
@@ -19117,7 +19872,7 @@
       },
       {
         "file": "docs/UI_MASTER_MANIFEST.json",
-        "sha256": "37a11ab12949529c15994a5e9212d3560df69839b9b92dc6eb32f0b3926e327d"
+        "sha256": "5642f255c541822483566c8de00106137c50fd3c0f436bf2aac6b8542a221eaf"
       },
       {
         "file": "docs/asset-branding-manifest.json",
@@ -19125,11 +19880,11 @@
       },
       {
         "file": "docs/screen-catalog.json",
-        "sha256": "4c3b43b03e66179cd198f663a7d829a09b3fc98f79f5e1af8870df1b5dd54a93"
+        "sha256": "1a1eeb273e1d9ec9eb66182e5e6ed41d979a8f7c035019465106acce38542ffd"
       },
       {
         "file": "index.html",
-        "sha256": "aa1c30ac5309c3fd78bc0f152b823ff2559955e8abfd0c8f3cfe4c36977cebf3"
+        "sha256": "773ed5f03983dbe473415067e934f7b0a40ff1f6db791c744a8eb6d671861c36"
       },
       {
         "file": "previews/branding/index.html",
@@ -19145,7 +19900,7 @@
       },
       {
         "file": "records/ui-branding-visual-review.json",
-        "sha256": "6962b532a3dffeb905ba61c588f1b63682e99f18d7b8403d73fc03951b7abc7e"
+        "sha256": "ce59a31a2ec7681fe78ac25337bc183739d3cde5a184f9c55e6e1a9aa412848e"
       }
     ],
     "actualLayoutLogoPlacements": [
@@ -21274,7 +22029,7 @@
   },
   "brandIntegrationRecord": {
     "file": "records/brand-integration-validation.json",
-    "sha256": "7959044e903b30c78374b81b747eba011c93f18d4a98f91271a9aa370a601fef"
+    "sha256": "d059aa221c53f9eed6c64bf984173c50251032e0e15c3fea895b974038e487f1"
   },
   "supplementalArt": {
     "manager": {

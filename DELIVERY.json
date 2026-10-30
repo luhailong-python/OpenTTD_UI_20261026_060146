@@ -48,7 +48,8 @@
     "fullAcceptance": "docs/FULL_GAME_ACCEPTANCE_STATUS.json",
     "authoritativeAssociations": "docs/image-reference-associations.md",
     "brandIntegration": "docs/BRAND_INTEGRATION_DELIVERY.md",
-    "gitDelivery": "docs/GIT_DELIVERY.md"
+    "gitDelivery": "docs/GIT_DELIVERY.md",
+    "finalRecheck": "records/delivery-final-recheck.json"
   },
   "sourceModelDisclosure": {
     "configuredTarget": "gpt-image-2.5-sunburst",
@@ -58,7 +59,7 @@
     "reason": "宿主管理入口未提供model/quality选择器且返回未披露，两项未确认。"
   },
   "unityIntegrationExecuted": false,
-  "gitCommitPushOrPublishExecuted": false,
+  "gitCommitPushOrPublishExecuted": true,
   "scope": "UI plus full-game world/vehicle/effect art; no Unity runtime integration",
   "previewEntries": {
     "ui": "index.html",
@@ -78,11 +79,11 @@
     "fences": "previews/fence-adapter/index.html",
     "branding": "previews/branding/index.html"
   },
-  "auditSnapshotAt": "2026-10-29T08:11:44.830893+00:00",
+  "auditSnapshotAt": "2026-10-30T02:52:41.681371+00:00",
   "artReferenceWritePolicy": "read-only; project links recorded locally",
   "previewURLNote": "Open the local HTML entries. A previous development-server address is not a persistent delivery URL.",
   "continuationRepairGuide": "docs/CONTINUATION_ART_REPAIRS.md",
-  "updatedAt": "2026-10-29T06:03:50.829045+00:00",
+  "updatedAt": "2026-10-30T02:55:12.396775+00:00",
   "deliveryBranch": "main",
-  "gitStatusAsOfArtAudit": "2026-10-29T08:11:44.830893+00:00"
+  "gitPublicationScope": "The complete art commit be825ff64da8c97fa9e1dbd2e648a0b22d5220a3 was pushed to independent origin/main. Audit gitSubmitted fields describe their pre-push snapshots. Latest follow-up publication is verified against remote main after commit; see docs/GIT_DELIVERY.md."
 }

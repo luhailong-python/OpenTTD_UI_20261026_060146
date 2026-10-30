@@ -1,6 +1,6 @@
 # OpenTTD 功能与 UI 实际研究
 
-核验日期：2026-10-26（本任务客户端日期）。功能参考是 `https://github.com/OpenTTD/OpenTTD.git`，本地只读克隆在 `reference/OpenTTD`，固定提交为 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`，提交日期 2026-10-25，主题 `Change: Update OpenTTD TTF fonts to v0.9`。本次研究的是该主线快照，不将其称为发布稳定版。成果 GitHub 地址待用户提供；本阶段没有提交、推送或发布。
+核验日期：2026-10-26（本任务客户端日期）。功能参考是 `https://github.com/OpenTTD/OpenTTD.git`，本地只读克隆在 `reference/OpenTTD`，固定提交为 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`，提交日期 2026-10-25，主题 `Change: Update OpenTTD TTF fonts to v0.9`。本次研究的是该主线快照，不将其称为发布稳定版。研究阶段尚未提交成果；后续整包美术已推送至独立成果仓库，当前记录见[Git交付记录](GIT_DELIVERY.md)。
 
 ## 研究结论及制作边界
 
