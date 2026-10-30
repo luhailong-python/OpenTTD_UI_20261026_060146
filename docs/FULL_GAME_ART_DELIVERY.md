@@ -85,7 +85,7 @@ UI动态文字保持独立层。正式控件真实Alpha、按钮同族同画布�
 
 ## 来源与后续接入
 
-功能参考仓库、F盘美术参考库、本次E盘成果目录和未来成果远端分别管理。[SOURCES.md](SOURCES.md)记录来源，[image-reference-associations.md](image-reference-associations.md)是当前本地关联权威记录。F盘完全只读；未从旧Git恢复缺失规范，没有操作共享HEAD/index/refs。本项目未提交、推送或发布，成果GitHub/账号/要求待用户提供，参考源码目录不整体纳入成果提交。
+功能参考仓库、F盘美术参考库、本次E盘成果目录和独立成果远端分别管理。[SOURCES.md](SOURCES.md)记录来源，[image-reference-associations.md](image-reference-associations.md)是当前本地关联权威记录。F盘完全只读；未从旧Git恢复缺失规范，没有操作F盘共享HEAD/index/refs。整包美术已提交并推送至独立成果仓库的 `main`，详见[Git交付记录](GIT_DELIVERY.md)；参考源码目录不整体纳入成果提交。
 
 宿主内置image_gen未开放model/quality选择器，实际型号和质量保持null并注明未确认；`gpt-image-2.5-sunburst / max`仅是配置目标。正式母图保留生成时间、实际参数全文、返回证据、参考图片和输出SHA。裁切/组合/投影/二维运动继承源记录，不当作新生成。废弃图删除后仍保留明确的文字记录，不计为当前正式母图。
 

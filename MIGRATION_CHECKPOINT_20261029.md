@@ -1,6 +1,6 @@
 # 云途万里 · 品牌整合接续检查点
 
-唯一生产目录：`E:/work/image/OpenTTD_UI_20261026_060146`。正式游戏名为 **《云途万里》**；用户已授权采用该名称与本地 Logo 方案，并将品牌纳入整款游戏美术交付。本阶段继续只交付图片、资源规格、来源和预览，不创建 Unity 工程，不提交、推送或发布；F盘及共享Git保持只读。
+唯一生产目录：`E:/work/image/OpenTTD_UI_20261026_060146`。正式游戏名为 **《云途万里》**；用户已授权采用该名称与本地 Logo 方案，并将品牌纳入整款游戏美术交付。本阶段只交付图片、资源规格、来源和预览，不创建 Unity 工程；F盘及其共享Git保持只读。用户后续授权提交与push，整包已推送至独立成果仓库 `main`，详见[Git交付记录](docs/GIT_DELIVERY.md)。
 
 [品牌包](branding/yuntu-wanli/README.md)包含透明主 Logo、独立图标、等比缩小版及原生图的提示词、调用与参考证据。8件正式PNG由`docs/asset-branding-manifest.json`登记并纳入`docs/ART_RESOURCE_INDEX.json`；品牌专页为`previews/branding/index.html`，整合说明为`docs/BRAND_INTEGRATION_DELIVERY.md`，专项检查为`records/brand-integration-validation.json`。用户授权采用和整合已成立，最终审美批准仍待用户确认；Unity运行验收仍未开展。
 
