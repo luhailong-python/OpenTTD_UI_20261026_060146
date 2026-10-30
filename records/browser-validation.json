@@ -1,7 +1,19 @@
 {
-  "checkedAt": "2026-10-28T12:00:54.845Z",
+  "checkedAt": "2026-10-29T07:43:21.128Z",
   "scope": "local static design gallery; not Unity/game runtime",
   "checks": [
+    {
+      "name": "formal title and native logo in gallery header",
+      "passed": true
+    },
+    {
+      "name": "formal branding gallery linked",
+      "passed": true
+    },
+    {
+      "name": "no provisional name in visible page",
+      "passed": true
+    },
     {
       "name": "149 cards rendered",
       "passed": true
@@ -85,7 +97,41 @@
       "passed": true
     }
   ],
+  "inputSnapshots": [
+    {
+      "file": "index.html",
+      "sha256": "aa1c30ac5309c3fd78bc0f152b823ff2559955e8abfd0c8f3cfe4c36977cebf3"
+    },
+    {
+      "file": "docs/UI_MASTER_MANIFEST.json",
+      "sha256": "37a11ab12949529c15994a5e9212d3560df69839b9b92dc6eb32f0b3926e327d"
+    },
+    {
+      "file": "docs/asset-branding-manifest.json",
+      "sha256": "221d149a8b6fd2c3098700d367bdfa9f2640881e3666178ff553548a07d8bc3d"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-main.png",
+      "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-symbol-64.png",
+      "sha256": "0f4387af450e61dca97c3c07b9c1f3d87f2b6e8c2839b2779671a46843853dd1"
+    }
+  ],
   "pageErrors": [],
   "failedRequests": [],
-  "passed": true
+  "passed": true,
+  "localVisualPassed": true,
+  "visualReviewer": "root; actual desktop/mobile screenshots viewed",
+  "screenshots": [
+    {
+      "file": "records/gallery-desktop.png",
+      "sha256": "94c2aff8cfa67608277f650fd4467b76942e90f505c03ec4555326ab0104df6a"
+    },
+    {
+      "file": "records/gallery-mobile.png",
+      "sha256": "7ca089e556d91fe3e9bfd664f17c793778c27eaeb080483d67c834f6c34459db"
+    }
+  ]
 }

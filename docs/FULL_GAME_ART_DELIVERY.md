@@ -1,28 +1,33 @@
-# 云途万里（暂名）· 完整游戏图片与UI美术交付
+# 云途万里 · 完整游戏图片与UI美术交付
 
 本对话目录为`E:/work/image/OpenTTD_UI_20261026_060146`。功能研究固定参考OpenTTD提交`cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`。本阶段交付图片、资源数据、美术规格和离线检查预览；用户美术审阅与下一阶段Unity运行验收分别记录。
 
-## 当前核查快照
+正式名称为《云途万里》。用户已授权将名称与本地 Logo 方案整合进本次交付，[品牌包](../branding/yuntu-wanli/README.md)提供透明主标、独立图标、派生尺寸与逐图来源；最终审美批准仍待确认。
+
+## 独立终检快照
+
+以下快照由独立终检实际运行刷新，覆盖标示时间和输入版本，包括正式名称与 Logo 整合。检查数、资源数与结果均取自当前执行，不沿用此前版本的通过数。
 
 <!-- audit-snapshot:begin -->
-核查时间（UTC）：`2026-10-28T12:12:41.249048+00:00`。当前分包清单列出 **12204** 个正式PNG，其中UI **649**、世界/载具 **11555**；保留的原生AI母图 **88** 张，逐图记录 **89** 份（含 **1** 份明确废弃图文字证据）。
+核查时间（UTC）：`2026-10-29T08:11:44.830893+00:00`。当前分包清单列出 **12212** 个正式PNG，其中UI **657**、世界/载具 **11555**；保留的原生AI母图 **90** 张，逐图记录 **91** 份（含 **1** 份明确废弃图文字证据）。
 
-本次机械检查 **226986** 项通过、**0** 项失败、**0** 项警告。世界 **550** 项需求中，总覆盖表当前映射 **550** 项，仍缺资源或映射 **0** 项；未有最终本地验收记录 **0** 项。世界总聚合与当前分包记录一致。
+本次机械检查 **230455** 项通过、**0** 项失败、**0** 项警告。世界 **550** 项需求中，总覆盖表当前映射 **550** 项，仍缺资源或映射 **0** 项；未有最终本地验收记录 **0** 项。世界总聚合与当前分包记录一致。
 
 具体缺口、警告和输入版本见[完整验收状态](FULL_GAME_ACCEPTANCE_STATUS.json)与[终检证据](../records/full-game-art-audit.json)。
 <!-- audit-snapshot:end -->
 
-世界资源仍在最终制作/聚合/复核时，此文档不宣称整款游戏已验收。映射文件、完成适用状态、本地视觉检查、用户批准与Unity正确运行是不同结果；当前状态文件保存这些区别。
+正式映射、适用状态、本地视觉检查、用户批准与Unity正确运行分别记录；本轮品牌整合的最终输入一致性由独立终检确认，当前状态文件保存这些区别。
 
 ## 预览与资源入口
 
 | 内容 | 入口 | 正式文件/说明 |
 |---|---|---|
+| 正式名称与 Logo | [品牌专页](../previews/branding/index.html) · [品牌资源与使用说明](../branding/yuntu-wanli/README.md) · [整合说明](BRAND_INTEGRATION_DELIVERY.md) | 透明主标、独立图标及等比缩小版共8件；正式参数见[品牌资源清单](asset-branding-manifest.json)，并入[全游戏资源索引](ART_RESOURCE_INDEX.json) |
 | 全部美术方向与实际拼装示例 | [完整总览](../previews/full-game-overview.jpg) · [透明资源拼装](../previews/world/assembled-transport-town.png) | 均由当前正式图片按数据拼装/等比排版，继承源SHA；不是新生成全景或Unity运行画面 |
 | UI整屏、状态和关联流程 | [主预览](../index.html) · [整屏总览](../previews/overview.jpg) · [流程图](../previews/flow-map.svg) | `designs/`、`previews/states/`；[UI总清单](UI_MASTER_MANIFEST.json)与[CSV](UI功能与资源总清单.csv) |
 | 通用控件、图标、货物、头像和字体 | 主预览“资源与切片” | `assets/common/`、`assets/icons/`、`assets/cargo/`、`assets/portraits/`、`assets/fonts/`；[UI资源参数](ASSET_MASTER_MANIFEST.json) |
 | 世界地块、建筑、地物、交通与状态 | [世界预览](../previews/world/index.html) | `assets/world/`；[世界资源索引](WORLD_ASSET_MANIFEST.json)、[550项覆盖表](WORLD_DELIVERY_COVERAGE.json) |
-| 产业6组机械实际安装动画 | [整厂动画预览](../previews/world/industry-assembly/index.html) | cleanBase、完整父坐标移动层、ownershipMask、12阶段与绑定说明；不叠加旧静态厂区 |
+| 产业8组实际安装动画 | [整厂动画预览](../previews/world/industry-assembly/index.html) | 6机械＋2粒子、96相位；cleanBase、完整父坐标移动层、ownershipMask与绑定说明；不叠加旧静态厂区 |
 | 车辆方向、型号、载货与效果 | [车辆/效果图册](../previews/vehicles/index.html) | [型号索引](VEHICLE_RUNTIME_MANIFEST.json)、[公共效果](EFFECT_RUNTIME_MANIFEST.json)、[灾难](DISASTER_RUNTIME_MANIFEST.json)、[详细交付说明](VEHICLE_FX_DELIVERY.md) |
 | 独立机械终检 | [终检报告](../records/full-game-art-audit.json) | 可重跑`tools/final_art_audit.py`；不修改图片、分包manifest或F盘 |
 | 经理头像参数与高级流程 | [专项源码/资源核查](MANAGER_FACE_RESOURCE_AUDIT.md) · [机器需求](MANAGER_FACE_REQUIREMENTS.json) | [当前专项结果](../records/manager-customization-audit.json)；与8张完整preset区分 |
@@ -62,7 +67,7 @@ UI动态文字保持独立层。正式控件真实Alpha、按钮同族同画布�
 
 桥梁13个源码BridgeSpec使用7幅原生结构母件及已声明材质变体，7种源码部件角色由重复跨、端坡和独立桥墩/悬索塔映射，不等于13套独立原画。连续跨的地板截面、金色端柱位置经实测原图像素重投影；±32端坡使用锁定两端截面的二维高度转移。原像素采样、镜像与颜色派生均有记录。可重跑`tools/preview_bridge_joins.py`从实际runtime PNG检查13型×2轴×平接/端坡，数值与图片见[桥口几何证据](../records/world-production/bridge-joins-geometry.json)和[桥口复核说明](../records/world-production/bridge-geometry-notes.md)。
 
-产业6组机械动画从实际完整厂区母图中提取运动区域，分别交付去原姿态的cleanBase、同512画布且已定位的移动层、ownershipMask和父锚点绑定；72张整厂预览按实际两层组合输出。使用`animations[].binding`时替换原静态父图，不能再把动画叠在烘焙同一机械的原图上。它们是实际原像素的二维旋转/往复/流动处理，不是新生成的三维运动帧。独立终检重新装配72帧并核对所有权外的固定结构与Alpha保持不变。
+产业现有8组实际安装动画：6组机械与煤电厂火花、气泡发生器2组粒子绑定，各12相位，共96张移动层及96张整厂组合预览。分别交付cleanBase、同512父画布且已定位的移动层、ownershipMask和父锚点绑定。使用`animations[].binding`时替换原静态父图，不能再把动画叠在烘焙同一运动姿态的原图上；气泡发生器先按removedPoseMask移除旧泡，煤电厂cleanBase保持原像素。机械的旋转/往复/流动与公共FX的缩小/位移/生命周期播放均是声明的二维处理，不是新生成的三维运动帧。独立终检按8组96帧重组并核对所有权外固定结构与Alpha，粒子合同见[专项说明](INDUSTRY_PARTICLE_BINDINGS.md)。
 
 水桥水面始终水平，8个源码部件角色在两轴上使用实际运河模块，4个斜地桥头以独立地基承接；双轴三跨见[水桥拼接](../previews/world/aqueduct-joins.jpg)与[16组/32接口证据](../records/world-production/aqueduct-joins-geometry.json)。船闸开门后的上游通道保留真实Alpha开口，场景应单独绘制上游水/岸背景，不烘焙蓝色矩形补片；其低水位内壁由实际原生绘画注册到固定外墙。
 
@@ -84,4 +89,4 @@ UI动态文字保持独立层。正式控件真实Alpha、按钮同族同画布�
 
 宿主内置image_gen未开放model/quality选择器，实际型号和质量保持null并注明未确认；`gpt-image-2.5-sunburst / max`仅是配置目标。正式母图保留生成时间、实际参数全文、返回证据、参考图片和输出SHA。裁切/组合/投影/二维运动继承源记录，不当作新生成。废弃图删除后仍保留明确的文字记录，不计为当前正式母图。
 
-用户审阅图片并确认正式游戏名后，下一阶段按[UNITY_IMPORT.md](UNITY_IMPORT.md)验证Sprite/TMP、Canvas/图集/九宫格、地块接缝与坡面、多格遮挡、车辆比例/载货/朝向、帧时长、真实状态反馈及业务接口。本阶段没有C#、Prefab、Unity场景、引擎运行或在线联调。
+名称与 Logo 已获授权纳入美术交付。待用户最终审阅美术并另行确定接入阶段后，再按[UNITY_IMPORT.md](UNITY_IMPORT.md)验证Sprite/TMP、Canvas/图集/九宫格、地块接缝与坡面、多格遮挡、车辆比例/载货/朝向、帧时长、真实状态反馈及业务接口。本阶段没有C#、Prefab、Unity场景、引擎运行或在线联调。

@@ -12,6 +12,9 @@ def savej(p,x):
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 C=readj("docs/asset-common-manifest.json")
 CM={x["id"]:x for x in C}
+BRAND=readj('docs/asset-branding-manifest.json')
+BM={a['id']:a for a in BRAND}
+CM.update(BM)
 CACHE={}
 def asset(name):
  p=ROOT/CM[name]["file"] if name in CM else ROOT/name
@@ -72,7 +75,24 @@ def paste(im,p,x,y,w=None,h=None):
 def contain(im,p,x,y,w,h):
  pic=asset(p) if isinstance(p,str) else p.copy()
  pic.thumbnail((int(w),int(h)),Image.Resampling.LANCZOS)
+ if isinstance(p,str):
+  source_id=p
+  if p not in CM:
+   try:source_id=Path(p).resolve().relative_to(ROOT).as_posix()
+   except ValueError:pass
+  pic.info['assetId']=source_id
  paste(im,pic,x+(w-pic.width)/2,y+(h-pic.height)/2)
+def brand(im,aid,x,y,w,h):
+ """Actual unmodified brand raster, proportional downsample and Alpha blend."""
+ a=BM[aid];pic=asset(aid);scale=min(1,w/pic.width,h/pic.height)
+ size=(max(1,round(pic.width*scale)),max(1,round(pic.height*scale)))
+ if size!=pic.size:pic=pic.resize(size,Image.Resampling.LANCZOS)
+ pic.info['assetId']=aid;paste(im,pic,round(x+(w-pic.width)/2),round(y+(h-pic.height)/2))
+ placements[-1].update({'type':'image','resourceId':aid,'file':a['file'],'sourceImage':a['file'],'sourceSHA256':a['sha256'],'role':a['role'],'preserveAspect':True,'operation':'proportional downsample and original Alpha composite; unmodified source RGB'})
+def brand_sources(nodes):
+ ids=list(dict.fromkeys(p['asset']for p in nodes if p.get('asset')in BM))
+ if not ids:return []
+ return [{'file':BM[i]['file'],'sha256':sha(ROOT/BM[i]['file']),'record':BM[i].get('generationRecord',BM[i].get('sourceGenerationRecord')),'role':BM[i]['role']}for i in ids]+[{'file':'docs/asset-branding-manifest.json','sha256':sha(ROOT/'docs/asset-branding-manifest.json'),'type':'source manifest and per-image provenance'}]
 def cover(pic,w,h):
  return ImageOps.fit(pic,(int(w),int(h)),Image.Resampling.LANCZOS)
 def nine(name,w,h):
@@ -146,7 +166,8 @@ def header(im,s):
   txt(im,label,171,yy+21,22,IVORY if i==active else JADE,w=135,bold=i==active)
  line(im,340,219,340,878,"#CFBD91",1)
  tabs(im,s)
- txt(im,"云途万里（暂名） · 静态排版示例",110,1017,18,"#F3E8CB")
+ brand(im,'brand_symbol',72,1005,40,40)
+ txt(im,"云途万里 · 静态排版示例",126,1017,18,"#F3E8CB")
  txt(im,s["id"]+"  /  "+s["layout"],1808,1017,17,"#F3E8CB",align="right")
 def detail_card(im,s,x=1360,y=310,w=400,h=552):
  row(im,x,y,w,h)
@@ -244,7 +265,8 @@ def world(im,s):
  # Full gameplay canvas, toolbar and HUD preserve a broad map view.
  im=bg(False,0)
  paste(im,nine("reference-paper",1920,164),0,0)
- txt(im,"云途万里（暂名）",100,19,36,JADE,title=True)
+ brand(im,'brand_symbol',38,12,48,48)
+ txt(im,"云途万里",100,19,36,JADE,title=True)
  txt(im,"云途运输",418,25,25,JADE,bold=True)
  txt(im,"1956年6月1日",708,25,24,JADE)
  txt(im,"£284,560",1050,25,26,JADE,bold=True)
@@ -308,16 +330,15 @@ def menu(im,s):
  im=bg(True,0)
  # Left plaque over a softly shaded, readable panel.
  panel(im,84,96,706,915)
- paste(im,"title_plate",168,119)
- txt(im,"云途万里",433,153,62,IVORY,title=True,align="center")
- txt(im,"暂名 · 道家运输经营",433,277,25,JADE,align="center")
+ brand(im,'brand_main',124,62,626,284)
+ txt(im,"道家运输经营",433,311,25,JADE,align="center")
  btn(im,"新建游戏",209,351,458,87,"primary",31)
  btn(im,"载入存档",209,449,458,87,"secondary",31)
  btn(im,"联机游戏",209,547,458,87,"secondary",31)
  for j,l in enumerate(["游玩场景","情景编辑","在线内容","设置","帮助","退出游戏"]):
   btn(im,l,169+(j%3)*187,654+(j//3)*95,176,76,"secondary",23)
- txt(im,"通山海，达万里",434,854,38,JADE,title=True,align="center")
- txt(im,"静态排版示例 · 临时游戏名称",434,910,18,MUTED,align="center")
+ txt(im,"通山海，达万里",434,839,38,JADE,title=True,align="center")
+ txt(im,"云途万里 · 游戏美术预览",434,895,18,MUTED,align="center")
  txt(im,"铁路 · 公路 · 水运 · 航空",1727,971,29,IVORY,align="right")
  return im
 def dialog(im,s):
@@ -353,9 +374,9 @@ def make(s):
   else:im=custom
   actions(im,s)
  return im,regions.copy()
-def record_derived(path,s,op,parents):
+def record_derived(path,s,op,parents,layout_path=None):
  im=Image.open(ROOT/path)
- savej(str(path)+".generation.json",{"file":str(path),"sha256":sha(ROOT/path),"width":im.width,"height":im.height,"format":"PNG","generatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"route":"deterministic-composite","tool":"Pillow","operation":op,"nativeModelGeneration":False,"derivedFrom":parents,"actualModel":None,"actualQuality":None,"unverifiedReason":"本图是确定性排版派生图；原始AI模型/质量见完整来源链，未披露部分保持未确认。","screenId":s.get("id"),"textLayout":"docs/layouts/"+s.get("id","")+".json"})
+ savej(str(path)+".generation.json",{"file":str(path),"sha256":sha(ROOT/path),"width":im.width,"height":im.height,"format":"PNG","generatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"route":"deterministic-composite","tool":"Pillow","operation":op,"nativeModelGeneration":False,"derivedFrom":parents,"actualModel":None,"actualQuality":None,"unverifiedReason":"本图是确定性排版派生图；原始AI模型/质量见完整来源链，未披露部分保持未确认。","screenId":s.get("id"),"textLayout":layout_path or("docs/layouts/"+s.get("id","")+".json")})
 def statepreview(s,st):
  global CURRENT,regions,placements
  CURRENT=s["id"]+"--"+st["id"];regions=[];placements=[]
@@ -375,25 +396,32 @@ def statepreview(s,st):
  contain(im,'reference-close',860,65,48,48)
  txt(im,"状态排版示例 · "+s["id"],480,570,17,"#F3E8CB",align="center")
  return im
-def main():
+def main(only=None):
  cat=readj("docs/screen-catalog.json")
+ previous={s['id']:s for s in readj('docs/UI_MASTER_MANIFEST.json')['screens']} if only else {}
  out=ROOT/"designs";out.mkdir(exist_ok=True)
  (ROOT/"previews/thumbs").mkdir(parents=True,exist_ok=True);(ROOT/"previews/states").mkdir(exist_ok=True);(ROOT/"docs/layouts").mkdir(exist_ok=True)
  parents=[{"file":"assets/transport-valley.png","sha256":sha(ROOT/"assets/transport-valley.png"),"record":"assets/transport-valley.png.generation.json"},{"file":"assets/world-viewport.png","sha256":sha(ROOT/"assets/world-viewport.png"),"record":"assets/world-viewport.png.generation.json"}]+[{"file":'docs/asset-'+n+'-manifest.json',"sha256":sha(ROOT/('docs/asset-'+n+'-manifest.json')),"type":"source manifest and per-image provenance"}for n in ['common','icons','cargo','portraits','fonts']]
  for i,s in enumerate(cat):
+  if only and s['id'] not in only:
+   cat[i]=previous[s['id']]
+   continue
   im,regs=make(s);p=f"designs/{s['id']}.png";im.convert("RGB").save(ROOT/p,optimize=True)
-  record_derived(p,s,"手绘位图九宫格组合、原生字体排版、数据图表绘制；1920×1080布局画布，原画1672×941背景经cover适配；不是原生1920模型生成。",parents)
+  record_derived(p,s,"手绘位图九宫格组合、正式品牌Logo等比合成、原生字体排版、数据图表绘制；1920×1080布局画布，原画1672×941背景经cover适配；不是原生1920模型生成。",parents+brand_sources(placements))
   savej("docs/layouts/"+s["id"]+".json",{"screenId":s["id"],"referenceResolution":[W,H],"textRegions":regs,"spritePlacements":placements.copy(),"notes":["坐标原点左上，Unity锚点待接入验证","动态文案独立排版未写入正式控件PNG","图表为静态示例数据可视化"]})
   thumb=im.convert("RGB");thumb.thumbnail((480,270));thumb.save(ROOT/f"previews/thumbs/{s['id']}.webp",quality=85)
-  s["designPath"]=p;s["thumbnailPath"]=f"previews/thumbs/{s['id']}.webp";s["resourceManifests"]=['docs/asset-'+n+'-manifest.json'for n in ['common','icons','cargo','portraits','fonts']]
+  s["designPath"]=p;s["thumbnailPath"]=f"previews/thumbs/{s['id']}.webp";s["resourceManifests"]=['docs/asset-'+n+'-manifest.json'for n in ['common','icons','cargo','portraits','fonts','branding']]
   for st in s.get("states",[]):
    sp=f"previews/states/{s['id']}--{st['id']}.png";si=statepreview(s,st);si.convert("RGB").save(ROOT/sp,optimize=True);st["previewPath"]=sp
-   record_derived(sp,s,"状态语义独立排版，960×600，复用相同手绘控件；确定性组合。",parents)
+   record_derived(sp,s,"状态语义独立排版，960×600，复用相同手绘控件；确定性组合。",parents+brand_sources(placements),layout_path='docs/layouts/states/'+s['id']+'--'+st['id']+'.json')
    savej('docs/layouts/states/'+s['id']+'--'+st['id']+'.json',{'screenId':s['id'],'stateId':st['id'],'referenceResolution':[960,600],'textRegions':regions.copy(),'spritePlacements':placements.copy()})
   s["productionStatus"]="art-produced";s["acceptanceStatus"]="pending-visual-review";s["unityStatus"]="not-imported"
   if i%20==0:print(f"rendered {i+1}/{len(cat)}",flush=True)
- savej("docs/UI_MASTER_MANIFEST.json",{"schemaVersion":1,"project":"云途万里（暂名）","referenceResolution":[W,H],"screens":cat})
+ savej("docs/UI_MASTER_MANIFEST.json",{"schemaVersion":1,"project":"云途万里","referenceResolution":[W,H],"screens":cat})
  savej("records/layout-validation.json",{"screens":len(cat),"statePreviews":sum(len(s.get("states",[])) for s in cat),"canvasOverflowOrTextIssues":issues,"checkedAt":datetime.datetime.now(datetime.timezone.utc).isoformat()})
  print(f"finished {len(cat)} screens; {len(issues)} text issues",flush=True)
-if __name__=="__main__":main()
+if __name__=="__main__":
+ import argparse
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--only',nargs='*')
+ args=parser.parse_args();main(set(args.only) if args.only else None)
 

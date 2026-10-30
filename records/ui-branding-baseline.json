@@ -1,0 +1,2640 @@
+{
+  "designs": [
+    {
+      "id": "01-main-menu",
+      "image": "designs/01-main-menu.png",
+      "sha256": "dec1301509cf4704c219560cfe5279f70311041e2cfc12a84d88a87da201aee4",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "menu"
+    },
+    {
+      "id": "02-bootstrap",
+      "image": "designs/02-bootstrap.png",
+      "sha256": "e08a0d8b6727a98d9bf67bae605670ab0af8125769901ead247ecd4a5bb7c405",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "03-new-world",
+      "image": "designs/03-new-world.png",
+      "sha256": "38b58599cfe074461651a4f73f3bca74e75c5a93d92de46bf55958664cf18971",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "04-heightmap",
+      "image": "designs/04-heightmap.png",
+      "sha256": "6671ed3a327530c09d8b5facc379703c208eac544055e1b0eab6ac8620cfe9e3",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "05-scenario-select",
+      "image": "designs/05-scenario-select.png",
+      "sha256": "56deb65d42f176bc87b761b410f6f7e9bc645b0097f1a567dbe8a08fb7cb2e3a",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "06-load-game",
+      "image": "designs/06-load-game.png",
+      "sha256": "6bc107ca43c421cdef9cf270180017df211a75631394df34c9593d260eb0cc1b",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "07-save-game",
+      "image": "designs/07-save-game.png",
+      "sha256": "33a612ad4f0616ddb56e00f9f6509ff640852e4f8bc70eece4adb7f074d484b0",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "08-world-progress",
+      "image": "designs/08-world-progress.png",
+      "sha256": "dcf71a4d239461771b9e1931aee33275a0f35b9f5e4cb7f92954e8e83b312f45",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "09-main-hud",
+      "image": "designs/09-main-hud.png",
+      "sha256": "534710e237cd6f9d54ed9939c15d8fde5cf83ccaac415afa4914ee621ede7dbd",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "world"
+    },
+    {
+      "id": "10-game-menu",
+      "image": "designs/10-game-menu.png",
+      "sha256": "795131b4f0083554465738be19a1ae9db0aede04d10a047341392bc8753d51b4",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "11-rail-build",
+      "image": "designs/11-rail-build.png",
+      "sha256": "5890d67b0b38aba114583460ad38a6330de76580f662b2b573daa43340699ac0",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "12-rail-station",
+      "image": "designs/12-rail-station.png",
+      "sha256": "29192f0ef2d0c317499b03fd3566d6d7486f8a90cb01367701617b76d95c26a5",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "13-rail-signals",
+      "image": "designs/13-rail-signals.png",
+      "sha256": "b643f9914ab5b588b77c6f60249f79a831f8035aa2ed9a1f35d2dd652b57edb4",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "14-rail-depot",
+      "image": "designs/14-rail-depot.png",
+      "sha256": "6b142cc818437764b4c6b3c3849f2e4e623c5943b20c2b621b587ec376d6ff89",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "15-rail-waypoint",
+      "image": "designs/15-rail-waypoint.png",
+      "sha256": "1ae0060d3b428d233e8a03f36c9ca6be58e4dc8579607c54cb57bd782ae3608f",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "16-rail-convert",
+      "image": "designs/16-rail-convert.png",
+      "sha256": "4f0607d24a3902bd3871a432edf33d2d6dc312fe5ab4a4e527627be607c726e6",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "17-bridge",
+      "image": "designs/17-bridge.png",
+      "sha256": "a75a8763418aa35aea9c54ae1d3c85e598e46734869a264a6cb692db18f52e9e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "18-tunnel",
+      "image": "designs/18-tunnel.png",
+      "sha256": "8b75eb9415396dde935840ce35be4ad2582c6a3b1b6bdf6cab22130914026d60",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "19-road-build",
+      "image": "designs/19-road-build.png",
+      "sha256": "558f76a2b9166a6a6ccba41fa7a2ded940e16fb0bbf8ad9404bd383e7ebae94d",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "20-tram-build",
+      "image": "designs/20-tram-build.png",
+      "sha256": "1a15fc2c187358960dd456fa2a7b7f016a8926b9852c716ce9d498367e1bfb06",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "21-road-station",
+      "image": "designs/21-road-station.png",
+      "sha256": "6d516566b8c08abce4cc8e008a0e18c5729a1df1dc42476d1b030298b4207bef",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "22-road-depot",
+      "image": "designs/22-road-depot.png",
+      "sha256": "2c73fd753a6001af96887b34e3e60a18934658643d43e676f150714223f13dfb",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "23-road-waypoint",
+      "image": "designs/23-road-waypoint.png",
+      "sha256": "59ae2c93bc367714f70bd3cd30318d7bbc833187c36f3a9465b5830088c97630",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "24-water-build",
+      "image": "designs/24-water-build.png",
+      "sha256": "c0b0482a3ca8659fa0eeb8b88f6b25a25343c2e97793df725b7bcd20651be144",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "25-dock",
+      "image": "designs/25-dock.png",
+      "sha256": "aab50f8823e121a67ead60f9bd7a419aa1af8c2c61d14da17d6b08d5eec0a66e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "26-shipyard",
+      "image": "designs/26-shipyard.png",
+      "sha256": "2a967de15e8da8d2fca1a08d98fbf84b43c5fddbb111fb9931fb091b51d79025",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "27-canal-lock",
+      "image": "designs/27-canal-lock.png",
+      "sha256": "5d01dece333e93413db202191bfb00b46ffea413ab01962491bb060fb2b3885b",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "28-airport-build",
+      "image": "designs/28-airport-build.png",
+      "sha256": "5adc95c145cd17321f593c3ad624c19c4838286c4aba567e1a73cf435b23eb87",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "29-airport-picker",
+      "image": "designs/29-airport-picker.png",
+      "sha256": "c676fc3136a9fb828b049aee53ed0688ddecc0a1652c4bb776fc6a5b7942a8c9",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "30-station-join",
+      "image": "designs/30-station-join.png",
+      "sha256": "841675eb69e0660aa3a2e0bb97995a70aa1f7e25f6c7c0d7040c6f46b5059105",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "31-stations-list",
+      "image": "designs/31-stations-list.png",
+      "sha256": "a93471772c92c054a9b545b99dce971286e4d7e90f3e1cbc830372c0df9484da",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "32-station-detail",
+      "image": "designs/32-station-detail.png",
+      "sha256": "c54ba01cb6b79b88f1ce100dc6e00b128bb6e01e22d6f29823a5514ff2af67b1",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "33-station-ratings",
+      "image": "designs/33-station-ratings.png",
+      "sha256": "e466fe04d83568772155944fedc4e5d9b9f38e8fe551cfd6a935b212286f296b",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "34-waypoint-detail",
+      "image": "designs/34-waypoint-detail.png",
+      "sha256": "4f7b39832f3b9074c87dd7f7a990b01af50ca9812ecc37b9cf76bc892a75922b",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "35-vehicles-train",
+      "image": "designs/35-vehicles-train.png",
+      "sha256": "b7d8d1625059aa9da16ab3cfeacce1fe85a6260fed25cd43c09bfc511b4663b0",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "36-vehicles-road",
+      "image": "designs/36-vehicles-road.png",
+      "sha256": "41e6f731c692717c091e1798db20d661a2f9573a3017d55b521bd671e8c1eecd",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "37-vehicles-ship",
+      "image": "designs/37-vehicles-ship.png",
+      "sha256": "770065b93dfecb727837920eff9c735c4b8cb07450a6b9eaf5b83f4a0f59ec43",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "38-vehicles-air",
+      "image": "designs/38-vehicles-air.png",
+      "sha256": "9bf2b32d3d7b6b6382a28639468bd530a481dba015a64a3a5d1381d94a602c96",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "39-depot-train",
+      "image": "designs/39-depot-train.png",
+      "sha256": "e788d2913df08a88fabd6421dbfea72ac66c3bbdf15362929b15d072e92b4a48",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "40-depot-road",
+      "image": "designs/40-depot-road.png",
+      "sha256": "841ff64c1d012f1613454e3cbcbbbbea7dd0f066a74bc94019590b515829f679",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "41-depot-ship",
+      "image": "designs/41-depot-ship.png",
+      "sha256": "a9cf395d08334b42b6516737f453b3c3ad272d0bcc37f52c5bba8a2113957b5a",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "42-depot-air",
+      "image": "designs/42-depot-air.png",
+      "sha256": "431245a647354d68ce5bb4b8670abe11c9c862d4c8c654536d743651380f6cbe",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "43-buy-train",
+      "image": "designs/43-buy-train.png",
+      "sha256": "c7911d42b5e823350841906aec1243b9e6b4d2eea7bb8765d322e60ff2b1d714",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "44-buy-road",
+      "image": "designs/44-buy-road.png",
+      "sha256": "2dc2e078d15a7b5eec07102df8f0ff2461577954484178c03c06624d6f04e263",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "45-buy-ship",
+      "image": "designs/45-buy-ship.png",
+      "sha256": "4f488d94afad9b50b2c9d56c1634aeac8529021785e8f59f9bdb0ea3dc8dadce",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "46-buy-air",
+      "image": "designs/46-buy-air.png",
+      "sha256": "648f8ae635c74035294497a85f02d082bd13adf57ebe824fe6462845c4ef3b96",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "47-vehicle-view",
+      "image": "designs/47-vehicle-view.png",
+      "sha256": "c54cc366a2fdaded11423b863342ee12bccec9343e4282ca26866211d3e6f83c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "48-vehicle-details",
+      "image": "designs/48-vehicle-details.png",
+      "sha256": "5c66633f881cbfeec584e1a753dc8bb16aa702bca8eb126d834bc355aa6f81dc",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "49-vehicle-refit",
+      "image": "designs/49-vehicle-refit.png",
+      "sha256": "8740c57b0a395c3d11e6bf79fc59beab797f1922984f09395998b8239829d556",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "50-orders",
+      "image": "designs/50-orders.png",
+      "sha256": "ec90f0dae8536b2bc84f3b9551722b1b6653f10a34e39562ebc92add5eaa232f",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "51-conditional-order",
+      "image": "designs/51-conditional-order.png",
+      "sha256": "e7e6ceb6babf7d8e5e4e9d3a7f41c3dd78f4c6cfc2d2e4ac1d995c99d5c4efd9",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "52-shared-orders",
+      "image": "designs/52-shared-orders.png",
+      "sha256": "232ee98a894e97a70de2c7bad880c4d2d2f8057dcffa48e713e40505420120ed",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "53-timetable",
+      "image": "designs/53-timetable.png",
+      "sha256": "05c1b6b9092c39e1a719a0e2d93c3ac3855a6d1f3f66a2490272e99dd09de76c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "54-vehicle-groups",
+      "image": "designs/54-vehicle-groups.png",
+      "sha256": "ec6e6cd657780b689e8c4aaf637b9611e60ca8b4bb97c81f41abbdda4a43d45a",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "55-auto-replace",
+      "image": "designs/55-auto-replace.png",
+      "sha256": "787c154caf753595e465692a53112b75d95d4b31bfba11e0903e623dc88e0de6",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "56-engine-preview",
+      "image": "designs/56-engine-preview.png",
+      "sha256": "0b82594ebf094607e3d5174dd04a737d78fbcfc75f422a198c3e6685ede47414",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "57-company-overview",
+      "image": "designs/57-company-overview.png",
+      "sha256": "e8296f6f2388e49e47e5bb4642bb96c0ee84aaf5794cc2216afccd3292474e1c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "58-company-manager",
+      "image": "designs/58-company-manager.png",
+      "sha256": "2d0ef396cbce00c8916d2a8d9dbba56ee901aebc5a8d372db3e88c012f0edaea",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "59-company-livery",
+      "image": "designs/59-company-livery.png",
+      "sha256": "a98de8e9d0a181be5b622295502c6e6117e2bc4dd19efa80be966985fc8f6452",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "60-finances",
+      "image": "designs/60-finances.png",
+      "sha256": "7b248ca040a25117885da4b0deb393562d9b665c96a8ef45016f818525835434",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "finance"
+    },
+    {
+      "id": "61-loan",
+      "image": "designs/61-loan.png",
+      "sha256": "b09cb52b66193c6723582bdb95e0790d6fc311216b8e915357dfb38bbc0757e0",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "62-infrastructure",
+      "image": "designs/62-infrastructure.png",
+      "sha256": "42df00c3d9f7364605e8797f3faa5e14c89b8988387452ae0ff5dcaa006a9b23",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "finance"
+    },
+    {
+      "id": "63-buy-company",
+      "image": "designs/63-buy-company.png",
+      "sha256": "0be3cbf1edde36874ed169083a000bd5911587f937a17916a01e4f26b8e9089c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "64-company-league",
+      "image": "designs/64-company-league.png",
+      "sha256": "0f95256822aa9dd529932ee7f205daca344acd6bf86752f743a8ce0a2e1ee7c1",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "65-company-graphs",
+      "image": "designs/65-company-graphs.png",
+      "sha256": "b035273c70e6beeff82624cbe012d0fa3a03525c944d6b206fd1e6cd2a40e9e8",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "66-performance",
+      "image": "designs/66-performance.png",
+      "sha256": "6edd7252bd9c27115b30c9bb169dfd26e2852ab516496c07b4ba4490074e7abc",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "finance"
+    },
+    {
+      "id": "67-cargo-payment",
+      "image": "designs/67-cargo-payment.png",
+      "sha256": "7b274ad4cd3bfbbc2e63ecd66278f28fcfa8c67a954b0bb662f326597df6373b",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "68-subsidies",
+      "image": "designs/68-subsidies.png",
+      "sha256": "6555392593ffbd0c0ce35e2db55bb7216597dc80c1231bc9384cbf80fb83f59e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "69-small-map",
+      "image": "designs/69-small-map.png",
+      "sha256": "d513c71fda7fc57e182c11d680adf069e7a0377058c93c971fdf0556febd58c7",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "world"
+    },
+    {
+      "id": "70-linkgraph",
+      "image": "designs/70-linkgraph.png",
+      "sha256": "7b8573a684fb7026a3f21bce882b29b71c5d33b8eecf2502c9bdf5d264b6ac4f",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "world"
+    },
+    {
+      "id": "71-extra-viewport",
+      "image": "designs/71-extra-viewport.png",
+      "sha256": "fb254d7fbcf4c8352d7442ab8a63a5a2fe90d77a31d201ff002861d854f105df",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "world"
+    },
+    {
+      "id": "72-transparency",
+      "image": "designs/72-transparency.png",
+      "sha256": "a9eafe8fbd833b3876309e74394446ed34d6cf7a9540570649c2bddd8b6977d6",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "73-land-info",
+      "image": "designs/73-land-info.png",
+      "sha256": "d41e21f61e228bb342b4e4b4868a6304de63ca601e444a8cb94cc2a0a125a713",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "74-signs",
+      "image": "designs/74-signs.png",
+      "sha256": "1a3bfeb74337ee8b10ea7b7367c4d503038ae6040b365c927b618f318dc62aba",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "75-sign-edit",
+      "image": "designs/75-sign-edit.png",
+      "sha256": "2016493461ac5dc9e013a423e8a924db52bceff3f52195d9acc00c99327d44b3",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "76-towns",
+      "image": "designs/76-towns.png",
+      "sha256": "0e9ead585b31a77c7cd9b2bfa21f0f2bb3e2e758e6afc6b205a63c6cbf3ee989",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "77-town-detail",
+      "image": "designs/77-town-detail.png",
+      "sha256": "fac7facbb706ee728524eeae9607c8789847c02d79a53cd5d047f0b0628c0e64",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "78-town-authority",
+      "image": "designs/78-town-authority.png",
+      "sha256": "dba53ae89775754ee3699cf66da78ba1ee2417a6cea67a57665d90cfe66f128f",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "79-found-town",
+      "image": "designs/79-found-town.png",
+      "sha256": "9bcac26e7ddc700e78ec231d834f9c7992309e5565cb770bf72681ca92e506c2",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "80-industries",
+      "image": "designs/80-industries.png",
+      "sha256": "2b32fe49d01dff7f2b3568839a39bf8d3d79573e8ba3b4dbe3e9523370aa67ec",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "81-industry-detail",
+      "image": "designs/81-industry-detail.png",
+      "sha256": "939ee75017d00b440888afd749c514ed801c1147978de281494957cfd73f5cfd",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "82-fund-industry",
+      "image": "designs/82-fund-industry.png",
+      "sha256": "68819e772456ac0d05cb58f27aa31d443fa1cad149b22a02f5e8fb564b3ab8b3",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "83-cargo-chain",
+      "image": "designs/83-cargo-chain.png",
+      "sha256": "8a1455ca70fd750ca6ec8b0a2b5654073f0790ff7e88770b344f8b5bf93fa419",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "84-industry-production",
+      "image": "designs/84-industry-production.png",
+      "sha256": "6edead15033fa7ba9143e88da8a2aae96a691d775cbc0b279b0024583f4b813c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "85-town-cargo",
+      "image": "designs/85-town-cargo.png",
+      "sha256": "36df90d5a3fdf815b890b5a1e05211c1150fbe1e58d4d315cbe680a740338288",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "86-news",
+      "image": "designs/86-news.png",
+      "sha256": "f9affdb470a65f2522c5bee9dd41ab9f1b29d1f16d6ac56b4a53783788b29d32",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "87-news-history",
+      "image": "designs/87-news-history.png",
+      "sha256": "0769371959b191f157327f33694844654dce668260f9da3dfaa90a01490d87b4",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "88-goals",
+      "image": "designs/88-goals.png",
+      "sha256": "2f3cd21e519c118a5b9f919f2806d879053cceaaa06b116bdcd1d4bb02b38ce4",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "89-goal-question",
+      "image": "designs/89-goal-question.png",
+      "sha256": "cd2532d515bef9d1f9677c8e48cfdb8fc0df7a6c7e1e0697456992677e002966",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "90-story-book",
+      "image": "designs/90-story-book.png",
+      "sha256": "b704b8613022bd742dd08cbf0e5762efaa34982d622332d3d8c30e99c7a97fb7",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "91-highscores",
+      "image": "designs/91-highscores.png",
+      "sha256": "ce3bec07bf1e2b2837d8934e6070769ba40ff45331ea1bb464dae18aa789faef",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "92-endgame",
+      "image": "designs/92-endgame.png",
+      "sha256": "b03f0c731093e839e721f4bc30b68eddd54a4deccc07b85a79c090078052d3b4",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "finance"
+    },
+    {
+      "id": "93-servers",
+      "image": "designs/93-servers.png",
+      "sha256": "5e6d33957fcfef525a44d1ec970c778a834b3e5928dfee46253aea1668927356",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "network"
+    },
+    {
+      "id": "94-server-create",
+      "image": "designs/94-server-create.png",
+      "sha256": "5b89d64cdb0c3255bb8f74db723f1eaa016d19fc4b9812838f99e7549c6ad266",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "95-network-join",
+      "image": "designs/95-network-join.png",
+      "sha256": "b0c31faa899947f67f8b1f0d8059a908cdd38d3b85d96cc7fd8dce5f38c92ae0",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "96-network-password",
+      "image": "designs/96-network-password.png",
+      "sha256": "36be46e04fa84afd3e333b06b14f26f57d82b126625390a1da488f8f71516c4a",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "97-clients",
+      "image": "designs/97-clients.png",
+      "sha256": "7d25f2a5d60f51f4571e5d16761d8d5cb2902486f347033a3e410f430e88934e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "network"
+    },
+    {
+      "id": "98-chat",
+      "image": "designs/98-chat.png",
+      "sha256": "84090965fa44f4e4b27b430126687064c7db1296395abe485b8368638bb74e4e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "network"
+    },
+    {
+      "id": "99-gift-money",
+      "image": "designs/99-gift-money.png",
+      "sha256": "29a7007315afca249f3053e809f833af95180fefbdc616ef2d31ba2af7647da2",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "100-relay-consent",
+      "image": "designs/100-relay-consent.png",
+      "sha256": "7cdea9b0bc54abc8e5d581a7b266aceff0e707bf2f7856849433f4d45df89c70",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "101-survey-consent",
+      "image": "designs/101-survey-consent.png",
+      "sha256": "da2fbcf5d6ee9f31f20f8c0f38988e6915e0c095025616068247694e9a805bfe",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "102-online-content",
+      "image": "designs/102-online-content.png",
+      "sha256": "82e131c994747d2e3dcab60c5c1b372fe9c9a4aee70781491d531aff80833449",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "103-content-download",
+      "image": "designs/103-content-download.png",
+      "sha256": "b0dfbd97989eaea4e0240c1cb0c34bb4d2cd4552f5da20027521de9ec737eb3d",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "104-newgrf",
+      "image": "designs/104-newgrf.png",
+      "sha256": "5e52280cb33df9f0dd4af152c6c9b9b896d55ec6fa38be2761d850a381d61d21",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "105-newgrf-parameters",
+      "image": "designs/105-newgrf-parameters.png",
+      "sha256": "b4b7f9b21e55397b26ecac2405c710bad9213404057aa749767febdc23b628ce",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "106-newgrf-presets",
+      "image": "designs/106-newgrf-presets.png",
+      "sha256": "caf37a7dd14f927ea22eb8c20c66f8e61bbc01b7f67201e6e26e6df870b86c3a",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "107-content-scan",
+      "image": "designs/107-content-scan.png",
+      "sha256": "7314e92b56053cf76ae58906e53835c8e8864cbeb7e2eac953882da7c26d79c6",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "108-content-text",
+      "image": "designs/108-content-text.png",
+      "sha256": "6f7b70bac084de9367f2f9fa5e48f7d9a4ac13a5774b2fdabaf18a6b9b81e6a0",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "109-ai-config",
+      "image": "designs/109-ai-config.png",
+      "sha256": "da31a1834bbb43dafe373411270016a2ced82b1d9b2a930a7ecf675ca8037168",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "110-gs-config",
+      "image": "designs/110-gs-config.png",
+      "sha256": "ea88354fecd7c0d46c1058b5d54561524dd60c5ad7aaae0a433c3c7da5d40293",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "111-script-list",
+      "image": "designs/111-script-list.png",
+      "sha256": "0f1793f0dd3902693a6307b25add8c1fb936f3e77d7c31c1f95f88e3c6b3ee65",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "112-script-settings",
+      "image": "designs/112-script-settings.png",
+      "sha256": "44a676d7939bf3def9aba7b1c8a5473304bebbc225ebf94b3d495fc56e8273e1",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "113-script-debug",
+      "image": "designs/113-script-debug.png",
+      "sha256": "2da24d320444ec1f310b7c3931e4bcb2b119fe50c836025cef2d7a31435622f2",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "114-options",
+      "image": "designs/114-options.png",
+      "sha256": "10048cb72a0d3845bfc1a2c1f02411a8deadee6e229729f31c46919f0a2aece8",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "115-graphics-options",
+      "image": "designs/115-graphics-options.png",
+      "sha256": "54f2b54c3a2282f0d8d9f1f5aab6d28554bac26ede576c9a24bdf199aa4c56be",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "116-sound-options",
+      "image": "designs/116-sound-options.png",
+      "sha256": "44b33d063de45a32951c116b6b66f9275a14e6029cd81ab5e01e9e3832b380e3",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "117-social-options",
+      "image": "designs/117-social-options.png",
+      "sha256": "17435f61bdb76c36ac2777e82b6090de4a64ae03ca44ad24cec33a167a53e13c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "118-advanced-options",
+      "image": "designs/118-advanced-options.png",
+      "sha256": "e675299d872d85670c3a9ac365ec16e434f2cc501a36ef05e90b0f59703f4e64",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "119-custom-currency",
+      "image": "designs/119-custom-currency.png",
+      "sha256": "85006ca64620307a4e8cbf55b72549456fadf0ced2dea829d4261c9d1ca30156",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "120-music-player",
+      "image": "designs/120-music-player.png",
+      "sha256": "faec6c8d6983566c3476659db4dfcd79b4144168c383e711d6324900037f8eb5",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "121-music-tracks",
+      "image": "designs/121-music-tracks.png",
+      "sha256": "d6566f4f2cded01545d5d3fcd13636bc5c976b7b6e54ce736ba026b4f65ac77b",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "122-help",
+      "image": "designs/122-help.png",
+      "sha256": "b74b75afbdf5ea5bc3a4432a9a0df8c5207baeb020f7aaa172dd4ce68b296fea",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "123-about",
+      "image": "designs/123-about.png",
+      "sha256": "62cba25ed934e90a85cd23f847b7b8648f19f59d42faa2af2d9eb66405f691a9",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "124-screenshot",
+      "image": "designs/124-screenshot.png",
+      "sha256": "1bc5a1f52a73391734eaad6f21007b7397fa28657894f67d44b5645016bb0569",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "125-date-picker",
+      "image": "designs/125-date-picker.png",
+      "sha256": "330675b3b5f7a6949a4419149b5149a7bbda115f6067370c486345a73213f306",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "126-scenario-create",
+      "image": "designs/126-scenario-create.png",
+      "sha256": "9ece4d4105b77d1798900175b54e76d37bf940efd5edffaa4b0429dfb168d878",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "127-scenario-editor",
+      "image": "designs/127-scenario-editor.png",
+      "sha256": "9bdf51bc4acc91a05de4b19c9a7447316e84c8042cbabbb506a5ce7ee653ac3e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "editor"
+    },
+    {
+      "id": "128-editor-terrain",
+      "image": "designs/128-editor-terrain.png",
+      "sha256": "85284e70d00b975db3c650de19f1cf6a4b4df24540c9d92c6ef2740c37e9a437",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "editor"
+    },
+    {
+      "id": "129-terraform",
+      "image": "designs/129-terraform.png",
+      "sha256": "54fcf2daf80914a0c3a5397dcc912cf7acde91a5d9a4cc8c957855c1a970fb57",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "130-trees",
+      "image": "designs/130-trees.png",
+      "sha256": "2dfd74e60687cb08d8c70a059b47ed788e36cbd9c35ed48278ce8436bff4f679",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "131-objects",
+      "image": "designs/131-objects.png",
+      "sha256": "35ab305ee2db5c17fc21786db15a2d216cb141ee2273825056c84f6a48f9f225",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "build"
+    },
+    {
+      "id": "132-build-house",
+      "image": "designs/132-build-house.png",
+      "sha256": "f40dbb7a147f671dc1d97e92b68bb6c206c4cbd15470a38b36e0188677e4c3b1",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "editor"
+    },
+    {
+      "id": "133-town-data-import",
+      "image": "designs/133-town-data-import.png",
+      "sha256": "3ccaf0168d3e0f5350f12a970d6ab72c26340550a953c2285c76e5de9611e0dd",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    },
+    {
+      "id": "134-sandbox",
+      "image": "designs/134-sandbox.png",
+      "sha256": "1f61a5cc57b432ec32f4a1750e90518d483f47b4502b9149e36bf5b7eccd6551",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "settings"
+    },
+    {
+      "id": "135-console",
+      "image": "designs/135-console.png",
+      "sha256": "a12f969f73ee63d553c23661945c6d53c8409c51617590d1a73ee4c405b579de",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "article"
+    },
+    {
+      "id": "136-newgrf-inspect",
+      "image": "designs/136-newgrf-inspect.png",
+      "sha256": "73de26b1fda400a38ff293a71477c68639c18359b24b6115d2590f978a716827",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "137-sprite-align",
+      "image": "designs/137-sprite-align.png",
+      "sha256": "446824aa45a7dc7a487b3871a37b475a1a4ee90f5dc7a74142e7be4d5e127b6c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "detail"
+    },
+    {
+      "id": "138-performance-monitor",
+      "image": "designs/138-performance-monitor.png",
+      "sha256": "7e2085dc92a8037589220416f2db1db9b7f93c6b3b772ba7379346789387b1e3",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "139-frame-time",
+      "image": "designs/139-frame-time.png",
+      "sha256": "f2a0a4381984c74fd67c8987e9c38fc4e9424e299af4e7a07ed6e62f7ae76c70",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "140-generic-error",
+      "image": "designs/140-generic-error.png",
+      "sha256": "3f52efe0717b873e4f25f030a7d1abb47b05f266b41606d36db2d3ff739b242e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "141-tooltip-cost",
+      "image": "designs/141-tooltip-cost.png",
+      "sha256": "d166b539091d3f4b70c57b71fa3399a5932a3d69a38da45cfff038a1cb3a6e13",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "142-input-query",
+      "image": "designs/142-input-query.png",
+      "sha256": "1725f001f723c87478e7ada0807bfcba0f8664958632e2fb9028e98534674f7c",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "143-confirm",
+      "image": "designs/143-confirm.png",
+      "sha256": "ab0cc80b522d3b0517693efbaf673f7077c2851783f4eb4c14ce1b6dc7b283ae",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "144-on-screen-keyboard",
+      "image": "designs/144-on-screen-keyboard.png",
+      "sha256": "260172cb14316cf3494744ae7e05ca15bfc3bf969e5581a0caede649ebb2843e",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "dialog"
+    },
+    {
+      "id": "145-profit-graph",
+      "image": "designs/145-profit-graph.png",
+      "sha256": "fe45afddb50e3014de39ddd3dd1722cf12b44e0ece6f46a91444e8608d41f92a",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "146-cargo-graph",
+      "image": "designs/146-cargo-graph.png",
+      "sha256": "f8a1b0a49821278ce951a297ad28380d822f0f563ea9842e9db34b909c125ec6",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "147-performance-graph",
+      "image": "designs/147-performance-graph.png",
+      "sha256": "2cf4dfb7d1cd25bfaa42fbdfd708a3d189bb99dc1f5ee6dcde556edb3b1c39a6",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "148-value-graph",
+      "image": "designs/148-value-graph.png",
+      "sha256": "7596896c3fd1f78713d83925005b703fb8b4f61ab5634f174df6bd2c2dc02c20",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "chart"
+    },
+    {
+      "id": "149-script-league",
+      "image": "designs/149-script-league.png",
+      "sha256": "ef4b726bd57f5b2d8d49815b77339aa99447fa42de6c26131c1e96dde8c1c6f7",
+      "freshRendererMatchesExistingRGBA": true,
+      "layout": "list"
+    }
+  ],
+  "states": [
+    {
+      "screenId": "01-main-menu",
+      "stateId": "no-baseset",
+      "image": "previews/states/01-main-menu--no-baseset.png",
+      "sha256": "ca2e701f2c32672a2e167968630fed54f9f6fc68e2ea2e60f498a232d124c656",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "02-bootstrap",
+      "stateId": "download-failed",
+      "image": "previews/states/02-bootstrap--download-failed.png",
+      "sha256": "313ad3d2a7cf527a21911da5f1c80c30b65f356a81b2805ccabb182e94da4768",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "02-bootstrap",
+      "stateId": "ready",
+      "image": "previews/states/02-bootstrap--ready.png",
+      "sha256": "ec826a9fa3e928747f4529dc6adf7c6de9f6a149ecc083d7ac5fd97706856b81",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "03-new-world",
+      "stateId": "large-world",
+      "image": "previews/states/03-new-world--large-world.png",
+      "sha256": "377424c67b3ad89c1494a592326b2590453eec67977105b5a7cbbcb0e5999085",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "04-heightmap",
+      "stateId": "bad-file",
+      "image": "previews/states/04-heightmap--bad-file.png",
+      "sha256": "d132c06ad1822262fece695cb9500e4a2a53e87c99ae2743212adc02dacda6f8",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "04-heightmap",
+      "stateId": "aspect-warning",
+      "image": "previews/states/04-heightmap--aspect-warning.png",
+      "sha256": "04af73484c0b7fe181ea02b78087831dce4be5fd6858e01c203ac2831d063aa2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "05-scenario-select",
+      "stateId": "empty",
+      "image": "previews/states/05-scenario-select--empty.png",
+      "sha256": "81afd0e26db36af3c5f2928b7c6662284f0a95d8ff188cc33133344dbf23a776",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "05-scenario-select",
+      "stateId": "missing-newgrf",
+      "image": "previews/states/05-scenario-select--missing-newgrf.png",
+      "sha256": "b5fa034f075c333347258b6e52699ed6f08eab442ce91dcb3ba8ec71d86f5ce1",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "06-load-game",
+      "stateId": "empty",
+      "image": "previews/states/06-load-game--empty.png",
+      "sha256": "1838286701d7f08f32ecd3f3dcab2b35f020600f51d4a0abf67a9c571fde95a6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "06-load-game",
+      "stateId": "corrupt",
+      "image": "previews/states/06-load-game--corrupt.png",
+      "sha256": "8103f8e28c81ad8b4f572e73c56f60db37f353af730738afea8328d66ae06cf3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "06-load-game",
+      "stateId": "incompatible",
+      "image": "previews/states/06-load-game--incompatible.png",
+      "sha256": "d744fbcaa4a94a8d3b6cae3ff1141c0e9672fd866bd41b70a76f6f9c77554a40",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "07-save-game",
+      "stateId": "overwrite",
+      "image": "previews/states/07-save-game--overwrite.png",
+      "sha256": "982e1feee3adffb39092e9de88b15b59599e5252c23d3e37b3c0f74b5eff9324",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "07-save-game",
+      "stateId": "saved",
+      "image": "previews/states/07-save-game--saved.png",
+      "sha256": "99a9c631777a2eab1f1e2d515a5f7e1b03615ebfa182a99c1ec5b4d3d04f9bc7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "07-save-game",
+      "stateId": "disk-error",
+      "image": "previews/states/07-save-game--disk-error.png",
+      "sha256": "bc5cf5207f7575d4a903515eb8b1ccb49793b2f5d59ca6ae92244c6c126ac5f3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "08-world-progress",
+      "stateId": "generating",
+      "image": "previews/states/08-world-progress--generating.png",
+      "sha256": "79d2c64bd4945ff42d7f396837218573e010b5da77d5a68ed68eb16985e174d3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "08-world-progress",
+      "stateId": "abort",
+      "image": "previews/states/08-world-progress--abort.png",
+      "sha256": "6c84e54da5ea6fdfb9b8fb50ffd194374e3f559e0f6072ab598c7703a27424f5",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "09-main-hud",
+      "stateId": "paused",
+      "image": "previews/states/09-main-hud--paused.png",
+      "sha256": "01b50897a8e76131993d21f19738c676be8f22f037aeb3360717d5cd880dcb4c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "09-main-hud",
+      "stateId": "spectator",
+      "image": "previews/states/09-main-hud--spectator.png",
+      "sha256": "1028bf55bf266ae65f099389b9824b3c32ef86d3b8665bc93731eaed6f111c65",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "10-game-menu",
+      "stateId": "quit-confirm",
+      "image": "previews/states/10-game-menu--quit-confirm.png",
+      "sha256": "04d4a3a39f1304beea73457f06102671e4201313091d025f93239fd744f9b3e0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "11-rail-build",
+      "stateId": "blocked",
+      "image": "previews/states/11-rail-build--blocked.png",
+      "sha256": "5995af372c569309b3e8fa94da8266bc26fd0d5c3e03da0bd14f5d767cc33c6b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "11-rail-build",
+      "stateId": "insufficient",
+      "image": "previews/states/11-rail-build--insufficient.png",
+      "sha256": "e496d616c1755f83c99eb5091bb0a0002784dba318206cbf35415d79722eecb2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "11-rail-build",
+      "stateId": "built",
+      "image": "previews/states/11-rail-build--built.png",
+      "sha256": "111f855e052a51a108659ed64d05e4c64d5091d7060cc72e75343216d51173ca",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "12-rail-station",
+      "stateId": "town-refused",
+      "image": "previews/states/12-rail-station--town-refused.png",
+      "sha256": "9a1766365c4212357d5f6b875785eb153190e0d593cc1255da1733cb15fd6ea2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "12-rail-station",
+      "stateId": "too-large",
+      "image": "previews/states/12-rail-station--too-large.png",
+      "sha256": "4803d25479c051228dc0664b63015ff13599312f37a6b1112e4a1d0e136ccb36",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "13-rail-signals",
+      "stateId": "no-track",
+      "image": "previews/states/13-rail-signals--no-track.png",
+      "sha256": "bcd6d060aa327bf030d8adc572d358cd5aa6eca21fdcca4ee4277d02b9dc8885",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "14-rail-depot",
+      "stateId": "slope",
+      "image": "previews/states/14-rail-depot--slope.png",
+      "sha256": "f2de647952085dbb12f50369db35b7daf023ab9efae455668489ede674b0504c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "15-rail-waypoint",
+      "stateId": "wrong-rail",
+      "image": "previews/states/15-rail-waypoint--wrong-rail.png",
+      "sha256": "4eab28b800b6788fbaece32bdc2554aa198652f6dbe2ebdece9facd8cf642ec3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "16-rail-convert",
+      "stateId": "locked",
+      "image": "previews/states/16-rail-convert--locked.png",
+      "sha256": "508926940877d88f8412f24a0b9268be710fd471703da8a7bb6f74ff84d97e84",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "16-rail-convert",
+      "stateId": "vehicle-blocked",
+      "image": "previews/states/16-rail-convert--vehicle-blocked.png",
+      "sha256": "da5f3a93a2dcc6d4ac1b2baa5afab0fdeae6df659458e0d1dc1e1e710d49702a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "17-bridge",
+      "stateId": "length-limit",
+      "image": "previews/states/17-bridge--length-limit.png",
+      "sha256": "d52f18abb21b00c9f8a201d1fa56879bb0ee5b2ac18944894fb8a77700856aeb",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "17-bridge",
+      "stateId": "invalid-end",
+      "image": "previews/states/17-bridge--invalid-end.png",
+      "sha256": "de5b2c06583ad2d8ab7ee00e209e06c5503ac1f817097e4fdcb2a51c1d09efa7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "18-tunnel",
+      "stateId": "no-exit",
+      "image": "previews/states/18-tunnel--no-exit.png",
+      "sha256": "f503fa98031a8b0327f6bcfc2e8a7eca3e39a62546f1bad4a561476a34f164a1",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "18-tunnel",
+      "stateId": "conflict",
+      "image": "previews/states/18-tunnel--conflict.png",
+      "sha256": "d825f3ec1598ad49e2135cf51a9d254fc42c5db91393a013cec12bdccad16bbe",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "19-road-build",
+      "stateId": "road-refused",
+      "image": "previews/states/19-road-build--road-refused.png",
+      "sha256": "c123d64e6e2e338d6077b8126fa0cec8aa8e69549b0ed62bd602b9fe6fc98861",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "20-tram-build",
+      "stateId": "no-tram",
+      "image": "previews/states/20-tram-build--no-tram.png",
+      "sha256": "17e47133397e85ac76ebe704d432313d455672faf0df0c7562a66c6042e0f91c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "21-road-station",
+      "stateId": "wrong-road",
+      "image": "previews/states/21-road-station--wrong-road.png",
+      "sha256": "f056b1e5a0f809abbbaeff6521bf0acd2a57b0a49e746e95593cba25e376a735",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "22-road-depot",
+      "stateId": "no-road",
+      "image": "previews/states/22-road-depot--no-road.png",
+      "sha256": "aa22dea00a3f72b952d5ca2d5a6dcbc815cf724c4c7c56a4821cf0013213a2dc",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "23-road-waypoint",
+      "stateId": "invalid",
+      "image": "previews/states/23-road-waypoint--invalid.png",
+      "sha256": "42cbec0ce363830365a08b698887eb8446568b6f0b9ed0faf7cce57017929afa",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "24-water-build",
+      "stateId": "not-water",
+      "image": "previews/states/24-water-build--not-water.png",
+      "sha256": "395f9fea6178c52ae018aaaf217252ddcfff5f73907f19337a644f28ffdb9025",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "25-dock",
+      "stateId": "shore",
+      "image": "previews/states/25-dock--shore.png",
+      "sha256": "c81cf35895358de2edceb73bf1c9178a02aea7e6036512f072ccbcb8dba1803e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "26-shipyard",
+      "stateId": "blocked",
+      "image": "previews/states/26-shipyard--blocked.png",
+      "sha256": "618b28fe764b1c267981d7bbd8cd12f19a81665cf826c5748c5dace8b51ecaaf",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "27-canal-lock",
+      "stateId": "slope",
+      "image": "previews/states/27-canal-lock--slope.png",
+      "sha256": "6b83c9361cbc8f9f78fe5745825384dffdb4236c45312f138f30443573bbab14",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "28-airport-build",
+      "stateId": "noise-refused",
+      "image": "previews/states/28-airport-build--noise-refused.png",
+      "sha256": "6d758adb0da7791e160a39b5518413c1796beb6360c629569d2c520c2e272828",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "29-airport-picker",
+      "stateId": "unavailable",
+      "image": "previews/states/29-airport-picker--unavailable.png",
+      "sha256": "b217f52945ba56357be05266f90c85f2a1be848bb3becbce02fd8bdf4d095d7c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "30-station-join",
+      "stateId": "too-far",
+      "image": "previews/states/30-station-join--too-far.png",
+      "sha256": "6e4ce76e74c753b6418a2c6a7c983e4c518500da40d72cae1b7d62dae612dff0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "31-stations-list",
+      "stateId": "empty",
+      "image": "previews/states/31-stations-list--empty.png",
+      "sha256": "17ae211c133071cf5602e3e59d7f28b8e5fbe9f0c8f8768450c5befa82214fcc",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "32-station-detail",
+      "stateId": "no-cargo",
+      "image": "previews/states/32-station-detail--no-cargo.png",
+      "sha256": "e20eb04a8870eba60ade19f19352163a23fb8df9bead67ed3336826b59bf3bdc",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "32-station-detail",
+      "stateId": "closed-airport",
+      "image": "previews/states/32-station-detail--closed-airport.png",
+      "sha256": "5543165260c8b2af76476e04d7dab42620f10328a055935f5023f3a1ffb88a2a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "33-station-ratings",
+      "stateId": "no-rating",
+      "image": "previews/states/33-station-ratings--no-rating.png",
+      "sha256": "d60bb62c3b5ec27aed009f6b0f3e09724ccdeb28dd734a029635a0f0349cd17a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "34-waypoint-detail",
+      "stateId": "unused",
+      "image": "previews/states/34-waypoint-detail--unused.png",
+      "sha256": "8e3d5eef32d9605a06f270d7925d93b6c50f200e815fc76f72a6862559a3f6b2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "35-vehicles-train",
+      "stateId": "empty",
+      "image": "previews/states/35-vehicles-train--empty.png",
+      "sha256": "a65bbeff56fb20ae000236fd6e61610c819fd6a00df7c9ed2da34603249167db",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "35-vehicles-train",
+      "stateId": "other-company",
+      "image": "previews/states/35-vehicles-train--other-company.png",
+      "sha256": "27a7919a931f95fcbd1b169e5a3e532892e7db6784158750894849d3bfba3f11",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "36-vehicles-road",
+      "stateId": "empty",
+      "image": "previews/states/36-vehicles-road--empty.png",
+      "sha256": "c488516d4101ae51da182e880e4ea4ec8d4b12a75d87f71237a90447fecf0d8b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "36-vehicles-road",
+      "stateId": "other-company",
+      "image": "previews/states/36-vehicles-road--other-company.png",
+      "sha256": "8a85993efd4e08cf672ff834ab90fd35a5b3f3e7ed0a2a67d5b16d79281fe59a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "37-vehicles-ship",
+      "stateId": "empty",
+      "image": "previews/states/37-vehicles-ship--empty.png",
+      "sha256": "29b7169682eafcfd470976d6a2ae49c07b7e1300fe4895390e59b71d9ac7b715",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "37-vehicles-ship",
+      "stateId": "other-company",
+      "image": "previews/states/37-vehicles-ship--other-company.png",
+      "sha256": "1c6696d6454661fbb3e36083e2ef95f97a8ccfb359873555c7a3b35c67567ad7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "38-vehicles-air",
+      "stateId": "empty",
+      "image": "previews/states/38-vehicles-air--empty.png",
+      "sha256": "3a18a8e0381793ac3468767092563cbf038958a08e4518d4f3069128eba4b537",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "38-vehicles-air",
+      "stateId": "other-company",
+      "image": "previews/states/38-vehicles-air--other-company.png",
+      "sha256": "a0500cf8618cb5900be991aff1cbd373c9bca19c6704773efe702814525ab6a3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "39-depot-train",
+      "stateId": "empty",
+      "image": "previews/states/39-depot-train--empty.png",
+      "sha256": "a9ebf4e3b1751ae9a1c3363ebb937461f99d101dc09f0deb420f6eeeba7212e6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "39-depot-train",
+      "stateId": "sell-confirm",
+      "image": "previews/states/39-depot-train--sell-confirm.png",
+      "sha256": "c80187931d67cd59af2d88761d46dabe6f57767231c29b947b516061bcc1241b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "40-depot-road",
+      "stateId": "empty",
+      "image": "previews/states/40-depot-road--empty.png",
+      "sha256": "00a5809859ababd03e7399eb7a4266f28b8f82dd3a7510c7c3bf1141dd0dae4a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "40-depot-road",
+      "stateId": "sell-confirm",
+      "image": "previews/states/40-depot-road--sell-confirm.png",
+      "sha256": "8f4845f9808e126d13ab9fcd1efc6d41463e65ae5888c9d090514c400a9ed9da",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "41-depot-ship",
+      "stateId": "empty",
+      "image": "previews/states/41-depot-ship--empty.png",
+      "sha256": "573c524b2ed5e5a996ed3c7eae3269495cca6d8d2db290ee241cbc6ee3cd3512",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "41-depot-ship",
+      "stateId": "sell-confirm",
+      "image": "previews/states/41-depot-ship--sell-confirm.png",
+      "sha256": "13326150005171c291886ea4232f0a3a05c30532f83c1d9317ab36795a5f0877",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "42-depot-air",
+      "stateId": "empty",
+      "image": "previews/states/42-depot-air--empty.png",
+      "sha256": "70405695cf2faa3f51c1c74a6db65ceec2ad76dcafcfef5792338bc3ffc8f034",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "42-depot-air",
+      "stateId": "sell-confirm",
+      "image": "previews/states/42-depot-air--sell-confirm.png",
+      "sha256": "99ec0d510742e44b7396eefcbecb2992882d9aea01093abe163877843a89cbc3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "43-buy-train",
+      "stateId": "no-model",
+      "image": "previews/states/43-buy-train--no-model.png",
+      "sha256": "3ce46debe4f957211c8d919bd96aa672417de34073e5be6ac84af3094bed0c52",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "43-buy-train",
+      "stateId": "no-money",
+      "image": "previews/states/43-buy-train--no-money.png",
+      "sha256": "ed73cf6f9c6951b43da360511254989ff357044adffc5e268d23fa58d125b885",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "43-buy-train",
+      "stateId": "purchased",
+      "image": "previews/states/43-buy-train--purchased.png",
+      "sha256": "ebe25979333d0274ef5f6b42bbc80e6f53dea260093c9d92fc1abc0863a7963f",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "44-buy-road",
+      "stateId": "no-model",
+      "image": "previews/states/44-buy-road--no-model.png",
+      "sha256": "047276333950cf854368d8425c554a0d869ee4530ff8718f0eebf01c36e31da0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "44-buy-road",
+      "stateId": "no-money",
+      "image": "previews/states/44-buy-road--no-money.png",
+      "sha256": "94c44773d485110b8f9ce831345b97726e72bce9dd139131a96620d292dcfebd",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "44-buy-road",
+      "stateId": "purchased",
+      "image": "previews/states/44-buy-road--purchased.png",
+      "sha256": "5f293b6e5073b9ddc75e97e4eae2441ec276ff8456735bd5d5ac5ea18d130341",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "45-buy-ship",
+      "stateId": "no-model",
+      "image": "previews/states/45-buy-ship--no-model.png",
+      "sha256": "13f7be6e3eb476c3ffcc37ce6a83372fdcc145e8c8a8c1db2c5123b9b54ddf5e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "45-buy-ship",
+      "stateId": "no-money",
+      "image": "previews/states/45-buy-ship--no-money.png",
+      "sha256": "38345d8f11669a6d54adb481dbda753f4bee3370088c7479753cb298e4c3bc9e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "45-buy-ship",
+      "stateId": "purchased",
+      "image": "previews/states/45-buy-ship--purchased.png",
+      "sha256": "801a1adea6220ea893629c9a1f69cd2ed0291d9ca622c6fcfcc15c64246458ae",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "46-buy-air",
+      "stateId": "no-model",
+      "image": "previews/states/46-buy-air--no-model.png",
+      "sha256": "c79bc62ea22f3e823a6babbf7db1f67d6c96375c321c2cd8dec7521744f2c7dd",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "46-buy-air",
+      "stateId": "no-money",
+      "image": "previews/states/46-buy-air--no-money.png",
+      "sha256": "af5a0c3ddda53c526839f029e665b3798d644631dc2a3f0f30b6bacc32c31c01",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "46-buy-air",
+      "stateId": "purchased",
+      "image": "previews/states/46-buy-air--purchased.png",
+      "sha256": "00267eefbd6c03bfb4e4ed56a30f83f722c0bd98900ed66c7972b2a5f7bb0c27",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "47-vehicle-view",
+      "stateId": "broken",
+      "image": "previews/states/47-vehicle-view--broken.png",
+      "sha256": "588c8d2b7d5f883b0d63c06540da1706c4056365ff5b3d86ee1bf148a6923d4c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "47-vehicle-view",
+      "stateId": "lost",
+      "image": "previews/states/47-vehicle-view--lost.png",
+      "sha256": "0712eee1b3b0ff48d9056060fd743e7ae67508758e0952d1b9f209855af867df",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "47-vehicle-view",
+      "stateId": "stopped",
+      "image": "previews/states/47-vehicle-view--stopped.png",
+      "sha256": "b472d3121b8c8d279737083b74f2db90af3db34a5833931fcc3b06d55c3f6124",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "48-vehicle-details",
+      "stateId": "old",
+      "image": "previews/states/48-vehicle-details--old.png",
+      "sha256": "e614739f1bd1fae5910f17de174f2a73bebf5990e321b091df3240eb07192f3f",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "49-vehicle-refit",
+      "stateId": "not-depot",
+      "image": "previews/states/49-vehicle-refit--not-depot.png",
+      "sha256": "e63a0390c48720dd389113e6dc5be9e1fa55f4a82744f0d788f6309d5ff31739",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "49-vehicle-refit",
+      "stateId": "no-cargo",
+      "image": "previews/states/49-vehicle-refit--no-cargo.png",
+      "sha256": "28a1a92a9bac3c194665045fbf803c0835a147654468cde65ad19ee88f964300",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "49-vehicle-refit",
+      "stateId": "refitted",
+      "image": "previews/states/49-vehicle-refit--refitted.png",
+      "sha256": "4fd9e076beb86a9a8dfc50374528d004e4e0d91e9af7fe0a21f8223fca13687d",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "50-orders",
+      "stateId": "empty",
+      "image": "previews/states/50-orders--empty.png",
+      "sha256": "bb5d838f0010bfec7ff7a671cdf7aad9a34641167ca1cbbc476e8698fd9334b5",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "50-orders",
+      "stateId": "invalid",
+      "image": "previews/states/50-orders--invalid.png",
+      "sha256": "ab98638afce0b0043c0f4dcb22a327e3e59fd0d6b5a6f12aef1a300825347bf2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "50-orders",
+      "stateId": "other-company",
+      "image": "previews/states/50-orders--other-company.png",
+      "sha256": "453018c6e7ea647fb6a33e0b1db4e55d80ed7750cd89e28e6064df3bb32ca395",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "51-conditional-order",
+      "stateId": "invalid-jump",
+      "image": "previews/states/51-conditional-order--invalid-jump.png",
+      "sha256": "56f1c5c3e53443f523bdc2b82ee7de35d1e20be4bb046783dfa82f1171d57808",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "52-shared-orders",
+      "stateId": "single",
+      "image": "previews/states/52-shared-orders--single.png",
+      "sha256": "30d26d7f92ab5477b7c67c53f22c25dc87ed8fafd8b3f1811a685040b3e845c4",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "52-shared-orders",
+      "stateId": "unshare",
+      "image": "previews/states/52-shared-orders--unshare.png",
+      "sha256": "e1bc1be98ab7b345671ea383bd5ca34a011176d7abbe45adec52e4c4907b7edd",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "53-timetable",
+      "stateId": "incomplete",
+      "image": "previews/states/53-timetable--incomplete.png",
+      "sha256": "78b2d280eb812373b0553b958c81773d636e90450d87043f549be64822ad0cf4",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "53-timetable",
+      "stateId": "filling",
+      "image": "previews/states/53-timetable--filling.png",
+      "sha256": "71c3bc2a279edfe2274bc3756f08821bca94836a939444b08abdc83f1147452f",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "54-vehicle-groups",
+      "stateId": "empty-group",
+      "image": "previews/states/54-vehicle-groups--empty-group.png",
+      "sha256": "62b173f53fb5a36291c4153164ff348173d5ca5b10ffc98c676d1622c9f36f0c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "54-vehicle-groups",
+      "stateId": "delete-group",
+      "image": "previews/states/54-vehicle-groups--delete-group.png",
+      "sha256": "64cc5789bf1ba53dfd96ec06171e60c0d796fbd429b634e9a1f950c2c8062d6c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "55-auto-replace",
+      "stateId": "incompatible",
+      "image": "previews/states/55-auto-replace--incompatible.png",
+      "sha256": "5d9ba4327b4f4143191cc97804cce95f17c785f11b8d3aaef849f3dfebf42731",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "55-auto-replace",
+      "stateId": "enabled",
+      "image": "previews/states/55-auto-replace--enabled.png",
+      "sha256": "1e270feb9e8d82408968416256f82073723d02c1e366931b31c4a4639a142261",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "56-engine-preview",
+      "stateId": "accepted",
+      "image": "previews/states/56-engine-preview--accepted.png",
+      "sha256": "d81a28dd262ef9f4a1d85d7e59a805b45b35a4b82efdfacb94f91280959092b6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "57-company-overview",
+      "stateId": "other",
+      "image": "previews/states/57-company-overview--other.png",
+      "sha256": "8819e7f974259c9f710a4cab722f06d19de4ba4a4eb1514204754a155fbf69d7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "57-company-overview",
+      "stateId": "no-hq",
+      "image": "previews/states/57-company-overview--no-hq.png",
+      "sha256": "2357fbc08daf3610bbb80bb93e308010d74cf325119aa9bc84222aa05de4549a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "58-company-manager",
+      "stateId": "applied",
+      "image": "previews/states/58-company-manager--applied.png",
+      "sha256": "ca3efca75c51d63957c7df42fe38a854ac4dc7f035a5acd3e5455d25916c87be",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "59-company-livery",
+      "stateId": "inherited",
+      "image": "previews/states/59-company-livery--inherited.png",
+      "sha256": "aaa0fdb0645ee534cb4f5bf314bdb9fb3ce409ec65555009c65f87db037ac87b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "60-finances",
+      "stateId": "max-loan",
+      "image": "previews/states/60-finances--max-loan.png",
+      "sha256": "dd01b8b7fa4bdc50a5b9ec4b3841a42f5b86d823e31c4fdf235b591c0c1c8892",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "60-finances",
+      "stateId": "repay-failed",
+      "image": "previews/states/60-finances--repay-failed.png",
+      "sha256": "4097be5c78f68b55abca83123b241d5375a34866f1c1a3d5187ca46fa38403f8",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "61-loan",
+      "stateId": "loan-raised",
+      "image": "previews/states/61-loan--loan-raised.png",
+      "sha256": "93edf9c145278bcae1a5ac5b69fe97c25f12f859f1ce15385df9280ab9afb19e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "61-loan",
+      "stateId": "loan-repaid",
+      "image": "previews/states/61-loan--loan-repaid.png",
+      "sha256": "02902c7d4fe03d607e4e8d57328902f18057047c376613fa0deee46521433068",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "62-infrastructure",
+      "stateId": "none",
+      "image": "previews/states/62-infrastructure--none.png",
+      "sha256": "c463e64b67ad450910524183847c6089e29bd3d273a29aad7a6032ee5eae1aa5",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "63-buy-company",
+      "stateId": "too-expensive",
+      "image": "previews/states/63-buy-company--too-expensive.png",
+      "sha256": "0b2e2065fe6f5348beb68fefc7d96eddb0f097518b086b0355eeea24d5a7782b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "63-buy-company",
+      "stateId": "bought",
+      "image": "previews/states/63-buy-company--bought.png",
+      "sha256": "f55d9151e1ffe7941a93a1463daaffa24f60181d44e9541a1b4dc85539425771",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "64-company-league",
+      "stateId": "no-script-table",
+      "image": "previews/states/64-company-league--no-script-table.png",
+      "sha256": "b300e1ea30b578afecb67e64d1d221dba0045d44a949e5808f774be2bcf2a265",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "65-company-graphs",
+      "stateId": "no-history",
+      "image": "previews/states/65-company-graphs--no-history.png",
+      "sha256": "6ad654d1a843dab89c9d95eeb426b1dece9fda0f930c75c2028f92ea0590f266",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "66-performance",
+      "stateId": "no-score",
+      "image": "previews/states/66-performance--no-score.png",
+      "sha256": "55a0ecd6b70e7fb198efd795b2880d5e430fe96bf122617565f1a218890696a2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "67-cargo-payment",
+      "stateId": "filtered",
+      "image": "previews/states/67-cargo-payment--filtered.png",
+      "sha256": "1c1825e2f73bcb8ee34ec98e8969fbdf10579bc430f30af1524487e020f24daf",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "68-subsidies",
+      "stateId": "none",
+      "image": "previews/states/68-subsidies--none.png",
+      "sha256": "a871adfda339f37dcd5f81cf199bc817e58f1ad067ec1c8c8b0ac711270e45e3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "68-subsidies",
+      "stateId": "awarded",
+      "image": "previews/states/68-subsidies--awarded.png",
+      "sha256": "a82f009e85a68a0710c788d0df20c16843f60a6a2f13d3ac055b336c091d22e3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "68-subsidies",
+      "stateId": "expired",
+      "image": "previews/states/68-subsidies--expired.png",
+      "sha256": "9f778d6e77f8755ca186d96adddf504ea2ceb977b2b7ec165f963025a6deece3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "69-small-map",
+      "stateId": "filtered",
+      "image": "previews/states/69-small-map--filtered.png",
+      "sha256": "36c1fe4972da7e754295469e19e3a35a92af6c1cb8ace2d5af632595fa9d6808",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "70-linkgraph",
+      "stateId": "no-links",
+      "image": "previews/states/70-linkgraph--no-links.png",
+      "sha256": "a7560f164c223440ab6361c721f1cf217ddfc8f409728bc6092c5d9071e7a3b9",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "71-extra-viewport",
+      "stateId": "no-target",
+      "image": "previews/states/71-extra-viewport--no-target.png",
+      "sha256": "83dadb3784bfe65e5b63b4839ba49704ab4653b031346d56358f67f3e94ab42a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "72-transparency",
+      "stateId": "all-hidden",
+      "image": "previews/states/72-transparency--all-hidden.png",
+      "sha256": "12aff1057832e43a6323d5491e07438bb6d8d1397c6dc443c62c0aee62b0bb2d",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "73-land-info",
+      "stateId": "unowned",
+      "image": "previews/states/73-land-info--unowned.png",
+      "sha256": "17b3472ebc81c00f2529c9a8450fb2d32f6b2080fca9495d2dd42b66256e4298",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "74-signs",
+      "stateId": "empty",
+      "image": "previews/states/74-signs--empty.png",
+      "sha256": "ec17c5b62c402969761dcea4a27c64c45d1954859b373944704ce4857da7f700",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "75-sign-edit",
+      "stateId": "empty-text",
+      "image": "previews/states/75-sign-edit--empty-text.png",
+      "sha256": "e1e43847c9ec31f25ef5d68b35230ce823f61395575f1184be06cd15db8a367a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "75-sign-edit",
+      "stateId": "no-access",
+      "image": "previews/states/75-sign-edit--no-access.png",
+      "sha256": "ef7d9040e71d875a61d04982f94b9253e9e07a47c819be4406dc4a1ca7691c2a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "76-towns",
+      "stateId": "none",
+      "image": "previews/states/76-towns--none.png",
+      "sha256": "147772ada589346784adc74969e8785ed3646cc30c867f3013992423b7301b78",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "77-town-detail",
+      "stateId": "growth-blocked",
+      "image": "previews/states/77-town-detail--growth-blocked.png",
+      "sha256": "279f9f71009483f1a307be8c3e20b358edad03eb2eaa325cf1a527acf4a283e7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "78-town-authority",
+      "stateId": "refused",
+      "image": "previews/states/78-town-authority--refused.png",
+      "sha256": "f8e545fb02c59ff483258981f9fbd5f41f36770428a8a32d321c4347ca968fba",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "78-town-authority",
+      "stateId": "bribe-failed",
+      "image": "previews/states/78-town-authority--bribe-failed.png",
+      "sha256": "0c6f60c7b75f904fd565bd677449aed3791291ebb69388ada6f7002628ad067d",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "78-town-authority",
+      "stateId": "unaffordable",
+      "image": "previews/states/78-town-authority--unaffordable.png",
+      "sha256": "a40d9fb0393e5c11ce30333696c49db8d4df961ad15b991501cfa4444c609a96",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "79-found-town",
+      "stateId": "disabled",
+      "image": "previews/states/79-found-town--disabled.png",
+      "sha256": "8abab7e2df857f7244f7a6836e0da9f22da1415eb05f667d6d6d812457d55453",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "79-found-town",
+      "stateId": "unsuitable",
+      "image": "previews/states/79-found-town--unsuitable.png",
+      "sha256": "f0acdd8ab674ba6dd17b5a68a76b24491a1bda4678562ff5cad29f5330b817fa",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "80-industries",
+      "stateId": "empty",
+      "image": "previews/states/80-industries--empty.png",
+      "sha256": "dc755c5e45d10cd30dd1bbcc08b68267e6c53bab2c669198f3f201428b9c094e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "81-industry-detail",
+      "stateId": "closing",
+      "image": "previews/states/81-industry-detail--closing.png",
+      "sha256": "1a4157e035e9803e959cb242e942d00b42d49970170f8c45f9d67a689c28514d",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "81-industry-detail",
+      "stateId": "no-output",
+      "image": "previews/states/81-industry-detail--no-output.png",
+      "sha256": "130ca5f249ca12bfac96fd8a9a46080e6698582043c608dfc930fc39b014f0ce",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "82-fund-industry",
+      "stateId": "no-money",
+      "image": "previews/states/82-fund-industry--no-money.png",
+      "sha256": "45fb93cd7fec8a708be4ce1f3be65e614d3434ab743f7ed9f65ade52aa9bdc96",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "82-fund-industry",
+      "stateId": "failed",
+      "image": "previews/states/82-fund-industry--failed.png",
+      "sha256": "f6c853fab1e7ed9e2203939c98d97ef07fbddd2df0c458f33ff1a4b1907a83de",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "82-fund-industry",
+      "stateId": "restricted",
+      "image": "previews/states/82-fund-industry--restricted.png",
+      "sha256": "44957118632d2f2a5b9660aa89cbc35e89c1762ff4f8d53d60421f3e219a6ed2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "83-cargo-chain",
+      "stateId": "none",
+      "image": "previews/states/83-cargo-chain--none.png",
+      "sha256": "accb5eeb240736bbbc1747e43e2fe2ff91b3cb927249228242c99a9a721799b0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "84-industry-production",
+      "stateId": "new",
+      "image": "previews/states/84-industry-production--new.png",
+      "sha256": "5423252ed7b62d0adc182a43e2bbd6539672842a8b3049fbff727a76a1727767",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "85-town-cargo",
+      "stateId": "new",
+      "image": "previews/states/85-town-cargo--new.png",
+      "sha256": "0de58174a94011e969b2b89c3fc3eb809f234c74fc0fd7a224d53440619d94d3",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "86-news",
+      "stateId": "no-target",
+      "image": "previews/states/86-news--no-target.png",
+      "sha256": "3ee4f694a3926d047136421b456f0aac554ed075496c60f18065d0294622d8f4",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "87-news-history",
+      "stateId": "empty",
+      "image": "previews/states/87-news-history--empty.png",
+      "sha256": "24699a4282adc51e393cbbb9ac50dcc3e49c1be16601bd7a12ba4f1063828e44",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "88-goals",
+      "stateId": "no-script",
+      "image": "previews/states/88-goals--no-script.png",
+      "sha256": "677578e1d9e66a90301e6e060dc0907f4452aa4a592e93edb6553dd81cc8afa4",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "88-goals",
+      "stateId": "complete",
+      "image": "previews/states/88-goals--complete.png",
+      "sha256": "026090e7ae1fc71bce08a483e4677bd6e461d67c2d3d5169cf9f81437bc2c832",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "89-goal-question",
+      "stateId": "answered",
+      "image": "previews/states/89-goal-question--answered.png",
+      "sha256": "d6b39b8d559dc678abdf65b5589a2a7926a23c990a4f159c7a1db1806760d9e1",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "90-story-book",
+      "stateId": "empty",
+      "image": "previews/states/90-story-book--empty.png",
+      "sha256": "408d8dfa6858dd34816d2f81bfcfe0dd3123772bc52563a0f3895c23f3a88fe0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "91-highscores",
+      "stateId": "empty",
+      "image": "previews/states/91-highscores--empty.png",
+      "sha256": "5b27c1178250640b96ca7a43791ea01575a545b388d7b0f412aa71a9402b7ba9",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "92-endgame",
+      "stateId": "continue",
+      "image": "previews/states/92-endgame--continue.png",
+      "sha256": "8428489423fd564d341209372dcf03b44806300f3bc2fe61f39bd85bbdb33fe7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "93-servers",
+      "stateId": "none",
+      "image": "previews/states/93-servers--none.png",
+      "sha256": "ac1ea99f44631bdafc54c1a5917835a4548dcb9c850fe815710067969a9a8bd1",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "93-servers",
+      "stateId": "version",
+      "image": "previews/states/93-servers--version.png",
+      "sha256": "40cdf05bf49711bc47d4c52f0cf75dc8bad9e68e2e1581f7155b4880b81997df",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "93-servers",
+      "stateId": "missing",
+      "image": "previews/states/93-servers--missing.png",
+      "sha256": "a888d7e60eb6ee6dc73f9cfae2f99765331ea92555aebc61fedbf2f76a108b92",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "94-server-create",
+      "stateId": "start-failed",
+      "image": "previews/states/94-server-create--start-failed.png",
+      "sha256": "3377e099fffd8d44ebf531391d2f9efea8a309e5693385141588dbaffd2ea4aa",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "95-network-join",
+      "stateId": "timeout",
+      "image": "previews/states/95-network-join--timeout.png",
+      "sha256": "adea967857768ff4a53fe06edf8f740ae2d37e8cb264c4d2264eec8edc5901af",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "95-network-join",
+      "stateId": "disconnect",
+      "image": "previews/states/95-network-join--disconnect.png",
+      "sha256": "354661ba44ad746cdd5727bfabe21992ed3bf406076f064233b015baf76ddb0b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "95-network-join",
+      "stateId": "desync",
+      "image": "previews/states/95-network-join--desync.png",
+      "sha256": "8d8d5f35a53d99d1e5ce466178b74ea3ca4a816b044c1317c7323792c41db740",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "95-network-join",
+      "stateId": "full",
+      "image": "previews/states/95-network-join--full.png",
+      "sha256": "1a26f74bd0d501875c0aeda833f13957d21c27b0eb41e90cc147d8621007bbe2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "96-network-password",
+      "stateId": "wrong",
+      "image": "previews/states/96-network-password--wrong.png",
+      "sha256": "3c2c198c103a07332ba09e06edce431d14be5c7ede7764c272e573096fa8f4af",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "96-network-password",
+      "stateId": "need",
+      "image": "previews/states/96-network-password--need.png",
+      "sha256": "d0109f955df5f6604ab77314a0f5f0780a5e16d10ff9b6add2ddc42d0d75b864",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "97-clients",
+      "stateId": "locked",
+      "image": "previews/states/97-clients--locked.png",
+      "sha256": "062871df1b09ad53b53b444f151a6f96549e2665607e608ce52d64d599009206",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "97-clients",
+      "stateId": "admin-only",
+      "image": "previews/states/97-clients--admin-only.png",
+      "sha256": "0a6e79f8a345e85a04f25705009ec43fa157035fbfb4683e1cf9b167d3194899",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "97-clients",
+      "stateId": "company-full",
+      "image": "previews/states/97-clients--company-full.png",
+      "sha256": "51d07736101056a68a66d5688dbf46c55611c353929fa94e6f0edfc340577a62",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "98-chat",
+      "stateId": "empty",
+      "image": "previews/states/98-chat--empty.png",
+      "sha256": "2051d9e4793f5c6efa9a0d69acdcb40594ee73341ef1b8361246f1c5ab6cd60a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "98-chat",
+      "stateId": "left",
+      "image": "previews/states/98-chat--left.png",
+      "sha256": "5a00cce83b16d9b9d1d9dae1399ded06245d7af8d595d83d8066899e5c108e34",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "99-gift-money",
+      "stateId": "not-allowed",
+      "image": "previews/states/99-gift-money--not-allowed.png",
+      "sha256": "475151867c5f124fff4a1f98a5cca6002dcd8dd4245b9fad511a6f2a7262b19d",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "99-gift-money",
+      "stateId": "no-money",
+      "image": "previews/states/99-gift-money--no-money.png",
+      "sha256": "2c2d83025d99f00cc580497df4c0655ff233358b18637aed0af8fc5d4bf78db7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "100-relay-consent",
+      "stateId": "relay-failed",
+      "image": "previews/states/100-relay-consent--relay-failed.png",
+      "sha256": "fd5760cb7456efb374d9933bcd0a56f2dd817ff634db4b2996baabb1d75ebeb6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "101-survey-consent",
+      "stateId": "disabled",
+      "image": "previews/states/101-survey-consent--disabled.png",
+      "sha256": "26288c438bea57fbbb37a5fa9950cb441fcb76aea9230d95553468db75d2406a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "102-online-content",
+      "stateId": "offline",
+      "image": "previews/states/102-online-content--offline.png",
+      "sha256": "7e5cb1888538f0465c112d1abe859a3976406354e97207c7883d1e3aa6a8fcdb",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "102-online-content",
+      "stateId": "empty",
+      "image": "previews/states/102-online-content--empty.png",
+      "sha256": "f1900b86b4189df23692b41e35982d05988ff6167876ee762d7b2850007e324b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "102-online-content",
+      "stateId": "dependency",
+      "image": "previews/states/102-online-content--dependency.png",
+      "sha256": "85e1d28229e8f5c829ca701261cfad05cc7fd953abed2b33f33c1479bfc4879f",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "103-content-download",
+      "stateId": "failed",
+      "image": "previews/states/103-content-download--failed.png",
+      "sha256": "94bd3f2ee7ed87b550e6d1048af0599d5bd2e2e11a37765aa578f98b15bb4558",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "103-content-download",
+      "stateId": "completed",
+      "image": "previews/states/103-content-download--completed.png",
+      "sha256": "244dd79ca83d738f0f369fc772b51d76e6173c7644c4b4e8e02c808f06804dd4",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "104-newgrf",
+      "stateId": "missing",
+      "image": "previews/states/104-newgrf--missing.png",
+      "sha256": "45c535bf20106ba1e05873d74f1acacd7cf2db23568fac1f87db440b4a620ab2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "104-newgrf",
+      "stateId": "conflict",
+      "image": "previews/states/104-newgrf--conflict.png",
+      "sha256": "513103f41eed9cdabcfb9873bac2d7025813ac18ac4d6ce02c3b02e9183f9498",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "104-newgrf",
+      "stateId": "readonly",
+      "image": "previews/states/104-newgrf--readonly.png",
+      "sha256": "d462f781e86474bace2d70415a27acd0d3c3270ae6b9cebf1a7cc1a7580fdde1",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "105-newgrf-parameters",
+      "stateId": "none",
+      "image": "previews/states/105-newgrf-parameters--none.png",
+      "sha256": "935461670740560e137f0891afc023831530816996cfbc264cde581b8493b25b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "105-newgrf-parameters",
+      "stateId": "readonly",
+      "image": "previews/states/105-newgrf-parameters--readonly.png",
+      "sha256": "ceb30332df8e82bd605dae61098b45ab7d9865626754b0b217c3f1f0f6cb5239",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "106-newgrf-presets",
+      "stateId": "overwrite",
+      "image": "previews/states/106-newgrf-presets--overwrite.png",
+      "sha256": "f170b1b355ac0de9bd1d34637c2442fa2b7d10f474cd569e3b70aef6d9d9fd28",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "106-newgrf-presets",
+      "stateId": "none",
+      "image": "previews/states/106-newgrf-presets--none.png",
+      "sha256": "a49a4261f059107b47b1ace67d6b6551a97aba7f7755d3c83d1712d0aea302d5",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "107-content-scan",
+      "stateId": "complete",
+      "image": "previews/states/107-content-scan--complete.png",
+      "sha256": "14a013235ff0b80ef7c3530e8c9beafb8b18cc48e0693c4371496f0b5d22f0a0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "108-content-text",
+      "stateId": "missing",
+      "image": "previews/states/108-content-text--missing.png",
+      "sha256": "240132f44a67fdb2f04fd680b223f186787325f6246a1a4e564f5ab4165eb128",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "109-ai-config",
+      "stateId": "none",
+      "image": "previews/states/109-ai-config--none.png",
+      "sha256": "717f2fa36911a794d03b39dfeec4622ccd340d12bfa7c3709c88ce93f796b10b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "110-gs-config",
+      "stateId": "none",
+      "image": "previews/states/110-gs-config--none.png",
+      "sha256": "330c741eb5ef2e6eb9f92959a60aff121ce4e8ce92d6e8a9851f12dd7dbbd267",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "111-script-list",
+      "stateId": "empty",
+      "image": "previews/states/111-script-list--empty.png",
+      "sha256": "3dd2eed568d5d56f2aa1cf292804287c49f09df69891825076fe8fb4616211ae",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "112-script-settings",
+      "stateId": "locked",
+      "image": "previews/states/112-script-settings--locked.png",
+      "sha256": "8f6bb7f2224e5f09b445055053260691170229f76006663eccf299593f1896d2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "112-script-settings",
+      "stateId": "no-params",
+      "image": "previews/states/112-script-settings--no-params.png",
+      "sha256": "67916bb9f7eb2e6a733f6e90e483a5fd67e99e57d97ffe8340b133c4f4812c2a",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "113-script-debug",
+      "stateId": "crashed",
+      "image": "previews/states/113-script-debug--crashed.png",
+      "sha256": "ac301bd0d236d729dd1585a01f351f10a95857e551449c20989c3bb7bc42abae",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "114-options",
+      "stateId": "changed",
+      "image": "previews/states/114-options--changed.png",
+      "sha256": "5722c3f85598a1deff9d82c632125420bf830d1e9b5d1f622c7c63f4c919b546",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "115-graphics-options",
+      "stateId": "not-supported",
+      "image": "previews/states/115-graphics-options--not-supported.png",
+      "sha256": "87c9902fc859efd70dd3e476d1930ba78a1ef98bb9efc45428f944345d5111ff",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "116-sound-options",
+      "stateId": "no-music",
+      "image": "previews/states/116-sound-options--no-music.png",
+      "sha256": "4fd02a0a13dcdeb4703195977c98bfa786afd463d95189822a54c6a3bba0abfe",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "117-social-options",
+      "stateId": "none",
+      "image": "previews/states/117-social-options--none.png",
+      "sha256": "74c97ab99f60a4e47e48ede8568535fdaee164ed4000c7878c825ce9783a7d79",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "118-advanced-options",
+      "stateId": "no-results",
+      "image": "previews/states/118-advanced-options--no-results.png",
+      "sha256": "d9c8cb4e43b52e24b4924078793b83e6c1efcd0e28f7438fb5471715204d0a87",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "118-advanced-options",
+      "stateId": "server-locked",
+      "image": "previews/states/118-advanced-options--server-locked.png",
+      "sha256": "1149907a310590bbcabd58c5ba5a88786e7ad39455cdc4adb769c9577003e52e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "119-custom-currency",
+      "stateId": "invalid",
+      "image": "previews/states/119-custom-currency--invalid.png",
+      "sha256": "875ecede1c720507a65824d25af96637548a8f703bc50c3cb26a684c24daf373",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "120-music-player",
+      "stateId": "silent",
+      "image": "previews/states/120-music-player--silent.png",
+      "sha256": "dacff1ffd1dd39b496b0af766dd6a73a7afb61bce9bae19a477f00bf45c13800",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "121-music-tracks",
+      "stateId": "empty",
+      "image": "previews/states/121-music-tracks--empty.png",
+      "sha256": "668ba0b29929d78d7918c5f987d7b08f76de78ad6f6811b257a1b2446d02366f",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "122-help",
+      "stateId": "link-offline",
+      "image": "previews/states/122-help--link-offline.png",
+      "sha256": "c136d5e6ec4d1cda9c3ab2b1e7ca0e1a175161112e2ee57b3fcac55d41442a90",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "124-screenshot",
+      "stateId": "large",
+      "image": "previews/states/124-screenshot--large.png",
+      "sha256": "7dfd04ed8eca64e7395ca75a37bd42691dbd825e36ab7d9c13b545a0fb23ea1f",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "124-screenshot",
+      "stateId": "error",
+      "image": "previews/states/124-screenshot--error.png",
+      "sha256": "34d2a2f46c34ca7d5be6c51ad448fde9128b9ca96396ec82905cc542bc197185",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "125-date-picker",
+      "stateId": "range",
+      "image": "previews/states/125-date-picker--range.png",
+      "sha256": "5258c4112d6fcd558e43152e4e099db9a6002307eeea61d1990f34f826617684",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "126-scenario-create",
+      "stateId": "new",
+      "image": "previews/states/126-scenario-create--new.png",
+      "sha256": "d8188dae24d1928c592d2124c7f9e87aa988d4ee33fb48a9edac60b9f3d6079d",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "127-scenario-editor",
+      "stateId": "unsaved",
+      "image": "previews/states/127-scenario-editor--unsaved.png",
+      "sha256": "2a3286040187d4ab2335eee350c4195a97ad0f12209b1455d420a27042347deb",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "128-editor-terrain",
+      "stateId": "clear-confirm",
+      "image": "previews/states/128-editor-terrain--clear-confirm.png",
+      "sha256": "599ce74caf6cabdeca633eddb8279b292437e39b17201c96360b2761452464d5",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "129-terraform",
+      "stateId": "occupied",
+      "image": "previews/states/129-terraform--occupied.png",
+      "sha256": "c7e2ffd1ac7abe3b577aee22c6ce186521616ca0cc9fff6dbd2c04d98d165b1b",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "129-terraform",
+      "stateId": "limit",
+      "image": "previews/states/129-terraform--limit.png",
+      "sha256": "3f3be74de2643af0e20043bfd72d9c2c5c06623a3a9aa7b64d1e55568c0aba02",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "130-trees",
+      "stateId": "invalid",
+      "image": "previews/states/130-trees--invalid.png",
+      "sha256": "4cdd05f9c5631e705a02a4f48fb54076d28a5d332b7b17b540f55934f0d09686",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "131-objects",
+      "stateId": "none",
+      "image": "previews/states/131-objects--none.png",
+      "sha256": "5a155202a4c6c1b3c38a44e090103a0f7014cf61fb7285cf62f5b9d1db1ad892",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "132-build-house",
+      "stateId": "no-town",
+      "image": "previews/states/132-build-house--no-town.png",
+      "sha256": "9dcea098e14257670dc9d8f21e20cf3633daf1355ec633b090116164f65aefed",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "133-town-data-import",
+      "stateId": "bad-file",
+      "image": "previews/states/133-town-data-import--bad-file.png",
+      "sha256": "bdda528351dae22738f1b57fe66414acc7617efce69c7089640ebb6d38eb6f25",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "134-sandbox",
+      "stateId": "unavailable",
+      "image": "previews/states/134-sandbox--unavailable.png",
+      "sha256": "8f8fdb3c7f5ea691a5d3de4798596a7db487384ee2c7d772ef0963c8bc4c7fd0",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "134-sandbox",
+      "stateId": "used",
+      "image": "previews/states/134-sandbox--used.png",
+      "sha256": "8c1e11887f3fb1d6d2b3329139bf4a532198e909eab7c4cf079a490831445bfb",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "135-console",
+      "stateId": "unknown",
+      "image": "previews/states/135-console--unknown.png",
+      "sha256": "78229d3fac54bf6b1a162703271fe2ed4699302e116612cf5d4aaa612e7d6063",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "136-newgrf-inspect",
+      "stateId": "none",
+      "image": "previews/states/136-newgrf-inspect--none.png",
+      "sha256": "0f32b0bca88e74d60a94c3d8a1ef94cbcf726b170e286c18d8c79e9770fdb4f7",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "137-sprite-align",
+      "stateId": "missing",
+      "image": "previews/states/137-sprite-align--missing.png",
+      "sha256": "5e8e78c2656fa4c622cda7c0ec3c00f62f4f33a0d94d48e3ae55b1d89716c24c",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "138-performance-monitor",
+      "stateId": "paused",
+      "image": "previews/states/138-performance-monitor--paused.png",
+      "sha256": "90b70b7ccee03dfaba4bc46277d1a8de467700c4e6db69a31aa9dd8cfa32a25e",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "140-generic-error",
+      "stateId": "warning",
+      "image": "previews/states/140-generic-error--warning.png",
+      "sha256": "982c4086ecb5ea48e7e7e6a321cfc810becaacecedb65f837eb4265dd0de51ba",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "140-generic-error",
+      "stateId": "fatal",
+      "image": "previews/states/140-generic-error--fatal.png",
+      "sha256": "83a75756760f120129765083e9729273ec93c9a5a853b28a9438520a976af333",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "142-input-query",
+      "stateId": "invalid",
+      "image": "previews/states/142-input-query--invalid.png",
+      "sha256": "8b60bae87ece23157af138fffcc3226f16a4379f9089fa9033883e1c00fd7a50",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "142-input-query",
+      "stateId": "too-long",
+      "image": "previews/states/142-input-query--too-long.png",
+      "sha256": "653d7cf60b06d67c0dc1c14ebd26efb258e84bda109c646fa66083893631b974",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "143-confirm",
+      "stateId": "success",
+      "image": "previews/states/143-confirm--success.png",
+      "sha256": "4b32f2aaf7f19bbbc3c5232e3994b052f743e28df2fd821d35fe5867960d3670",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "143-confirm",
+      "stateId": "cancel",
+      "image": "previews/states/143-confirm--cancel.png",
+      "sha256": "2cc06271a61073ae678adfa3365eb0a6d4207d67c21134762891723c0e5aad45",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "144-on-screen-keyboard",
+      "stateId": "invalid",
+      "image": "previews/states/144-on-screen-keyboard--invalid.png",
+      "sha256": "7b8ab7bebe4a26d760c14d8067d574574219a656b44fe279fc14637d6cb412a2",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "145-profit-graph",
+      "stateId": "no-history",
+      "image": "previews/states/145-profit-graph--no-history.png",
+      "sha256": "cf69a741b7ff3c12f23f0f3c3a73fa11c3cddad75558592b3cf3122657e1f3e6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "146-cargo-graph",
+      "stateId": "no-history",
+      "image": "previews/states/146-cargo-graph--no-history.png",
+      "sha256": "28d89710ad42be4abd2c093cc95086da9bdb6d9262f96c7f0742fc5e22e63ee6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "147-performance-graph",
+      "stateId": "no-history",
+      "image": "previews/states/147-performance-graph--no-history.png",
+      "sha256": "0a772341f70674e310bdeeb51a8c4b98a1e6bb7fdd0578bfdb20cae3555faeb6",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "148-value-graph",
+      "stateId": "no-history",
+      "image": "previews/states/148-value-graph--no-history.png",
+      "sha256": "81a19d069fa80c911f65248773dc4b247637d6b75f2e66be4ce29117925b9eb4",
+      "freshRendererMatchesExistingRGBA": true
+    },
+    {
+      "screenId": "149-script-league",
+      "stateId": "no-script-table",
+      "image": "previews/states/149-script-league--no-script-table.png",
+      "sha256": "39406ef9d3824fea30e17026b7b7abe4b4fa2acffca0db203fc01dd740bcfbd4",
+      "freshRendererMatchesExistingRGBA": true
+    }
+  ],
+  "designMismatches": [],
+  "stateMismatches": []
+}

@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-27T02:32:59.779Z",
+  "time": "2026-10-29T06:07:09.799Z",
   "scope": "offline art inspection gallery only; no Unity or traffic runtime",
   "checks": [
     {
@@ -41,5 +41,42 @@
   ],
   "pageErrors": [],
   "failedRequests": [],
-  "passed": true
+  "passed": true,
+  "sourceHTML": "previews/world/airports/index.html",
+  "htmlSha256": "51ce864f396659783010b92b8573771613fb7e24e4dd1c7500a3f94b2fb1bb7f",
+  "inputSnapshots": [
+    {
+      "file": "previews/world/airports/index.html",
+      "sha256": "51ce864f396659783010b92b8573771613fb7e24e4dd1c7500a3f94b2fb1bb7f"
+    },
+    {
+      "file": "assets/world/infrastructure/airports/manifest.json",
+      "sha256": "2a1655cf8d2a2187a2084798a3561fd67c375f888b90c3cf214c359f8cc89da8"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-symbol-64.png",
+      "sha256": "0f4387af450e61dca97c3c07b9c1f3d87f2b6e8c2839b2779671a46843853dd1"
+    }
+  ],
+  "localVisualPassed": true,
+  "screenshotVisualReview": {
+    "reviewedAt": "2026-10-29T06:08:27.618891+00:00",
+    "scope": "Actual current screenshots opened with view_image;browser gallery layout and images only,not world/vehicle/airport artwork acceptance or Unity.",
+    "items": [
+      {
+        "file": "records/world-production/airport-gallery-desktop.png",
+        "sha256": "e6157b47d744632198ed91c4957b28a139aded00092b9e90110a851ae527cae5",
+        "sourceHTML": "previews/world/airports/index.html",
+        "sourceHTMLSha256": "51ce864f396659783010b92b8573771613fb7e24e4dd1c7500a3f94b2fb1bb7f",
+        "status": "passed-local"
+      },
+      {
+        "file": "records/world-production/airport-gallery-mobile.png",
+        "sha256": "6cca49fc38a38b74372d6395683c28417da1cc3079b740ec92af066775e996f1",
+        "sourceHTML": "previews/world/airports/index.html",
+        "sourceHTMLSha256": "51ce864f396659783010b92b8573771613fb7e24e4dd1c7500a3f94b2fb1bb7f",
+        "status": "passed-local"
+      }
+    ]
+  }
 }

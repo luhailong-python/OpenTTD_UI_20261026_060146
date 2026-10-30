@@ -1,8 +1,8 @@
 {
   "schema": "manager-customization-production-QA.v1",
-  "createdAt": "2026-10-28T10:14:01.963204+00:00",
+  "createdAt": "2026-10-29T07:01:55.159627+00:00",
   "manifest": "assets/portraits/customization/manifest.json",
-  "manifestSHA256": "27b025e7de0e9bae17e71e120202cefffc6128bce88a62f2852adf38731cb3b1",
+  "manifestSHA256": "e25f2c93f1a2ed58073c2187f34987b9c929f9d0734e710f3d2aa314de1121a6",
   "registeredAssets": 316,
   "sourceBindings": 235,
   "compositionSamples": 228,
@@ -14025,8 +14025,16 @@
     }
   ],
   "mechanicalPassed": true,
-  "actualVisualReview": "Pending actual current-hash source/part/combination/UI page inspection; this script cannot declare visual acceptance",
-  "complete": false,
+  "actualVisualReview": "Passed actual current-hash10branded-state inspection plus unchanged8source/23contact-page evidence; records/manager-customization-visual-review.json",
+  "complete": true,
   "unityValidated": false,
-  "userAccepted": false
+  "userAccepted": false,
+  "visualReviewRecord": "records/manager-customization-visual-review.json",
+  "visualReviewedAt": "2026-10-29T07:35:25.901179+00:00",
+  "visualReviewManifestSHA256": "e25f2c93f1a2ed58073c2187f34987b9c929f9d0734e710f3d2aa314de1121a6",
+  "browserValidation": {
+    "file": "records/manager-gallery-browser-validation.json",
+    "sha256": "1ea5e27c702b447b9b8f86544a478cb71d283f8762aad7cf3f57e8eacffe3d2f"
+  },
+  "completionScope": "Local art contract, current mechanical checks, retained unchanged native/part/combination visual evidence, actual new-state visual review and current browser checks. User and Unity acceptance remain separate."
 }

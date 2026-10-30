@@ -1,5 +1,5 @@
 {
-  "project": "云途万里（暂名）",
+  "project": "云途万里",
   "date": "2026-10-26",
   "timeZone": "America/New_York",
   "productionRoot": "E:\\work\\image\\OpenTTD_UI_20261026_060146",
@@ -10,18 +10,18 @@
     "purpose": "功能/玩法/流程研究；不作为成果远端"
   },
   "artReference": "F:\\work\\image",
-  "deliveryGithub": null,
+  "deliveryGithub": "https://github.com/luhailong-python/OpenTTD_UI_20261026_060146",
   "status": "local-art-checks-passed; user-art-review-pending",
   "counts": {
     "features": 132,
     "screens": 149,
     "states": 227,
-    "formalPNG": 12204,
+    "formalPNG": 12212,
     "fonts": 2,
-    "uiFormalPNG": 649,
+    "uiFormalPNG": 657,
     "worldFormalPNG": 11555,
     "uiBuiltinGenerations": 7,
-    "retainedBuiltinMasters": 88,
+    "retainedBuiltinMasters": 90,
     "worldSourceRequirements": 550
   },
   "entry": "index.html",
@@ -34,7 +34,9 @@
     "worldCoverage": "docs/WORLD_DELIVERY_COVERAGE.json",
     "vehicles": "docs/VEHICLE_RUNTIME_MANIFEST.json",
     "effects": "docs/EFFECT_RUNTIME_MANIFEST.json",
-    "disasters": "docs/DISASTER_RUNTIME_MANIFEST.json"
+    "disasters": "docs/DISASTER_RUNTIME_MANIFEST.json",
+    "branding": "docs/asset-branding-manifest.json",
+    "completeImportIndex": "docs/ART_RESOURCE_INDEX.json"
   },
   "docs": {
     "acceptance": "docs/ACCEPTANCE.md",
@@ -44,7 +46,9 @@
     "style": "docs/STYLE_AND_LAYOUT.md",
     "fullDelivery": "docs/FULL_GAME_ART_DELIVERY.md",
     "fullAcceptance": "docs/FULL_GAME_ACCEPTANCE_STATUS.json",
-    "authoritativeAssociations": "docs/image-reference-associations.md"
+    "authoritativeAssociations": "docs/image-reference-associations.md",
+    "brandIntegration": "docs/BRAND_INTEGRATION_DELIVERY.md",
+    "gitDelivery": "docs/GIT_DELIVERY.md"
   },
   "sourceModelDisclosure": {
     "configuredTarget": "gpt-image-2.5-sunburst",
@@ -71,10 +75,14 @@
     "shore": "previews/world/shore-geometry/index.html",
     "rocks": "previews/world/rocks-overlay/index.html",
     "pbs": "previews/rail-reservation/index.html",
-    "fences": "previews/fence-adapter/index.html"
+    "fences": "previews/fence-adapter/index.html",
+    "branding": "previews/branding/index.html"
   },
-  "auditSnapshotAt": "2026-10-28T12:12:41.249048+00:00",
+  "auditSnapshotAt": "2026-10-29T08:11:44.830893+00:00",
   "artReferenceWritePolicy": "read-only; project links recorded locally",
   "previewURLNote": "Open the local HTML entries. A previous development-server address is not a persistent delivery URL.",
-  "continuationRepairGuide": "docs/CONTINUATION_ART_REPAIRS.md"
+  "continuationRepairGuide": "docs/CONTINUATION_ART_REPAIRS.md",
+  "updatedAt": "2026-10-29T06:03:50.829045+00:00",
+  "deliveryBranch": "main",
+  "gitStatusAsOfArtAudit": "2026-10-29T08:11:44.830893+00:00"
 }

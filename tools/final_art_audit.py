@@ -15,6 +15,10 @@ import json
 import re
 from PIL import Image, ImageChops, ImageOps
 from audit_manager_faces import audit as audit_manager_faces
+from audit_brand_integration import (BRAND_FOLDER, collect as collect_brand,
+                                    normalize_refs as normalize_brand_refs,
+                                    normalize_row as normalize_brand_row,
+                                    resolve_path as resolve_evidence_path)
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -52,6 +56,7 @@ class Audit:
         self.master_records = []
         self.coverage = {}
         self.animation_specs = []
+        self.brand_checks = []
 
     def rel(self, path):
         try:
@@ -77,6 +82,13 @@ class Audit:
 
     def check(self, condition, code, file=None, detail=None, level="FAIL"):
         self.counts["passed" if condition else level] += 1
+        if code.startswith("brand."):
+            item = {"code":code,"passed":bool(condition)}
+            if file is not None:
+                item["file"] = self.rel(file)
+            if detail is not None:
+                item["detail"] = detail
+            self.brand_checks.append(item)
         if not condition:
             row = {"level": level, "code": code}
             if file is not None:
@@ -104,6 +116,9 @@ class Audit:
             return
         q = {**(inherited or {}), **row}
         name = q.get("image", q.get("file"))
+        if isinstance(name, str) and name.replace("\\", "/").startswith(BRAND_FOLDER + "/"):
+            q = normalize_brand_row(self.root, q)
+            name = q.get("image", q.get("file"))
         if isinstance(name, str) and name.lower().endswith(".png"):
             self.assets[self.rel(self.file(name))].append((q, origin))
 
@@ -151,17 +166,24 @@ class Audit:
                 for state in sprite.get("states", []):
                     self.register(state, origin, common)
         self.pack_paths = packs
+        # Branding is a formal package in the complete asset registry. Keep its
+        # canonical location; no duplicate copy under assets/ is manufactured.
+        collect_brand(self)
         self.ui_resource_count = sum(not name.startswith("assets/world/") for name in self.assets)
         self.fonts = ui.get("fonts", [])
 
     def master_audit(self):
         paths = list((self.root / "source-art").rglob("*.generation.json"))
         paths += list((self.root / "assets").rglob("*.generation.json"))
+        paths += list((self.root / BRAND_FOLDER).rglob("*.generation.json"))
         for path in sorted(paths):
             q = self.read(path)
             if q.get("tool") not in ("image_gen.imagegen", "image_gen"):
                 continue
-            image_path = self.file(q.get("file", "__missing__"))
+            brand = path.is_relative_to(self.root / BRAND_FOLDER)
+            def record_file(value):
+                return resolve_evidence_path(self.root, value, path.parent) if brand else self.file(value)
+            image_path = record_file(q.get("file", "__missing__"))
             retired = q.get("taskLocalImageRetained") is False
             if not retired:
                 self.check(image_path.is_file(), "master.png.exists", path, q.get("file"))
@@ -175,20 +197,30 @@ class Audit:
             prompt = submitted.get("prompt")
             literal = isinstance(prompt, str) and len(prompt) > 80 and not re.fullmatch(r"[^\n]*\.txt", prompt.strip())
             self.check(literal, "master.literal-submitted-prompt", path)
-            self.check(str(prompt).strip() == str(q.get("prompt")).strip(), "master.prompt-copies-match", path)
+            # Brand records preserve the exact submittedParameters and call
+            # evidence rather than inventing a second top-level prompt copy.
+            if not brand or "prompt" in q:
+                self.check(str(prompt).strip() == str(q.get("prompt")).strip(), "master.prompt-copies-match", path)
             prompt_file = q.get("promptFile")
             self.check(bool(prompt_file), "master.prompt-file-recorded", path)
             if prompt_file:
-                p = self.file(prompt_file)
+                p = record_file(prompt_file)
                 self.check(p.is_file(), "master.prompt-file-exists", path, prompt_file)
                 if p.is_file():
+                    self.sha(p)
                     self.check(p.read_text(encoding="utf-8-sig").strip() == str(prompt).replace("\r\n", "\n").strip(), "master.prompt-file-matches", path)
             self.check("actualModel" in q and q["actualModel"] is None, "master.actual-model-undisclosed", path)
             self.check("actualQuality" in q and q["actualQuality"] is None, "master.actual-quality-undisclosed", path)
             self.check(submitted.get("model") is None and submitted.get("quality") is None, "master.selector-not-invented", path)
             self.check(bool(q.get("unverifiedReason")), "master.undisclosed-reason", path)
             self.check(bool(q.get("configSnapshot", {}).get("model")) and bool(q.get("configSnapshot", {}).get("quality")), "master.config-goal", path)
-            self.check(bool(q.get("generatedAt")) and bool(q.get("generatedAtEvidence")), "master.time-and-evidence", path)
+            call_name = q.get("evidence", {}).get("callRecord")
+            call_path = record_file(call_name) if call_name else None
+            time_evidence = q.get("generatedAtEvidence")
+            if brand and call_path and call_path.is_file():
+                call = self.read(call_path)
+                time_evidence = bool(call.get("startedAt")) and call.get("finishedAt") == q.get("generatedAt")
+            self.check(bool(q.get("generatedAt")) and bool(time_evidence), "master.time-and-evidence", path)
             self.check(bool(q.get("evidence", {}).get("returnedFields")), "master.returned-evidence", path)
             refs = q.get("references", [])
             submitted_refs = submitted.get("referenced_image_paths", [])
@@ -196,11 +228,20 @@ class Audit:
             for suffix in ("designs/mail-ui-v1/01-mail-event.png", "designs/team-ui-v2/team-ui-v2.png"):
                 self.check(any(n.endswith(suffix) for n in ref_names) and any(str(n).replace("\\", "/").endswith(suffix) for n in submitted_refs), "master.actual-style-reference", path, suffix)
             for reference in refs:
-                p = self.file(reference.get("path", "__missing__"))
+                p = record_file(reference.get("path", "__missing__"))
                 self.check(p.is_file(), "master.reference-exists", path, str(p))
                 if p.is_file():
                     self.check(self.sha(p) == reference.get("sha256"), "master.reference-hash", path, str(p))
-            self.master_records.append({"record": self.rel(path), "file": q.get("file"), "sha256": q.get("sha256"), "nativeSize": [q.get("width"), q.get("height")], "actualModel": q.get("actualModel"), "actualQuality": q.get("actualQuality"), "promptFile": prompt_file, "retained": not retired, "retirementReason": q.get("acceptance") if retired else None})
+            self.master_records.append({"record": self.rel(path), "recordSHA256": self.sha(path),
+                "file": self.rel(image_path), "sha256": q.get("sha256"), "nativeSize": [q.get("width"), q.get("height")],
+                "actualModel": q.get("actualModel"), "actualQuality": q.get("actualQuality"),
+                "promptFile": self.rel(record_file(prompt_file)) if prompt_file else None,
+                "promptFileSHA256": self.sha(record_file(prompt_file)) if prompt_file and record_file(prompt_file).is_file() else None,
+                "submittedParameters": submitted, "references": refs, "generatedAt": q.get("generatedAt"),
+                "evidence": q.get("evidence", {}), "callRecord": self.rel(call_path) if call_path else None,
+                "callRecordSHA256": self.sha(call_path) if call_path and call_path.is_file() else None,
+                "configurationGoal": q.get("configSnapshot"), "unverifiedReason": q.get("unverifiedReason"),
+                "retained": not retired, "retirementReason": q.get("acceptance") if retired else None})
 
     def source_refs(self, value):
         if isinstance(value, dict):
@@ -256,7 +297,8 @@ class Audit:
                         sizes.append([q["width"], q["height"]])
                     for key in ("derivedFrom", "sources"):
                         if q.get(key):
-                            provenance.append(q[key])
+                            value = normalize_brand_refs(self.root, q[key], path.parent) if name.startswith(BRAND_FOLDER + "/") else q[key]
+                            provenance.append(value)
                     if q.get("tool") == "image_gen.imagegen":
                         provenance.append({"nativeGenerationRecord": self.rel(sidecar)})
             self.check(bool(sizes), "formal.declared-size", path)
@@ -308,7 +350,12 @@ class Audit:
                     self.check(self.info(p)["size"] == [960, 600], "ui.state-size", p)
                     self.ui_image_record(p)
         legacy = self.read(self.root / "records/final-validation.json")
-        self.check(legacy.get("checkCount") == 4279 and legacy.get("passed") is True and legacy.get("failures") == [], "ui.existing-4279-checks")
+        self.check(legacy.get("checkCount",0) >= 4279 and legacy.get("checkCount") == len(legacy.get("checks",[])) and legacy.get("passed") is True and legacy.get("failures") == [] and legacy.get("screenCount") == self.screen_count and legacy.get("stateCount") == self.state_count, "ui.current-static-checks-including-branding")
+        required_ui_inputs={"docs/UI_MASTER_MANIFEST.json","docs/ASSET_MASTER_MANIFEST.json","docs/asset-branding-manifest.json","records/layout-validation.json","records/browser-validation.json"}
+        self.check(required_ui_inputs.issubset({r.get("file") for r in legacy.get("inputSnapshots",[])}),"ui.current-static-checks-explicit-inputs")
+        for row in legacy.get("inputSnapshots",[]):
+            p=self.file(row["file"])
+            self.check(p.is_file() and self.sha(p)==row.get("sha256"),"ui.current-static-checks-input-sha256",p)
 
     def ui_image_record(self, path):
         record = Path(str(path) + ".generation.json")
@@ -323,7 +370,7 @@ class Audit:
                     self.check(self.sha(p) == source["sha256"], "ui.composite-source-hash", path, source["file"])
 
     def navigation_audit(self):
-        for name in ("index.html", "previews/world/index.html", "previews/vehicles/index.html", "previews/world/industry-assembly/index.html", "previews/pointers/index.html", "previews/manager-customization/index.html", "previews/micro-ui/index.html", "previews/road-oneway/index.html", "previews/airport-ui/index.html", "previews/roadside/index.html", "previews/rail-reservation/index.html", "previews/fence-adapter/index.html", "previews/world/field-stages/index.html", "previews/world/bridge-railtypes/index.html", "previews/world/shore-geometry/index.html", "previews/world/rocks-overlay/index.html"):
+        for name in ("index.html", "previews/branding/index.html", "previews/world/index.html", "previews/vehicles/index.html", "previews/world/industry-assembly/index.html", "previews/pointers/index.html", "previews/manager-customization/index.html", "previews/micro-ui/index.html", "previews/road-oneway/index.html", "previews/airport-ui/index.html", "previews/roadside/index.html", "previews/rail-reservation/index.html", "previews/fence-adapter/index.html", "previews/world/field-stages/index.html", "previews/world/bridge-railtypes/index.html", "previews/world/shore-geometry/index.html", "previews/world/rocks-overlay/index.html"):
             path = self.file(name)
             if not self.check(path.is_file(), "preview.entry-exists", path):
                 continue
@@ -665,6 +712,14 @@ class Audit:
         self.master_audit()
         self.formal_audit()
         self.ui_audit()
+        from audit_brand_integration import audit as audit_brand_integration
+        self.brand_integration = audit_brand_integration(self)
+        brand_report = self.root / "records/brand-integration-validation.json"
+        # Publish the actual result (including complete:false on a failed
+        # gate) before navigation checks README/delivery links to this output.
+        # No pre-existing or fabricated passed placeholder is required.
+        write(brand_report, self.brand_integration)
+        self.read(brand_report)
         self.navigation_audit()
         self.special_audit()
         self.assembly_audit()
@@ -679,7 +734,7 @@ class Audit:
         # is insufficient evidence that this snapshot stayed unchanged.
         changed = [self.rel(p) for p, digest in self.hashes.items() if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest() != digest]
         self.check(not changed, "audit.inputs-stable-during-read", detail=changed, level="WARN")
-        local_ready = not self.counts["FAIL"] and not self.counts["WARN"] and not changed and not self.coverage["aggregateStale"] and not self.coverage["missingOrUnmappedRows"] and not self.coverage["rowsWithoutFinalLocalAcceptance"] and not self.visual_review["openFindings"] and self.browser_current and self.manager_customization["complete"] and self.supplemental_art["allCurrentLocalChecksPassed"]
+        local_ready = not self.counts["FAIL"] and not self.counts["WARN"] and not changed and not self.coverage["aggregateStale"] and not self.coverage["missingOrUnmappedRows"] and not self.coverage["rowsWithoutFinalLocalAcceptance"] and not self.visual_review["openFindings"] and self.browser_current and self.manager_customization["complete"] and self.supplemental_art["allCurrentLocalChecksPassed"] and self.brand_integration["complete"]
         categories = Counter()
         for name in self.assets:
             parts = Path(name).parts
@@ -689,6 +744,14 @@ class Audit:
         write(self.root / "records/full-game-art-audit.json", report)
         status = {"schema": "cloud-route.full-game-acceptance.v1", "checkedAt": report["finishedAt"], "status": "production-or-final-review-pending", "mechanicalSnapshotPassed": self.counts["FAIL"] == 0, "fullGameLocalArtAccepted": False, "userArtAccepted": False, "unityValidated": False, "gitSubmitted": False, "counts": report["summary"], "worldCoverage": self.coverage, "audit": "records/full-game-art-audit.json", "remaining": [{"level": x["level"], "code": x["code"], "file": x.get("file"), "detail": x.get("detail")} for x in self.issues], "acceptanceRule": "No whole-game acceptance claim while an upstream requirement, required state, stale aggregate, failed check or local visual review remains unresolved. User art approval and Unity runtime approval are separate."}
         report["independentVisualReview"] = self.visual_review
+        report["brandIntegration"] = self.brand_integration
+        report["summary"]["brandFormalPNGs"] = self.brand_integration.get("formalPNGs", 0)
+        report["summary"]["brandNativePNGs"] = self.brand_integration.get("nativePNGs", 0)
+        all_manifest_paths = self.pack_paths + self.portrait_pack_paths + self.supplemental_pack_paths + self.brand_pack_paths
+        report["sourceManifestSnapshots"] = [{"file":self.rel(p),"sha256":self.read_files[p]}for p in sorted(set(all_manifest_paths))]
+        status["brandIntegration"] = self.brand_integration
+        report["brandIntegrationRecord"] = {"file":self.rel(brand_report),"sha256":self.sha(brand_report)}
+        status["brandIntegrationRecord"] = report["brandIntegrationRecord"]
         report["supplementalArt"] = self.supplemental_art
         status["supplementalArt"] = self.supplemental_art
         report["managerCustomization"] = {k:self.manager_customization[k] for k in ["complete","artManifest","spriteValueSlots","uniqueSourceSpriteIds","requiredBindings","suppliedBindings","existingPresetCount","gaps"]}

@@ -1,13 +1,13 @@
 {
   "file": "designs/149-script-league.png",
-  "sha256": "ef4b726bd57f5b2d8d49815b77339aa99447fa42de6c26131c1e96dde8c1c6f7",
+  "sha256": "2ee36f31191b9218c5b39ff4a7b78651804927756133029ac9687552c7bfa1cc",
   "width": 1920,
   "height": 1080,
   "format": "PNG",
-  "generatedAt": "2026-10-26T10:38:04.032493+00:00",
+  "generatedAt": "2026-10-29T06:59:03.361502+00:00",
   "route": "deterministic-composite",
   "tool": "Pillow",
-  "operation": "手绘位图九宫格组合、原生字体排版、数据图表绘制；1920×1080布局画布，原画1672×941背景经cover适配；不是原生1920模型生成。",
+  "operation": "手绘位图九宫格组合、正式品牌Logo等比合成、原生字体排版、数据图表绘制；1920×1080布局画布，原画1672×941背景经cover适配；不是原生1920模型生成。",
   "nativeModelGeneration": false,
   "derivedFrom": [
     {
@@ -43,6 +43,17 @@
     {
       "file": "docs/asset-fonts-manifest.json",
       "sha256": "44814e4b5304d52411a0aa4a4b75ee6839ff2b47a53bf40cddce268e289b4444",
+      "type": "source manifest and per-image provenance"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-symbol.png",
+      "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+      "record": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "role": "symbol"
+    },
+    {
+      "file": "docs/asset-branding-manifest.json",
+      "sha256": "221d149a8b6fd2c3098700d367bdfa9f2640881e3666178ff553548a07d8bc3d",
       "type": "source manifest and per-image provenance"
     }
   ],

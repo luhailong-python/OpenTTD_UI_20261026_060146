@@ -2,6 +2,8 @@
 
 本文件是下一阶段导入建议，尚未在 Unity 中验证。本阶段没有创建工程、C#、Prefab、场景或运行逻辑。
 
+正式游戏名为《云途万里》，名称与本地 Logo 已获授权纳入美术交付；用户最终审美批准仍待确认。[品牌包](../branding/yuntu-wanli/README.md)提供透明主标和独立图标，8件正式PNG的尺寸、Alpha、Pivot和Border读取[品牌资源参数](asset-branding-manifest.json)，预览见[品牌专页](../previews/branding/index.html)。Logo按等比图像使用，Border为0，不做九宫格拉伸，不替代动态文字层；主菜单、启动和关于页的品牌位置以当前布局合同为准。
+
 ## 画布与资源层级
 
 采用桌面横屏基准 **1920×1080**，uGUI `Canvas Scaler → Scale With Screen Size`，参考分辨率 1920×1080，Match Width Or Height 初始建议 0.5。最终支持窗口尺寸、宽高比、安全区、UI缩放和键鼠焦点，应在接入阶段按目标平台验证。世界视窗可等比裁切；窗口及文字区按锚点和约束排布。不得对包含文字的整屏设计图直接拉伸作为可交互窗口。
@@ -14,6 +16,7 @@
 - `assets/portraits/`：8枚512×512 RGBA经理头像，原生裁切并统一底线；不包含表情或动作动画。见 `asset-portraits-manifest.json`。
 - `source-art/`：当前生产母图及逐图模型证据；UI和图标母图为1254×1254，经理母图为1774×887，两张背景均为1672×941。整屏合成和任何显示适配都属于后处理，不能称为原生1080p／4K生成。
 - `assets/fonts/`：正文 Noto Sans SC 与手写标题 Ma Shan Zheng 原字体及各自 OFL；没有打包微软雅黑或其他 Windows 专有字体。
+- `branding/yuntu-wanli/`：[主 Logo、独立图标及缩小版](../branding/yuntu-wanli/README.md)。按`docs/asset-branding-manifest.json`和最终`ART_RESOURCE_INDEX.json`读取来源、尺寸和正式使用路径，保持真实 Alpha及等比显示；打包登记不表示已在Unity导入，整合范围见[品牌交付说明](BRAND_INTEGRATION_DELIVERY.md)。
 
 ## PNG 导入初值
 
@@ -91,7 +94,7 @@
 
 车辆256个源型号由27个8向绘画家族衍生。实际body/满载状态、共享密闭车身、轨制部件、footprint锚点和比例由型号manifest读取。车身沿路径的平移由后续游戏逻辑完成；静态朝向不伪称整车运动动画。水面、烟雾、机械件、旋翼、船闸和信号等动画按各帧时长和循环定义接入；插值、二维刚体旋转、投影、平移与原生独立绘画关键帧有明确区别，运行计时仍待验证。
 
-产业6机械循环读取`assets/world/industries/manifest.json`的`animations[].binding`：在512×512父坐标中以`attachmentOffsetPx=[0,0]`、scale1叠加cleanBase与当前移动帧，锚点`[256,448]`；替换原静态父图，按`drawParentOriginalSimultaneously=false`避免双轮或双梁。ownershipMask用于追溯被替换的运动区域。`binding.assemblyPreviewFrames/GIF`展示实际装配，正式`frames`是完整父画布内的移动层，不能把它单独当完整厂区或256小部件播放。
+产业8组安装动画（6机械＋2粒子）读取`assets/world/industries/manifest.json`的`animations[].binding`：每组12相位，共96帧；在512×512父坐标中以`attachmentOffsetPx=[0,0]`、scale1叠加cleanBase与当前移动帧，锚点`[256,448]`。替换原静态父图，按`drawParentOriginalSimultaneously=false`避免重复姿态。ownershipMask用于追溯全部改动范围，气泡发生器的removedPoseMask单独移除原有大泡，煤电厂cleanBase保留原父像素。`binding.assemblyPreviewFrames/GIF`展示实际装配，正式`frames`是完整父画布内的移动层，不能把它单独当完整厂区或256小部件播放；工作/停机与源码触发仍需后续业务接入，详见[粒子绑定合同](INDUSTRY_PARTICLE_BINDINGS.md)。
 
-世界清单中仍为在制或待审的条目不自动进入运行验收。下一阶段应把最终549项覆盖表作为接入检查单，核对连接端口、19坡几何、同族画布、Alpha边缘、气候、施工、信号状态、桥头/隧道前后层、机场布局、多格遮挡和动画周期。
+世界清单中仍为在制或待审的条目不自动进入运行验收。下一阶段应把最终550项覆盖表作为接入检查单，核对连接端口、19坡几何、同族画布、Alpha边缘、气候、施工、信号状态、桥头/隧道前后层、机场布局、多格遮挡和动画周期。
 

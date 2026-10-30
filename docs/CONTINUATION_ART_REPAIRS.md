@@ -14,7 +14,7 @@
 | 机场建造选择缺9张明确图示绑定 | 直接复用9张实际机场布局图；Oilrig不是可建机场选择项 | [机场九图](../previews/airport-ui/index.html)、[说明](AIRPORT_UI_PREVIEWS.md) |
 | 路边灯树缺放置及状态合同 | 2灯向/树、普通/透明，源mask位置、低桥净空、远景/施工/不可见抑制分别记录 | [路边装饰](../previews/roadside/index.html)、[说明](ROADSIDE_ART_DELIVERY.md) |
 | 桥梁只有普通轨面 | 13桥×2轴×4轨制×7角色；普通/电气共用原轨面，单轨/磁浮采用各自原生条带 | [桥面制式](../previews/world/bridge-railtypes/index.html)、[说明](BRIDGE_RAILTYPE_DELIVERY.md) |
-| 只有6组产业机械，缺煤电火花/气泡发生器安装 | 保留6机械，另加2粒子父绑定；移除烘焙大泡，完整ownership包含删除范围和所有运动像素 | [整厂动画](../previews/world/industry-assembly/index.html)、[说明](INDUSTRY_PARTICLE_BINDINGS.md) |
+| 原先只有6组产业机械，缺煤电火花/气泡发生器安装 | 当前8组＝6机械＋2粒子父绑定，共96相位；移除烘焙大泡，完整ownership包含删除范围和所有运动像素 | [整厂动画](../previews/world/industry-assembly/index.html)、[说明](INDUSTRY_PARTICLE_BINDINGS.md) |
 | 农田16“随机变体”未表达真实周期 | 有效阶段0–8×19坡；成熟麦丛/收获草捆和幼苗分别制作，植株竖立且根部贴合坡面 | [农田阶段](../previews/world/field-stages/index.html)、[说明](FIELD_STAGES_DELIVERY.md) |
 | 路径预留、农田/铁路围栏的适用状态缺失 | PBS只灰化轨段所有权；农田6有效家族、坡边端点、铁路8角色/16位置/半水角点各有绑定 | [PBS](../previews/rail-reservation/index.html)、[围栏适配](../previews/fence-adapter/index.html) |
 | 旧岸线索引顺排错误且始终平面；岩石用粗砾密度冒充 | 16有效坡×3气候＋6保留不绘制；真实水/陆/岸分层；6岩石环境态、干地双布局、逐石坡面根部及CoastRocks组合 | [坡岸线](../previews/world/shore-geometry/index.html)、[岩石](../previews/world/rocks-overlay/index.html) |
@@ -25,7 +25,7 @@
 
 ## 新原生绘画与派生操作
 
-本次新增母图为 `source-art/world/shore-sand-seamless.png`、`snowgrass-seamless.png`、`shallow-seamless.png`、`rock-overlays-native.png`、`roadside-lamps-native.png`、`field-crop-components-native.png`。每张有独立 `.generation.json`，实际提示词和调用时段保存在 `records/world-production/*-call.json` 与相应 `.prompt.txt`。它们均通过内置 imagegen 生成，实际模型和质量未披露，保持 `null`；配置目标不作为返回证明。
+迁移返修阶段新增的6张母图为 `source-art/world/shore-sand-seamless.png`、`snowgrass-seamless.png`、`shallow-seamless.png`、`rock-overlays-native.png`、`roadside-lamps-native.png`、`field-crop-components-native.png`。每张有独立 `.generation.json`，实际提示词和调用时段保存在 `records/world-production/*-call.json` 与相应 `.prompt.txt`。它们均通过内置 imagegen 生成，实际模型和质量未披露，保持 `null`；配置目标不作为返回证明。之后追加的品牌原生图另按[品牌包](../branding/yuntu-wanli/README.md)及[正式资源清单](asset-branding-manifest.json)记录，不混入本段返修阶段的历史数量。
 
 对应正式资源中的裁片、Alpha所有权提取、等比缩小、周期边缘混合、几何投影、颜色派生、组合和二维运动均有单独操作说明。底图导出尺寸及透明补边不会被记为新的原生高清细节。已确认的既有原画继续沿用。
 
@@ -34,6 +34,6 @@
 - 桥、隧道按清单 `layerOrder` 使用 rear/lane或floor/front；整图与分层是二选一，不同时叠画。Pier和mask不是主体重组层。
 - 产业 `cleanBase+moving` 替代同一原姿态父图，不能在旧烘焙厂区上再叠一次。粒子循环是现有FX原像素的缩小、位移、Alpha及组合，不是新增三维角色动作。
 - 农田 whole 与 soil+plant overlay 二选一。使用坡面锚点和每个根部位置，不能把整片立体作物压成斜平面。
-- 临时游戏名、样例公司/地名、静态经营数值保持为美术样例。下一阶段再建 Unity、Prefab、业务状态、动态文字及运行验证。
+- 正式名称为《云途万里》，名称与本地 Logo 已获授权纳入整款美术交付，见[品牌包](../branding/yuntu-wanli/README.md)。公司/地名与静态经营数值仍为美术样例；最终审美批准待用户确认，Unity、Prefab、业务状态、动态文字及运行验证留待另行确定的接入阶段。
 
 F盘只读；未改共享Git状态，未提交、推送或发布。成果远端、账号与提交要求仍待用户提供。

@@ -1,11 +1,14 @@
 const { chromium }=require('C:/Users/luyua/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const fs=require('fs');const path=require('path');
+const fs=require('fs');const path=require('path');const crypto=require('crypto');
 (async()=>{
  const root=path.resolve(__dirname,'..');const errs=[],failed=[];const checks=[];
  const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',args:['--no-first-run']});
  const page=await browser.newPage({viewport:{width:1920,height:1080}});
  page.on('pageerror',e=>errs.push(e.message));page.on('requestfailed',r=>failed.push(r.url()));
  await page.goto('file:///'+path.join(root,'index.html').replaceAll('\\','/'),{waitUntil:'networkidle'});
+ checks.push({name:'formal title and native logo in gallery header',passed:await page.locator('header h1 img[alt="云途万里"]').evaluate(e=>e.complete&&e.naturalWidth===1860&&e.getAttribute('src')==='branding/yuntu-wanli/logo-main.png')});
+ checks.push({name:'formal branding gallery linked',passed:await page.locator('nav a[href="previews/branding/index.html"]').count()===1});
+ checks.push({name:'no provisional name in visible page',passed:!await page.locator('body').innerText().then(t=>t.includes('暂名')||t.includes('临时游戏名称'))});
  checks.push({name:'149 cards rendered',passed:await page.locator('.card').count()===149});
  await page.locator('#search').fill('机场');
  const n=await page.locator('.card').count();checks.push({name:'search filters airport',passed:n>0&&n<149,count:n});
@@ -36,7 +39,9 @@ const fs=require('fs');const path=require('path');
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(root,'records','gallery-mobile.png'),fullPage:false});
  checks.push({name:'gallery fits 390px',passed:await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)});
  await browser.close();
- const report={checkedAt:new Date().toISOString(),scope:'local static design gallery; not Unity/game runtime',checks,pageErrors:errs,failedRequests:failed,passed:checks.every(x=>x.passed)&&!errs.length&&!failed.length};
+ const inputFiles=['index.html','docs/UI_MASTER_MANIFEST.json','docs/asset-branding-manifest.json','branding/yuntu-wanli/logo-main.png','branding/yuntu-wanli/logo-symbol-64.png'];
+ const inputSnapshots=inputFiles.map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex')}));
+ const report={checkedAt:new Date().toISOString(),scope:'local static design gallery; not Unity/game runtime',checks,inputSnapshots,pageErrors:errs,failedRequests:failed,passed:checks.every(x=>x.passed)&&!errs.length&&!failed.length};
  fs.writeFileSync(path.join(root,'records','browser-validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exit(1)});
 

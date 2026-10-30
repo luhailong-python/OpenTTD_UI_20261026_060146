@@ -1,13 +1,13 @@
 {
   "file": "designs/07-save-game.png",
-  "sha256": "33a612ad4f0616ddb56e00f9f6509ff640852e4f8bc70eece4adb7f074d484b0",
+  "sha256": "67fcf87313b0d6581d6016d7d360b8dff42e6b3f1c214d53c941fc02d56d35a2",
   "width": 1920,
   "height": 1080,
   "format": "PNG",
-  "generatedAt": "2026-10-26T10:46:02.390603+00:00",
+  "generatedAt": "2026-10-29T06:54:46.377844+00:00",
   "route": "deterministic-composite",
   "tool": "Pillow",
-  "operation": "手绘位图九宫格组合、原生字体排版、数据图表绘制；1920×1080布局画布，原画1672×941背景经cover适配；不是原生1920模型生成。",
+  "operation": "手绘位图九宫格组合、正式品牌Logo等比合成、原生字体排版、数据图表绘制；1920×1080布局画布，原画1672×941背景经cover适配；不是原生1920模型生成。",
   "nativeModelGeneration": false,
   "derivedFrom": [
     {
@@ -43,6 +43,17 @@
     {
       "file": "docs/asset-fonts-manifest.json",
       "sha256": "44814e4b5304d52411a0aa4a4b75ee6839ff2b47a53bf40cddce268e289b4444",
+      "type": "source manifest and per-image provenance"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-symbol.png",
+      "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+      "record": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "role": "symbol"
+    },
+    {
+      "file": "docs/asset-branding-manifest.json",
+      "sha256": "221d149a8b6fd2c3098700d367bdfa9f2640881e3666178ff553548a07d8bc3d",
       "type": "source manifest and per-image provenance"
     }
   ],

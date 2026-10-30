@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "project": "云途万里（暂名）",
+  "project": "云途万里",
   "referenceResolution": [
     1920,
     1080
@@ -9,7 +9,7 @@
     {
       "id": "01-main-menu",
       "system": "启动",
-      "title": "云途万里（暂名）",
+      "title": "云途万里",
       "subtitle": "启动 · 云途万里",
       "layout": "menu",
       "icon": "company",
@@ -92,7 +92,7 @@
         "122-help",
         "91-highscores"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -126,6 +126,7 @@
       "upstreamFeatureIds": [
         "intro"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/01-main-menu.png",
       "thumbnailPath": "previews/thumbs/01-main-menu.webp",
       "resourceManifests": [
@@ -133,7 +134,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -141,8 +143,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -181,7 +182,7 @@
         ]
       ],
       "details": [
-        "OpenTTD首次启动资源引导"
+        "云途万里首次启动资源引导"
       ],
       "actions": [
         "下载图像",
@@ -208,7 +209,7 @@
       "flowTo": [
         "01-main-menu"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -237,6 +238,7 @@
       "upstreamFeatureIds": [
         "bootstrap"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/02-bootstrap.png",
       "thumbnailPath": "previews/thumbs/02-bootstrap.webp",
       "resourceManifests": [
@@ -244,7 +246,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -252,8 +255,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -327,7 +329,7 @@
         "118-advanced-options",
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -363,6 +365,7 @@
       "upstreamFeatureIds": [
         "world-generation"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/03-new-world.png",
       "thumbnailPath": "previews/thumbs/03-new-world.webp",
       "resourceManifests": [
@@ -370,7 +373,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -378,8 +382,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -455,7 +458,7 @@
       "flowTo": [
         "08-world-progress"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -483,6 +486,7 @@
       "upstreamFeatureIds": [
         "heightmap"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/04-heightmap.png",
       "thumbnailPath": "previews/thumbs/04-heightmap.webp",
       "resourceManifests": [
@@ -490,7 +494,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -498,8 +503,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -575,7 +579,7 @@
         "08-world-progress",
         "102-online-content"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -605,6 +609,7 @@
       "upstreamFeatureIds": [
         "scenario-load"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/05-scenario-select.png",
       "thumbnailPath": "previews/thumbs/05-scenario-select.webp",
       "resourceManifests": [
@@ -612,7 +617,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -620,8 +626,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -706,7 +711,7 @@
       "flowTo": [
         "08-world-progress"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -735,6 +740,7 @@
       "upstreamFeatureIds": [
         "load"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/06-load-game.png",
       "thumbnailPath": "previews/thumbs/06-load-game.webp",
       "resourceManifests": [
@@ -742,7 +748,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -750,8 +757,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -808,8 +814,8 @@
           "message": "已存在同名存档，是否覆盖？",
           "action": "确认覆盖",
           "previewOnly": true,
-          "previewPath": "previews/states/07-save-game--overwrite.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/07-save-game--overwrite.png"
         },
         {
           "id": "saved",
@@ -831,7 +837,7 @@
       "flowTo": [
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -860,6 +866,7 @@
       "upstreamFeatureIds": [
         "save"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/07-save-game.png",
       "thumbnailPath": "previews/thumbs/07-save-game.webp",
       "resourceManifests": [
@@ -867,7 +874,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -875,8 +883,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -939,15 +946,15 @@
           "message": "确定终止当前生成？",
           "action": "确认取消",
           "previewOnly": true,
-          "previewPath": "previews/states/08-world-progress--abort.png",
-          "secondaryAction": "继续生成"
+          "secondaryAction": "继续生成",
+          "previewPath": "previews/states/08-world-progress--abort.png"
         }
       ],
       "flowTo": [
         "09-main-hud",
         "03-new-world"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -971,6 +978,7 @@
       "upstreamFeatureIds": [
         "world-progress"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/08-world-progress.png",
       "thumbnailPath": "previews/thumbs/08-world-progress.webp",
       "resourceManifests": [
@@ -978,7 +986,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -986,8 +995,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1071,7 +1079,7 @@
         "57-company-overview",
         "69-small-map"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1113,6 +1121,7 @@
         "hud",
         "statusbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/09-main-hud.png",
       "thumbnailPath": "previews/thumbs/09-main-hud.webp",
       "resourceManifests": [
@@ -1120,7 +1129,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1128,8 +1138,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1186,8 +1195,8 @@
           "message": "未保存的进度可能丢失",
           "action": "保存并返回",
           "previewOnly": true,
-          "previewPath": "previews/states/10-game-menu--quit-confirm.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/10-game-menu--quit-confirm.png"
         }
       ],
       "flowTo": [
@@ -1196,7 +1205,7 @@
         "01-main-menu",
         "114-options"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1225,6 +1234,7 @@
       "upstreamFeatureIds": [
         "hud"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/10-game-menu.png",
       "thumbnailPath": "previews/thumbs/10-game-menu.webp",
       "resourceManifests": [
@@ -1232,7 +1242,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1240,8 +1251,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1330,7 +1340,7 @@
         "14-rail-depot",
         "17-bridge"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1371,6 +1381,7 @@
       "upstreamFeatureIds": [
         "rail-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/11-rail-build.png",
       "thumbnailPath": "previews/thumbs/11-rail-build.webp",
       "resourceManifests": [
@@ -1378,7 +1389,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1386,8 +1398,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1462,7 +1473,7 @@
         "30-station-join",
         "32-station-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1496,6 +1507,7 @@
       "upstreamFeatureIds": [
         "rail-station"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/12-rail-station.png",
       "thumbnailPath": "previews/thumbs/12-rail-station.webp",
       "resourceManifests": [
@@ -1503,7 +1515,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1511,8 +1524,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1576,7 +1588,7 @@
       "flowTo": [
         "11-rail-build"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1609,6 +1621,7 @@
       "upstreamFeatureIds": [
         "signal"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/13-rail-signals.png",
       "thumbnailPath": "previews/thumbs/13-rail-signals.webp",
       "resourceManifests": [
@@ -1616,7 +1629,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1624,8 +1638,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1685,7 +1698,7 @@
       "flowTo": [
         "39-depot-train"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1714,6 +1727,7 @@
       "upstreamFeatureIds": [
         "rail-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/14-rail-depot.png",
       "thumbnailPath": "previews/thumbs/14-rail-depot.webp",
       "resourceManifests": [
@@ -1721,7 +1735,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1729,8 +1744,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1791,7 +1805,7 @@
       "flowTo": [
         "34-waypoint-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1820,6 +1834,7 @@
       "upstreamFeatureIds": [
         "rail-waypoint"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/15-rail-waypoint.png",
       "thumbnailPath": "previews/thumbs/15-rail-waypoint.webp",
       "resourceManifests": [
@@ -1827,7 +1842,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1835,8 +1851,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -1911,7 +1926,7 @@
       "flowTo": [
         "11-rail-build"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -1948,6 +1963,7 @@
       "upstreamFeatureIds": [
         "rail-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/16-rail-convert.png",
       "thumbnailPath": "previews/thumbs/16-rail-convert.webp",
       "resourceManifests": [
@@ -1955,7 +1971,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -1963,8 +1980,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2038,7 +2054,7 @@
         "19-road-build",
         "24-water-build"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2072,6 +2088,7 @@
       "upstreamFeatureIds": [
         "bridge"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/17-bridge.png",
       "thumbnailPath": "previews/thumbs/17-bridge.webp",
       "resourceManifests": [
@@ -2079,7 +2096,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2087,8 +2105,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2160,7 +2177,7 @@
         "11-rail-build",
         "19-road-build"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2190,6 +2207,7 @@
       "upstreamFeatureIds": [
         "rail-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/18-tunnel.png",
       "thumbnailPath": "previews/thumbs/18-tunnel.webp",
       "resourceManifests": [
@@ -2197,7 +2215,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2205,8 +2224,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2278,7 +2296,7 @@
         "23-road-waypoint",
         "17-bridge"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2319,6 +2337,7 @@
       "upstreamFeatureIds": [
         "road-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/19-road-build.png",
       "thumbnailPath": "previews/thumbs/19-road-build.webp",
       "resourceManifests": [
@@ -2326,7 +2345,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2334,8 +2354,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2404,7 +2423,7 @@
         "21-road-station",
         "22-road-depot"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2441,6 +2460,7 @@
       "upstreamFeatureIds": [
         "tram-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/20-tram-build.png",
       "thumbnailPath": "previews/thumbs/20-tram-build.webp",
       "resourceManifests": [
@@ -2448,7 +2468,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2456,8 +2477,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2524,7 +2544,7 @@
         "30-station-join",
         "32-station-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2558,6 +2578,7 @@
         "bus-stop",
         "truck-stop"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/21-road-station.png",
       "thumbnailPath": "previews/thumbs/21-road-station.webp",
       "resourceManifests": [
@@ -2565,7 +2586,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2573,8 +2595,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2634,7 +2655,7 @@
       "flowTo": [
         "40-depot-road"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2663,6 +2684,7 @@
       "upstreamFeatureIds": [
         "road-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/22-road-depot.png",
       "thumbnailPath": "previews/thumbs/22-road-depot.webp",
       "resourceManifests": [
@@ -2670,7 +2692,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2678,8 +2701,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2739,7 +2761,7 @@
       "flowTo": [
         "34-waypoint-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2768,6 +2790,7 @@
       "upstreamFeatureIds": [
         "road-waypoint"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/23-road-waypoint.png",
       "thumbnailPath": "previews/thumbs/23-road-waypoint.webp",
       "resourceManifests": [
@@ -2775,7 +2798,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2783,8 +2807,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2856,7 +2879,7 @@
         "27-canal-lock",
         "17-bridge"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -2897,6 +2920,7 @@
       "upstreamFeatureIds": [
         "water-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/24-water-build.png",
       "thumbnailPath": "previews/thumbs/24-water-build.webp",
       "resourceManifests": [
@@ -2904,7 +2928,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -2912,8 +2937,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -2974,7 +2998,7 @@
         "30-station-join",
         "32-station-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3003,6 +3027,7 @@
       "upstreamFeatureIds": [
         "water-station"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/25-dock.png",
       "thumbnailPath": "previews/thumbs/25-dock.webp",
       "resourceManifests": [
@@ -3010,7 +3035,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3018,8 +3044,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3079,7 +3104,7 @@
       "flowTo": [
         "41-depot-ship"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3108,6 +3133,7 @@
       "upstreamFeatureIds": [
         "water-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/26-shipyard.png",
       "thumbnailPath": "previews/thumbs/26-shipyard.webp",
       "resourceManifests": [
@@ -3115,7 +3141,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3123,8 +3150,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3187,7 +3213,7 @@
       "flowTo": [
         "24-water-build"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3220,6 +3246,7 @@
       "upstreamFeatureIds": [
         "water-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/27-canal-lock.png",
       "thumbnailPath": "previews/thumbs/27-canal-lock.webp",
       "resourceManifests": [
@@ -3227,7 +3254,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3235,8 +3263,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3297,7 +3324,7 @@
       "flowTo": [
         "29-airport-picker"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3326,6 +3353,7 @@
       "upstreamFeatureIds": [
         "airport-toolbar"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/28-airport-build.png",
       "thumbnailPath": "previews/thumbs/28-airport-build.webp",
       "resourceManifests": [
@@ -3333,7 +3361,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3341,8 +3370,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3409,7 +3437,7 @@
         "30-station-join",
         "32-station-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3447,6 +3475,7 @@
       "upstreamFeatureIds": [
         "airport-picker"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/29-airport-picker.png",
       "thumbnailPath": "previews/thumbs/29-airport-picker.webp",
       "resourceManifests": [
@@ -3454,7 +3483,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3462,8 +3492,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3527,7 +3556,7 @@
       "flowTo": [
         "32-station-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3550,6 +3579,7 @@
       "upstreamFeatureIds": [
         "station-join"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/30-station-join.png",
       "thumbnailPath": "previews/thumbs/30-station-join.webp",
       "resourceManifests": [
@@ -3557,7 +3587,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3565,8 +3596,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3635,7 +3665,7 @@
       "flowTo": [
         "32-station-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3675,6 +3705,7 @@
       "upstreamFeatureIds": [
         "station-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/31-stations-list.png",
       "thumbnailPath": "previews/thumbs/31-stations-list.webp",
       "resourceManifests": [
@@ -3682,7 +3713,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3690,8 +3722,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3774,7 +3805,7 @@
         "35-vehicles-train",
         "30-station-join"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3811,6 +3842,7 @@
         "station-view",
         "airport-close"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/32-station-detail.png",
       "thumbnailPath": "previews/thumbs/32-station-detail.webp",
       "resourceManifests": [
@@ -3818,7 +3850,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3826,8 +3859,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -3895,7 +3927,7 @@
         "32-station-detail",
         "70-linkgraph"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -3931,6 +3963,7 @@
       "upstreamFeatureIds": [
         "station-view"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/33-station-ratings.png",
       "thumbnailPath": "previews/thumbs/33-station-ratings.webp",
       "resourceManifests": [
@@ -3938,7 +3971,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -3946,8 +3980,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4008,7 +4041,7 @@
       "flowTo": [
         "50-orders"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4036,6 +4069,7 @@
       "upstreamFeatureIds": [
         "waypoint-view"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/34-waypoint-detail.png",
       "thumbnailPath": "previews/thumbs/34-waypoint-detail.webp",
       "resourceManifests": [
@@ -4043,7 +4077,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4051,8 +4086,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4132,7 +4166,7 @@
         "47-vehicle-view",
         "54-vehicle-groups"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4169,6 +4203,7 @@
       "upstreamFeatureIds": [
         "vehicle-list-train"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/35-vehicles-train.png",
       "thumbnailPath": "previews/thumbs/35-vehicles-train.webp",
       "resourceManifests": [
@@ -4176,7 +4211,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4184,8 +4220,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4265,7 +4300,7 @@
         "47-vehicle-view",
         "54-vehicle-groups"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4302,6 +4337,7 @@
       "upstreamFeatureIds": [
         "vehicle-list-road"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/36-vehicles-road.png",
       "thumbnailPath": "previews/thumbs/36-vehicles-road.webp",
       "resourceManifests": [
@@ -4309,7 +4345,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4317,8 +4354,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4398,7 +4434,7 @@
         "47-vehicle-view",
         "54-vehicle-groups"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4435,6 +4471,7 @@
       "upstreamFeatureIds": [
         "vehicle-list-ship"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/37-vehicles-ship.png",
       "thumbnailPath": "previews/thumbs/37-vehicles-ship.webp",
       "resourceManifests": [
@@ -4442,7 +4479,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4450,8 +4488,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4531,7 +4568,7 @@
         "47-vehicle-view",
         "54-vehicle-groups"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4568,6 +4605,7 @@
       "upstreamFeatureIds": [
         "vehicle-list-air"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/38-vehicles-air.png",
       "thumbnailPath": "previews/thumbs/38-vehicles-air.webp",
       "resourceManifests": [
@@ -4575,7 +4613,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4583,8 +4622,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4651,15 +4689,15 @@
           "message": "出售选中车辆，操作完成后移出车队",
           "action": "确认出售",
           "previewOnly": true,
-          "previewPath": "previews/states/39-depot-train--sell-confirm.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/39-depot-train--sell-confirm.png"
         }
       ],
       "flowTo": [
         "43-buy-train",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4687,6 +4725,7 @@
       "upstreamFeatureIds": [
         "vehicle-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/39-depot-train.png",
       "thumbnailPath": "previews/thumbs/39-depot-train.webp",
       "resourceManifests": [
@@ -4694,7 +4733,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4702,8 +4742,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4770,15 +4809,15 @@
           "message": "出售选中车辆，操作完成后移出车队",
           "action": "确认出售",
           "previewOnly": true,
-          "previewPath": "previews/states/40-depot-road--sell-confirm.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/40-depot-road--sell-confirm.png"
         }
       ],
       "flowTo": [
         "44-buy-road",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4806,6 +4845,7 @@
       "upstreamFeatureIds": [
         "vehicle-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/40-depot-road.png",
       "thumbnailPath": "previews/thumbs/40-depot-road.webp",
       "resourceManifests": [
@@ -4813,7 +4853,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4821,8 +4862,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -4889,15 +4929,15 @@
           "message": "出售选中车辆，操作完成后移出车队",
           "action": "确认出售",
           "previewOnly": true,
-          "previewPath": "previews/states/41-depot-ship--sell-confirm.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/41-depot-ship--sell-confirm.png"
         }
       ],
       "flowTo": [
         "45-buy-ship",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -4925,6 +4965,7 @@
       "upstreamFeatureIds": [
         "vehicle-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/41-depot-ship.png",
       "thumbnailPath": "previews/thumbs/41-depot-ship.webp",
       "resourceManifests": [
@@ -4932,7 +4973,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -4940,8 +4982,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5008,15 +5049,15 @@
           "message": "出售选中车辆，操作完成后移出车队",
           "action": "确认出售",
           "previewOnly": true,
-          "previewPath": "previews/states/42-depot-air--sell-confirm.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/42-depot-air--sell-confirm.png"
         }
       ],
       "flowTo": [
         "46-buy-air",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5044,6 +5085,7 @@
       "upstreamFeatureIds": [
         "vehicle-depot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/42-depot-air.png",
       "thumbnailPath": "previews/thumbs/42-depot-air.webp",
       "resourceManifests": [
@@ -5051,7 +5093,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5059,8 +5102,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5144,7 +5186,7 @@
         "49-vehicle-refit",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5177,6 +5219,7 @@
       "upstreamFeatureIds": [
         "vehicle-buy"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/43-buy-train.png",
       "thumbnailPath": "previews/thumbs/43-buy-train.webp",
       "resourceManifests": [
@@ -5184,7 +5227,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5192,8 +5236,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5276,7 +5319,7 @@
         "49-vehicle-refit",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5309,6 +5352,7 @@
       "upstreamFeatureIds": [
         "vehicle-buy"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/44-buy-road.png",
       "thumbnailPath": "previews/thumbs/44-buy-road.webp",
       "resourceManifests": [
@@ -5316,7 +5360,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5324,8 +5369,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5408,7 +5452,7 @@
         "49-vehicle-refit",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5441,6 +5485,7 @@
       "upstreamFeatureIds": [
         "vehicle-buy"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/45-buy-ship.png",
       "thumbnailPath": "previews/thumbs/45-buy-ship.webp",
       "resourceManifests": [
@@ -5448,7 +5493,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5456,8 +5502,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5541,7 +5586,7 @@
         "49-vehicle-refit",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5573,6 +5618,7 @@
       "upstreamFeatureIds": [
         "vehicle-buy"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/46-buy-air.png",
       "thumbnailPath": "previews/thumbs/46-buy-air.webp",
       "resourceManifests": [
@@ -5580,7 +5626,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5588,8 +5635,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5676,7 +5722,7 @@
         "53-timetable",
         "49-vehicle-refit"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5712,6 +5758,7 @@
       "upstreamFeatureIds": [
         "vehicle-view"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/47-vehicle-view.png",
       "thumbnailPath": "previews/thumbs/47-vehicle-view.webp",
       "resourceManifests": [
@@ -5719,7 +5766,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5727,8 +5775,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5797,7 +5844,7 @@
         "55-auto-replace",
         "49-vehicle-refit"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5833,6 +5880,7 @@
       "upstreamFeatureIds": [
         "vehicle-details"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/48-vehicle-details.png",
       "thumbnailPath": "previews/thumbs/48-vehicle-details.webp",
       "resourceManifests": [
@@ -5840,7 +5888,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5848,8 +5897,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -5929,7 +5977,7 @@
       "flowTo": [
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -5957,6 +6005,7 @@
       "upstreamFeatureIds": [
         "vehicle-refit"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/49-vehicle-refit.png",
       "thumbnailPath": "previews/thumbs/49-vehicle-refit.webp",
       "resourceManifests": [
@@ -5964,7 +6013,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -5972,8 +6022,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6063,7 +6112,7 @@
         "52-shared-orders",
         "53-timetable"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6095,6 +6144,7 @@
       "upstreamFeatureIds": [
         "vehicle-orders"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/50-orders.png",
       "thumbnailPath": "previews/thumbs/50-orders.webp",
       "resourceManifests": [
@@ -6102,7 +6152,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6110,8 +6161,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6178,7 +6228,7 @@
       "flowTo": [
         "50-orders"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6207,6 +6257,7 @@
       "upstreamFeatureIds": [
         "conditional-orders"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/51-conditional-order.png",
       "thumbnailPath": "previews/thumbs/51-conditional-order.webp",
       "resourceManifests": [
@@ -6214,7 +6265,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6222,8 +6274,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6290,15 +6341,15 @@
           "message": "该车将保留现有路线并独立修改",
           "action": "确认取消",
           "previewOnly": true,
-          "previewPath": "previews/states/52-shared-orders--unshare.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/52-shared-orders--unshare.png"
         }
       ],
       "flowTo": [
         "50-orders",
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6326,6 +6377,7 @@
       "upstreamFeatureIds": [
         "vehicle-orders"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/52-shared-orders.png",
       "thumbnailPath": "previews/thumbs/52-shared-orders.webp",
       "resourceManifests": [
@@ -6333,7 +6385,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6341,8 +6394,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6423,7 +6475,7 @@
         "50-orders",
         "125-date-picker"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6455,6 +6507,7 @@
       "upstreamFeatureIds": [
         "vehicle-timetable"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/53-timetable.png",
       "thumbnailPath": "previews/thumbs/53-timetable.webp",
       "resourceManifests": [
@@ -6462,7 +6515,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6470,8 +6524,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6545,15 +6598,15 @@
           "message": "车辆将移回未分组，不出售车辆",
           "action": "确认删除",
           "previewOnly": true,
-          "previewPath": "previews/states/54-vehicle-groups--delete-group.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/54-vehicle-groups--delete-group.png"
         }
       ],
       "flowTo": [
         "55-auto-replace",
         "59-company-livery"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6590,6 +6643,7 @@
       "upstreamFeatureIds": [
         "vehicle-list-train"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/54-vehicle-groups.png",
       "thumbnailPath": "previews/thumbs/54-vehicle-groups.webp",
       "resourceManifests": [
@@ -6597,7 +6651,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6605,8 +6660,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6680,7 +6734,7 @@
       "flowTo": [
         "54-vehicle-groups"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6712,6 +6766,7 @@
       "upstreamFeatureIds": [
         "vehicle-replace"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/55-auto-replace.png",
       "thumbnailPath": "previews/thumbs/55-auto-replace.webp",
       "resourceManifests": [
@@ -6719,7 +6774,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6727,8 +6783,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6786,7 +6841,7 @@
       "flowTo": [
         "43-buy-train"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6810,6 +6865,7 @@
       "upstreamFeatureIds": [
         "engine-preview"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/56-engine-preview.png",
       "thumbnailPath": "previews/thumbs/56-engine-preview.webp",
       "resourceManifests": [
@@ -6817,7 +6873,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6825,8 +6882,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -6906,7 +6962,7 @@
         "60-finances",
         "62-infrastructure"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -6942,6 +6998,7 @@
       "upstreamFeatureIds": [
         "company"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/57-company-overview.png",
       "thumbnailPath": "previews/thumbs/57-company-overview.webp",
       "resourceManifests": [
@@ -6949,7 +7006,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -6957,8 +7015,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7020,7 +7077,7 @@
       "flowTo": [
         "57-company-overview"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7055,6 +7112,7 @@
       "upstreamFeatureIds": [
         "manager-face"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/58-company-manager.png",
       "thumbnailPath": "previews/thumbs/58-company-manager.webp",
       "resourceManifests": [
@@ -7062,7 +7120,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7070,8 +7129,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7145,7 +7203,7 @@
         "57-company-overview",
         "54-vehicle-groups"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7184,6 +7242,7 @@
       "upstreamFeatureIds": [
         "livery"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/59-company-livery.png",
       "thumbnailPath": "previews/thumbs/59-company-livery.webp",
       "resourceManifests": [
@@ -7191,7 +7250,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7199,8 +7259,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7281,7 +7340,7 @@
         "61-loan",
         "62-infrastructure"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7314,6 +7373,7 @@
       "upstreamFeatureIds": [
         "finance"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/60-finances.png",
       "thumbnailPath": "previews/thumbs/60-finances.webp",
       "resourceManifests": [
@@ -7321,7 +7381,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7329,8 +7390,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7398,7 +7458,7 @@
       "flowTo": [
         "60-finances"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7426,6 +7486,7 @@
       "upstreamFeatureIds": [
         "finance"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/61-loan.png",
       "thumbnailPath": "previews/thumbs/61-loan.webp",
       "resourceManifests": [
@@ -7433,7 +7494,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7441,8 +7503,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7513,7 +7574,7 @@
       "flowTo": [
         "60-finances"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7549,6 +7610,7 @@
       "upstreamFeatureIds": [
         "infrastructure"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/62-infrastructure.png",
       "thumbnailPath": "previews/thumbs/62-infrastructure.webp",
       "resourceManifests": [
@@ -7556,7 +7618,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7564,8 +7627,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7636,7 +7698,7 @@
       "flowTo": [
         "57-company-overview"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7664,6 +7726,7 @@
       "upstreamFeatureIds": [
         "company-buy"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/63-buy-company.png",
       "thumbnailPath": "previews/thumbs/63-buy-company.webp",
       "resourceManifests": [
@@ -7671,7 +7734,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7679,8 +7743,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7745,7 +7808,7 @@
         "66-performance",
         "57-company-overview"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7774,6 +7837,7 @@
       "upstreamFeatureIds": [
         "company-league"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/64-company-league.png",
       "thumbnailPath": "previews/thumbs/64-company-league.webp",
       "resourceManifests": [
@@ -7781,7 +7845,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7789,8 +7854,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -7863,7 +7927,7 @@
         "64-company-league",
         "66-performance"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -7911,6 +7975,7 @@
       "upstreamFeatureIds": [
         "income-graph"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/65-company-graphs.png",
       "thumbnailPath": "previews/thumbs/65-company-graphs.webp",
       "resourceManifests": [
@@ -7918,7 +7983,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -7926,8 +7992,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8026,7 +8091,7 @@
         "64-company-league",
         "65-company-graphs"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8053,6 +8118,7 @@
       "upstreamFeatureIds": [
         "performance-detail"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/66-performance.png",
       "thumbnailPath": "previews/thumbs/66-performance.webp",
       "resourceManifests": [
@@ -8060,7 +8126,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8068,8 +8135,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8138,7 +8204,7 @@
       "flowTo": [
         "83-cargo-chain"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8167,6 +8233,7 @@
       "upstreamFeatureIds": [
         "cargo-rates"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/67-cargo-payment.png",
       "thumbnailPath": "previews/thumbs/67-cargo-payment.webp",
       "resourceManifests": [
@@ -8174,7 +8241,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8182,8 +8250,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8264,7 +8331,7 @@
       "flowTo": [
         "69-small-map"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8292,6 +8359,7 @@
       "upstreamFeatureIds": [
         "subsidies"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/68-subsidies.png",
       "thumbnailPath": "previews/thumbs/68-subsidies.webp",
       "resourceManifests": [
@@ -8299,7 +8367,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8307,8 +8376,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8379,7 +8447,7 @@
         "76-towns",
         "80-industries"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8419,6 +8487,7 @@
       "upstreamFeatureIds": [
         "map"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/69-small-map.png",
       "thumbnailPath": "previews/thumbs/69-small-map.webp",
       "resourceManifests": [
@@ -8426,7 +8495,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8434,8 +8504,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8507,7 +8576,7 @@
         "32-station-detail",
         "69-small-map"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8539,6 +8608,7 @@
       "upstreamFeatureIds": [
         "cargo-flow-map"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/70-linkgraph.png",
       "thumbnailPath": "previews/thumbs/70-linkgraph.webp",
       "resourceManifests": [
@@ -8546,7 +8616,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8554,8 +8625,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8616,7 +8686,7 @@
       "flowTo": [
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8645,6 +8715,7 @@
       "upstreamFeatureIds": [
         "extra-view"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/71-extra-viewport.png",
       "thumbnailPath": "previews/thumbs/71-extra-viewport.webp",
       "resourceManifests": [
@@ -8652,7 +8723,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8660,8 +8732,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8731,7 +8802,7 @@
       "flowTo": [
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8763,6 +8834,7 @@
       "upstreamFeatureIds": [
         "transparency"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/72-transparency.png",
       "thumbnailPath": "previews/thumbs/72-transparency.webp",
       "resourceManifests": [
@@ -8770,7 +8842,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8778,8 +8851,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8844,7 +8916,7 @@
       "flowTo": [
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8872,6 +8944,7 @@
       "upstreamFeatureIds": [
         "land-info"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/73-land-info.png",
       "thumbnailPath": "previews/thumbs/73-land-info.webp",
       "resourceManifests": [
@@ -8879,7 +8952,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -8887,8 +8961,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -8953,7 +9026,7 @@
       "flowTo": [
         "75-sign-edit"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -8986,6 +9059,7 @@
       "upstreamFeatureIds": [
         "sign-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/74-signs.png",
       "thumbnailPath": "previews/thumbs/74-signs.webp",
       "resourceManifests": [
@@ -8993,7 +9067,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9001,8 +9076,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9072,7 +9146,7 @@
       "flowTo": [
         "74-signs"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9099,6 +9173,7 @@
       "upstreamFeatureIds": [
         "sign-edit"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/75-sign-edit.png",
       "thumbnailPath": "previews/thumbs/75-sign-edit.webp",
       "resourceManifests": [
@@ -9106,7 +9181,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9114,8 +9190,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9182,7 +9257,7 @@
         "77-town-detail",
         "79-found-town"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9215,6 +9290,7 @@
       "upstreamFeatureIds": [
         "town-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/76-towns.png",
       "thumbnailPath": "previews/thumbs/76-towns.webp",
       "resourceManifests": [
@@ -9222,7 +9298,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9230,8 +9307,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9299,7 +9375,7 @@
         "78-town-authority",
         "85-town-cargo"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9331,6 +9407,7 @@
       "upstreamFeatureIds": [
         "town-view"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/77-town-detail.png",
       "thumbnailPath": "previews/thumbs/77-town-detail.webp",
       "resourceManifests": [
@@ -9338,7 +9415,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9346,8 +9424,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9433,7 +9510,7 @@
       "flowTo": [
         "77-town-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9462,6 +9539,7 @@
       "upstreamFeatureIds": [
         "town-authority"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/78-town-authority.png",
       "thumbnailPath": "previews/thumbs/78-town-authority.webp",
       "resourceManifests": [
@@ -9469,7 +9547,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9477,8 +9556,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9552,7 +9630,7 @@
       "flowTo": [
         "77-town-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9585,6 +9663,7 @@
       "upstreamFeatureIds": [
         "town-found"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/79-found-town.png",
       "thumbnailPath": "previews/thumbs/79-found-town.webp",
       "resourceManifests": [
@@ -9592,7 +9671,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9600,8 +9680,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9674,7 +9753,7 @@
         "83-cargo-chain",
         "82-fund-industry"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9707,6 +9786,7 @@
       "upstreamFeatureIds": [
         "industry-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/80-industries.png",
       "thumbnailPath": "previews/thumbs/80-industries.webp",
       "resourceManifests": [
@@ -9714,7 +9794,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9722,8 +9803,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9790,7 +9870,7 @@
         "84-industry-production",
         "83-cargo-chain"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9822,6 +9902,7 @@
       "upstreamFeatureIds": [
         "industry-view"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/81-industry-detail.png",
       "thumbnailPath": "previews/thumbs/81-industry-detail.webp",
       "resourceManifests": [
@@ -9829,7 +9910,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9837,8 +9919,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -9919,7 +10000,7 @@
       "flowTo": [
         "81-industry-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -9947,6 +10028,7 @@
       "upstreamFeatureIds": [
         "industry-build"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/82-fund-industry.png",
       "thumbnailPath": "previews/thumbs/82-fund-industry.webp",
       "resourceManifests": [
@@ -9954,7 +10036,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -9962,8 +10045,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10034,7 +10116,7 @@
         "81-industry-detail",
         "67-cargo-payment"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10064,6 +10146,7 @@
       "upstreamFeatureIds": [
         "cargo-chain"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/83-cargo-chain.png",
       "thumbnailPath": "previews/thumbs/83-cargo-chain.webp",
       "resourceManifests": [
@@ -10071,7 +10154,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10079,8 +10163,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10150,7 +10233,7 @@
       "flowTo": [
         "81-industry-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10183,6 +10266,7 @@
       "upstreamFeatureIds": [
         "industry-production"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/84-industry-production.png",
       "thumbnailPath": "previews/thumbs/84-industry-production.webp",
       "resourceManifests": [
@@ -10190,7 +10274,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10198,8 +10283,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10270,7 +10354,7 @@
       "flowTo": [
         "77-town-detail"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10302,6 +10386,7 @@
       "upstreamFeatureIds": [
         "town-cargo"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/85-town-cargo.png",
       "thumbnailPath": "previews/thumbs/85-town-cargo.webp",
       "resourceManifests": [
@@ -10309,7 +10394,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10317,8 +10403,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10381,7 +10466,7 @@
         "87-news-history",
         "56-engine-preview"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10414,6 +10499,7 @@
       "upstreamFeatureIds": [
         "news"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/86-news.png",
       "thumbnailPath": "previews/thumbs/86-news.webp",
       "resourceManifests": [
@@ -10421,7 +10507,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10429,8 +10516,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10495,7 +10581,7 @@
       "flowTo": [
         "86-news"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10523,6 +10609,7 @@
       "upstreamFeatureIds": [
         "news-history"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/87-news-history.png",
       "thumbnailPath": "previews/thumbs/87-news-history.webp",
       "resourceManifests": [
@@ -10530,7 +10617,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10538,8 +10626,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10614,7 +10701,7 @@
         "90-story-book",
         "89-goal-question"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10646,6 +10733,7 @@
       "upstreamFeatureIds": [
         "goals"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/88-goals.png",
       "thumbnailPath": "previews/thumbs/88-goals.webp",
       "resourceManifests": [
@@ -10653,7 +10741,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10661,8 +10750,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10718,7 +10806,7 @@
         "88-goals",
         "90-story-book"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10742,6 +10830,7 @@
       "upstreamFeatureIds": [
         "goal-question"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/89-goal-question.png",
       "thumbnailPath": "previews/thumbs/89-goal-question.webp",
       "resourceManifests": [
@@ -10749,7 +10838,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10757,8 +10847,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10821,7 +10910,7 @@
         "88-goals",
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10854,6 +10943,7 @@
       "upstreamFeatureIds": [
         "story"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/90-story-book.png",
       "thumbnailPath": "previews/thumbs/90-story-book.webp",
       "resourceManifests": [
@@ -10861,7 +10951,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10869,8 +10960,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -10931,7 +11021,7 @@
       "flowTo": [
         "92-endgame"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -10957,6 +11047,7 @@
       "upstreamFeatureIds": [
         "highscore"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/91-highscores.png",
       "thumbnailPath": "previews/thumbs/91-highscores.webp",
       "resourceManifests": [
@@ -10964,7 +11055,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -10972,8 +11064,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11039,7 +11130,7 @@
         "09-main-hud",
         "91-highscores"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11067,6 +11158,7 @@
       "upstreamFeatureIds": [
         "endgame"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/92-endgame.png",
       "thumbnailPath": "previews/thumbs/92-endgame.webp",
       "resourceManifests": [
@@ -11074,7 +11166,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11082,8 +11175,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11169,7 +11261,7 @@
         "96-network-password",
         "102-online-content"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11201,6 +11293,7 @@
       "upstreamFeatureIds": [
         "network-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/93-servers.png",
       "thumbnailPath": "previews/thumbs/93-servers.webp",
       "resourceManifests": [
@@ -11208,7 +11301,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11216,8 +11310,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11287,7 +11380,7 @@
         "06-load-game",
         "96-network-password"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11316,6 +11409,7 @@
       "upstreamFeatureIds": [
         "network-start"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/94-server-create.png",
       "thumbnailPath": "previews/thumbs/94-server-create.webp",
       "resourceManifests": [
@@ -11323,7 +11417,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11331,8 +11426,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11422,7 +11516,7 @@
         "09-main-hud",
         "93-servers"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11453,6 +11547,7 @@
       "upstreamFeatureIds": [
         "network-join"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/95-network-join.png",
       "thumbnailPath": "previews/thumbs/95-network-join.webp",
       "resourceManifests": [
@@ -11460,7 +11555,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11468,8 +11564,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11532,7 +11627,7 @@
         "95-network-join",
         "97-clients"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11561,6 +11656,7 @@
       "upstreamFeatureIds": [
         "network-password"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/96-network-password.png",
       "thumbnailPath": "previews/thumbs/96-network-password.webp",
       "resourceManifests": [
@@ -11568,7 +11664,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11576,8 +11673,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11667,7 +11763,7 @@
         "98-chat",
         "99-gift-money"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11699,6 +11795,7 @@
       "upstreamFeatureIds": [
         "network-clients"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/97-clients.png",
       "thumbnailPath": "previews/thumbs/97-clients.webp",
       "resourceManifests": [
@@ -11706,7 +11803,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11714,8 +11812,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11784,7 +11881,7 @@
       "flowTo": [
         "97-clients"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11817,6 +11914,7 @@
       "upstreamFeatureIds": [
         "network-chat"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/98-chat.png",
       "thumbnailPath": "previews/thumbs/98-chat.webp",
       "resourceManifests": [
@@ -11824,7 +11922,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11832,8 +11931,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11898,7 +11996,7 @@
       "flowTo": [
         "97-clients"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -11923,6 +12021,7 @@
       "upstreamFeatureIds": [
         "network-clients"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/99-gift-money.png",
       "thumbnailPath": "previews/thumbs/99-gift-money.webp",
       "resourceManifests": [
@@ -11930,7 +12029,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -11938,8 +12038,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -11994,7 +12093,7 @@
       "flowTo": [
         "95-network-join"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12017,6 +12116,7 @@
       "upstreamFeatureIds": [
         "network-relay"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/100-relay-consent.png",
       "thumbnailPath": "previews/thumbs/100-relay-consent.webp",
       "resourceManifests": [
@@ -12024,7 +12124,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12032,8 +12133,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12090,7 +12190,7 @@
         "114-options",
         "108-content-text"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12118,6 +12218,7 @@
       "upstreamFeatureIds": [
         "network-survey"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/101-survey-consent.png",
       "thumbnailPath": "previews/thumbs/101-survey-consent.webp",
       "resourceManifests": [
@@ -12125,7 +12226,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12133,8 +12235,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12212,15 +12313,15 @@
           "message": "下载将同时取得必需依赖",
           "action": "确认选择",
           "previewOnly": true,
-          "previewPath": "previews/states/102-online-content--dependency.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/102-online-content--dependency.png"
         }
       ],
       "flowTo": [
         "103-content-download",
         "108-content-text"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12261,6 +12362,7 @@
       "upstreamFeatureIds": [
         "content-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/102-online-content.png",
       "thumbnailPath": "previews/thumbs/102-online-content.webp",
       "resourceManifests": [
@@ -12268,7 +12370,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12276,8 +12379,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12346,7 +12448,7 @@
         "102-online-content",
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12371,6 +12473,7 @@
       "upstreamFeatureIds": [
         "content-download"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/103-content-download.png",
       "thumbnailPath": "previews/thumbs/103-content-download.webp",
       "resourceManifests": [
@@ -12378,7 +12481,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12386,8 +12490,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12472,7 +12575,7 @@
         "106-newgrf-presets",
         "107-content-scan"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12504,6 +12607,7 @@
       "upstreamFeatureIds": [
         "newgrf"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/104-newgrf.png",
       "thumbnailPath": "previews/thumbs/104-newgrf.webp",
       "resourceManifests": [
@@ -12511,7 +12615,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12519,8 +12624,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12588,7 +12692,7 @@
       "flowTo": [
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12616,6 +12720,7 @@
       "upstreamFeatureIds": [
         "newgrf-params"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/105-newgrf-parameters.png",
       "thumbnailPath": "previews/thumbs/105-newgrf-parameters.webp",
       "resourceManifests": [
@@ -12623,7 +12728,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12631,8 +12737,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12684,8 +12789,8 @@
           "message": "是否覆盖已有扩展预设？",
           "action": "确认覆盖",
           "previewOnly": true,
-          "previewPath": "previews/states/106-newgrf-presets--overwrite.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/106-newgrf-presets--overwrite.png"
         },
         {
           "id": "none",
@@ -12699,7 +12804,7 @@
       "flowTo": [
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12726,6 +12831,7 @@
       "upstreamFeatureIds": [
         "newgrf-preset"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/106-newgrf-presets.png",
       "thumbnailPath": "previews/thumbs/106-newgrf-presets.webp",
       "resourceManifests": [
@@ -12733,7 +12839,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12741,8 +12848,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12796,7 +12902,7 @@
       "flowTo": [
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12821,6 +12927,7 @@
       "upstreamFeatureIds": [
         "newgrf"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/107-content-scan.png",
       "thumbnailPath": "previews/thumbs/107-content-scan.webp",
       "resourceManifests": [
@@ -12828,7 +12935,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12836,8 +12944,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -12903,7 +13010,7 @@
         "102-online-content",
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -12936,6 +13043,7 @@
       "upstreamFeatureIds": [
         "content-text"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/108-content-text.png",
       "thumbnailPath": "previews/thumbs/108-content-text.webp",
       "resourceManifests": [
@@ -12943,7 +13051,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -12951,8 +13060,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13019,7 +13127,7 @@
         "111-script-list",
         "112-script-settings"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13051,6 +13159,7 @@
       "upstreamFeatureIds": [
         "ai-config"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/109-ai-config.png",
       "thumbnailPath": "previews/thumbs/109-ai-config.webp",
       "resourceManifests": [
@@ -13058,7 +13167,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13066,8 +13176,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13131,7 +13240,7 @@
         "112-script-settings",
         "90-story-book"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13163,6 +13272,7 @@
       "upstreamFeatureIds": [
         "gs-config"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/110-gs-config.png",
       "thumbnailPath": "previews/thumbs/110-gs-config.webp",
       "resourceManifests": [
@@ -13170,7 +13280,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13178,8 +13289,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13242,7 +13352,7 @@
         "110-gs-config",
         "112-script-settings"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13275,6 +13385,7 @@
       "upstreamFeatureIds": [
         "script-list"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/111-script-list.png",
       "thumbnailPath": "previews/thumbs/111-script-list.webp",
       "resourceManifests": [
@@ -13282,7 +13393,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13290,8 +13402,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13361,7 +13472,7 @@
         "109-ai-config",
         "110-gs-config"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13388,6 +13499,7 @@
       "upstreamFeatureIds": [
         "script-settings"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/112-script-settings.png",
       "thumbnailPath": "previews/thumbs/112-script-settings.webp",
       "resourceManifests": [
@@ -13395,7 +13507,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13403,8 +13516,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13470,7 +13582,7 @@
       "flowTo": [
         "112-script-settings"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13503,6 +13615,7 @@
       "upstreamFeatureIds": [
         "script-debug"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/113-script-debug.png",
       "thumbnailPath": "previews/thumbs/113-script-debug.webp",
       "resourceManifests": [
@@ -13510,7 +13623,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13518,8 +13632,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13595,7 +13708,7 @@
         "118-advanced-options",
         "119-custom-currency"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13639,6 +13752,7 @@
       "upstreamFeatureIds": [
         "settings"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/114-options.png",
       "thumbnailPath": "previews/thumbs/114-options.webp",
       "resourceManifests": [
@@ -13646,7 +13760,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13654,8 +13769,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13729,7 +13843,7 @@
       "flowTo": [
         "114-options"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13775,6 +13889,7 @@
       "upstreamFeatureIds": [
         "settings"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/115-graphics-options.png",
       "thumbnailPath": "previews/thumbs/115-graphics-options.webp",
       "resourceManifests": [
@@ -13782,7 +13897,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13790,8 +13906,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13865,7 +13980,7 @@
         "120-music-player",
         "102-online-content"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -13909,6 +14024,7 @@
       "upstreamFeatureIds": [
         "settings"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/116-sound-options.png",
       "thumbnailPath": "previews/thumbs/116-sound-options.webp",
       "resourceManifests": [
@@ -13916,7 +14032,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -13924,8 +14041,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -13986,7 +14102,7 @@
       "flowTo": [
         "114-options"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14032,6 +14148,7 @@
       "upstreamFeatureIds": [
         "settings"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/117-social-options.png",
       "thumbnailPath": "previews/thumbs/117-social-options.webp",
       "resourceManifests": [
@@ -14039,7 +14156,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14047,8 +14165,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14132,7 +14249,7 @@
       "flowTo": [
         "114-options"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14171,6 +14288,7 @@
       "upstreamFeatureIds": [
         "advanced-settings"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/118-advanced-options.png",
       "thumbnailPath": "previews/thumbs/118-advanced-options.webp",
       "resourceManifests": [
@@ -14178,7 +14296,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14186,8 +14305,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14254,7 +14372,7 @@
       "flowTo": [
         "114-options"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14283,6 +14401,7 @@
       "upstreamFeatureIds": [
         "currency"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/119-custom-currency.png",
       "thumbnailPath": "previews/thumbs/119-custom-currency.webp",
       "resourceManifests": [
@@ -14290,7 +14409,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14298,8 +14418,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14363,7 +14482,7 @@
         "121-music-tracks",
         "116-sound-options"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14400,6 +14519,7 @@
       "upstreamFeatureIds": [
         "music"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/120-music-player.png",
       "thumbnailPath": "previews/thumbs/120-music-player.webp",
       "resourceManifests": [
@@ -14407,7 +14527,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14415,8 +14536,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14478,7 +14598,7 @@
       "flowTo": [
         "120-music-player"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14511,6 +14631,7 @@
       "upstreamFeatureIds": [
         "music-tracks"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/121-music-tracks.png",
       "thumbnailPath": "previews/thumbs/121-music-tracks.webp",
       "resourceManifests": [
@@ -14518,7 +14639,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14526,8 +14648,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14594,7 +14715,7 @@
         "123-about",
         "108-content-text"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14632,6 +14753,7 @@
       "upstreamFeatureIds": [
         "help"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/122-help.png",
       "thumbnailPath": "previews/thumbs/122-help.webp",
       "resourceManifests": [
@@ -14639,7 +14761,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14647,8 +14770,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14676,7 +14798,7 @@
       "rows": [
         [
           "游戏名称",
-          "云途万里（暂名）"
+          "云途万里"
         ],
         [
           "功能参考",
@@ -14685,10 +14807,6 @@
         [
           "美术方向",
           "道家Q版高清手绘"
-        ],
-        [
-          "成果远端",
-          "待用户提供"
         ]
       ],
       "details": [],
@@ -14701,7 +14819,7 @@
       "flowTo": [
         "122-help"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14736,6 +14854,7 @@
       "upstreamFeatureIds": [
         "about"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/123-about.png",
       "thumbnailPath": "previews/thumbs/123-about.webp",
       "resourceManifests": [
@@ -14743,7 +14862,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14751,8 +14871,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14819,7 +14938,7 @@
       "flowTo": [
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14847,6 +14966,7 @@
       "upstreamFeatureIds": [
         "screenshot"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/124-screenshot.png",
       "thumbnailPath": "previews/thumbs/124-screenshot.webp",
       "resourceManifests": [
@@ -14854,7 +14974,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14862,8 +14983,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -14923,7 +15043,7 @@
       "flowTo": [
         "53-timetable"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -14950,6 +15070,7 @@
       "upstreamFeatureIds": [
         "set-date"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/125-date-picker.png",
       "thumbnailPath": "previews/thumbs/125-date-picker.webp",
       "resourceManifests": [
@@ -14957,7 +15078,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -14965,8 +15087,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15026,15 +15147,15 @@
           "message": "当前未保存编辑将被替换",
           "action": "保存后继续",
           "previewOnly": true,
-          "previewPath": "previews/states/126-scenario-create--new.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/126-scenario-create--new.png"
         }
       ],
       "flowTo": [
         "127-scenario-editor",
         "04-heightmap"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15065,6 +15186,7 @@
       "upstreamFeatureIds": [
         "scenario-create"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/126-scenario-create.png",
       "thumbnailPath": "previews/thumbs/126-scenario-create.webp",
       "resourceManifests": [
@@ -15072,7 +15194,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15080,8 +15203,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15154,7 +15276,7 @@
         "82-fund-industry",
         "07-save-game"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15193,6 +15315,7 @@
       "upstreamFeatureIds": [
         "scenario-hud"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/127-scenario-editor.png",
       "thumbnailPath": "previews/thumbs/127-scenario-editor.webp",
       "resourceManifests": [
@@ -15200,7 +15323,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15208,8 +15332,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15270,15 +15393,15 @@
           "message": "这会清除当前地形及相关对象",
           "action": "确认重置",
           "previewOnly": true,
-          "previewPath": "previews/states/128-editor-terrain--clear-confirm.png",
-          "secondaryAction": "取消"
+          "secondaryAction": "取消",
+          "previewPath": "previews/states/128-editor-terrain--clear-confirm.png"
         }
       ],
       "flowTo": [
         "127-scenario-editor",
         "04-heightmap"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15314,6 +15437,7 @@
       "upstreamFeatureIds": [
         "scenario-terrain"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/128-editor-terrain.png",
       "thumbnailPath": "previews/thumbs/128-editor-terrain.webp",
       "resourceManifests": [
@@ -15321,7 +15445,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15329,8 +15454,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15409,7 +15533,7 @@
         "130-trees",
         "131-objects"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15450,6 +15574,7 @@
       "upstreamFeatureIds": [
         "terraform"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/129-terraform.png",
       "thumbnailPath": "previews/thumbs/129-terraform.webp",
       "resourceManifests": [
@@ -15457,7 +15582,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15465,8 +15591,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15530,7 +15655,7 @@
       "flowTo": [
         "129-terraform"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15560,6 +15685,7 @@
       "upstreamFeatureIds": [
         "trees"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/130-trees.png",
       "thumbnailPath": "previews/thumbs/130-trees.webp",
       "resourceManifests": [
@@ -15567,7 +15693,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15575,8 +15702,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15640,7 +15766,7 @@
       "flowTo": [
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15675,6 +15801,7 @@
       "upstreamFeatureIds": [
         "objects"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/131-objects.png",
       "thumbnailPath": "previews/thumbs/131-objects.webp",
       "resourceManifests": [
@@ -15682,7 +15809,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15690,8 +15818,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15756,7 +15883,7 @@
       "flowTo": [
         "127-scenario-editor"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15788,6 +15915,7 @@
       "upstreamFeatureIds": [
         "scenario-house"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/132-build-house.png",
       "thumbnailPath": "previews/thumbs/132-build-house.webp",
       "resourceManifests": [
@@ -15795,7 +15923,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15803,8 +15932,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15857,7 +15985,7 @@
       "flowTo": [
         "127-scenario-editor"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -15887,6 +16015,7 @@
       "upstreamFeatureIds": [
         "scenario-load"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/133-town-data-import.png",
       "thumbnailPath": "previews/thumbs/133-town-data-import.webp",
       "resourceManifests": [
@@ -15894,7 +16023,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -15902,8 +16032,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -15976,7 +16105,7 @@
       "flowTo": [
         "125-date-picker"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16003,6 +16132,7 @@
       "upstreamFeatureIds": [
         "cheats"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/134-sandbox.png",
       "thumbnailPath": "previews/thumbs/134-sandbox.webp",
       "resourceManifests": [
@@ -16010,7 +16140,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16018,8 +16149,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16079,7 +16209,7 @@
       "flowTo": [
         "122-help"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16109,6 +16239,7 @@
       "upstreamFeatureIds": [
         "console"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/135-console.png",
       "thumbnailPath": "previews/thumbs/135-console.webp",
       "resourceManifests": [
@@ -16116,7 +16247,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16124,8 +16256,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16189,7 +16320,7 @@
       "flowTo": [
         "104-newgrf"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16223,6 +16354,7 @@
       "upstreamFeatureIds": [
         "newgrf-inspect"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/136-newgrf-inspect.png",
       "thumbnailPath": "previews/thumbs/136-newgrf-inspect.webp",
       "resourceManifests": [
@@ -16230,7 +16362,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16238,8 +16371,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16301,7 +16433,7 @@
       "flowTo": [
         "136-newgrf-inspect"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16332,6 +16464,7 @@
       "upstreamFeatureIds": [
         "sprite-align"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/137-sprite-align.png",
       "thumbnailPath": "previews/thumbs/137-sprite-align.webp",
       "resourceManifests": [
@@ -16339,7 +16472,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16347,8 +16481,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16413,7 +16546,7 @@
       "flowTo": [
         "139-frame-time"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16451,6 +16584,7 @@
       "upstreamFeatureIds": [
         "framerate"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/138-performance-monitor.png",
       "thumbnailPath": "previews/thumbs/138-performance-monitor.webp",
       "resourceManifests": [
@@ -16458,7 +16592,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16466,8 +16601,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16523,7 +16657,7 @@
       "flowTo": [
         "138-performance-monitor"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16556,6 +16690,7 @@
       "upstreamFeatureIds": [
         "frametime"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/139-frame-time.png",
       "thumbnailPath": "previews/thumbs/139-frame-time.webp",
       "resourceManifests": [
@@ -16563,7 +16698,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16571,8 +16707,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16639,7 +16774,7 @@
       "flowTo": [
         "09-main-hud"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16662,6 +16797,7 @@
       "upstreamFeatureIds": [
         "error"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/140-generic-error.png",
       "thumbnailPath": "previews/thumbs/140-generic-error.webp",
       "resourceManifests": [
@@ -16669,7 +16805,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16677,8 +16814,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16733,7 +16869,7 @@
       "flowTo": [
         "11-rail-build"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16760,6 +16896,7 @@
       "upstreamFeatureIds": [
         "tooltip"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/141-tooltip-cost.png",
       "thumbnailPath": "previews/thumbs/141-tooltip-cost.webp",
       "resourceManifests": [
@@ -16767,7 +16904,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16775,8 +16913,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16841,7 +16978,7 @@
         "57-company-overview",
         "75-sign-edit"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16869,6 +17006,7 @@
       "upstreamFeatureIds": [
         "input-query"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/142-input-query.png",
       "thumbnailPath": "previews/thumbs/142-input-query.webp",
       "resourceManifests": [
@@ -16876,7 +17014,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16884,8 +17023,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -16946,7 +17084,7 @@
       "flowTo": [
         "47-vehicle-view"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -16971,6 +17109,7 @@
       "upstreamFeatureIds": [
         "confirm"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/143-confirm.png",
       "thumbnailPath": "previews/thumbs/143-confirm.webp",
       "resourceManifests": [
@@ -16978,7 +17117,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -16986,8 +17126,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -17037,7 +17176,7 @@
       "flowTo": [
         "142-input-query"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -17067,6 +17206,7 @@
       "upstreamFeatureIds": [
         "osk"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/144-on-screen-keyboard.png",
       "thumbnailPath": "previews/thumbs/144-on-screen-keyboard.webp",
       "resourceManifests": [
@@ -17074,7 +17214,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -17082,8 +17223,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -17156,7 +17296,7 @@
         "64-company-league",
         "66-performance"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -17203,6 +17343,7 @@
       "upstreamFeatureIds": [
         "profit-graph"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/145-profit-graph.png",
       "thumbnailPath": "previews/thumbs/145-profit-graph.webp",
       "resourceManifests": [
@@ -17210,7 +17351,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -17218,8 +17360,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -17292,7 +17433,7 @@
         "64-company-league",
         "66-performance"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -17339,6 +17480,7 @@
       "upstreamFeatureIds": [
         "cargo-graph"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/146-cargo-graph.png",
       "thumbnailPath": "previews/thumbs/146-cargo-graph.webp",
       "resourceManifests": [
@@ -17346,7 +17488,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -17354,8 +17497,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -17428,7 +17570,7 @@
         "64-company-league",
         "66-performance"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -17475,6 +17617,7 @@
       "upstreamFeatureIds": [
         "performance-graph"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/147-performance-graph.png",
       "thumbnailPath": "previews/thumbs/147-performance-graph.webp",
       "resourceManifests": [
@@ -17482,7 +17625,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -17490,8 +17634,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -17564,7 +17707,7 @@
         "64-company-league",
         "66-performance"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -17611,6 +17754,7 @@
       "upstreamFeatureIds": [
         "value-graph"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/148-value-graph.png",
       "thumbnailPath": "previews/thumbs/148-value-graph.webp",
       "resourceManifests": [
@@ -17618,7 +17762,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -17626,8 +17771,7 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     },
     {
@@ -17692,7 +17836,7 @@
         "66-performance",
         "57-company-overview"
       ],
-      "status": "planned",
+      "status": "designed",
       "origin": "upstream",
       "sampleData": true,
       "scopeNote": "功能与操作参考上游；中文地名、公司名、参数与列表数据为美术排版样例。",
@@ -17720,6 +17864,7 @@
       "upstreamFeatureIds": [
         "script-league"
       ],
+      "productionManifest": "docs/UI_MASTER_MANIFEST.json",
       "designPath": "designs/149-script-league.png",
       "thumbnailPath": "previews/thumbs/149-script-league.webp",
       "resourceManifests": [
@@ -17727,7 +17872,8 @@
         "docs/asset-icons-manifest.json",
         "docs/asset-cargo-manifest.json",
         "docs/asset-portraits-manifest.json",
-        "docs/asset-fonts-manifest.json"
+        "docs/asset-fonts-manifest.json",
+        "docs/asset-branding-manifest.json"
       ],
       "productionStatus": "art-produced",
       "acceptanceStatus": "local-static-check-passed; user-art-review-pending",
@@ -17735,9 +17881,13 @@
       "missingArtItems": [],
       "pendingIntegrationItems": [
         "Unity Sprite/TMP导入与运行验证",
-        "真实业务数据、权限及失败状态对接",
-        "入口/返回/关闭与输入焦点验证"
+        "真实业务数据及输入/流程接入验证"
       ]
     }
-  ]
+  ],
+  "localVisualReview": {
+    "record": "records/ui-branding-visual-review.json",
+    "sha256": "6962b532a3dffeb905ba61c588f1b63682e99f18d7b8403d73fc03951b7abc7e",
+    "complete": true
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "reviewedAt": "2026-10-29T03:08:51.465163+00:00",
+  "status": "passed-local-review; user-review-pending",
+  "reviewers": [
+    "root",
+    "naming_review"
+  ],
+  "reviewedFiles": [
+    {
+      "file": "logo-main.png",
+      "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b"
+    },
+    {
+      "file": "logo-symbol.png",
+      "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b"
+    },
+    {
+      "file": "brand-preview.jpg",
+      "sha256": "e2eb59f6e58ff9e9eb00cc062e9eddfa6bc2d01cac1ede7c6cd1aa748733a711"
+    },
+    {
+      "file": "records/edge-composition-review.jpg",
+      "sha256": "b17cfba840935623c0184ae8bdc22ed1f19ab5fb25ef702ede6dfeab5e1ce004"
+    }
+  ],
+  "findings": {
+    "exactTitle": "云途万里，四字正确",
+    "style": "青绿/米金、云山与圆润列车符合既有手绘风格",
+    "backgrounds": "米白、深绿正常；三处外缘在白、深绿、中灰底放大复核无可见杂边",
+    "smallSizes": "128px以上清楚；64px保留云环与列车轮廓，内部细节损失",
+    "alphaEvidence": "真实Alpha，保留工具输出。主图5850个饱和红点Alpha为1–15，真实合成不可见明显红边；未采用阈值清理。"
+  },
+  "userApproved": false
+}

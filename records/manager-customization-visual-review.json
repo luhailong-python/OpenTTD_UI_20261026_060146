@@ -1,20 +1,18 @@
 {
   "schema": "manager-customization-visual-review.v1",
-  "reviewedAt": "2026-10-28T10:15:21.417170+00:00",
-  "reviewer": "Codex manager_review continuation; actual view_image inspection",
+  "reviewedAt": "2026-10-29T07:35:25.901179+00:00",
+  "reviewer": "Codex manager_review; all10current-branded states actually inspected with view_image; unchanged8native sources and23contact pages retain earlier reviewed evidence by current SHA.",
   "manifest": "assets/portraits/customization/manifest.json",
-  "manifestSHA256": "27b025e7de0e9bae17e71e120202cefffc6128bce88a62f2852adf38731cb3b1",
+  "manifestSHA256": "e25f2c93f1a2ed58073c2187f34987b9c929f9d0734e710f3d2aa314de1121a6",
   "mechanicalValidation": {
     "file": "records/manager-customization-validation.json",
-    "sha256": "3b5950eef44d01e1f3076955b6c5896b1590e74cc50d09bfe21b2e732a8fe8f0",
+    "sha256": "611d349cef307bffc6f50147149c385292873c506b89ca7f943e6661c92e6471",
     "checks": 3503,
     "failures": 0
   },
   "browserValidation": {
     "file": "records/manager-gallery-browser-validation.json",
-    "sha256": "3e637bebfd5c06fd3d1e5a641e5f5f20ca0e23124406cbac5e507cd527a88721",
-    "checks": 8,
-    "failures": 0
+    "sha256": "1ea5e27c702b447b9b8f86544a478cb71d283f8762aad7cf3f57e8eacffe3d2f"
   },
   "reviewedSources": [
     {
@@ -361,123 +359,253 @@
     },
     {
       "image": "previews/manager-customization/states/advanced.png",
-      "sha256": "de01523dd474e66090108b14818d8e8244783e55d6af8d742a07dd0c24c55868",
+      "sha256": "85a0f8ac2867760b23708a322be81a3a11dcceab1851428134ae6be6552da17f",
       "kind": "advanced-state",
       "id": "advanced",
       "layoutRecord": "layouts/manager-customization/advanced.json",
-      "layoutRecordSHA256": "87e5d47960cd25a94b4a90f243bfccf53c213897e8a2389961d726a0a5f17a50",
+      "layoutRecordSHA256": "abe44c3b117d0e97339c31376aac0ba0026786a3adb318910858ec8d1f73fb9c",
       "status": "locally-reviewed",
       "findings": [
-        "Seven visible fields and fixed portrait are legible; independent arrows and toggles align with their field rows."
-      ]
+        "正式页脚symbol与云途万里名称可辨，保持独立五官列表与肖像；没有遮挡或裁切。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "de01523dd474e66090108b14818d8e8244783e55d6af8d742a07dd0c24c55868",
+          "layoutRecordSHA256": "87e5d47960cd25a94b4a90f243bfccf53c213897e8a2389961d726a0a5f17a50",
+          "status": "locally-reviewed",
+          "findings": [
+            "Seven visible fields and fixed portrait are legible; independent arrows and toggles align with their field rows."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "de01523dd474e66090108b14818d8e8244783e55d6af8d742a07dd0c24c55868",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/advanced-scroll-bottom.png",
-      "sha256": "1364077cb65be47eaa1ab9a8411b44cccd7a5a9a958e4396a41f9bc603f29dc7",
+      "sha256": "e195f288819a8ecdd07ee0aa8ae43f6524aa5daa2c3c5dae7d64aaf90fee49ac",
       "kind": "advanced-state",
       "id": "advanced-scroll-bottom",
       "layoutRecord": "layouts/manager-customization/advanced-scroll-bottom.json",
-      "layoutRecordSHA256": "846c1db99da0e5f0a3c4e02862e0cae2ef5bf03633178315b40e9d7e5a760c4f",
+      "layoutRecordSHA256": "93c5bc6f7bc35e812cd535ac4f9d336f0a2dac4e7b023696d3471b29c78d3ece",
       "status": "locally-reviewed",
       "findings": [
-        "Lower clothing/accessory rows, list count and bottom scrollbar position are legible."
-      ]
+        "正式页脚已去暂名，服饰/配饰下半列表与滚动条清楚；没有品牌图覆盖控件。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "1364077cb65be47eaa1ab9a8411b44cccd7a5a9a958e4396a41f9bc603f29dc7",
+          "layoutRecordSHA256": "846c1db99da0e5f0a3c4e02862e0cae2ef5bf03633178315b40e9d7e5a760c4f",
+          "status": "locally-reviewed",
+          "findings": [
+            "Lower clothing/accessory rows, list count and bottom scrollbar position are legible."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "1364077cb65be47eaa1ab9a8411b44cccd7a5a9a958e4396a41f9bc603f29dc7",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/moustache-on.png",
-      "sha256": "7c30af96b161683f8c8ec633b4078e1e319f2e161264afc2a084ee76301af307",
+      "sha256": "907fbd848078c610f9fe4b140d9a0cdb729301cf84e89211adb7c23828bc3232",
       "kind": "advanced-state",
       "id": "moustache-on",
       "layoutRecord": "layouts/manager-customization/moustache-on.json",
-      "layoutRecordSHA256": "361acc40268de4f6e723feb8323be3686deb593bc61d01568f9ff6820ba24f30",
+      "layoutRecordSHA256": "512b55b9406f740a6fd4b1c1161f8ae0d08a0f961be10819ca55ada5a79ff0f2",
       "status": "locally-reviewed",
       "findings": [
-        "Beard composition replaces the separate nose/mouth parameter controls, with one lower-face ensemble and no duplicate visible mouth."
-      ]
+        "正式页脚清楚，胡须开启与独立鼻/嘴隐藏规则保持，原肖像与按钮未被品牌遮挡。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "7c30af96b161683f8c8ec633b4078e1e319f2e161264afc2a084ee76301af307",
+          "layoutRecordSHA256": "361acc40268de4f6e723feb8323be3686deb593bc61d01568f9ff6820ba24f30",
+          "status": "locally-reviewed",
+          "findings": [
+            "Beard composition replaces the separate nose/mouth parameter controls, with one lower-face ensemble and no duplicate visible mouth."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "7c30af96b161683f8c8ec633b4078e1e319f2e161264afc2a084ee76301af307",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/glasses-off.png",
-      "sha256": "7f552caea914b77cd242a7f41efa3fe15305b52700625e45b260e644ff5f2326",
+      "sha256": "10f15fe83f354ddbb398772338ed919da84f641777a22c49a6f364f5b674ac9d",
       "kind": "advanced-state",
       "id": "glasses-off",
       "layoutRecord": "layouts/manager-customization/glasses-off.json",
-      "layoutRecordSHA256": "d0648f86a55a77b2feb2a5eb6157a5f7b441905fb6861d5699a23d65faf3f5db",
+      "layoutRecordSHA256": "2fb9216f5be40ded25263d17c35dcbbd0bc588143d513cc72f2185cbb84938ae",
       "status": "locally-reviewed",
       "findings": [
-        "Glasses are absent while eyes, hair and clothing remain visible."
-      ]
+        "正式页脚清楚；眼镜关闭、眉眼及服饰仍保持，控件完整。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "7f552caea914b77cd242a7f41efa3fe15305b52700625e45b260e644ff5f2326",
+          "layoutRecordSHA256": "d0648f86a55a77b2feb2a5eb6157a5f7b441905fb6861d5699a23d65faf3f5db",
+          "status": "locally-reviewed",
+          "findings": [
+            "Glasses are absent while eyes, hair and clothing remain visible."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "7f552caea914b77cd242a7f41efa3fe15305b52700625e45b260e644ff5f2326",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/earring-off.png",
-      "sha256": "193f560fda6f7fc453f2e2e2a0f41deaab125995e43bc46294aff3b6c765a290",
+      "sha256": "7d74dc7e29aeb2d8897eb54403225e22644ffee79706113bae05c881057b0428",
       "kind": "advanced-state",
       "id": "earring-off",
       "layoutRecord": "layouts/manager-customization/earring-off.json",
-      "layoutRecordSHA256": "fdacac961a16a7cde12ed51fefca3e6e8be3ea33961501bfd80b9547e8a1ced2",
+      "layoutRecordSHA256": "036c649f6b78dcfdc944bfc56227e1dbdb5042a11a1357938c00ff1467068f9b",
       "status": "locally-reviewed",
       "findings": [
-        "Earrings are absent with the source-compatible style-2 controls and portrait retained."
-      ]
+        "正式页脚清楚，耳饰关闭、样式2及对应字段显示保持一致。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "193f560fda6f7fc453f2e2e2a0f41deaab125995e43bc46294aff3b6c765a290",
+          "layoutRecordSHA256": "fdacac961a16a7cde12ed51fefca3e6e8be3ea33961501bfd80b9547e8a1ced2",
+          "status": "locally-reviewed",
+          "findings": [
+            "Earrings are absent with the source-compatible style-2 controls and portrait retained."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "193f560fda6f7fc453f2e2e2a0f41deaab125995e43bc46294aff3b6c765a290",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/eye-colours.png",
-      "sha256": "3159a48b15af65adcf7c08cfedcbdf4d21378ad59f224f351fb9f55266a0f589",
+      "sha256": "e32465e899585049229562fa7bc63efc348ae1b578898989dc8275e7fb9acd93",
       "kind": "advanced-state",
       "id": "eye-colours",
       "layoutRecord": "layouts/manager-customization/eye-colours.json",
-      "layoutRecordSHA256": "0b7f47858885df2a8212cbb9a5555e1a3027aa4431b85253e3565df9072b5c7e",
+      "layoutRecordSHA256": "ac4e2165aac99b66295d837ed31ae1503e682a21c0a6163b1eeaff8cda23a9a0",
       "status": "locally-reviewed",
       "findings": [
-        "Brown, blue and green iris differences are clear in portrait and native-size eye strips; non-iris appearance is consistent."
-      ]
+        "正式页脚清楚；棕/蓝/绿三色虹膜原尺寸对照、人物和标签无遮挡。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "3159a48b15af65adcf7c08cfedcbdf4d21378ad59f224f351fb9f55266a0f589",
+          "layoutRecordSHA256": "0b7f47858885df2a8212cbb9a5555e1a3027aa4431b85253e3565df9072b5c7e",
+          "status": "locally-reviewed",
+          "findings": [
+            "Brown, blue and green iris differences are clear in portrait and native-size eye strips; non-iris appearance is consistent."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "3159a48b15af65adcf7c08cfedcbdf4d21378ad59f224f351fb9f55266a0f589",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/facecode-load.png",
-      "sha256": "918c28728dce0905a8590011c230de5e54c4fef08d4385e8d0eb1c8c4e3ca007",
+      "sha256": "85766cdf21563479b80c1c36ddcfae92db0f2a84f964183a11eb7dd98f3134d9",
       "kind": "advanced-state",
       "id": "facecode-load",
       "layoutRecord": "layouts/manager-customization/facecode-load.json",
-      "layoutRecordSHA256": "1cf2da39785b4684cd637f33a64f04fb241e45d23c8569441fb42ee49178c5f4",
+      "layoutRecordSHA256": "64d67f9db56a0fcbad7942c879c36ee722917c4b223e99817c476336df540562",
       "status": "locally-reviewed",
       "findings": [
-        "Typed code default/face1:16 and successful glasses-on portrait are readable; misleading dropdown arrow removed."
-      ]
+        "正式页脚随背景模态遮罩正确变暗；载入有效码、眼镜开启肖像与确认/取消可辨；文字输入没有下拉箭头。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "918c28728dce0905a8590011c230de5e54c4fef08d4385e8d0eb1c8c4e3ca007",
+          "layoutRecordSHA256": "1cf2da39785b4684cd637f33a64f04fb241e45d23c8569441fb42ee49178c5f4",
+          "status": "locally-reviewed",
+          "findings": [
+            "Typed code default/face1:16 and successful glasses-on portrait are readable; misleading dropdown arrow removed."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "918c28728dce0905a8590011c230de5e54c4fef08d4385e8d0eb1c8c4e3ca007",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/facecode-save.png",
-      "sha256": "08bc77075fd40d2e2628fab4262071162c0d7b64c8dcb25e949d70ef68a724e2",
+      "sha256": "c0060215af85bc76a722ceed2b542c4caf9372be34988924281d86db4f216b3a",
       "kind": "advanced-state",
       "id": "facecode-save",
       "layoutRecord": "layouts/manager-customization/facecode-save.json",
-      "layoutRecordSHA256": "4549cbc58c94b8c55951601c6ee1561f55c609da9548f2bd6f013d3ede098b92",
+      "layoutRecordSHA256": "53ac1c9f6e683264d8ac960bf69efc1d79f7f4941a118686b227bd254bf72727",
       "status": "locally-reviewed",
       "findings": [
-        "Saved code and confirmation are readable; field is specified as read-only single-line text with no dropdown arrow."
-      ]
+        "正式页脚随模态背景变暗；保存码、成功提示及按钮可辨；只读文字框没有下拉箭头。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "08bc77075fd40d2e2628fab4262071162c0d7b64c8dcb25e949d70ef68a724e2",
+          "layoutRecordSHA256": "4549cbc58c94b8c55951601c6ee1561f55c609da9548f2bd6f013d3ede098b92",
+          "status": "locally-reviewed",
+          "findings": [
+            "Saved code and confirmation are readable; field is specified as read-only single-line text with no dropdown arrow."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "08bc77075fd40d2e2628fab4262071162c0d7b64c8dcb25e949d70ef68a724e2",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/facecode-invalid.png",
-      "sha256": "a7ddfeb28c0e4a0d4add074c9afe68e8448caba2a57345d5b2e00bced9242c9c",
+      "sha256": "7914879a7ddabab14281e6f400c7bc206e4e05cb713470e4383edcc0d83244a7",
       "kind": "advanced-state",
       "id": "facecode-invalid",
       "layoutRecord": "layouts/manager-customization/facecode-invalid.json",
-      "layoutRecordSHA256": "50bf4ef53e5ddf5e7553528d09ca28b0f258087473c268e79bfad709ff4b92c2",
+      "layoutRecordSHA256": "24ae1b267be2d417412b571b56c18012aa0a241195975948b220b05f3180bce8",
       "status": "locally-reviewed",
       "findings": [
-        "Long invalid code uses visible ellipsis within field; error message remains readable and existing portrait stays unchanged; full127-character input is preserved in layout metadata."
-      ]
+        "正式页脚无暂名且在模态背景内变暗；长非法码保留省略显示与红色错误提示，原头像保持；输入框无下拉箭头。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "a7ddfeb28c0e4a0d4add074c9afe68e8448caba2a57345d5b2e00bced9242c9c",
+          "layoutRecordSHA256": "50bf4ef53e5ddf5e7553528d09ca28b0f258087473c268e79bfad709ff4b92c2",
+          "status": "locally-reviewed",
+          "findings": [
+            "Long invalid code uses visible ellipsis within field; error message remains readable and existing portrait stays unchanged; full127-character input is preserved in layout metadata."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "a7ddfeb28c0e4a0d4add074c9afe68e8448caba2a57345d5b2e00bced9242c9c",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     },
     {
       "image": "previews/manager-customization/states/cancel-restores-original.png",
-      "sha256": "c448e6322814c5112438e9dc5b6f9afd2bda4ff6ca9624549b53618720082740",
+      "sha256": "0d36a4292d6d44224e4df551321c2aa4467aa483469fa670bd1d8d58091c235f",
       "kind": "advanced-state",
       "id": "cancel-restores-original",
       "layoutRecord": "layouts/manager-customization/cancel-restores-original.json",
-      "layoutRecordSHA256": "67ac549fc44d3d5983bd74c43f127bb2c96a146096f96d5ae65fbaff781f6daa",
+      "layoutRecordSHA256": "78ca9ef1f6f22370306957dbdcd19cb37203798597b9094ee7dfcd7edfc2d2b0",
       "status": "locally-reviewed",
       "findings": [
-        "Edited and restored portraits can be compared; the restored original matches the initial image SHA."
-      ]
+        "正式页脚清楚；编辑中/取消后原外观对照与还原按钮保持，不遮挡或误替换肖像。"
+      ],
+      "reviewHistory": [
+        {
+          "sha256": "c448e6322814c5112438e9dc5b6f9afd2bda4ff6ca9624549b53618720082740",
+          "layoutRecordSHA256": "67ac549fc44d3d5983bd74c43f127bb2c96a146096f96d5ae65fbaff781f6daa",
+          "status": "locally-reviewed",
+          "findings": [
+            "Edited and restored portraits can be compared; the restored original matches the initial image SHA."
+          ],
+          "reviewedAt": "2026-10-28T10:15:21.417170+00:00"
+        }
+      ],
+      "previousSHA256": "c448e6322814c5112438e9dc5b6f9afd2bda4ff6ca9624549b53618720082740",
+      "reviewedAt": "2026-10-29T07:35:25.901179+00:00"
     }
   ],
   "reviewedContactPageCount": 23,
@@ -501,5 +629,17 @@
   ],
   "scope": "All23 existing contact pages, all10 advanced states and8 native sources actually viewed.213 source sprite slots each shown at least once. This is local illustrated-art review of delivered samples, not an exhaustive Cartesian product or a user approval. Runtime parser, configuration persistence and Unity remain unimplemented in this art phase.",
   "userAccepted": false,
-  "unityValidated": false
+  "unityValidated": false,
+  "previousReviewAt": "2026-10-28T10:15:21.417170+00:00",
+  "previousManifestSHA256": "27b025e7de0e9bae17e71e120202cefffc6128bce88a62f2852adf38731cb3b1",
+  "complete": true,
+  "status": "passed-local-review",
+  "brandingContinuation": {
+    "reviewedAt": "2026-10-29T07:35:25.901179+00:00",
+    "actualChangedStatesViewed": 10,
+    "unchangedReviewedSourcesRetained": 8,
+    "unchangedReviewedContactPagesRetained": 23,
+    "operation": "Existing native branding PNG and formal-name footer deterministically composited; no imagegen and no portrait/core-part change. Modal screens preserve normal background dimming.",
+    "inputFieldFixRetained": true
+  }
 }

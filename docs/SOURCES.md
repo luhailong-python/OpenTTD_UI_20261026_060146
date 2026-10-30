@@ -9,7 +9,7 @@
 | 参考源码本地 | E:/work/image/OpenTTD_UI_20261026_060146/reference/OpenTTD | 仅研究，与未来成果提交分别管理 |
 | 美术参考仓库 | F:/work/image | 用户指定风格与获准控件 |
 | 本次成果 | E:/work/image/OpenTTD_UI_20261026_060146 | 本对话独立目录 |
-| 成果GitHub/账号 | 待用户提供 | 本阶段无提交、推送或发布 |
+| 成果GitHub/账号 | [luhailong-python/OpenTTD_UI_20261026_060146](https://github.com/luhailong-python/OpenTTD_UI_20261026_060146) | 独立仓库 `main`；见[Git交付说明](GIT_DELIVERY.md) |
 
 ## 实际美术来源
 
@@ -20,6 +20,8 @@
 - 字体来自Google Fonts官方仓库Noto Sans SC与Ma Shan Zheng；下载证据、哈希与OFL随包。
 
 世界、建筑、产业、植被、交通设施和效果的原生母图位于`source-art/world/`；车辆27幅母图位于`assets/world/vehicles/families/*/atlas.png`。本项目的`assets/world-viewport.png`额外用作世界投影与环境参考。真实8向载具、共享建筑母型、材质投影、模块组合、施工阶段、颜色派生和二维动画的区别均保留在分包manifest及派生记录中。
+
+正式名称《云途万里》与本地 Logo 已获用户授权整合。品牌原生图、实际提示词、调用记录、参考SHA、透明成品与等比缩小版集中在[品牌包](../branding/yuntu-wanli/README.md)，分别追溯各自生成记录；不把缩小版计成新原画，也不改写早期生成/迁移历史。授权采用不自动等于用户最终审美批准。
 
 原始艺术输入与现存规范实际核验：`art-references.json`和`ART_REFERENCE_AUDIT.md`。本项目来源关联的权威位置是 [本项目美术来源关联](image-reference-associations.md)。原来7段UI关联已迁回此文件；F盘对应README中的本项目新增段已移除，之后完全只读。原写入前后哈希、段落与日期见`../records/f-art-associations.json`，仅作历史执行证据；[项目关联索引](PROJECT_ASSOCIATIONS.md)连接当前记录。
 
@@ -37,5 +39,5 @@
 
 源码仓库没有使用Git LFS；所需本仓图像/GRF真实字节已核验。完整OpenGFX/OpenSFX/OpenMSX是上游另行下载的运行资源，不在该源码clone里，不能声称已取得完整游戏运行美术。没有编译或运行上游。上游许可原文与第三方说明保留在参考仓库中；本次交付没有复制原游戏图像皮肤作为新美术。
 
-Unity业务、场景、Prefab、在线接口与运行验收在下一阶段。本地UI/世界美术评审、静态方向或工具浏览器检查不代表Unity或游戏运行验收。世界新增资源按549项需求另行覆盖与验收，当前整体状态见[FULL_GAME_ACCEPTANCE_STATUS.json](FULL_GAME_ACCEPTANCE_STATUS.json)。
+Unity业务、场景、Prefab、在线接口与运行验收在下一阶段。本地UI/世界美术评审、静态方向或工具浏览器检查不代表Unity或游戏运行验收。世界资源按550项需求覆盖与验收，品牌补包由最终整合后的独立终检统一计数；当前整体状态与输入版本见[FULL_GAME_ACCEPTANCE_STATUS.json](FULL_GAME_ACCEPTANCE_STATUS.json)。
 

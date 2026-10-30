@@ -1,16 +1,20 @@
 # 美术参考素材关联记录
 
-本文件是本对话项目关联的权威记录。2026-10-26，按用户要求将误写在 `F:\work\image` 素材 README 中的本项目关联记录迁回本项目；之后F盘完全只读。素材来源、实际使用位置、哈希及生成证据按原记录保留。成果GitHub、账号和提交要求待用户提供，没有执行提交、推送或发布。
+本文件是本对话项目关联的权威记录。2026-10-26，按用户要求将误写在 `F:\work\image` 素材 README 中的本项目关联记录迁回本项目；之后F盘完全只读。素材来源、实际使用位置、哈希及生成证据按原记录保留。当前成果远端已由独立工作区 origin 核实为 [luhailong-python/OpenTTD_UI_20261026_060146](https://github.com/luhailong-python/OpenTTD_UI_20261026_060146)，Git 交付说明见 [GIT_DELIVERY.md](GIT_DELIVERY.md)。以下按日期保存的早期迁移原文保留其历史状态。
 
 ## 世界、车辆与效果的新增使用关联
 
-- 项目：云途万里（暂名）· OpenTTD 道家Q版完整游戏美术；本对话目录`E:/work/image/OpenTTD_UI_20261026_060146`。
+- 项目：云途万里 · OpenTTD 道家Q版完整游戏美术；本对话目录`E:/work/image/OpenTTD_UI_20261026_060146`。
 - 功能参考：[OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD.git)，固定提交`cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`；不是成果提交仓库。
 - 美术参考仓库：`F:/work/image`。实际使用相对路径仍为`designs/mail-ui-v1/01-mail-event.png`和`designs/team-ui-v2/team-ui-v2.png`；关联类型为风格参考。
 - 使用位置：`source-art/world/`下地形、水、道路、轨道、房屋、产业、植被、设施、效果和灾难母图，以及`assets/world/vehicles/families/*/atlas.png`的27个载具家族。使用玉绿/青绿、象牙纸绢色、暖金细节、圆润Q版和细腻手绘方向，没有把UI窗口、旧文字或旧业务画入世界地块。
 - 本项目`assets/world-viewport.png`作为附加环境/投影参考；朝向引导图等是有记录的几何说明，不冒称AI手绘。各次实际图片输入与哈希以对应`*.generation.json`为准，完整记录列表见`../records/full-game-art-audit.json`。
 - 独立控件、地物和车辆的裁切、投影、调色、拼装、施工状态、静态朝向及二维动画按各自manifest追溯源图。共享母型不冒称每个源ID拥有独立原生绘画。
 - 核实日期：2026-10-26（America/New_York）。本条仅记录本地素材关联；用户美术审阅、世界最终覆盖复核和下一阶段Unity运行验收分别记录。没有向F盘写入本段。
+
+## 当前品牌使用关联
+
+正式游戏名为《云途万里》，用户已授权采用名称与本地 Logo 并纳入整款美术交付；用户最终审美批准仍待确认。[品牌包](../branding/yuntu-wanli/README.md)集中保留主 Logo、独立图标、实际提示词、调用记录、参考SHA和派生尺寸。两张指定 UI 主参考按品牌逐图记录实际附入，运输城镇拼装图与主 Logo 的附加身份参考分别记录，不追写到早期调用中。当前文案与布局合同使用正式名，以下迁移原文按历史日期原样保存。
 
 ## 早期UI关联迁移原文
 

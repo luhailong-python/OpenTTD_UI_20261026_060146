@@ -1,9 +1,30 @@
 {
   "schema": "cloud-route.compact-art-import-index.v1",
-  "createdAt": "2026-10-28T12:11:48.944583+00:00",
-  "formalPNGCount": 12204,
-  "scope": "Compact file/import metadata only; full state/source composition contracts remain in the referenced manifests. Includes formal mask/data PNGs; PNG counts are not native painting counts. Superseded non-authoritative shoreline references excluded.",
+  "project": "云途万里",
+  "createdAt": "2026-10-29T07:43:31.361339+00:00",
+  "formalPNGCount": 12212,
+  "scope": "Complete formal PNG/import index, including two native brand PNGs and six size exports at canonical branding/yuntu-wanli paths. Includes formal mask/data PNGs; PNG counts are not native painting counts. Superseded non-authoritative shoreline references excluded. Full state/source composition contracts remain in source manifests.",
   "assetManifests": [
+    {
+      "file": "assets/common/micro-ui/manifest.json",
+      "sha256": "9e8c5d577433f8d4cd3cde7cb3f680e601600d2e652ceb489ded4859d62debe7"
+    },
+    {
+      "file": "assets/common/pointers/components/manifest.json",
+      "sha256": "d24e7add0e70e84d35a14879fc3cec7a63e6ef3613411cec6692d1c08ba94819"
+    },
+    {
+      "file": "assets/common/pointers/manifest.json",
+      "sha256": "262ac9aaaa844502fcaea6a9c30d4bbc2ad250f4e69375db5947afccadfccd79"
+    },
+    {
+      "file": "assets/common/pointers/markers/manifest.json",
+      "sha256": "93ac940b7390a4f499bb495d8883fb633d7174966a310661c4cd5f499e660caf"
+    },
+    {
+      "file": "assets/portraits/customization/manifest.json",
+      "sha256": "e25f2c93f1a2ed58073c2187f34987b9c929f9d0734e710f3d2aa314de1121a6"
+    },
     {
       "file": "assets/world/effects/breakdown-smoke/manifest.json",
       "sha256": "bb40fa31d9eb9c3c6d4c3ba6654aec6c78b5a52558b937b0b546b5808c2e28ee"
@@ -1421,29 +1442,171 @@
       "sha256": "b377e8ca2b1a4efb4f1257c8ae110b3d79420b4f5eb65fbf3bb060d799975b45"
     },
     {
-      "file": "assets/portraits/customization/manifest.json",
-      "sha256": "27b025e7de0e9bae17e71e120202cefffc6128bce88a62f2852adf38731cb3b1"
+      "file": "branding/yuntu-wanli/manifest.json",
+      "sha256": "10885823fd86d91096f021d180eb54d0c4ec1af7bc11316240de041b79cdd075"
     },
     {
-      "file": "assets/common/micro-ui/manifest.json",
-      "sha256": "9e8c5d577433f8d4cd3cde7cb3f680e601600d2e652ceb489ded4859d62debe7"
+      "file": "docs/asset-branding-manifest.json",
+      "sha256": "221d149a8b6fd2c3098700d367bdfa9f2640881e3666178ff553548a07d8bc3d"
     },
     {
-      "file": "assets/common/pointers/components/manifest.json",
-      "sha256": "d24e7add0e70e84d35a14879fc3cec7a63e6ef3613411cec6692d1c08ba94819"
-    },
-    {
-      "file": "assets/common/pointers/manifest.json",
-      "sha256": "262ac9aaaa844502fcaea6a9c30d4bbc2ad250f4e69375db5947afccadfccd79"
-    },
-    {
-      "file": "assets/common/pointers/markers/manifest.json",
-      "sha256": "93ac940b7390a4f499bb495d8883fb633d7174966a310661c4cd5f499e660caf"
+      "file": "docs/ASSET_MASTER_MANIFEST.json",
+      "sha256": "6ddb40d060a5c902801482151392e9d810f0c7bc70a2a68fc332f3d9846d3fe6"
     }
   ],
   "generationEvidenceIndex": "records/full-game-art-audit.json",
+  "brandGenerationEvidence": [
+    {
+      "record": "branding/yuntu-wanli/logo-main.png.generation.json",
+      "recordSHA256": "9e31b6e5ef4b390cb851564103932bffba74d4db378b468d7cab0e1b735ba03f",
+      "file": "branding/yuntu-wanli/logo-main.png",
+      "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b",
+      "nativeSize": [
+        1860,
+        845
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "branding/yuntu-wanli/records/logo-main.prompt.txt",
+      "promptFileSHA256": "39e98b7994791cc671d16a33b08b60a91c712bcf97165bd47276eeb819079b19",
+      "submittedParameters": {
+        "model": null,
+        "quality": null,
+        "prompt": "Use case: logo-brand\nAsset type: finished Chinese game title logo on genuine transparent alpha.\nPrimary request: Design a polished, distinctive logo for a warm Taoist-inspired chibi transport-and-industry management game. The exact game title is “云途万里”. Make one finished horizontal logo lockup, not a sheet of options.\nInput images: Image 1 and Image 2 are STRICT visual-style references only: rounded jade green forms, ivory, fine warm-gold edging, refined Chinese hand-painted craftsmanship. Do not copy their UI, existing text, characters, or RPG content. Image 3 is the ACTUAL game-world reference: its jade-and-ivory steam locomotive, warm town craftsmanship and appealing scale establish the game's transport identity.\nComposition: broad approximately 2.2:1 horizontal logo with generous clean transparent margins. A compact cloud-and-locomotive emblem occupies the left quarter; the FOUR Chinese characters “云途万里” occupy the remaining width in ONE clear horizontal reading line. Keep emblem and lettering distinct and balanced with a small clear gap, with no image behind the glyphs. The title is dominant, occupying about 65–70 percent of the overall logo width. All of the logo must be visible, nothing clipped.\nTypography: custom thick, rounded, confident Chinese brush lettering, playful yet elegant. Render EXACTLY four simplified Chinese characters, from left to right: 云 / 途 / 万 / 里. Preserve correct, legible character structures. Warm ivory faces, deep jade-green substantial outlines with a thin champagne-gold outer rim, restrained hand-painted carved depth. Clean bold silhouettes and open counters for readability when reduced. Gentle rhythmic movement in the brush shapes, not aggressive sharp wuxia strokes. Let the final sweeping stroke suggest an onward route without obscuring the words.\nEmblem: one charming little jade-green and ivory steam locomotive with warm-gold trim, simplified from the actual world reference. A three-quarter front view, cute compact proportions, no face. Its steam turns into one soft ivory ruyi-cloud curl, with a tiny jade mountain shape and one gracefully curving short railway segment integrated into a single compact silhouette. The route curve hints at harmonious circulation, never an explicit yin-yang diagram. Prioritize a recognizable locomotive and beautiful readable cloud silhouette over miniature detail. One tiny muted cinnabar accent on the train.\nStyle/medium: premium Chinese hand-painted game branding, softly sculpted gold/jade finish and subtle tactile brushwork, matching the attached finished art. Intentional restrained ornament, beautifully drawn edges, luminous but not glossy plastic. Clear outside silhouette, internal contrast, richly finished without a cluttered full scene.\nColor palette: deep jade #164F45, warm ivory #FFF2D1, muted gold #B78F49; tiny cinnabar #AE493A accent only. Transparent negative spaces.\nText (verbatim): “云途万里”. NO other text, no subtitle, English, labels, extra seals with characters, numerals, or watermarks.\nConstraints: real transparent background with alpha0 outside the logo and through negative spaces; no painted checkerboard, white rectangle, fake transparency, opaque background, mockup, lighting stage, drop-shadow panel or UI frame. No people, swords, wings, fantasy beasts, treasure piles, bagua, dungeon or combat cues. Do not add other transport vehicles or dense town scenery. Do not make generic app typography. Native high resolution; preserve clean logo details and complete margins.",
+        "referenced_image_paths": [
+          "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+          "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+          "E:\\work\\image\\OpenTTD_UI_20261026_060146\\previews\\world\\assembled-transport-town.png"
+        ],
+        "transparent_background": true
+      },
+      "references": [
+        {
+          "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "purpose": "visual style / actual game art reference"
+        },
+        {
+          "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "purpose": "visual style / actual game art reference"
+        },
+        {
+          "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\previews\\world\\assembled-transport-town.png",
+          "sha256": "eedd8b4311e79b9069f9d853f09309a9b26e4e038e34d8c25ddd8f9c08cac2db",
+          "purpose": "visual style / actual game art reference"
+        }
+      ],
+      "generatedAt": "2026-10-29T03:00:51.262Z",
+      "evidence": {
+        "returnedFields": [
+          "image_url",
+          "output_hint"
+        ],
+        "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-af3de927-daf7-4a9c-b30c-3bab364c7c38.png",
+        "callRecord": "records/logo-main-call.json"
+      },
+      "callRecord": "branding/yuntu-wanli/records/logo-main-call.json",
+      "callRecordSHA256": "79590b69e8a4b0269d07fb1638c6ac202acb8079b6487bd72959d471f3920265",
+      "configurationGoal": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-22",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+          "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+        }
+      },
+      "unverifiedReason": "宿主管理；工具无 model/quality 参数，返回仅 image_url/output_hint，未披露具体模型及质量。",
+      "retained": true,
+      "retirementReason": null
+    },
+    {
+      "record": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "recordSHA256": "2688c0a67280d2afe503dd22e0f9b8f40e79a67b0ec28a78c083191ca301e340",
+      "file": "branding/yuntu-wanli/logo-symbol.png",
+      "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "promptFile": "branding/yuntu-wanli/records/logo-symbol.prompt.txt",
+      "promptFileSHA256": "317edbc8b43d98f0898048fc47276f3885821e7c92a4bd93f59e4dc82a3dd3e8",
+      "submittedParameters": {
+        "model": null,
+        "quality": null,
+        "prompt": "Use case: logo-brand\nAsset type: compact standalone game emblem with genuine transparent alpha, designed for launcher icons.\nPrimary request: Derive the symbol-only companion to the attached finished “云途万里” logo. Preserve its jade / ivory / fine warm-gold hand-painted identity and its appealing locomotive design, but simplify the composition decisively for small sizes.\nInput images: Image 1 is the finished parent logo, the authoritative identity reference. Images 2 and 3 are supporting visual-style references only; keep their premium rounded Taoist chibi hand-painted finish. Do not copy their UI or text.\nComposition: ONE roughly square compact emblem, fully visible with 12 percent transparent safe margins on all four sides. A charming chunky jade-and-ivory STEAM LOCOMOTIVE, three-quarter front view, with warm-gold round lamp, big clear wheels and one tiny muted cinnabar tassel, inside ONE open circular ivory ruyi-cloud curl. One simple jade mountain peak sits behind the train. A short curved railway segment supports the locomotive and completes the lower contour. Train dominates the symbol. One chimney only, no face, no human driver.\nReduction: remove the passenger car, trees, buildings, all lettering, lettering shadows, long horizontal swashes and miniature scenic detail. Keep only locomotive + cloud curl + single mountain + short railway. Use about 5–7 large strong forms, broad contrasts and restrained internal brush texture; excellent legibility at128px and64px. Preserve the train design/material language of the parent logo rather than inventing a new mascot. Rich crafted painted finish, not flat corporate vector, not shiny plastic.\nColor palette: deep jade #164F45, warm ivory #FFF2D1, muted warm gold #B78F49, a tiny cinnabar #AE493A accent. Ivory and gold edges separate the jade silhouette on dark backgrounds.\nConstraints: exactly ONE symbol; no text of any kind, Chinese or English, numerals, watermarks or layout labels. No solid square tile, checkerboard, background scene or UI frame. Actual transparent alpha0 surrounding the emblem, including negative spaces; no floating light haze or shadow panel. Do not let anything touch the canvas edge. No swords, bagua, fantasy creatures, RPG inventory props, or other vehicles. Request native high resolution around1024px square if available.",
+        "referenced_image_paths": [
+          "E:\\work\\image\\OpenTTD_UI_20261026_060146\\branding\\yuntu-wanli\\logo-main.png",
+          "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+          "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+        ],
+        "transparent_background": true
+      },
+      "references": [
+        {
+          "path": "E:\\work\\image\\OpenTTD_UI_20261026_060146\\branding\\yuntu-wanli\\logo-main.png",
+          "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b",
+          "purpose": "identity reference"
+        },
+        {
+          "path": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "purpose": "visual style / actual game art reference"
+        },
+        {
+          "path": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "purpose": "visual style / actual game art reference"
+        }
+      ],
+      "generatedAt": "2026-10-29T03:03:56.744Z",
+      "evidence": {
+        "returnedFields": [
+          "image_url",
+          "output_hint"
+        ],
+        "returnedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-3b84-7441-8fae-f844fcf6265a\\exec-e1a9221c-84fe-4fdc-ae80-327e524e47c6.png",
+        "callRecord": "records/logo-symbol-call.json"
+      },
+      "callRecord": "branding/yuntu-wanli/records/logo-symbol-call.json",
+      "callRecordSHA256": "a2c9be10432ae49e8a57e6bd9ec9502db06fa0000025fa6abf418c62087731dd",
+      "configurationGoal": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-22",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+          "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+        }
+      },
+      "unverifiedReason": "宿主管理；工具无 model/quality 参数，返回仅 image_url/output_hint，未披露具体模型及质量。",
+      "retained": true,
+      "retirementReason": null
+    }
+  ],
+  "brandSummary": {
+    "formalPNGs": 8,
+    "nativePNGs": 2,
+    "derivedPNGs": 6,
+    "canonicalManifest": "branding/yuntu-wanli/manifest.json",
+    "formalResourceManifest": "docs/asset-branding-manifest.json"
+  },
   "worldSourceCoverage": "docs/WORLD_DELIVERY_COVERAGE.json",
   "sourceUIFeatures": "docs/UI_MASTER_MANIFEST.json",
+  "historicalSourceLabelPolicy": "Current presentation uses the formal title. Historical source pack project labels and original submitted prompts are provenance and remain unchanged.",
   "userArtAccepted": false,
   "unityValidated": false,
   "assets": [
@@ -419012,6 +419175,386 @@
       "operation": "selected actual four-blade stopped artwork; native crop + center registration; deterministic rigid angle rotation and50percentX/25percentY projection with low-alpha adjacent-angle ghosts while running; no new AI call",
       "userArtAccepted": false,
       "unityValidated": false
+    },
+    {
+      "id": "brand_main_1024w",
+      "file": "branding/yuntu-wanli/logo-main-1024w.png",
+      "sha256": "f04698eecc7348d66a3fbecb9f015284d5d8ae5f504cafaf04dce30185413bdc",
+      "canvasPx": [
+        1024,
+        465
+      ],
+      "anchorFromTopLeftPx": [
+        512.0,
+        232.5
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": false,
+      "operation": "uniform LANCZOS downsample; original alpha preserved by resampling; no added native detail",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "main-title",
+      "derivedFrom": [
+        {
+          "file": "branding/yuntu-wanli/logo-main.png",
+          "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b",
+          "generationRecord": "branding/yuntu-wanli/logo-main.png.generation.json"
+        }
+      ],
+      "generationRecord": "branding/yuntu-wanli/logo-main.png.generation.json",
+      "generationRecordSHA256": "9e31b6e5ef4b390cb851564103932bffba74d4db378b468d7cab0e1b735ba03f",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_main_512w",
+      "file": "branding/yuntu-wanli/logo-main-512w.png",
+      "sha256": "0bf07d582a9f8f4f913cab779b60c9d3fe3e810b4eb97e7b817e767756c6469c",
+      "canvasPx": [
+        512,
+        233
+      ],
+      "anchorFromTopLeftPx": [
+        256.0,
+        116.5
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": false,
+      "operation": "uniform LANCZOS downsample; original alpha preserved by resampling; no added native detail",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "main-title",
+      "derivedFrom": [
+        {
+          "file": "branding/yuntu-wanli/logo-main.png",
+          "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b",
+          "generationRecord": "branding/yuntu-wanli/logo-main.png.generation.json"
+        }
+      ],
+      "generationRecord": "branding/yuntu-wanli/logo-main.png.generation.json",
+      "generationRecordSHA256": "9e31b6e5ef4b390cb851564103932bffba74d4db378b468d7cab0e1b735ba03f",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_main",
+      "file": "branding/yuntu-wanli/logo-main.png",
+      "sha256": "b3c4aef5cdc59647d84251c63b1a42cf1a6bd02d3674e0a424b6158cc7d1188b",
+      "canvasPx": [
+        1860,
+        845
+      ],
+      "anchorFromTopLeftPx": [
+        930.0,
+        422.5
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": true,
+      "operation": "Unmodified built-in image_gen native logo PNG",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "main-title",
+      "derivedFrom": [],
+      "generationRecord": "branding/yuntu-wanli/logo-main.png.generation.json",
+      "generationRecordSHA256": "9e31b6e5ef4b390cb851564103932bffba74d4db378b468d7cab0e1b735ba03f",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_symbol_128",
+      "file": "branding/yuntu-wanli/logo-symbol-128.png",
+      "sha256": "46f028a5d4e1b869615241d0e09d2a2a7a28f072c5578fc5d2474836acf35a6a",
+      "canvasPx": [
+        128,
+        128
+      ],
+      "anchorFromTopLeftPx": [
+        64.0,
+        64.0
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": false,
+      "operation": "uniform LANCZOS downsample; original alpha preserved by resampling; no added native detail",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "symbol",
+      "derivedFrom": [
+        {
+          "file": "branding/yuntu-wanli/logo-symbol.png",
+          "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+          "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json"
+        }
+      ],
+      "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "generationRecordSHA256": "2688c0a67280d2afe503dd22e0f9b8f40e79a67b0ec28a78c083191ca301e340",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_symbol_256",
+      "file": "branding/yuntu-wanli/logo-symbol-256.png",
+      "sha256": "4f538497b15755ac9d93863a8da125be2c903c13534718d1a97eb3d315e529fc",
+      "canvasPx": [
+        256,
+        256
+      ],
+      "anchorFromTopLeftPx": [
+        128.0,
+        128.0
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": false,
+      "operation": "uniform LANCZOS downsample; original alpha preserved by resampling; no added native detail",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "symbol",
+      "derivedFrom": [
+        {
+          "file": "branding/yuntu-wanli/logo-symbol.png",
+          "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+          "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json"
+        }
+      ],
+      "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "generationRecordSHA256": "2688c0a67280d2afe503dd22e0f9b8f40e79a67b0ec28a78c083191ca301e340",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_symbol_512",
+      "file": "branding/yuntu-wanli/logo-symbol-512.png",
+      "sha256": "6b1e62015d8d2f1ded8d34aa9a04ad2f0e38b2a8a0b6c3675f4e6ab6a92f2826",
+      "canvasPx": [
+        512,
+        512
+      ],
+      "anchorFromTopLeftPx": [
+        256.0,
+        256.0
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": false,
+      "operation": "uniform LANCZOS downsample; original alpha preserved by resampling; no added native detail",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "symbol",
+      "derivedFrom": [
+        {
+          "file": "branding/yuntu-wanli/logo-symbol.png",
+          "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+          "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json"
+        }
+      ],
+      "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "generationRecordSHA256": "2688c0a67280d2afe503dd22e0f9b8f40e79a67b0ec28a78c083191ca301e340",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_symbol_64",
+      "file": "branding/yuntu-wanli/logo-symbol-64.png",
+      "sha256": "0f4387af450e61dca97c3c07b9c1f3d87f2b6e8c2839b2779671a46843853dd1",
+      "canvasPx": [
+        64,
+        64
+      ],
+      "anchorFromTopLeftPx": [
+        32.0,
+        32.0
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": false,
+      "operation": "uniform LANCZOS downsample; original alpha preserved by resampling; no added native detail",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "symbol",
+      "derivedFrom": [
+        {
+          "file": "branding/yuntu-wanli/logo-symbol.png",
+          "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+          "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json"
+        }
+      ],
+      "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "generationRecordSHA256": "2688c0a67280d2afe503dd22e0f9b8f40e79a67b0ec28a78c083191ca301e340",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
+    },
+    {
+      "id": "brand_symbol",
+      "file": "branding/yuntu-wanli/logo-symbol.png",
+      "sha256": "96053fae79929157587a3001f5051dd267f5f763128084ddb88714dac8b9746b",
+      "canvasPx": [
+        1254,
+        1254
+      ],
+      "anchorFromTopLeftPx": [
+        627.0,
+        627.0
+      ],
+      "pivotUnity": [
+        0.5,
+        0.5
+      ],
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceManifest": "docs/asset-branding-manifest.json",
+      "additionalManifestReferences": [
+        "branding/yuntu-wanli/manifest.json",
+        "docs/ASSET_MASTER_MANIFEST.json"
+      ],
+      "sourceRequirementIds": [],
+      "category": "branding",
+      "state": null,
+      "direction": null,
+      "nativeModelGeneration": true,
+      "operation": "Unmodified built-in image_gen native logo PNG",
+      "userArtAccepted": false,
+      "unityValidated": false,
+      "role": "symbol",
+      "derivedFrom": [],
+      "generationRecord": "branding/yuntu-wanli/logo-symbol.png.generation.json",
+      "generationRecordSHA256": "2688c0a67280d2afe503dd22e0f9b8f40e79a67b0ec28a78c083191ca301e340",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelDisclosure": "Actual model/quality were not returned; requested configuration remains separately recorded in native generation evidence."
     }
   ]
 }

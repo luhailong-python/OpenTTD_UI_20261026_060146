@@ -1,6 +1,6 @@
 # 机场美术交付
 
-本地美术制作与内部检查已完成，用户画面验收待确认。未在 Unity 验证，未执行 Git 提交或上传。功能依据为项目内 OpenTTD 源码提交 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`，本目录全部输出属于“云途万里（暂名）”。
+本地美术制作与内部检查已完成，用户画面验收待确认。未在 Unity 验证，未执行 Git 提交或上传。功能依据为项目内 OpenTTD 源码提交 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`，本目录全部输出属于《云途万里》；正式名称与 Logo 的使用见[品牌包](../branding/yuntu-wanli/README.md)。
 
 - 图册：[机场预览](../previews/world/airports/index.html)。
 - 正式资源与映射：[airports/manifest.json](../assets/world/infrastructure/airports/manifest.json)。

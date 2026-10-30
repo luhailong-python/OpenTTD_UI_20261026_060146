@@ -1,6 +1,6 @@
 # 水路、信号、场地支撑与设施美术交付
 
-本包只包含当前项目的图片、切层、序列与接入数据。临时名称为“云途万里”。功能参考为 OpenTTD，源提交 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`；画法继承本项目已读取的 F 盘邮件与组队成图。没有 Unity 运行验证，也没有 Git 提交或推送。
+本包只包含当前项目的图片、切层、序列与接入数据。正式名称为《云途万里》，名称与本地 Logo 已获授权纳入交付，见[品牌包](../branding/yuntu-wanli/README.md)。功能参考为 OpenTTD，源提交 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`；画法继承本项目已读取的 F 盘邮件与组队成图。没有 Unity 运行验证，也没有 Git 提交或推送，用户最终审美批准仍待确认。
 
 正式资源位于 `assets/world/infrastructure/`，本服务分包合计 **1266 张 PNG、64 个时间或状态序列**。计数包含共享原件和实际派生件，不等同于1266张新生原画。最终以各 manifest 的当前文件哈希为准。
 
@@ -32,7 +32,7 @@ Foundation使用现有原生连续石面纹理和实际角高构造支撑面。�
 
 保留每张manifest的画布、`anchorPx`与`pivotUnity`。常见地面256×128，建筑／机械512×512，水岸512×384，信号384×384；不要按可见Alpha包围盒逐帧裁短。Sprite类型建议Single、Mesh Type Full Rect、关闭旋转紧密打包，按目标缩放评估过滤与压缩。以上是导入建议，尚未经Unity实际验证。
 
-源ID、布局与状态映射均在分包`coverageMappings`；全游戏的549行在`docs/WORLD_DELIVERY_COVERAGE.json`。世界图册`previews/world/index.html`支持所有动画／状态组的下拉选择、搜索、6组分页和重播，产业动画优先显示实际父体组装帧。
+源ID、布局与状态映射均在分包`coverageMappings`；全游戏的550行在`docs/WORLD_DELIVERY_COVERAGE.json`。世界图册`previews/world/index.html`支持所有动画／状态组的下拉选择、搜索、6组分页和重播，产业8组／96相位动画优先显示实际父体组装帧。
 
 ## 检查与来源证据
 

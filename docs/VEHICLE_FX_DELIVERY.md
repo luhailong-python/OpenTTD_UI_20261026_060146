@@ -1,6 +1,6 @@
 # 载具、公共效果和灾难实体美术交付
 
-项目：云途万里（暂名）。核实日期：2026-10-26（America/New_York）。功能参考OpenTTD固定提交 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`，成果远端待用户提供。本批只在本对话E盘目录制作；F盘参考库完全只读，未提交或推送Git，未建立Unity工程。
+项目：云途万里。功能核实日期：2026-10-26（America/New_York）；正式名称与 Logo 的当前使用见[品牌包](../branding/yuntu-wanli/README.md)。功能参考OpenTTD固定提交 `cb7027538ccd8c4c15a592fc8f43b623b3fdf3f8`，成果远端待用户提供。本批只在本对话E盘目录制作；F盘参考库完全只读，未提交或推送Git，未建立Unity工程。
 
 ## 实际交付
 

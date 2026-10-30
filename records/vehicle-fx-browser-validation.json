@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-26T15:11:53.682Z",
+  "time": "2026-10-29T06:07:02.681Z",
   "scope": "offline art inspection gallery, no Unity or game simulation",
   "checks": [
     {
@@ -42,5 +42,50 @@
   ],
   "pageErrors": [],
   "failedRequests": [],
-  "passed": true
+  "passed": true,
+  "sourceHTML": "previews/vehicles/index.html",
+  "htmlSha256": "87f8c49c8c62ee3282be414b9e5a709436d54ba171af91eb02e6af710bcf58b3",
+  "inputSnapshots": [
+    {
+      "file": "previews/vehicles/index.html",
+      "sha256": "87f8c49c8c62ee3282be414b9e5a709436d54ba171af91eb02e6af710bcf58b3"
+    },
+    {
+      "file": "docs/VEHICLE_RUNTIME_MANIFEST.json",
+      "sha256": "ed56eb634df3226e8213d3ed4a1515fe17900028923a551ad9df26185990a619"
+    },
+    {
+      "file": "docs/EFFECT_RUNTIME_MANIFEST.json",
+      "sha256": "6b508c54093707bf805891c28a0be2c85bafe690152c8c25f98b9180b6e991f3"
+    },
+    {
+      "file": "docs/DISASTER_RUNTIME_MANIFEST.json",
+      "sha256": "c29801cb3c13bd39d9a538ce489a3463b5074d195bc974fb5e2566a840460c0c"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-symbol-64.png",
+      "sha256": "0f4387af450e61dca97c3c07b9c1f3d87f2b6e8c2839b2779671a46843853dd1"
+    }
+  ],
+  "localVisualPassed": true,
+  "screenshotVisualReview": {
+    "reviewedAt": "2026-10-29T06:08:27.618891+00:00",
+    "scope": "Actual current screenshots opened with view_image;browser gallery layout and images only,not world/vehicle/airport artwork acceptance or Unity.",
+    "items": [
+      {
+        "file": "records/vehicle-gallery-desktop.png",
+        "sha256": "ff904f414b80e49f7c3bda40d52add60e0c415888ceb45954228bbc06848002b",
+        "sourceHTML": "previews/vehicles/index.html",
+        "sourceHTMLSha256": "87f8c49c8c62ee3282be414b9e5a709436d54ba171af91eb02e6af710bcf58b3",
+        "status": "passed-local"
+      },
+      {
+        "file": "records/vehicle-gallery-mobile.png",
+        "sha256": "b1cbb2bc960bc2e36b33d78b62d6d746b00219c1614e8e5e1496e329cd9d9e64",
+        "sourceHTML": "previews/vehicles/index.html",
+        "sourceHTMLSha256": "87f8c49c8c62ee3282be414b9e5a709436d54ba171af91eb02e6af710bcf58b3",
+        "status": "passed-local"
+      }
+    ]
+  }
 }

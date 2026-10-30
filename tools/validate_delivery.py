@@ -17,12 +17,13 @@ def main():
  ck('132 upstream features mapped',all(i['id']in covered for i in src['items']),len(src['items']))
  ck('flow targets valid',all(t in ids for s in screens for t in s['flowTo']))
  image_count=0;state_count=0
+ cm={a['id']:a for name in ['common','branding'] for a in load('docs/asset-'+name+'-manifest.json')}
  for s in screens:
   p=ROOT/s['designPath'];im=Image.open(p);im.verify();rec=load(s['designPath']+'.generation.json')
   ck(s['id']+' size/hash',Image.open(p).size==(1920,1080)and sha(p)==rec['sha256'])
   ly=load('docs/layouts/'+s['id']+'.json');ck(s['id']+' independent text and placement',bool(ly['textRegions'])and bool(ly['spritePlacements']))
   for sp in ly['spritePlacements']:
-   n=sp['asset'];cm={a['id']:a for a in load('docs/asset-common-manifest.json')}
+   n=sp['asset']
    p2=ROOT/cm[n]['file']if n in cm else Path(n)if Path(n).is_absolute()else ROOT/n
    ck(s['id']+' sprite exists '+n,p2.is_file())
   for st in s['states']:
@@ -34,7 +35,7 @@ def main():
    state_count+=1
   image_count+=1
  ck('state count 227',state_count==227)
- assets=load('docs/ASSET_MASTER_MANIFEST.json')['resources'];ck('107 component PNGs',len(assets)==107)
+ assets=load('docs/ASSET_MASTER_MANIFEST.json')['resources'];ck('115 component PNGs including8branding',len(assets)==115)
  for a in assets:
   p=ROOT/a['file'];im=Image.open(p)
   ck(a['file']+' size/hash',im.size==(a['width'],a['height'])and sha(p)==a['sha256'])
@@ -47,7 +48,8 @@ def main():
  if not btns:btns=[a for a in assets if a['id']in ['button_primary_normal','button_primary_pressed','button_primary_selected','button_secondary_normal','button_secondary_pressed','button_disabled']]
  ck('six button states same canvas',len(btns)==6 and len({(a['width'],a['height'])for a in btns})==1)
  source_records=[ROOT/'assets/transport-valley.png.generation.json',ROOT/'assets/world-viewport.png.generation.json']+list((ROOT/'source-art').glob('*.generation.json'))
- ck('seven actual image generations',len(source_records)==7)
+ required_core_records={ROOT/'assets/transport-valley.png.generation.json',ROOT/'assets/world-viewport.png.generation.json'}|{ROOT/('source-art/'+name+'.png.generation.json')for name in ['cargo-icons','helicopter','managers','system-icons','ui-kit']}
+ ck('seven core UI generations retained; supplemental native records separately audited',required_core_records.issubset(set(source_records)))
  for p in source_records:
   q=json.loads(p.read_text(encoding='utf-8'));ck(p.name+' configuration target and actual separated',q['submittedParameters']['model']is None and q['submittedParameters']['quality']is None and q['actualModel']is None and q['actualQuality']is None and len(q['references'])==2 and len(q['sha256'])==64)
  # Glyph coverage is checked against the exact font files used by the renderer.
@@ -68,6 +70,8 @@ def main():
  ck('repair render issues',not load('records/qa-repairs.json')['issues'])
  b=load('records/browser-validation.json');ck('browser checks',b['passed'],len(b['checks']))
  report={'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'scope':'静态UI美术与本地预览；未在Unity运行','screenCount':149,'stateCount':state_count,'featureCount':len(src['items']),'formalPNGCount':len(assets)+2,'checkCount':len(checks),'passed':not fail,'failures':fail,'glyphMissing':glyph_missing,'checks':checks}
+ inputs=[ROOT/p for p in ['docs/UI_MASTER_MANIFEST.json','docs/ASSET_MASTER_MANIFEST.json','docs/asset-branding-manifest.json','records/layout-validation.json','records/browser-validation.json']]+sorted((ROOT/'docs/layouts').rglob('*.json'))
+ report['inputSnapshots']=[{'file':p.relative_to(ROOT).as_posix(),'sha256':sha(p)}for p in inputs]
  (ROOT/'records/final-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
  print(json.dumps({k:v for k,v in report.items()if k!='checks'},ensure_ascii=False))
 if __name__=='__main__':main()

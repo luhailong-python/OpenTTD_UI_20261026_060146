@@ -1,8 +1,8 @@
 {
-  "createdAt": "2026-10-28T12:02:24.356Z",
+  "createdAt": "2026-10-29T06:06:53.858Z",
   "url": "file:///E:/work/image/OpenTTD_UI_20261026_060146/previews/world/index.html",
-  "htmlSha256": "7bb5a981c30b37989284cc0d55ca2b59736cdd84b7d437adc885c484d1fc0447",
-  "manifestSha256": "3a18e5164b6b887756a6f748c11458182dd318365813bde78997e05d4b137baa",
+  "htmlSha256": "31c82115fb4ad3ad73a7894d99e75a478dbc64e57b9b17fa152394d652efc696",
+  "manifestSha256": "0b8492e95e96aa5edd4f144de45585de59e0787f096ab4af613f6f29e433c268",
   "passed": 20,
   "failed": 0,
   "checks": [
@@ -624,5 +624,34 @@
   ],
   "errors": [],
   "failedRequests": [],
-  "scope": "Offline file:// browser art-gallery controls and local PNG presentation only; not Unity integration"
+  "scope": "Offline file:// browser art-gallery controls and local PNG presentation only; not Unity integration",
+  "sourceHTML": "previews/world/index.html",
+  "inputSnapshots": [
+    {
+      "file": "previews/world/index.html",
+      "sha256": "31c82115fb4ad3ad73a7894d99e75a478dbc64e57b9b17fa152394d652efc696"
+    },
+    {
+      "file": "docs/WORLD_ASSET_MANIFEST.json",
+      "sha256": "0b8492e95e96aa5edd4f144de45585de59e0787f096ab4af613f6f29e433c268"
+    },
+    {
+      "file": "branding/yuntu-wanli/logo-symbol-64.png",
+      "sha256": "0f4387af450e61dca97c3c07b9c1f3d87f2b6e8c2839b2779671a46843853dd1"
+    }
+  ],
+  "localVisualPassed": true,
+  "screenshotVisualReview": {
+    "reviewedAt": "2026-10-29T06:08:27.618891+00:00",
+    "scope": "Actual current screenshots opened with view_image;browser gallery layout and images only,not world/vehicle/airport artwork acceptance or Unity.",
+    "items": [
+      {
+        "file": "records/world-production/gallery-desktop.png",
+        "sha256": "b212d59f00f54a9fa73a1a54d81cc1c7950eb4a987a9442b0a476b8d1bed941e",
+        "sourceHTML": "previews/world/index.html",
+        "sourceHTMLSha256": "31c82115fb4ad3ad73a7894d99e75a478dbc64e57b9b17fa152394d652efc696",
+        "status": "passed-local"
+      }
+    ]
+  }
 }
